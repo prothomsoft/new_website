@@ -1,0 +1,19 @@
+{
+  "name": "layout-component",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "express": "^4.15.4",
+    "isomorphic-unfetch": "^2.0.0",
+    "nprogress": "^0.2.0"
+
+  },
+  "license": "ISC"
+}
