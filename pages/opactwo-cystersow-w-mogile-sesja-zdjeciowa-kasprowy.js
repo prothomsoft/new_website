@@ -1,10 +1,36 @@
 import React from 'react';
-import Layout from '../components/layout'
 
-export default () => (
-    <div>
-        <Layout title='Opactwo cystersów w mogile' description='This is opactwo description'>
-            <p>hello</p>
-        </Layout>        
-    </div>    
-  )
+class ExampleComponent extends React.Component{
+
+    constructor() {
+        super()
+        this.state = {
+          value: 'S'
+        }
+      }
+
+      handleClickButtonX() {
+        this.setState({value: 'X'})
+      }
+
+      handleClickButtonY() {
+        this.setState({value: 'Y'})
+      }
+
+    render() {
+        return (
+            <div>
+            {this.state.value}
+            <button className="square" onClick={() => this.handleClickButtonX()}>
+                Button X
+            </button>
+            <button className="square" onClick={() => this.handleClickButtonY()}>
+                Button Y
+            </button>             
+
+            </div>
+        )
+    }
+}
+
+export default ExampleComponent;

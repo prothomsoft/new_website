@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Layout from '../components/layout'
-import fetch from 'isomorphic-unfetch'
-import Header from '../components/header'
+import Fetch from 'isomorphic-unfetch'
 
 const PostLink = ({ key, post }) => (
   <li key={key}>
@@ -13,10 +12,10 @@ const PostLink = ({ key, post }) => (
 
 const Blog = (props) => (  
     <Layout title='Blog Page title' description='Blog page description'>
-      <Header></Header>
-      <div>
-        
 
+      <Link href='/'>HOME</Link>&nbsp;<Link href='/blog'>BLOG</Link>  
+
+      <div>
         <ul>
         {props.posts.map((post, key) => 
             <PostLink post={post} key={post.id} />
@@ -65,7 +64,7 @@ Blog.getInitialProps = async function({ query }) {
   const page = parseInt(query.page) || 1
   const per_page = 9
 
-  const res = await fetch(`http://99foto.pl/wp-json/wp/v2/posts?page=${page}&per_page=${per_page}`)
+  const res = await Fetch(`http://99foto.pl/wp-json/wp/v2/posts?page=${page}&per_page=${per_page}`)
   const posts = await res.json()
   const total = res.headers.get("X-WP-Total");
   const totalPages = res.headers.get("X-WP-TotalPages");
