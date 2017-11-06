@@ -6,9 +6,7 @@ export default class BounceArrow extends React.Component {
         super(props)        
     }
 
-    render() {
-
-        
+    render() {      
 
         return (
             <div className="position animated bounce" style={{ display: `${this.props.display}` }}>
