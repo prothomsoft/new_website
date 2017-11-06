@@ -31,7 +31,7 @@ export default class BounceArrow extends React.Component {
                     width: 15px;
                     border-radius: 3px;
                     transform: rotate(45deg);
-                    color: #1ea6cc;
+                    color: #FFFFFF;
                     cursor: pointer;
                     display:block;
                 }

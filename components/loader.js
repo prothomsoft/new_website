@@ -1,6 +1,8 @@
 import React from 'react';
 
 export default class Loader extends React.Component {
+  
+  
 
   render() {
 
@@ -18,7 +20,8 @@ export default class Loader extends React.Component {
         </div>
 
 
-        <style jsx>{`        
+        <style jsx>{`
+                  
               .preloaderWrapper {
                 overflow-x: hidden;
                 position: relative;

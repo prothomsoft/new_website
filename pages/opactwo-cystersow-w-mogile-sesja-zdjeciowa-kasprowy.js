@@ -1,36 +1,22 @@
-import React from 'react';
+import Blogpage from '../components/blogpage'
 
-class ExampleComponent extends React.Component{
-
-    constructor() {
-        super()
-        this.state = {
-          value: 'S'
-        }
-      }
-
-      handleClickButtonX() {
-        this.setState({value: 'X'})
-      }
-
-      handleClickButtonY() {
-        this.setState({value: 'Y'})
-      }
-
+export default class BlogPageComponent extends React.Component {
     render() {
-        return (
-            <div>
-            {this.state.value}
-            <button className="square" onClick={() => this.handleClickButtonX()}>
-                Button X
-            </button>
-            <button className="square" onClick={() => this.handleClickButtonY()}>
-                Button Y
-            </button>             
+        let slides = [{
+            imageUrl: "/static/parallax1.jpg",
+            caption: "Image 1"
+          }, {
+            imageUrl: "/static/parallax2.jpg",
+            caption: "Image 2"
+          }, {
+            imageUrl: "/static/parallax3.jpg",
+            caption: "Image 3"
+          }];
 
-            </div>
-        )
+        return (
+          <div>
+            <Blogpage slides={slides}/>
+          </div>
+        );
     }
 }
-
-export default ExampleComponent;

@@ -7,17 +7,17 @@
     "export": "next export"
   },
   "dependencies": {
-    "@dr-kobros/react-webfont-loader": "^7.0.2",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-styled-components": "^1.1.7",
     "express": "^4.15.4",
     "fontfaceobserver": "^2.0.13",
     "isomorphic-unfetch": "^2.0.0",
-    "next": "latest",
+    "next": "^3.1.0",
     "nprogress": "^0.2.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-headroom": "^2.2.1",
+    "react-lazy-load": "^3.0.12",
     "react-scroll": "^1.5.5",
     "react-waypoint": "^7.1.0",
     "styled-components": "^2.1.2"

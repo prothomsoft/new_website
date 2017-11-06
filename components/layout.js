@@ -3,6 +3,7 @@ import Router from 'next/router'
 import Meta from '../components/meta'
 import styled from 'styled-components'
 import { injectGlobal } from 'styled-components';
+import Loader from '../components/loader'
 
 injectGlobal`
 
@@ -10,9 +11,9 @@ body {
   margin:0;
   background-color: #000;
   color:#B3B3B3;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size:13px;
   line-height:1.42857;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:13px;
 }
 
 a {
@@ -26,7 +27,7 @@ a {
   box-sizing:border-box;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, li {
   color:inherit;
   font-family:Oswald;
   font-style:normal;
@@ -43,8 +44,8 @@ img {
 }
 `
 
-Router.onRouteChangeStart = (url) => {
-  NProgress.configure({ parent: '.generalWrapper' });
+Router.onRouteChangeStart = (url) => {  
+  NProgress.configure({ parent: '.generalWrapper' })
   NProgress.start()
 }
 Router.onRouteChangeComplete = () => NProgress.done()
@@ -81,7 +82,8 @@ const GeneralWrapper = styled.div`
     pointer-events: none;
   }
   #nprogress .bar {        
-    background: #1ea6cc;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    xbackground: #FFFFFF;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -94,52 +96,24 @@ const GeneralWrapper = styled.div`
     position: absolute;
     right: 0px;
     width: 100px;
-    height: 100%;
-    box-shadow: 0 0 10px #1ea6cc, 0 0 5px #1ea6cc;
+    height: 100%;    
     opacity: 1.0;
     -webkit-transform: rotate(3deg) translate(0px, -4px);
         -ms-transform: rotate(3deg) translate(0px, -4px);
             transform: rotate(3deg) translate(0px, -4px);
-  }
-  #nprogress .spinner {
-    /*display: block;
-    /position: fixed;
-    z-index:1;
-    top: 10px;
-    right: 10px;*/
-  }
-  #nprogress .spinner-icon {
-    width: 18px;
-    height: 18px;
-    box-sizing: border-box;
-    border: solid 2px transparent;
-    border-top-color: #1ea6cc;
-    border-left-color: #1ea6cc;
-    border-radius: 50%;
-    -webkit-animation: nprogress-spinner 400ms linear infinite;
-            animation: nprogress-spinner 400ms linear infinite;
-  }
+  }  
   .nprogress-custom-parent {
     overflow: hidden;
     position: relative;
-  }
-  .nprogress-custom-parent #nprogress .spinner,
+  }  
   .nprogress-custom-parent #nprogress .bar {
     position: absolute;
-  }
-  @-webkit-keyframes nprogress-spinner {
-    0%   { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  @keyframes nprogress-spinner {
-    0%   { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
+  }  
 `;
 
 export default ({ children, title, description, overflow }) => (
   
-    <GeneralWrapper overflow={overflow}>
+    <GeneralWrapper overflow={overflow} className="generalWrapper">
       <Meta></Meta>
       {children}
     </GeneralWrapper>

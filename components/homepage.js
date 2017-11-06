@@ -6,7 +6,7 @@ import NProgress from 'nprogress'
 import Menu from '../components/menu/menu'
 import Scroll from 'react-scroll'
 import styled from 'styled-components'
-import Fonts from '../components/fonts'
+
 var Element = Scroll.Element;
 
 const SectionWrapper = styled.div`
@@ -24,38 +24,40 @@ export default class Homepage extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            loaded: false,
-            date: new Date(),
+            loaded: false,            
             activeIndex: 0,
             eachImageState: 0,            
-            overflow: false
+            overflow: false,
+            fontLoaded: false
         }
         this.handleLoad = this.handleLoad.bind(this);
-        this.updateOverflowState = this.updateOverflowState.bind(this);        
+        this.updateOverflowState = this.updateOverflowState.bind(this);
+        this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
     }
 
-    componentDidMount() {        
+    componentDidMount() {
         this.image = new Image();
         this.image.src = this.props.slides[0].imageUrl;
-        this.image.onload = this.handleLoad;
+        this.image.onload = this.handleLoad;        
         this.timerID = setInterval(() => this.slideChanger(), 1000);
     }
 
     slideChanger() {
-        let eachImageState = this.state.eachImageState + 1;
-        let activeIndex = this.state.activeIndex;
-        if (eachImageState == 5) {
-            activeIndex = this.state.activeIndex + 1;
-            eachImageState = 0;
+        if (this.state.loaded) {
+            let eachImageState = this.state.eachImageState + 1;
+            let activeIndex = this.state.activeIndex;
+            if (eachImageState == 5) {
+                activeIndex = this.state.activeIndex + 1;
+                eachImageState = 0;
+            }
+            if (activeIndex == 3) {
+                activeIndex = 0;
+            }
+            this.setState({                
+                activeIndex: activeIndex,
+                eachImageState: eachImageState
+            });
         }
-        if (activeIndex == 3) {
-            activeIndex = 0;
-        }
-        this.setState({
-            date: new Date(),
-            activeIndex: activeIndex,
-            eachImageState: eachImageState
-        });
     }
 
     componentWillUnmount() {
@@ -78,14 +80,25 @@ export default class Homepage extends React.Component {
         });
     }
 
-    render() {
+    updateFontLoadedState() {
+        this.setState({
+            fontLoaded: !this.state.fontLoaded
+        });
+    }
+
+    
+
+    render() {        
+
         let slider = null;
         let overflow = null;
         let menu = null;
+        
         if (this.state.loaded) {
-            slider = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState}></Slider>            
-            menu = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} />
-            Fonts();
+            slider = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState} triggerParentUpdateFontLoadedState={this.updateFontLoadedState}></Slider>            
+            if (this.state.fontLoaded) {
+                menu = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} />
+            }
         } else {
             slider = <Loader triggerUpdateParentOverflowState={this.updateOverflowState} />
         }
