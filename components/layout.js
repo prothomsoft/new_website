@@ -23,6 +23,9 @@ a {
 a {
   background:transparent;
 }
+a:hover {
+  text-decoration: underline;
+}
 *, ::before, ::after {
   box-sizing:border-box;
 }
@@ -32,7 +35,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, li {
   font-family:Oswald;
   font-style:normal;
   font-weight:bold;
-  line-height:1.1;
+  line-height:1.1;  
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+  font-size: 33px;  
 }
 
 img {
@@ -41,6 +49,22 @@ img {
 
 img {
   border:0;
+}
+
+.btn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;        
+  color: #ffffff;
+  background: #000;
+  padding: 8px 16px 8px 16px;
+  border: solid #B3B3B3 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  border: solid #FFF 1px;
+  text-decoration: none;
 }
 `
 

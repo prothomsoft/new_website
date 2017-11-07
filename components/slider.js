@@ -1,26 +1,36 @@
 import Link from 'next/link'
 import NProgress from 'nprogress'
-import FontFaceObserver from 'fontfaceobserver'
+import styled from 'styled-components'
+
+const SliderWrapper = styled.div`
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+margin: 0 auto;
+width: 1160px; 
+text-align: justify;   
+padding: 20px 10px 0px 10px;    
+
+.LazyLoad {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+
+    &.is-visible {
+        opacity: 1;
+    }
+}
+@media (max-width: 1160px) {
+    width: 100%;
+}
+
+`;
 
 export default class Slider extends React.Component {
 
     constructor(props) {
         super(props)
-    }
-
-    componentDidMount() {        
-        let link = document.createElement('link')
-        link.href = 'https://fonts.googleapis.com/css?family=Oswald:400&subset=latin,latin-ext'
-        link.rel = 'stylesheet'
-        document.head.appendChild(link)
-
-        Promise.all([
-            new FontFaceObserver('Oswald').load(),            
-        ]).then(() => {
-            this.props.triggerParentUpdateFontLoadedState();
-        }, err => {
-            console.error('Failed to load fonts!', err)            
-        })
     }
 
     render() {

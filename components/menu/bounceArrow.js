@@ -22,11 +22,11 @@ export default class BounceArrow extends React.Component {
                 }
                 .arrow {
                     margin: 0 auto;                    
-                    margin-bottom: 30px;
+                    margin-bottom: 60px;
                     border-right: 6px solid; 
                     border-bottom: 6px solid;
-                    height: 15px;
-                    width: 15px;
+                    height: 25px;
+                    width: 25px;
                     border-radius: 3px;
                     transform: rotate(45deg);
                     color: #FFFFFF;

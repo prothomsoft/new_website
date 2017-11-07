@@ -1,13 +1,8 @@
 import React from 'react';
 
 export default class Loader extends React.Component {
-  
-  
-
   render() {
-
     return (
-
       <div className="preloaderWrapper">
         <div className="preloader">
           <div className="tableHelper">
@@ -18,8 +13,6 @@ export default class Loader extends React.Component {
             </div>
           </div>
         </div>
-
-
         <style jsx>{`
                   
               .preloaderWrapper {

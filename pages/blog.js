@@ -4,7 +4,7 @@ import Fetch from 'isomorphic-unfetch'
 export default class BlogListComponent extends React.Component {
     render() {
         return (
-          <div>1
+          <div>
             <Bloglist next_page={this.props.next_page} posts={this.props.posts} previous_page={this.props.previous_page} />
           </div>
         );

@@ -10,12 +10,6 @@ var LinkScroll = Scroll.Link;
 const Row = styled.div`
 height : '100%';
 ${({ mobile }) => (mobile ? 'display:block' : "display: none")};
-@media only screen and (min-width: 768px) {
-  ${({ mobile }) => (mobile ? 'display:block' : "display: none")};
-}
-@media only screen and (min-width: 992px) {
-  ${({ mobile }) => (mobile ? 'display:block' : "display: none")};
-}
 @media only screen and (min-width: 1160px) {
   ${({ mobile }) => (mobile ? 'display:none' : "display: block")};
 }
@@ -30,12 +24,6 @@ const Column = styled.div`
 height : '100%';
 float:left;
 ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%")};
-@media only screen and (min-width: 768px) {
-  ${({ sm }) => sm && getWidthString(sm)};
-}
-@media only screen and (min-width: 992px) {
-  ${({ md }) => md && getWidthString(md)};
-}
 @media only screen and (min-width: 1160px) {
   ${({ lg }) => lg && getWidthString(lg)};
 }
@@ -97,20 +85,30 @@ export default class Menu extends React.Component {
             background = '#000000';    
             arrowDisplay = 'none';            
         }
+
+        let height = null;
         
         let navClassName = 'main-nav';
         let fixedMobileMenuVisibility = 'hidden';        
         let logoVisibility = 'visible';
-        if (this.state.showFixedMobileMenu) {            
+        if (this.state.showFixedMobileMenu) {
             navClassName = 'main-nav mtn-active-icon main-nav-background';
             fixedMobileMenuVisibility = 'visible';
             logoVisibility = 'hidden';
-            background = '#000000';            
+            background = '#000000';
+            height = '100vh';
+        } else {
+            height = this.props.height;
         }
-      
+
+        if(this.props.hideBounceArrow) {
+            arrowDisplay = 'none';
+        }
+
+        
 
         return (
-            <div className="menuWrapper">
+            <div className="menuWrapper" style={{height: height}}>
                 <Waypoint
                     onEnter={this.onWaypointEntered.bind(this, 'notScrolled')}
                     onLeave={this.onWaypointLeft.bind(this, 'scrolled')}
@@ -123,8 +121,8 @@ export default class Menu extends React.Component {
                                 <a className="mtn-mobile-logo" style={{backgroundColor: `${background}`}} href="/"><img src='/static/99foto_logo_mobile.svg' style={{ width: '105px', visibility: `${logoVisibility}` }}/></a>
                                 <icon onClick={this.showFixedMobileMenu} className="mtn-trigger"><i></i></icon>
                             </div>
-                            <div className="mobileMenuWrapper" style={{ visibility: `${fixedMobileMenuVisibility}`, background: `${background}` }}>
-                                <div className="mobileMenuContent">
+                            <div className="mobileMenuWrapper" style={{ visibility: `${fixedMobileMenuVisibility}`, background: `${background}`, height: height }}>
+                                <div className="mobileMenuContent" style={{height: height}}>
                                     <ul>
                                         <li>
                                             <Link href='/'>
@@ -147,7 +145,7 @@ export default class Menu extends React.Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href='/'>
+                                            <Link href='/kontakt'>
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="KONTAKT i CENA"></MyLink>
                                             </Link>
                                         </li>
@@ -178,7 +176,7 @@ export default class Menu extends React.Component {
                                     <li><Link href='/'><a>KILKA HISTORII</a></Link></li>
                                     <li><Link href='/'><a><img style={{height: "140px", width: "100px", margin: "-15px 0px 0px 5px"}} src="/static/99foto_logo.svg"/></a></Link></li>
                                     <li><Link href='/'><a>MISJA i FAQ</a></Link></li>
-                                    <li><Link href='/'><a>KONTAKT i CENA</a></Link></li>
+                                    <li><Link href='/kontakt'><a>KONTAKT i CENA</a></Link></li>
                                     <li><Link as="/blog" href='/blog'><a>BLOG</a></Link></li>
                                     <li><Link href='http://sk.99foto.pl'><a target="_blank">STREFA KLIENTA</a></Link></li>                                    
                                 </ul>
@@ -248,32 +246,26 @@ export default class Menu extends React.Component {
                     
                 }
 
-                .mobileMenuContent {
-                    text-align: center;
-                }
 
                 .menuWrapper {
                     position: absolute;
                     top: 0;
                     left:0;
                     z-index:2;
-                    width: 100%;
-                    height: 100vh;
+                    width: 100%;                   
                 }
-
                 .mobileMenuWrapper {                    
                     margin-top: 8px;                    
                     position: relative;
                     top: 0;
                     left:0;
                     z-index:3;
-                    width: 100%;
-                    height: 100vh;                                         
+                    width: 100%;                    
                 }
 
-                .mobileMenuContent {                    
-                    heigth: 100vh;
+                .mobileMenuContent {
                     width:100%;
+                    text-align: center;
                 }
 
                 .mobileMenuContent ul {
