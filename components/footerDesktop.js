@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import LazyLoad from 'react-lazy-load';
 import Link from 'next/link'
-import InstagramEmbed from 'react-instagram-embed'
 
 export default class FooterDesktop extends Component {
 

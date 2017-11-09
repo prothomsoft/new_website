@@ -10,6 +10,7 @@ import Scroll from 'react-scroll'
 import styled from 'styled-components'
 import LazyLoadWrapper from '../components/lazyLoadWrapper'
 import FontLoader from '../components/fontLoader'
+import ContactForm from '../components/contactForm'
 
 var Element = Scroll.Element;
 
@@ -162,6 +163,10 @@ export default class Singlepage extends React.Component {
                     
                     </article>
                     
+                </SectionWrapper>
+
+                <SectionWrapper>
+                    <ContactForm />
                 </SectionWrapper>
 
                 <div className="bgimg-2"></div>

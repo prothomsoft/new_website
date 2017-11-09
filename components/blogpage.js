@@ -131,7 +131,7 @@ export default class Blogpage extends React.Component {
 
         let images = '';
         if (this.state.width < 1160) {
-            images = [{ imageSrc: "http://99foto.pl/wp-content/uploads/2017/10/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_0021.jpg", height: 0 },
+            images = [{ imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/1140.jpg", height: 0 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2017/10/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_0002.jpg", height: 0 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2017/10/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_0003.jpg", height: 0 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2017/10/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_0004.jpg", height: 0 },
@@ -158,7 +158,7 @@ export default class Blogpage extends React.Component {
             { imageSrc: "http://99foto.pl/wp-content/uploads/2017/10/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_0025.jpg", height: 0 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2017/10/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_0026.jpg", height: 0 }];
         } else {
-            images = [{ imageSrc: "http://99foto.pl/wp-content/uploads/2017/10/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_0021.jpg", height: 761 },
+            images = [{ imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/1140.jpg", height: 761 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2017/10/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_0002.jpg", height: 761 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2017/10/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_0003.jpg", height: 761 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2017/10/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_0004.jpg", height: 761 },

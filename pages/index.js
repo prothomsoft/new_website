@@ -1,6 +1,6 @@
 import Homepage from '../components/homepage'
 
-export default class Index extends React.Component {
+export default class Index extends React.Component {  
     render() {
         let slides = [{
             imageUrl: "/static/parallax1.jpg",
@@ -14,7 +14,7 @@ export default class Index extends React.Component {
           }];
 
         return (
-          <div>
+          <div>           
             <Homepage slides={slides}/>
           </div>
         );

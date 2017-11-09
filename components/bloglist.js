@@ -110,7 +110,7 @@ componentWillUnmount() {
           <div style={{height:menuSpace}}></div>
           <SectionWrapper>
             {this.props.posts.map((post, key) => 
-                <PostLink key={post.id} post={post} height={height}/>
+                <PostLink key={key} post={post} height={height}/>
             )}
             <div style={{textAlign : "right"}}>
               {this.props.previous_page && <Link as={`/blog/page/${this.props.previous_page}`} href={`/blog?page=${this.props.previous_page}`}><a className="btn">←  Poprzednia strona</a></Link>}&nbsp;&nbsp;
