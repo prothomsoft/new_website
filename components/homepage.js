@@ -144,7 +144,7 @@ export default class Homepage extends React.Component {
             if (this.state.width < 1160) {
                 menuSpace = '70px';
                 componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState}></Slider>
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={'70px'} lead={false}/>                                
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={false} height={'100vh'} lead={false}/>                                
                 
                 portfolio = <PortfolioMobile />
                 contact = <ContactMobile />                

@@ -181,7 +181,9 @@ const PostLink = ({ key, post, height }) => (
       </Link>
       </div>      
     </div>
-    <style jsx>{`      
+    <style jsx>{`
+    
+    
       .header h1 {
           padding: 0 0 10px 0;
           margin :0px          

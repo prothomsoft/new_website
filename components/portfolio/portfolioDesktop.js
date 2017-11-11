@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import LazyLoad from 'react-lazy-load';
+import Link from 'next/link'
 
 const CaptionSectionWrapper = styled.div`
 
@@ -26,7 +27,20 @@ const CaptionSectionWrapper = styled.div`
 export default class PortfolioDesktop extends Component {
 
   constructor(props) {
-    super(props) 
+    super(props)
+    this.state = {
+        hover: '1'
+    };
+    this.onMouseOver = this.onMouseOver.bind(this);
+    this.onMouseOut = this.onMouseOut.bind(this);
+  }
+
+  onMouseOver(arg) {
+    this.setState({ hover: '2' });
+  }
+
+  onMouseOut(arg) {
+    this.setState({ hover: '1' });
   }
   
   render() {
@@ -34,20 +48,32 @@ export default class PortfolioDesktop extends Component {
     return (
         <div>
             <article>
-                <section>                            
+                <section>                    
                     <h2 className="quote-title">OSTATNIO NA BLOGU</h2>
 
-                    <div style={{display: 'flex'}}>                    
-                        <div className="porfolioImage"><LazyLoad width={340} offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div>
-                        <div className="porfolioImage"><LazyLoad width={340} offsetVertical={300}><img src={'/static/parallax1.jpg'} /></LazyLoad></div>
-                        <div className="porfolioImage"><LazyLoad width={340} offsetVertical={300}><img src={'/static/parallax2.jpg'} /></LazyLoad></div>
+                    <div style={{display: 'flex'}}>
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax2.jpg'} /></LazyLoad></div></Link>
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax1.jpg'} /></LazyLoad></div></Link>
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax2.jpg'} /></LazyLoad></div></Link>
                     </div>
 
                     <div style={{display: 'flex'}}>
-                        <div className="porfolioImage"><LazyLoad width={340} offsetVertical={300}><img src={'/static/parallax3.jpg'} /></LazyLoad></div>
-                        <div className="porfolioImage"><LazyLoad width={340} offsetVertical={300}><img src={'/static/parallax1.jpg'} /></LazyLoad></div>
-                        <div className="porfolioImage"><LazyLoad width={340} offsetVertical={300}><img src={'/static/parallax2.jpg'} /></LazyLoad></div>                        
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>RUSTYKALNE WESELE W ZŁOTYM JARZE<br/>KAROL I EMILIA</blockquote></div></Link>
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>LIFESTYLOWA SESJA W KRAKOWIE<br/>JUSTYNA I STEFAN</blockquote></div></Link>
+                    </div>    
+
+                    <div style={{display: 'flex'}}>
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax1.jpg'} /></LazyLoad></div></Link>
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax2.jpg'} /></LazyLoad></div></Link>
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax1.jpg'} /></LazyLoad></div></Link>                 
                     </div>
+
+                    <div style={{display: 'flex'}}>
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>RUSTYKALNE WESELE W ZŁOTYM JARZE<br/>KAROL I EMILIA</blockquote></div></Link>
+                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>LIFESTYLOWA SESJA W KRAKOWIE<br/>STEFAN I ZOŚKA</blockquote></div></Link>
+                    </div> 
 
                     <h2 className="quote-title">FOTOGRAFIA ŚLUBNA</h2>
                     
@@ -62,14 +88,29 @@ export default class PortfolioDesktop extends Component {
             </article>
              
         <style jsx>{`
-
+       
             .porfolioImage {
-                padding:20px
+                position:relative;                
+                width:420px;
+                margin: 0 20px 0 20px;
+                border: 2px solid transparent;
+                transition: border 0.5s;
+                cursor: pointer;
             }
     
-            .porfolioImage:hover {                    
-            
-                
+            .porfolioImage:hover {
+                border: 2px solid #FFF;                
+            }
+
+            .porfolioImage:focus {
+                outline:none;
+            }
+
+            .porfolioCaption {
+                cursor: pointer;
+                position:relative;                
+                width:420px;
+                margin: 0 20px 0 20px;
             }
 
             section {
@@ -78,14 +119,9 @@ export default class PortfolioDesktop extends Component {
                 justify-content: center;
                 text-align: center;                        
                 font-family: 'Oswald';
-                width: 1140px;
-                color #BEBEBE;
-                margin: 20px 0 0 0;
+                width: 1140px;                
             }
-            section h1{
-                color: #FFF;
-            }
-
+            
             .spacer {
                 height: 100px;
             }
