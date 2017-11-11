@@ -2,7 +2,8 @@ module.exports = {
     exportPathMap: function () {
       return {
         '/': { page: '/' },
-        '/blog': { page: '/blog' },        
+        '/blog': { page: '/blog' },
+        '/kontakt': { page: '/kontakt' },        
         '/blog/page/1': { page: '/blog', query: { page: "1" } },
         '/blog/page/2': { page: '/blog', query: { page: "2" } },
         '/blog/page/3': { page: '/blog', query: { page: "3" } },

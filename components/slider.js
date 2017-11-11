@@ -45,10 +45,10 @@ export default class Slider extends React.Component {
             NProgress.inc()
             styleFadeInOut = 'slideShow';
         }
-
+        
         return (
             <div className="sliderWrapper">
-                <div className={styleFadeInOut} style={{ backgroundImage: `url(${this.props.src})` }}>
+                <div className={styleFadeInOut} style={{ backgroundImage: `url(${this.props.src})` }}>                
                 </div>
 
                 <style jsx>{`

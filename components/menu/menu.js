@@ -4,6 +4,8 @@ import BounceArrow from '../menu/bounceArrow'
 import styled from 'styled-components'
 import Scroll from 'react-scroll';
 import Waypoint from 'react-waypoint'
+import LeadDesktopBlog from '../../components/footer/leadDesktopBlog'
+
 
 var LinkScroll = Scroll.Link;
 
@@ -105,18 +107,24 @@ export default class Menu extends React.Component {
             arrowDisplay = 'none';
         }
 
-        
+        let lead = null;        
+        if( this.props.lead) {
+            lead = <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><LeadDesktopBlog leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} /></LinkScroll>
+        }
 
         return (
+            
             <div className="menuWrapper" style={{height: height}}>
+                {lead}
                 <Waypoint
                     onEnter={this.onWaypointEntered.bind(this, 'notScrolled')}
                     onLeave={this.onWaypointLeft.bind(this, 'scrolled')}
                 />
                 <Row mobile>
                     <Column>
+
                         <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><BounceArrow display={arrowDisplay}/></LinkScroll>
-                        <div className={navClassName} style={{ background: `${background}` }}>
+                        <div className={navClassName} style={{ background: `${background}` }}>                        
                             <div className="mtn-bar-wrap" style={{ background: `${background}`}}>
                                 <a className="mtn-mobile-logo" style={{backgroundColor: `${background}`}} href="/"><img src='/static/99foto_logo_mobile.svg' style={{ width: '105px', visibility: `${logoVisibility}` }}/></a>
                                 <icon onClick={this.showFixedMobileMenu} className="mtn-trigger"><i></i></icon>

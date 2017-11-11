@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import Layout from '../components/layout'
 import Slider from '../components/slider'
-import FooterDesktop from '../components/footerDesktop'
-import FooterMobile from '../components/footerMobile'
 import Loader from '../components/loader'
 import LazyLoadWrapper from '../components/lazyLoadWrapper'
 import Menu from '../components/menu/menu'
@@ -10,6 +8,12 @@ import FontLoader from '../components/fontLoader'
 import NProgress from 'nprogress'
 import Scroll from 'react-scroll'
 import styled from 'styled-components'
+import FooterDesktop from '../components/footer/footerDesktop'
+import FooterMobile from '../components/footer/footerMobile'
+import ContactDesktop from '../components/contact/contactDesktop'
+import ContactMobile from '../components/contact/contactMobile'
+import LeadDesktop from '../components/footer/leadDesktop'
+import LeadMobile from '../components/footer/leadMobile'
 
 var Element = Scroll.Element;
 
@@ -104,30 +108,10 @@ export default class Blogpage extends React.Component {
         let componentOne = null
         let componentTwo = null
         let menuSpace = null
+        let lead = null
+        let contact = null
         let footer = null
 
-        if (this.state.fontLoaded) {
-            if (this.state.width < 1160) {
-                menuSpace = '70px'
-                componentOne = null
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={'70px'} />                
-                footer = <FooterMobile property='property'>children</FooterMobile>
-            } else {
-                menuSpace = '5px'
-                componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState}></Slider>
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={false} height={'100vh'} />                
-                footer = <FooterDesktop property='property'>children</FooterDesktop>
-            }
-        } else {
-            componentTwo = <Loader />
-            componentOne = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState}></FontLoader>
-        }
-
-        if (this.state.overflow) {
-            overflow = 'visible';
-        } else {
-            overflow = 'hidden';
-        }
 
         let images = '';
         if (this.state.width < 1160) {
@@ -187,10 +171,37 @@ export default class Blogpage extends React.Component {
         }
 
 
+        if (this.state.fontLoaded) {
+            if (this.state.width < 1160) {
+                menuSpace = '70px'
+                componentOne = null
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={'70px'} lead={false} />                                
+                lead = <LeadMobile />
+                contact = <ContactMobile />
+                footer = <FooterMobile />
+            } else {
+                menuSpace = '5px'
+                componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState}></Slider>
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={false} height={'100vh'} lead={true} leadNames='IWONA i MARCIN' leadTitle='SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA' />
+                lead = <LeadDesktop />
+                contact = <ContactDesktop />
+                footer = <FooterDesktop />
+            }
+        } else {
+            componentTwo = <Loader />
+            componentOne = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState}></FontLoader>
+        }
+
+        if (this.state.overflow) {
+            overflow = 'visible';
+        } else {
+            overflow = 'hidden';
+        }
+        
         return (
             <Layout title='Home page title' description='Home page description' overflow={overflow}>
                 {componentOne}
-                {componentTwo}
+                {componentTwo}                
                 <div style={{ height: menuSpace }}></div>
                 <Element name="portfolio"></Element>
                 <SectionWrapper>
@@ -215,57 +226,15 @@ export default class Blogpage extends React.Component {
                 </SectionWrapper>
 
                 <SectionWrapper>
-                    {footer}
+                    {contact}
                 </SectionWrapper>
 
                 <div className="bgimg-3">
-                    <div className="caption">
-                        <span className="border">Link to something on the blog...</span>
-                    </div>
+                    {lead}
                 </div>
 
-                <style jsx>{`
-                .header h1 {
-                    padding: 0 0 10px 0;
-                    margin :0px          
-                }
-
-                .entryMeta {
-                border-bottom: 1px solid #262626;
-                border-top: 1px solid #262626;
-                margin-bottom: 10px;
-                text-transform: uppercase;
-                padding:10px 0 10px 0;
-                
-                }
-
-                .postTitle:hover {
-                text-decoration: underline;
-                }
-
-                .img-responsive {
-                    display:block;
-                    height:auto;
-                    max-width:100%;
-                }
-
-                .caption {
-                    position: absolute;
-                    left: 0;
-                    top: 50%;
-                    width: 100%;
-                    text-align: center;
-                    color: #000;
-                }
-
-                .caption span.border {
-                    background-color: #FFF;
-                    color: #000;
-                    font-size: 12px;
-                    letter-spacing: 10px;
-                }
-
-                .bgimg-2, .bgimg-3 {
+                <style jsx>{`                
+                .bgimg-3 {
                     position: relative;  
                     background-attachment: fixed;
                     background-position: center;
@@ -273,13 +242,8 @@ export default class Blogpage extends React.Component {
                     background-size: cover;
                 }
                 
-                .bgimg-2 {
-                    background-image: url(/static/parallax3.jpg);
-                    min-height: 60%;
-                }
-
                 .bgimg-3 {
-                    background-image: url(/static/parallax2.jpg);
+                    background-image: url(/static/blog_start.jpg);
                     min-height: 100%;
                 }
             `}</style>

@@ -1,8 +1,19 @@
 import Link from 'next/link'
 import Layout from '../components/layout'
 import Slider from '../components/slider'
-import FooterDesktop from '../components/footerDesktop'
-import FooterMobile from '../components/footerMobile'
+
+import FooterDesktop from '../components/footer/footerDesktop'
+import FooterMobile from '../components/footer/footerMobile'
+
+import ContactDesktop from '../components/contact/contactDesktop'
+import ContactMobile from '../components/contact/contactMobile'
+
+import LeadDesktop from '../components/footer/leadDesktop'
+import LeadMobile from '../components/footer/leadMobile'
+
+import PortfolioDesktop from '../components/portfolio/portfolioDesktop'
+import PortfolioMobile from '../components/portfolio/portfolioMobile'
+
 import Loader from '../components/loader'
 import NProgress from 'nprogress'
 import Menu from '../components/menu/menu'
@@ -123,19 +134,31 @@ export default class Homepage extends React.Component {
         let componentTwo = null
         let menuSpace = null
 
+        let portfolio = null
+        let contact = null        
         let footer = null
+        
+        let lead = null
 
         if (this.state.fontLoaded) {
             if (this.state.width < 1160) {
                 menuSpace = '70px';
                 componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState}></Slider>
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={'70px'} />                                
-                footer = <FooterMobile property='property'>children</FooterMobile>
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={'70px'} lead={false}/>                                
+                
+                portfolio = <PortfolioMobile />
+                contact = <ContactMobile />                
+                footer = <FooterMobile />
+                lead = <LeadMobile />
             } else {
                 menuSpace = '5px';
-                componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState}></Slider>
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={false} height={'100vh'} />
-                footer = <FooterDesktop property='property'>children</FooterDesktop>
+                componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState} lead={false}></Slider>
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={false} height={'100vh'} lead={false} />
+
+                portfolio = <PortfolioDesktop />
+                contact = <ContactDesktop />                
+                footer = <FooterDesktop />                
+                lead = <LeadDesktop />
             }
         } else {
             componentTwo = <Loader />
@@ -155,52 +178,20 @@ export default class Homepage extends React.Component {
                 <div style={{ height: menuSpace }}></div>
                 <Element name="portfolio"></Element>
                 <SectionWrapper>
-                    <h1>OPACTWO CYSTERSÓW W MOGILE, SESJA ZDJĘCIOWA KASPROWY - ANETA i DAMIAN</h1>
-                    <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
-                    <img src="/static/parallax2.jpg" className="img-responsive" />
-                    <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
-                    <img src="/static/parallax3.jpg" className="img-responsive" />
-                    <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
-
+                    {portfolio}
                 </SectionWrapper>
-
 
                 <div className="bgimg-2"></div>
 
                 <SectionWrapper>
-                    {footer}
+                    {contact}                    
                 </SectionWrapper>
 
                 <div className="bgimg-3">
-                    <div className="caption">
-                        <span className="border">Link to something on the blog...</span>
-                    </div>
+                    {lead}                    
                 </div>
 
                 <style jsx>{`
-
-                .img-responsive {
-                    display:block;
-                    height:auto;
-                    max-width:100%;
-                }
-
-                .caption {
-                    position: absolute;
-                    left: 0;
-                    top: 50%;
-                    width: 100%;
-                    text-align: center;
-                    color: #000;
-                }
-
-                .caption span.border {
-                    background-color: #FFF;
-                    color: #000;
-                    font-size: 12px;
-                    letter-spacing: 10px;
-                }
-
                 .bgimg-2, .bgimg-3 {
                     position: relative;  
                     background-attachment: fixed;
@@ -208,14 +199,13 @@ export default class Homepage extends React.Component {
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
-                
                 .bgimg-2 {
-                    background-image: url(/static/parallax3.jpg);
+                    background-image: url(/static/blog_start.jpg);
                     min-height: 60%;
                 }
 
                 .bgimg-3 {
-                    background-image: url(/static/parallax2.jpg);
+                    background-image: url(/static/blog_start.jpg);
                     min-height: 100%;
                 }
                 `}</style>

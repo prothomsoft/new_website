@@ -6,20 +6,22 @@ import LazyLoad from 'react-lazy-load';
 import Menu from '../components/menu/menu'
 import FontLoader from '../components/fontLoader'
 import Loader from '../components/loader'
-import FooterDesktop from '../components/footerDesktop'
-import FooterMobile from '../components/footerMobile'
+import FooterDesktop from '../components/footer/footerDesktop'
+import FooterMobile from '../components/footer/footerMobile'
+import ContactDesktop from '../components/contact/contactDesktop'
+import ContactMobile from '../components/contact/contactMobile'
+import LeadDesktop from '../components/footer/leadDesktop'
+import LeadMobile from '../components/footer/leadMobile'
 
 const SectionWrapper = styled.div`
 img {
     max-width: 100%;
     height: auto;
 }
-
 margin: 0 auto;
 width: 1160px; 
 text-align: justify;   
 padding: 0px 10px 0px 10px;    
-
 .LazyLoad {
     opacity: 0;
     transition: all 1s ease-in-out;
@@ -31,9 +33,7 @@ padding: 0px 10px 0px 10px;
 @media (max-width: 1160px) {
     width: 100%;    
 }
-
 `;
-
 
 export default class BlogList extends React.Component {
 
@@ -78,7 +78,11 @@ componentWillUnmount() {
     let menuSpace = null
     let componentOne = null
     let componentTwo = null
+
+    let lead = null
+    let contact = null
     let footer = null
+    
     
     // assumption that all blog images are horizontal with height = 762px
     let height = 762
@@ -88,16 +92,18 @@ componentWillUnmount() {
         height = 0;
         menuSpace = '70px';
         componentOne = null
-        componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace}/>        
-        footer = <FooterMobile property='property'>children</FooterMobile>
-        
+        componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace} lead={false}/>        
+        lead = <LeadMobile />
+        contact = <ContactMobile />
+        footer = <FooterMobile />        
       } else {
         menuSpace = '210px';
         componentOne = null
-        componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace}/>
-        footer = <FooterDesktop property='property'>children</FooterDesktop>
+        componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace} lead={false}/>
+        lead = <LeadDesktop />
+        contact = <ContactDesktop />
+        footer = <FooterDesktop />        
       }
-
     } else {
       componentOne = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState}></FontLoader>
       componentTwo = <Loader />      
@@ -121,19 +127,18 @@ componentWillUnmount() {
           <div className="spacer"></div>
 
           <SectionWrapper>
-            {footer}
+            {contact}            
           </SectionWrapper>
 
           <div className="bgimg-3">
-              <div className="caption">
-                  <span className="border">&nbsp;</span>
-              </div>
+              {lead}
           </div>
 
           <style jsx>{`
                 .spacer {
                   height:40px;
                 }
+
                 .bgimg-3 {
                   position: relative;  
                   background-attachment: fixed;
