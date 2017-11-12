@@ -138,7 +138,7 @@ const GeneralWrapper = styled.div`
 export default ({ children, title, description, overflow }) => (
   
     <GeneralWrapper overflow={overflow} className="generalWrapper">
-      <Meta></Meta>
+      <Meta title={title} description={description}></Meta>
       {children}
     </GeneralWrapper>
   
