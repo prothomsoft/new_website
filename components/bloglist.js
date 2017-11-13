@@ -174,7 +174,7 @@ const PostLink = ({ key, post, height }) => (
       <Link as={`/${post.slug}`} href={`/${post.slug}`}>
         <a>{getProperLazyLoad(getPostImage(post.content.rendered), height)}</a>
       </Link>
-      <p dangerouslySetInnerHTML={{ __html: getPostContent(post.content.rendered) }}/>
+      <div className="entryContent" dangerouslySetInnerHTML={{ __html: getPostContent(post.content.rendered) }}/>
       <div style={{padding: "5px 0 40px 0"}}>
       <Link as={`/${post.slug}`} href={`/${post.slug}`}>
         <a className="btn">Czytaj dalej  →</a>
@@ -194,10 +194,16 @@ const PostLink = ({ key, post, height }) => (
         border-top: 1px solid #262626;
         margin-bottom: 10px;
         text-transform: uppercase;
-        padding:10px 0 10px 0;
-        
+        padding:6px 0 6px 0;
+        font-family: 'Oswald';
+        font-size: 16px;        
       }
 
+      .entryContent {
+        font-family: 'Oswald';
+        font-size: 16px;
+      }
+    
       .postTitle:hover {
         text-decoration: underline;
       }
@@ -257,7 +263,7 @@ function getPostDate(content) {
 
 function getPostContent(content) {
   let fields = content.split('<!--more-->');
-  return fields[0].concat("</p>");
+  return fields[0].concat('</p>');
 }
 
 function getPostTitleWithNames(post) {

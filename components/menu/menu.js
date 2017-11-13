@@ -34,11 +34,10 @@ ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%")};
 const ClassicMenuWrapper = styled.div`
     margin: 0 auto;
     width: 1160px; 
-    text-align: justify;   
-    padding: 0px 10px 0px 10px;    
+    text-align: justify;       
     @media (max-width: 1160px) {
         width: 100%;
-    }
+    }    
 `;
 
 function getWidthString(span) {
@@ -133,22 +132,22 @@ export default class Menu extends React.Component {
                                 <div className="mobileMenuContent" style={{height: height}}>
                                     <ul>
                                         <li>
-                                            <Link href='/'>
+                                            <Link href='/fotografia-slubna-krakow'>
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="FOTOGRAFIA ŚLUBNA"></MyLink>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href='/'>
+                                            <Link href='/sesja-zdjeciowa-krakow'>
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="SESJA ZDJĘCIOWA"></MyLink>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href='/'>
+                                            <Link href='/historie-slubne'>
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="KILKA HISTORII"></MyLink>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href='/'>
+                                            <Link href='/misja-i-faq'>
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="MISJA i FAQ"></MyLink>
                                             </Link>
                                         </li>
@@ -179,11 +178,11 @@ export default class Menu extends React.Component {
                         <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><BounceArrow display={arrowDisplay} /></LinkScroll>
                             <ClassicMenuWrapper>
                                 <ul className="classicMenuContent">
-                                    <li><Link href='/'><a>FOTOGRAFIA ŚLUBNA</a></Link></li>
-                                    <li><Link href='/'><a>SESJA ZDJĘCIOWA</a></Link></li>
-                                    <li><Link href='/'><a>KILKA HISTORII</a></Link></li>
+                                    <li><Link href='/fotografia-slubna-krakow'><a>FOTOGRAFIA ŚLUBNA</a></Link></li>
+                                    <li><Link href='/sesja-zdjeciowa-krakow'><a>SESJA ZDJĘCIOWA</a></Link></li>
+                                    <li><Link href='/historie-slubne'><a>KILKA HISTORII</a></Link></li>
                                     <li><Link href='/'><a><img style={{height: "140px", width: "100px", margin: "-15px 0px 0px 5px"}} src="/static/99foto_logo.svg"/></a></Link></li>
-                                    <li><Link href='/'><a>MISJA i FAQ</a></Link></li>
+                                    <li><Link href='/misja-i-faq'><a>MISJA i FAQ</a></Link></li>
                                     <li><Link href='/kontakt'><a>KONTAKT i CENA</a></Link></li>
                                     <li><Link as="/blog" href='/blog'><a>BLOG</a></Link></li>
                                     <li><Link href='http://sk.99foto.pl'><a target="_blank">STREFA KLIENTA</a></Link></li>                                    
@@ -192,9 +191,8 @@ export default class Menu extends React.Component {
                     </Column>
                 </Row>
 
-                <style jsx>{`
-                .classicMenuContent {
-                    text-align: center;
+                <style jsx>{`dfrfd
+                .classicMenuContent {                    
                     padding: 0;                    
                     margin:0;
                     list-style:none;                        
@@ -202,14 +200,14 @@ export default class Menu extends React.Component {
 
 
                 .classicMenuContent ul {
-                    list-style: none;
-                    background-color: #444;
-                    text-align: center;
-                    padding: 0;
+                    list-style: none;                    
+                    text-align: center;                    
                 }
                 
                 .classicMenuContent li {
                     display:inline;
+                    margin-left: -20px
+                    
                 }                
 
                 .classicMenuContent li > a {
@@ -219,7 +217,7 @@ export default class Menu extends React.Component {
                     color: #FFF;
                     text-decoration: none;
                     font-size: 1.40em;
-                    margin: 35px 18px 0px 18px;
+                    margin: 25px 28px 0px 28px;
                     padding: 0 0 6px 0;
                     font-size: 1.40em;                   
                 }

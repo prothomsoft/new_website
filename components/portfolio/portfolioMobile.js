@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import LazyLoad from 'react-lazy-load';
+import Link from 'next/link'
 
 const CaptionSectionWrapper = styled.div`
 
@@ -37,12 +38,18 @@ export default class PortfolioMobile extends Component {
                 <section>                            
                     <h2 className="quote-title">OSTATNIO NA BLOGU</h2>
 
-                    <LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad>
-                    <LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad>
-                    <LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad>
-                    <LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad>
-                    <LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad>
-                    <LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
                     
                     <h2 className="quote-title">FOTOGRAFIA ŚLUBNA</h2>
                     <blockquote>Śluby, sesje zdjęciowe to znakomita okazja do tworzenia, odkrywania nowych miejsc, poznawania ciekawych ludzi, poszukiwania idealnego światła, rejestrowania wydarzeń pełnych autentycznych emocji. Fotograf ślubny w mojej definicji  to osoba mająca we krwi kreatywność i umiejętność łatwego nawiązywania kontaktu z ludźmi, wnikliwy obserwator pozostający w cieniu wydarzeń i rejestrujący bieg zdarzeń z największą dyskrecją. Fotografia ślubna to pasja,  którą rozwijam każdego dnia obserwując pracę najlepszych fotografów ślubnych w branży, poszukując nowych miejsc na niezapomniane sesje zdjęciowe, obserwując powstające i znikające trendy w fotografii ślubnej.</blockquote>
@@ -56,6 +63,16 @@ export default class PortfolioMobile extends Component {
             </article>
              
         <style jsx>{`
+
+            .porfolioImage {
+                margin: 0 20px 0 20px;
+                cursor: pointer;
+            }
+
+            .porfolioCaption {
+                cursor: pointer;                
+                margin: 0 20px 0 20px;
+            }
             
             section {
                 display: flex;
@@ -78,7 +95,8 @@ export default class PortfolioMobile extends Component {
             blockquote {
                 font-size: 16px;
                 margin: 10px 0;
-                text-align: left;
+                text-align: justify;
+                padding: 0 20px 0 20px;
             }                
                             
             .quote-title::before,

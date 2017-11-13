@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link'
 import styled from 'styled-components'
 
-export default class OfferDesktop extends React.Component {
+export default class HistoriaDesktop extends React.Component {
     constructor() {
         super();
     }
@@ -12,7 +12,7 @@ export default class OfferDesktop extends React.Component {
             <div>
                 <article>
                     <section>                            
-                    <h1>KONTAKT I CENA</h1>                            
+                    <h1>KILKA HISTORII</h1>
                         <h2 className="quote-title">
                         REPORTAŻ ŚLUBNY OBEJMUJĄCY                            
                         </h2>

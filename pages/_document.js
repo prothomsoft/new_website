@@ -7,7 +7,7 @@ export default class SiteDocument extends Document {
     const main = sheet.collectStyles(<Main />)
     const styleTags = sheet.getStyleElement()
     return (
-      <html>
+      <html lang="pl-PL">
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           {styleTags}

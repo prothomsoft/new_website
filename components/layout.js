@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import NProgress from 'nprogress'
 import Router from 'next/router'
 import Meta from '../components/meta'
@@ -68,7 +69,7 @@ img {
 }
 `
 
-Router.onRouteChangeStart = (url) => {  
+Router.onRouteChangeStart = (url) => {
   NProgress.configure({ parent: '.generalWrapper' })
   NProgress.start()
 }
@@ -135,11 +136,21 @@ const GeneralWrapper = styled.div`
   }  
 `;
 
-export default ({ children, title, description, overflow }) => (
-  
-    <GeneralWrapper overflow={overflow} className="generalWrapper">
-      <Meta title={title} description={description}></Meta>
-      {children}
-    </GeneralWrapper>
-  
-)
+export default class LayoutComponent extends Component {
+  constructor(props) {
+    super(props)
+  }
+  render() {
+    let component;
+    if (this.props.overflow === 'hidden') {
+      component = <GeneralWrapper style={{ overflow: 'hidden' }}><Meta title={this.props.title} description={this.props.description}></Meta>{this.props.children}</GeneralWrapper>
+    } else {
+      component = <GeneralWrapper style={{ overflow: 'visible' }} ><Meta title={this.props.title} description={this.props.description}></Meta>{this.props.children}</GeneralWrapper>
+    }
+    return (      
+      <div>
+        {component}
+      </div>      
+    );
+  }
+}

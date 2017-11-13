@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 export default ({ title, description }) => (
-    <Head>
+    <Head lang="pl-PL">
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta charSet='utf-8' />

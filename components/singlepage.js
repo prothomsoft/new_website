@@ -1,17 +1,6 @@
 import Link from 'next/link'
 import Layout from '../components/layout'
 import Slider from '../components/slider'
-import FooterDesktop from '../components/footer/footerDesktop'
-import FooterMobile from '../components/footer/footerMobile'
-import OfferDesktop from '../components/offer/offerDesktop'
-import OfferMobile from '../components/offer/offerMobile'
-
-import ContactDesktop from '../components/contact/contactDesktop'
-import ContactMobile from '../components/contact/contactMobile'
-
-import LeadDesktop from '../components/footer/leadDesktop'
-import LeadMobile from '../components/footer/leadMobile'
-
 import Loader from '../components/loader'
 import NProgress from 'nprogress'
 import Menu from '../components/menu/menu'
@@ -19,6 +8,24 @@ import Scroll from 'react-scroll'
 import styled from 'styled-components'
 import LazyLoadWrapper from '../components/lazyLoadWrapper'
 import FontLoader from '../components/fontLoader'
+
+import FooterDesktop from '../components/footer/footerDesktop'
+import FooterMobile from '../components/footer/footerMobile'
+import ContactDesktop from '../components/contact/contactDesktop'
+import ContactMobile from '../components/contact/contactMobile'
+import LeadDesktop from '../components/footer/leadDesktop'
+import LeadMobile from '../components/footer/leadMobile'
+
+import OfferDesktop from '../components/offer/offerDesktop'
+import OfferMobile from '../components/offer/offerMobile'
+import SlubDesktop from '../components/slub/slubDesktop'
+import SlubMobile from '../components/slub/slubMobile'
+import SesjaDesktop from '../components/sesja/sesjaDesktop'
+import SesjaMobile from '../components/sesja/sesjaMobile'
+import MisjaDesktop from '../components/misja/misjaDesktop'
+import MisjaMobile from '../components/misja/misjaMobile'
+import HistoriaDesktop from '../components/historia/historiaDesktop'
+import HistoriaMobile from '../components/historia/historiaMobile'
 
 
 var Element = Scroll.Element;
@@ -54,43 +61,28 @@ export default class Singlepage extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            loaded: false,
             activeIndex: 0,
             eachImageState: 0,
-            overflow: false,
+            overflow: true,
             fontLoaded: false,
             width: '0'
         }
-        this.handleLoad = this.handleLoad.bind(this);
         this.updateOverflowState = this.updateOverflowState.bind(this);
         this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
 
     componentDidMount() {
-        this.image = new Image();
-        this.image.src = this.props.slides[0].imageUrl;
-        this.image.onload = this.handleLoad;
         this.updateWindowDimensions();
         window.addEventListener('resize', this.updateWindowDimensions);
     }
 
     componentWillUnmount() {
-        this.image.onerror = null;
-        this.image.onload = null;
-        this.image = null;
         window.removeEventListener('resize', this.updateWindowDimensions);
     }
 
     updateWindowDimensions() {
         this.setState({ width: window.innerWidth });
-    }
-
-    handleLoad(e) {
-        this.setState({
-            loaded: true,
-            overflow: true
-        });
     }
 
     updateOverflowState() {
@@ -109,15 +101,13 @@ export default class Singlepage extends React.Component {
 
         let slider = null
         let overflow = null
-        
-        let height = 762
-        
         let componentOne = null
         let componentTwo = null
+        let componentContent = null
         let menuSpace = null
         let footer = null
         let contact = null
-        let offer = null
+        
         let lead = null
 
         if (this.state.fontLoaded) {
@@ -127,15 +117,42 @@ export default class Singlepage extends React.Component {
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace} lead={false} />
                 footer = <FooterMobile />
                 contact = <ContactMobile />
-                offer = <OfferMobile />
-                lead = <LeadMobile />
+                if(this.props.componentContentName == 'offer') {
+                    componentContent = <OfferMobile />
+                }
+                if(this.props.componentContentName == 'slub') {
+                    lead = <SlubMobile />
+                }
+                if(this.props.componentContentName == 'sesja') {
+                    lead = <SesjaMobile />
+                }
+                if(this.props.componentContentName == 'misja') {
+                    lead = <MisjaMobile />
+                }
+                if(this.props.componentContentName == 'historia') {
+                    lead = <HistoriaMobile />
+                }
             } else {
                 menuSpace = '160px'
                 componentOne = null
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace} lead={false} />
                 footer = <FooterDesktop />
                 contact = <ContactDesktop />
-                offer = <OfferDesktop />
+                if(this.props.componentContentName == 'offer') {
+                    componentContent = <OfferDesktop />
+                }
+                if(this.props.componentContentName == 'slub') {
+                    componentContent = <SlubDesktop />
+                }
+                if(this.props.componentContentName == 'sesja') {
+                    componentContent = <SesjaDesktop />
+                }
+                if(this.props.componentContentName == 'misja') {
+                    componentContent = <MisjaDesktop />
+                }
+                if(this.props.componentContentName == 'historia') {
+                    componentContent = <HistoriaDesktop />
+                }
                 lead = <LeadDesktop />
             }
         } else {
@@ -150,24 +167,14 @@ export default class Singlepage extends React.Component {
         }
 
         return (
-            <Layout title='Home page title' description='Home page description' overflow={overflow}>
+            <Layout title={this.props.headTitle} description={this.props.headDescription} overflow={overflow}>
                 {componentOne}
                 {componentTwo}
-                <div style={{height:menuSpace}}></div>
-                <SectionWrapper>
-                    {offer}                    
-                </SectionWrapper>
-
-                <div className="bgimg-2"></div>
-
-                <SectionWrapper>
-                    {contact}                    
-                </SectionWrapper>
-
-                <div className="bgimg-3">
-                    {lead}                    
-                </div>
-
+                <div style={{ height: menuSpace }}></div>
+                <SectionWrapper>{componentContent}</SectionWrapper>
+                <div className="bgimg-2" style={{ backgroundImage: this.props.backgroundImage }}></div>
+                <SectionWrapper>{contact}</SectionWrapper>
+                <div className="bgimg-3" style={{ backgroundImage: this.props.leadImage }}>{lead}</div>
                 <style jsx>{`
                     .bgimg-2, .bgimg-3 {
                         position: relative;  
@@ -176,13 +183,11 @@ export default class Singlepage extends React.Component {
                         background-repeat: no-repeat;
                         background-size: cover;
                     }                    
-                    .bgimg-2 {
-                        background-image: url(/static/blog_start.jpg);
-                        min-height: 60%;
+                    .bgimg-2 {                        
+                        min-height: 60%;                        
                     }
-                    .bgimg-3 {
-                        background-image: url(/static/blog_start.jpg);
-                        min-height: 100%;
+                    .bgimg-3 {                        
+                        min-height: 100%;                        
                     }
                 `}</style>
             </Layout>

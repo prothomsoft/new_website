@@ -3,7 +3,11 @@ module.exports = {
       return {
         '/': { page: '/' },
         '/blog': { page: '/blog' },
-        '/kontakt': { page: '/kontakt' },        
+        '/kontakt': { page: '/kontakt' },
+        '/fotografia-slubna-krakow': { page: '/fotografia-slubna-krakow' },
+        '/sesja-zdjeciowa-krakow': { page: '/sesja-zdjeciowa-krakow' },
+        '/misja-i-faq': { page: '/misja-i-faq' },
+        '/historie-slubne': { page: '/historie-slubne' },
         '/blog/page/1': { page: '/blog', query: { page: "1" } },
         '/blog/page/2': { page: '/blog', query: { page: "2" } },
         '/blog/page/3': { page: '/blog', query: { page: "3" } },

@@ -12,7 +12,7 @@ export default class OfferMobile extends React.Component {
             <div>
                 <article>
                     <section>                            
-                    <h1>OFERTA FOTOGRAFII ŚLUBNEJ</h1>                            
+                    <h1>KONTAKT I CENA</h1>                            
                         <h2 className="quote-title">REPORTAŻ ŚLUBNY OBEJMUJĄCY</h2>
                         <blockquote>przygotowania, błogosławieństwo</blockquote>
                         <blockquote>ceremonię w kościele lub USC</blockquote>

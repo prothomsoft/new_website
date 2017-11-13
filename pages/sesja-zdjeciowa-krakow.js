@@ -1,14 +1,14 @@
 import Singlepage from '../components/singlepage'
 
-export default class OfferPageComponent extends React.Component {
+export default class SesjaPageComponent extends React.Component {
     render() {
         
         return (
           <div>
             <Singlepage
-              headTitle={'kontakt page title domel'}
-              componentContentName={'offer'}
-              headDescription={'kontakt page description'}
+              headTitle={'sesja page title domel'}
+              componentContentName={'sesja'}
+              headDescription={'sesja page description'}
               slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
               title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'} 
               date={'3 LISTOPADA 2017'} 

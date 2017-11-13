@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link'
 import styled from 'styled-components'
 
-export default class OfferDesktop extends React.Component {
+export default class MisjaMobile extends React.Component {
     constructor() {
         super();
     }
@@ -12,42 +12,34 @@ export default class OfferDesktop extends React.Component {
             <div>
                 <article>
                     <section>                            
-                    <h1>KONTAKT I CENA</h1>                            
-                        <h2 className="quote-title">
-                        REPORTAŻ ŚLUBNY OBEJMUJĄCY                            
-                        </h2>
+                    <h1>MISJA i FAQ</h1>                            
+                        <h2 className="quote-title">REPORTAŻ ŚLUBNY OBEJMUJĄCY</h2>
                         <blockquote>przygotowania, błogosławieństwo</blockquote>
                         <blockquote>ceremonię w kościele lub USC</blockquote>
                         <blockquote>przyjęcie weselne do oczepin włącznie (do godz. 1.00)</blockquote>
                         <blockquote>sesję poślubną w wybranym dniu po ślubie</blockquote>                            
-                        <h2 className="quote-title">
-                        OTRZYMUJECIE
-                        </h2>
+                        <h2 className="quote-title">OTRZYMUJECIE</h2>
                         <blockquote>fotoksiążkę - 120 stron w twardej oprawie, format 30x30cm - około 350 zdjęć</blockquote>
                         <blockquote>450 zdjęć na płycie DVD w etui - wszystkie zdjęcia poddane są starannej obróbce graficznej</blockquote>
                         <blockquote>prezentację zdjęć ślubnych na płycie DVD w etui</blockquote>
                         <blockquote>dojazd w dniu ślubu GRATIS</blockquote>
                         <blockquote>internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem</blockquote>
                         <div className="spacer">&nbsp;</div>
-                    </section>            
+                    </section>
+            
                 </article>
                 <style jsx>{`
                     section {
-                        display: flex;
+                        display: flex;                        
                         flex-direction: column;
                         justify-content: center;
                         text-align: center;                        
                         font-family: 'Oswald';
-                        width: 1140px;
+                        width: 100%;
                         color #BEBEBE;
-                        margin: 20px 0 0 0;
                     }
                     section h1{
                         color: #FFF;
-                    }
-
-                    .spacer {
-                        height: 100px;
                     }
                     
                     blockquote {
@@ -67,7 +59,7 @@ export default class OfferDesktop extends React.Component {
                         display: flex;
                         align-items: center;
                         color: #FFFFFF;
-                        padding: 35px 0 35px 0;
+                        padding: 20px 0 20px 0;
                     }
                     
                     .quote-title::before,
@@ -75,7 +67,10 @@ export default class OfferDesktop extends React.Component {
                         flex-grow: 1;
                         margin: 0 20px;
                     }               
-                    
+
+                    .spacer {
+                        height: 60px;
+                    }
                 `}</style>
             </div>
 

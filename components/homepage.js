@@ -176,7 +176,7 @@ export default class Homepage extends React.Component {
                 {componentOne}
                 {componentTwo}
                 <div style={{ height: menuSpace }}></div>
-                <Element name="portfolio"></Element>
+                <Element id="portfolio"></Element>
                 <SectionWrapper>
                     {portfolio}
                 </SectionWrapper>

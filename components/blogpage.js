@@ -203,7 +203,7 @@ export default class Blogpage extends React.Component {
                 {componentOne}
                 {componentTwo}                
                 <div style={{ height: menuSpace }}></div>
-                <Element name="portfolio"></Element>
+                <Element id="portfolio"></Element>
                 <SectionWrapper>
                     <article>
                         <header className="header">
@@ -216,7 +216,7 @@ export default class Blogpage extends React.Component {
                         <div className="entryMeta">
                             {this.props.date}, TAGI: <span style={{ color: '#FFFFFF' }}>{this.props.tags}</span>
                         </div>
-                        <div>
+                        <div className="entryContent">
                             <p>Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw.</p>
                             <p>Mniej ludzi, malownicze jezioro, ogromne góry, dużo świetnych kadrów do wypatrzenia. W drodze powrotnej zrobiliśmy też kilka zdjęć w lesie. Końcówka to szukanie dwóch kamieni z kadru <Link href='http://www.marcinsosnicki.pl/'><a target="_blank">Marcina Sośnickiego</a></Link> i zachwyt nad jesienią oświetloną promieniami zachodzącego słońca. Na koniec zjedliśmy pyszny obiadek w Tatrzańskiej Łomnicy, zrelaksowani i zadowoleni wróciliśmy do naszych domów. Polecam to miejsce na plenery i mam nadzieję, że każdego roku znajdzie się jedna para, która mnie tam zabierze. Miłego oglądania.</p>
                         </div>
@@ -233,7 +233,28 @@ export default class Blogpage extends React.Component {
                     {lead}
                 </div>
 
-                <style jsx>{`                
+                <style jsx>{`
+
+                .header h1 {
+                    padding: 0 0 10px 0;
+                    margin :0px          
+                }
+
+                .entryMeta {
+                    border-bottom: 1px solid #262626;
+                    border-top: 1px solid #262626;
+                    margin-bottom: 10px;
+                    text-transform: uppercase;
+                    padding:6px 0 6px 0;
+                    font-family: 'Oswald';
+                    font-size: 16px;        
+                }
+
+                .entryContent {
+                    font-family: 'Oswald';
+                    font-size: 16px;
+                }
+
                 .bgimg-3 {
                     position: relative;  
                     background-attachment: fixed;
