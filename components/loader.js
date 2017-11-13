@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default class Loader extends React.Component {
+
   render() {
     return (
       <div className="preloaderWrapper">
@@ -13,8 +14,7 @@ export default class Loader extends React.Component {
             </div>
           </div>
         </div>
-        <style jsx>{`
-                  
+        <style jsx>{`                  
               .preloaderWrapper {
                 overflow-x: hidden;
                 position: relative;

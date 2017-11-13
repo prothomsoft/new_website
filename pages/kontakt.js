@@ -6,9 +6,11 @@ export default class OfferPageComponent extends React.Component {
         return (
           <div>
             <Singlepage
-              headTitle={'kontakt page title domel'}
-              componentContentName={'offer'}
-              headDescription={'kontakt page description'}
+              headTitle={'Reportaż ślubny Kraków'}
+              headDescription={'Fotograf na wesele Kraków. reportaż ślubny, zdjęcia ślubne, sesja zdjęciowa. Zapraszam do kontaktu.'}
+              headKeywords={'reportaż ślubny kraków,fotograf ślubny'}
+              headUrl={'http://99foto.pl/kontakt/'}
+              componentContentName={'offer'}              
               slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
               title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'} 
               date={'3 LISTOPADA 2017'} 

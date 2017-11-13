@@ -149,7 +149,7 @@ export default class Homepage extends React.Component {
                 portfolio = <PortfolioMobile />
                 contact = <ContactMobile />                
                 footer = <FooterMobile />
-                lead = <LeadMobile />
+                lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl}/>
             } else {
                 menuSpace = '5px';
                 componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState} lead={false}></Slider>
@@ -158,7 +158,7 @@ export default class Homepage extends React.Component {
                 portfolio = <PortfolioDesktop />
                 contact = <ContactDesktop />                
                 footer = <FooterDesktop />                
-                lead = <LeadDesktop />
+                lead = <LeadDesktop  leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl}/>
             }
         } else {
             componentTwo = <Loader />
@@ -172,7 +172,7 @@ export default class Homepage extends React.Component {
         }
 
         return (
-            <Layout title='Home page title' description='Home page description' overflow={overflow}>
+            <Layout title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} overflow={overflow}>
                 {componentOne}
                 {componentTwo}
                 <div style={{ height: menuSpace }}></div>
@@ -181,13 +181,13 @@ export default class Homepage extends React.Component {
                     {portfolio}
                 </SectionWrapper>
 
-                <div className="bgimg-2"></div>
+                <div className="bgimg-2" style={{backgroundImage : this.props.backgroundImage1}}></div>
 
                 <SectionWrapper>
                     {contact}                    
                 </SectionWrapper>
 
-                <div className="bgimg-3">
+                <div className="bgimg-3" style={{backgroundImage : this.props.backgroundImage2}}>
                     {lead}                    
                 </div>
 
@@ -199,13 +199,11 @@ export default class Homepage extends React.Component {
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
-                .bgimg-2 {
-                    background-image: url(/static/blog_start.jpg);
+                .bgimg-2 {                    
                     min-height: 60%;
                 }
 
-                .bgimg-3 {
-                    background-image: url(/static/blog_start.jpg);
+                .bgimg-3 {                    
                     min-height: 100%;
                 }
                 `}</style>

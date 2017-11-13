@@ -6,9 +6,11 @@ export default class MisjaPageComponent extends React.Component {
         return (
           <div>
             <Singlepage
-              headTitle={'misja page title domel'}
-              componentContentName={'misja'}
-              headDescription={'misja page description'}
+              headTitle={'Plener ślubny Kraków'}
+              headDescription={'Fotograf ślubny z Krakowa. Zapraszam do zapoznania się z portfolio i skorzystania z mojej oferty. Gwarantuję wysokość jakość usług i konkurencyjne ceny.'}
+              headKeywords={'sesja zdjęciowa kraków,fotograf na wesele kraków'}
+              headUrl={'http://99foto.pl/misja-i-faq/'}
+              componentContentName={'misja'} 
               slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
               title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'} 
               date={'3 LISTOPADA 2017'} 

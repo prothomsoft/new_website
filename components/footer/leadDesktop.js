@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import Link from 'next/link'
 
 const CaptionSectionWrapper = styled.div`
 
@@ -58,9 +59,9 @@ export default class LeadDesktop extends Component {
     return (
         <div>
             <CaptionSectionWrapper>
-                <h1 className="previewTitle" style={{color: '#FFF'}}>IWONA i MARCIN</h1>                            
-                <h2 className="previewDescription" style={{color: '#FFF'}}>SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA</h2>
-                <input type="submit" value="ZOBACZ ZDJĘCIA" />             
+                <h1 className="previewTitle" style={{color: '#FFF'}}>{this.props.leadNames}</h1>                            
+                <h2 className="previewDescription" style={{color: '#FFF'}}>{this.props.leadTitle}</h2>
+                <Link href={this.props.leadUrl}><input type="submit" value="ZOBACZ ZDJĘCIA" /></Link>
             <style jsx>{`
                 .previewTitle {                
                     font-size: 50px;                    

@@ -6,9 +6,11 @@ export default class SesjaPageComponent extends React.Component {
         return (
           <div>
             <Singlepage
-              headTitle={'sesja page title domel'}
+              headTitle={'Sesja zdjęciowa Kraków'}
+              headDescription={'Sesja zdjęciowa w Krakowie to atrakcje turystyczne w pięknym miejscu. Spotkajmy się, wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.'}
+              headKeywords={'sesja zdjęciowa kraków,plener ślubny w krakowie'}
+              headUrl={'http://99foto.pl/sesja-zdjeciowa-krakow/'}
               componentContentName={'sesja'}
-              headDescription={'sesja page description'}
               slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
               title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'} 
               date={'3 LISTOPADA 2017'} 

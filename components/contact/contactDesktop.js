@@ -136,12 +136,9 @@ export default class ContactDesktop extends React.Component {
 
                     <article>
                         <section style={{height: '120px'}}>
-                            <blockquote>
-                                TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW
-                            </blockquote>
-                            <blockquote>
-                            TELEFON: 663 275 222 <span style={{color: '#BEBEBE'}}>|</span> EMAIL: TOMASZ@99FOTO.PL
-                            </blockquote>
+                            <blockquote>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW</blockquote>
+                            <blockquote>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></blockquote>
+                            <blockquote>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></blockquote>
                         </section>
                         <div className="spacer">&nbsp;</div>
                     </article>
@@ -184,7 +181,7 @@ export default class ContactDesktop extends React.Component {
                 }               
 
                 .spacer {
-                    height: 30px;
+                    height: 35px;
                 }
 
                 .header h1 {

@@ -102,9 +102,9 @@ export default class Blogpage extends React.Component {
 
         let slider = null
         let overflow = null
-        
+
         let height = 762
-        
+
         let componentOne = null
         let componentTwo = null
         let menuSpace = null
@@ -175,15 +175,15 @@ export default class Blogpage extends React.Component {
             if (this.state.width < 1160) {
                 menuSpace = '70px'
                 componentOne = null
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={'70px'} lead={false} />                                
-                lead = <LeadMobile />
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={'70px'} lead={false} />
+                lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
                 contact = <ContactMobile />
                 footer = <FooterMobile />
             } else {
                 menuSpace = '5px'
                 componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState}></Slider>
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={false} height={'100vh'} lead={true} leadNames='IWONA i MARCIN' leadTitle='SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA' />
-                lead = <LeadDesktop />
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={false} height={'100vh'} lead={true} menuNames={this.props.menuNames} menuTitle={this.props.menuTitle} />
+                lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
                 contact = <ContactDesktop />
                 footer = <FooterDesktop />
             }
@@ -197,11 +197,11 @@ export default class Blogpage extends React.Component {
         } else {
             overflow = 'hidden';
         }
-        
+
         return (
-            <Layout title='Home page title' description='Home page description' overflow={overflow}>
+            <Layout title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} overflow={overflow}>
                 {componentOne}
-                {componentTwo}                
+                {componentTwo}
                 <div style={{ height: menuSpace }}></div>
                 <Element id="portfolio"></Element>
                 <SectionWrapper>
@@ -229,7 +229,7 @@ export default class Blogpage extends React.Component {
                     {contact}
                 </SectionWrapper>
 
-                <div className="bgimg-3">
+                <div className="bgimg-3" style={{ backgroundImage: this.props.backgroundImage }}>
                     {lead}
                 </div>
 
@@ -263,9 +263,8 @@ export default class Blogpage extends React.Component {
                     background-size: cover;
                 }
                 
-                .bgimg-3 {
-                    background-image: url(/static/blog_start.jpg);
-                    min-height: 100%;
+                .bgimg-3 {                    
+                    min-height: 100%;                    
                 }
             `}</style>
             </Layout>

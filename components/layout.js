@@ -70,7 +70,7 @@ img {
 `
 
 Router.onRouteChangeStart = (url) => {
-  NProgress.configure({ parent: '.generalWrapper' })
+  NProgress.configure({ parent: '.nProgressHandler' })
   NProgress.start()
 }
 Router.onRouteChangeComplete = () => NProgress.done()
@@ -141,16 +141,10 @@ export default class LayoutComponent extends Component {
     super(props)
   }
   render() {
-    let component;
+    let component = <GeneralWrapper style={{ overflow: 'visible' }} className="nProgressHandler"><Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url}></Meta>{this.props.children}</GeneralWrapper>
     if (this.props.overflow === 'hidden') {
-      component = <GeneralWrapper style={{ overflow: 'hidden' }}><Meta title={this.props.title} description={this.props.description}></Meta>{this.props.children}</GeneralWrapper>
-    } else {
-      component = <GeneralWrapper style={{ overflow: 'visible' }} ><Meta title={this.props.title} description={this.props.description}></Meta>{this.props.children}</GeneralWrapper>
+      component = <GeneralWrapper style={{ overflow: 'hidden' }} className="nProgressHandler"><Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url}></Meta>{this.props.children}</GeneralWrapper>
     }
-    return (      
-      <div>
-        {component}
-      </div>      
-    );
+    return component;
   }
 }

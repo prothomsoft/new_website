@@ -167,7 +167,7 @@ export default class Singlepage extends React.Component {
         }
 
         return (
-            <Layout title={this.props.headTitle} description={this.props.headDescription} overflow={overflow}>
+            <Layout title={this.props.headTitle} description={this.props.headDescription} keywords={this.props.headKeywords} url={this.props.headUrl} overflow={overflow}>
                 {componentOne}
                 {componentTwo}
                 <div style={{ height: menuSpace }}></div>

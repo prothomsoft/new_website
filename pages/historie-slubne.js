@@ -6,9 +6,11 @@ export default class HistoriaPageComponent extends React.Component {
         return (
           <div>
             <Singlepage
-              headTitle={'historia page title domel'}
-              componentContentName={'historia'}
-              headDescription={'historia page description'}
+              headTitle={'Historie ślubne TO DO'}
+              headDescription={'Historie ślubne Kraków TO DO'}
+              headKeywords={'historie ślubne kraków TO DO'}
+              headUrl={'http://99foto.pl/sesja-zdjeciowa-krakow/'}
+              componentContentName={'historia'}              
               slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
               title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'} 
               date={'3 LISTOPADA 2017'} 

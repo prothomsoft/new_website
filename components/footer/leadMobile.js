@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import Link from 'next/link'
 
 const CaptionSectionWrapper = styled.div`
 
@@ -32,8 +33,8 @@ export default class LeadMobile extends Component {
 
     return (
         <CaptionSectionWrapper>
-            <h1 className="previewTitle">IWONA i MARCIN</h1>                            
-            <h2 className="previewDescription">SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA</h2>
+            <h1 className="previewTitle">{this.props.leadNames}</h1>                            
+            <h2 className="previewDescription">{this.props.leadTitle}</h2>
             <input type="submit" value="ZOBACZ ZDJĘCIA" />
              
         <style jsx>{`

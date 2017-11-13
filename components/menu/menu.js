@@ -55,6 +55,7 @@ export default class Menu extends React.Component {
             isScrollOnTop: 'notScrolled'
         };
         this.showFixedMobileMenu = this.showFixedMobileMenu.bind(this);
+        this.showFixedMobileMenuWithTarget = this.showFixedMobileMenuWithTarget.bind(this);
         this.onWaypointEntered = this.onWaypointEntered.bind(this);
         this.onWaypointLeft = this.onWaypointLeft.bind(this);
     }
@@ -64,6 +65,10 @@ export default class Menu extends React.Component {
         this.setState({
             showFixedMobileMenu: !this.state.showFixedMobileMenu
         });
+    }
+
+    showFixedMobileMenuWithTarget() {
+        window.open('http://sk.99foto.pl', '_blank');
     }
 
     onWaypointEntered(arg) {
@@ -108,7 +113,7 @@ export default class Menu extends React.Component {
 
         let lead = null;        
         if( this.props.lead) {
-            lead = <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><LeadDesktopBlog leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} /></LinkScroll>
+            lead = <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><LeadDesktopBlog leadNames={this.props.menuNames} leadTitle={this.props.menuTitle} /></LinkScroll>
         }
 
         return (
@@ -162,8 +167,8 @@ export default class Menu extends React.Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href='/'>
-                                                <MyLink onCustomClick={this.showFixedMobileMenu} text="STREFA KLIENTA"></MyLink>
+                                            <Link href='http://sk.99foto.pl'>
+                                                <MyLink onCustomClick={this.showFixedMobileMenuWithTarget} text="STREFA KLIENTA"></MyLink>
                                             </Link>                                            
                                         </li>
                                     </ul>

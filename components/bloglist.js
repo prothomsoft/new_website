@@ -110,7 +110,7 @@ componentWillUnmount() {
     }
 
     return (
-          <Layout title='Blog List Page title' description='Blog List page description'>                    
+          <Layout title='Zdjęcia ślubne Kraków' description='Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !' keywords='zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa' url='http://99foto.pl/blog/'>                    
           {componentOne}
           {componentTwo}          
           <div style={{height:menuSpace}}></div>
@@ -186,7 +186,8 @@ const PostLink = ({ key, post, height }) => (
     
       .header h1 {
           padding: 0 0 10px 0;
-          margin :0px          
+          margin: 0;
+          text-align:left;
       }
 
       .entryMeta {
@@ -206,13 +207,6 @@ const PostLink = ({ key, post, height }) => (
     
       .postTitle:hover {
         text-decoration: underline;
-      }
-
-      .navigation {
-        padding: 0;
-        margin: 0;
-        text-align: right;
-        border: 1px solid #FFF;
       }
           
     `}</style>
@@ -269,7 +263,6 @@ function getPostContent(content) {
 function getPostTitleWithNames(post) {
   return post.title.rendered.concat(" - ").concat(post.post_tags[0].imiona);
 }
-
 
 function getPostImage(content) {
   let fields = content.split('\" alt=\"');
