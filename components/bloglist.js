@@ -93,14 +93,14 @@ componentWillUnmount() {
         menuSpace = '70px';
         componentOne = null
         componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace} lead={false}/>        
-        lead = <LeadMobile />
+        lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
         contact = <ContactMobile />
         footer = <FooterMobile />        
       } else {
         menuSpace = '210px';
         componentOne = null
         componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace} lead={false}/>
-        lead = <LeadDesktop />
+        lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
         contact = <ContactDesktop />
         footer = <FooterDesktop />        
       }
@@ -110,7 +110,7 @@ componentWillUnmount() {
     }
 
     return (
-          <Layout title='Zdjęcia ślubne Kraków' description='Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !' keywords='zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa' url='http://99foto.pl/blog/'>                    
+          <Layout  title={this.props.headTitle} description={this.props.headDescription} keywords={this.props.headKeywords} url={this.props.headUrl}>
           {componentOne}
           {componentTwo}          
           <div style={{height:menuSpace}}></div>
@@ -130,7 +130,7 @@ componentWillUnmount() {
             {contact}            
           </SectionWrapper>
 
-          <div className="bgimg-3">
+          <div className="bgimg-3" style={{ backgroundImage: this.props.leadImage }}>
               {lead}
           </div>
 
@@ -147,8 +147,7 @@ componentWillUnmount() {
                   background-size: cover;
               }
               
-              .bgimg-3 {
-                  background-image: url(/static/blog_start.jpg);
+              .bgimg-3 {                  
                   min-height: 100%;
               }
             `}</style>

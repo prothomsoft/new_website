@@ -20,11 +20,14 @@ export default class Index extends React.Component {
             headDescription={'Fotograf ślubny Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Album w cenie pakietu. Serdecznie zapraszam.'}
             headKeywords={'fotograf ślubny Kraków, fotograf na wesele'}
             headUrl={'http://99foto.pl'}
-            backgroundImage1={'url(/static/parallax1.jpg)'}            
+
+            backgroundImage={'url(/static/parallax1.jpg)'}            
+
             leadNames={'IWONA I MARCIN3'}
             leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA3'}
             leadUrl={'opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
-            backgroundImage2={'url(/static/parallax1.jpg)'}/>
+            leadImage={'url(/static/blog_start.jpg)'}
+            />
           </div>
         );
     }

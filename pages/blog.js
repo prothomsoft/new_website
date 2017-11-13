@@ -5,7 +5,20 @@ export default class BlogListComponent extends React.Component {
     render() {
         return (
           <div>
-            <Bloglist next_page={this.props.next_page} posts={this.props.posts} previous_page={this.props.previous_page} />
+            <Bloglist next_page={this.props.next_page} 
+            posts={this.props.posts} 
+            previous_page={this.props.previous_page}
+
+            headTitle={'Zdjęcia ślubne Kraków'}
+            headDescription={'Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !'}
+            headKeywords={'zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa'}
+            headUrl={'http://99foto.pl/blog/'}
+
+            leadNames={'IWONA I MARCIN3'}
+            leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA3'}
+            leadUrl={'opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
+            leadImage={'url(/static/parallax1.jpg)'}
+            />
           </div>
         );
     }

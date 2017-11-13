@@ -199,7 +199,7 @@ export default class Blogpage extends React.Component {
         }
 
         return (
-            <Layout title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} overflow={overflow}>
+            <Layout title={this.props.headTitle} description={this.props.headDescription} keywords={this.props.headKeywords} url={this.props.headUrl} overflow={overflow}>
                 {componentOne}
                 {componentTwo}
                 <div style={{ height: menuSpace }}></div>
@@ -229,7 +229,7 @@ export default class Blogpage extends React.Component {
                     {contact}
                 </SectionWrapper>
 
-                <div className="bgimg-3" style={{ backgroundImage: this.props.backgroundImage }}>
+                <div className="bgimg-3" style={{ backgroundImage: this.props.leadImage }}>
                     {lead}
                 </div>
 

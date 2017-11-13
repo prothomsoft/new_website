@@ -22,12 +22,13 @@ export default class BlogPageComponent extends React.Component {
           date={'3 LISTOPADA 2017'}
 
           menuNames={'IWONA I MARCIN2'}
-          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA2'}
+          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA2'}          
 
           leadNames={'IWONA I MARCIN3'}
           leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA3'}
           leadUrl={'opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
-          backgroundImage={'url(/static/parallax1.jpg)'}
+          leadImage={'url(/static/parallax1.jpg)'}
+          
           />
       </div>
     );

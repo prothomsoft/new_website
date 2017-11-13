@@ -149,7 +149,7 @@ export default class Homepage extends React.Component {
                 portfolio = <PortfolioMobile />
                 contact = <ContactMobile />                
                 footer = <FooterMobile />
-                lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl}/>
+                lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             } else {
                 menuSpace = '5px';
                 componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState} lead={false}></Slider>
@@ -158,7 +158,7 @@ export default class Homepage extends React.Component {
                 portfolio = <PortfolioDesktop />
                 contact = <ContactDesktop />                
                 footer = <FooterDesktop />                
-                lead = <LeadDesktop  leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl}/>
+                lead = <LeadDesktop  leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             }
         } else {
             componentTwo = <Loader />
@@ -181,13 +181,13 @@ export default class Homepage extends React.Component {
                     {portfolio}
                 </SectionWrapper>
 
-                <div className="bgimg-2" style={{backgroundImage : this.props.backgroundImage1}}></div>
+                <div className="bgimg-2" style={{backgroundImage : this.props.backgroundImage}}></div>
 
                 <SectionWrapper>
                     {contact}                    
                 </SectionWrapper>
 
-                <div className="bgimg-3" style={{backgroundImage : this.props.backgroundImage2}}>
+                <div className="bgimg-3" style={{backgroundImage : this.props.leadImage}}>
                     {lead}                    
                 </div>
 

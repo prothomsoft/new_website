@@ -121,17 +121,18 @@ export default class Singlepage extends React.Component {
                     componentContent = <OfferMobile />
                 }
                 if(this.props.componentContentName == 'slub') {
-                    lead = <SlubMobile />
+                    componentContent = <SlubMobile />
                 }
                 if(this.props.componentContentName == 'sesja') {
-                    lead = <SesjaMobile />
+                    componentContent = <SesjaMobile />
                 }
                 if(this.props.componentContentName == 'misja') {
-                    lead = <MisjaMobile />
+                    componentContent = <MisjaMobile />
                 }
                 if(this.props.componentContentName == 'historia') {
-                    lead = <HistoriaMobile />
+                    componentContent = <HistoriaMobile />
                 }
+                lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             } else {
                 menuSpace = '160px'
                 componentOne = null
@@ -153,7 +154,7 @@ export default class Singlepage extends React.Component {
                 if(this.props.componentContentName == 'historia') {
                     componentContent = <HistoriaDesktop />
                 }
-                lead = <LeadDesktop />
+                lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             }
         } else {
             componentTwo = <Loader />

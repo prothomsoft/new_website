@@ -10,13 +10,14 @@ export default class HistoriaPageComponent extends React.Component {
               headDescription={'Historie ślubne Kraków TO DO'}
               headKeywords={'historie ślubne kraków TO DO'}
               headUrl={'http://99foto.pl/sesja-zdjeciowa-krakow/'}
-              componentContentName={'historia'}              
-              slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
-              title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'} 
-              date={'3 LISTOPADA 2017'} 
-              tags={'PLENER STRBSKIE PLESO, POPRADZKI STAW ZDJĘCIA ŚLUBNE, SESJA ŚLUBNA SŁOWACJA'}
+              componentContentName={'historia'}                            
+
+              backgroundImage={'url(/static/parallax1.jpg)'}              
+
+              leadNames={'IWONA I MARCIN3'}
+              leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA3'}
+              leadUrl={'opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
               leadImage={'url(/static/blog_start.jpg)'}
-              backgroundImage={'url(/static/parallax1.jpg)'}
               />
           </div>
         );
