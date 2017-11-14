@@ -1,8 +1,7 @@
 import Head from 'next/head'
 
 export default ({ title, description, keywords, url }) => (
-    <Head>
-        <meta charset="utf-8" />
+    <Head>        
         <title>{title}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content={description} />

@@ -119,7 +119,7 @@ export default class ContactDesktop extends React.Component {
                                 </div>
 
                                 <div className="group">
-                                    <textarea id='formMessage' className={this.state.messageUsed} name='message' type='text' required onChange={this.handleChange} onBlur={this.handleBlur} value={this.state.message} />
+                                    <textarea id='formMessage' className={this.state.messageUsed} name='message' required onChange={this.handleChange} onBlur={this.handleBlur} value={this.state.message} />
                                     <span className="highlight"></span>
                                     <span className="bar"></span>
                                     <label>Twoja wiadomość</label>

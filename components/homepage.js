@@ -127,18 +127,17 @@ export default class Homepage extends React.Component {
 
     render() {
 
-        let slider = null
-        let overflow = null
+        let slider = null       
+        let menuSpace = null
         
         let componentOne = null
-        let componentTwo = null
-        let menuSpace = null
+        let componentTwo = null        
 
-        let portfolio = null
-        let contact = null        
-        let footer = null
+        let portfolio = <PortfolioDesktop />
+        let contact = <ContactDesktop />        
+        let footer = <FooterDesktop />
         
-        let lead = null
+        let lead = <LeadDesktop  leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
 
         if (this.state.fontLoaded) {
             if (this.state.width < 1160) {
@@ -165,6 +164,7 @@ export default class Homepage extends React.Component {
             componentOne = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState}></FontLoader>
         }
 
+        let overflow = null
         if (this.state.overflow) {
             overflow = 'visible';
         } else {
@@ -172,7 +172,7 @@ export default class Homepage extends React.Component {
         }
 
         return (
-            <Layout title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} overflow={overflow}>
+            <Layout title={this.props.headTitle} description={this.props.headDescription} keywords={this.props.headKeywords} url={this.props.headUrl} overflow={overflow}>
                 {componentOne}
                 {componentTwo}
                 <div style={{ height: menuSpace }}></div>

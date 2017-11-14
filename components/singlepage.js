@@ -106,9 +106,24 @@ export default class Singlepage extends React.Component {
         let componentContent = null
         let menuSpace = null
         let footer = null
-        let contact = null
-        
+        let contact = null        
         let lead = null
+
+        if(this.props.componentContentName == 'offer') {
+            componentContent = <OfferDesktop />
+        }
+        if(this.props.componentContentName == 'slub') {
+            componentContent = <SlubDesktop />
+        }
+        if(this.props.componentContentName == 'sesja') {
+            componentContent = <SesjaDesktop />
+        }
+        if(this.props.componentContentName == 'misja') {
+            componentContent = <MisjaDesktop />
+        }
+        if(this.props.componentContentName == 'historia') {
+            componentContent = <HistoriaDesktop />
+        }
 
         if (this.state.fontLoaded) {
             if (this.state.width < 1160) {
