@@ -3,28 +3,8 @@ import NProgress from 'nprogress'
 import styled from 'styled-components'
 
 const SliderWrapper = styled.div`
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-margin: 0 auto;
-width: 1160px; 
-text-align: justify;   
-padding: 20px 10px 0px 10px;    
-
-.LazyLoad {
-    opacity: 0;
-    transition: all 1s ease-in-out;
-
-    &.is-visible {
-        opacity: 1;
-    }
-}
-@media (max-width: 1160px) {
-    width: 100%;
-}
-
+height: 100vh;                    
+z-index:1;
 `;
 
 export default class Slider extends React.Component {
@@ -47,15 +27,9 @@ export default class Slider extends React.Component {
         }
 
         return (
-            <div className="sliderWrapper">
-                <div className={styleFadeInOut} style={{ backgroundImage: `url(${this.props.src})` }}>
-                </div>
-
-                <style jsx>{`
-                .sliderWrapper {
-                    height: 100vh;                    
-                    z-index:1;
-                }
+            <SliderWrapper>
+                <div className={styleFadeInOut} style={{ backgroundImage: `url(${this.props.src})` }}></div>
+                <style jsx>{`                
                 .slideShow {
                     position: relative;  
                     background-attachment: fixed;
@@ -97,14 +71,9 @@ export default class Slider extends React.Component {
                         opacity: 0;
                         height: 0;
                     }
-                }
-                @media only screen and (max-device-width: 1024px) {
-                    .slideShow {
-                        background-attachment: scroll;
-                    }
-                }
+                }                
                 `}</style>
-            </div>
+            </SliderWrapper>
         );
     }
 }

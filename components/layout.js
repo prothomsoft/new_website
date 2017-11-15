@@ -17,13 +17,18 @@ body {
   font-size:13px;
 }
 
+@media only screen and (max-device-width: 1060px) {
+  .slideShow {
+      background-attachment: scroll;
+  }
+}
+
 a {
   color:#FFFFFF;
   text-decoration:none;
-}
-a {
   background:transparent;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -46,6 +51,8 @@ h1 {
 
 img {
   vertical-align:middle;
+  max-width: 100%;
+  height: auto;
 }
 
 img {

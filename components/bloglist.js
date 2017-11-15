@@ -14,14 +14,11 @@ import LeadDesktop from '../components/footer/leadDesktop'
 import LeadMobile from '../components/footer/leadMobile'
 
 const SectionWrapper = styled.div`
-img {
-    max-width: 100%;
-    height: auto;
-}
 margin: 0 auto;
 width: 1160px; 
 text-align: justify;   
-padding: 0px 10px 0px 10px;    
+padding: 0px 10px 0px 10px;
+
 .LazyLoad {
     opacity: 0;
     transition: all 1s ease-in-out;

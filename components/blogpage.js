@@ -18,11 +18,6 @@ import LeadMobile from '../components/footer/leadMobile'
 var Element = Scroll.Element;
 
 const SectionWrapper = styled.div`
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
     margin: 0 auto;
     width: 1160px; 
     text-align: justify;   
