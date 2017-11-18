@@ -27,7 +27,24 @@ const CaptionSectionWrapper = styled.div`
 export default class PortfolioMobile extends Component {
 
   constructor(props) {
-    super(props) 
+    super(props)
+    this.state = {     
+        width: '0'
+    }
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+  componentDidMount() {    
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);    
+  }
+
+  componentWillUnmount() {    
+    window.removeEventListener('resize', this.updateWindowDimensions);    
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth });
   }
   
   render() {
@@ -35,20 +52,20 @@ export default class PortfolioMobile extends Component {
     return (
         <div>
             <article>
-                <section>                            
+                <section>
                     <h2 className="quote-title">OSTATNIO NA BLOGU</h2>
 
-                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start_mobile.jpg'} /></LazyLoad></div></Link>
                     <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
-                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start_mobile.jpg'} /></LazyLoad></div></Link>
                     <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
-                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start_mobile.jpg'} /></LazyLoad></div></Link>
                     <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
-                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start_mobile.jpg'} /></LazyLoad></div></Link>
                     <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
-                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start_mobile.jpg'} /></LazyLoad></div></Link>
                     <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
-                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start_mobile.jpg'} /></LazyLoad></div></Link>
                     <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
                     
                     <h2 className="quote-title">FOTOGRAFIA ŚLUBNA</h2>
@@ -64,8 +81,7 @@ export default class PortfolioMobile extends Component {
              
         <style jsx>{`
 
-            .porfolioImage {
-                margin: 0 20px 0 20px;
+            .porfolioImage {                
                 cursor: pointer;
             }
 
@@ -95,8 +111,7 @@ export default class PortfolioMobile extends Component {
             blockquote {
                 font-size: 16px;
                 margin: 10px 0;
-                text-align: justify;
-                padding: 0 20px 0 20px;
+                text-align: justify;                
             }                
                             
             .quote-title::before,

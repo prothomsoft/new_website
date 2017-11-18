@@ -89,14 +89,14 @@ componentWillUnmount() {
         height = 0;
         menuSpace = '70px';
         componentOne = null
-        componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace} lead={false}/>        
+        componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={menuSpace} />        
         lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
         contact = <ContactMobile />
         footer = <FooterMobile />        
       } else {
         menuSpace = '210px';
         componentOne = null
-        componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace} lead={false}/>
+        componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={menuSpace} />
         lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
         contact = <ContactDesktop />
         footer = <FooterDesktop />        

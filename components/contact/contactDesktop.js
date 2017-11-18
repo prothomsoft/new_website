@@ -86,77 +86,72 @@ export default class ContactDesktop extends React.Component {
         }
 
         return (
-            <div>
-                    <article style={{display: `${displayFormConfirmation}`}}>
-                        <section>
-                            <blockquote>TWOJA WIADOMOŚĆ ZOSTAŁA WYSŁANA.</blockquote>
-                            <blockquote>DZIĘKUJĘ ZA PYTANIE. ODPOWIEM BARDZO SZYBKO.</blockquote>
-                        </section>
-                    </article>
-                    
+            <article>
+                    <header>
+                       <h2>KONTAKT</h2> 
+                    </header>            
 
-                    <article style={{display: `${displayForm}`}}>
-                        <section>
-                           
-                            <blockquote>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU I ZAPYTAĆ O CENĘ PAKIETU?</blockquote>
-                            <blockquote>WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY I WYŚLIJ WIADOMOŚĆ</blockquote>                            
-                            <div className="spacer">&nbsp;</div>
+                    <div style={{display: `${displayFormConfirmation}`}}>
+                        <p>TWOJA WIADOMOŚĆ ZOSTAŁA WYSŁANA.</p>
+                        <p>DZIĘKUJĘ ZA PYTANIE. ODPOWIEM BARDZO SZYBKO.</p>                        
+                    </div>                    
 
-                            <form className='react-form' onSubmit={this.handleSubmit}>
+                    <div style={{display: `${displayForm}`}}>
+                    <p>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU I ZAPYTAĆ O CENĘ PAKIETU?</p>
+                    <p>WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY I WYŚLIJ WIADOMOŚĆ</p>                            
+                    <div className="spacer"></div>
 
-                                <div className="group">
-                                    <input id='formSender' className={this.state.senderUsed} name='sender' type='text' required onChange={this.handleChange} onBlur={this.handleBlur} value={this.state.sender} />
-                                    <span className="highlight"></span>
-                                    <span className="bar"></span>
-                                    <label>Twoje imię i nazwisko</label>
-                                </div>
+                    <form className='react-form' onSubmit={this.handleSubmit}>
 
-                                <div className="group">
-                                    <input id='formEmail' className={this.state.emailUsed} name='email' type='text' pattern="[a-zA-Z0-9_]+(?:\.[A-Za-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?!([a-zA-Z0-9]*\.[a-zA-Z0-9]*\.[a-zA-Z0-9]*\.))(?:[A-Za-z0-9](?:[a-zA-Z0-9-]*[A-Za-z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?" required onChange={this.handleChange} onBlur={this.handleBlur} value={this.state.email} />
-                                    <span className="highlight"></span>
-                                    <span className="bar"></span>
-                                    <label>Twój adres e-mail</label>
-                                </div>
+                        <div className="group">
+                            <input id='formSender' className={this.state.senderUsed} name='sender' type='text' required onChange={this.handleChange} onBlur={this.handleBlur} value={this.state.sender} />
+                            <span className="highlight"></span>
+                            <span className="bar"></span>
+                            <label>Twoje imię i nazwisko</label>
+                        </div>
 
-                                <div className="group">
-                                    <textarea id='formMessage' className={this.state.messageUsed} name='message' required onChange={this.handleChange} onBlur={this.handleBlur} value={this.state.message} />
-                                    <span className="highlight"></span>
-                                    <span className="bar"></span>
-                                    <label>Twoja wiadomość</label>
-                                </div>
+                        <div className="group">
+                            <input id='formEmail' className={this.state.emailUsed} name='email' type='text' pattern="[a-zA-Z0-9_]+(?:\.[A-Za-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*@(?!([a-zA-Z0-9]*\.[a-zA-Z0-9]*\.[a-zA-Z0-9]*\.))(?:[A-Za-z0-9](?:[a-zA-Z0-9-]*[A-Za-z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?" required onChange={this.handleChange} onBlur={this.handleBlur} value={this.state.email} />
+                            <span className="highlight"></span>
+                            <span className="bar"></span>
+                            <label>Twój adres e-mail</label>
+                        </div>
 
-                                <div style={{textAlign: "left", paddingTop: "20px"}}>
-                                    <input type="submit" value="WYŚLIJ WIADOMOŚĆ" />
-                                </div>    
+                        <div className="group">
+                            <textarea id='formMessage' className={this.state.messageUsed} name='message' required onChange={this.handleChange} onBlur={this.handleBlur} value={this.state.message} />
+                            <span className="highlight"></span>
+                            <span className="bar"></span>
+                            <label>Twoja wiadomość</label>
+                        </div>
 
-                            </form>
-                            
-                        </section>                        
-                    </article>
+                        <div style={{textAlign: "left", paddingTop: "20px"}}>
+                            <input type="submit" value="WYŚLIJ WIADOMOŚĆ" />
+                        </div>    
 
-                    <article>
-                        <section style={{height: '120px'}}>
-                            <blockquote>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW</blockquote>
-                            <blockquote>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></blockquote>
-                            <blockquote>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></blockquote>
-                        </section>
-                        <div className="spacer">&nbsp;</div>
-                    </article>
+                    </form>
+                    </div>
+                    <div className="spacer"></div>
+                    <div>
+                    <p>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW</p>
+                    <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
+                    <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>                                            
+                    </div>
+                    <div className="spacer"></div>
                 
             <style jsx>{`
-                section {
+                article {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     text-align: center;                    
                     font-family: 'Oswald';                    
                     width: 100%;
-                    height: 500px;
+                    height: 700px;
                     color #FFF;
                     padding:0 100px 0 100px;                    
                 }
 
-                blockquote {
+                p {
                     font-size: 16px;
                     margin: 5px 0;
                 }                
@@ -181,7 +176,7 @@ export default class ContactDesktop extends React.Component {
                 }               
 
                 .spacer {
-                    height: 35px;
+                    height: 30px;
                 }
 
                 .header h1 {
@@ -380,7 +375,7 @@ export default class ContactDesktop extends React.Component {
                 }
                 
             `}</style>
-            </div>
+            </article>
 
         )
     }

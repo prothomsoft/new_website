@@ -11,28 +11,29 @@ export default class OfferDesktop extends React.Component {
         return (
             <div>
                 <article>
-                    <section>                            
-                    <h1>KONTAKT I CENA</h1>                            
+                    <header>
+                        <h1>KONTAKT I CENA</h1>                            
+                    </header>
                         <h2 className="quote-title">
                         REPORTAŻ ŚLUBNY OBEJMUJĄCY                            
                         </h2>
-                        <blockquote>przygotowania, błogosławieństwo</blockquote>
-                        <blockquote>ceremonię w kościele lub USC</blockquote>
-                        <blockquote>przyjęcie weselne do oczepin włącznie (do godz. 1.00)</blockquote>
-                        <blockquote>sesję poślubną w wybranym dniu po ślubie</blockquote>                            
+                        <p>przygotowania, błogosławieństwo</p>
+                        <p>ceremonię w kościele lub USC</p>
+                        <p>przyjęcie weselne do oczepin włącznie (do godz. 1.00)</p>
+                        <p>sesję poślubną w wybranym dniu po ślubie</p>                            
                         <h2 className="quote-title">
                         OTRZYMUJECIE
                         </h2>
-                        <blockquote>fotoksiążkę - 120 stron w twardej oprawie, format 30x30cm - około 350 zdjęć</blockquote>
-                        <blockquote>450 zdjęć na płycie DVD w etui - wszystkie zdjęcia poddane są starannej obróbce graficznej</blockquote>
-                        <blockquote>prezentację zdjęć ślubnych na płycie DVD w etui</blockquote>
-                        <blockquote>dojazd w dniu ślubu GRATIS</blockquote>
-                        <blockquote>internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem</blockquote>
+                        <p>fotoksiążkę - 120 stron w twardej oprawie, format 30x30cm - około 350 zdjęć</p>
+                        <p>450 zdjęć na płycie DVD w etui - wszystkie zdjęcia poddane są starannej obróbce graficznej</p>
+                        <p>prezentację zdjęć ślubnych na płycie DVD w etui</p>
+                        <p>dojazd w dniu ślubu GRATIS</p>
+                        <p>internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem</p>
                         <div className="spacer">&nbsp;</div>
-                    </section>            
+                    
                 </article>
                 <style jsx>{`
-                    section {
+                    article {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
@@ -42,7 +43,7 @@ export default class OfferDesktop extends React.Component {
                         color #BEBEBE;
                         margin: 20px 0 0 0;
                     }
-                    section h1{
+                    article h1{
                         color: #FFF;
                     }
 
@@ -50,7 +51,7 @@ export default class OfferDesktop extends React.Component {
                         height: 100px;
                     }
                     
-                    blockquote {
+                    p {
                         font-size: 16px;
                         margin: 10px 0;
                     }                

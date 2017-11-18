@@ -1,11 +1,10 @@
 import Link from 'next/link'
 import MyLink from '../menu/myLink'
-import BounceArrow from '../menu/bounceArrow'
+import IntroTextAndArrow from '../menu/introTextAndArrow'
+import IntroArrow from '../menu/introArrow'
 import styled from 'styled-components'
 import Scroll from 'react-scroll';
 import Waypoint from 'react-waypoint'
-import LeadDesktopBlog from '../../components/footer/leadDesktopBlog'
-
 
 var LinkScroll = Scroll.Link;
 
@@ -81,15 +80,13 @@ export default class Menu extends React.Component {
 
     render() {
         let background = 'transparent';
-        let arrowDisplay = 'block';
+        
         
         let logoFile = '/static/99foto_logo.svg';        
         if (this.state.isScrollOnTop == 'notScrolled') {
-            background = 'transparent';
-            arrowDisplay = 'block';            
+            background = 'transparent';            
         } else {
-            background = '#000000';    
-            arrowDisplay = 'none';            
+            background = '#000000';                
         }
 
         let height = null;
@@ -107,27 +104,24 @@ export default class Menu extends React.Component {
             height = this.props.height;
         }
 
-        if(this.props.hideBounceArrow) {
-            arrowDisplay = 'none';
+        let componentTextAndArrow;
+        if(this.props.displayTextAndArrow) {
+            componentTextAndArrow = <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><IntroTextAndArrow menuNames={this.props.menuNames} menuTitle={this.props.menuTitle} /></LinkScroll>
         }
 
-        let lead = null;        
-        if( this.props.lead) {
-            lead = <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><LeadDesktopBlog leadNames={this.props.menuNames} leadTitle={this.props.menuTitle} /></LinkScroll>
+        if(this.props.displayArrow) {
+            componentTextAndArrow = <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><IntroArrow /></LinkScroll>
         }
 
-        return (
-            
-            <div className="menuWrapper" style={{height: height}}>
-                {lead}
+        return (            
+            <div className="menuWrapper" style={{height: height}}>                
                 <Waypoint
                     onEnter={this.onWaypointEntered.bind(this, 'notScrolled')}
                     onLeave={this.onWaypointLeft.bind(this, 'scrolled')}
                 />
                 <Row mobile>
                     <Column>
-
-                        <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><BounceArrow display={arrowDisplay}/></LinkScroll>
+                    {componentTextAndArrow}
                         <div className={navClassName} style={{ background: `${background}` }}>                        
                             <div className="mtn-bar-wrap" style={{ background: `${background}`}}>
                                 <a className="mtn-mobile-logo" style={{backgroundColor: `${background}`}} href="/"><img src='/static/99foto_logo_mobile.svg' style={{ width: '105px', visibility: `${logoVisibility}` }}/></a>
@@ -179,8 +173,8 @@ export default class Menu extends React.Component {
                 </Row>
 
                 <Row>
-                    <Column>
-                        <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><BounceArrow display={arrowDisplay} /></LinkScroll>
+                    <Column>                    
+                            {componentTextAndArrow}                        
                             <ClassicMenuWrapper>
                                 <ul className="classicMenuContent">
                                     <li><Link href='/fotografia-slubna-krakow'><a>FOTOGRAFIA ŚLUBNA</a></Link></li>

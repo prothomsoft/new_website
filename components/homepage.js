@@ -49,63 +49,26 @@ export default class Homepage extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            loaded: false,
-            activeIndex: 0,
-            eachImageState: 0,
-            overflow: false,
+            overflow: true,
             fontLoaded: false,
             width: '0'
         }
-        this.handleLoad = this.handleLoad.bind(this);
         this.updateOverflowState = this.updateOverflowState.bind(this);
         this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
 
     componentDidMount() {
-        this.image = new Image();
-        this.image.src = this.props.slides[0].imageUrl;
-        this.image.onload = this.handleLoad;
         this.updateWindowDimensions();
-        window.addEventListener('resize', this.updateWindowDimensions);
-        this.timerID = setInterval(() => this.slideChanger(), 1000);
+        window.addEventListener('resize', this.updateWindowDimensions);        
     }
 
-    componentWillUnmount() {
-        this.image.onerror = null;
-        this.image.onload = null;
-        this.image = null;
-        window.removeEventListener('resize', this.updateWindowDimensions);
-        clearInterval(this.timerID);
-    }
-
-    slideChanger() {
-        if (this.state.loaded) {
-            let eachImageState = this.state.eachImageState + 1;
-            let activeIndex = this.state.activeIndex;
-            if (eachImageState == 5) {
-                activeIndex = this.state.activeIndex + 1;
-                eachImageState = 0;
-            }
-            if (activeIndex == 3) {
-                activeIndex = 0;
-            }
-            this.setState({
-                activeIndex: activeIndex,
-                eachImageState: eachImageState
-            });
-        }
+    componentWillUnmount() {        
+        window.removeEventListener('resize', this.updateWindowDimensions);        
     }
 
     updateWindowDimensions() {
         this.setState({ width: window.innerWidth });
-    }
-
-    handleLoad(e) {
-        this.setState({
-            loaded: true,
-            overflow: true
-        });
     }
 
     updateOverflowState() {
@@ -131,14 +94,14 @@ export default class Homepage extends React.Component {
         let portfolio = <PortfolioDesktop />
         let contact = <ContactDesktop />        
         let footer = <FooterDesktop />
-        
-        let lead = <LeadDesktop  leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
+
+        let lead = <LeadDesktop  leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
 
         if (this.state.fontLoaded) {
             if (this.state.width < 1160) {
                 menuSpace = '70px';
-                componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState}></Slider>
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={false} height={'100vh'} lead={false}/>                                
+                componentOne = <Slider slides={this.props.slides}></Slider>
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={'100vh'} displayTextAndArrow={false} displayArrow={true} />
                 
                 portfolio = <PortfolioMobile />
                 contact = <ContactMobile />                
@@ -146,8 +109,8 @@ export default class Homepage extends React.Component {
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             } else {
                 menuSpace = '5px';
-                componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState} lead={false}></Slider>
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={false} height={'100vh'} lead={false} />
+                componentOne = <Slider slides={this.props.slides}></Slider>
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={'100vh'} displayTextAndArrow={true} displayArrow={false} menuNames={'names'} menuTitle={'title'}/>
 
                 portfolio = <PortfolioDesktop />
                 contact = <ContactDesktop />                

@@ -1,20 +1,26 @@
 import React from 'react';
+import Scroll from 'react-scroll';
 
-export default class BounceArrow extends React.Component {
+var LinkScroll = Scroll.Link;
+
+export default class IntroArrow extends React.Component {
 
     constructor(props) {
         super(props)        
     }
 
-    render() {      
-
+    render() {
+     
         return (
-            <div className="position animated bounce" style={{ display: `${this.props.display}` }}>
-                <div className="tableHelper">
-                    <div className="cellHelper">
-                        <div className="arrow"></div>
+            <div>                
+                <div className="position animated bounce">                
+                    <div className="tableHelper">
+                        <div className="cellHelper">
+                            <div className="arrow"></div>                        
+                        </div>
                     </div>
                 </div>
+                
                 <style jsx>{`
                 .position {
                     position: absolute;                    

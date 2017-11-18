@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Layout from '../components/layout'
-import Slider from '../components/slider'
 import Loader from '../components/loader'
 import NProgress from 'nprogress'
 import Menu from '../components/menu/menu'
@@ -92,8 +91,6 @@ export default class Singlepage extends React.Component {
     }
 
     render() {
-
-        let slider = null
         let overflow = null
         let componentOne = null
         let componentTwo = null
@@ -123,7 +120,7 @@ export default class Singlepage extends React.Component {
             if (this.state.width < 1160) {
                 menuSpace = '40px'
                 componentOne = null
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace} lead={false} />
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={menuSpace} displayTextAndArrow={false} displayArrow={false} />
                 footer = <FooterMobile />
                 contact = <ContactMobile />
                 if(this.props.componentContentName == 'offer') {
@@ -145,7 +142,7 @@ export default class Singlepage extends React.Component {
             } else {
                 menuSpace = '160px'
                 componentOne = null
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={menuSpace} lead={false} />
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={menuSpace}  displayTextAndArrow={false} displayArrow={false} />
                 footer = <FooterDesktop />
                 contact = <ContactDesktop />
                 if(this.props.componentContentName == 'offer') {

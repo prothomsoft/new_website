@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Layout from '../components/layout'
-import Slider from '../components/slider'
+import Slide from '../components/slide'
 import Loader from '../components/loader'
 import LazyLoadWrapper from '../components/lazyLoadWrapper'
 import Menu from '../components/menu/menu'
@@ -41,44 +41,27 @@ export default class Blogpage extends React.Component {
 
     constructor(props) {
         super(props)
-        this.state = {
-            loaded: false,
-            activeIndex: 0,
-            eachImageState: 0,
-            overflow: false,
+        this.state = {            
+            overflow: true,
             fontLoaded: false,
             width: '0'
         }
-        this.handleLoad = this.handleLoad.bind(this);
         this.updateOverflowState = this.updateOverflowState.bind(this);
         this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
 
-    componentDidMount() {
-        this.image = new Image();
-        this.image.src = this.props.slides[0].imageUrl;
-        this.image.onload = this.handleLoad;
+    componentDidMount() {        
         this.updateWindowDimensions();
         window.addEventListener('resize', this.updateWindowDimensions);
     }
 
-    componentWillUnmount() {
-        this.image.onerror = null;
-        this.image.onload = null;
-        this.image = null;
+    componentWillUnmount() {        
         window.removeEventListener('resize', this.updateWindowDimensions);
     }
 
     updateWindowDimensions() {
         this.setState({ width: window.innerWidth });
-    }
-
-    handleLoad(e) {
-        this.setState({
-            loaded: true,
-            overflow: true
-        });
     }
 
     updateOverflowState() {
@@ -95,7 +78,7 @@ export default class Blogpage extends React.Component {
 
     render() {
 
-        let slider = null
+        let slide = null
         let overflow = null
 
         let height = 762
@@ -170,14 +153,14 @@ export default class Blogpage extends React.Component {
             if (this.state.width < 1160) {
                 menuSpace = '70px'
                 componentOne = null
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={true} height={'70px'} lead={false} />
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={'70px'} />
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
                 contact = <ContactMobile />
                 footer = <FooterMobile />
             } else {
                 menuSpace = '5px'
-                componentOne = <Slider src={this.props.slides[this.state.activeIndex].imageUrl} eachImageState={this.state.eachImageState}></Slider>
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} hideBounceArrow={false} height={'100vh'} lead={true} menuNames={this.props.menuNames} menuTitle={this.props.menuTitle} />
+                componentOne = <Slide slide={this.props.slide}></Slide>
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={true} displayArrow={false} height={'100vh'} menuNames={this.props.menuNames} menuTitle={this.props.menuTitle} />
                 lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
                 contact = <ContactDesktop />
                 footer = <FooterDesktop />
