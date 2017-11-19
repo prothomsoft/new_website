@@ -49,7 +49,7 @@ export default class PortfolioDesktop extends Component {
         <div>
             <article>
                 <header>
-                    <h2 className="quote-title">OSTATNIO NA BLOGU</h2>
+                    <h2 className="quote-title">POLECANE REPORTAŻE I SESJE ŚLUBNE</h2>
                 </header>
 
                     <div style={{display: 'flex'}}>

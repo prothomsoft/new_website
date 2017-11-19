@@ -3,25 +3,24 @@ import LazyLoad from 'react-lazy-load';
 
 export default class LazyLoadWrapper extends Component {
   constructor(props) {
-    super(props) 
+    super(props)
   }
 
   render() {
-
     return <div>
-      {this.props.images.map((image, key) =>             
-            <LazyLoadSwitch imageSrc={image.imageSrc} height={image.height} key={image.imageSrc} />
-        )}
+      {this.props.images.map((image, key) =>
+        <LazyLoadSwitch imageSrc={image.imageSrc} height={image.height} key={image.imageSrc} skipHeight={this.props.skipHeight} />
+      )}
     </div>;
   }
 }
 
 function LazyLoadSwitch(props) {
-  if(props.height == 0) {
-    return <LazyLoadNoHeight imageSrc={props.imageSrc}/>
+  if (props.height == 0 || props.skipHeight) {
+    return <LazyLoadNoHeight imageSrc={props.imageSrc} />
   } else {
-      return <LazyLoadHeight height={props.height} imageSrc={props.imageSrc}/>
-  }  
+    return <LazyLoadHeight height={props.height} imageSrc={props.imageSrc} />
+  }
 }
 
 function LazyLoadNoHeight(props) {
@@ -35,4 +34,3 @@ function LazyLoadHeight(props) {
     <LazyLoad height={props.height} offsetVertical={300}><img src={props.imageSrc} /></LazyLoad>
   )
 }
-

@@ -8,7 +8,7 @@ const CaptionSectionWrapper = styled.div`
     text-align: justify;   
     position: absolute;
     left: 0;
-    top: 30%;
+    top: 33%;
     width: 100%;
     text-align: center;    
 
@@ -22,7 +22,7 @@ const CaptionSectionWrapper = styled.div`
     }
 `;
 
-export default class LeadMenuDesktopBlog extends Component {
+export default class IntroTextAndArrow extends Component {
 
   constructor(props) {
     super(props) 
@@ -34,14 +34,14 @@ export default class LeadMenuDesktopBlog extends Component {
         <CaptionSectionWrapper>
             <h1 className="previewTitle">{this.props.menuNames}</h1>                            
             <h2 className="previewDescription">{this.props.menuTitle}</h2>
-            <input type="submit" value="ZOBACZ ZDJĘCIA" />
+            <input type="submit" value={this.props.menuButton} />
             <div className="spacer" ></div>
             <div className="animated bounce">
                 <div className="arrow"></div>
             </div>
             <style jsx>{`
             .spacer {
-                height: 320px;
+                height: 330px;
             }
 
             .arrow {
@@ -119,8 +119,9 @@ export default class LeadMenuDesktopBlog extends Component {
 
                 input[type=submit]:hover {
                     width:20%;
-                    border: 4px solid #33B59A;                        
-                    background-color: #33B59A;
+                    border: 4px solid #FFF;                        
+                    background-color: #FFF;
+                    color: #000;
                 }
                 
                 input[type=submit]:focus {

@@ -8,13 +8,10 @@ import styled from 'styled-components'
 import LazyLoadWrapper from '../components/lazyLoadWrapper'
 import FontLoader from '../components/fontLoader'
 
-import FooterDesktop from '../components/footer/footerDesktop'
-import FooterMobile from '../components/footer/footerMobile'
 import ContactDesktop from '../components/contact/contactDesktop'
 import ContactMobile from '../components/contact/contactMobile'
 import LeadDesktop from '../components/footer/leadDesktop'
 import LeadMobile from '../components/footer/leadMobile'
-
 import OfferDesktop from '../components/offer/offerDesktop'
 import OfferMobile from '../components/offer/offerMobile'
 import SlubDesktop from '../components/slub/slubDesktop'
@@ -95,8 +92,7 @@ export default class Singlepage extends React.Component {
         let componentOne = null
         let componentTwo = null
         let componentContent = null
-        let menuSpace = null
-        let footer = null
+        let menuSpace = null        
         let contact = null        
         let lead = null
 
@@ -120,8 +116,7 @@ export default class Singlepage extends React.Component {
             if (this.state.width < 1160) {
                 menuSpace = '40px'
                 componentOne = null
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={menuSpace} displayTextAndArrow={false} displayArrow={false} />
-                footer = <FooterMobile />
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={menuSpace} displayTextAndArrow={false} displayArrow={false} />                
                 contact = <ContactMobile />
                 if(this.props.componentContentName == 'offer') {
                     componentContent = <OfferMobile />
@@ -142,8 +137,7 @@ export default class Singlepage extends React.Component {
             } else {
                 menuSpace = '160px'
                 componentOne = null
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={menuSpace}  displayTextAndArrow={false} displayArrow={false} />
-                footer = <FooterDesktop />
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={menuSpace}  displayTextAndArrow={false} displayArrow={false} />                
                 contact = <ContactDesktop />
                 if(this.props.componentContentName == 'offer') {
                     componentContent = <OfferDesktop />

@@ -1,19 +1,6 @@
 import Link from 'next/link'
 import Layout from '../components/layout'
 import Slider from '../components/slider'
-
-import FooterDesktop from '../components/footer/footerDesktop'
-import FooterMobile from '../components/footer/footerMobile'
-
-import ContactDesktop from '../components/contact/contactDesktop'
-import ContactMobile from '../components/contact/contactMobile'
-
-import LeadDesktop from '../components/footer/leadDesktop'
-import LeadMobile from '../components/footer/leadMobile'
-
-import PortfolioDesktop from '../components/portfolio/portfolioDesktop'
-import PortfolioMobile from '../components/portfolio/portfolioMobile'
-
 import Loader from '../components/loader'
 import NProgress from 'nprogress'
 import Menu from '../components/menu/menu'
@@ -21,6 +8,13 @@ import Scroll from 'react-scroll'
 import styled from 'styled-components'
 import LazyLoadWrapper from '../components/lazyLoadWrapper'
 import FontLoader from '../components/fontLoader'
+
+import ContactDesktop from '../components/contact/contactDesktop'
+import ContactMobile from '../components/contact/contactMobile'
+import LeadDesktop from '../components/footer/leadDesktop'
+import LeadMobile from '../components/footer/leadMobile'
+import PortfolioDesktop from '../components/portfolio/portfolioDesktop'
+import PortfolioMobile from '../components/portfolio/portfolioMobile'
 
 var Element = Scroll.Element;
 
@@ -84,8 +78,6 @@ export default class Homepage extends React.Component {
     }
 
     render() {
-
-        let slider = null       
         let menuSpace = null
         
         let componentOne = null
@@ -93,28 +85,23 @@ export default class Homepage extends React.Component {
 
         let portfolio = <PortfolioDesktop />
         let contact = <ContactDesktop />        
-        let footer = <FooterDesktop />
-
+        
         let lead = <LeadDesktop  leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
 
         if (this.state.fontLoaded) {
             if (this.state.width < 1160) {
                 menuSpace = '70px';
                 componentOne = <Slider slides={this.props.slides}></Slider>
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={'100vh'} displayTextAndArrow={false} displayArrow={true} />
-                
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={'100vh'} displayTextAndArrow={false} displayArrow={true} />                
                 portfolio = <PortfolioMobile />
                 contact = <ContactMobile />                
-                footer = <FooterMobile />
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             } else {
                 menuSpace = '5px';
                 componentOne = <Slider slides={this.props.slides}></Slider>
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={'100vh'} displayTextAndArrow={true} displayArrow={false} menuNames={'names'} menuTitle={'title'}/>
-
+                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={'100vh'} displayTextAndArrow={false} displayArrow={true} />
                 portfolio = <PortfolioDesktop />
-                contact = <ContactDesktop />                
-                footer = <FooterDesktop />                
+                contact = <ContactDesktop />                                
                 lead = <LeadDesktop  leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             }
         } else {

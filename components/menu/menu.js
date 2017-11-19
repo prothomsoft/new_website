@@ -106,7 +106,7 @@ export default class Menu extends React.Component {
 
         let componentTextAndArrow;
         if(this.props.displayTextAndArrow) {
-            componentTextAndArrow = <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><IntroTextAndArrow menuNames={this.props.menuNames} menuTitle={this.props.menuTitle} /></LinkScroll>
+            componentTextAndArrow = <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><IntroTextAndArrow menuNames={this.props.menuNames} menuTitle={this.props.menuTitle} menuButton={this.props.menuButton} /></LinkScroll>
         }
 
         if(this.props.displayArrow) {

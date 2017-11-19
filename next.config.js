@@ -12,9 +12,14 @@ module.exports = {
         '/blog/page/2': { page: '/blog', query: { page: "2" } },
         '/blog/page/3': { page: '/blog', query: { page: "3" } },
         '/blog/page/4': { page: '/blog', query: { page: "4" } },
-        '/blog/page/5': { page: '/blog', query: { page: "5" } },
+        '/blog/page/5': { page: '/blog', query: { page: "5" } },        
+        '/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz': { page: '/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz' },
+        '/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja': { page: '/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja' },
+        '/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice': { page: '/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice' },
+        '/zdjecia-slubne-restauracja-stek-skawina': { page: '/zdjecia-slubne-restauracja-stek-skawina' },
         '/opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy': { page: '/opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy' },
-        '/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja': { page: '/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja' }
+        '/sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice': { page: '/sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice' },
+        '/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow': { page: '/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow' }        
       }
     }
   }

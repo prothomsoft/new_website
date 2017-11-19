@@ -6,8 +6,6 @@ import LazyLoad from 'react-lazy-load';
 import Menu from '../components/menu/menu'
 import FontLoader from '../components/fontLoader'
 import Loader from '../components/loader'
-import FooterDesktop from '../components/footer/footerDesktop'
-import FooterMobile from '../components/footer/footerMobile'
 import ContactDesktop from '../components/contact/contactDesktop'
 import ContactMobile from '../components/contact/contactMobile'
 import LeadDesktop from '../components/footer/leadDesktop'
@@ -77,8 +75,7 @@ componentWillUnmount() {
     let componentTwo = null
 
     let lead = null
-    let contact = null
-    let footer = null
+    let contact = null    
     
     
     // assumption that all blog images are horizontal with height = 762px
@@ -91,15 +88,13 @@ componentWillUnmount() {
         componentOne = null
         componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={menuSpace} />        
         lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
-        contact = <ContactMobile />
-        footer = <FooterMobile />        
+        contact = <ContactMobile />        
       } else {
         menuSpace = '210px';
         componentOne = null
         componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={menuSpace} />
         lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
-        contact = <ContactDesktop />
-        footer = <FooterDesktop />        
+        contact = <ContactDesktop />        
       }
     } else {
       componentOne = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState}></FontLoader>

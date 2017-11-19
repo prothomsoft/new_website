@@ -53,7 +53,7 @@ export default class PortfolioMobile extends Component {
         <div>
             <article>
                 <section>
-                    <h2 className="quote-title">OSTATNIO NA BLOGU</h2>
+                    <h2 className="quote-title">POLECANE REPORTAŻE I SESJE ŚLUBNE</h2>
 
                     <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/blog_start_mobile.jpg'} /></LazyLoad></div></Link>
                     <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><blockquote style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</blockquote></div></Link>
