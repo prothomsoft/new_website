@@ -224,10 +224,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'KAROLINA i BARTEK'}
           menuTitle={'ZDJĘCIA ŚLUBNE RESTAURACJA STEK SKAWINA'}
 
-          leadNames={'KAROLINA i BARTEK'}
-          leadTitle={'ZDJĘCIA ŚLUBNE RESTAURACJA STEK SKAWINA'}
-          leadUrl={'zdjecia-slubne-restauracja-stek-skawina'} 
-          leadImage={'url(/static/parallax1.jpg)'}
+          leadNames={'ANETA i DAMIAN'}
+          leadTitle={'OPACTWO CYSTERSÓW W MOGILE, SESJA ZDJĘCIOWA KASPROWY'}
+          leadUrl={'opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
+          leadImage={'url(/static/opactwo_cystersow_w_mogile_sesja_zdjeciowa_kasprowy_start.jpg)'}
           />
       </div>
     );

@@ -231,10 +231,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'IWONA i MARCIN'}
           menuTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}          
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/parallax1.jpg)'}
+          leadNames={'KAROLINA i BARTEK'}
+          leadTitle={'ZDJĘCIA ŚLUBNE RESTAURACJA STEK SKAWINA'}
+          leadUrl={'zdjecia-slubne-restauracja-stek-skawina'} 
+          leadImage={'url(/static/zdjecia_slubne_restauracja_stek_skawina_start.jpg)'}
           
           />
       </div>

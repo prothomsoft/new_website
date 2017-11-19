@@ -61,10 +61,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'KAROLINA i BARTEK'}
           menuTitle={'SESJA ZDJĘCIOWA DWÓR TOMASZOWICE, OPERA, KAZIMIERZ'}          
 
-          leadNames={'KAROLINA i BARTEK'}
-          leadTitle={'SESJA ZDJĘCIOWA DWÓR TOMASZOWICE, OPERA, KAZIMIERZ'}
-          leadUrl={'sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'} 
-          leadImage={'url(/static/parallax1.jpg)'}
+          leadNames={'IWONA I MARCIN'}
+          leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          leadUrl={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
+          leadImage={'url(/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg)'}
           
           />
       </div>

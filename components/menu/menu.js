@@ -205,7 +205,7 @@ export default class Menu extends React.Component {
                 
                 .classicMenuContent li {
                     display:inline;
-                    margin-left: -20px
+                    margin-left: -23px
                     
                 }                
 

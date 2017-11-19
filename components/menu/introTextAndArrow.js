@@ -32,16 +32,25 @@ export default class IntroTextAndArrow extends Component {
 
     return (
         <CaptionSectionWrapper>
+
+            <div className="pos animated bounce">
+                <div className="arrow"></div>
+            </div>
             <h1 className="previewTitle">{this.props.menuNames}</h1>                            
             <h2 className="previewDescription">{this.props.menuTitle}</h2>
             <input type="submit" value={this.props.menuButton} />
-            <div className="spacer" ></div>
-            <div className="animated bounce">
-                <div className="arrow"></div>
-            </div>
+            
+            
             <style jsx>{`
+            .pos {
+                position: absolute;
+                top:170%;
+                margin: 0 auto;
+                width: 100%;                
+            }
+
             .spacer {
-                height: 330px;
+                height: 220px;
             }
 
             .arrow {
