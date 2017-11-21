@@ -55,7 +55,7 @@ export default class BlogPageComponent extends React.Component {
 
           leadNames={'OLA i PAWEŁ'}
           leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
-          leadUrl={'sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice'} 
+          leadUrl={'/sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice'} 
           leadImage={'url(/static/parallax1.jpg)'}
           />
       </div>

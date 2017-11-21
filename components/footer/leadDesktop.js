@@ -59,6 +59,8 @@ export default class LeadDesktop extends Component {
     return (
         <div>
             <CaptionSectionWrapper>
+                
+                
                 <h1 className="previewTitle" style={{color: '#FFF'}}>{this.props.leadNames}</h1>                            
                 <h2 className="previewDescription" style={{color: '#FFF'}}>{this.props.leadTitle}</h2>
                 <Link href={this.props.leadUrl}><input type="submit" value="ZOBACZ ZDJĘCIA" /></Link>

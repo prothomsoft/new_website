@@ -63,7 +63,7 @@ export default class BlogPageComponent extends React.Component {
 
           leadNames={'IWONA I MARCIN'}
           leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
-          leadUrl={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
+          leadUrl={'/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
           leadImage={'url(/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg)'}
           
           />

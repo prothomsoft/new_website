@@ -19,7 +19,7 @@ export default class SesjaPageComponent extends React.Component {
 
               leadNames={'IWONA I MARCIN3'}
               leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA3'}
-              leadUrl={'opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
+              leadUrl={'/opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
               leadImage={'url(/static/blog_start.jpg)'}
               />
           </div>

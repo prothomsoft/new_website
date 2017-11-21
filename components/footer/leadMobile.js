@@ -35,7 +35,7 @@ export default class LeadMobile extends Component {
         <CaptionSectionWrapper>
             <h1 className="previewTitle">{this.props.leadNames}</h1>                            
             <h2 className="previewDescription">{this.props.leadTitle}</h2>
-            <input type="submit" value="ZOBACZ ZDJĘCIA" />
+            <Link href={this.props.leadUrl}><input type="submit" value="ZOBACZ ZDJĘCIA" /></Link>
              
         <style jsx>{`
             .previewTitle {

@@ -63,15 +63,15 @@ export default class BlogPageComponent extends React.Component {
           slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'}
 
           title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'}
-          tags={'PLENER STRBSKIE PLESO, POPRADZKI STAW ZDJĘCIA ŚLUBNE, SESJA ŚLUBNA SŁOWACJA'}
-          date={'3 LISTOPADA 2017'}
+          tags={'plener strbskie pleso, popradzki staw zdjęcia ślubne, sesja ślubna Słowacja'}
+          date={'3 listopada 2017'}
 
           menuNames={'IWONA I MARCIN'}
           menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
+          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
           leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
           />
       </div>

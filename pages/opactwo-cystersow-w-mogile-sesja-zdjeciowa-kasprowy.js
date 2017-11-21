@@ -193,7 +193,7 @@ export default class BlogPageComponent extends React.Component {
 
           leadNames={'ANETA i DAMIAN'}
           leadTitle={'OPACTWO CYSTERSÓW W MOGILE, SESJA ZDJĘCIOWA KASPROWY'}
-          leadUrl={'opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
+          leadUrl={'/opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
           leadImage={'url(/static/parallax1.jpg)'}
           
           />

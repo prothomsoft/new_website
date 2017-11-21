@@ -233,7 +233,7 @@ export default class BlogPageComponent extends React.Component {
 
           leadNames={'KAROLINA i BARTEK'}
           leadTitle={'ZDJĘCIA ŚLUBNE RESTAURACJA STEK SKAWINA'}
-          leadUrl={'zdjecia-slubne-restauracja-stek-skawina'} 
+          leadUrl={'/zdjecia-slubne-restauracja-stek-skawina'} 
           leadImage={'url(/static/zdjecia_slubne_restauracja_stek_skawina_start.jpg)'}
           
           />
