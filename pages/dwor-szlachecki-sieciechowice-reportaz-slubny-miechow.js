@@ -7,7 +7,7 @@ export default class BlogPageComponent extends React.Component {
     }];
 
     let images = [
-        { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0001.jpg", height: 762 },
+        { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0075.jpg", height: 763 },
         { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0002.jpg", height: 763 },
         { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0004.jpg", height: 527 },
         { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0003.jpg", height: 763 },
@@ -80,8 +80,7 @@ export default class BlogPageComponent extends React.Component {
         { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0071.jpg", height: 527 },
         { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0072.jpg", height: 383 },
         { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0073.jpg", height: 763 },
-        { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0074.jpg", height: 763 },
-        { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0075.jpg", height: 763 },
+        { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0074.jpg", height: 763 },        
         { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0076.jpg", height: 383 },
         { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0077.jpg", height: 763 },
         { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/dwor_szlachecki_sieciechowice_zdjecia_slubne_0078.jpg", height: 763 },
