@@ -7,7 +7,7 @@ export default class BlogPageComponent extends React.Component {
     }];
 
     let images = [
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0001.jpg", height: 1368 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0001.jpg", height: 762 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0002.jpg", height: 851 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0003.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0004.jpg", height: 527 },

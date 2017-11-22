@@ -47,11 +47,11 @@ export default class BlogPageComponent extends React.Component {
 
           slug={'sesja-zdjeciowa-park-w-mogilanach-zakrzowek-i-kazimierz'}
 
-          title={'SESJA ZDJĘCIOWA PARK W MOGILANACH, ZAKRZÓWEK i KAZIMIERZ - JULIA i PIOTREK'}
+          title={'SESJA ZDJĘCIOWA PARK W MOGILANACH, ZAKRZÓWEK i KAZIMIERZ - JULIA i PIOTR'}
           tags={'park w mogilanach,plener ślubny zakrzówek,sesja ślubna kazimierz'}
           date={'16 sierpnia 2017'}
 
-          menuNames={'JULIA i PIOTREK'}
+          menuNames={'JULIA i PIOTR'}
           menuTitle={'SESJA ZDJĘCIOWA PARK W MOGILANACH, ZAKRZÓWEK i KAZIMIERZ'}
 
           leadNames={'IWONA i MARCIN'}

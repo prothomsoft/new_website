@@ -7,6 +7,7 @@ export default class BlogPageComponent extends React.Component {
     }];
 
     let images = [
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0135.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0001.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0002.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0003.jpg", height: 763 },
@@ -135,8 +136,7 @@ export default class BlogPageComponent extends React.Component {
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0128.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0130.jpg", height: 383 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0132.jpg", height: 763 },
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0133.jpg", height: 763 },
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0135.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0133.jpg", height: 763 },      
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0136.jpg", height: 850 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/99FOTOPL_SPP_002.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/08/fotograf_na_wesele_naprawa_jordanow_0138.jpg", height: 850 },

@@ -7,6 +7,7 @@ export default class BlogPageComponent extends React.Component {
     }];
 
     let images = [
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0131.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/dom_weselny_babie_lato_gdow_0156.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0002.jpg", height: 383 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0005.jpg", height: 763 },
@@ -129,8 +130,7 @@ export default class BlogPageComponent extends React.Component {
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0127.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0128.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0129.jpg", height: 763 },
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0130.jpg", height: 763 },
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0131.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0130.jpg", height: 763 },      
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0132.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0134.jpg", height: 763 },
       { imageSrc: "http://99foto.pl/wp-content/uploads/2017/05/babie_lato_gdow_0135.jpg", height: 763 },
