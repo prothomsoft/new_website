@@ -3,34 +3,62 @@ import Blogpage from '../components/blogpage'
 export default class BlogPageComponent extends React.Component {
   render() {
     let slide = [{
-      imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+      imageUrl: "/static/angelika-i-dawid-plener-slubny-zamek-pieskowa-skala_start.jpg"
     }];
 
     let images = [
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0001.jpg", height: 763 },      
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0024.jpg", height: 762 }
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0001.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0002.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0003.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0004.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0008.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0005.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0006.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0007.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0009.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0011.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0010.jpg", height: 382 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0030.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0013.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0015.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0014.jpg", height: 853 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0016.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0018.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0017.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0019.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0020.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0021.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0024.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0028.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0023.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0026.jpg", height: 806 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0025.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0027.jpg", height: 805 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0029.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0022.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/08/plener_slubny_zamek_pieskowa_skala_0012.jpg", height: 763 }
     ];
 
     return (
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Sesja ślubna Strbskie Pleso, Popradzki Staw, Słowacja'}
-          headDescription={'Iwona i Marcin w idealnie wybrany dzień. Słowackie góry Strbskie Pleso, Popradzki Staw. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej.'}
-          headKeywords={'sesja ślubna słowacja,plener strbskie pleso,popradzki staw zdjęcia ślubne'}
-          headUrl={'http://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/'}
+          headTitle={'Plener ślubny w Zamku Pieskowa Skała'}
+          headDescription={'Długi weekend w Krakowie? Na pewno warto zobaczyć Zamek w Pieskowej Skale. Serdecznie zapraszam na sesję ślubną Angeliki i Dawida. TAK weszliśmy do środka...'}
+          headKeywords={'plener ślubny kraków,sesja ślubna kraków'}
+          headUrl={'http://99foto.pl/angelika-i-dawid-plener-slubny-zamek-pieskowa-skala/'}
 
-          entryContentP1={'Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw.'}
-          entryContentP2={'Mniej ludzi, malownicze jezioro, ogromne góry, dużo świetnych kadrów do wypatrzenia. W drodze powrotnej zrobiliśmy też kilka zdjęć w lesie. Końcówka to szukanie dwóch kamieni z kadru <a href="http://marcinsosnicki.pl" target="_blank">Marcina Sośnickiego</a> i zachwyt nad jesienią oświetloną promieniami zachodzącego słońca. Na koniec zjedliśmy pyszny obiadek w Tatrzańskiej Łomnicy, zrelaksowani i zadowoleni wróciliśmy do naszych domów. Polecam to miejsce na plenery i mam nadzieję, że każdego roku znajdzie się jedna para, która mnie tam zabierze. Miłego oglądania.'}
+          entryContentP1={'Po raz kolejny na moim blogu proponuję sesję ślubną w okolicach Krakowa i mam nadzieję razem z Angeliką i Dawidem udowadniamy, że żeby zrobić fajne zdjęcia nie trzeba jechać na koniec świata. Tym razem poszliśmy krok dalej. Odwiedziliśmy nie tylko herkulesowe okolice ale weszliśmy na zdjęcia do środka Zamku w Pieskowej Skale. Odnowione i oddane do użytku krużganki, pilnie strzeżone przez trzech dzielnych Panów Strażników (wciąż mniej niż trawa na Wawelu) i piękne ogrody, w których pojawiliśmy się razem z promieniami zachodzącego słońca, pomogły nam zrobić całkiem dobre foty. Angelika dzielnie wspinała się w butach ślubnych, które jednak całą sesję przetrwały.'}
+          entryContentP2={'Zadaniem Dawida było zaś rozśmieszanie już żonki, nagradzane buziakami, których podczas sesji było bardzo bardzo dużo. Tak więc podczas gdy Angelika z Dawidem pewnie jeszcze odsypiają wczorajszego grilla, który zakończył sezon urlopowy, ja serdecznie zapraszam do oglądania zdjęć z ich sesji ślubnej. Kilka więcej też fajnych znajdziecie w strefie klienta po podaniu hasła.'}
 
-          slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'}
+          slug={'angelika-i-dawid-plener-slubny-zamek-pieskowa-skala'}
 
-          title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'}
-          tags={'plener strbskie pleso, popradzki staw zdjęcia ślubne, sesja ślubna Słowacja'}
-          date={'3 listopada 2017'}
+          title={'PLENER ŚLUBNY ZAMEK PIESKOWA SKAŁA - ANGELIKA i DAWID'}
+          tags={'plener ślubny kraków,sesja ślubna kraków'}
+          date={'15 sierpnia 2016'}
 
-          menuNames={'IWONA I MARCIN'}
-          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          menuNames={'ANGELIKA i DAWID'}
+          menuTitle={'PLENER ŚLUBNY ZAMEK PIESKOWA SKAŁA'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}

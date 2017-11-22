@@ -50,9 +50,6 @@ module.exports = {
         '/natalia-i-marcin-sesja-slubna-pieskowa-skala-i-ojcow': { page: '/natalia-i-marcin-sesja-slubna-pieskowa-skala-i-ojcow' },        
         '/sabina-i-wiesiek-zdjecia-slubne-dworek-fantazja-skomielna-biala': { page: '/sabina-i-wiesiek-zdjecia-slubne-dworek-fantazja-skomielna-biala' },
         '/kinga-i-sebastian-sesja-slubna-park-zamkowy-zywiec': { page: '/kinga-i-sebastian-sesja-slubna-park-zamkowy-zywiec' },        
-
-        
-        
         '/kinga-i-sebastian-reportaz-slubny-wadowice-chocznia-i-radocza': { page: '/kinga-i-sebastian-reportaz-slubny-wadowice-chocznia-i-radocza' },
         '/natalia-marcin-i-maja-reportaz-slubny-gosciniec-branicki': { page: '/natalia-marcin-i-maja-reportaz-slubny-gosciniec-branicki' },
         '/julita-i-pawel-reportaz-slubny-kosciol-na-skalce-krakow': { page: '/julita-i-pawel-reportaz-slubny-kosciol-na-skalce-krakow' },
@@ -76,7 +73,6 @@ module.exports = {
         '/ania-i-krzysiek-zdjecia-slubne-w-domu-weselnym-u-niedzwiedzia': { page: '/ania-i-krzysiek-zdjecia-slubne-w-domu-weselnym-u-niedzwiedzia' },
         '/kasia-i-dariusz-zdjecia-slubne-w-domu-weselnym-willa-podlesie': { page: '/kasia-i-dariusz-zdjecia-slubne-w-domu-weselnym-willa-podlesie' },
         '/natalia-i-dariusz-zdjecia-slubne-w-domu-weselnym-gosciniec-branicki-2': { page: '/natalia-i-dariusz-zdjecia-slubne-w-domu-weselnym-gosciniec-branicki-2' },
-        '/dorota-i-piotr-slub-w-sanktuarium-jana-pawla-ii-lagiewniki': { page: '/dorota-i-piotr-slub-w-sanktuarium-jana-pawla-ii-lagiewniki' },
         '/gabrysia-i-kuba-zdjecia-slubne-w-folwark-stara-winiarnia': { page: '/gabrysia-i-kuba-zdjecia-slubne-w-folwark-stara-winiarnia' },
         '/kasia-i-pawel-zdjecia-slubne-w-hotelu-ferro-express-krakow': { page: '/kasia-i-pawel-zdjecia-slubne-w-hotelu-ferro-express-krakow' },
         '/krakowska-sesja-poslubna-renaty-i-jacka': { page: '/krakowska-sesja-poslubna-renaty-i-jacka' },
@@ -93,15 +89,14 @@ module.exports = {
         '/agata-i-mateusz-dwor-w-tomaszowicach-zamek-w-korzkwi-i-ojcow': { page: '/agata-i-mateusz-dwor-w-tomaszowicach-zamek-w-korzkwi-i-ojcow' },
         '/agata-i-mateusz-zdjecia-slubne-w-restauracji-ptaszyl-na-kazimierzu': { page: '/agata-i-mateusz-zdjecia-slubne-w-restauracji-ptaszyl-na-kazimierzu' },
         '/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala': { page: '/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala' },
-        '/aga-i-piotrek-sesja-poslubna-kopiec-kosciuszki-i-kazimierz': { page: '/aga-i-piotrek-sesja-poslubna-kopiec-kosciuszki-i-kazimierz' },
-        '/iga-i-marcin-sesja-poslubna-kazimierz-krakow': { page: '/iga-i-marcin-sesja-poslubna-kazimierz-krakow' },
-        '/monika-i-marek-sesja-narzeczenska-zawadka-tokarnia-jordanow': { page: '/monika-i-marek-sesja-narzeczenska-zawadka-tokarnia-jordanow' },
+        '/iga-i-marcin-sesja-poslubna-kazimierz-krakow': { page: '/iga-i-marcin-sesja-poslubna-kazimierz-krakow' },        
         '/magda-i-lucjan-zdjecia-slubne-w-restauracji-magnolia-budzow': { page: '/magda-i-lucjan-zdjecia-slubne-w-restauracji-magnolia-budzow' },
-        '/sesja-poslubna-wiolety-i-marcina-mogilany-i-kazimierz': { page: '/sesja-poslubna-wiolety-i-marcina-mogilany-i-kazimierz' },
-        '/aga-i-piotrek-zdjecia-slubne-dom-weselny-karolina-bystra-podhalanska': { page: '/aga-i-piotrek-zdjecia-slubne-dom-weselny-karolina-bystra-podhalanska' },
+        '/sesja-poslubna-wiolety-i-marcina-mogilany-i-kazimierz': { page: '/sesja-poslubna-wiolety-i-marcina-mogilany-i-kazimierz' },        
+        
+        
+        
         '/iga-i-marcin-zdjecia-slubne-kosciol-skomielna-czarna': { page: '/iga-i-marcin-zdjecia-slubne-kosciol-skomielna-czarna' },
-        '/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj': { page: '/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj' },
-        '/fotoksiazka-printu-marty-i-piotra-razy-dwa': { page: '/fotoksiazka-printu-marty-i-piotra-razy-dwa' },
+        '/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj': { page: '/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj' },        
         '/ulubione-wakacyjne-kadry': { page: '/ulubione-wakacyjne-kadry' }
       }
     }

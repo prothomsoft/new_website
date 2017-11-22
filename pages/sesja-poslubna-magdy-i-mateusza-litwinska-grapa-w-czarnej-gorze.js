@@ -3,34 +3,56 @@ import Blogpage from '../components/blogpage'
 export default class BlogPageComponent extends React.Component {
   render() {
     let slide = [{
-      imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+      imageUrl: "/static/sesja_poslubna_magdy_i_mateusza_litwinska_grapa_w-czarnej_gorze_start.jpg"
     }];
 
     let images = [
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0001.jpg", height: 763 },      
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0024.jpg", height: 762 }
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0003.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0001.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0002.jpg", height: 464 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0019.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0004.jpg", height: 566 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0006.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0007.jpg", height: 850 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0008.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0026.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0015.jpg", height: 850 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0016.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0009.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0010.jpg", height: 383 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0013.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0012.jpg", height: 850 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0024.jpg", height: 479 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0017.jpg", height: 850 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0018.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0005.jpg", height: 850 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0020.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0022.jpg", height: 850 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0023.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0025.jpg", height: 566 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/05/plener_poslubny_gora_chelm_0011.jpg", height: 763 }
     ];
 
     return (
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Sesja ślubna Strbskie Pleso, Popradzki Staw, Słowacja'}
-          headDescription={'Iwona i Marcin w idealnie wybrany dzień. Słowackie góry Strbskie Pleso, Popradzki Staw. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej.'}
-          headKeywords={'sesja ślubna słowacja,plener strbskie pleso,popradzki staw zdjęcia ślubne'}
-          headUrl={'http://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/'}
+          headTitle={'Sesja ślubna Litwińska Grapa w Czarnej Górze'}
+          headDescription={'Litwińska Grapa w Czarnej Górze - na ten punkt widokowy w okolicach Nowego Targu zapraszam razem z Magdą i Mateuszem.'}
+          headKeywords={'sesja ślubna kraków,plener ślubny kraków'}
+          headUrl={'http://99foto.pl/sesja-poslubna-magdy-i-mateusza-litwinska-grapa-w-czarnej-gorze/'}
 
-          entryContentP1={'Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw.'}
-          entryContentP2={'Mniej ludzi, malownicze jezioro, ogromne góry, dużo świetnych kadrów do wypatrzenia. W drodze powrotnej zrobiliśmy też kilka zdjęć w lesie. Końcówka to szukanie dwóch kamieni z kadru <a href="http://marcinsosnicki.pl" target="_blank">Marcina Sośnickiego</a> i zachwyt nad jesienią oświetloną promieniami zachodzącego słońca. Na koniec zjedliśmy pyszny obiadek w Tatrzańskiej Łomnicy, zrelaksowani i zadowoleni wróciliśmy do naszych domów. Polecam to miejsce na plenery i mam nadzieję, że każdego roku znajdzie się jedna para, która mnie tam zabierze. Miłego oglądania.'}
+          entryContentP1={'Ślub Magdy i Mateusza odbył się w <a href="http://rancholot.pl/" target="_blank">Domu Weselnym Rancho Lot</a> w Nowym Targu. Goście weselni jadąc w dniu ślubu z Jordanowa, wspominanym już na blogu krakowskim autobusem miejskim, mieli niepowtarzalną okazję podziwiać wspaniały widok na Tatry. Postanowiliśmy więc pójść za ciosem i na plener ślubny wybrać się również w tamte okolice. Plan pleneru został zatwierdzony dzień wcześniej i poparty praktycznymi poszukiwaniami fajnych miejsc. Zaczęliśmy od punktu widokowego Litwińska Grapa w Czarnej Górze. Wyraziste chmury, umiarkowane słońce plus oczywiście filtry polaryzacyjny i połówkowy pozwoliły nam skopiować panujące warunki na ciąg zero jedynkowych wartości w pliku RAW.'}
+          entryContentP2={'Staraliśmy się ograniczyć pozowanie do minimum. Silny wiatr skutecznie wyeliminował parasolkę i pozostawił nas zdanych na światło słoneczne odbite blendą. Z ciekawostek to Czarna Góra jest ulubionym miejscem spotkań lotniarzy i modelarzy, którzy co roku przeprowadzają Zawody Makiet Szybowców. W 2000 roku dla uczczenia II Tysiąclecia Chrześcijaństwa na wierzchołku góry postawiono Krzyż Milenijny na wzór Krzyża wzniesionego przed stu laty na Giewoncie. Co dalej? &#8230; udaliśmy się na <a href="http://www.aeroklub.nowytarg.pl/" target="_blank">lotnisko w Nowym Targu</a>, które moim zdaniem miałoby równie duży potencjał jako pole golfowe. I ostatnie miejsce plenerowe tego wieczoru &#8211; okolice <a href="http://rancholot.pl/" target="_blank">Domu Weselnego Rancho Lot</a>, gdzie łapaliśmy ostatnie promienie zachodzącego słońca. Miłego oglądania.'}
 
-          slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'}
+          slug={'sesja-poslubna-magdy-i-mateusza-litwinska-grapa-w-czarnej-gorze'}
 
-          title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'}
-          tags={'plener strbskie pleso, popradzki staw zdjęcia ślubne, sesja ślubna Słowacja'}
-          date={'3 listopada 2017'}
+          title={'SESJA ŚLUBNA LITWIŃSKA GRAPA W CZARNEJ GÓRZE - MAGDA i MATEUSZ'}
+          tags={'sesja ślubna kraków,plener ślubny kraków'}
+          date={'24 maja 2016'}
 
-          menuNames={'IWONA I MARCIN'}
-          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          menuNames={'MAGDA i MATEUSZ'}
+          menuTitle={'SESJA ŚLUBNA LITWIŃSKA GRAPA W CZARNEJ GÓRZE'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}

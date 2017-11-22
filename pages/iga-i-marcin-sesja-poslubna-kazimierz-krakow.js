@@ -3,34 +3,59 @@ import Blogpage from '../components/blogpage'
 export default class BlogPageComponent extends React.Component {
   render() {
     let slide = [{
-      imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+      imageUrl: "/static/iga_i_marcin_sesja_poslubna_kazimierz_krakow_start.jpg"
     }];
 
     let images = [
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0001.jpg", height: 763 },      
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0024.jpg", height: 762 }
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0001.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0002.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0003.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0004.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0005.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0006.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0007.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0008.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0009.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0010.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0017.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0011.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0012.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0013.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0014.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0015.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0016.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0018.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0019.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0020.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0021.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0023.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0022.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0025.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0026.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0024.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0027.jpg", height: 762 }
     ];
 
     return (
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Sesja ślubna Strbskie Pleso, Popradzki Staw, Słowacja'}
-          headDescription={'Iwona i Marcin w idealnie wybrany dzień. Słowackie góry Strbskie Pleso, Popradzki Staw. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej.'}
-          headKeywords={'sesja ślubna słowacja,plener strbskie pleso,popradzki staw zdjęcia ślubne'}
-          headUrl={'http://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/'}
+          headTitle={'Sesja ślubna Kazimierz Kraków'}
+          headDescription={'Kościół na Skałce, Wawel, spacer bulwarami Wiślanymi i Kazimierz. W każdym miejscu kilka fajnych zdjęć Igi i Marcina. Zapraszam do oglądania.'}
+          headKeywords={'sesja ślubna kazimierz,zdjęcia ślubne na wawelu,fotograf na ślub kraków'}
+          headUrl={'http://99foto.pl/iga-i-marcin-sesja-poslubna-kazimierz-krakow/'}
 
-          entryContentP1={'Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw.'}
-          entryContentP2={'Mniej ludzi, malownicze jezioro, ogromne góry, dużo świetnych kadrów do wypatrzenia. W drodze powrotnej zrobiliśmy też kilka zdjęć w lesie. Końcówka to szukanie dwóch kamieni z kadru <a href="http://marcinsosnicki.pl" target="_blank">Marcina Sośnickiego</a> i zachwyt nad jesienią oświetloną promieniami zachodzącego słońca. Na koniec zjedliśmy pyszny obiadek w Tatrzańskiej Łomnicy, zrelaksowani i zadowoleni wróciliśmy do naszych domów. Polecam to miejsce na plenery i mam nadzieję, że każdego roku znajdzie się jedna para, która mnie tam zabierze. Miłego oglądania.'}
+          entryContentP1={'Iga i Marcin w czasach studenckich mieszkali na ulicy Paulińskiej, dlatego też z tego miejsca rozpoczęliśmy naszą wyprawę po Krakowie. Kościół na Skałce, wspinaczka na Wawel i tam kilka fotek, a następnie prosto na Kazimierz, gdzie odwiedziliśmy Stajnię, Mleczarnie, Qulinaria, Starą Zajezdnię i Kładkę Bernatkę, każde miejsce inne i ciekawe do fotografowania.'}
+          entryContentP2={'Przed słońcem chroniły nas delikatne chmurki i lekki wiatr, więc pogoda była idealna. W drodze powrotnej zahaczyliśmy nawet o zachód słońca. Było very nice i staraliśmy się utrzymać dynamizm akcji w trakcie całej sesji &#8211; dużo biegów bo Marcin to AWF-owiec. Oglądając zdjęcia możecie sami zobaczyć i ocenić czy nasz plan udało się zrealizować. Miłego oglądania !!!'}
 
-          slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'}
+          slug={'iga-i-marcin-sesja-poslubna-kazimierz-krakow'}
 
-          title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'}
-          tags={'plener strbskie pleso, popradzki staw zdjęcia ślubne, sesja ślubna Słowacja'}
-          date={'3 listopada 2017'}
+          title={'SESJA ŚLUBNA KAZIMIERZ KRAKÓW - IGA i MARCIN'}
+          tags={'sesja ślubna kazimierz,zdjęcia ślubne na wawelu,fotograf na ślub kraków'}
+          date={'6 lipca 2015'}
 
-          menuNames={'IWONA I MARCIN'}
-          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          menuNames={'IGA i MARCIN'}
+          menuTitle={'SESJA ŚLUBNA KAZIMIERZ KRAKÓW'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}

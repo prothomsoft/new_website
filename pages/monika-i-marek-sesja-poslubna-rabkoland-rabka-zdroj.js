@@ -3,34 +3,53 @@ import Blogpage from '../components/blogpage'
 export default class BlogPageComponent extends React.Component {
   render() {
     let slide = [{
-      imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+      imageUrl: "/static/monika_i_marek_sesja_poslubna_rabkoland_rabka_zdroj_start.jpg"
     }];
 
     let images = [
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0001.jpg", height: 763 },      
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0024.jpg", height: 762 }
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0008.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0001.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0002.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0003.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0004.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0014.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0005.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0006.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0007.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0011.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0021.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0009.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0013.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0012.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0015.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0016.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0017.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0018.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0020.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0019.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rabkoland_0022.jpg", height: 762 }
     ];
 
     return (
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Sesja ślubna Strbskie Pleso, Popradzki Staw, Słowacja'}
-          headDescription={'Iwona i Marcin w idealnie wybrany dzień. Słowackie góry Strbskie Pleso, Popradzki Staw. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej.'}
-          headKeywords={'sesja ślubna słowacja,plener strbskie pleso,popradzki staw zdjęcia ślubne'}
+          headTitle={'Sesja ślubna Rabkoland - Rabka Zdrój'}
+          headDescription={'Czy magiczne miasteczko Rabkoland to miejsce odpowiednie na sesję poślubną? Koniecznie sprawdźcie na moim blogu. Zapraszam w imieniu Marka i Moniki.'}
+          headKeywords={'plener poślubny rabkoland,zdjęcia ślubne wesołe miasteczko,fotograf na wesele rabka zdrój'}
           headUrl={'http://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/'}
 
-          entryContentP1={'Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw.'}
-          entryContentP2={'Mniej ludzi, malownicze jezioro, ogromne góry, dużo świetnych kadrów do wypatrzenia. W drodze powrotnej zrobiliśmy też kilka zdjęć w lesie. Końcówka to szukanie dwóch kamieni z kadru <a href="http://marcinsosnicki.pl" target="_blank">Marcina Sośnickiego</a> i zachwyt nad jesienią oświetloną promieniami zachodzącego słońca. Na koniec zjedliśmy pyszny obiadek w Tatrzańskiej Łomnicy, zrelaksowani i zadowoleni wróciliśmy do naszych domów. Polecam to miejsce na plenery i mam nadzieję, że każdego roku znajdzie się jedna para, która mnie tam zabierze. Miłego oglądania.'}
+          entryContentP1={'Monikę i Marka poznaliście już na <a href="http://99foto.pl/monika-i-marek-sesja-narzeczenska-zawadka-tokarnia-jordanow/" target="_blank">sesji narzeczeńskiej</a> w Zawadce, przypominam miejscu idealnym na wycieczkę rowerową i <a href="http://99foto.pl/monika-i-marek-zdjecia-slubne-dworek-fantazja-skomielna-biala/" target="_blank">ślubie</a>, który odbył się w Dworku Fantazja w Skomielnej Białej. Plener poślubny początkowo planowaliśmy zrobić w <a href="http://skansen.bystra-sidzina.net/" target="_blank">Skansenie Bystra-Sidzina</a>, ale Monika zgodziła się na moją propozycję i w poszukiwaniu kolorów wybraliśmy się do <a href="http://www.rabkoland.pl/" target="_blank">Rabkolandu</a>.'}
+          entryContentP2={'Kilka minut przed wejściem na plac zabaw odbyliśmy jeszcze sentymentalną podróż do Dworku Fantazja, gdzie po starej znajomości wykorzystaliśmy równie jak dworek fantyzyjny ogród. Humory dopisywały i była to sesja, na której bardzo się razem pośmialiśmy. Dobre humory Marka i Moni widać też na zdjęciach, a niedzielne popołudnie zostało dobrze wykorzystane. Miłego oglądania.'}
 
           slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'}
 
-          title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'}
-          tags={'plener strbskie pleso, popradzki staw zdjęcia ślubne, sesja ślubna Słowacja'}
-          date={'3 listopada 2017'}
+          title={'SESJA ŚLUBNA RABKOLAND - RABKA ZDRÓJ - MONIKA i MAREK'}
+          tags={'plener poślubny rabkoland,zdjęcia ślubne wesołe miasteczko,fotograf na wesele rabka zdrój'}
+          date={'22 września 2015'}
 
-          menuNames={'IWONA I MARCIN'}
-          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          menuNames={'MONIKA i MAREK'}
+          menuTitle={'SESJA ŚLUBNA RABKOLAND - RABKA ZDRÓJ'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}

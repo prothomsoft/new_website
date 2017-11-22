@@ -3,34 +3,59 @@ import Blogpage from '../components/blogpage'
 export default class BlogPageComponent extends React.Component {
   render() {
     let slide = [{
-      imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+      imageUrl: "/static/natalia_i_darek_sesja_slubna_krakow_i_pieskowa_skala_start.jpg"
     }];
 
     let images = [
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0001.jpg", height: 763 },      
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0024.jpg", height: 762 }
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/99FOTOPL_SPP_066.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0001.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/99FOTOPL_SPP_101.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0020.jpg", height: 527 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0003.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0004.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0005.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0009.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0007.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0008.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0010.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/99FOTOPL_SPP_076.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0013.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0012.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0014.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0015.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0016.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0017.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0018.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0021.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0024.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0025.jpg", height: 527 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0019.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0026.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0027.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0028.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2016/06/plener_slubny_krakow_0002.jpg", height: 762 }
     ];
 
     return (
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Sesja ślubna Strbskie Pleso, Popradzki Staw, Słowacja'}
-          headDescription={'Iwona i Marcin w idealnie wybrany dzień. Słowackie góry Strbskie Pleso, Popradzki Staw. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej.'}
-          headKeywords={'sesja ślubna słowacja,plener strbskie pleso,popradzki staw zdjęcia ślubne'}
-          headUrl={'http://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/'}
+          headTitle={'Sesja ślubna Pieskowa Skała'}
+          headDescription={'Pachnący nowością po remoncie Zamek w Pieskowej Skale oraz gram Kazimierza. Serdecznie zapraszam na plener ślubny Natalii i Darka. Miłego oglądania.'}
+          headKeywords={'sesja ślubna pieskowa skała,plener ślubny kraków'}
+          headUrl={'http://99foto.pl/natalia-i-darek-sesja-slubna-krakow-i-pieskowa-skala/'}
 
-          entryContentP1={'Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw.'}
-          entryContentP2={'Mniej ludzi, malownicze jezioro, ogromne góry, dużo świetnych kadrów do wypatrzenia. W drodze powrotnej zrobiliśmy też kilka zdjęć w lesie. Końcówka to szukanie dwóch kamieni z kadru <a href="http://marcinsosnicki.pl" target="_blank">Marcina Sośnickiego</a> i zachwyt nad jesienią oświetloną promieniami zachodzącego słońca. Na koniec zjedliśmy pyszny obiadek w Tatrzańskiej Łomnicy, zrelaksowani i zadowoleni wróciliśmy do naszych domów. Polecam to miejsce na plenery i mam nadzieję, że każdego roku znajdzie się jedna para, która mnie tam zabierze. Miłego oglądania.'}
+          entryContentP1={'Zdjęcia Natalii i Darka mieliście już okazję oglądać przy okazji <a href="http://99foto.pl/natalia-i-dariusz-zdjecia-slubne-w-domu-weselnym-gosciniec-branicki-2/" target="_blank">ich ślubu</a>, który odbył się w <a href="http://gosciniec-branicki.pl/" target="_blank">Domu Weselnym Gościniec Branicki</a> już chwilę temu. Nadszedł czas na kilka zdjęć z pleneru. Początkowo planowaliśmy zrobić zdjęcia w Oświęcimiu, wykorzystując wiosenne okoliczności przyrody, jednak w końcu zdecydowaliśmy się na naprawdę świetne miejsce jakim jest położony niedaleko od Krakowa, pachnący nowością po remoncie <a href="http://pieskowaskala.eu/" target="_blank">Zamek w Pieskowej Skale</a>. Mieliśmy świetną pogodę i wymarzone dla zdjęć światło.'}
+          entryContentP2={'Tym razem nie po raz pierwszy zdjęcia robiły się same. Natalia i Darek świetnie sprawdzili się w roli modeli, pełny luz, dużo uśmiechu i oczywiście jak to na sesji ślubnej buziaków. Naszą sesję plenerową kontynuowaliśmy w Krakowie. Do wyboru był Rynek Główny, Wawel i Kazimierz &#8211; bez wahania wybraliśmy Kazimierz. Na Kazimierzu odwiedziliśmy Kładkę Bernadkę, Starą Zajezdnię, Pub Stajnię i restaurację <a href="http://www.placnowy1.pl/" target="_blank">Plac Nowy 1</a>. Na koniec obgadaliśmy plany na Światowy Dzień Młodzieży i wyruszyliśmy do domów. Miłego oglądania.'}
 
-          slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'}
+          slug={'natalia-i-darek-sesja-slubna-krakow-i-pieskowa-skala'}
 
-          title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'}
-          tags={'plener strbskie pleso, popradzki staw zdjęcia ślubne, sesja ślubna Słowacja'}
-          date={'3 listopada 2017'}
+          title={'SESJA ŚLUBNA KRAKÓW I PIESKOWA SKAŁA - NATALIA i DAREK'}
+          tags={'sesja ślubna pieskowa skała,plener ślubny kraków'}
+          date={'14 czerwca 2016'}
 
-          menuNames={'IWONA I MARCIN'}
-          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          menuNames={'NATALIA i DAREK'}
+          menuTitle={'SESJA ŚLUBNA KRAKÓW I PIESKOWA SKAŁA'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}

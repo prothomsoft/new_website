@@ -3,34 +3,55 @@ import Blogpage from '../components/blogpage'
 export default class BlogPageComponent extends React.Component {
   render() {
     let slide = [{
-      imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+      imageUrl: "/static/aga_i_michal_sesja_poslubna_wawel_rynek_krakow_start.jpg"
     }];
 
     let images = [
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0001.jpg", height: 763 },      
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0024.jpg", height: 762 }
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0003.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0002.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0001.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0004.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0005.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0006.jpg", height: 852 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0007.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0008.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0010.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0009.jpg", height: 762 },      
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0011.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0012.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0013.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0014.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0015.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0016.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0017.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0018.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0019.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0020.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0021.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0022.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/99FOTOPL_SPM_087.jpg", height: 763 }
     ];
 
     return (
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Sesja ślubna Strbskie Pleso, Popradzki Staw, Słowacja'}
-          headDescription={'Iwona i Marcin w idealnie wybrany dzień. Słowackie góry Strbskie Pleso, Popradzki Staw. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej.'}
-          headKeywords={'sesja ślubna słowacja,plener strbskie pleso,popradzki staw zdjęcia ślubne'}
-          headUrl={'http://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/'}
+          headTitle={'Sesja zdjęciowa Kraków Rynek'}
+          headDescription={'Plener ślubny na Krakowskim Rynku, zdjęcia ślubne Wawel. Zapraszam do oglądania.'}
+          headKeywords={'plener ślubny krakowski rynek,zdjęcia ślubne wawel'}
+          headUrl={'http://99foto.pl/aga-i-michal-sesja-poslubna-wawel-rynek-krakow/'}
 
-          entryContentP1={'Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw.'}
-          entryContentP2={'Mniej ludzi, malownicze jezioro, ogromne góry, dużo świetnych kadrów do wypatrzenia. W drodze powrotnej zrobiliśmy też kilka zdjęć w lesie. Końcówka to szukanie dwóch kamieni z kadru <a href="http://marcinsosnicki.pl" target="_blank">Marcina Sośnickiego</a> i zachwyt nad jesienią oświetloną promieniami zachodzącego słońca. Na koniec zjedliśmy pyszny obiadek w Tatrzańskiej Łomnicy, zrelaksowani i zadowoleni wróciliśmy do naszych domów. Polecam to miejsce na plenery i mam nadzieję, że każdego roku znajdzie się jedna para, która mnie tam zabierze. Miłego oglądania.'}
+          entryContentP1={'Kraków i jego najbardziej znane miejsce na plener czyli Rynek i Wawel przez wielu określane są mianem miejsc oklepanych. Dlatego też młodzi najczęściej mało entuzjastycznie przyjmują propozycję sesji ślubnej właśnie tam. Tymczasem wędrując przez Kraków z aparatem można odkryć wiele ciekawych zakamarków, co więcej dysponując odrobiną czasu i wychodząc ze strefy komfortu w poszukiwaniu nowych ujęć, można odkryć nowe kadry i ciekawe miejsca. Mam nadzieję, że było dokładnie tak i tym razem.'}
+          entryContentP2={'Agnieszka i Michał wychowali się w Krakowie, a na Wawelu spędzali swój szkolny wolny czas i bardzo się cieszę, że pomimo tego krakowski Rynek i Wawel był dla nich wciąż atrakcyjnym, a momentami może nawet sentymentalnym miejscem na plener. Spacer rozpoczęliśmy od Teatru Słowackiego skąd przez Rynek dotarliśmy do Wawelu. Zapraszam na zdjęcia i miłego oglądania.'}
 
-          slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'}
+          slug={'aga-i-michal-sesja-poslubna-wawel-rynek-krakow'}
 
-          title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'}
-          tags={'plener strbskie pleso, popradzki staw zdjęcia ślubne, sesja ślubna Słowacja'}
-          date={'3 listopada 2017'}
+          title={'SESJA ŚLUBNA WAWEL RYNEK KRAKÓW - AGNIESZKA i MICHAŁ'}
+          tags={'plener ślubny krakowski rynek,zdjęcia ślubne wawel'}
+          date={'27 września 2015'}
 
-          menuNames={'IWONA I MARCIN'}
-          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          menuNames={'AGNIESZKA i MICHAŁ'}
+          menuTitle={'SESJA ŚLUBNA WAWEL RYNEK KRAKÓW'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}

@@ -3,34 +3,71 @@ import Blogpage from '../components/blogpage'
 export default class BlogPageComponent extends React.Component {
   render() {
     let slide = [{
-      imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+      imageUrl: "/static/ulubione_wakacyjne_kadry_start.jpg"
     }];
 
     let images = [
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0001.jpg", height: 763 },      
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0024.jpg", height: 762 }
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0000.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0001.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0002.jpg", height: 790 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0003.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0004.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0005.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0006.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0007.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0008.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0009.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0010.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0011.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0012.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0013.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0014.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0015.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0016.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0017.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0018.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0019.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0020.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0021.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0022.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0023.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0024.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0025.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0026.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0027.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0028.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0029.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0030.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0031.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0032.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0033.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0034.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0035.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0036.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0037.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2014/09/ulubione_wakacyjne_kadry_0038.jpg", height: 763 }
     ];
 
     return (
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Sesja ślubna Strbskie Pleso, Popradzki Staw, Słowacja'}
-          headDescription={'Iwona i Marcin w idealnie wybrany dzień. Słowackie góry Strbskie Pleso, Popradzki Staw. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej.'}
-          headKeywords={'sesja ślubna słowacja,plener strbskie pleso,popradzki staw zdjęcia ślubne'}
-          headUrl={'http://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/'}
+          headTitle={'Zdjęcia rodzinne Kraków'}
+          headDescription={'Zdjęcia rodzinne z wakacji. Miłego oglądania.'}
+          headKeywords={'fotograf rodzinny kraków, zdjęcia z wakacji'}
+          headUrl={'http://99foto.pl/ulubione-wakacyjne-kadry/'}
 
-          entryContentP1={'Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw.'}
-          entryContentP2={'Mniej ludzi, malownicze jezioro, ogromne góry, dużo świetnych kadrów do wypatrzenia. W drodze powrotnej zrobiliśmy też kilka zdjęć w lesie. Końcówka to szukanie dwóch kamieni z kadru <a href="http://marcinsosnicki.pl" target="_blank">Marcina Sośnickiego</a> i zachwyt nad jesienią oświetloną promieniami zachodzącego słońca. Na koniec zjedliśmy pyszny obiadek w Tatrzańskiej Łomnicy, zrelaksowani i zadowoleni wróciliśmy do naszych domów. Polecam to miejsce na plenery i mam nadzieję, że każdego roku znajdzie się jedna para, która mnie tam zabierze. Miłego oglądania.'}
+          entryContentP1={'Pierwszy etap naszej wyprawy to Wrocław. Przez moment mieliśmy już nie jechać dalej, gdyż wujek zorganizował plażę w pokoju jadalnym &#8211; był namiot, woda i nawet słońce. Misio zmienił fryzurę, a my zwiedziliśmy Halę Ludową, gdzie trwały przygotowania do koncertu Męskie Granie, Politechnikę i Plac Grunwaldzki. Pierwszy przystanek kolejnego etapu podróży to Malta (ta w Poznaniu). Dalej pojechaliśmy na Stare Drawsko podziwiać jeziora, które wcześniej oglądałem na google i zapowiadały się very nice. Do Dąbek wjechaliśmy o 19:30 prosto na plażę i prosto na zachód słońca.'}
+          entryContentP2={'Natomiast po ponad tygodniu poza domem, wyruszyliśmy liznąć wisienki na torcie, wydarzenia roku, ślubu Karoliny i Marka z wielką czekoladową fontanną. Po drodze, zatrzymaliśmy się w Borsku w restauracji Largo położonej nad brzegiem jeziora w lesie pełnym grzybów i prostych jak drut drzew. Wzruszenia, Michał świeczki w oczach non stop, dużo dobrej zabawy i dobrego masła z pierwszej ręki. I to już wszystkie zdjęcia z wakacji, dopiero za rok będzie więcej. Miłego oglądania.'}
 
-          slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'}
+          slug={'ulubione-wakacyjne-kadry'}
 
-          title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'}
-          tags={'plener strbskie pleso, popradzki staw zdjęcia ślubne, sesja ślubna Słowacja'}
+          title={'ULUBIONE WAKACYJNE KADRY - MICHAŁ i MARTUSIA'}
+          tags={'fotograf rodzinny kraków, zdjęcia z wakacji'}
           date={'3 listopada 2017'}
 
-          menuNames={'IWONA I MARCIN'}
-          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          menuNames={'MICHAŁ i MARTUSIA'}
+          menuTitle={'ULUBIONE WAKACYJNE KADRY'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}

@@ -3,34 +3,55 @@ import Blogpage from '../components/blogpage'
 export default class BlogPageComponent extends React.Component {
   render() {
     let slide = [{
-      imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+      imageUrl: "/static/pati_i_michal_sesja_poslubna_zamek_w_korzkwi_i_kladka_bernatka_start.jpg"
     }];
 
     let images = [
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0001.jpg", height: 763 },      
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0024.jpg", height: 762 }
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0001.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0002.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0003.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0004.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0005.jpg", height: 850 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0006.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0017.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0008.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0007.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0011.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0009.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0015.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0010.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0012.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0013.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0014.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0016.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0018.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0019.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0020.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0022.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0023.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_zamek_korzkiew_0021.jpg", height: 762 }
     ];
 
     return (
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Sesja ślubna Strbskie Pleso, Popradzki Staw, Słowacja'}
-          headDescription={'Iwona i Marcin w idealnie wybrany dzień. Słowackie góry Strbskie Pleso, Popradzki Staw. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej.'}
-          headKeywords={'sesja ślubna słowacja,plener strbskie pleso,popradzki staw zdjęcia ślubne'}
-          headUrl={'http://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/'}
+          headTitle={'Sesja ślubna Zamek w Korzkwi,  plener ślubny Kraków'}
+          headDescription={'Sesja ślubna Patrycji i Michała. Wybraliśmy się do Zamku w Korzkwi, a do Kładki Bernatki dotarliśmy idealnie na granicy zmroku. Zapraszam.'}
+          headKeywords={'plener ślubny kraków,zdjęcia ślubne kładka bernatka'}
+          headUrl={'http://99foto.pl/pati-i-michal-sesja-poslubna-zamek-w-korzkwi-i-kladka-bernatka/'}
 
-          entryContentP1={'Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw.'}
-          entryContentP2={'Mniej ludzi, malownicze jezioro, ogromne góry, dużo świetnych kadrów do wypatrzenia. W drodze powrotnej zrobiliśmy też kilka zdjęć w lesie. Końcówka to szukanie dwóch kamieni z kadru <a href="http://marcinsosnicki.pl" target="_blank">Marcina Sośnickiego</a> i zachwyt nad jesienią oświetloną promieniami zachodzącego słońca. Na koniec zjedliśmy pyszny obiadek w Tatrzańskiej Łomnicy, zrelaksowani i zadowoleni wróciliśmy do naszych domów. Polecam to miejsce na plenery i mam nadzieję, że każdego roku znajdzie się jedna para, która mnie tam zabierze. Miłego oglądania.'}
+          entryContentP1={'Patrycję i Michała już znacie z <a href="http://99foto.pl/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala/" target="_blank">sesji narzeczeńskiej</a> i <a href="http://99foto.pl/pati-i-michal-zdjecia-slubne-w-hotelu-turowka-wieliczka/" target="_blank">zdjęć ślubnych</a>. Tym razem spotkaliśmy się na sesji ślubnej w Krakowie. Początkowo chcieliśmy fotografować w Dworze Tomaszowice. Odbywała się tam jednak impreza firmowa dla najmłodszych, więc by uniknąć przeładowanych nieznajomymi ludźmi kadrów podjechaliśmy krok dalej do Zamku w Korzkwi.'}
+          entryContentP2={'Jak się okazało był to strzał w dziesiątkę, ponieważ trafiliśmy na dzień w którym nie odbywał się tam żaden ślub. Po kilku zdjęciach przenieśliśmy plan zdjęciowy na Kazimierz. Zaparkowaliśmy na gazowej i od razu zaatakowaliśmy Kładkę Bernatkę. Był to czas idealny, bo granica zmroku, z lekko granatowym niebem. W momencie gdy byliśmy na kładce zaświeciły się też światła na poręczach co otworzyło zupełnie nowe możliwości dla ciekawych mam nadzieję zdjęć. Miłego oglądania.'}
 
-          slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'}
+          slug={'pati-i-michal-sesja-poslubna-zamek-w-korzkwi-i-kladka-bernatka'}
 
-          title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'}
-          tags={'plener strbskie pleso, popradzki staw zdjęcia ślubne, sesja ślubna Słowacja'}
-          date={'3 listopada 2017'}
+          title={'SESJA ŚLUBNA ZAMEK W KORZKWI i KŁADKA BERNATKA - PATRYCJA i MICHAŁ'}
+          tags={'plener ślubny kraków,zdjęcia ślubne kładka bernatka'}
+          date={'17 września 2015'}
 
-          menuNames={'IWONA I MARCIN'}
-          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          menuNames={'PATRYCJA i MICHAŁ'}
+          menuTitle={'SESJA ŚLUBNA ZAMEK W KORZKWI i KŁADKA BERNATKA'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}

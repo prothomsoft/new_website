@@ -3,34 +3,58 @@ import Blogpage from '../components/blogpage'
 export default class BlogPageComponent extends React.Component {
   render() {
     let slide = [{
-      imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+      imageUrl: "/static/agata_i_mateusz_dwor_w_tomaszowicach_zamek_w_korzkwi_i_ojcow_start.jpg"
     }];
 
     let images = [
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0001.jpg", height: 763 },      
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0024.jpg", height: 762 }
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0001.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0004.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0002.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0003.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0005.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0006.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0007.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0009.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0010.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0008.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0012.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0013.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0011.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0014.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0015.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0016.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0018.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0017.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0019.jpg", height: 764 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0020.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0021.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0022.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0023.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0024.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0025.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0026.jpg", height: 763 }
     ];
 
     return (
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Sesja ślubna Strbskie Pleso, Popradzki Staw, Słowacja'}
-          headDescription={'Iwona i Marcin w idealnie wybrany dzień. Słowackie góry Strbskie Pleso, Popradzki Staw. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej.'}
-          headKeywords={'sesja ślubna słowacja,plener strbskie pleso,popradzki staw zdjęcia ślubne'}
-          headUrl={'http://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/'}
+          headTitle={'Sesja zdjęciowa Dwór Tomaszowice'}
+          headDescription={'Promienie zachodzącego słońca i trzy podkrakowskie miejsca plenerowe: Dwór w Tomaszowicach, zamki w Korzkwi i Ojcowie. Zapraszam na plener Agaty i Mateusza.'}
+          headKeywords={'plener poślubny dwór tomaszowice,plener ślubny zamek korzkiew,zdjęcia ślubne ojców'}
+          headUrl={'http://99foto.pl/agata-i-mateusz-dwor-w-tomaszowicach-zamek-w-korzkwi-i-ojcow/'}
 
           entryContentP1={'Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw.'}
           entryContentP2={'Mniej ludzi, malownicze jezioro, ogromne góry, dużo świetnych kadrów do wypatrzenia. W drodze powrotnej zrobiliśmy też kilka zdjęć w lesie. Końcówka to szukanie dwóch kamieni z kadru <a href="http://marcinsosnicki.pl" target="_blank">Marcina Sośnickiego</a> i zachwyt nad jesienią oświetloną promieniami zachodzącego słońca. Na koniec zjedliśmy pyszny obiadek w Tatrzańskiej Łomnicy, zrelaksowani i zadowoleni wróciliśmy do naszych domów. Polecam to miejsce na plenery i mam nadzieję, że każdego roku znajdzie się jedna para, która mnie tam zabierze. Miłego oglądania.'}
 
-          slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'}
+          slug={'agata-i-mateusz-dwor-w-tomaszowicach-zamek-w-korzkwi-i-ojcow'}
 
-          title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'}
-          tags={'plener strbskie pleso, popradzki staw zdjęcia ślubne, sesja ślubna Słowacja'}
-          date={'3 listopada 2017'}
+          title={'SESJA ŚLUBNA DWÓR W TOMASZOWICACH i OJCÓW - AGATA i MATEUSZ'}
+          tags={'plener poślubny dwór tomaszowice,plener ślubny zamek korzkiew,zdjęcia ślubne ojców'}
+          date={'11 sierpnia 2015'}
 
-          menuNames={'IWONA I MARCIN'}
-          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          menuNames={'AGATA i MATEUSZ'}
+          menuTitle={'SESJA ŚLUBNA DWÓR W TOMASZOWICACH i OJCÓW'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}

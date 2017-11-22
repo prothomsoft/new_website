@@ -3,34 +3,62 @@ import Blogpage from '../components/blogpage'
 export default class BlogPageComponent extends React.Component {
   render() {
     let slide = [{
-      imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+      imageUrl: "/static/paulina_i_bartek_sesja_poslubna_kasprowy_wierch_i_nosal_zakopane_start.jpg"
     }];
 
     let images = [
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0001.jpg", height: 763 },      
-      { imageSrc: "http://99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_strebskie_pleso_slowacja_0024.jpg", height: 762 }
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0001.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0013.jpg", height: 400 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0002.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0003.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0004.jpg", height: 851 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0005.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0006.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0007.jpg", height: 267 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0008.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0009.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0010.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0011.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0012.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0014.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0015.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0016.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0017.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0018.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0019.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0020.jpg", height: 205 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0021.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0022.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0023.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0024.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0025.jpg", height: 763 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0026.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0027.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0028.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0029.jpg", height: 762 },
+      { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_kasprowy_wierch_0030.jpg", height: 762 }
     ];
 
     return (
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Sesja ślubna Strbskie Pleso, Popradzki Staw, Słowacja'}
-          headDescription={'Iwona i Marcin w idealnie wybrany dzień. Słowackie góry Strbskie Pleso, Popradzki Staw. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej.'}
-          headKeywords={'sesja ślubna słowacja,plener strbskie pleso,popradzki staw zdjęcia ślubne'}
+          headTitle={'Sesja ślubna Kasprowy Wierch - Zakopane'}
+          headDescription={'Tym razem na moim blogu górskie panoramy i piękne widoki ze szczytu Kasprowego Wierchu i Nosala. Serdecznie zapraszam do oglądania.'}
+          headKeywords={'zdjęcia ślubne kasprowy wierch,plener ślubny zakopane'}
           headUrl={'http://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/'}
 
-          entryContentP1={'Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw.'}
-          entryContentP2={'Mniej ludzi, malownicze jezioro, ogromne góry, dużo świetnych kadrów do wypatrzenia. W drodze powrotnej zrobiliśmy też kilka zdjęć w lesie. Końcówka to szukanie dwóch kamieni z kadru <a href="http://marcinsosnicki.pl" target="_blank">Marcina Sośnickiego</a> i zachwyt nad jesienią oświetloną promieniami zachodzącego słońca. Na koniec zjedliśmy pyszny obiadek w Tatrzańskiej Łomnicy, zrelaksowani i zadowoleni wróciliśmy do naszych domów. Polecam to miejsce na plenery i mam nadzieję, że każdego roku znajdzie się jedna para, która mnie tam zabierze. Miłego oglądania.'}
+          entryContentP1={'Paulina i Bartek lubią morze, ale mają je na co dzień ponieważ mieszkają w Szczecinie i kochają góry ponieważ na ich szczycie powiedzieli sobie TAK. W niedzielę po sobotnich szaleństwach w Zajeździe Furmańskim w Zakopanym, większość gości weselnych spotkała się na szczycie Kasprowego Wierchu na krótkiej sesji fotograficznej. Mieliśmy tego popołudnia, pogodę wręcz wymarzoną do zdjęć w górach &#8211; białe chmurki na niebieskim niebie, umiarkowane słońce i bardzo dobra widoczność. Wykorzystaliśmy te okoliczności jak należy mam nadzieję.'}
+          entryContentP2={'Następnie już w tygodniu, który cały spędziłem w Zakopanym, spotkaliśmy się ponownie i wspólnie weszliśmy na szczyt Nosala. Górka mała, ale podejście dość strome i kondycyjnie wymagające. Tym razem nie mieliśmy już tyle szczęścia do pogody i na górze spotkaliśmy mgłę, która nie chciała odpuścić. Pozdrowienia dla gości, miłego oglądania i zapraszam po więcej do strefy klienta.'}
 
           slug={'sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'}
 
-          title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'}
-          tags={'plener strbskie pleso, popradzki staw zdjęcia ślubne, sesja ślubna Słowacja'}
-          date={'3 listopada 2017'}
+          title={'SESJA ŚLUBNA KASPROWY WIERCH i NOSAL - ZAKOPANE - PAULINA i BARTEK'}
+          tags={'zdjęcia ślubne kasprowy wierch,plener ślubny zakopane'}
+          date={'17 września 2015'}
 
-          menuNames={'IWONA I MARCIN'}
-          menuTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          menuNames={'PAULINA i BARTEK'}
+          menuTitle={'SESJA ŚLUBNA KASPROWY WIERCH i NOSAL - ZAKOPANE'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
