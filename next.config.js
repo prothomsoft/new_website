@@ -38,7 +38,6 @@ module.exports = {
         '/sesja-zdjeciowa-kopiec-kraka-przegorzaly-kryspinow': { page: '/sesja-zdjeciowa-kopiec-kraka-przegorzaly-kryspinow' },
         '/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada': { page: '/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada' },
         '/dom-weselny-babie-lato-gdow-reportaz-slubny': { page: '/dom-weselny-babie-lato-gdow-reportaz-slubny' },
-        '/sesja-zdjeciowa-pieskowa-skala': { page: '/sesja-zdjeciowa-pieskowa-skala' },
         '/wesele-tarnow-dwor-bistuszowa-i-staropolski-klimat-slubny': { page: '/wesele-tarnow-dwor-bistuszowa-i-staropolski-klimat-slubny' },
         '/sesje-plenerowe-slubne-w-sercu-krakowa': { page: '/sesje-plenerowe-slubne-w-sercu-krakowa' },
         '/zdjecia-chrztu-swietego-i-slubu-krakow': { page: '/zdjecia-chrztu-swietego-i-slubu-krakow' },        
@@ -92,9 +91,6 @@ module.exports = {
         '/iga-i-marcin-sesja-poslubna-kazimierz-krakow': { page: '/iga-i-marcin-sesja-poslubna-kazimierz-krakow' },        
         '/magda-i-lucjan-zdjecia-slubne-w-restauracji-magnolia-budzow': { page: '/magda-i-lucjan-zdjecia-slubne-w-restauracji-magnolia-budzow' },
         '/sesja-poslubna-wiolety-i-marcina-mogilany-i-kazimierz': { page: '/sesja-poslubna-wiolety-i-marcina-mogilany-i-kazimierz' },        
-        
-        
-        
         '/iga-i-marcin-zdjecia-slubne-kosciol-skomielna-czarna': { page: '/iga-i-marcin-zdjecia-slubne-kosciol-skomielna-czarna' },
         '/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj': { page: '/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj' },        
         '/ulubione-wakacyjne-kadry': { page: '/ulubione-wakacyjne-kadry' }
