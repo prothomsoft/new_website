@@ -197,10 +197,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'JOANNA i GRZEGORZ'}
           menuTitle={'WESELE NA POLU GOLFOWYM W PACZÓŁTOWICACH'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'MARTUSIA i MICHAŚ'}
+          leadTitle={'WAKACYJNY TEST OBIEKTYWU SIGMA 50 1.4 ART'}
+          leadUrl={'/wakacyjny-test-obiektywu-sigma-50-1-4-art'} 
+          leadImage={'url(/static/wakacyjny_test_obiektywu_sigma_50_1_4_art_start.jpg)'}
           />
       </div>
     );

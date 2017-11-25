@@ -51,10 +51,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'NATALIA i MARCIN'}
           menuTitle={'SESJA ŚLUBNA PIESKOWA SKAŁA I OJCÓW'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'SABINA i WIESIEK'}
+          leadTitle={'ZDJĘCIA ŚLUBNE DWOREK FANTAZJA SKOMIELNA BIAŁA'}
+          leadUrl={'/sabina-i-wiesiek-zdjecia-slubne-dworek-fantazja-skomielna-biala'} 
+          leadImage={'url(/static/sabina_i_wiesiek_zdjecia_slubne_dworek_fantazja_skomielna_biala_start.jpg)'}
           />
       </div>
     );

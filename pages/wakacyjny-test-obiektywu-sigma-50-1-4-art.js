@@ -87,10 +87,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'MARTUSIA i MICHAŚ'}
           menuTitle={'WAKACYJNY TEST OBIEKTYWU SIGMA 50 1.4 ART'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'EWELINA i KAMIL'}
+          leadTitle={'HOTEL QUBUS KRAKÓW SESJA ZDJĘCIOWA'}
+          leadUrl={'/hotel-qubus-krakow-sesja-zdjeciowa'} 
+          leadImage={'url(/static/hotel_qubus_krakow_sesja_zdjeciowa_start.jpg)'}
           />
       </div>
     );

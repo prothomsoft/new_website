@@ -12,7 +12,7 @@ export default class OfferDesktop extends React.Component {
             <div>
                 <article>
                     <header>
-                        <h1>KONTAKT I CENA</h1>                            
+                        <h1>OFERTA I CENA</h1>                            
                     </header>
                         <h2 className="quote-title">
                         REPORTAŻ ŚLUBNY OBEJMUJĄCY                            

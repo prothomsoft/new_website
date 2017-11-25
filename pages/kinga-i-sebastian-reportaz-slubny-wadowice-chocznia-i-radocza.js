@@ -172,10 +172,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'KINGA i SEBASTIAN'}
           menuTitle={'REPORTAŻ ŚLUBNY WADOWICE, CHOCZNIA i RADOCZA'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'OLA i PAWEŁ'}
+          leadTitle={'DWÓR SZLACHECKI SIECIECHOWICE, REPORTAŻ ŚLUBNY MIECHÓW'}
+          leadUrl={'/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow'} 
+          leadImage={'url(/static/dwor_szlachecki_sieciechowice_reportaz_slubny_miechow_start.jpg)'}
           />
       </div>
     );

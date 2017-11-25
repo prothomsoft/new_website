@@ -133,17 +133,17 @@ export default class BlogPageComponent extends React.Component {
 
           slug={'wesele-tarnow-dwor-bistuszowa-i-staropolski-klimat-slubny'}
 
-          title={'WESELE TARNÓW, DWÓR BISTUSZOWA I STAROPOLSKI KLIMAT ŚLUBNY - OLA i PRZEMEK'}
+          title={'WESELE TARNÓW, DWÓR BISTUSZOWA i STAROPOLSKI KLIMAT ŚLUBNY - OLA i PRZEMEK'}
           tags={'wesele tarnów,dwór bistuszowa,dom weselny tarnów,ślub plenerowy'}
           date={'14 maja 2017'}
 
           menuNames={'OLA i PRZEMEK'}
-          menuTitle={'WESELE TARNÓW, DWÓR BISTUSZOWA I STAROPOLSKI KLIMAT ŚLUBNY'}
+          menuTitle={'WESELE TARNÓW, DWÓR BISTUSZOWA i STAROPOLSKI KLIMAT ŚLUBNY'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'EWELINA i KAMIL'}
+          leadTitle={'HOTEL QUBUS KRAKÓW SESJA ZDJĘCIOWA'}
+          leadUrl={'/hotel-qubus-krakow-sesja-zdjeciowa'} 
+          leadImage={'url(/static/hotel_qubus_krakow_sesja_zdjeciowa_start.jpg)'}
           />
       </div>
     );

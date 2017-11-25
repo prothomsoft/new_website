@@ -175,10 +175,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'ANGELIKA i DAWID'}
           menuTitle={'REPORTAŻ ŚLUBNY KRAKÓW, RESTAURACJA VIVA MICHAŁOWICE'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'KINGA i MACIEK'}
+          leadTitle={'DEKORACJA SALI WESELNEJ W STYLU RUSTYKALNYM, OSP ZAWADA'}
+          leadUrl={'/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'} 
+          leadImage={'url(/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_start.jpg)'}
           />
       </div>
     );

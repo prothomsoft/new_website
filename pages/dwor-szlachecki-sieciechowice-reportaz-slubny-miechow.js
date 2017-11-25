@@ -221,10 +221,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'OLA i PAWEŁ'}
           menuTitle={'DWÓR SZLACHECKI SIECIECHOWICE, REPORTAŻ ŚLUBNY MIECHÓW'}          
 
-          leadNames={'OLA i PAWEŁ'}
-          leadTitle={'DWÓR SZLACHECKI SIECIECHOWICE, REPORTAŻ ŚLUBNY MIECHÓW'}
-          leadUrl={'dwor-szlachecki-sieciechowice-reportaz-slubny-miechow'} 
-          leadImage={'url(/static/parallax1.jpg)'}
+          leadNames={'JUSTYNA i DAMIAN'}
+          leadTitle={'SESJA ZDJĘCIOWA ZAKRZÓWEK, SKAŁKI TWARDOWSKIEGO KRAKÓW'}
+          leadUrl={'sesja-zdjeciowa-zakrzowek-skalki-twardowskiego-krakow'} 
+          leadImage={'url(/static/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_start.jpg)'}
           
           />
       </div>

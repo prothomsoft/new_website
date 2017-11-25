@@ -189,10 +189,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'NATALIA, MARCIN i MAJA'}
           menuTitle={'REPORTAŻ ŚLUBNY GOŚCINIEC BRANICKI'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'JULITA i PAWEŁ'}
+          leadTitle={'REPORTAŻ ŚLUBNY KOŚCIÓŁ NA SKAŁCE KRAKÓW'}
+          leadUrl={'/julita-i-pawel-reportaz-slubny-kosciol-na-skalce-krakow'} 
+          leadImage={'url(/static/julita_i_pawel_reportaz_slubny_kosciol_na_skalce_krakow_start.jpg)'}
           />
       </div>
     );

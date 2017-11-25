@@ -53,10 +53,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'JUSTYNA i DAMIAN'}
           menuTitle={'SESJA ZDJĘCIOWA ZAKRZÓWEK, SKAŁKI TWARDOWSKIEGO KRAKÓW'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'ANIA i MICHAŁ'}
+          leadTitle={'DOM WESELNY MARION - WESELE TARNÓW i ZDJĘCIA ŚLUBNE'}
+          leadUrl={'/dom-weselny-marion-wesele-tarnow-i-zdjecia-slubne'} 
+          leadImage={'url(/static/dom_weselny_marion_wesele_tarnow_i_zdjecia_slubne_start.jpg)'}
           />
       </div>
     );

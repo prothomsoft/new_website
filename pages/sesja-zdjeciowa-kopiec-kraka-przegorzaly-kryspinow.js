@@ -44,7 +44,7 @@ export default class BlogPageComponent extends React.Component {
           entryContentP1={'Natalia i Tomasz na plener ślubny wybrali Kopiec Krakusa na Krakowskim Podgórzu, Zamek w Przegorzałach i zachód słońca nad jeziorem w Kryspinowie. Pomimo, że miejsca te odwiedzałem nie pierwszy raz to starałem się wymazać z mojej pamięci istniejące już kadry i skupić się na poszukiwaniu nowych, jeszcze nie odkrytych miejsc. W pobliżu Kopca znajduje się również kamieniołom Liban, który był niegdyś karnym obozem pracy. Miejsce dobre na industrialną sesję narzeczeńską, ale kompletnie nieużyteczne dla Panny Młodej w białej sukni ślubnej.'}
           entryContentP2={'Pogoda tego dnia była świetna, niebieskie niebo i białe chmurki bardzo pomagały. Restauracja u Ziyada była pełna gości, którzy popijając kawkę podziwiali piękne widoki z restauracyjnego tarasu. Wpadł nowy kadr w tym miejscu, z którego jestem bardzo zadowolony. Plener dokończyliśmy w Kryspinowie delektując się ostatnimi promieniami zachodzącego słońca. Myślę, że wszyscy spędziliśmy miłe popołudnie w fajnych miejscach, dobrych humorach i przy świetnej pogodzie. Zapraszam na zdjęcia z tej wyprawy plenerowej i życzę miłego oglądania.'}
 
-          slug={'kopiec kraka,zamek przegorzały,sesja zdjęciowa kryspinów'}
+          slug={'sesja-zdjeciowa-kopiec-kraka-przegorzaly-kryspinow'}
 
           title={'SESJA ZDJĘCIOWA KOPIEC KRAKA, PRZEGORZAŁY, KRYSPINÓW - NATALIA i TOMASZ'}
           tags={'kopiec kraka,zamek przegorzały,sesja zdjęciowa kryspinów'}
@@ -53,10 +53,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'NATALIA i TOMASZ'}
           menuTitle={'SESJA ZDJĘCIOWA KOPIEC KRAKA, PRZEGORZAŁY, KRYSPINÓW'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'KINGA i MACIEK'}
+          leadTitle={'DEKORACJA SALI WESELNEJ W STYLU RUSTYKALNYM, OSP ZAWADA'}
+          leadUrl={'/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'} 
+          leadImage={'url(/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_start.jpg)'}
           />
       </div>
     );

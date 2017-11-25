@@ -12,12 +12,12 @@ export default class OfferPageComponent extends React.Component {
               headUrl={'http://99foto.pl/kontakt/'}
               componentContentName={'offer'}              
               
-              backgroundImage={'url(/static/parallax2.jpg)'}
+              backgroundImage={'url(/static/wydruki_fotograf_krakow_page.jpg)'}
 
-              leadNames={'IWONA I MARCIN3'}
-              leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA3'}
-              leadUrl={'opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
-              leadImage={'url(/static/blog_start.jpg)'}
+              leadNames={'IWONA i MARCIN'}
+              leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
+              leadUrl={'wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
+              leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
               />
           </div>
         );

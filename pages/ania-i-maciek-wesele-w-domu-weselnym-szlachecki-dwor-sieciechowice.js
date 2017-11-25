@@ -158,10 +158,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'ANIA i MACIEK'}
           menuTitle={'WESELE W DOMU WESELNYM SZLACHECKI DWÓR SIECIECHOWICE'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'SYLWIA i BARTEK'}
+          leadTitle={'SESJA ŚLUBNA KRAKÓW'}
+          leadUrl={'/sylwia-i-bartek-sesja-poslubna-krakow'} 
+          leadImage={'url(/static/sylwia_i_bartek_sesja_poslubna_krakow_start.jpg)'}
           />
       </div>
     );

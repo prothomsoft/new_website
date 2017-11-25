@@ -53,10 +53,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'PATRYCJA i MICHAŁ'}
           menuTitle={'SESJA ŚLUBNA ZAMEK W KORZKWI i KŁADKA BERNATKA'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'KAROLINA i BARTEK'}
+          leadTitle={'ZDJĘCIA ŚLUBNE RESTAURACJA STEK SKAWINA'}
+          leadUrl={'/zdjecia-slubne-restauracja-stek-skawina'} 
+          leadImage={'url(/static/zdjecia_slubne_restauracja_stek_skawina_start.jpg)'}
           />
       </div>
     );

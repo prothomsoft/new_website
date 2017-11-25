@@ -168,10 +168,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'NATALIA i TOMASZ'}
           menuTitle={'DOM WESELNY BABIE LATO GDÓW - REPORTAŻ ŚLUBNY'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'OLA i PRZEMEK'}
+          leadTitle={'WESELE TARNÓW, DWÓR BISTUSZOWA i STAROPOLSKI KLIMAT ŚLUBNY'}
+          leadUrl={'/wesele-tarnow-dwor-bistuszowa-i-staropolski-klimat-slubny'} 
+          leadImage={'url(/static/wesele-tarnow_dwor_bistuszowa_i_staropolski_klimat_slubny_start.jpg)'}
           />
       </div>
     );

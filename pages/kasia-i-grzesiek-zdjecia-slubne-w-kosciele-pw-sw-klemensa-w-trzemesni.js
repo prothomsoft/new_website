@@ -178,10 +178,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'KASIA i GRZESIEK'}
           menuTitle={'ZDJĘCIA ŚLUBNE W KOŚCIELE PW. ŚW. KLEMENSA TRZEMEŚNIA'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'MONIKA i RAFAŁ'}
+          leadTitle={'ZDJĘCIA ŚLUBNE KRAKÓW, RESTAURACJA CHOCHOŁOWY DWÓR'}
+          leadUrl={'/monika-i-rafal-zdjecia-slubne-krakow-restauracja-chocholowy-dwor'} 
+          leadImage={'url(/static/monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_start.jpg)'}
           />
       </div>
     );

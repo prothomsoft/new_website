@@ -56,10 +56,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'KAROLINA i DAWID'}
           menuTitle={'LAWENDOWE POLE POD KRAKOWEM, SESJA ŚLUBNA W OSTROWIE'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'KAROLINA i DAWID'}
+          leadTitle={'DOM WESELNY POD KASZTANAMI IGOŁOMIA'}
+          leadUrl={'/dom-weselny-pod-kasztanami-igolomia'} 
+          leadImage={'url(/static/dom_weselny_pod_kasztanami_igolomia_start.jpg)'}
           />
       </div>
     );

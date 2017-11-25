@@ -14,10 +14,10 @@ export default class BlogListComponent extends React.Component {
             headKeywords={'zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa'}
             headUrl={'http://99foto.pl/blog/'}
 
-            leadNames={'IWONA I MARCIN3'}
-            leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA3'}
-            leadUrl={'opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
-            leadImage={'url(/static/parallax1.jpg)'}
+            leadNames={'EWELINA i KAMIL'}
+            leadTitle={'HOTEL TADEUSZ USZEW i GÓRALSKA SALA WESELNA'}
+            leadUrl={'hotel-tadeusz-uszew-i-goralska-sala-weselna'} 
+            leadImage={'url(/static/hotel_tadeusz_uszew_i_goralska_sala_weselna_start.jpg)'}
             />
           </div>
         );

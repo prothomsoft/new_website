@@ -205,17 +205,17 @@ export default class BlogPageComponent extends React.Component {
 
           slug={'slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'}
 
-          title={'ŚLUB CYWILNY i WESELE W PLENERZE- WITKOWA CHATA KRAKÓW - KINGA i JULIEN'}
+          title={'ŚLUB CYWILNY i WESELE W PLENERZE - WITKOWA CHATA KRAKÓW - KINGA i JULIEN'}
           tags={'witkowa chata kraków,ślub plenerowy kraków,ślub w plenerze'}
           date={'11 sierpnia 2017'}
 
           menuNames={'KINGA i JULIEN'}
-          menuTitle={'ŚLUB CYWILNY i WESELE W PLENERZE- WITKOWA CHATA KRAKÓW'}
+          menuTitle={'ŚLUB CYWILNY i WESELE W PLENERZE - WITKOWA CHATA KRAKÓW'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'ALINA, MICHAŁ i RUDI'}
+          leadTitle={'PLENER NARZECZEŃSKI KRAKÓW i OKOLICE'}
+          leadUrl={'/plener-narzeczenski-krakow-i-okolice'} 
+          leadImage={'url(/static/plener_narzeczenski_krakow_i_okolice_start.jpg)'}
           />
       </div>
     );

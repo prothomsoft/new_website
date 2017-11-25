@@ -12,12 +12,12 @@ export default class MisjaPageComponent extends React.Component {
               headUrl={'http://99foto.pl/misja-i-faq/'}
               componentContentName={'misja'} 
               
-              backgroundImage={'url(/static/parallax2.jpg)'}
+              backgroundImage={'url(/static/tomek_prokop_fotograf_krakow_page.jpg)'}
 
-              leadNames={'IWONA I MARCIN3'}
-              leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA3'}
-              leadUrl={'opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
-              leadImage={'url(/static/blog_start.jpg)'}              
+              leadNames={'JOANNA i GRZEGORZ'}
+              leadTitle={'WESELE NA POLU GOLFOWYM W PACZÓŁTOWICACH'}
+              leadUrl={'wesele-na-polu-golfowym-w-paczoltowicach'} 
+              leadImage={'url(/static/wesele_na_polu_golfowym_w_paczoltowicach_start.jpg)'}              
               />
           </div>
         );

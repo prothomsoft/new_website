@@ -204,10 +204,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'ANNA i KRZYSZTOF'}
           menuTitle={'SALA WESELNA NEDAN PCIM - REPORTAŻ ŚLUBNY - ANNA i KRZYSZTOF'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'KASIA i GRZEGORZ'}
+          leadTitle={'FOTOGRAF NA WESELE JORDANÓW, STRAŻNICA PCIM'}
+          leadUrl={'/fotograf-na-wesele-jordanow-straznica-pcim'} 
+          leadImage={'url(/static/fotograf_na_wesele_jordanow_straznica_pcim_start.jpg)'}
           />
       </div>
     );

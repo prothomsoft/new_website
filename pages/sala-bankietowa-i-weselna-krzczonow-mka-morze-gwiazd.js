@@ -169,10 +169,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'MAGDA i GRZEGORZ'}
           menuTitle={'SALA BANKIETOWA I WESELNA KRZCZONÓW MKA - MORZE GWIAZD'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'NATALIA i TOMASZ'}
+          leadTitle={'SESJA ZDJĘCIOWA KOPIEC KRAKA, PRZEGORZAŁY, KRYSPINÓW'}
+          leadUrl={'/sesja-zdjeciowa-kopiec-kraka-przegorzaly-kryspinow'} 
+          leadImage={'url(/static/sesja_zdjeciowa_kopiec_kraka_przegorzaly_kryspinow_start.jpg)'}
           />
       </div>
     );

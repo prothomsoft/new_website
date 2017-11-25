@@ -49,10 +49,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'NATALIA i PIOTR'}
           menuTitle={'SESJE PLENEROWE ŚLUBNE W SERCU KRAKOWA'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'EWELINA i KAMIL'}
+          leadTitle={'HOTEL QUBUS KRAKÓW SESJA ZDJĘCIOWA'}
+          leadUrl={'/hotel-qubus-krakow-sesja-zdjeciowa'} 
+          leadImage={'url(/static/hotel_qubus_krakow_sesja_zdjeciowa_start.jpg)'}
           />
       </div>
     );

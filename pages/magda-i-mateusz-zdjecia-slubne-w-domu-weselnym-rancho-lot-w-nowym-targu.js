@@ -186,10 +186,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'MAGDA i MATEUSZ'}
           menuTitle={'ZDJĘCIA ŚLUBNE W DOMU WESELNYM RANCHO LOT NOWY TARG'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'KAROLINA i BARTEK'}
+          leadTitle={'SESJA ZDJĘCIOWA DWÓR TOMASZOWICE, OPERA, KAZIMIERZ'}          
+		      leadUrl={'/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'} 
+          leadImage={'url(/static/sesja_zdjeciowa_dwor_tomaszowice_krakow_start.jpg)'}
           />
       </div>
     );

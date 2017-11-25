@@ -178,10 +178,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'KASIA i GRZEGORZ'}
           menuTitle={'FOTOGRAF NA WESELE JORDANÓW, STRAŻNICA PCIM'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'JULIA i PIOTR'}
+          leadTitle={'SESJA ZDJĘCIOWA PARK W MOGILANACH, ZAKRZÓWEK i KAZIMIERZ'}
+          leadUrl={'/sesja-zdjeciowa-park-w-mogilanach-zakrzowek-i-kazimierz'} 
+          leadImage={'url(/static/sesja_zdjeciowa_park_w_mogilanach_zakrzowek_i_kazimierz_start.jpg)'}
           />
       </div>
     );

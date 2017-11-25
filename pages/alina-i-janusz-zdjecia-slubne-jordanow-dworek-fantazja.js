@@ -182,10 +182,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'ALINA i JANUSZ'}
           menuTitle={'ZDJĘCIA ŚLUBNE JORDANÓW, DWOREK FANTAZJA'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'KINGA i JULIEN'}
+          leadTitle={'ŚLUB CYWILNY i WESELE W PLENERZE - WITKOWA CHATA KRAKÓW'}
+          leadUrl={'/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'} 
+          leadImage={'url(/static/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_start.jpg)'}
           />
       </div>
     );

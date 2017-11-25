@@ -208,10 +208,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'KINGA i MACIEK'}
           menuTitle={'DEKORACJA SALI WESELNEJ W STYLU RUSTYKALNYM, OSP ZAWADA'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'ANNA i KRZYSZTOF'}
+          leadTitle={'SALA WESELNA NEDAN PCIM - REPORTAŻ ŚLUBNY - ANNA i KRZYSZTOF'}
+          leadUrl={'/sala-weselna-nedan-pcim-reportaz-slubny'} 
+          leadImage={'url(/static/sala_weselna_nedan_pcim_reportaz_slubny_start.jpg)'}
           />
       </div>
     );

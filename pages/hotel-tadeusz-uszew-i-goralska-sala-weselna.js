@@ -193,10 +193,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'EWELINA i KAMIL'}
           menuTitle={'HOTEL TADEUSZ USZEW i GÓRALSKA SALA WESELNA'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'KINGA i MACIEK'}
+          leadTitle={'SESJA NARZECZEŃSKA KRAKÓW'}
+          leadUrl={'/sesja-narzeczenska-krakow'} 
+          leadImage={'url(/static/sesja_narzeczenska_krakow_start.jpg)'}
           />
       </div>
     );

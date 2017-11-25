@@ -152,10 +152,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'KASIA i PAWEŁ'}
           menuTitle={'ZDJĘCIA ŚLUBNE W HOTELU FERRO EXPRESS KRAKÓW'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'JUSTYNA i DAMIA'}
+          leadTitle={'SESJA ZDJĘCIOWA ZAKRZÓWEK, SKAŁKI TWARDOWSKIEGO KRAKÓW'}
+          leadUrl={'/sesja-zdjeciowa-zakrzowek-skalki-twardowskiego-krakow'} 
+          leadImage={'url(/static/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_start.jpg)'}
           />
       </div>
     );

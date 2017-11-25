@@ -62,10 +62,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'EWELINA i KAMIL'}
           menuTitle={'HOTEL QUBUS KRAKÓW SESJA ZDJĘCIOWA'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'EWELINA i KAMIL'}
+          leadTitle={'HOTEL TADEUSZ USZEW i GÓRALSKA SALA WESELNA'}
+          leadUrl={'/hotel-tadeusz-uszew-i-goralska-sala-weselna'} 
+          leadImage={'url(/static/hotel_tadeusz_uszew_i_goralska_sala_weselna_start.jpg)'}
           />
       </div>
     );

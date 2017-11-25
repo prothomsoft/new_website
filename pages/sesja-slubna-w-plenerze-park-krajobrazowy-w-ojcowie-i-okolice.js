@@ -54,9 +54,9 @@ export default class BlogPageComponent extends React.Component {
           menuTitle={'SESJA ŚLUBNA W PLENERZE, PARK KRAJOBRAZOWY W OJCOWIE I OKOLICE'}
 
           leadNames={'OLA i PAWEŁ'}
-          leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
-          leadUrl={'/sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice'} 
-          leadImage={'url(/static/parallax1.jpg)'}
+          leadTitle={'DWÓR SZLACHECKI SIECIECHOWICE, REPORTAŻ ŚLUBNY MIECHÓW'}
+          leadUrl={'/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow'} 
+          leadImage={'url(/static/dwor_szlachecki_sieciechowice_reportaz_slubny_miechow_start.jpg)'}
           />
       </div>
     );

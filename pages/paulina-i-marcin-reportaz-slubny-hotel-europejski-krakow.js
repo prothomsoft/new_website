@@ -186,10 +186,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'PAULINA i MARCIN'}
           menuTitle={'REPORTAŻ ŚLUBNY HOTEL EUROPEJSKI KRAKÓW - PAULINA i MARCIN'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'ALINA i JANUSZ'}
+          leadTitle={'ZDJĘCIA ŚLUBNE JORDANÓW, DWOREK FANTAZJA'}
+          leadUrl={'/alina-i-janusz-zdjecia-slubne-jordanow-dworek-fantazja'} 
+          leadImage={'url(/static/alina_i_janusz_zdjecia_slubne_jordanow_dworek_fantazja_start.jpg)'}
           />
       </div>
     );

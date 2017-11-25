@@ -196,10 +196,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'KAROLINA i DAWID'}
           menuTitle={'DOM WESELNY POD KASZTANAMI IGOŁOMIA'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'MAGDA i GRZEGORZ'}
+          leadTitle={'SALA BANKIETOWA I WESELNA KRZCZONÓW MKA - MORZE GWIAZD'}
+          leadUrl={'/sala-bankietowa-i-weselna-krzczonow-mka-morze-gwiazd'} 
+          leadImage={'url(/static/sala_bankietowa_i_weselna_krzczonow_mka_morze_gwiazd_start.jpg)'}
           />
       </div>
     );

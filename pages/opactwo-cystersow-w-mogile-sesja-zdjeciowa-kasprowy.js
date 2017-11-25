@@ -191,10 +191,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'ANETA i DAMIAN'}
           menuTitle={'OPACTWO CYSTERSÓW W MOGILE, SESJA ZDJĘCIOWA KASPROWY'}          
 
-          leadNames={'ANETA i DAMIAN'}
-          leadTitle={'OPACTWO CYSTERSÓW W MOGILE, SESJA ZDJĘCIOWA KASPROWY'}
-          leadUrl={'/opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
-          leadImage={'url(/static/parallax1.jpg)'}
+          leadNames={'OLA i PAWEŁ'}
+          leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+          leadUrl={'/sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice'} 
+          leadImage={'url(/static/sesja_slubna_w_plenerze_park_krajobrazowy_w_ojcowie_i_okolice_start.jpg)'}
           
           />
       </div>

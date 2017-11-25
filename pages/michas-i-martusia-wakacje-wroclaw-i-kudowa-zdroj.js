@@ -106,10 +106,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'MICHAŚ i MARTUSIA'}
           menuTitle={'WAKACJE WROCŁAW i KUDOWA ZDRÓJ'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'JOANNA i GRZEGORZ'}
+          leadTitle={'WESELE NA POLU GOLFOWYM W PACZÓŁTOWICACH'}
+          leadUrl={'/wesele-na-polu-golfowym-w-paczoltowicach'} 
+          leadImage={'url(/static/wesele_na_polu_golfowym_w_paczoltowicach_start.jpg)'}
           />
       </div>
     );

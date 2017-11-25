@@ -15,12 +15,12 @@ export default class SesjaPageComponent extends React.Component {
               title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'} 
               date={'3 LISTOPADA 2017'} 
               tags={'PLENER STRBSKIE PLESO, POPRADZKI STAW ZDJĘCIA ŚLUBNE, SESJA ŚLUBNA SŁOWACJA'}              
-              backgroundImage={'url(/static/parallax2.jpg)'}
+              backgroundImage={'url(/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg)'}
 
-              leadNames={'IWONA I MARCIN3'}
-              leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA3'}
-              leadUrl={'/opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
-              leadImage={'url(/static/blog_start.jpg)'}
+              leadNames={'IWONA I MARCIN'}
+              leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+              leadUrl={'/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
+              leadImage={'url(/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg)'}
               />
           </div>
         );

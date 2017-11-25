@@ -152,7 +152,7 @@ export default class Menu extends React.Component {
                                         </li>
                                         <li>
                                             <Link href='/kontakt'>
-                                                <MyLink onCustomClick={this.showFixedMobileMenu} text="KONTAKT i CENA"></MyLink>
+                                                <MyLink onCustomClick={this.showFixedMobileMenu} text="OFERTA i CENA"></MyLink>
                                             </Link>
                                         </li>
                                         <li>
@@ -182,7 +182,7 @@ export default class Menu extends React.Component {
                                     <li><Link href='/historie-slubne'><a>KILKA HISTORII</a></Link></li>
                                     <li><Link href='/'><a><img style={{height: "140px", width: "100px", margin: "-15px 0px 0px 5px"}} src="/static/99foto_logo.svg"/></a></Link></li>
                                     <li><Link href='/misja-i-faq'><a>MISJA i FAQ</a></Link></li>
-                                    <li><Link href='/kontakt'><a>KONTAKT i CENA</a></Link></li>
+                                    <li><Link href='/kontakt'><a>OFERTA i CENA</a></Link></li>
                                     <li><Link as="/blog" href='/blog'><a>BLOG</a></Link></li>
                                     <li><Link href='http://sk.99foto.pl'><a target="_blank">STREFA KLIENTA</a></Link></li>                                    
                                 </ul>

@@ -63,10 +63,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'KINGA i MACIEK'}
           menuTitle={'SESJA NARZECZEŃSKA KRAKÓW'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'KAROLINA i DAWID'}
+          leadTitle={'LAWENDOWE POLE POD KRAKOWEM, SESJA ŚLUBNA W OSTROWIE'}
+          leadUrl={'/lawendowe-pole-pod-krakowem-sesja-slubna-w-ostrowie'} 
+          leadImage={'url(/static/lawendowe_pole_pod_krakowem_sesja_slubna_w_ostrowie_start.jpg)'}
           />
       </div>
     );

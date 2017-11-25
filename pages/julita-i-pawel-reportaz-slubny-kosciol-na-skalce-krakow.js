@@ -189,10 +189,10 @@ export default class BlogPageComponent extends React.Component {
           menuNames={'JULITA i PAWEŁ'}
           menuTitle={'REPORTAŻ ŚLUBNY KOŚCIÓŁ NA SKAŁCE KRAKÓW'}
 
-          leadNames={'IWONA i MARCIN'}
-          leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-          leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-          leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+          leadNames={'MARLENA i DAWID'}
+          leadTitle={'ZDJĘCIA ŚLUBNE Z GÓRALSKIEGO ŚLUBU W OSADZIE KAMIENICA'}
+          leadUrl={'/marlena-i-dawid-zdjecia-slubne-z-goralskiego-slubu-w-osadzie-kamienica'} 
+          leadImage={'url(/static/marlena_i_dawid_zdjecia_slubne_z_goralskiego_slubu_w_osadzie_kamienica_start.jpg)'}
           />
       </div>
     );

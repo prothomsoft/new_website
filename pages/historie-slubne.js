@@ -12,12 +12,12 @@ export default class HistoriaPageComponent extends React.Component {
               headUrl={'http://99foto.pl/sesja-zdjeciowa-krakow/'}
               componentContentName={'historia'}                            
 
-              backgroundImage={'url(/static/parallax1.jpg)'}              
+              backgroundImage={'url(/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_start.jpg)'}              
 
-              leadNames={'IWONA I MARCIN3'}
-              leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA3'}
-              leadUrl={'opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy'} 
-              leadImage={'url(/static/blog_start.jpg)'}
+              leadNames={'KINGA i MACIEK'}
+              leadTitle={'DEKORACJA SALI WESELNEJ W STYLU RUSTYKALNYM, OSP ZAWADA'}
+              leadUrl={'dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'} 
+              leadImage={'url(/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_start.jpg)'}
               />
           </div>
         );
