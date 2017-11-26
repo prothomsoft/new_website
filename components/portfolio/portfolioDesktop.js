@@ -51,45 +51,45 @@ export default class PortfolioDesktop extends Component {
                 <header>
                     <h2 className="quote-title">POLECANE REPORTAŻE I SESJE ŚLUBNE</h2>
                 </header>
-
-                    <div style={{display: 'flex'}}>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax2.jpg'} /></LazyLoad></div></Link>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax1.jpg'} /></LazyLoad></div></Link>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax2.jpg'} /></LazyLoad></div></Link>
-                    </div>
-
-                    <div style={{display: 'flex'}}>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</p></div></Link>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>RUSTYKALNE WESELE W ZŁOTYM JARZE<br/>KAROL I EMILIA</p></div></Link>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>LIFESTYLOWA SESJA W KRAKOWIE<br/>JUSTYNA I STEFAN</p></div></Link>
-                    </div>    
-
-                    <div style={{display: 'flex'}}>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax1.jpg'} /></LazyLoad></div></Link>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax2.jpg'} /></LazyLoad></div></Link>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/parallax1.jpg'} /></LazyLoad></div></Link>                 
-                    </div>
-
-                    <div style={{display: 'flex'}}>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY DWÓR SIERAKÓW<br/>IWONA i MARCIN</p></div></Link>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>RUSTYKALNE WESELE W ZŁOTYM JARZE<br/>KAROL I EMILIA</p></div></Link>
-                        <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>LIFESTYLOWA SESJA W KRAKOWIE<br/>STEFAN I ZOŚKA</p></div></Link>
-                    </div> 
+                <div style={{display: 'flex'}}>                        
+                    <Link href='/wesele-na-polu-golfowym-w-paczoltowicach'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg'} /></LazyLoad></div></Link>                        
+                </div>
+                <div style={{display: 'flex'}}>
+                    <Link href='/wesele-na-polu-golfowym-w-paczoltowicach'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE NA POLU GOLFOWYM<br/>JOANNA i GRZEGORZ</p></div></Link>
+                    <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>DEKORACJA SALI W STYLU RUSTYKALNYM<br/>KINGA i MACIEK</p></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA SŁOWACKIE GÓRY<br/>IWONA i MARCIN</p></div></Link>
+                </div>
+                <div style={{display: 'flex'}}>
+                    <Link href='/hotel-qubus-krakow-sesja-zdjeciowa'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg'} /></LazyLoad></div></Link>
+                </div>
+                <div style={{display: 'flex'}}>
+                    <Link href='/hotel-qubus-krakow-sesja-zdjeciowa'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA LAWENDOWE POLE<br/>EWELINA i KAMIL</p></div></Link>
+                    <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY JORDANÓW<br/>ANNA i KRZYSZTOF</p></div></Link>
+                    <Link href='/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W GÓRALSKIM KLIMACIE<br/>IWONA i MARCIN</p></div></Link>
+                </div>
+                <div style={{display: 'flex'}}>                        
+                    <Link href='/sesja-narzeczenska-krakow'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/sesja_narzeczenska_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
+                    <Link href='/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
+                </div>
+                <div style={{display: 'flex'}}>                    
+                    <Link href='/sesja-narzeczenska-krakow'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA NARZECZEŃSKA KRAKÓW<br/>KINGA i MACIEK</p></div></Link>
+                    <Link href='/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>ŚLUB CYWILNY i WESELE W PLENERZE<br/>KINGA i JULIEN</p></div></Link>
+                    <Link href='/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA W KRAKOWIE<br/>KAROLINA i BARTEK</p></div></Link>                                                
+                </div>                
             </article>
 
             <article>
-                    <header>
-                    <h2 className="quote-title">FOTOGRAFIA ŚLUBNA</h2>
-                    </header>
-                    
-                    <p>Śluby, sesje zdjęciowe to znakomita okazja do tworzenia, odkrywania nowych miejsc, poznawania ciekawych ludzi, poszukiwania idealnego światła, rejestrowania wydarzeń pełnych autentycznych emocji. Fotograf ślubny w mojej definicji  to osoba mająca we krwi kreatywność i umiejętność łatwego nawiązywania kontaktu z ludźmi, wnikliwy obserwator pozostający w cieniu wydarzeń i rejestrujący bieg zdarzeń z największą dyskrecją. Fotografia ślubna to pasja,  którą rozwijam każdego dnia obserwując pracę najlepszych fotografów ślubnych w branży, poszukując nowych miejsc na niezapomniane sesje zdjęciowe, obserwując powstające i znikające trendy w fotografii ślubnej.</p>
-                    <p>Często mówimy o fotografowaniu sercem, jednak moim zdaniem świat sztuki, wrażliwość artystyczna, niezwykłość to nie wszystko. Fotograf ślubny chętnie śledzi premiery sprzętowe w świecie komputerów, aparatów, obiektywów,  programów do obróbki zdjęć i sprzętu oświetleniowego. W ten sposób zdobywam informacje i doskonale mój warsztat, rozbudowuję zaplecze sprzętowe, a to wszystko ogromnie ułatwia moją pracę. Stosowanie nowości technologicznych  w praktyce pozwala mi utrzymać dystans od zdjęć wykonanych przez innych uczestników ślubu. Fotografią ślubną zajmuję się już ponad pięć lat i uwielbiam miasto Kraków jako główne miejsce mojej działalności.</p>
-                    <p>Mam pomysł jak wykonane przeze mnie zdjęcia ślubne powinny wyglądać za rok czy dwa lata i plan jak mogę ten cel osiągnąć i zrealizować. Upór i konsekwencja w dążeniu do wcześniej wyznaczonego celu pozwalają mi być w miejscu,  w którym jestem i na pewno pozwolą pokonywać kolejne wyzwania i realizować nowe cele. Etap na którym jestem czyni mnie szczęśliwym. W przyszłości chciałbym robić dokładnie to samo, co przez ostatnie pięć lat, tylko być w tym  coraz lepszy. Wielokrotnie miałem przyjemność rozmawiać z parami, które w moich zdjęciach doceniły fotografowane ludzkie emocje, łzy wzruszenia podczas ceremonii, uśmiechy czy też radość z szalonej zabawy.</p>
-                    <p>Pary te opowiadały mi o pozytywnym przyjęciu mojej osoby w gronie ich najbliższych znajomych i rodziny. Komplementowały żywe kolory i umiejętnie wykorzystane światło zarówno zastane jak i pochodzące z lamp błyskowych. To jak patrzę  i jakie mam nastawienie ma ogromny wpływ na moją pracę. Pary wybierając fotografa najpierw patrzą na zdjęcia potem chcą poznać mnie jako człowieka by sprawdzić czy będą się dobrze czuć w moim towarzystwie. Dla mnie to ważne.  Nikt nie lubi stresu, dlatego nasze sesje zdjęciowe przebiegają w przyjemnej atmosferze. Zawsze planujemy nasze plenery, a podczas robienia zdjęć daję Wam pełną swobodę w wyrażaniu emocji i zachęcam do odsłonięcia części siebie.</p>
-                    <p>Wybierając fotografa ślubnego kierujcie się sercem, ale weźcie też pod uwagę jego umiejętności, doświadczenie, zaangażowanie i wizję przyszłych celów. Koniecznie skonfrontujcie to z Waszymi oczekiwaniami. Pamiętajmy, że tak ważnego  wydarzenia jak Wasz ślub nie będzie drugi raz, a zdjęcia jakie zrobi Wam wybrany fotograf ślubny pozostaną z Wami na zawsze. Serdecznie zachęcam do odwiedzenia mojego bloga fotograficznego. Przeglądając umieszczone tam zdjęcia  ocenisz mój sposób postrzegania otaczającego nas świata i ludzi. Polecam Kraków i okolice. Umówmy spotkanie, wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze. Serdecznie zapraszam.</p>
-
-                    <div className="spacer"></div>
-                
+                <header>
+                    <h2 className="quote-title">EMOCJE, UCZUCIA I KOLORY ZATRZYMANE W KAŻDYM KADRZE</h2>
+                </header>                
+                <p>Kocham to co robię, możliwości i horyzonty, które otwiera przede mną fotografia ślubna. Często eksperymentuję, obserwuję, biorąc to co najlepsze z przemijających fotograficznych trendów. Konsekwentnie dąże do wyznaczonego celu. Lubię mieć dobry plan nie pozwalający działać przypadkowi. Każdego dnia walczę z barierą strefy komfortu. Jestem zawodowym programistą i fotografem ślubnym z pasji. Fotografuję w Krakowie i bliskich okolicach. Mam na imię Tomek i jako fotograf ślubny chciałbym móc opowiedzieć zdjęciami Waszą historię ślubną.</p>
+                <p>Serdecznie zapraszam do odwiedzenia <Link href='/blog'><a>mojego bloga</a></Link> i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Oglądając moje prace sami ocenicie czy moja definicja stylu w fotografii ślubnej będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.</p>                
+                <div className="spacer"></div>
             </article>
              
         <style jsx>{`
@@ -128,7 +128,7 @@ export default class PortfolioDesktop extends Component {
             }
             
             .spacer {
-                height: 100px;
+                height: 40px;
             }
             
             p {

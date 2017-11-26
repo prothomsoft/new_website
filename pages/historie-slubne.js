@@ -12,12 +12,12 @@ export default class HistoriaPageComponent extends React.Component {
               headUrl={'http://99foto.pl/sesja-zdjeciowa-krakow/'}
               componentContentName={'historia'}                            
 
-              backgroundImage={'url(/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_start.jpg)'}              
+              backgroundImage={'url(/static/sala_weselna_nedan_pcim_reportaz_slubny_start.jpg)'}              
 
-              leadNames={'KINGA i MACIEK'}
-              leadTitle={'DEKORACJA SALI WESELNEJ W STYLU RUSTYKALNYM, OSP ZAWADA'}
-              leadUrl={'dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'} 
-              leadImage={'url(/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_start.jpg)'}
+              leadNames={'ANNA i KRZYSZTOF'}
+              leadTitle={'SALA WESELNA NEDAN PCIM - REPORTAŻ ŚLUBNY'}
+              leadUrl={'sala-weselna-nedan-pcim-reportaz-slubny'} 
+              leadImage={'url(/static/sala_weselna_nedan_pcim_reportaz_slubny_start.jpg)'}
               />
           </div>
         );

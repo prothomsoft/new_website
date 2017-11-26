@@ -14,10 +14,10 @@ export default class OfferPageComponent extends React.Component {
               
               backgroundImage={'url(/static/wydruki_fotograf_krakow_page.jpg)'}
 
-              leadNames={'IWONA i MARCIN'}
-              leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
-              leadUrl={'wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
-              leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
+              leadNames={'IWONA I MARCIN'}
+              leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
+              leadUrl={'/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
+              leadImage={'url(/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg)'}
               />
           </div>
         );

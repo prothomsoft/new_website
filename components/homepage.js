@@ -137,6 +137,40 @@ export default class Homepage extends React.Component {
                 </div>
 
                 <style jsx>{`
+                article {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;                        
+                    font-family: 'Oswald';
+                    width: 1140px;                
+                }
+                p {
+                    font-size: 16px;
+                    margin: 10px 0;
+                    text-align: justify;
+                    padding: 0 20px 0 20px;
+                }                
+                                
+                .quote-title::before,
+                .quote-title::after {
+                    content: '';
+                    display: block;
+                    border: 1px solid #33B59A;                    
+                }
+                
+                .quote-title {                
+                    display: flex;
+                    align-items: center;
+                    color: #FFFFFF;
+                    padding: 10px 0 10px 0;
+                }
+                
+                .quote-title::before,
+                .quote-title::after {
+                    flex-grow: 1;
+                    margin: 0 20px;
+                }  
                 .bgimg-2, .bgimg-3 {
                     position: relative;  
                     background-attachment: fixed;

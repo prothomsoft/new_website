@@ -15,12 +15,12 @@ export default class SesjaPageComponent extends React.Component {
               title={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN'} 
               date={'3 LISTOPADA 2017'} 
               tags={'PLENER STRBSKIE PLESO, POPRADZKI STAW ZDJĘCIA ŚLUBNE, SESJA ŚLUBNA SŁOWACJA'}              
-              backgroundImage={'url(/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg)'}
+              backgroundImage={'url(/static/hotel_qubus_krakow_sesja_zdjeciowa_start.jpg)'}
 
-              leadNames={'IWONA I MARCIN'}
-              leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}
-              leadUrl={'/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'} 
-              leadImage={'url(/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg)'}
+              leadNames={'EWELINA i KAMIL'}
+              leadTitle={'HOTEL QUBUS KRAKÓW SESJA ZDJĘCIOWA'}
+              leadUrl={'/hotel-qubus-krakow-sesja-zdjeciowa'} 
+              leadImage={'url(/static/hotel_qubus_krakow_sesja_zdjeciowa_start.jpg)'}
               />
           </div>
         );

@@ -161,8 +161,8 @@ export default class Menu extends React.Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href='http://sk.99foto.pl'>
-                                                <MyLink onCustomClick={this.showFixedMobileMenuWithTarget} text="STREFA KLIENTA"></MyLink>
+                                            <Link href='/strefa-klienta'>
+                                                <MyLink onCustomClick={this.showFixedMobileMenu} text="STREFA KLIENTA"></MyLink>
                                             </Link>                                            
                                         </li>
                                     </ul>
@@ -183,8 +183,8 @@ export default class Menu extends React.Component {
                                     <li><Link href='/'><a><img style={{height: "140px", width: "100px", margin: "-15px 0px 0px 5px"}} src="/static/99foto_logo.svg"/></a></Link></li>
                                     <li><Link href='/misja-i-faq'><a>MISJA i FAQ</a></Link></li>
                                     <li><Link href='/kontakt'><a>OFERTA i CENA</a></Link></li>
-                                    <li><Link as="/blog" href='/blog'><a>BLOG</a></Link></li>
-                                    <li><Link href='http://sk.99foto.pl'><a target="_blank">STREFA KLIENTA</a></Link></li>                                    
+                                    <li><Link href='/blog'><a>BLOG</a></Link></li>
+                                    <li><Link href='/strefa-klienta'><a>STREFA KLIENTA</a></Link></li>                                    
                                 </ul>
                             </ClassicMenuWrapper>
                     </Column>

@@ -22,6 +22,8 @@ import MisjaDesktop from '../components/misja/misjaDesktop'
 import MisjaMobile from '../components/misja/misjaMobile'
 import HistoriaDesktop from '../components/historia/historiaDesktop'
 import HistoriaMobile from '../components/historia/historiaMobile'
+import ClientDesktop from '../components/client/clientDesktop'
+import ClientMobile from '../components/client/clientMobile'
 
 
 var Element = Scroll.Element;
@@ -111,6 +113,9 @@ export default class Singlepage extends React.Component {
         if(this.props.componentContentName == 'historia') {
             componentContent = <HistoriaDesktop />
         }
+        if(this.props.componentContentName == 'client') {
+            componentContent = <ClientDesktop />
+        }
 
         if (this.state.fontLoaded) {
             if (this.state.width < 1160) {
@@ -133,6 +138,9 @@ export default class Singlepage extends React.Component {
                 if(this.props.componentContentName == 'historia') {
                     componentContent = <HistoriaMobile />
                 }
+                if(this.props.componentContentName == 'client') {
+                    componentContent = <ClientMobile />
+                }
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             } else {
                 menuSpace = '160px'
@@ -153,6 +161,9 @@ export default class Singlepage extends React.Component {
                 }
                 if(this.props.componentContentName == 'historia') {
                     componentContent = <HistoriaDesktop />
+                }
+                if(this.props.componentContentName == 'client') {
+                    componentContent = <ClientDesktop />
                 }
                 lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             }

@@ -12,7 +12,7 @@ export default class MisjaPageComponent extends React.Component {
               headUrl={'http://99foto.pl/misja-i-faq/'}
               componentContentName={'misja'} 
               
-              backgroundImage={'url(/static/tomek_prokop_fotograf_krakow_page.jpg)'}
+              backgroundImage={'url(/static/wesele_na_polu_golfowym_w_paczoltowicach_start.jpg)'}
 
               leadNames={'JOANNA i GRZEGORZ'}
               leadTitle={'WESELE NA POLU GOLFOWYM W PACZÓŁTOWICACH'}

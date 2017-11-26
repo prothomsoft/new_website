@@ -202,7 +202,7 @@ export default class BlogPageComponent extends React.Component {
           date={'21 sierpnia 2017'}
 
           menuNames={'ANNA i KRZYSZTOF'}
-          menuTitle={'SALA WESELNA NEDAN PCIM - REPORTAŻ ŚLUBNY - ANNA i KRZYSZTOF'}
+          menuTitle={'SALA WESELNA NEDAN PCIM - REPORTAŻ ŚLUBNY'}
 
           leadNames={'KASIA i GRZEGORZ'}
           leadTitle={'FOTOGRAF NA WESELE JORDANÓW, STRAŻNICA PCIM'}

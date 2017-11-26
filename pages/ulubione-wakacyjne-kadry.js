@@ -3,7 +3,7 @@ import Blogpage from '../components/blogpage'
 export default class BlogPageComponent extends React.Component {
   render() {
     let slide = [{
-      imageUrl: "/static/npm run buil.jpg"
+      imageUrl: "/static/ulubione_wakacyjne_kadry_start.jpg"
     }];
 
     let images = [

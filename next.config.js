@@ -8,6 +8,7 @@ module.exports = {
         '/sesja-zdjeciowa-krakow': { page: '/sesja-zdjeciowa-krakow' },
         '/misja-i-faq': { page: '/misja-i-faq' },
         '/historie-slubne': { page: '/historie-slubne' },
+        '/strefa-klienta': { page: '/strefa-klienta' },
         '/blog/page/1': { page: '/blog', query: { page: "1" } },
         '/blog/page/2': { page: '/blog', query: { page: "2" } },
         '/blog/page/3': { page: '/blog', query: { page: "3" } },
