@@ -12,7 +12,7 @@ export default class OfferPageComponent extends React.Component {
               headUrl={'http://99foto.pl/kontakt/'}
               componentContentName={'offer'}              
               
-              backgroundImage={'url(/static/wydruki_fotograf_krakow_page.jpg)'}
+              backgroundImage={'url(/static/wydruki_fotograf_krakow_start.jpg)'}
 
               leadNames={'IWONA I MARCIN'}
               leadTitle={'SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA'}

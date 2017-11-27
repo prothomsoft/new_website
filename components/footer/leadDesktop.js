@@ -60,16 +60,23 @@ export default class LeadDesktop extends Component {
     return (
         <div>
             <CaptionSectionWrapper>                                
-                <h1 className="previewTitle" style={{color: '#FFF'}}>{this.props.leadNames}</h1>
-                <h2 className="previewDescription" style={{color: '#FFF'}}>{this.props.leadTitle}</h2>
+                <p className="previewTitle">{this.props.leadNames}</p>
+                <h5 className="previewDescription">{this.props.leadTitle}</h5>
                 <Link href={this.props.leadUrl}><input type="submit" value="GALERIA ZDJĘĆ" /></Link>
-            <style jsx>{`
+            <style jsx>{`                
                 .previewTitle {                
-                    font-size: 50px;                    
+                    font-size: 50px;
+                    font-family:Oswald;
+                    font-style:normal;
+                    font-weight:bold;
+                    line-height:1.1;  
+                    text-rendering: optimizelegibility;
+                    color: #FFF;
                 }
                 .previewDescription {                
                     font-size: 30px;
                     padding: 20px 20px 40px 20px;
+                    color: #FFF;
                 }
             `}</style>
         </CaptionSectionWrapper>

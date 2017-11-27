@@ -13,6 +13,8 @@ import LeadDesktop from '../components/footer/leadDesktop'
 import LeadMobile from '../components/footer/leadMobile'
 import PortfolioDesktop from '../components/portfolio/portfolioDesktop'
 import PortfolioMobile from '../components/portfolio/portfolioMobile'
+import PortfolioTextDesktop from '../components/portfolio/portfolioTextDesktop'
+import PortfolioTextMobile from '../components/portfolio/portfolioTextMobile'
 
 var Element = Scroll.Element;
 
@@ -82,6 +84,7 @@ export default class Homepage extends React.Component {
         let componentTwo = null        
 
         let portfolio = <PortfolioDesktop />
+        let portfolioText = <PortfolioTextDesktop />
         let contact = <ContactDesktop />        
         
         let lead = <LeadDesktop  leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
@@ -92,6 +95,7 @@ export default class Homepage extends React.Component {
                 componentOne = <Slider slides={this.props.slides}></Slider>
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={'100vh'} displayTextAndArrow={false} displayArrow={true} />                
                 portfolio = <PortfolioMobile />
+                portfolioText = <PortfolioTextMobile />
                 contact = <ContactMobile />                
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             } else {
@@ -99,6 +103,7 @@ export default class Homepage extends React.Component {
                 componentOne = <Slider slides={this.props.slides}></Slider>
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={'100vh'} displayTextAndArrow={false} displayArrow={true} />
                 portfolio = <PortfolioDesktop />
+                portfolioText = <PortfolioTextDesktop />
                 contact = <ContactDesktop />                                
                 lead = <LeadDesktop  leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             }
@@ -125,6 +130,10 @@ export default class Homepage extends React.Component {
                 </SectionWrapper>
 
                 <div className="bgimg-2" style={{backgroundImage : this.props.backgroundImage}}></div>
+
+                <SectionWrapper>
+                    {portfolioText}
+                </SectionWrapper>
 
                 <SectionWrapper>
                     {contact}                    

@@ -1,0 +1,41 @@
+<FilesMatch ".(flv|swf|ico|gif|jpg|jpeg|png)$">  
+	Header set Cache-Control "max-age=2592000"  
+</FilesMatch>
+
+# TN Expires Caching Start #
+<IfModule mod_expires.c>
+ExpiresActive On
+
+# CSS
+ExpiresByType text/css "access 1 month"
+
+# JavaScript
+ExpiresByType application/javascript                "access 1 year"
+ExpiresByType application/x-javascript              "access 1 year"
+ExpiresByType text/javascript                       "access 1 year"
+
+# Embedded OpenType (EOT)
+ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+ExpiresByType font/eot                              "access plus 1 month"
+
+# OpenType
+ExpiresByType font/opentype                         "access plus 1 month"
+
+# TrueType
+ExpiresByType application/x-font-ttf                "access plus 1 month"
+
+# Web Open Font Format (WOFF) 1.0
+ExpiresByType application/font-woff                 "access plus 1 month"
+ExpiresByType application/x-font-woff               "access plus 1 month"
+ExpiresByType font/woff                             "access plus 1 month"
+
+# Web Open Font Format (WOFF) 2.0
+ExpiresByType application/font-woff2                "access plus 1 month"
+
+ExpiresByType image/png "access 1 year"
+ExpiresByType image/jpg "access 1 year"
+
+ExpiresByType image/svg+xml "access plus 1 month"
+ExpiresByType image/svg  "access plus 1 month"
+</IfModule>
+# TN Expires Caching End #	

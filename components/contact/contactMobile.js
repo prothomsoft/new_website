@@ -132,7 +132,7 @@ export default class ContactMobile extends React.Component {
                     </div>
                     <div className="spacer"></div>
                     <div>
-                    <p>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW</p>
+                    <p>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW </p>
                     <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
                     <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>                                            
                     </div>

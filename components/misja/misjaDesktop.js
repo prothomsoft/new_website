@@ -19,10 +19,10 @@ export default class OfferDesktop extends React.Component {
 
                     <div className="container">
                         <div className="column left">
-                            <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg'} /></LazyLoad></div></Link>
-                            <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg'} /></LazyLoad></div></Link>
-                            <Link href='/sesja-narzeczenska-krakow'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/sesja_narzeczenska_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
-                            <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg'} /></LazyLoad></div></Link>
+                            <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioImage"><LazyLoad height={224} offsetVertical={300}><img src={'/static/portfolio_dtp/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg'} /></LazyLoad></div></Link>
+                            <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad height={224} offsetVertical={300}><img src={'/static/portfolio_dtp/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg'} /></LazyLoad></div></Link>
+                            <Link href='/sesja-narzeczenska-krakow'><div className="porfolioImage"><LazyLoad height={224} offsetVertical={300}><img src={'/static/portfolio_dtp/sesja_narzeczenska_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
+                            <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioImage"><LazyLoad height={224} offsetVertical={300}><img src={'/static/portfolio_dtp/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg'} /></LazyLoad></div></Link>
                         </div>
                         <div className="column right">
                             <p>1. Czy posiadasz zaświadczenie z kurii zezwalające na fotografowanie podczas ślubów?<br />
@@ -62,9 +62,9 @@ export default class OfferDesktop extends React.Component {
 
                     <div className="container">
                         <div className="column left">
-                            <Link href='/wakacyjny-test-obiektywu-sigma-50-1-4-art'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/tomek_prokop_fotograf_krakow_misja_2_page.jpg'} /></LazyLoad></div></Link>
-                            <Link href='/michas-i-martusia-wakacje-wroclaw-i-kudowa-zdroj'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/tomek_prokop_fotograf_krakow_misja_1_page.jpg'} /></LazyLoad></div></Link>
-                            <Link href='/ulubione-wakacyjne-kadry'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/tomek_prokop_fotograf_krakow_misja_3_page.jpg'} /></LazyLoad></div></Link>
+                            <Link href='/wakacyjny-test-obiektywu-sigma-50-1-4-art'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/portfolio_dtp/tomek_prokop_fotograf_krakow_misja_2_page.jpg'} /></LazyLoad></div></Link>
+                            <Link href='/michas-i-martusia-wakacje-wroclaw-i-kudowa-zdroj'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/portfolio_dtp/tomek_prokop_fotograf_krakow_misja_1_page.jpg'} /></LazyLoad></div></Link>
+                            <Link href='/ulubione-wakacyjne-kadry'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/portfolio_dtp/tomek_prokop_fotograf_krakow_misja_3_page.jpg'} /></LazyLoad></div></Link>
                         </div>
                         <div className="column right">
                             <p className="alignJustify">Kiedy spojrzę w przeszłość na kilka ślubów, które miałem przyjemność fotografować, mogę powiedzieć jedno: każdy ślub jest inny. Para młoda i idealnie dopracowane detale są po prostu piękne. Goście weselni swoją radością sprawiają, że dzień ten staje się wyjątkowy, a całe tygodnie i miesiące przygotowań mają swój szczęśliwy finał w tym dniu pełnym uczuć, radości i wzruszeń.<br /><br />

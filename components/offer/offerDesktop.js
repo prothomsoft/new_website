@@ -17,8 +17,8 @@ export default class OfferDesktop extends React.Component {
 
                     <div className="container">
                         <div className="column left">
-                        <Link href='/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg'} /></LazyLoad></div></Link>
-                        <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg'} /></LazyLoad></div></Link>                        
+                        <Link href='/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/portfolio_dtp/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg'} /></LazyLoad></div></Link>
+                        <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/portfolio_dtp/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg'} /></LazyLoad></div></Link>                        
                         </div>
                         <div className="column right">
                         <h2>
@@ -48,8 +48,8 @@ export default class OfferDesktop extends React.Component {
 
                     <div className="container">
                         <div className="column left">
-                            <Link href='/sesja-narzeczenska-krakow'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/sesja_narzeczenska_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
-                            <Link href='/hotel-qubus-krakow-sesja-zdjeciowa'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg'} /></LazyLoad></div></Link>                            
+                            <Link href='/sesja-narzeczenska-krakow'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/portfolio_dtp/sesja_narzeczenska_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
+                            <Link href='/hotel-qubus-krakow-sesja-zdjeciowa'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/portfolio_dtp/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg'} /></LazyLoad></div></Link>                            
                             <div className="spacer">&nbsp;</div>
                         </div>
                         <div className="column right">

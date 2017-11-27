@@ -51,38 +51,41 @@ export default class PortfolioMobile extends Component {
 
     return (
         <div>
+
             <article>
                 <header>
-                    <h1 className="quote-title">POLECANE REPORTAŻE</h1>
-                </header>
-                <Link href='/wesele-na-polu-golfowym-w-paczoltowicach'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg'} /></LazyLoad></div></Link>
-                <Link href='/wesele-na-polu-golfowym-w-paczoltowicach'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE NA POLU GOLFOWYM<br/>JOANNA i GRZEGORZ</p></div></Link>
-                <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg'} /></LazyLoad></div></Link>
-                <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>DEKORACJA SALI W STYLU RUSTYKALNYM<br/>KINGA i MACIEK</p></div></Link>
-                <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg'} /></LazyLoad></div></Link>                      
-                <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA SŁOWACKIE GÓRY<br/>IWONA i MARCIN</p></div></Link>
-                <Link href='/hotel-qubus-krakow-sesja-zdjeciowa'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg'} /></LazyLoad></div></Link>
-                <Link href='/hotel-qubus-krakow-sesja-zdjeciowa'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA LAWENDOWE POLE<br/>EWELINA i KAMIL</p></div></Link>
-                <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg'} /></LazyLoad></div></Link>
-                <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY JORDANÓW<br/>ANNA i KRZYSZTOF</p></div></Link>
-                <Link href='/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg'} /></LazyLoad></div></Link>
-                <Link href='/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W GÓRALSKIM KLIMACIE<br/>IWONA i MARCIN</p></div></Link>
-                <Link href='/sesja-narzeczenska-krakow'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/sesja_narzeczenska_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
-                <Link href='/sesja-narzeczenska-krakow'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA NARZECZEŃSKA KRAKÓW<br/>KINGA i MACIEK</p></div></Link>
-                <Link href='/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
-                <Link href='/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>ŚLUB CYWILNY i WESELE W PLENERZE<br/>KINGA i JULIEN</p></div></Link>
-                <Link href='/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
-                <Link href='/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA W KRAKOWIE<br/>KAROLINA i BARTEK</p></div></Link>                                                
+                    <h1 className="quote-title"> FOTOGRAF ŚLUBNY KRAKÓW </h1>
+                </header>                
+                <p>Kocham to co robię, możliwości i horyzonty, które otwiera przede mną fotografia ślubna. Często eksperymentuję, obserwuję, biorąc to co najlepsze z przemijających fotograficznych trendów. Konsekwentnie dąże do wyznaczonego celu. Lubię mieć dobry plan nie pozwalający działać przypadkowi. Każdego dnia walczę z barierą strefy komfortu. Jestem zawodowym programistą i fotografem ślubnym z pasji. Fotografuję w Krakowie i bliskich okolicach. Mam na imię Tomek i jako fotograf ślubny chciałbym móc opowiedzieć zdjęciami Waszą historię ślubną.</p>
+                <p>Serdecznie zapraszam do odwiedzenia <Link href='/blog'><a>mojego bloga</a></Link> i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Oglądając moje prace sami ocenicie czy moja definicja stylu w fotografii ślubnej będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.</p>                
+                <div className="spacer_small"></div>
             </article>
 
             <article>
                 <header>
-                    <h1 className="quote-title">EMOCJE, UCZUCIA, KOLORY</h1>
-                </header>                
-                <p>Kocham to co robię, możliwości i horyzonty, które otwiera przede mną fotografia ślubna. Często eksperymentuję, obserwuję, biorąc to co najlepsze z przemijających fotograficznych trendów. Konsekwentnie dąże do wyznaczonego celu. Lubię mieć dobry plan nie pozwalający działać przypadkowi. Każdego dnia walczę z barierą strefy komfortu. Jestem zawodowym programistą i fotografem ślubnym z pasji. Fotografuję w Krakowie i bliskich okolicach. Mam na imię Tomek i jako fotograf ślubny chciałbym móc opowiedzieć zdjęciami Waszą historię ślubną.</p>
-                <p>Serdecznie zapraszam do odwiedzenia <Link href='/blog'><a>mojego bloga</a></Link> i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Oglądając moje prace sami ocenicie czy moja definicja stylu w fotografii ślubnej będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.</p>                
-                <div className="spacer"></div>
+                    <h2 className="quote-title">POLECANE REPORTAŻE</h2>
+                </header>
+                <Link href='/wesele-na-polu-golfowym-w-paczoltowicach'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg'} /></LazyLoad></div></Link>
+                <Link href='/wesele-na-polu-golfowym-w-paczoltowicach'><div className="porfolioCaption"><h4 style={{textAlign: 'center'}}> FOTOGRAF ŚLUBNY KRAKÓW <br/>JOANNA i GRZEGORZ</h4></div></Link>
+                <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg'} /></LazyLoad></div></Link>
+                <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>DEKORACJA SALI W STYLU RUSTYKALNYM<br/>KINGA i MACIEK</p></div></Link>
+                <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg'} /></LazyLoad></div></Link>                      
+                <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA SŁOWACKIE GÓRY<br/>IWONA i MARCIN</p></div></Link>
+                <Link href='/hotel-qubus-krakow-sesja-zdjeciowa'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg'} /></LazyLoad></div></Link>
+                <Link href='/hotel-qubus-krakow-sesja-zdjeciowa'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ŚLUBNA LAWENDOWE POLE<br/>EWELINA i KAMIL</p></div></Link>
+                <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg'} /></LazyLoad></div></Link>
+                <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY JORDANÓW<br/>ANNA i KRZYSZTOF</p></div></Link>
+                <Link href='/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg'} /></LazyLoad></div></Link>
+                <Link href='/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W GÓRALSKIM KLIMACIE<br/>IWONA i MARCIN</p></div></Link>
+                <Link href='/sesja-narzeczenska-krakow'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/sesja_narzeczenska_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
+                <Link href='/sesja-narzeczenska-krakow'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA NARZECZEŃSKA KRAKÓW<br/>KINGA i MACIEK</p></div></Link>
+                <Link href='/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
+                <Link href='/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'><div className="porfolioCaption"><h3 style={{textAlign: 'center'}}> FOTOGRAF ŚLUBNY KRAKÓW <br/>KINGA i JULIEN</h3></div></Link>
+                <Link href='/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
+                <Link href='/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA W KRAKOWIE<br/>KAROLINA i BARTEK</p></div></Link>                                                
             </article>
+
+            
              
         <style jsx>{`
 
@@ -93,6 +96,28 @@ export default class PortfolioMobile extends Component {
             .porfolioCaption {
                 cursor: pointer;                
                 margin: 0 20px 0 20px;
+            }
+
+            .porfolioCaption h3 {
+                font-family:Oswald;
+                font-style:normal;
+                font-weight:normal;
+                line-height:1.4;  
+                text-rendering: optimizelegibility;
+                font-size: 16px;  
+                padding: 0 20px 0 20px;              
+                margin: 10px 0;
+            }
+
+            .porfolioCaption h4 {
+                font-family:Oswald;
+                font-style:normal;
+                font-weight:normal;
+                line-height:1.4;  
+                text-rendering: optimizelegibility;
+                font-size: 16px;  
+                padding: 0 20px 0 20px;              
+                margin: 10px 0;
             }
             
             article {
@@ -105,13 +130,19 @@ export default class PortfolioMobile extends Component {
                 color #BEBEBE;
                 margin: 20px 0 0 0;
             }
-            article h1{
-                color: #FFF;
-                font-size: 26px;
-            }
+            article h1 {                
+                font-size: 1.5em;                
+            }            
+            article h2 {                
+                font-size: 1.5em;                
+            }            
 
             .spacer {
                 height: 50px;
+            }
+
+            .spacer_small {
+                height: 10px;
             }
             
             p {
