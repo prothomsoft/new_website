@@ -19,7 +19,7 @@ module.exports = {
         '/blog/page/8': { page: '/blog', query: { page: "8" } },
         '/blog/page/9': { page: '/blog', query: { page: "9" } },        
         '/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz': { page: '/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz' },
-        '/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja': { page: '/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja' },
+        '/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja': { page: '/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja' },        
         '/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice': { page: '/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice' },
         '/zdjecia-slubne-restauracja-stek-skawina': { page: '/zdjecia-slubne-restauracja-stek-skawina' },
         '/opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy': { page: '/opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy' },

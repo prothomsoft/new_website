@@ -60,20 +60,29 @@ img {
   border:0;
 }
 
-.btn {
-  -webkit-border-radius: 4;
-  -moz-border-radius: 4;
-  border-radius: 4px;        
-  color: #ffffff;
-  background: #000;
-  padding: 8px 16px 8px 16px;
-  border: solid #B3B3B3 1px;
-  text-decoration: none;
+.btn {  
+  vertical-align: middle;
+  color: #FFF;
+  display: inline-block;
+  height: 50px;
+  line-height: 45px;
+  text-align: center;
+  transition: 0.5s;
+  padding: 0 20px;
+  cursor: pointer;
+  border: 2px solid #FFFFFF;
+  -webkit-transition:0.5s;
+  font-family: 'Oswald';
+  background-color: #000;
+  width:20%;
+  font-size: 16px;
+  
 }
 
 .btn:hover {
-  border: solid #FFF 1px;
-  text-decoration: none;
+  border: 2px solid #FFFFFF;
+  background-color: #FFFFFF;
+  color: #000;
 }
 `
 

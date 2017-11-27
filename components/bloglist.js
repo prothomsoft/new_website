@@ -111,8 +111,8 @@ componentWillUnmount() {
                 <PostLink key={key} post={post} height={height}/>
             )}
             <div style={{textAlign : "right"}}>
-              {this.props.previous_page && <Link as={`/blog/page/${this.props.previous_page}`} href={`/blog?page=${this.props.previous_page}`}><a className="btn">←  Poprzednia strona</a></Link>}&nbsp;&nbsp;
-              {this.props.next_page && <Link as={`/blog/page/${this.props.next_page}`} href={`/blog?page=${this.props.next_page}`}><a className="btn">Następna strona →</a></Link>}
+              {this.props.previous_page && <Link as={`/blog/page/${this.props.previous_page}`} href={`/blog?page=${this.props.previous_page}`}><a className="btn">POPRZEDNIA STRONA</a></Link>}&nbsp;&nbsp;
+              {this.props.next_page && <Link as={`/blog/page/${this.props.next_page}`} href={`/blog?page=${this.props.next_page}`}><a className="btn">NASTĘPNA STRONA</a></Link>}
             </div>            
           </SectionWrapper>
 
@@ -168,13 +168,12 @@ const PostLink = ({ key, post, height }) => (
       <div className="entryContent" dangerouslySetInnerHTML={{ __html: getPostContent(post.content.rendered) }}/>
       <div style={{padding: "5px 0 40px 0"}}>
       <Link as={`/${post.slug}`} href={`/${post.slug}`}>
-        <a className="btn">Czytaj dalej  →</a>
+        <a className="btn">CZYTAJ DALEJ</a>
       </Link>
       </div>      
     </div>
     <style jsx>{`
-    
-    
+
       .header h1 {
           padding: 0 0 10px 0;
           margin: 0;

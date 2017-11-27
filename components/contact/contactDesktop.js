@@ -203,8 +203,7 @@ export default class ContactDesktop extends React.Component {
                   transition:0.2s ease all;
                 }
 
-                input[type=submit] {
-                    position:relative;
+                input[type=submit] {                    
                     vertical-align: middle;
                     color: #FFF;
                     display: inline-block;
@@ -214,7 +213,7 @@ export default class ContactDesktop extends React.Component {
                     transition: 0.5s;
                     padding: 0 20px;
                     cursor: pointer;
-                    border: 2px solid #33B59A;
+                    border: 2px solid #FFF;
                     -webkit-transition:0.5s;
                     font-family: 'Oswald';
                     background-color: #000;
@@ -223,9 +222,9 @@ export default class ContactDesktop extends React.Component {
                   }
 
                   input[type=submit]:hover {
-                    border: 2px solid #33B59A;
-                    background-color: #33B59A;
-                    color: #FFF;
+                    border: 2px solid #FFF;
+                    background-color: #FFF;
+                    color: #000;
                   }
 
                 input[type=text] {

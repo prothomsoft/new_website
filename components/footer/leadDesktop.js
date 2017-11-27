@@ -26,7 +26,8 @@ const CaptionSectionWrapper = styled.div`
     input[type=submit]:hover {
         width:20%;
         border: ${props => props.black ? '4px solid #000' : '4px solid #FFF'};        
-        background-color: ${props => props.black ? '#33B59A' : '#33B59A'};        
+        background-color: ${props => props.black ? '#FFF' : '#FFF'};
+        color: #000;   
     }
 
     margin: 0 auto;
@@ -58,12 +59,10 @@ export default class LeadDesktop extends Component {
 
     return (
         <div>
-            <CaptionSectionWrapper>
-                
-                
-                <h1 className="previewTitle" style={{color: '#FFF'}}>{this.props.leadNames}</h1>                            
+            <CaptionSectionWrapper>                                
+                <h1 className="previewTitle" style={{color: '#FFF'}}>{this.props.leadNames}</h1>
                 <h2 className="previewDescription" style={{color: '#FFF'}}>{this.props.leadTitle}</h2>
-                <Link href={this.props.leadUrl}><input type="submit" value="ZOBACZ ZDJĘCIA" /></Link>
+                <Link href={this.props.leadUrl}><input type="submit" value="GALERIA ZDJĘĆ" /></Link>
             <style jsx>{`
                 .previewTitle {                
                     font-size: 50px;                    

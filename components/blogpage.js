@@ -120,6 +120,7 @@ export default class Blogpage extends React.Component {
                 <Element id="portfolio"></Element>
                 <SectionWrapper>
                     <article>
+                        {this.props.page}
                         <header className="header">
                             <h1>
                                 <Link as={`/${this.props.slug}`} href={`/${this.props.slug}`}>
@@ -184,3 +185,10 @@ export default class Blogpage extends React.Component {
         )
     }
 }
+
+Blogpage.getInitialProps = async function({ query }) {    
+    const page = parseInt(query.page)
+    return {
+    page: page
+    }
+}  
