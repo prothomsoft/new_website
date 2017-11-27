@@ -124,7 +124,7 @@ export default class ContactMobile extends React.Component {
                             <label>Twoja wiadomość</label>
                         </div>
 
-                        <div style={{textAlign: "left", paddingTop: "20px"}}>
+                        <div className="submitPad">
                             <input type="submit" value="WYŚLIJ WIADOMOŚĆ" />
                         </div>    
 
@@ -139,6 +139,12 @@ export default class ContactMobile extends React.Component {
                     <div className="spacer"></div>
                 
             <style jsx>{`
+
+                .submitPad {
+                    text-align: left;
+                    padding: 20p 0 30px 0;
+                }
+
                 article {
                     display: flex;
                     flex-direction: column;
@@ -176,7 +182,7 @@ export default class ContactMobile extends React.Component {
                 }               
 
                 .spacer {
-                    height: 30px;
+                    height: 40px;
                 }
 
                 .header h1 {

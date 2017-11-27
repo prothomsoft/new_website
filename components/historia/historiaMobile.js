@@ -12,7 +12,7 @@ export default class HistoriaMobile extends React.Component {
             <div>
                 <article>
                 <header>
-                    <h1 className="quote-title">POLECANE REPORTAŻE I SESJE ŚLUBNE</h1>
+                    <h1 className="quote-title">KILKA HISTORII</h1>
                 </header>
                 <Link href='/wesele-na-polu-golfowym-w-paczoltowicach'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg'} /></LazyLoad></div></Link>
                 <Link href='/wesele-na-polu-golfowym-w-paczoltowicach'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE NA POLU GOLFOWYM<br/>JOANNA i GRZEGORZ</p></div></Link>

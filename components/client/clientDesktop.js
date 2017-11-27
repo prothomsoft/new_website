@@ -13,7 +13,7 @@ export default class ClientDesktop extends React.Component {
             <div>
                 <article>
                     <header>
-                        <h1 className="quote-title">TWOJE ZDJĘCIA ZABEZPIECZONE HASŁEM</h1>
+                        <h1 className="quote-title">GALERIE ZDJĘĆ ZABEZPIECZONE HASŁEM</h1>
                     </header>
                     <div style={{display: 'flex'}}>                        
                         <Link href='/wesele-na-polu-golfowym-w-paczoltowicach'><div className="porfolioImage"><LazyLoad height={225} offsetVertical={300}><img src={'/static/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg'} /></LazyLoad></div></Link>

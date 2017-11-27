@@ -74,7 +74,7 @@ img {
   -webkit-transition:0.5s;
   font-family: 'Oswald';
   background-color: #000;
-  width:20%;
+  width:200px;
   font-size: 16px;
   
 }
