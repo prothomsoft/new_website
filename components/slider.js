@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import NProgress from 'nprogress'
 import styled from 'styled-components'
+import Waypoint from 'react-waypoint'
 
 const SliderWrapper = styled.div`
 height: 100vh;                    
@@ -24,7 +25,8 @@ export default class Slider extends React.Component {
             backgroundImage6Loaded: 0,
             backgroundImage7Loaded: 0,
             backgroundImage8Loaded: 0,
-            backgroundImage9Loaded: 0
+            backgroundImage9Loaded: 0,
+            isScrollOnTop: 'notScrolled'
         }
         this.handleBackgroundImage0Load = this.handleBackgroundImage0Load.bind(this);
         this.handleBackgroundImage1Load = this.handleBackgroundImage1Load.bind(this);
@@ -36,7 +38,8 @@ export default class Slider extends React.Component {
         this.handleBackgroundImage7Load = this.handleBackgroundImage7Load.bind(this);
         this.handleBackgroundImage8Load = this.handleBackgroundImage8Load.bind(this);
         this.handleBackgroundImage9Load = this.handleBackgroundImage9Load.bind(this);
-        
+        this.onWaypointEntered = this.onWaypointEntered.bind(this);
+        this.onWaypointLeft = this.onWaypointLeft.bind(this);        
     }
 
     componentDidMount() {
@@ -168,6 +171,14 @@ export default class Slider extends React.Component {
         }
     }
 
+    onWaypointEntered(arg) {
+        this.setState({ isScrollOnTop: arg });
+    }
+
+    onWaypointLeft(arg) {
+        this.setState({ isScrollOnTop: arg });
+    }
+
     
 
     render() {
@@ -176,15 +187,23 @@ export default class Slider extends React.Component {
             styleFadeInOut = 'slideShow fadeIn';
         } else if (this.state.eachImageState == 4) {
             styleFadeInOut = 'slideShow fadeOut';
-            NProgress.done()
+            if (this.state.isScrollOnTop == 'notScrolled') {
+                NProgress.done()
+            }
         } else {
-            NProgress.configure({ parent: '.nProgressHandler' });
-            NProgress.inc()
+            if (this.state.isScrollOnTop == 'notScrolled') {
+                NProgress.configure({ parent: '.nProgressHandler' });
+                NProgress.inc()
+            }
             styleFadeInOut = 'slideShow';
         }
 
         return (
             <SliderWrapper>
+                <Waypoint
+                    onEnter={this.onWaypointEntered.bind(this, 'notScrolled')}
+                    onLeave={this.onWaypointLeft.bind(this, 'scrolled')}
+                />
                 <div className={styleFadeInOut} style={{ backgroundImage: `url(${this.state.backgroundImage})` }}></div>
                 <style jsx>{`                
                 .slideShow {

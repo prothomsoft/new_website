@@ -40,12 +40,12 @@ export default class LeadMobile extends Component {
         <style jsx>{`
             .previewTitle {
                 color #FFF;
-                font-size: 50px;                    
+                font-size: 42px;                    
             }
 
             .previewDescription {
                 color: #FFF;
-                font-size: 30px;
+                font-size: 24px;
                 padding: 20px 20px 40px 20px;
             }
 
@@ -70,8 +70,9 @@ export default class LeadMobile extends Component {
 
             input[type=submit]:hover {
                 width:180px;
-                border: 4px solid #33B59A;                        
-                background-color: #33B59A;
+                border: 4px solid #FFFFFF;                        
+                background-color: #FFFFFF;
+                color: #000;
             }
              
         `}</style>

@@ -146,7 +146,7 @@ export default class ContactMobile extends React.Component {
                     text-align: center;                    
                     font-family: 'Oswald';                    
                     width: 100%;
-                    height: 700px;
+                    height: 750px;
                     color #FFF;
                     padding:40px;                    
                 }
@@ -214,7 +214,7 @@ export default class ContactMobile extends React.Component {
                     transition: 0.5s;
                     padding: 0 20px;
                     cursor: pointer;
-                    border: 2px solid #33B59A;
+                    border: 2px solid #FFF;
                     -webkit-transition:0.5s;
                     font-family: 'Oswald';
                     background-color: #000;
@@ -223,9 +223,9 @@ export default class ContactMobile extends React.Component {
                   }
 
                   input[type=submit]:hover {
-                    border: 2px solid #33B59A;
-                    background-color: #33B59A;
-                    color: #FFF;
+                    border: 2px solid #FFF;
+                    background-color: #FFF;
+                    color: #000;
                   }
 
                 input[type=text] {

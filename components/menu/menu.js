@@ -5,6 +5,7 @@ import IntroArrow from '../menu/introArrow'
 import styled from 'styled-components'
 import Scroll from 'react-scroll';
 import Waypoint from 'react-waypoint'
+import NProgress from 'nprogress'
 
 var LinkScroll = Scroll.Link;
 
@@ -84,9 +85,10 @@ export default class Menu extends React.Component {
         
         let logoFile = '/static/99foto_logo.svg';        
         if (this.state.isScrollOnTop == 'notScrolled') {
-            background = 'transparent';            
+            background = 'transparent'            
         } else {
-            background = '#000000';                
+            background = '#000000'
+            NProgress.done()            
         }
 
         let height = null;
@@ -105,11 +107,11 @@ export default class Menu extends React.Component {
         }
 
         let componentTextAndArrow;
-        if(this.props.displayTextAndArrow) {
+        if(this.state.isScrollOnTop == 'notScrolled' && this.props.displayTextAndArrow) {
             componentTextAndArrow = <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><IntroTextAndArrow menuNames={this.props.menuNames} menuTitle={this.props.menuTitle} menuButton={this.props.menuButton} /></LinkScroll>
         }
 
-        if(this.props.displayArrow) {
+        if(this.state.isScrollOnTop == 'notScrolled' && this.props.displayArrow) {
             componentTextAndArrow = <LinkScroll activeClass="active" to="portfolio" spy={true} smooth={true} duration={500} ><IntroArrow /></LinkScroll>
         }
 
@@ -130,6 +132,11 @@ export default class Menu extends React.Component {
                             <div className="mobileMenuWrapper" style={{ visibility: `${fixedMobileMenuVisibility}`, background: `${background}`, height: height }}>
                                 <div className="mobileMenuContent" style={{height: height}}>
                                     <ul>
+                                        <li>
+                                            <Link href='/'>
+                                                <MyLink onCustomClick={this.showFixedMobileMenu} text="START"></MyLink>
+                                            </Link>
+                                        </li>
                                         <li>
                                             <Link href='/fotografia-slubna-krakow'>
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="FOTOGRAFIA ŚLUBNA"></MyLink>
@@ -304,13 +311,8 @@ export default class Menu extends React.Component {
                 
                 .mtn-mobile-logo {                    
                     margin: 7px 0 0 8px;
-                    display: block;                    
-                }
-                .mtn-mobile-logo img {
-                    width: 100%;                 
-                }
-                .phone-logo {
-                   
+                    display: block;
+                    width: 105px;
                 }
                 
                 .mtn-trigger {                    

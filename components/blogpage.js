@@ -5,7 +5,6 @@ import Loader from '../components/loader'
 import LazyLoadWrapper from '../components/lazyLoadWrapper'
 import Menu from '../components/menu/menu'
 import FontLoader from '../components/fontLoader'
-import NProgress from 'nprogress'
 import Scroll from 'react-scroll'
 import styled from 'styled-components'
 import ContactDesktop from '../components/contact/contactDesktop'
@@ -185,10 +184,3 @@ export default class Blogpage extends React.Component {
         )
     }
 }
-
-Blogpage.getInitialProps = async function({ query }) {    
-    const page = parseInt(query.page)
-    return {
-    page: page
-    }
-}  
