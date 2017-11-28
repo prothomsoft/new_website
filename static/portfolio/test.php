@@ -31,5 +31,16 @@
 <img src="tomek_prokop_fotograf_krakow_misja_1_page.jpg" />
 <img src="tomek_prokop_fotograf_krakow_misja_2_page.jpg" />
 <img src="tomek_prokop_fotograf_krakow_misja_3_page.jpg" />
+<img src="sesja_zdjeciowa_krakow_1_portfolio.jpg" />
+<img src="sesja_zdjeciowa_krakow_2_portfolio.jpg" />
+<img src="sesja_zdjeciowa_krakow_3_portfolio.jpg" />
+<img src="sesja_zdjeciowa_krakow_4_portfolio.jpg" />
+<img src="sesja_zdjeciowa_krakow_5_portfolio.jpg" />
+<img src="sesja_zdjeciowa_krakow_6_portfolio.jpg" />
+<img src="sesja_zdjeciowa_krakow_7_portfolio.jpg" />
+<img src="sesja_zdjeciowa_krakow_8_portfolio.jpg" />
+<img src="sesja_zdjeciowa_krakow_9_portfolio.jpg" />
+<img src="sesja_slubna_krakow_1_portfolio.jpg" />
+
 </body>
 </html>
