@@ -7,7 +7,7 @@ export default class SlubPageComponent extends React.Component {
           <div>
             <Singlepage
               headTitle={'Fotografia ślubna Kraków'}
-              headDescription={'Fotografia ślubna to trójkąt zależności pomiędzy chwilą, światłem i kadrem. Chwilę tworzą ludzie, światło daje kontekst, kadr to poczucie estetyki fotografa.'}
+              headDescription={'Fotografia ślubna Kraków, trójkąt zależności pomiędzy chwilą, światłem i kadrem. Chwilę tworzą ludzie, światło to kontekst, kadr to poczucie estetyki fotografa.'}
               headKeywords={'fotografia ślubna kraków,fotograf ślubny kraków'}
               headUrl={'http://99foto.pl/fotografia-slubna-krakow/'}
               componentContentName={'slub'}              

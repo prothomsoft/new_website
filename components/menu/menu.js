@@ -54,8 +54,7 @@ export default class Menu extends React.Component {
             showFixedMobileMenu: false,
             isScrollOnTop: 'notScrolled'
         };
-        this.showFixedMobileMenu = this.showFixedMobileMenu.bind(this);
-        this.showFixedMobileMenuWithTarget = this.showFixedMobileMenuWithTarget.bind(this);
+        this.showFixedMobileMenu = this.showFixedMobileMenu.bind(this);        
         this.onWaypointEntered = this.onWaypointEntered.bind(this);
         this.onWaypointLeft = this.onWaypointLeft.bind(this);
     }
@@ -65,10 +64,6 @@ export default class Menu extends React.Component {
         this.setState({
             showFixedMobileMenu: !this.state.showFixedMobileMenu
         });
-    }
-
-    showFixedMobileMenuWithTarget() {
-        window.open('http://sk.99foto.pl', '_blank');
     }
 
     onWaypointEntered(arg) {
