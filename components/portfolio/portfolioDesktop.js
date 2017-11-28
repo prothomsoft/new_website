@@ -66,8 +66,8 @@ export default class PortfolioDesktop extends Component {
                 </div>
                 <div style={{display: 'flex'}}>
                     <Link href='/wesele-na-polu-golfowym-w-paczoltowicach'><div className="porfolioCaption"><h4 style={{textAlign: 'center'}}> FOTOGRAF ŚLUBNY KRAKÓW <br/>JOANNA i GRZEGORZ</h4></div></Link>
-                    <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>DEKORACJA SALI W STYLU RUSTYKALNYM<br/>KINGA i MACIEK</p></div></Link>
-                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA w GÓRACH<br/>IWONA i MARCIN</p></div></Link>
+                    <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>DEKORACJA SALI W STYLU RUSTYKALNYM<br/> KINGA i MACIEK</p></div></Link>
+                    <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA W GÓRACH<br/> IWONA i MARCIN</p></div></Link>
                 </div>
                 <div style={{display: 'flex'}}>
                     <Link href='/hotel-qubus-krakow-sesja-zdjeciowa'><div className="porfolioImage"><LazyLoad height={224} offsetVertical={300}><img alt='sesja ślubna lawendowe pole' src={'/static/portfolio_dtp/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg'} /></LazyLoad></div></Link>
@@ -75,9 +75,9 @@ export default class PortfolioDesktop extends Component {
                     <Link href='/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'><div className="porfolioImage"><LazyLoad height={224} offsetVertical={300}><img alt='wesele w góralskim klimacie' src={'/static/portfolio_dtp/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg'} /></LazyLoad></div></Link>
                 </div>
                 <div style={{display: 'flex'}}>
-                    <Link href='/hotel-qubus-krakow-sesja-zdjeciowa'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ŚLUBNA LAWENDOWE POLE<br/>EWELINA i KAMIL</p></div></Link>
-                    <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY JORDANÓW<br/>ANNA i KRZYSZTOF</p></div></Link>
-                    <Link href='/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W GÓRALSKIM KLIMACIE<br/>IWONA i MARCIN</p></div></Link>
+                    <Link href='/hotel-qubus-krakow-sesja-zdjeciowa'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ŚLUBNA LAWENDOWE POLE<br/> EWELINA i KAMIL</p></div></Link>
+                    <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY JORDANÓW<br/> ANNA i KRZYSZTOF</p></div></Link>
+                    <Link href='/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W GÓRALSKIM KLIMACIE<br/> IWONA i MARCIN</p></div></Link>
                 </div>
                 <div style={{display: 'flex'}}>                        
                     <Link href='/sesja-narzeczenska-krakow'><div className="porfolioImage"><LazyLoad height={224} offsetVertical={300}><img alt='sesja narzeczeńska kraków' src={'/static/portfolio_dtp/sesja_narzeczenska_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
@@ -85,9 +85,9 @@ export default class PortfolioDesktop extends Component {
                     <Link href='/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'><div className="porfolioImage"><LazyLoad height={224} offsetVertical={300}><img alt='sesja zdjęciowa w Krakowie' src={'/static/portfolio_dtp/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
                 </div>
                 <div style={{display: 'flex'}}>                    
-                    <Link href='/sesja-narzeczenska-krakow'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA NARZECZEŃSKA KRAKÓW<br/>KINGA i MACIEK</p></div></Link>
+                    <Link href='/sesja-narzeczenska-krakow'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA NARZECZEŃSKA KRAKÓW<br/> KINGA i MACIEK</p></div></Link>
                     <Link href='/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'><div className="porfolioCaption"><h3 style={{textAlign: 'center'}}> FOTOGRAF ŚLUBNY KRAKÓW <br/> KINGA i JULIEN</h3></div></Link>
-                    <Link href='/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA W KRAKOWIE<br/>KAROLINA i BARTEK</p></div></Link>                                                
+                    <Link href='/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA W KRAKOWIE<br/> KAROLINA i BARTEK</p></div></Link>                                                
                 </div>                
                 <div className="spacer"></div>
             </article>
