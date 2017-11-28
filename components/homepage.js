@@ -92,7 +92,7 @@ export default class Homepage extends React.Component {
         if (this.state.fontLoaded) {
             if (this.state.width < 1160) {
                 menuSpace = '70px';
-                componentOne = <Slider slides={this.props.slides}></Slider>
+                componentOne = <Slider slides={this.props.slides} firstLoad={false}></Slider>
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={'100vh'} displayTextAndArrow={false} displayArrow={true} />                
                 portfolio = <PortfolioMobile />
                 portfolioText = <PortfolioTextMobile />
@@ -100,7 +100,7 @@ export default class Homepage extends React.Component {
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             } else {
                 menuSpace = '5px';
-                componentOne = <Slider slides={this.props.slides}></Slider>
+                componentOne = <Slider slides={this.props.slides} firstLoad={false}></Slider>
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={'100vh'} displayTextAndArrow={false} displayArrow={true} />
                 portfolio = <PortfolioDesktop />
                 portfolioText = <PortfolioTextDesktop />
@@ -108,8 +108,7 @@ export default class Homepage extends React.Component {
                 lead = <LeadDesktop  leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             }
         } else {
-            componentTwo = <Loader />
-            componentOne = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState}></FontLoader>
+            componentOne = <Slider slides={this.props.slides} firstLoad={true} triggerParentUpdateFontLoadedStateSlider={this.updateFontLoadedState}></Slider>
         }
 
         let overflow = null

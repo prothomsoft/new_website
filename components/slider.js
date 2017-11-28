@@ -2,6 +2,8 @@ import Link from 'next/link'
 import NProgress from 'nprogress'
 import styled from 'styled-components'
 import Waypoint from 'react-waypoint'
+import Loader from '../components/loader'
+import FontLoader from '../components/fontLoader'
 
 const SliderWrapper = styled.div`
 height: 100vh;                    
@@ -26,7 +28,8 @@ export default class Slider extends React.Component {
             backgroundImage7Loaded: 0,
             backgroundImage8Loaded: 0,
             backgroundImage9Loaded: 0,
-            isScrollOnTop: 'notScrolled'
+            isScrollOnTop: 'notScrolled',
+            fontLoaded: false
         }
         this.handleBackgroundImage0Load = this.handleBackgroundImage0Load.bind(this);
         this.handleBackgroundImage1Load = this.handleBackgroundImage1Load.bind(this);
@@ -39,7 +42,8 @@ export default class Slider extends React.Component {
         this.handleBackgroundImage8Load = this.handleBackgroundImage8Load.bind(this);
         this.handleBackgroundImage9Load = this.handleBackgroundImage9Load.bind(this);
         this.onWaypointEntered = this.onWaypointEntered.bind(this);
-        this.onWaypointLeft = this.onWaypointLeft.bind(this);        
+        this.onWaypointLeft = this.onWaypointLeft.bind(this);
+        this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
     }
 
     componentDidMount() {
@@ -153,7 +157,7 @@ export default class Slider extends React.Component {
     }
 
     slideChanger() {
-        if (this.state.backgroundImage0Loaded && this.state.backgroundImage1Loaded && this.state.backgroundImage2Loaded && this.state.backgroundImage3Loaded) {
+        if (this.state.backgroundImage0Loaded && this.state.backgroundImage1Loaded) {
             let eachImageState = this.state.eachImageState + 1;
             let activeIndex = this.state.activeIndex;
             if (eachImageState == 5) {
@@ -179,7 +183,11 @@ export default class Slider extends React.Component {
         this.setState({ isScrollOnTop: arg });
     }
 
-    
+    updateFontLoadedState() {
+        this.setState({
+            fontLoaded: !this.state.fontLoaded
+        });
+    }
 
     render() {
         let styleFadeInOut = 'slideShow';
@@ -198,8 +206,29 @@ export default class Slider extends React.Component {
             styleFadeInOut = 'slideShow';
         }
 
+
+        let loader = null
+        let fontLoader = null
+        if(this.props.firstLoad) {
+            if (this.state.backgroundImage0Loaded && this.state.backgroundImage1Loaded) {
+                fontLoader = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState}></FontLoader>
+                loader = <Loader />
+            } else {
+                fontLoader = null
+                loader = <Loader />
+            }
+            if (this.state.fontLoaded) {
+                fontLoader = null
+                loader = null
+                this.props.triggerParentUpdateFontLoadedStateSlider();
+            }
+        }
+
         return (
+
             <SliderWrapper>
+                {fontLoader}
+                {loader}
                 <Waypoint
                     onEnter={this.onWaypointEntered.bind(this, 'notScrolled')}
                     onLeave={this.onWaypointLeft.bind(this, 'scrolled')}
