@@ -26,13 +26,13 @@ export default class OfferDesktop extends React.Component {
                     <p>Warto też przygotować makijaż i fryzurę zbliżone do tego z dnia ślubu . Koniecznie należy też zabrać ze sobą dobry humor, gdyż jest to bardzo ale to bardzo ważne.</p>
                     <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg'} /></LazyLoad>
                     <p>Fotografia jest moją pasją od lat. Jak nie trudno zgadnąć skala kreatywności poczas sesji zdjęciowych sięga zenitu. Każdy wieczór poprzedzający sesję zdjęciową mija mi na analizowaniu moich i istniejacych już w internecie prac innych fotografów wykonanych w miejscu lub okolicach miejsca do którego się wybieramy.</p>
-                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/beata_i_marcin_reportaz_slubny_mszana_dolna_hotel_gorski_raj_portfolio.jpg'} /></LazyLoad>
+                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/sesja_zdjeciowa_krakow_1_portfolio.jpg'} /></LazyLoad>
                     <p>Budowanie kreatywności, wyszukiwanie szczerości i wyjątkowości w zdjęciach to ciągła praca. Wierzcie mi, że im dalej jestem, tym więcej pracy widzę jeszcze przed sobą. Każda kolejna wykonana sesja zdjęciowa buduje świadomość tego, co ma być w kadrze, jak tego czegoś szukać. Definiuje kadr, podpowiada co chcę pokazywać i jak chcę pokazywać.</p>
-                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/anna_krzysztof_portfolio.jpg'} /></LazyLoad>
+                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/sesja_zdjeciowa_krakow_2_portfolio.jpg'} /></LazyLoad>
                     <p>Trzy godziny fotografowania, najczęściej dwa lub trzy wybrane miejsca w Krakowie i okolicach, blisko pięćset zdjęć, z których starannie selekcjonuję siedemdziesiąt do obróbki graficznej. Emocje, emocje i jeszcze raz emocje. Zero ustawek i balast sprzętowy ograniczony do niezbędnego minimum. Osobiście czerpię prawdziwą przyjemność w poszukiwaniu prawdziwości w moich zdjęciach, odnajdywaniu kadrów, odkrywaniu miejsc dzięki magii światła po raz kolejny na nowo.</p>
-                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg'} /></LazyLoad>
+                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/sesja_zdjeciowa_krakow_3_portfolio.jpg'} /></LazyLoad>
                     <p>Plener ślubny w Krakowie to najlepszy moment na zrobienie tych najpiękniejszych i najromantyczniejszych zdjęć. To chwila na oderwanie się od rzeczywistości i wcielenie w rolę rozluźnionego modela. Spotkajmy się, wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze. Serdecznie zapraszam.</p>
-                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg'} /></LazyLoad>
+                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/sesja_zdjeciowa_krakow_4_portfolio.jpg'} /></LazyLoad>
                     <div className="spacer">&nbsp;</div>
                 </article>
 
@@ -41,13 +41,13 @@ export default class OfferDesktop extends React.Component {
                         <h1 className="quote-title">REFERENCJE</h1>
                     </header>
                     <p>Od samego początku współpraca z Tomkiem przebiegała idealnie :) Pełen pomysłów w głowie i zapału do pracy, a przy okazji napełniony dobrą energii, która dodała nam "powera" w tym ważnym dla nas dniu ! Błyskawiczna obsługa z pięknymi zdjęciami :) Jak tylko wybierać to zdecydowanie Tomka ! :) Dziękujemy i na pewno kiedyś jeszcze się zobaczymy. <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">Ewelina i Kamil</Link>.</p>
-                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg'} /></LazyLoad>
+                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/sesja_zdjeciowa_krakow_5_portfolio.jpg'} /></LazyLoad>
                     <p>Pełen profesjonalizm i zaangażowanie! Dyskretna i bardzo efektowna praca Tomka robi wrażenie tak jak Jego zdjęcia :) spokój i usmiech :) świetna współpraca! Dziękujemy Tomek. <Link href="/sylwia-i-bartek-sesja-poslubna-krakow">Sylwia i Bartek</Link>.</p>
-                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg'} /></LazyLoad>
+                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/sesja_zdjeciowa_krakow_6_portfolio.jpg'} /></LazyLoad>
                     <p>Gorące podziękowania dla Tomka za wspaniałą pamiątkę z naszego wesela, które odbyło się 15 sierpnia tego roku. Współpraca, podejście do tematu, zaangażowanie na bardzo wysokim poziomie. Materiał z wesela otrzymaliśmy w ekspresowym terminie. Wszystkim serdecznie polecamy! <Link href="/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala">Patrycja i Michał</Link>.</p>
-                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg'} /></LazyLoad>
+                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/sesja_zdjeciowa_krakow_7_portfolio.jpg'} /></LazyLoad>
                     <p>Tomek jest świetnym fotografem. Każdy ważny moment jest uchwycony w magiczny sposób. Nie ma zdjęcia, które by sie powtarzało. Efekty mówią same za siebie, wystarczy tylko popatrzeć na bloga. Atmosfera, która stwarza jest rewelacyjna. Gorąco polecam. <Link href="/wesele-tarnow-dwor-bistuszowa-i-staropolski-klimat-slubny">Aleksandra i Przemek</Link>.</p>
-                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg'} /></LazyLoad>
+                    <LazyLoad height={760} offsetVertical={300}><img src={'/static/portfolio/sesja_zdjeciowa_krakow_8_portfolio.jpg'} /></LazyLoad>
                     <p>Just an amazing photograph that understand what the clients want! Would give him a 10 if it was possible (not possible on Facebook). <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">Kinga i Julien</Link>.</p>
                     <div className="spacer">&nbsp;</div>
                 </article>
