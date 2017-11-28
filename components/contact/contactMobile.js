@@ -132,9 +132,13 @@ export default class ContactMobile extends React.Component {
                     </div>
                     <div className="spacer"></div>
                     <div>
-                    <p>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW </p>
-                    <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
-                    <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>                                            
+                        <p>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW</p>
+                        <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
+                        <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>
+                        <div className="spacer_small"></div>
+                        <span style={{padding: '15px'}}><Link href='https://facebook.com/99foto'><a target="_blank"><img width="35px" src='/static/icons/facebook_icon.svg' /></a></Link></span>
+                        <span style={{padding: '15px'}}><Link href='https://www.instagram.com/99foto.pl'><a target="_blank"><img width="35px" src='/static/icons/instagram_icon.svg' /></a></Link></span>
+                        <span style={{padding: '15px'}}><Link href='https://plus.google.com/+99fotoPl_fotograf_na_wesele_krakow'><a target="_blank"><img width="35px" src='/static/icons/google_plus_icon.svg' /></a></Link></span>
                     </div>
                     <div className="spacer"></div>
                 
@@ -152,7 +156,7 @@ export default class ContactMobile extends React.Component {
                     text-align: center;                    
                     font-family: 'Oswald';                    
                     width: 100%;
-                    height: 750px;
+                    height: 770px;
                     color #FFF;
                     padding:40px;                    
                 }
@@ -179,10 +183,14 @@ export default class ContactMobile extends React.Component {
                 .quote-title::after {
                     flex-grow: 1;
                     margin: 0 20px;
-                }               
-
+                }
+                
                 .spacer {
                     height: 40px;
+                }
+
+                .spacer_small {
+                    height: 20px;
                 }
 
                 .header h1 {

@@ -132,13 +132,17 @@ export default class ContactDesktop extends React.Component {
                     </div>
                     <div className="spacer"></div>
                     <div>
-                    <p>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW </p>
-                    <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
-                    <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>                                            
+                        <p>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW </p>
+                        <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
+                        <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>
+                        <div className="spacer_small"></div>
+                        <span style={{padding: '15px'}}><Link href='https://facebook.com/99foto'><a target="_blank"><img width="35px" src='/static/icons/facebook_icon.svg' /></a></Link></span>
+                        <span style={{padding: '15px'}}><Link href='https://www.instagram.com/99foto.pl'><a target="_blank"><img width="35px" src='/static/icons/instagram_icon.svg' /></a></Link></span>
+                        <span style={{padding: '15px'}}><Link href='https://plus.google.com/+99fotoPl_fotograf_na_wesele_krakow'><a target="_blank"><img width="35px" src='/static/icons/google_plus_icon.svg' /></a></Link></span>
                     </div>
                     <div className="spacer"></div>
                 
-            <style jsx>{`
+            <style jsx>{`                
                 article {
                     display: flex;
                     flex-direction: column;
@@ -146,7 +150,7 @@ export default class ContactDesktop extends React.Component {
                     text-align: center;                    
                     font-family: 'Oswald';                    
                     width: 100%;
-                    height: 700px;
+                    height: 740px;
                     color #FFF;
                     padding:0 100px 0 100px;                    
                 }
@@ -174,6 +178,10 @@ export default class ContactDesktop extends React.Component {
                     flex-grow: 1;
                     margin: 0 20px;
                 }               
+
+                .spacer_small {
+                    height: 15px;
+                }
 
                 .spacer {
                     height: 30px;
