@@ -6,9 +6,9 @@ export default class HistoriaPageComponent extends React.Component {
         return (
           <div>
             <Singlepage
-              headTitle={'Historie ślubne TO DO'}
-              headDescription={'Historie ślubne Kraków TO DO'}
-              headKeywords={'historie ślubne kraków TO DO'}
+              headTitle={'Historie ślubne, portfolio fotografa ślubnego'}
+              headDescription={'Portfolio fotografa ślubnego, w którym zobaczycie wybrane historie ślubne i sesje plenerowe. Zapraszam.'}
+              headKeywords={'historie ślubne, reportaż ślubny kraków, portfolio fotografa ślubnego'}
               headUrl={'http://99foto.pl/sesja-zdjeciowa-krakow/'}
               componentContentName={'historia'}                            
 
@@ -16,7 +16,7 @@ export default class HistoriaPageComponent extends React.Component {
 
               leadNames={'ANNA i KRZYSZTOF'}
               leadTitle={'SALA WESELNA NEDAN PCIM - REPORTAŻ ŚLUBNY'}
-              leadUrl={'sala-weselna-nedan-pcim-reportaz-slubny'} 
+              leadUrl={'/sala-weselna-nedan-pcim-reportaz-slubny'} 
               leadImage={'url(/static/sala_weselna_nedan_pcim_reportaz_slubny_start.jpg)'}
               />
           </div>

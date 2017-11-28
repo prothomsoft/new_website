@@ -6,9 +6,9 @@ export default class ClientPageComponent extends React.Component {
         return (
           <div>
             <Singlepage
-              headTitle={'Strefa klienta TO DO'}
-              headDescription={'Strefa klienta Kraków TO DO'}
-              headKeywords={'strefa klienta kraków TO DO'}
+              headTitle={'Strefa klienta'}
+              headDescription={'Galeria zdjęć zabezpieczona hasłem. Wasze historie ślubne i reportaże. Dostęp tylko dla Was.'}
+              headKeywords={'strefa klienta, historie ślubne'}
               headUrl={'http://99foto.pl/strefa-klienta/'}
               componentContentName={'client'}
 
@@ -16,7 +16,7 @@ export default class ClientPageComponent extends React.Component {
 
               leadNames={'KAROLINA i BARTEK'}
               leadTitle={'SESJA ZDJĘCIOWA DWÓR TOMASZOWICE, OPERA, KAZIMIERZ'}
-              leadUrl={'sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'} 
+              leadUrl={'/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'} 
               leadImage={'url(/static/sesja_zdjeciowa_dwor_tomaszowice_krakow_start.jpg)'}              
               />
           </div>

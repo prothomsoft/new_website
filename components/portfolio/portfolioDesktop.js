@@ -51,7 +51,7 @@ export default class PortfolioDesktop extends Component {
                 <header>
                     <h1 className="quote-title"> FOTOGRAF ŚLUBNY KRAKÓW </h1>
                 </header>                
-                <p>Kocham to co robię, możliwości i horyzonty, które otwiera przede mną fotografia ślubna. Często eksperymentuję, obserwuję, biorąc to co najlepsze z przemijających fotograficznych trendów. Konsekwentnie dąże do wyznaczonego celu. Lubię mieć dobry plan nie pozwalający działać przypadkowi. Każdego dnia walczę z barierą strefy komfortu. Jestem zawodowym programistą i fotografem ślubnym z pasji. Fotografuję w Krakowie i bliskich okolicach. Mam na imię Tomek i jako fotograf ślubny chciałbym móc opowiedzieć zdjęciami Waszą historię ślubną.</p>
+                <p>Kocham to co robię, możliwości i horyzonty, które otwiera przede mną fotografia ślubna. Często eksperymentuję, obserwuję, biorąc to co najlepsze z przemijających fotograficznych trendów. Konsekwentnie dąże do wyznaczonego celu. Lubię mieć dobry plan nie pozwalający działać przypadkowi. Każdego dnia walczę z barierą strefy komfortu. Jestem fotografem ślubnym z pasji. Fotografuję w Krakowie i bliskich okolicach. Mam na imię Tomek i jako fotograf ślubny chciałbym móc opowiedzieć zdjęciami Waszą historię ślubną.</p>
                 <p>Serdecznie zapraszam do odwiedzenia <Link href='/blog'><a>mojego bloga</a></Link> i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Oglądając moje prace sami ocenicie czy moja definicja stylu w fotografii ślubnej będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.</p>
                 <div className="spacer_small"></div>
             </article>

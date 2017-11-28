@@ -151,7 +151,7 @@ export default class BlogPageComponent extends React.Component {
 
           leadNames={'KAROLINA i BARTEK'}
           leadTitle={'SESJA ZDJĘCIOWA DWÓR TOMASZOWICE, OPERA, KAZIMIERZ'}          
-		  leadUrl={'/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'} 
+		    leadUrl={'/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'} 
           leadImage={'url(/static/sesja_zdjeciowa_dwor_tomaszowice_krakow_start.jpg)'}
           />
       </div>

@@ -8,8 +8,7 @@ export default class MyLinkClientAreaOthers extends React.Component {
         .btn {width: 100%}
       `}</style>
       </a>
-    )
-    
+    )    
   }
 
   handleClick = event => {

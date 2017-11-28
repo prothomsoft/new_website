@@ -16,7 +16,7 @@ export default class BlogListComponent extends React.Component {
 
             leadNames={'EWELINA i KAMIL'}
             leadTitle={'HOTEL TADEUSZ USZEW i GÓRALSKA SALA WESELNA'}
-            leadUrl={'hotel-tadeusz-uszew-i-goralska-sala-weselna'} 
+            leadUrl={'/hotel-tadeusz-uszew-i-goralska-sala-weselna'} 
             leadImage={'url(/static/hotel_tadeusz_uszew_i_goralska_sala_weselna_start.jpg)'}
             />
           </div>

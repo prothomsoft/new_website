@@ -36,7 +36,7 @@ export default class Index extends React.Component {
 
             leadNames={'IWONA i MARCIN'}
             leadTitle={'FOTOGRAF ŚLUBNY KRAKÓW I WESELE PO GÓRALSKU'}
-            leadUrl={'wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
+            leadUrl={'/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice'} 
             leadImage={'url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)'}
             />
           </div>

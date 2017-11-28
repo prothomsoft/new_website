@@ -16,7 +16,7 @@ export default class SlubPageComponent extends React.Component {
 
               leadNames={'KINGA i JULIEN'}
               leadTitle={'ŚLUB CYWILNY i WESELE W PLENERZE- WITKOWA CHATA KRAKÓW'}
-              leadUrl={'slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'} 
+              leadUrl={'/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'} 
               leadImage={'url(/static/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_start.jpg)'}
               />
           </div>

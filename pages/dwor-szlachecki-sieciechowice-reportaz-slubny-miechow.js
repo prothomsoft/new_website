@@ -223,7 +223,7 @@ export default class BlogPageComponent extends React.Component {
 
           leadNames={'JUSTYNA i DAMIAN'}
           leadTitle={'SESJA ZDJĘCIOWA ZAKRZÓWEK, SKAŁKI TWARDOWSKIEGO KRAKÓW'}
-          leadUrl={'sesja-zdjeciowa-zakrzowek-skalki-twardowskiego-krakow'} 
+          leadUrl={'/sesja-zdjeciowa-zakrzowek-skalki-twardowskiego-krakow'} 
           leadImage={'url(/static/sesja_zdjeciowa_zakrzowek_skalki_twardowskiego_krakow_start.jpg)'}
           
           />
