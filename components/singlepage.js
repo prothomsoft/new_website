@@ -194,6 +194,9 @@ export default class Singlepage extends React.Component {
                         background-position: center;
                         background-repeat: no-repeat;
                         background-size: cover;
+						-webkit-background-size: cover;
+						-moz-background-size: cover;
+						-o-background-size: cover;
                     }                    
                     .bgimg-2 {                        
                         min-height: 60%;                        

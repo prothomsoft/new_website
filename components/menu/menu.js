@@ -154,7 +154,7 @@ export default class Menu extends React.Component {
                                         </li>
                                         <li>
                                             <Link href='/kontakt'>
-                                                <MyLink onCustomClick={this.showFixedMobileMenu} text="OFERTA i CENA"></MyLink>
+                                                <MyLink onCustomClick={this.showFixedMobileMenu} text="OFERTA"></MyLink>
                                             </Link>
                                         </li>
                                         <li>
@@ -184,7 +184,7 @@ export default class Menu extends React.Component {
                                     <li><Link href='/historie-slubne'><a>KILKA HISTORII</a></Link></li>
                                     <li><Link href='/'><a><img style={{height: "140px", width: "100px", margin: "-15px 0px 0px 5px"}} src="/static/99foto_logo.svg"/></a></Link></li>
                                     <li><Link href='/misja-i-faq'><a>MISJA i FAQ</a></Link></li>
-                                    <li><Link href='/kontakt'><a>OFERTA i CENA</a></Link></li>
+                                    <li><Link href='/kontakt'><a>OFERTA</a></Link></li>
                                     <li><Link href='/blog'><a>BLOG</a></Link></li>
                                     <li><Link href='/strefa-klienta'><a>STREFA KLIENTA</a></Link></li>                                    
                                 </ul>
@@ -218,7 +218,7 @@ export default class Menu extends React.Component {
                     color: #FFF;
                     text-decoration: none;
                     font-size: 1.40em;
-                    margin: 25px 28px 0px 28px;
+                    margin: 25px 28px 0px 31px;
                     padding: 0 0 6px 0;
                     font-size: 1.40em;                   
                 }

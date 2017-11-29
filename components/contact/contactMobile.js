@@ -138,7 +138,6 @@ export default class ContactMobile extends React.Component {
                         <div className="spacer_small"></div>
                         <span style={{padding: '15px'}}><Link href='https://facebook.com/99foto'><a target="_blank"><img width="35px" src='/static/icons/facebook_icon.svg' /></a></Link></span>
                         <span style={{padding: '15px'}}><Link href='https://www.instagram.com/99foto.pl'><a target="_blank"><img width="35px" src='/static/icons/instagram_icon.svg' /></a></Link></span>
-                        <span style={{padding: '15px'}}><Link href='https://plus.google.com/+99fotoPl_fotograf_na_wesele_krakow'><a target="_blank"><img width="35px" src='/static/icons/google_plus_icon.svg' /></a></Link></span>
                     </div>
                     <div className="spacer"></div>
                 
