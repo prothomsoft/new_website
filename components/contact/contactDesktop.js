@@ -137,14 +137,14 @@ export default class ContactDesktop extends React.Component {
                             <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
                             <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>
                         </div>
-                        <div className="floatLeft" style={{textAlign: 'right'}}>
+                        <div className="floatLeft textAlignRight">
                             <p>&nbsp;</p>
-                            <p><span style={{padding: '15px'}}>OBSERWUJ MNIE:</span></p>
+                            <p>OBSERWUJ MNIE:</p>
                         </div>
                         <div className="floatLeft20">
-                            <div style={{paddingTop: '23px'}}>                            
-                                <Link href='https://www.instagram.com/99foto.pl'><a target="_blank"><img width="50px" src='/static/icons/instagram.svg' /></a></Link>
-                                <span style={{padding: '25px'}}><Link href='https://facebook.com/99foto'><a target="_blank"><img width="50px" src='/static/icons/facebook.svg' /></a></Link></span>
+                            <div className="padding1">                            
+                                <Link href='https://www.instagram.com/99foto.pl'><a target="_blank"><img width="50" src='/static/icons/instagram.svg' alt='instagram' /></a></Link>
+                                <span className="padding2"><Link href='https://facebook.com/99foto'><a target="_blank"><img width="50" src='/static/icons/facebook.svg' alt='facebook' /></a></Link></span>
                             </div>                       
                         </div>
                     </div>
@@ -163,7 +163,18 @@ export default class ContactDesktop extends React.Component {
                 .floatLeft20 {
                     float: left;
                     width: 20%;
+                }
 
+                .textAlignRight {
+                    text-align: right;
+                }
+
+                .padding1 {
+                    padding:23px 0 0 0;
+                }
+
+                .padding2 {
+                    padding: 25px;
                 }
 
                 article {

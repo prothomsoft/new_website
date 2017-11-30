@@ -137,13 +137,17 @@ export default class ContactMobile extends React.Component {
                         <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>
                         <div className="spacer_small"></div>
                         <p>OBSERWUJ MNIE: 
-                        <span style={{padding: '15px'}}><Link href='https://facebook.com/99foto'><a target="_blank"><img width="40px" src='/static/icons/facebook.svg' /></a></Link></span>
-                        <Link href='https://www.instagram.com/99foto.pl'><a target="_blank"><img width="40px" src='/static/icons/instagram.svg' /></a></Link>
+                        <span className="padding1"><Link href='https://facebook.com/99foto'><a target="_blank"><img width="40" src='/static/icons/facebook.svg' alt='facebook' /></a></Link></span>
+                        <Link href='https://www.instagram.com/99foto.pl'><a target="_blank"><img width="40" src='/static/icons/instagram.svg' alt='instagram' /></a></Link>
                         </p>
                     </div>
                     <div className="spacer"></div>
                 
             <style jsx>{`
+
+                padding1 {
+                    padding: 15px;
+                }
 
                 .submitPad {
                     text-align: left;
