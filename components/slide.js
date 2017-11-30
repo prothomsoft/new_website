@@ -41,19 +41,22 @@ export default class Slide extends React.Component {
         let styleFadeInOut = 'slideShow fadeIn';
         if (isIOS) {
             styleFadeInOut = styleFadeInOut.concat(' isios');
+        } else {
+            styleFadeInOut = styleFadeInOut.concat(' others');
         }
 
         return (
             <SlideWrapper>
                 <div className={styleFadeInOut}  style={{ backgroundImage: `url(${this.state.backgroundImage})` }}></div>
-                <style jsx>{`                
+                <style jsx>{`
                 .isios {
                     background-attachment:scroll;
                 }
-                
-                .slideShow {
-                    position: relative;  
+                .others {
                     background-attachment: fixed;
+                }
+                .slideShow {
+                    position: relative;                      
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;

@@ -185,6 +185,8 @@ export default class Slider extends React.Component {
 
         if (isIOS) {
             styleFadeInOut = styleFadeInOut.concat(' isios');            
+        } else {
+            styleFadeInOut = styleFadeInOut.concat(' others');
         }
 
         let loader = null
@@ -218,10 +220,11 @@ export default class Slider extends React.Component {
                 .isios {
                     background-attachment:scroll;
                 }
-
-                .slideShow {
-                    position: relative;  
+                .others {
                     background-attachment: fixed;
+                }
+                .slideShow {
+                    position: relative;
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;

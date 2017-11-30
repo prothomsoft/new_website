@@ -7,6 +7,7 @@ import Scroll from 'react-scroll'
 import styled from 'styled-components'
 import LazyLoadWrapper from '../components/lazyLoadWrapper'
 import FontLoader from '../components/fontLoader'
+import {isIOS} from 'react-device-detect';
 
 import ContactDesktop from '../components/contact/contactDesktop'
 import ContactMobile from '../components/contact/contactMobile'
@@ -178,19 +179,25 @@ export default class Singlepage extends React.Component {
             overflow = 'hidden';
         }
 
+        let bgImg2 = 'bgimg-2 others';
+        let bgImg3 = 'bgimg-3 others';
+        if (isIOS) {
+            bgImg2 = 'bgimg-2 isios';
+            bgImg3 = 'bgimg-3 isios';
+        }
+
         return (
             <Layout title={this.props.headTitle} description={this.props.headDescription} keywords={this.props.headKeywords} url={this.props.headUrl} overflow={overflow}>
                 {componentOne}
                 {componentTwo}
                 <div style={{ height: menuSpace }}></div>
                 <SectionWrapper>{componentContent}</SectionWrapper>
-                <div className="bgimg-2" style={{ backgroundImage: this.props.backgroundImage }}></div>
+                <div className={bgImg2}  style={{ backgroundImage: this.props.backgroundImage }}></div>
                 <SectionWrapper>{contact}</SectionWrapper>
-                <div className="bgimg-3" style={{ backgroundImage: this.props.leadImage }}>{lead}</div>
-                <style jsx>{`
+                <div className={bgImg3}  style={{ backgroundImage: this.props.leadImage }}>{lead}</div>
+                <style jsx>{`                    
                     .bgimg-2, .bgimg-3 {
-                        position: relative;  
-                        background-attachment: fixed;
+                        position: relative;                          
                         background-position: center;
                         background-repeat: no-repeat;
                         background-size: cover;
@@ -203,6 +210,12 @@ export default class Singlepage extends React.Component {
                     }
                     .bgimg-3 {                        
                         min-height: 100%;                        
+                    }
+                    .isios {
+                        background-attachment: scroll;
+                    }
+                    .others {
+                        background-attachment: fixed;
                     }
                 `}</style>
             </Layout>

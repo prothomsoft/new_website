@@ -11,6 +11,7 @@ import ContactDesktop from '../components/contact/contactDesktop'
 import ContactMobile from '../components/contact/contactMobile'
 import LeadDesktop from '../components/footer/leadDesktop'
 import LeadMobile from '../components/footer/leadMobile'
+import {isIOS} from 'react-device-detect';
 
 var Element = Scroll.Element;
 
@@ -110,6 +111,11 @@ export default class Blogpage extends React.Component {
         } else {
             overflow = 'hidden';
         }
+        
+        let bgImg3 = 'bgimg-3 others';
+        if (isIOS) {          
+            bgImg3 = 'bgimg-3 isios';
+        }
 
         return (
             <Layout title={this.props.headTitle} description={this.props.headDescription} keywords={this.props.headKeywords} url={this.props.headUrl} overflow={overflow}>
@@ -142,7 +148,7 @@ export default class Blogpage extends React.Component {
                     {contact}
                 </SectionWrapper>
 
-                <div className="bgimg-3" style={{ backgroundImage: this.props.leadImage }}>
+                <div className={bgImg3} style={{ backgroundImage: this.props.leadImage }}>
                     {lead}
                 </div>
 
@@ -168,19 +174,24 @@ export default class Blogpage extends React.Component {
                     font-size: 16px;
                 }
 
+                
                 .bgimg-3 {
-                    position: relative;  
-                    background-attachment: fixed;
+                    position: relative;
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
 					-webkit-background-size: cover;
 					-moz-background-size: cover;
 					-o-background-size: cover;
-                }
-                
+                }                
                 .bgimg-3 {                    
                     min-height: 100%;                    
+                }
+                .isios {
+                    background-attachment: scroll;
+                }
+                .others {
+                    background-attachment: fixed;
                 }
             `}</style>
             </Layout>

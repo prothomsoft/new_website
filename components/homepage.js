@@ -15,6 +15,7 @@ import PortfolioDesktop from '../components/portfolio/portfolioDesktop'
 import PortfolioMobile from '../components/portfolio/portfolioMobile'
 import PortfolioTextDesktop from '../components/portfolio/portfolioTextDesktop'
 import PortfolioTextMobile from '../components/portfolio/portfolioTextMobile'
+import {isIOS} from 'react-device-detect';
 
 var Element = Scroll.Element;
 
@@ -118,6 +119,13 @@ export default class Homepage extends React.Component {
             overflow = 'hidden';
         }
 
+        let bgImg2 = 'bgimg-2 others';
+        let bgImg3 = 'bgimg-3 others';
+        if (isIOS) {
+            bgImg2 = 'bgimg-2 isios';
+            bgImg3 = 'bgimg-3 isios';
+        }
+
         return (
             <Layout title={this.props.headTitle} description={this.props.headDescription} keywords={this.props.headKeywords} url={this.props.headUrl} overflow={overflow}>
                 {componentOne}
@@ -128,7 +136,7 @@ export default class Homepage extends React.Component {
                     {portfolio}
                 </SectionWrapper>
 
-                <div className="bgimg-2" style={{backgroundImage : this.props.backgroundImage}}></div>
+                <div className={bgImg2} style={{backgroundImage : this.props.backgroundImage}}></div>
 
                 <SectionWrapper>
                     {portfolioText}
@@ -138,11 +146,11 @@ export default class Homepage extends React.Component {
                     {contact}                    
                 </SectionWrapper>
 
-                <div className="bgimg-3" style={{backgroundImage : this.props.leadImage}}>
+                <div className={bgImg3} style={{backgroundImage : this.props.leadImage}}>
                     {lead}                    
                 </div>
 
-                <style jsx>{`
+                <style jsx>{`                
                 article {
                     display: flex;
                     flex-direction: column;
@@ -176,10 +184,10 @@ export default class Homepage extends React.Component {
                 .quote-title::after {
                     flex-grow: 1;
                     margin: 0 20px;
-                }  
+                } 
+                               
                 .bgimg-2, .bgimg-3 {
-                    position: relative;  
-                    background-attachment: fixed;
+                    position: relative;                      
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -190,9 +198,14 @@ export default class Homepage extends React.Component {
                 .bgimg-2 {                    
                     min-height: 70%;
                 }
-
                 .bgimg-3 {                    
                     min-height: 100%;
+                }
+                .isios {
+                    background-attachment: scroll;
+                }
+                .others {
+                    background-attachment: fixed;
                 }
                 `}</style>
             </Layout>

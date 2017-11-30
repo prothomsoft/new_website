@@ -17,7 +17,7 @@ body {
   font-size:13px;
 }
 
-@media only screen and (max-device-width: 1060px) {
+@media only screen and (max-device-width: 1140px) {
   .slideShow {
       background-attachment: scroll;
   }
@@ -99,7 +99,7 @@ const GeneralWrapper = styled.div`
   position: relative;
   z-index: 1;
   overflow : ${props => props.overflow};
-  @media only screen and (max-device-width: 1024px) {
+  @media only screen and (max-device-width: 1140px) {
     .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
