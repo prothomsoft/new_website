@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import NProgress from 'nprogress'
 import styled from 'styled-components'
+import {isIOS} from 'react-device-detect';
 
 const SlideWrapper = styled.div`
 height: 100vh;                    
@@ -34,12 +35,22 @@ export default class Slide extends React.Component {
         this.image0.onload = null;
         this.image0 = null;
     }
-
+    
     render() {
+
+        let styleFadeInOut = 'slideShow fadeIn';
+        if (isIOS) {
+            styleFadeInOut = styleFadeInOut.concat(' isios');
+        }
+
         return (
             <SlideWrapper>
-                <div className="slideShow fadeIn" style={{ backgroundImage: `url(${this.state.backgroundImage})` }}></div>
+                <div className={styleFadeInOut}  style={{ backgroundImage: `url(${this.state.backgroundImage})` }}></div>
                 <style jsx>{`                
+                .isios {
+                    background-attachment:scroll;
+                }
+                
                 .slideShow {
                     position: relative;  
                     background-attachment: fixed;

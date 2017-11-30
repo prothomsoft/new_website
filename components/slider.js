@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Waypoint from 'react-waypoint'
 import Loader from '../components/loader'
 import FontLoader from '../components/fontLoader'
+import {isIOS} from 'react-device-detect';
 
 const SliderWrapper = styled.div`
 height: 100vh;                    
@@ -182,6 +183,9 @@ export default class Slider extends React.Component {
             styleFadeInOut = 'slideShow';
         }
 
+        if (isIOS) {
+            styleFadeInOut = styleFadeInOut.concat(' isios');            
+        }
 
         let loader = null
         let fontLoader = null
@@ -210,7 +214,11 @@ export default class Slider extends React.Component {
                     onLeave={this.onWaypointLeft.bind(this, 'scrolled')}
                 />
                 <div className={styleFadeInOut} style={{ backgroundImage: `url(${this.state.backgroundImage})` }}></div>
-                <style jsx>{`                
+                <style jsx>{`
+                .isios {
+                    background-attachment:scroll;
+                }
+
                 .slideShow {
                     position: relative;  
                     background-attachment: fixed;
