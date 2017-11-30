@@ -131,17 +131,41 @@ export default class ContactDesktop extends React.Component {
                     </form>
                     </div>
                     <div className="spacer"></div>
-                    <div>
-                        <p>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW </p>
-                        <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
-                        <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>
-                        <div className="spacer_small"></div>
-                        <span style={{padding: '15px'}}><Link href='https://facebook.com/99foto'><a target="_blank"><img width="35px" src='/static/icons/facebook_icon.svg' /></a></Link></span>
-                        <span style={{padding: '15px'}}><Link href='https://www.instagram.com/99foto.pl'><a target="_blank"><img width="35px" src='/static/icons/instagram_icon.svg' /></a></Link></span>                        
+                    <div className="containerCenter">
+                        <div className="floatLeft">
+                            <p>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW </p>
+                            <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
+                            <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>
+                        </div>
+                        <div className="floatLeft" style={{textAlign: 'right'}}>
+                            <p>&nbsp;</p>
+                            <p><span style={{padding: '15px'}}>OBSERWUJ MNIE:</span></p>
+                        </div>
+                        <div className="floatLeft20">
+                            <div style={{paddingTop: '23px'}}>                            
+                                <Link href='https://www.instagram.com/99foto.pl'><a target="_blank"><img width="50px" src='/static/icons/instagram.svg' /></a></Link>
+                                <span style={{padding: '25px'}}><Link href='https://facebook.com/99foto'><a target="_blank"><img width="50px" src='/static/icons/facebook.svg' /></a></Link></span>
+                            </div>                       
+                        </div>
                     </div>
                     <div className="spacer"></div>
                 
-            <style jsx>{`                
+            <style jsx>{`
+                .containerCenter {                    
+                    text-align: center;
+                }
+
+                .floatLeft {
+                    float: left;
+                    width: 40%;
+                }
+
+                .floatLeft20 {
+                    float: left;
+                    width: 20%;
+
+                }
+
                 article {
                     display: flex;
                     flex-direction: column;

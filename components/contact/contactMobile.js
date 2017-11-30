@@ -130,14 +130,16 @@ export default class ContactMobile extends React.Component {
 
                     </form>
                     </div>
-                    <div className="spacer"></div>
+                    <div className="spacer_large"></div>
                     <div>
                         <p>TOMASZ PROKOP - FOTOGRAF ŚLUBNY KRAKÓW</p>
                         <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
                         <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>
                         <div className="spacer_small"></div>
-                        <span style={{padding: '15px'}}><Link href='https://facebook.com/99foto'><a target="_blank"><img width="35px" src='/static/icons/facebook_icon.svg' /></a></Link></span>
-                        <span style={{padding: '15px'}}><Link href='https://www.instagram.com/99foto.pl'><a target="_blank"><img width="35px" src='/static/icons/instagram_icon.svg' /></a></Link></span>
+                        <p>OBSERWUJ MNIE: 
+                        <span style={{padding: '15px'}}><Link href='https://facebook.com/99foto'><a target="_blank"><img width="40px" src='/static/icons/facebook.svg' /></a></Link></span>
+                        <Link href='https://www.instagram.com/99foto.pl'><a target="_blank"><img width="40px" src='/static/icons/instagram.svg' /></a></Link>
+                        </p>
                     </div>
                     <div className="spacer"></div>
                 
@@ -155,7 +157,7 @@ export default class ContactMobile extends React.Component {
                     text-align: center;                    
                     font-family: 'Oswald';                    
                     width: 100%;
-                    height: 770px;
+                    height: 790px;
                     color #FFF;
                     padding:40px;                    
                 }
@@ -190,6 +192,10 @@ export default class ContactMobile extends React.Component {
 
                 .spacer_small {
                     height: 20px;
+                }
+
+                .spacer_large {
+                    height: 60px;
                 }
 
                 .header h1 {

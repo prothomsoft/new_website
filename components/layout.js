@@ -64,8 +64,8 @@ img {
   vertical-align: middle;
   color: #FFF;
   display: inline-block;
-  height: 50px;
-  line-height: 45px;
+  height: 45px;
+  line-height: 42px;
   text-align: center;
   transition: 0.5s;
   padding: 0 20px;

@@ -7,19 +7,15 @@ export default class Index extends React.Component {
           }, {
             imageUrl: '/static/fotograf_slubny_krakow_slider_homepage_start.jpg'           
           }, {
-            imageUrl: '/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg'            
+            imageUrl: '/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_start.jpg'            
           }, {
-            imageUrl: '/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_start.jpg'
+            imageUrl: '/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg'            
           }, {
             imageUrl: '/static/julita_i_pawel_reportaz_slubny_kosciol_na_skalce_krakow_start.jpg'
           }, {
             imageUrl: '/static/natalia_marcin_i_maja_reportaz_slubny_gosciniec_branicki_start.jpg'            
           }, {
             imageUrl: '/static/sesja_narzeczenska_krakow_start.jpg'
-          }, {
-            imageUrl: '/static/monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_start.jpg'
-          }, {
-            imageUrl: '/static/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_start.jpg'
           }, {
             imageUrl: '/static/ania_i_maciek_wesele_w_domu_weselnym_szlachecki_dwor_sieciechowice_start.jpg'
           }];

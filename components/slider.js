@@ -25,9 +25,7 @@ export default class Slider extends React.Component {
             backgroundImage4Loaded: 0,
             backgroundImage5Loaded: 0,
             backgroundImage6Loaded: 0,
-            backgroundImage7Loaded: 0,
-            backgroundImage8Loaded: 0,
-            backgroundImage9Loaded: 0,
+            backgroundImage7Loaded: 0,            
             isScrollOnTop: 'notScrolled',
             fontLoaded: false
         }
@@ -38,9 +36,7 @@ export default class Slider extends React.Component {
         this.handleBackgroundImage4Load = this.handleBackgroundImage4Load.bind(this);
         this.handleBackgroundImage5Load = this.handleBackgroundImage5Load.bind(this);
         this.handleBackgroundImage6Load = this.handleBackgroundImage6Load.bind(this);
-        this.handleBackgroundImage7Load = this.handleBackgroundImage7Load.bind(this);
-        this.handleBackgroundImage8Load = this.handleBackgroundImage8Load.bind(this);
-        this.handleBackgroundImage9Load = this.handleBackgroundImage9Load.bind(this);
+        this.handleBackgroundImage7Load = this.handleBackgroundImage7Load.bind(this);        
         this.onWaypointEntered = this.onWaypointEntered.bind(this);
         this.onWaypointLeft = this.onWaypointLeft.bind(this);
         this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
@@ -70,13 +66,7 @@ export default class Slider extends React.Component {
         this.image6.onload = this.handleBackgroundImage6Load;
         this.image7 = new Image();
         this.image7.src = this.props.slides[7].imageUrl;
-        this.image7.onload = this.handleBackgroundImage7Load;
-        this.image8 = new Image();
-        this.image8.src = this.props.slides[8].imageUrl;
-        this.image8.onload = this.handleBackgroundImage8Load;
-        this.image9 = new Image();
-        this.image9.src = this.props.slides[9].imageUrl;
-        this.image9.onload = this.handleBackgroundImage9Load;
+        this.image7.onload = this.handleBackgroundImage7Load;        
         this.timerID = setInterval(() => this.slideChanger(), 1000);
     }
 
@@ -119,17 +109,7 @@ export default class Slider extends React.Component {
         this.setState({
             backgroundImage7Loaded: 1
         });
-    }
-    handleBackgroundImage8Load(e) {
-        this.setState({
-            backgroundImage8Loaded: 1
-        });
-    }
-    handleBackgroundImage9Load(e) {
-        this.setState({
-            backgroundImage9Loaded: 1
-        });
-    }
+    }    
 
     componentWillUnmount() {        
         this.image0.onload = null;
@@ -147,24 +127,20 @@ export default class Slider extends React.Component {
         this.image6.onload = null;
         this.image6 = null;
         this.image7.onload = null;
-        this.image7 = null;
-        this.image8.onload = null;
-        this.image8 = null;
-        this.image9.onload = null;
-        this.image9 = null;
+        this.image7 = null;        
          
         clearInterval(this.timerID);
     }
 
     slideChanger() {
-        if (this.state.backgroundImage0Loaded && this.state.backgroundImage1Loaded) {
+        if (this.state.backgroundImage0Loaded) {
             let eachImageState = this.state.eachImageState + 1;
             let activeIndex = this.state.activeIndex;
             if (eachImageState == 5) {
                 activeIndex = this.state.activeIndex + 1;
                 eachImageState = 0;
             }
-            if (activeIndex == 10) {
+            if (activeIndex == 8) {
                 activeIndex = 0;
             }
             this.setState({
@@ -210,7 +186,7 @@ export default class Slider extends React.Component {
         let loader = null
         let fontLoader = null
         if(this.props.firstLoad) {
-            if (this.state.backgroundImage0Loaded && this.state.backgroundImage1Loaded) {
+            if (this.state.backgroundImage0Loaded) {
                 fontLoader = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState}></FontLoader>
                 loader = <Loader />
             } else {

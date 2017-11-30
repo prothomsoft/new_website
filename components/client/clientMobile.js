@@ -93,7 +93,7 @@ export default class PortfolioMobile extends Component {
                 <div className="spacer_small"></div>
 
                 <Link href='#'>
-                    <MyLinkClientAreaOthers onCustomClick={this.showClientArea} text="KLIKNIJ I WEJDŹ DO STREFY KLIENTA"></MyLinkClientAreaOthers>                        
+                    <MyLinkClientAreaOthers onCustomClick={this.showClientArea} text="LOGOWANIE DO STREFY KLIENTA"></MyLinkClientAreaOthers>                        
                 </Link>
                 
                 <div className="spacer"></div>
