@@ -166,9 +166,9 @@ export default class BlogPageComponent extends React.Component {
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Zdjęcia chrztu świętego Kraków'}
-          headDescription={'Uroczystość Chrztu Świętego połączona z Ceremonią Ślubu. Miejsce wydarzeń Kraków. Serdecznie zapraszam na kilka zdjęć i reportaż ślubny z tego dnia.'}
-          headKeywords={'fotograf na chrzest kraków,restauracja szafrantu zagacie,fotografia chrztu'}
+          headTitle={'Fotograf na chrzest Kraków'}
+          headDescription={'Fotograf na Chrzest Święty Kraków. Miejsce wydarzeń Kraków. Serdecznie zapraszam na kilka zdjęć Chrztu Świętego.'}
+          headKeywords={'fotograf na chrzest kraków, restauracja szafrantu zagacie, fotografia chrztu'}
           headUrl={'http://99foto.pl/zdjecia-chrztu-swietego-i-slubu-krakow/'}
 
           entryContentP1={'Niedziela z wyjątkowo zmienną aurą, pogoda typowo marcowa. Osiedle Kuźnicy Kołłątajowskiej i ślub niezwykły pod wieloma względami. Dzień PODWÓJNIE WAŻNY dla całej rodziny. Pierwszoplanowa rola w całej uroczystości została wypełniona nie przez jak to zwykle przecież na ślubach bywa Pannę Młodą, ale przez dzielnego obserwatora niedzielnych wydarzeń małego Franka. Krótkie przygotowania w mieszkaniu, gdzie gości przybywało z minuty na minutę, a godzina zero zbliżała się wielkimi krokami. Franio, który w modnych szelkach regenerował siły korzystając z popołudniowej drzemki. Moc pozytywnej energii pomimo dużego zamieszania.  Tak minęło błogosławieństwo rodziców i wszyscy udaliśmy się do pobliskiego <a href="http://www.gotyk.home.pl/" target="_blank">Kościoła Chrystusa Króla w Krakowie</a>, gdzie rozpoczęła się ceremonia Ślubu i Chrztu Świętego. Ksiądz przekazując mnóstwo życiowych rad, wygłosił dowcipne kazanie, które wywołało uśmiechy na twarzach wielu gości.'}
@@ -176,8 +176,8 @@ export default class BlogPageComponent extends React.Component {
 
           slug={'zdjecia-chrztu-swietego-i-slubu-krakow'}
 
-          title={'ZDJĘCIA CHRZTU ŚWIĘTEGO i ŚLUBU KRAKÓW - SANDRA, PIOTR i FRANEK'}
-          tags={'fotograf na chrzest kraków,restauracja szafrantu zagacie,fotografia chrztu'}
+          title={'FOTOGRAF NA CHRZEST ŚWIĘTY KRAKÓW - SANDRA, PIOTR i FRANEK'}
+          tags={'fotograf na chrzest kraków, restauracja szafrantu zagacie, fotografia chrztu'}
           date={'30 kwietnia 2017'}
 
           menuNames={'SANDRA, PIOTR i FRANEK'}

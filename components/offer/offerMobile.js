@@ -40,7 +40,7 @@ export default class OfferMobile extends React.Component {
                     SESJA ZDJĘCIOWA OBEJMUJĄCA                            
                     </h2>
                     <p>cztery godziny fotografowania</p>
-                    <p>dwie lub trzy wybrane miejsca plenerowe</p>                        
+                    <p>dwa lub trzy wybrane miejsca plenerowe</p>                        
                     <p>&nbsp;</p>
                     <div className="spacer_more">&nbsp;</div>
                     <h2>                                                    

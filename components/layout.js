@@ -5,6 +5,7 @@ import Meta from '../components/meta'
 import styled from 'styled-components'
 import { injectGlobal } from 'styled-components';
 import Loader from '../components/loader'
+import ScrollUpButton from "react-scroll-up-button";
 
 injectGlobal`
 
@@ -158,9 +159,9 @@ export default class LayoutComponent extends Component {
     super(props)
   }
   render() {
-    let component = <GeneralWrapper style={{ overflow: 'visible' }} className="nProgressHandler"><Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url}></Meta>{this.props.children}</GeneralWrapper>
+    let component = <GeneralWrapper style={{ overflow: 'visible' }} className="nProgressHandler"><Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url}></Meta>{this.props.children}<ScrollUpButton /></GeneralWrapper>
     if (this.props.overflow === 'hidden') {
-      component = <GeneralWrapper style={{ overflow: 'hidden' }} className="nProgressHandler"><Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url}></Meta>{this.props.children}</GeneralWrapper>
+      component = <GeneralWrapper style={{ overflow: 'hidden' }} className="nProgressHandler"><Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url}></Meta>{this.props.children}<ScrollUpButton /></GeneralWrapper>
     }
     return component;
   }
