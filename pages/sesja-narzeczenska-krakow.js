@@ -47,7 +47,7 @@ export default class BlogPageComponent extends React.Component {
         <Blogpage slide={slide}
           images={images}
           headTitle={'Sesja narzeczeńska Kraków'}
-          headDescription={'Jeden wpis na blogu łączy sesję narzeczeńską i sesję ślubną Kingi i Maćka. Najlepsze miejsce plenerowe Krakowa i okolic. Serdecznie zapraszam.'}
+          headDescription={'Sesja narzeczeńska Kingi Maćka. Ciekawe i najlepsze miejsce plenerowe na sesję zdjęciową. Kraków i okolice. Serdecznie zapraszam.'}
           headKeywords={'sesja narzeczeńska w krakowie,zamek korzkiew,zamek pieskowa skała'}
           headUrl={'http://99foto.pl/sesja-narzeczenska-krakow/'}
 

@@ -7,7 +7,7 @@ export default class OfferPageComponent extends React.Component {
           <div>
             <Singlepage
               headTitle={'Reportaż ślubny Kraków'}
-              headDescription={'Fotograf na wesele Kraków. reportaż ślubny, zdjęcia ślubne, sesja zdjęciowa. Zapraszam do kontaktu.'}
+              headDescription={'Reportaż ślubny Kraków. Fotograf na wesele, zdjęcia ślubne, sesja zdjęciowa. Kliknij i sprawdź moje portfolio.'}
               headKeywords={'reportaż ślubny kraków,fotograf ślubny'}
               headUrl={'http://99foto.pl/kontakt/'}
               componentContentName={'offer'}              
