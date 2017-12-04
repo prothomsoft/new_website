@@ -67,6 +67,9 @@ export default class LeadMobile extends Component {
                 cursor: pointer;
                 border: 4px solid #FFFFFF;
                 -webkit-transition:0.5s;
+				-moz-transition:0.5s;
+				-o-transition:0.5s;
+				-ms-transition:0.5s;
                 font-family: 'Oswald';
                 background-color: transparent;
                 width:180px;

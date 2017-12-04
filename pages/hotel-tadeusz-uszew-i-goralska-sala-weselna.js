@@ -177,7 +177,7 @@ export default class BlogPageComponent extends React.Component {
         <Blogpage slide={slide}
           images={images}
           headTitle={'Hotel Tadeusz Uszew i Góralska Sala Weselna'}
-          headDescription={'Weselna petarda ślubna Eweliny i Kamila.'}
+          headDescription={'Góralskie wesele w okolicach Tarnowa w Hotelu Tadeusz. Ślub w Brzesku pełny emocji. Serdecznie zapraszam.'}
           headKeywords={'Góralskie wesele w okolicach Tarnowa w Hotelu Tadeusz. Klimatyzowana sala weselna i ślub pełny emocji. Hotel i Gospoda Tadeusz w Brzesku zaprasza przyszłe pary młode.'}
           headUrl={'http://99foto.pl/hotel-tadeusz-uszew-i-goralska-sala-weselna/'}
 

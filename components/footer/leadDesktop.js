@@ -15,6 +15,9 @@ const CaptionSectionWrapper = styled.div`
         padding: 0 20px;
         cursor: pointer;        
         -webkit-transition:0.5s;
+		-moz-transition:0.5s;
+		-o-transition:0.5s;
+		-ms-transition:0.5s;
         font-family: 'Oswald';
         background-color: transparent;
         width:20%;

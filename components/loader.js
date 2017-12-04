@@ -38,6 +38,9 @@ export default class Loader extends React.Component {
                 height: 6px;
                 border-radius: 50%;
                 -webkit-animation: typing 1s linear infinite alternate;
+				-moz-animation: typing 1s linear infinite alternate;
+				-o-animation: typing 1s linear infinite alternate;
+				-ms-animation: typing 1s linear infinite alternate;
                 animation: typing 1s linear infinite alternate;
                 margin: 15px auto;
                 position: relative;

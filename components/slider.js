@@ -231,6 +231,7 @@ export default class Slider extends React.Component {
 					-webkit-background-size: cover;
 					-moz-background-size: cover;
 					-o-background-size: cover;
+					-ms-background-size: cover;
                     min-height: 100%;
                     z-index:1;
                 }

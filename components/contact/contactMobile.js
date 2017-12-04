@@ -239,6 +239,9 @@ export default class ContactMobile extends React.Component {
                     cursor: pointer;
                     border: 2px solid #FFF;
                     -webkit-transition:0.5s;
+					-moz-transition:0.5s;
+					-o-transition:0.5s;
+					-ms-transition:0.5s;
                     font-family: 'Oswald';
                     background-color: #000;
                     width:100%;

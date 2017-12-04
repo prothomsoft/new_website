@@ -237,8 +237,14 @@ export default class Menu extends React.Component {
                     background-color: #FFFFFF;
                     visibility: hidden;
                     -webkit-transform: scaleX(0);
+					-moz-transform: scaleX(0);
+					-o-transform: scaleX(0);
+					-ms-transform: scaleX(0);
                     transform: scaleX(0);
                     -webkit-transition: all 0.3s ease-in-out 0s;
+					-moz-transform: scaleX(0);
+					-o-transform: scaleX(0);
+					-ms-transform: scaleX(0);
                     transition: all 0.3s ease-in-out 0s;
                 }
 
@@ -249,6 +255,9 @@ export default class Menu extends React.Component {
                 .classicMenuContent li > a:hover:before {
                     visibility: visible;
                     -webkit-transform: scaleX(1);
+					-moz-transform: scaleX(1);
+					-o-transform: scaleX(1);
+					-ms-transform: scaleX(1);
                     transform: scaleX(1);
                     
                 }
@@ -330,8 +339,9 @@ export default class Menu extends React.Component {
                     height: 4px;
                     background-color: #FFFFFF;
                     -webkit-user-select: none;
-                    -moz-user-select: none;
-                    -ms-user-select: none;
+					-moz-user-select: none;
+					-o-user-select: none;
+					-ms-user-select: none;                    
                     user-select: none;
                     transition: background-color 0.3s;                    
                 }

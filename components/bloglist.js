@@ -145,6 +145,7 @@ export default class BlogList extends React.Component {
                   -webkit-background-size: cover;
                   -moz-background-size: cover;
                   -o-background-size: cover;
+				  -ms-background-size: cover;
               }              
               .bgimg-3 {                  
                   min-height: 100%;

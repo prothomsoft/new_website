@@ -194,6 +194,7 @@ export default class Homepage extends React.Component {
 					-webkit-background-size: cover;
 					-moz-background-size: cover;
 					-o-background-size: cover;
+					-ms-background-size: cover;
                 }
                 .bgimg-2 {                    
                     min-height: 70%;
