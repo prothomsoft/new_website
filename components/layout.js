@@ -91,7 +91,17 @@ Router.onRouteChangeStart = (url) => {
   NProgress.configure({ parent: '.nProgressHandler' })
   NProgress.start()
 }
-Router.onRouteChangeComplete = () => NProgress.done()
+Router.onRouteChangeComplete = () => {
+  NProgress.done();
+  if (window.gtag) {
+    window.gtag('config', window.gaTrackingId, {
+      page_location: window.location.href,
+      page_path: window.location.pathname,
+      page_title: window.document.title,
+    });
+  }
+};
+
 Router.onRouteChangeError = () => NProgress.done()
 
 const GeneralWrapper = styled.div`
