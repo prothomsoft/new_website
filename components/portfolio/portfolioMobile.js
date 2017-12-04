@@ -50,15 +50,7 @@ export default class PortfolioMobile extends Component {
   render() {
 
     return (
-        <div>
-            <article>
-                <header>
-                    <h1 className="quote-title"> FOTOGRAF ŚLUBNY KRAKÓW </h1>
-                </header>                
-                <p>Kocham to co robię, możliwości i horyzonty, które otwiera przede mną fotografia ślubna. Często eksperymentuję, obserwuję, biorąc to co najlepsze z przemijających fotograficznych trendów. Konsekwentnie dąże do wyznaczonego celu. Lubię mieć dobry plan nie pozwalający działać przypadkowi. Każdego dnia walczę z barierą strefy komfortu. Jestem fotografem ślubnym z pasji. Fotografuję w Krakowie i bliskich okolicach. Mam na imię Tomek i jako fotograf ślubny chciałbym móc opowiedzieć zdjęciami Waszą historię ślubną.</p>
-                <p>Serdecznie zapraszam do odwiedzenia <Link href='/blog'><a>mojego bloga</a></Link> i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Oglądając moje prace sami ocenicie czy moja definicja stylu w fotografii ślubnej będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.</p>                
-                <div className="spacer_small"></div>
-            </article>
+        <div>            
             <article>
                 <header>
                     <h2 className="quote-title">POLECANE REPORTAŻE</h2>
@@ -81,6 +73,14 @@ export default class PortfolioMobile extends Component {
                 <Link href='/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow'><div className="porfolioCaption"><h3 style={{textAlign: 'center'}}> FOTOGRAF ŚLUBNY KRAKÓW <br/>KINGA i JULIEN</h3></div></Link>
                 <Link href='/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img alt='sesja zdjęciowa w Krakowie' src={'/static/portfolio/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg'} /></LazyLoad></div></Link>
                 <Link href='/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA W KRAKOWIE<br/> KAROLINA i BARTEK</p></div></Link>                                                
+            </article>
+            <article>
+                <header>
+                    <h1 className="quote-title"> FOTOGRAF ŚLUBNY KRAKÓW </h1>
+                </header>                
+                <p>Kocham to co robię, możliwości i horyzonty, które otwiera przede mną fotografia ślubna. Często eksperymentuję, obserwuję, biorąc to co najlepsze z przemijających fotograficznych trendów. Konsekwentnie dąże do wyznaczonego celu. Lubię mieć dobry plan nie pozwalający działać przypadkowi. Każdego dnia walczę z barierą strefy komfortu. Jestem fotografem ślubnym z pasji. Fotografuję w Krakowie i bliskich okolicach. Mam na imię Tomek i jako fotograf ślubny chciałbym móc opowiedzieć zdjęciami Waszą historię ślubną.</p>
+                <p>Serdecznie zapraszam do odwiedzenia <Link href='/blog'><a>mojego bloga</a></Link> i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Oglądając moje prace sami ocenicie czy moja definicja stylu w fotografii ślubnej będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.</p>                
+                <div className="spacer_small"></div>
             </article>
         <style jsx>{`
 

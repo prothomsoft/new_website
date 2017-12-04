@@ -156,7 +156,8 @@ export default class Blogpage extends React.Component {
 
                 .header h1 {
                     padding: 0 0 10px 0;
-                    margin :0px          
+                    margin :0px;
+                    text-align:left;
                 }
 
                 .entryMeta {

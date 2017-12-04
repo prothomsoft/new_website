@@ -178,7 +178,7 @@ export default class BlogPageComponent extends React.Component {
           images={images}
           headTitle={'Hotel Tadeusz Uszew i Góralska Sala Weselna'}
           headDescription={'Weselna petarda ślubna Eweliny i Kamila.'}
-          headKeywords={'hotel tadeusz uszew,góralska sala weselna,fotograf na wesele okocim'}
+          headKeywords={'Góralskie wesele w okolicach Tarnowa w Hotelu Tadeusz. Klimatyzowana sala weselna i ślub pełny emocji. Hotel i Gospoda Tadeusz w Brzesku zaprasza przyszłe pary młode.'}
           headUrl={'http://99foto.pl/hotel-tadeusz-uszew-i-goralska-sala-weselna/'}
 
           entryContentP1={'Przygotowania rozpoczęły się w Krakowie na ulicy Widok. Gdy przyszedłem makijaż i fryzura były już gotowe. Ewelina do sukni dopasowała buty, biżuterię, podwiązkę i z niecierpliwością oczekiwała na przyszłego męża. Kamil przybył na czas i rozpoczęło się błogosławieństwo połączone z podziękowaniem dla rodziców. Wspaniała atmosfera, emocje, moc gorących życzeń. Chwilę później mknęliśmy autostradą w kierunku Okocimia. Ceremonia zaślubin miała miejsce w <a href="http://lsookocim.dzs.pl" target="_blank">Kościele Trójcy Przenajświętszej</a>. Po pierwszym toaście na cześć Pary Młodej <a href="https://www.planujemywesele.pl/21940-zespol-dance" target="_blank">Zespół muzyczny Dance z Nowego Sącza </a> zaprosił gości na wspólny obiad. Następnie wszyscy podziwialiśmy pierwszy taniec i próbowaliśmy przepysznego ślubnego tortu.'}
