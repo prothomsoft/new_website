@@ -53,7 +53,7 @@ export default class BlogPageComponent extends React.Component {
         <Blogpage slide={slide}
           images={images}
           headTitle={'Zdjęcia rodzinne Kraków'}
-          headDescription={'Zdjęcia rodzinne z wakacji. Miłego oglądania.'}
+          headDescription={'Kilka zdjęć z wakacji, na które w tym roku udaliśmy się do Wrocławia. Piękne miasto i mój ulubiony Ostrów Tumski oraz Ogród Japoński. Miłego oglądania.'}
           headKeywords={'fotograf rodzinny kraków, zdjęcia z wakacji'}
           headUrl={'http://99foto.pl/ulubione-wakacyjne-kadry/'}
 
