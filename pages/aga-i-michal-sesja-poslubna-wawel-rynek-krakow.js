@@ -36,9 +36,9 @@ export default class BlogPageComponent extends React.Component {
       <div>
         <Blogpage slide={slide}
           images={images}
-          headTitle={'Sesja zdjęciowa Kraków Rynek'}
+          headTitle={'Plener ślubny w sercu Krakowa. Krakowski Rynek Główny i Wawel.'}
           headDescription={'Plener ślubny na Krakowskim Rynku, zdjęcia ślubne Wawel. Zapraszam do oglądania.'}
-          headKeywords={'plener ślubny krakowski rynek,zdjęcia ślubne wawel'}
+          headKeywords={'plener ślubny krakowski rynek, zdjęcia ślubne wawel'}
           headUrl={'http://99foto.pl/aga-i-michal-sesja-poslubna-wawel-rynek-krakow/'}
 
           entryContentP1={'Kraków i jego najbardziej znane miejsce na plener czyli Rynek i Wawel przez wielu określane są mianem miejsc oklepanych. Dlatego też młodzi najczęściej mało entuzjastycznie przyjmują propozycję sesji ślubnej właśnie tam. Tymczasem wędrując przez Kraków z aparatem można odkryć wiele ciekawych zakamarków, co więcej dysponując odrobiną czasu i wychodząc ze strefy komfortu w poszukiwaniu nowych ujęć, można odkryć nowe kadry i ciekawe miejsca. Mam nadzieję, że było dokładnie tak i tym razem.'}
@@ -46,12 +46,12 @@ export default class BlogPageComponent extends React.Component {
 
           slug={'aga-i-michal-sesja-poslubna-wawel-rynek-krakow'}
 
-          title={'SESJA ŚLUBNA WAWEL RYNEK KRAKÓW - AGNIESZKA i MICHAŁ'}
+          title={'PLENER ŚLUBNY WAWEL RYNEK KRAKÓW - AGNIESZKA i MICHAŁ'}
           tags={'plener ślubny krakowski rynek,zdjęcia ślubne wawel'}
           date={'27 września 2015'}
 
           menuNames={'AGNIESZKA i MICHAŁ'}
-          menuTitle={'SESJA ŚLUBNA WAWEL RYNEK KRAKÓW'}
+          menuTitle={'PLENER ŚLUBNY WAWEL RYNEK KRAKÓW'}
 
           leadNames={'IWONA i MARCIN'}
           leadTitle={'WESELE W GÓRALSKIM KLIMACIE PRZYSTAŃ KABANOS SPYTKOWICE'}
