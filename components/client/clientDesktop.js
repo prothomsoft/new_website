@@ -10,10 +10,20 @@ export default class ClientDesktop extends React.Component {
     constructor() {
         super();
         this.showClientArea = this.showClientArea.bind(this);
+        this.showClientAreaEwaMateusz = this.showClientAreaEwaMateusz.bind(this);
+        this.showClientAreaEwelinaKamil = this.showClientAreaEwelinaKamil.bind(this);
     }
 
     showClientArea() {        
         window.open('http://sk.99foto.pl', '_blank');
+    }
+
+    showClientAreaEwaMateusz() {        
+        window.open('http://sk.99foto.pl/logowanie/ewamateusz.html', '_blank');
+    }
+
+    showClientAreaEwelinaKamil() {        
+        window.open('http://sk.99foto.pl/logowanie/ewelinakamil.html', '_blank');
     }
 
     render() {
@@ -24,12 +34,12 @@ export default class ClientDesktop extends React.Component {
                         <h1 className="quote-title">GALERIE ZDJĘĆ ZABEZPIECZONE HASŁEM</h1>
                     </header>
                     <div style={{display: 'flex'}}>
-                        <Link href="#"><div className="porfolioImage"><MyLinkClientArea onCustomClick={this.showClientArea} src="/static/portfolio_dtp/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg"></MyLinkClientArea></div></Link>
+                        <Link href="#"><div className="porfolioImage"><MyLinkClientArea onCustomClick={this.showClientAreaEwaMateusz} src="/static/portfolio_dtp/ewa_mateusz_hotel_lenart_portfolio.jpg"></MyLinkClientArea></div></Link>
                         <Link href="#"><div className="porfolioImage"><MyLinkClientArea onCustomClick={this.showClientArea} src="/static/portfolio_dtp/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"></MyLinkClientArea></div></Link>
                         <Link href="#"><div className="porfolioImage"><MyLinkClientArea onCustomClick={this.showClientArea} src="/static/portfolio_dtp/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg"></MyLinkClientArea></div></Link>                    
                     </div>
                     <div style={{display: 'flex'}}>
-                        <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA LAWENDOWE POLE<br/>EWELINA i KAMIL</p></div></Link>
+                        <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ</p></div></Link>
                         <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY JORDANÓW<br/>ANNA i KRZYSZTOF</p></div></Link>
                         <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W GÓRALSKIM KLIMACIE<br/>IWONA i MARCIN</p></div></Link>
                     </div>

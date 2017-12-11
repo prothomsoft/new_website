@@ -5,7 +5,7 @@ import LazyLoad from 'react-lazy-load';
 export default class MyLinkClientArea extends React.Component {
   render() {
     return (      
-      <a onClick={this.handleClick}><LazyLoad height={225} offsetVertical={300}><img src={this.props.src} /></LazyLoad></a>
+      <a onClick={this.handleClick}><LazyLoad height={224} offsetVertical={300}><img src={this.props.src} /></LazyLoad></a>
     )
   }
 
