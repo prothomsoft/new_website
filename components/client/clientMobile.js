@@ -35,6 +35,8 @@ export default class PortfolioMobile extends Component {
     }
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     this.showClientArea = this.showClientArea.bind(this);
+    this.showClientAreaEwaMateusz = this.showClientAreaEwaMateusz.bind(this);
+    this.showClientAreaEwelinaKamil = this.showClientAreaEwelinaKamil.bind(this);
   }
 
   componentDidMount() {    
@@ -53,6 +55,14 @@ export default class PortfolioMobile extends Component {
   showClientArea() {        
     window.open('http://sk.99foto.pl', '_blank');
   }
+
+  showClientAreaEwaMateusz() {        
+    window.open('http://sk.99foto.pl/logowanie/ewamateusz.html', '_blank');
+    }
+
+    showClientAreaEwelinaKamil() {        
+        window.open('http://sk.99foto.pl/logowanie/ewelinakamil.html', '_blank');
+    }
   
   render() {
 
@@ -62,8 +72,9 @@ export default class PortfolioMobile extends Component {
                 <header>
                     <h1 className="quote-title">STREFA KLIENTA</h1>
                 </header>
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA LAWENDOWE POLE<br/>EWELINA i KAMIL</p></div></Link>
+            
+                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientAreaEwaMateusz} src="/static/portfolio_dtp/ewa_mateusz_hotel_lenart_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
+                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ</p></div></Link>
                 <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
                 <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY JORDANÓW<br/>ANNA i KRZYSZTOF</p></div></Link>
                 <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>                    
