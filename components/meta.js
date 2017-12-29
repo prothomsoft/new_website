@@ -13,7 +13,7 @@ export default ({ title, description, keywords, url }) => (
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="pl_pl" />
-        <meta name="google-site-verification" content="googleae6b638c494b138d" />
+        <meta name="google-site-verification" content="Ao8IvTUt4_ca5KfEOHEbknJCJogkxdlWgjlPz1I7AMg" />
         <meta name="theme-color" content="#000000" />
         <link rel="author" href="https://plus.google.com/u/0/+TomaszProkop_99FOTO" />
         <link rel="publisher" href="https://plus.google.com/u/0/+TomaszProkop_99FOTO" />
