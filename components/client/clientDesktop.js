@@ -11,6 +11,7 @@ export default class ClientDesktop extends React.Component {
         super();
         this.showClientArea = this.showClientArea.bind(this);
         this.showClientAreaEwaMateusz = this.showClientAreaEwaMateusz.bind(this);
+        this.showClientAreaGosiaRafal = this.showClientAreaGosiaRafal.bind(this);
         this.showClientAreaEwelinaKamil = this.showClientAreaEwelinaKamil.bind(this);
     }
 
@@ -20,6 +21,10 @@ export default class ClientDesktop extends React.Component {
 
     showClientAreaEwaMateusz() {        
         window.open('http://sk.99foto.pl/logowanie/ewamateusz.html', '_blank');
+    }
+
+    showClientAreaGosiaRafal() {        
+        window.open('http://sk.99foto.pl/logowanie/gosiarafal.html', '_blank');
     }
 
     showClientAreaEwelinaKamil() {        
@@ -34,13 +39,13 @@ export default class ClientDesktop extends React.Component {
                         <h1 className="quote-title">GALERIE ZDJĘĆ ZABEZPIECZONE HASŁEM</h1>
                     </header>
                     <div style={{display: 'flex'}}>
-                        <Link href="#"><div className="porfolioImage"><MyLinkClientArea onCustomClick={this.showClientAreaEwaMateusz} src="/static/portfolio_dtp/ewa_mateusz_hotel_lenart_portfolio.jpg"></MyLinkClientArea></div></Link>
-                        <Link href="#"><div className="porfolioImage"><MyLinkClientArea onCustomClick={this.showClientArea} src="/static/portfolio_dtp/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"></MyLinkClientArea></div></Link>
+                        <Link href="#"><div className="porfolioImage"><MyLinkClientArea onCustomClick={this.showClientAreaGosiaRafal} src="/static/portfolio_dtp/karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg"></MyLinkClientArea></div></Link>                
+                        <Link href="#"><div className="porfolioImage"><MyLinkClientArea onCustomClick={this.showClientAreaEwaMateusz} src="/static/portfolio_dtp/ewa_mateusz_hotel_lenart_portfolio.jpg"></MyLinkClientArea></div></Link>                        
                         <Link href="#"><div className="porfolioImage"><MyLinkClientArea onCustomClick={this.showClientArea} src="/static/portfolio_dtp/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg"></MyLinkClientArea></div></Link>                    
                     </div>
                     <div style={{display: 'flex'}}>
-                        <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ</p></div></Link>
-                        <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY JORDANÓW<br/>ANNA i KRZYSZTOF</p></div></Link>
+                        <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI<br/>MAŁGORZATA i RAFAŁ</p></div></Link>
+                        <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ</p></div></Link>                        
                         <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W GÓRALSKIM KLIMACIE<br/>IWONA i MARCIN</p></div></Link>
                     </div>
                     <div style={{display: 'flex'}}>                        

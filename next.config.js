@@ -18,6 +18,8 @@ module.exports = {
         '/blog/page/7': { page: '/blog', query: { page: "7" } },
         '/blog/page/8': { page: '/blog', query: { page: "8" } },
         '/blog/page/9': { page: '/blog', query: { page: "9" } },        
+        '/blog/page/10': { page: '/blog', query: { page: "10" } },
+        '/karczma-pod-kogutkiem-krzywaczka-reportaz-slubny-makow-podhalanski': { page: '/karczma-pod-kogutkiem-krzywaczka-reportaz-slubny-makow-podhalanski' },
         '/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz': { page: '/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz' },
         '/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja': { page: '/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja' },        
         '/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice': { page: '/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice' },
