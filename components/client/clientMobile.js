@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 import LazyLoad from 'react-lazy-load';
 import Link from 'next/link'
-import MyLinkClientAreaOthers from '../menu/myLinkClientAreaOthers'
-import MyLinkClientAreaMobile from '../menu/myLinkClientAreaMobile'
 
 const CaptionSectionWrapper = styled.div`
 
@@ -28,100 +26,56 @@ const CaptionSectionWrapper = styled.div`
 
 export default class PortfolioMobile extends Component {
 
-  constructor(props) {
-    super(props)
-    this.state = {     
-        width: '0'
+    constructor(props) {
+        super(props)
+        this.state = {
+            width: '0'
+        }
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
-    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-    this.showClientArea = this.showClientArea.bind(this);
-    this.showClientAreaEwaMateusz = this.showClientAreaEwaMateusz.bind(this);
-    this.showClientAreaGosiaRafal = this.showClientAreaGosiaRafal.bind(this);
-    this.showClientAreaEwelinaKamil = this.showClientAreaEwelinaKamil.bind(this);
-    this.showClientAreaMagdaWaldek = this.showClientAreaMagdaWaldek.bind(this);
-  }
 
-  componentDidMount() {    
-    this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);    
-  }
+    componentDidMount() {
+        this.updateWindowDimensions();
+        window.addEventListener('resize', this.updateWindowDimensions);
+    }
 
-  componentWillUnmount() {    
-    window.removeEventListener('resize', this.updateWindowDimensions);    
-  }
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateWindowDimensions);
+    }
 
-  updateWindowDimensions() {
-    this.setState({ width: window.innerWidth });
-  }
+    updateWindowDimensions() {
+        this.setState({ width: window.innerWidth });
+    }
 
-  showClientArea() {        
-    window.open('http://sk.99foto.pl', '_blank');
-  }
+    render() {
 
-  showClientAreaEwaMateusz() {        
-    window.open('http://sk.99foto.pl/logowanie/ewamateusz.html', '_blank');
-  }
+        return (
+            <div>
+                <article>
+                    <header>
+                        <h1 className="quote-title">STREFA KLIENTA</h1>
+                    </header>
+                    {this.props.clients.map((client, key) =>
+                        <div>
+                            <Link><a href={client.url1} target="_blank"><div className="porfolioImage"><img src={client.image1} /></div></a></Link>
+                            <Link><a href={client.url1} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title1 }} /></div></a></Link>
+                            <Link><a href={client.url2} target="_blank"><div className="porfolioImage"><img src={client.image2} /></div></a></Link>
+                            <Link><a href={client.url2} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title2 }} /></div></a></Link>
+                            <Link><a href={client.url3} target="_blank"><div className="porfolioImage"><img src={client.image3} /></div></a></Link>
+                            <Link><a href={client.url3} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title3 }} /></div></a></Link>
+                        </div>
+                    )}
+                    <div className="spacer_small"></div>
+                    <Link><a href='http://sk.99foto.pl' className="btn" target="_blank">LOGOWANIE DO STREFY KLIENTA</a></Link>
+                    <div className="spacer"></div>
+                </article>
+                <style jsx>{`
 
-  showClientAreaGosiaRafal() {        
-    window.open('http://sk.99foto.pl/logowanie/gosiarafal.html', '_blank');
-  }
+            .btn {width: 100%}
 
-  showClientAreaEwelinaKamil() {        
-    window.open('http://sk.99foto.pl/logowanie/ewelinakamil.html', '_blank');
-  }
-
-  showClientAreaMagdaWaldek() {        
-    window.open('http://sk.99foto.pl/logowanie/magdawaldek.html', '_blank');
-  }
-  
-  render() {
-
-    return (
-        <div>
-            <article>
-                <header>
-                    <h1 className="quote-title">STREFA KLIENTA</h1>
-                </header>
-
-                
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientAreaMagdaWaldek} src="/static/portfolio_dtp/szafrantu-reportaz-slubny-zabierzow-bochenski-magda-waldek.jpg"></MyLinkClientAreaMobile></div></Link>                    
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY SZAFRANTU NIEPOŁOMICE<br/>MAGDALENA i WALDEMAR</p></div></Link>
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientAreaGosiaRafal} src="/static/portfolio_dtp/karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI<br/>MAŁGORZATA i RAFAŁ</p></div></Link>
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientAreaEwaMateusz} src="/static/portfolio_dtp/ewa_mateusz_hotel_lenart_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ</p></div></Link>                
-               
-
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE NA POLU GOLFOWYM<br/>JOANNA i GRZEGORZ</p></div></Link>
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>DEKORACJA SALI W STYLU RUSTYKALNYM<br/>KINGA i MACIEK</p></div></Link>
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA SŁOWACKIE GÓRY<br/>IWONA i MARCIN</p></div></Link>
-
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>                        
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA ZDJĘCIOWA W KRAKOWIE<br/>KAROLINA i BARTEK</p></div></Link>  
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/sesja_slubna_w_plenerze_park_krajobrazowy_w_ojcowie_i_okolice_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>PARK KRAJOBRAZOWY W OJCOWIE<br/>ALEKSANDRA i PAWEŁ</p></div></Link>
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>                    
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>RESTAURACJA CHOCHOŁOWY DWÓR<br/>MONIKA i RAFAŁ</p></div></Link>
-
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/sesja_narzeczenska_krakow_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>SESJA NARZECZEŃSKA KRAKÓW<br/>KINGA i MACIEK</p></div></Link>
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>ŚLUB CYWILNY i WESELE W PLENERZE<br/>KINGA i JULIEN</p></div></Link>
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/dom_weselny_marion_wesele_tarnow_i_zdjecia_slubne_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>ZDJĘCIA ŚLUBNE MARION TARNÓW<br/>ANNA i MICHAŁ</p></div></Link>
-
-                <div className="spacer_small"></div>
-
-                <Link href='#'>
-                    <MyLinkClientAreaOthers onCustomClick={this.showClientArea} text="LOGOWANIE DO STREFY KLIENTA"></MyLinkClientAreaOthers>                        
-                </Link>
-                
-                <div className="spacer"></div>
-            </article>             
-        <style jsx>{`
+            .textCenter {
+                text-align:center;
+            }
 
             .porfolioImage {                
                 cursor: pointer;
@@ -182,7 +136,7 @@ export default class PortfolioMobile extends Component {
             } 
              
         `}</style>
-      </div>
-    );
-  }
+            </div>
+        );
+    }
 }

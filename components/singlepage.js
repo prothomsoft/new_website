@@ -115,7 +115,7 @@ export default class Singlepage extends React.Component {
             componentContent = <HistoriaDesktop />
         }
         if(this.props.componentContentName == 'client') {
-            componentContent = <ClientDesktop />
+            componentContent = <ClientDesktop clients={this.props.clients} />
         }
 
         if (this.state.fontLoaded) {
@@ -140,7 +140,7 @@ export default class Singlepage extends React.Component {
                     componentContent = <HistoriaMobile />
                 }
                 if(this.props.componentContentName == 'client') {
-                    componentContent = <ClientMobile />
+                    componentContent = <ClientMobile clients={this.props.clients} />
                 }
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             } else {
@@ -164,7 +164,7 @@ export default class Singlepage extends React.Component {
                     componentContent = <HistoriaDesktop />
                 }
                 if(this.props.componentContentName == 'client') {
-                    componentContent = <ClientDesktop />
+                    componentContent = <ClientDesktop clients={this.props.clients} />
                 }
                 lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle}  leadUrl={this.props.leadUrl} />
             }
