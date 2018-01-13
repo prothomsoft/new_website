@@ -38,6 +38,7 @@ export default class PortfolioMobile extends Component {
     this.showClientAreaEwaMateusz = this.showClientAreaEwaMateusz.bind(this);
     this.showClientAreaGosiaRafal = this.showClientAreaGosiaRafal.bind(this);
     this.showClientAreaEwelinaKamil = this.showClientAreaEwelinaKamil.bind(this);
+    this.showClientAreaMagdaWaldek = this.showClientAreaMagdaWaldek.bind(this);
   }
 
   componentDidMount() {    
@@ -59,17 +60,19 @@ export default class PortfolioMobile extends Component {
 
   showClientAreaEwaMateusz() {        
     window.open('http://sk.99foto.pl/logowanie/ewamateusz.html', '_blank');
-    }
+  }
 
-    showClientAreaGosiaRafal() {        
-        window.open('http://sk.99foto.pl/logowanie/gosiarafal.html', '_blank');
-    }
+  showClientAreaGosiaRafal() {        
+    window.open('http://sk.99foto.pl/logowanie/gosiarafal.html', '_blank');
+  }
 
+  showClientAreaEwelinaKamil() {        
+    window.open('http://sk.99foto.pl/logowanie/ewelinakamil.html', '_blank');
+  }
 
-
-    showClientAreaEwelinaKamil() {        
-        window.open('http://sk.99foto.pl/logowanie/ewelinakamil.html', '_blank');
-    }
+  showClientAreaMagdaWaldek() {        
+    window.open('http://sk.99foto.pl/logowanie/magdawaldek.html', '_blank');
+  }
   
   render() {
 
@@ -79,13 +82,15 @@ export default class PortfolioMobile extends Component {
                 <header>
                     <h1 className="quote-title">STREFA KLIENTA</h1>
                 </header>
-            
+
+                
+                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientAreaMagdaWaldek} src="/static/portfolio_dtp/szafrantu-reportaz-slubny-zabierzow-bochenski-magda-waldek.jpg"></MyLinkClientAreaMobile></div></Link>                    
+                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY SZAFRANTU NIEPOŁOMICE<br/>MAGDALENA i WALDEMAR</p></div></Link>
                 <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientAreaGosiaRafal} src="/static/portfolio_dtp/karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
                 <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI<br/>MAŁGORZATA i RAFAŁ</p></div></Link>
                 <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientAreaEwaMateusz} src="/static/portfolio_dtp/ewa_mateusz_hotel_lenart_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
                 <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ</p></div></Link>                
-                <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>                    
-                <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE W GÓRALSKIM KLIMACIE<br/>IWONA i MARCIN</p></div></Link>
+               
 
                 <Link href="#"><div className="porfolioImage"><MyLinkClientAreaMobile onCustomClick={this.showClientArea} src="/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"></MyLinkClientAreaMobile></div></Link>
                 <Link href='#'><div className="porfolioCaption"><p style={{textAlign: 'center'}}>WESELE NA POLU GOLFOWYM<br/>JOANNA i GRZEGORZ</p></div></Link>
