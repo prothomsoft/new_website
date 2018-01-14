@@ -28,26 +28,37 @@ export default class ClientPageComponent extends React.Component {
               title3: 'SESJA ZDJĘCIOWA SŁOWACKIE GÓRY<br/>IWONA i MARCIN'},
 
               // row 3
-              { image1: "/static/portfolio/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg", 
-              url1: 'http://sk.99foto.pl/logowanie/karolinabartek.html',
-              title1: 'SESJA ZDJĘCIOWA W KRAKOWIE<br/>KAROLINA i BARTEK',
-              image2: "/static/portfolio/sesja_slubna_w_plenerze_park_krajobrazowy_w_ojcowie_i_okolice_portfolio.jpg", 
-              url2: 'http://sk.99foto.pl/logowanie/olapawel.html',
-              title2: 'PARK KRAJOBRAZOWY W OJCOWIE<br/>ALEKSANDRA i PAWEŁ',
-              image3: "/static/portfolio/monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_portfolio.jpg", 
-              url3: 'http://sk.99foto.pl/logowanie/monikarafal.html',
-              title3: 'RESTAURACJA CHOCHOŁOWY DWÓR<br/>MONIKA i RAFAŁ'},
-
+              { image1: "/static/portfolio/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg", 
+              url1: 'http://sk.99foto.pl/logowanie/ewelinakamil.html',
+              title1: 'SESJA ZDJĘCIOWA LAWENDOWE POLE<br/>EWELINA i KAMIL',
+              image2: "/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg", 
+              url2: 'http://sk.99foto.pl/logowanie/annakrzysztof.html',
+              title2: 'REPORTAŻ ŚLUBNY JORDANÓW<br/>ANNA i KRZYSZTOF',
+              image3: "/static/portfolio/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg", 
+              url3: 'http://sk.99foto.pl/logowanie/iwonamarcinslub.html',
+              title3: 'WESELE W GÓRALSKIM KLIMACIE<br/>IWONA i MARCIN'},
+             
                // row 4
                { image1: "/static/portfolio/sesja_narzeczenska_krakow_portfolio.jpg", 
                url1: 'http://sk.99foto.pl/logowanie/kingamacieksn.html',
                title1: 'SESJA NARZECZEŃSKA KRAKÓW<br/>KINGA i MACIEK',
                image2: "/static/portfolio/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg", 
                url2: 'http://sk.99foto.pl/logowanie/kingajulien.html',
-               title2: 'ŚLUB CYWILNY i WESELE W PLENERZE<br/>KINGA i JULIEN<',
+               title2: 'ŚLUB CYWILNY i WESELE W PLENERZE<br/>KINGA i JULIEN',
                image3: "/static/portfolio/dom_weselny_marion_wesele_tarnow_i_zdjecia_slubne_portfolio.jpg", 
                url3: 'http://sk.99foto.pl/logowanie/annamichal.html',
                title3: 'ZDJĘCIA ŚLUBNE MARION TARNÓW<br/>ANNA i MICHAŁ'},
+            
+               // row 5
+               { image1: "/static/portfolio/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg", 
+               url1: 'http://sk.99foto.pl/logowanie/karolinabartek.html',
+               title1: 'SESJA ZDJĘCIOWA W KRAKOWIE<br/>KAROLINA i BARTEK',
+               image2: "/static/portfolio/sesja_slubna_w_plenerze_park_krajobrazowy_w_ojcowie_i_okolice_portfolio.jpg", 
+               url2: 'http://sk.99foto.pl/logowanie/olapawel.html',
+               title2: 'PARK KRAJOBRAZOWY W OJCOWIE<br/>ALEKSANDRA i PAWEŁ',
+               image3: "/static/portfolio/monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_portfolio.jpg", 
+               url3: 'http://sk.99foto.pl/logowanie/monikarafal.html',
+               title3: 'RESTAURACJA CHOCHOŁOWY DWÓR<br/>MONIKA i RAFAŁ'},
         ];
         
         return (
