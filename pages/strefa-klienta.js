@@ -6,20 +6,21 @@ export default class ClientPageComponent extends React.Component {
         let clients = [
               
             // row 1
-            { image1: "/static/portfolio_dtp/szafrantu-reportaz-slubny-zabierzow-bochenski-magda-waldek.jpg", 
-              url1: 'http://sk.99foto.pl/logowanie/magdawaldek.html',
-              title1: 'REPORTAŻ ŚLUBNY SZAFRANTU NIEPOŁOMICE<br/>MAGDALENA i WALDEMAR',
+            { image1: "/static/portfolio_dtp/zimowy-slub-w-kosciele-na-szklanych-domach-nowa-huta-krakow.jpg", 
+              url1: 'http://sk.99foto.pl/logowanie/olatomek.html',
+              title1: 'ZIMOWY ŚLUB NA SZKLANYCH DOMACH<br/>ALEKSANDRA i TOMASZ',
               image2: "/static/portfolio_dtp/karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg", 
               url2: 'http://sk.99foto.pl/logowanie/gosiarafal.html',
               title2: 'REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI<br/>MAŁGORZATA i RAFAŁ',
-              image3: "/static/portfolio_dtp/ewa_mateusz_hotel_lenart_portfolio.jpg", 
-              url3: 'http://sk.99foto.pl/logowanie/ewamateusz.html',
-              title3: 'WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ'},
+              image3: "/static/portfolio_dtp/szafrantu-reportaz-slubny-zabierzow-bochenski-magda-waldek.jpg", 
+              url3: 'http://sk.99foto.pl/logowanie/magdawaldek.html',
+              title3: 'REPORTAŻ ŚLUBNY SZAFRANTU NIEPOŁOMICE<br/>MAGDALENA i WALDEMAR'
+              },
 
               // row 2
-              { image1: "/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg", 
-              url1: 'http://sk.99foto.pl/logowanie/joannagrzegorz.html',
-              title1: 'WESELE NA POLU GOLFOWYM<br/>JOANNA i GRZEGORZ',
+              {image1: "/static/portfolio_dtp/ewa_mateusz_hotel_lenart_portfolio.jpg", 
+              url1: 'http://sk.99foto.pl/logowanie/ewamateusz.html',
+              title1: 'WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ',
               image2: "/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg", 
               url2: 'http://sk.99foto.pl/logowanie/kingamaciek.html',
               title2: 'DEKORACJA SALI W STYLU RUSTYKALNYM<br/>KINGA i MACIEK',
@@ -53,9 +54,9 @@ export default class ClientPageComponent extends React.Component {
                { image1: "/static/portfolio/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg", 
                url1: 'http://sk.99foto.pl/logowanie/karolinabartek.html',
                title1: 'SESJA ZDJĘCIOWA W KRAKOWIE<br/>KAROLINA i BARTEK',
-               image2: "/static/portfolio/sesja_slubna_w_plenerze_park_krajobrazowy_w_ojcowie_i_okolice_portfolio.jpg", 
-               url2: 'http://sk.99foto.pl/logowanie/olapawel.html',
-               title2: 'PARK KRAJOBRAZOWY W OJCOWIE<br/>ALEKSANDRA i PAWEŁ',
+               image2: "/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg", 
+               url2: 'http://sk.99foto.pl/logowanie/joannagrzegorz.html',
+               title2: 'WESELE NA POLU GOLFOWYM<br/>JOANNA i GRZEGORZ',
                image3: "/static/portfolio/monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_portfolio.jpg", 
                url3: 'http://sk.99foto.pl/logowanie/monikarafal.html',
                title3: 'RESTAURACJA CHOCHOŁOWY DWÓR<br/>MONIKA i RAFAŁ'},
