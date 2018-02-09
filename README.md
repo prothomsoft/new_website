@@ -12,3 +12,7 @@ npm run export
 
 Go to /out
 serve -p 8080
+
+Always remember about:
+http://sk.99foto.pl/mig/
+http://sk.99foto.pl/getimagesize/
