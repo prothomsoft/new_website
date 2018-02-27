@@ -9,25 +9,38 @@ export default class ClientDesktop extends React.Component {
     }
 
     render() {
+
+
+
         return (
             <div>
                 <article>
                     <header>
                         <h1 className="quote-title">GALERIE ZDJĘĆ ZABEZPIECZONE HASŁEM</h1>
                     </header>
-                    {this.props.clients.map((client, key) =>
-                        <div>
-                            <div style={{ display: 'flex' }}>
-                                <Link><a href={client.url1} target="_blank"><div className="porfolioImage"><img src={client.image1} /></div></a></Link>
-                                <Link><a href={client.url2} target="_blank"><div className="porfolioImage"><img src={client.image2} /></div></a></Link>
-                                <Link><a href={client.url3} target="_blank"><div className="porfolioImage"><img src={client.image3} /></div></a></Link>
+                    {this.props.clients.map((client, key) => {
+
+                        let fullPathImage1 = `/static/portfolio_dtp/${client.image1}`;
+                        let fullPathImage2 = `/static/portfolio_dtp/${client.image2}`;
+                        let fullPathImage3 = `/static/portfolio_dtp/${client.image3}`;
+                        let fullPathUrl1 = `http://sk.99foto.pl/logowanie/${client.url1}.html`;
+                        let fullPathUrl2 = `http://sk.99foto.pl/logowanie/${client.url2}.html`;
+                        let fullPathUrl3 = `http://sk.99foto.pl/logowanie/${client.url3}.html`;
+
+                        return (
+                            <div>
+                                <div style={{ display: 'flex' }}>
+                                    <Link><a href={fullPathUrl1} target="_blank"><div className="porfolioImage"><img src={fullPathImage1} /></div></a></Link>
+                                    <Link><a href={fullPathUrl2} target="_blank"><div className="porfolioImage"><img src={fullPathImage2} /></div></a></Link>
+                                    <Link><a href={fullPathUrl3} target="_blank"><div className="porfolioImage"><img src={fullPathImage3} /></div></a></Link>
+                                </div>
+                                <div style={{ display: 'flex' }}>
+                                    <Link><a href={fullPathUrl1} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title1 }} /></div></a></Link>
+                                    <Link><a href={fullPathUrl2} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title2 }} /></div></a></Link>
+                                    <Link><a href={fullPathUrl3} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title3 }} /></div></a></Link>
+                                </div>
                             </div>
-                            <div style={{ display: 'flex' }}>
-                                <Link><a href={client.url1} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title1 }} /></div></a></Link>
-                                <Link><a href={client.url2} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title2 }} /></div></a></Link>
-                                <Link><a href={client.url3} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title3 }} /></div></a></Link>
-                            </div>
-                        </div>
+                        )}
                     )}
                     <div className="spacer_small"></div>
                     <Link><a href='http://sk.99foto.pl' className="btn" target="_blank">LOGOWANIE DO STREFY KLIENTA</a></Link>
