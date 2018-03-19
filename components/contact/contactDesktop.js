@@ -97,8 +97,8 @@ export default class ContactDesktop extends React.Component {
                     </div>                    
 
                     <div style={{display: `${displayForm}`}}>
-                    <p>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU I ZAPYTAĆ O CENĘ PAKIETU?</p>
-                    <p>WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY I WYŚLIJ WIADOMOŚĆ</p>                            
+                    <p>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ ZAPYTAĆ O DOSTĘPNOŚĆ TERMINU?</p>
+                    <p>WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY I WYŚLIJ WIADOMOŚĆ</p>
                     <div className="spacer"></div>
 
                     <form className='react-form' onSubmit={this.handleSubmit}>
@@ -133,8 +133,7 @@ export default class ContactDesktop extends React.Component {
                     <div className="spacer"></div>
                     <div className="containerCenter">
                         <div className="floatLeft">
-                            <p>TOMASZ PROKOP - <Link href='http://99foto.pl'><a alt="Fotograf ślubny Kraków">FOTOGRAF ŚLUBNY KRAKÓW</a></Link></p>
-                            <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
+                            <p>TOMASZ PROKOP - <Link href='http://99foto.pl'><a alt="Fotograf ślubny Kraków">FOTOGRAF ŚLUBNY KRAKÓW</a></Link></p>                            
                             <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>
                         </div>
                         <div className="floatLeft">

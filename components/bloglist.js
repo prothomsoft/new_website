@@ -173,7 +173,7 @@ const PostLink = ({ key, post, height }) => (
       </h1>
     </header>
     <div className="entryMeta">
-      {getPostDate(post.date)}, TAGI: <span style={{ color: '#FFFFFF' }}>{getPostTags(post.post_tags)}</span>
+      TAGI: <span style={{ color: '#FFFFFF' }}>{getPostTags(post.post_tags)}</span>
     </div>
     <div>
       <Link as={`/${post.slug}`} href={`/${post.slug}`}>

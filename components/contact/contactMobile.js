@@ -97,7 +97,7 @@ export default class ContactMobile extends React.Component {
                     </div>                    
 
                     <div style={{display: `${displayForm}`}}>
-                    <p>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU I ZAPYTAĆ O CENĘ PAKIETU?</p>
+                    <p>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ ZAPYTAĆ O DOSTĘPNOŚĆ TERMINU?</p>
                     <p>WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY I WYŚLIJ WIADOMOŚĆ</p>                            
                     <div className="spacer"></div>
 
@@ -132,8 +132,7 @@ export default class ContactMobile extends React.Component {
                     </div>
                     <div className="spacer_large"></div>
                     <div>
-                        <p>TOMASZ PROKOP - <Link href='http://99foto.pl'><a alt="Fotograf ślubny Kraków">FOTOGRAF ŚLUBNY KRAKÓW</a></Link></p>
-                        <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
+                        <p>TOMASZ PROKOP - <Link href='http://99foto.pl'><a alt="Fotograf ślubny Kraków">FOTOGRAF ŚLUBNY KRAKÓW</a></Link></p>                        
                         <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>
                         <div className="spacer_small"></div>
                         <p>OBSERWUJ MNIE:</p>
