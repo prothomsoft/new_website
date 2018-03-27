@@ -19,7 +19,7 @@ const SectionWrapper = styled.div`
     margin: 0 auto;
     width: 1160px; 
     text-align: justify;   
-    padding: 20px 10px 0px 10px;    
+    padding: 20px 10px 0 10px;    
 
     .LazyLoad {
         opacity: 0;
@@ -134,7 +134,7 @@ export default class Blogpage extends React.Component {
                             </h1>
                         </header>
                         <div className="entryMeta">
-                            TAGI: <span style={{ color: '#FFFFFF' }}>{this.props.tags}</span>
+                            TAGI: <span className="spanColor">{this.props.tags}</span>
                         </div>
                         <div className="entryContent">
                             <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP1 }}/>
@@ -153,29 +153,27 @@ export default class Blogpage extends React.Component {
                 </div>
 
                 <style jsx>{`
-
+                .spanColor {
+                    color: #FFFFFF;
+                  }
                 .header h1 {
                     padding: 0 0 10px 0;
-                    margin :0px;
+                    margin: 0;
                     text-align:left;
                 }
-
                 .entryMeta {
                     border-bottom: 1px solid #262626;
                     border-top: 1px solid #262626;
                     margin-bottom: 10px;
                     text-transform: uppercase;
-                    padding:6px 0 6px 0;
+                    padding: 6px 0 6px 0;
                     font-family: 'Oswald';
                     font-size: 16px;        
                 }
-
                 .entryContent {
                     font-family: 'Oswald';
                     font-size: 16px;
                 }
-
-                
                 .bgimg-3 {
                     position: relative;
                     background-position: center;

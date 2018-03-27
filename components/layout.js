@@ -163,23 +163,19 @@ const GeneralWrapper = styled.div`
     .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
-  }
-
-  /* center frame */
+  }  
   .tableHelper {
     display: table;
     table-layout: fixed;
     width: 100%;
     height: 100%
   }
-
   .cellHelper {
     display: table-cell;
     width: 100%;
     height: 100%;
     vertical-align: middle
   }
-
   #nprogress {
     pointer-events: none;
   }
@@ -209,8 +205,8 @@ const GeneralWrapper = styled.div`
   }  
   .nprogress-custom-parent #nprogress .bar {
     position: absolute;
-  }  
-`;
+  }
+`
 
 export default class LayoutComponent extends Component {
   constructor(props) {

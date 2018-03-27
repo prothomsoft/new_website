@@ -48,13 +48,10 @@ export default class ClientDesktop extends React.Component {
                 </article>
 
                 <style jsx>{`
-
                     .btn {width: 100%}
-
                     .textCenter {
                         text-align: center;
                     }
-
                     .porfolioImage {
                         position:relative;                
                         width:340px;
@@ -63,22 +60,18 @@ export default class ClientDesktop extends React.Component {
                         transition: border 0.5s;
                         cursor: pointer;
                     }
-            
                     .porfolioImage:hover {
                         border: 2px solid #FFF;                
-                    }
-        
+                    }        
                     .porfolioImage:focus {
                         outline:none;
-                    }
-        
+                    }        
                     .porfolioCaption {
                         cursor: pointer;
                         position:relative;                
                         width:340px;
                         margin: 0 20px 0 20px;
-                    }
-        
+                    }        
                     article {                        
                         display: flex;
                         flex-direction: column;
@@ -87,19 +80,15 @@ export default class ClientDesktop extends React.Component {
                         font-family: 'Oswald';
                         width: 1140px;                
                     }
-
                     article h1{
                         color: #FFF;
                     }
-
                     .spacer_small {
                         height: 30px;
-                    }
-                    
+                    }                    
                     .spacer {
                         height: 60px;
-                    }
-                    
+                    }                    
                     p {
                         font-size: 16px;
                         margin: 10px 0;

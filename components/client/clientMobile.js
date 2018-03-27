@@ -80,72 +80,67 @@ export default class PortfolioMobile extends Component {
                     <div className="spacer"></div>
                 </article>
                 <style jsx>{`
+                    .btn {width: 100%}
+                    .textCenter {
+                        text-align:center;
+                    }
+                    .porfolioImage {                
+                        cursor: pointer;
+                    }
+                    .porfolioCaption {
+                        cursor: pointer;                
+                        margin: 0 20px 0 20px;
+                    }                    
+                    article {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        text-align: center;                        
+                        font-family: 'Oswald';
+                        width: 100%;
+                        color #BEBEBE;
+                        margin: 20px 0 0 0;
+                    }
+                    article h1{
+                        color: #FFF;
+                        font-size: 26px;
+                    }
 
-            .btn {width: 100%}
+                    .spacer_small {
+                        height: 30px;
+                    }
 
-            .textCenter {
-                text-align:center;
-            }
-
-            .porfolioImage {                
-                cursor: pointer;
-            }
-
-            .porfolioCaption {
-                cursor: pointer;                
-                margin: 0 20px 0 20px;
-            }
-            
-            article {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;                        
-                font-family: 'Oswald';
-                width: 100%;
-                color #BEBEBE;
-                margin: 20px 0 0 0;
-            }
-            article h1{
-                color: #FFF;
-                font-size: 26px;
-            }
-
-            .spacer_small {
-                height: 30px;
-            }
-
-            .spacer {
-                height: 50px;
-            }
-            
-            p {
-                font-size: 16px;
-                margin: 10px 0;
-                text-align: justify;                
-            }                
-                            
-            .quote-title::before,
-            .quote-title::after {
-                content: '';
-                display: block;
-                border: 1px solid #33B59A;                    
-            }
-            
-            .quote-title {                
-                display: flex;
-                align-items: center;
-                color: #FFFFFF;
-                padding: 10px 0 10px 0;
-            }
-            
-            .quote-title::before,
-            .quote-title::after {
-                flex-grow: 1;
-                margin: 0 20px;
-            } 
-             
-        `}</style>
+                    .spacer {
+                        height: 50px;
+                    }
+                    
+                    p {
+                        font-size: 16px;
+                        margin: 10px 0;
+                        text-align: justify;                
+                    }                
+                                    
+                    .quote-title::before,
+                    .quote-title::after {
+                        content: '';
+                        display: block;
+                        border: 1px solid #33B59A;                    
+                    }
+                    
+                    .quote-title {                
+                        display: flex;
+                        align-items: center;
+                        color: #FFFFFF;
+                        padding: 10px 0 10px 0;
+                    }
+                    
+                    .quote-title::before,
+                    .quote-title::after {
+                        flex-grow: 1;
+                        margin: 0 20px;
+                    } 
+                    
+                `}</style>
             </div>
         );
     }

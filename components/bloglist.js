@@ -16,8 +16,7 @@ const SectionWrapper = styled.div`
 margin: 0 auto;
 width: 1160px; 
 text-align: justify;   
-padding: 0px 10px 0px 10px;
-
+padding: 0 10px 0 10px;
 .LazyLoad {
     opacity: 0;
     transition: all 1s ease-in-out;
@@ -28,8 +27,7 @@ padding: 0px 10px 0px 10px;
 }
 @media (max-width: 1160px) {
     width: 100%;    
-}
-`;
+}`
 
 export default class BlogList extends React.Component {
 
@@ -77,7 +75,6 @@ export default class BlogList extends React.Component {
 
     let lead = null
     let contact = null
-
 
     // assumption that all blog images are horizontal with height = 762px
     let height = 762
@@ -136,7 +133,6 @@ export default class BlogList extends React.Component {
               .spacer {
                   height:40px;
               }
-
               .bgimg-3 {
                   position: relative;                    
                   background-position: center;
@@ -145,7 +141,7 @@ export default class BlogList extends React.Component {
                   -webkit-background-size: cover;
                   -moz-background-size: cover;
                   -o-background-size: cover;
-				  -ms-background-size: cover;
+				          -ms-background-size: cover;
               }              
               .bgimg-3 {                  
                   min-height: 100%;
@@ -157,7 +153,6 @@ export default class BlogList extends React.Component {
                 background-attachment: fixed;
               }
             `}</style>
-
       </Layout>
     )
   }
@@ -173,46 +168,47 @@ const PostLink = ({ key, post, height }) => (
       </h1>
     </header>
     <div className="entryMeta">
-      TAGI: <span style={{ color: '#FFFFFF' }}>{getPostTags(post.post_tags)}</span>
+      TAGI: <span className="spanColor">{getPostTags(post.post_tags)}</span>
     </div>
     <div>
       <Link as={`/${post.slug}`} href={`/${post.slug}`}>
         <a>{getProperLazyLoad(getPostImage(post.content.rendered), height)}</a>
       </Link>
       <div className="entryContent" dangerouslySetInnerHTML={{ __html: getPostContent(post.content.rendered) }} />
-      <div style={{ padding: "5px 0 40px 0" }}>
+      <div className="specialPadding">
         <Link as={`/${post.slug}`} href={`/${post.slug}`}>
           <a className="btn">CZYTAJ DALEJ</a>
         </Link>
       </div>
     </div>
     <style jsx>{`
-
+      .spanColor {
+        color: #FFFFFF;
+      }
+      .specialPadding {
+        padding: 5px 0 40px 0;
+      }
       .header h1 {
           padding: 0 0 10px 0;
           margin: 0;
           text-align:left;
       }
-
       .entryMeta {
         border-bottom: 1px solid #262626;
         border-top: 1px solid #262626;
         margin-bottom: 10px;
         text-transform: uppercase;
-        padding:6px 0 6px 0;
+        padding: 6px 0 6px 0;
         font-family: 'Oswald';
         font-size: 16px;        
       }
-
       .entryContent {
         font-family: 'Oswald';
         font-size: 16px;
-      }
-    
+      }    
       .postTitle:hover {
         text-decoration: underline;
-      }
-          
+      }          
     `}</style>
 
   </article>

@@ -12,15 +12,7 @@ export default class SiteDocument extends Document {
         <Head>          
           {styleTags}
           <script async src='/static/gtag.js' />
-          <script dangerouslySetInnerHTML={{ __html: `
-            window.dataLayer = window.dataLayer || []
-            function gtag(){
-              dataLayer.push(arguments)              
-            }
-            gtag('js', new Date())
-            gtag('config', '${gaTrackingId}')
-            window.gaTrackingId = '${gaTrackingId}';
-          `}} />
+          <script dangerouslySetInnerHTML={{ __html: `window.dataLayer = window.dataLayer || [] function gtag(){dataLayer.push(arguments)} gtag('js', new Date()) gtag('config', '${gaTrackingId}') window.gaTrackingId = '${gaTrackingId}'`}} />
         </Head>
         <body>
           {main}

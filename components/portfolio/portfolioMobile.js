@@ -4,7 +4,6 @@ import LazyLoad from 'react-lazy-load';
 import Link from 'next/link'
 
 const CaptionSectionWrapper = styled.div`
-
     margin: 0 auto;
     width: 1160px; 
     text-align: justify;   
@@ -13,7 +12,6 @@ const CaptionSectionWrapper = styled.div`
     top: 10%;
     width: 100%;
     text-align: center;
-
     @media (max-width: 1160px) {
         width: 100%;
         position: absolute;
@@ -22,7 +20,7 @@ const CaptionSectionWrapper = styled.div`
         width: 100%;
         text-align: center;
     }
-`;
+`
 
 export default class PortfolioMobile extends Component {
 
@@ -165,8 +163,7 @@ export default class PortfolioMobile extends Component {
             .quote-title::after {
                 flex-grow: 1;
                 margin: 0 20px;
-            } 
-             
+            }
         `}</style>
       </div>
     );
