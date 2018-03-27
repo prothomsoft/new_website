@@ -21,8 +21,8 @@ export default class HistoriaMobile extends React.Component {
                     3. Czy fotoksiążka jest wliczona w cenę pakietu i czy można zobaczyć przykładową książkę przed ślubem?
                     Fotoksiążka jest produktem finalnym naszej współpracy i jest wliczona w cenę pakietu. Przykładową książkę możecie zobaczyć na spotkaniu ze mną w Krakowie. Na spotkaniu odpowiem też na wszystkie Wasze pytania.</p>
                     <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg'} /></LazyLoad></div></Link>
-                    <p>4. Na jakim sprzęcie pracujesz?<br />
-                    Zdjęcia wykonuję pełnoklatkowymi lustrzankami cyfrowymi Nikon. Używam jasnych stałoogniskowych obiektywów Nikkor o ogniskowych od 14mm do 85mm.<br /><br />
+                    <p>4. Jakiego sprzętu fotograficznego używasz w swojej pracy?<br />
+                    Zdjęcia wykonuję pełnoklatkowymi lustrzankami cyfrowymi Nikon i jasnymi obiektywami Nikkor i Sigma ART.<br /><br />
                     5. Do której godziny jesteś na weselu?<br />
                     Na weselu jestem do godziny pierwszej w nocy. Wszystkie najważniejsze atrakcje wieczoru dzieją się do tej chwili.<br /><br />
                     6. Na jakim terenie pracujesz?<br />
@@ -41,7 +41,7 @@ export default class HistoriaMobile extends React.Component {
                     <p>11. Jak długo trwa plener? Jak wygląda taka sesja plenerowa?<br />
                     Na sesję zarezerwujcie sobie minimum trzy godziny - wszystko zależy od tego gdzie jest sesja i czy musimy daleko dojeżdżać.<br /><br />
                     12. Czy mówisz w innych językach, niż polski?<br />
-                    Tak, swobodnie porozumiewam się w języku angielskim. Zdałem First Certificate in English (FCE).<br /><br />
+                    Tak, swobodnie porozumiewam się w języku angielskim. Mam zdany First Certificate in English.<br /><br />
                     13. Czy prowadzisz legalną działalność gospodarczą?<br />
                     Tak, mam zarejestrowaną działalność gospodarczą i odprowadzam podatki.<br /><br />
                     14. Jak wcześnie trzeba rezerwować termin?<br />

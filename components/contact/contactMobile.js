@@ -97,7 +97,7 @@ export default class ContactMobile extends React.Component {
                     </div>                    
 
                     <div style={{display: `${displayForm}`}}>
-                    <p>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ ZAPYTAĆ O DOSTĘPNOŚĆ TERMINU?</p>
+                    <p>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU I ZAPYTAĆ O CENĘ PAKIETU?</p>
                     <p>WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY I WYŚLIJ WIADOMOŚĆ</p>                            
                     <div className="spacer"></div>
 
@@ -130,11 +130,11 @@ export default class ContactMobile extends React.Component {
 
                     </form>
                     </div>
-                    <div className="spacer_large"></div>
+                    <div className="spacer_large">&nbsp;</div>
                     <div>
-                        <p>TOMASZ PROKOP - <Link href='http://99foto.pl'><a>FOTOGRAF ŚLUBNY KRAKÓW</a></Link></p>
+                        <p>TOMASZ PROKOP - <Link href='http://99foto.pl'><a>FOTOGRAF ŚLUBNY</a></Link></p>
                         <p>ul. Bociana 4A/35, 31-231 Kraków</p>
-                        <p>NIP: 8133336677, REGON: 369770278</p>
+                        <p>NIP: 8133336677 &nbsp; REGON: 369770278</p>
                         <p>TELEFON: <Link href='tel:+48663275222'><a>663 275 222</a></Link></p>
                         <p>EMAIL: <Link href='mailto:tomasz@99foto.pl'><a>TOMASZ@99FOTO.PL</a></Link></p>
                         <div className="spacer_small"></div>
@@ -158,7 +158,7 @@ export default class ContactMobile extends React.Component {
                     text-align: center;                    
                     font-family: 'Oswald';                    
                     width: 100%;
-                    height: 790px;
+                    height: 840px;
                     color #FFF;
                     padding:40px;                    
                 }
@@ -196,7 +196,7 @@ export default class ContactMobile extends React.Component {
                 }
 
                 .spacer_large {
-                    height: 60px;
+                    height: 80px;
                 }
 
                 .header h1 {

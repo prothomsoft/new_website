@@ -97,7 +97,7 @@ export default class ContactDesktop extends React.Component {
                     </div>                    
 
                     <div style={{display: `${displayForm}`}}>
-                    <p>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ ZAPYTAĆ O DOSTĘPNOŚĆ TERMINU?</p>
+                    <p>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU I ZAPYTAĆ O CENĘ PAKIETU?</p>
                     <p>WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY i WYŚLIJ WIADOMOŚĆ</p>
                     <div className="spacer"></div>
 
