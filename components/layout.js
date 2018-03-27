@@ -15,12 +15,12 @@ body {
   color:#B3B3B3;
   line-height:1.42857;
   font-family:Arial,Helvetica,sans-serif;
-  font-size:13px;
+  font-size:13px
 }
 
 @media only screen and (max-device-width: 1140px) {
   .slideShow {
-      background-attachment: scroll;
+      background-attachment: scroll
   }
 }
 
@@ -28,14 +28,14 @@ a {
   color:#FFFFFF;
   text-decoration:none;
   background:transparent;
-  cursor: pointer;
+  cursor: pointer
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline
 }
 *, ::before, ::after {
-  box-sizing:border-box;
+  box-sizing:border-box
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, li {
@@ -44,21 +44,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, li {
   font-style:normal;
   font-weight:bold;
   line-height:1.1;  
-  text-rendering: optimizelegibility;
+  text-rendering: optimizelegibility
 }
 
 h1 {
-  font-size: 33px;  
+  font-size: 33px  
 }
 
 img {
   vertical-align:middle;
   max-width: 100%;
-  height: auto;
+  height: auto
 }
 
 img {
-  border:0;
+  border:0
 }
 
 .btn {  
@@ -79,14 +79,60 @@ img {
   font-family: 'Oswald';
   background-color: #000;
   width:200px;
-  font-size: 16px;
-  
+  font-size: 16px  
 }
 
 .btn:hover {
   border: 2px solid #FFFFFF;
   background-color: #FFFFFF;
-  color: #000;
+  color: #000
+}
+
+.preloaderWrapper {
+  overflow-x: hidden;
+  position: relative;
+  margin: 0 auto
+}
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+  color: #fff;
+  background-color: #000000
+}
+
+.preloader .typing_loader {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: Typing 1s linear infinite alternate;
+  -moz-animation: Typing 1s linear infinite alternate;
+  -o-animation: Typing 1s linear infinite alternate;
+  -ms-animation: Typing 1s linear infinite alternate;
+  animation: Typing 1s linear infinite alternate;
+  margin: 15px auto;
+  position: relative;
+  left: -12px
+}
+
+@keyframes Typing {
+  0% {
+    background-color: rgba(255,255,255, 0.9);
+    box-shadow: 12px 0 0 0 rgba(255, 255, 255, 0.2), 24px 0 0 0 rgba(255, 255, 255, 0.2)
+  }
+  25% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 12px 0 0 0 rgba(255,255,255, 0.9), 24px 0 0 0 rgba(255, 255, 255, 0.2)
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 12px 0 0 0 rgba(255, 255, 255, 0.2), 24px 0 0 0 rgba(255,255,255, 0.9)
+  }
 }
 `
 
@@ -138,8 +184,7 @@ const GeneralWrapper = styled.div`
     pointer-events: none;
   }
   #nprogress .bar {        
-    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-    xbackground: #FFFFFF;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);    
     position: fixed;
     z-index: 1;
     top: 0;
