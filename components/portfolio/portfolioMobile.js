@@ -53,7 +53,7 @@ export default class PortfolioMobile extends Component {
                 <header>
                     <h1 className="quote-title"> FOTOGRAF ŚLUBNY KRAKÓW </h1>
                 </header>                
-                <p>Zaczynając studia grałem na gitarze elektrycznej i planowałem zostać inżynierem dźwięku. Rynek pracy zweryfikował te plany i w ten oto sposób zostałem zawodowym programistą. Kilka lat temu pomyślałem, że aby być szczęśliwym człowiekiem nie tylko w domu ale i w pracy, muszę odpowiedzieć sobie na pytanie co lubię w życiu robić i zacząć to robić. W ten oto prosty sposób narodziła się moja pasja do fotografowania. Mam na imię Tomek i jako fotograf ślubny chciałbym móc moimi zdjęciami opowiedzieć Waszą historię ślubną.</p>
+                <p>Zaczynając studia grałem na gitarze elektrycznej i planowałem zostać inżynierem dźwięku. Rynek pracy zweryfikował te plany i w ten sposób zostałem zawodowym programistą. Kilka lat temu pomyślałem, że aby być szczęśliwym człowiekiem nie tylko w domu ale i w pracy, muszę odpowiedzieć sobie na pytanie co lubię w życiu robić i zacząć to robić. W ten oto prosty sposób narodziła się moja pasja do fotografowania. Mam na imię Tomek i jako fotograf ślubny chciałbym móc moimi zdjęciami opowiedzieć Waszą historię ślubną.</p>
                 <p>Serdecznie zapraszam do odwiedzenia <Link href='/blog'><a>mojego bloga</a></Link> i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Oglądając moje prace sami ocenicie czy moje zdjęcia się Wam spodobają. Fotografuję w Krakowie i bliskich okolicach. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.</p>                
                 <div className="spacer_small"></div>
             </article>

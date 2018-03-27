@@ -30,25 +30,29 @@ export default class OfferDesktop extends React.Component {
                                 2. Czy posiadasz zapasowy aparat w przypadku awarii?<br />
                                 Zawsze posiadam drugi aparat na wypadek awarii.<br /><br />
                                 3. Czy fotoksiążka jest wliczona w cenę pakietu i czy można zobaczyć przykładową książkę przed ślubem?<br />
-                                Fotoksiążka jest produktem finalnym naszej współpracy i jest wliczona w cenę pakietu. Przykładową książkę możecie zobaczyć na spotkaniu ze mną w Krakowie. Na spotkaniu odpowiem też na wszystkie pytania.<br /><br />
+                                Fotoksiążka jest produktem finalnym naszej współpracy i jest wliczona w cenę pakietu. Przykładową książkę możecie zobaczyć na spotkaniu ze mną w Krakowie. Na spotkaniu odpowiem też na wszystkie Wasze pytania.<br /><br />
                                 4. Na jakim sprzęcie pracujesz?<br />
                                 Zdjęcia wykonuję pełnoklatkowymi lustrzankami cyfrowymi Nikon. Używam jasnych stałoogniskowych obiektywów Nikkor o ogniskowych od 14mm do 85mm.<br /><br />
                                 5. Do której godziny jesteś na weselu?<br />
                                 Na weselu jestem do godziny pierwszej w nocy. Wszystkie najważniejsze atrakcje wieczoru dzieją się do tej chwili.<br /><br />
                                 6. Na jakim terenie pracujesz?<br />
-                                Mieszkam w Krakowie. Mogę jednak uwiecznić Waszą uroczystość (lub też wykonać sesję plenerową) w dowolnym miejscu w południowej Polsce - kwestia dopłaty za dojazd.<br /><br />
+                                Mieszkam w Krakowie. Mogę jednak uwiecznić Waszą uroczystość (lub też wykonać sesję plenerową) w dowolnym miejscu w południowej Polsce.<br /><br />
                                 7. Ile wynosi dopłata za dojazd?<br />
-                                W moim pakiecie oferuję dojazd do 30km GRATIS i zwykle limit ten jest wystarczający w dniu ślubu. Jeżeli natomiast Wasz plener ślubny odbywa się w oddalonym od Krakowa miejscu to musimy doliczyć dopłatę w kwocie 1km/1PLN.<br /><br />
+                                W moim pakiecie oferuję dojazd w dniu ślubu GRATIS. Jeżeli natomiast Wasz plener ślubny odbywa się w oddalonym od Krakowa miejscu to musimy doliczyć dopłatę za dojazd 1km/1PLN (zawsze jeździmy moim autem).<br /><br />
                                 8. Czy obrabiasz zdjęcia?<br />
                                 Oczywiście. Każde zdjęcie wykonuję w formacie RAW - traktuję je jako półprodukt, z którego powstanie fotografia.<br /><br />
                                 9. Czy ze zdjęć, które od Ciebie dostaniemy możemy sobie wywołać odbitki o dużym rozmiarze?<br />
-                                Tak, zdjęcia otrzymujecie w dużej rozdzielczości 3520px.<br /><br />
+                                Tak, zdjęcia otrzymujecie w dużej rozdzielczości 3520px (300 dpi).<br /><br />
                                 10. Kiedy robisz plener ślubny?<br />
-                                Z reguły staram się, aby wykonać zdjęcia plenerowe w tygodniu po Waszym ślubie, jednak jeśli wyjeżdżacie w podróż poślubną lub macie urlop - bez problemu przesuniemy ją na termin późniejszy - do wspólnego ustalenia.<br /><br />
+                                Z reguły sesję ślubną robimy w tygodniu po Waszym ślubie, jednak bez problemu przesuniemy ją na termin późniejszy.<br /><br />
                                 11. Jak długo trwa plener? Jak wygląda taka sesja plenerowa?<br />
-                                Na sesję zarezerwujcie sobie minimum 3h - wszystko zależy od tego gdzie jest sesja, czy musimy daleko dojeżdżać. Miejsce sesji plenerowej ustalamy wspólnie. Jeśli Wy macie pomysł na zdjęcia - jestem otwarty na Wasze propozycje. Zawsze chcę, aby plener był związany z Wami. Kiedy nie uda się Wam nic wymyślić - zawsze staram się aby było ciekawie i podsuwam moje propozycje.<br /><br />
-                                12. Jak wcześnie trzeba rezerwować termin?<br />
-                                Zasada jest prosta, im szybciej tym lepiej, jeżeli jesteście zdecydowani abym to ja uwiecznił Waszą uroczystość - wypełnijcie formularz i skontaktujcie się ze mną jak najwcześniej. Warunkiem pełnej rezerwacji terminu jest podpisanie umowy.<br /><br />
+                                Na sesję zarezerwujcie sobie minimum trzy godziny - wszystko zależy od tego gdzie jest sesja i czy musimy daleko dojeżdżać.<br /><br />
+                                12. Czy mówisz w innych językach, niż polski?<br />
+                                Tak, swobodnie porozumiewam się w języku angielskim. Zdałem First Certificate in English (FCE).<br /><br />
+                                13. Czy prowadzisz legalną działalność gospodarczą?<br />
+                                Tak, mam zarejestrowaną działalność gospodarczą i odprowadzam podatki.<br /><br />
+                                14. Jak wcześnie trzeba rezerwować termin?<br />
+                                Zasada jest prosta, im szybciej tym lepiej, jeżeli jesteście zdecydowani abym to ja uwiecznił Waszą uroczystość - wypełnijcie poniższy formularz i skontaktujcie się ze mną jak najwcześniej. Warunkiem pełnej rezerwacji terminu jest podpisanie umowy.<br /><br />
                             </p>
                         </div>
                     </div>

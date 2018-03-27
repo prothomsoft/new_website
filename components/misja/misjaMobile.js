@@ -19,28 +19,33 @@ export default class HistoriaMobile extends React.Component {
                     2. Czy posiadasz zapasowy aparat w przypadku awarii?<br />
                     Zawsze posiadam drugi aparat na wypadek awarii.<br /><br />
                     3. Czy fotoksiążka jest wliczona w cenę pakietu i czy można zobaczyć przykładową książkę przed ślubem?
-                    Fotoksiążka jest produktem finalnym naszej współpracy i jest wliczona w cenę pakietu. Przykładową książkę możecie zobaczyć na spotkaniu ze mną w Krakowie. Na spotkaniu odpowiem też na wszystkie pytania.</p>
+                    Fotoksiążka jest produktem finalnym naszej współpracy i jest wliczona w cenę pakietu. Przykładową książkę możecie zobaczyć na spotkaniu ze mną w Krakowie. Na spotkaniu odpowiem też na wszystkie Wasze pytania.</p>
                     <Link href='/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg'} /></LazyLoad></div></Link>
                     <p>4. Na jakim sprzęcie pracujesz?<br />
                     Zdjęcia wykonuję pełnoklatkowymi lustrzankami cyfrowymi Nikon. Używam jasnych stałoogniskowych obiektywów Nikkor o ogniskowych od 14mm do 85mm.<br /><br />
                     5. Do której godziny jesteś na weselu?<br />
                     Na weselu jestem do godziny pierwszej w nocy. Wszystkie najważniejsze atrakcje wieczoru dzieją się do tej chwili.<br /><br />
                     6. Na jakim terenie pracujesz?<br />
-                    Mieszkam w Krakowie. Mogę jednak uwiecznić Waszą uroczystość (lub też wykonać sesję plenerową) w dowolnym miejscu w południowej Polsce - kwestia dopłaty za dojazd.</p>
+                    Mieszkam w Krakowie. Mogę jednak uwiecznić Waszą uroczystość (lub też wykonać sesję plenerową) w dowolnym miejscu w południowej Polsce.</p>
                     <Link href='/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg'} /></LazyLoad></div></Link>
                     <p>7. Ile wynosi dopłata za dojazd?<br />
-                    W moim pakiecie oferuję dojazd do 30km GRATIS i zwykle limit ten jest wystarczający w dniu ślubu. Jeżeli natomiast Wasz plener ślubny odbywa się w oddalonym od Krakowa miejscu to musimy doliczyć dopłatę w kwocie 1km/1PLN.<br /><br />
+                    W moim pakiecie oferuję dojazd w dniu ślubu GRATIS. Jeżeli natomiast Wasz plener ślubny odbywa się w oddalonym od Krakowa miejscu to musimy doliczyć dopłatę za dojazd 1km/1PLN (zawsze jeździmy moim autem).<br /><br />
                     8. Czy obrabiasz zdjęcia?<br />
                     Oczywiście. Każde zdjęcie wykonuję w formacie RAW - traktuję je jako półprodukt, z którego powstanie fotografia.<br /><br />
                     9. Czy ze zdjęć, które od Ciebie dostaniemy możemy sobie wywołać odbitki o dużym rozmiarze?<br />
-                    Tak, zdjęcia otrzymujecie w dużej rozdzielczości 3520px.</p>
+                    Tak, zdjęcia otrzymujecie w dużej rozdzielczości 3520px (300 dpi).<br/><br/>
+                    10. Kiedy robisz plener ślubny?<br />
+                    Z reguły sesję ślubną robimy w tygodniu po Waszym ślubie, jednak bez problemu przesuniemy ją na termin późniejszy.
+                    </p>
                     <Link href='/sala-weselna-nedan-pcim-reportaz-slubny'><div className="porfolioImage"><LazyLoad offsetVertical={300}><img src={'/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg'} /></LazyLoad></div></Link>
-                    <p>10. Kiedy robisz plener ślubny?<br />
-                    Z reguły staram się, aby wykonać zdjęcia plenerowe w tygodniu po Waszym ślubie, jednak jeśli wyjeżdżacie w podróż poślubną lub macie urlop - bez problemu przesuniemy ją na termin późniejszy - do wspólnego ustalenia.<br /><br />
-                    11. Jak długo trwa plener? Jak wygląda taka sesja plenerowa?<br />
-                    Na sesję zarezerwujcie sobie minimum 3h - wszystko zależy od tego gdzie jest sesja, czy musimy daleko dojeżdżać. Miejsce sesji plenerowej ustalamy wspólnie. Jeśli Wy macie pomysł na zdjęcia - jestem otwarty na Wasze propozycje. Zawsze chcę, aby plener był związany z Wami. Kiedy nie uda się Wam nic wymyślić - zawsze staram się aby było ciekawie i podsuwam moje propozycje.<br /><br />
-                    12. Jak wcześnie trzeba rezerwować termin?<br />
-                    Zasada jest prosta, im szybciej tym lepiej, jeżeli jesteście zdecydowani abym to ja uwiecznił Waszą uroczystość - wypełnijcie formularz i skontaktujcie się ze mną jak najwcześniej. Warunkiem pełnej rezerwacji terminu jest podpisanie umowy.</p>                    
+                    <p>11. Jak długo trwa plener? Jak wygląda taka sesja plenerowa?<br />
+                    Na sesję zarezerwujcie sobie minimum trzy godziny - wszystko zależy od tego gdzie jest sesja i czy musimy daleko dojeżdżać.<br /><br />
+                    12. Czy mówisz w innych językach, niż polski?<br />
+                    Tak, swobodnie porozumiewam się w języku angielskim. Zdałem First Certificate in English (FCE).<br /><br />
+                    13. Czy prowadzisz legalną działalność gospodarczą?<br />
+                    Tak, mam zarejestrowaną działalność gospodarczą i odprowadzam podatki.<br /><br />
+                    14. Jak wcześnie trzeba rezerwować termin?<br />
+                    Zasada jest prosta, im szybciej tym lepiej, jeżeli jesteście zdecydowani abym to ja uwiecznił Waszą uroczystość - wypełnijcie poniższy formularz i skontaktujcie się ze mną jak najwcześniej. Warunkiem pełnej rezerwacji terminu jest podpisanie umowy.</p>                    
                 </article>
                 <article>
                     <header>
