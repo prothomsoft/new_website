@@ -130,7 +130,7 @@ export default class BlogPageComponent extends React.Component {
         <Blogpage slide={slide}
           images={images}          
 
-          headTitle={'ZIMOWY ŚLUB W KOŚCIELE NA SZKLANYCH DOMACH, NOWA HUTA, KRAKÓW'}
+          headTitle={'Zimowy ślub w Kościele na Szklanych Domach, Nowa Huta, Kraków'}
           headDescription={'Zimowa sobota. Kilka gorących klatek i zimne ognie. Ola i Tomek, Szklane Domy i szalona zabawa do białego rana u Niedźwiedzia. Zapraszam na bloga.'}
           headKeywords={'Zimowy ślub Kraków, kościół na Szklanych Domach, reportaż ślubny Nowa Huta'}
           headUrl={'http://99foto.pl/zimowy-slub-w-kosciele-na-szklanych-domach-nowa-huta-krakow/'}
