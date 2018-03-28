@@ -16,7 +16,7 @@ export default class MisjaPageComponent extends React.Component {
 
               leadNames={'JOANNA i GRZEGORZ'}
               leadTitle={'WESELE NA POLU GOLFOWYM W PACZÓŁTOWICACH'}
-              leadUrl={'wesele-na-polu-golfowym-w-paczoltowicach'} 
+              leadUrl={'/wesele-na-polu-golfowym-w-paczoltowicach'} 
               leadImage={'url(/static/wesele_na_polu_golfowym_w_paczoltowicach_start.jpg)'}              
               />
           </div>

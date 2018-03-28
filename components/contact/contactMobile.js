@@ -97,8 +97,8 @@ export default class ContactMobile extends React.Component {
                     </div>                    
 
                     <div style={{display: `${displayForm}`}}>
-                    <p>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU I ZAPYTAĆ O CENĘ PAKIETU?</p>
-                    <p>WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY I WYŚLIJ WIADOMOŚĆ</p>                            
+                    <p>ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU i ZAPYTAĆ O CENĘ PAKIETU?</p>
+                    <p>WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY i WYŚLIJ WIADOMOŚĆ</p>                            
                     <div className="spacer"></div>
 
                     <form className='react-form' onSubmit={this.handleSubmit}>
