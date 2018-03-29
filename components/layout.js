@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import { injectGlobal } from 'styled-components';
 import Loader from '../components/loader'
 import ScrollUpButton from "react-scroll-up-button";
+import { initGA, logPageView } from '../components/utils/analytics'
 
 injectGlobal`
 
@@ -211,6 +212,13 @@ const GeneralWrapper = styled.div`
 export default class LayoutComponent extends Component {
   constructor(props) {
     super(props)
+  }
+  componentDidMount () {
+    if (!window.GA_INITIALIZED) {
+      initGA()
+      window.GA_INITIALIZED = true
+    }
+    logPageView()
   }
   render() {
     let component = <GeneralWrapper style={{ overflow: 'visible' }} className="nProgressHandler"><Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url}></Meta>{this.props.children}<ScrollUpButton /></GeneralWrapper>
