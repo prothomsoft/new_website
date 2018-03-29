@@ -22,8 +22,7 @@
     "react-lazy-load": "^3.0.12",
     "react-scroll": "^1.5.5",
     "react-waypoint": "^7.1.0",
-    "styled-components": "^2.1.2",
-    "universal-cookie": "^2.1.0"
+    "styled-components": "^2.1.2"
   },
   "license": "ISC",
   "devDependencies": {
