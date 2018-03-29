@@ -214,7 +214,7 @@ export default class BlogPageComponent extends React.Component {
 
           title={'KARCZMA POD KOGUTKIEM, REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI - GOSIA I RAFAŁ'}
           tags={'Karczma Pod Kogutkiem Krzywaczka, reportaż ślubny Maków Podhalański'}
-          date={'30 grudnia 2017'}
+          date={'11 lutego 2018'}
 
           menuNames={'MAŁGORZATA I RAFAŁ'}
           menuTitle={'KARCZMA POD KOGUTKIEM, REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI'}

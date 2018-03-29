@@ -134,7 +134,7 @@ export default class Blogpage extends React.Component {
                             </h1>
                         </header>
                         <div className="entryMeta">
-                            TAGI: <span className="spanColor">{this.props.tags}</span>
+                            {this.props.date}, TAGI: <span className="spanColor">{this.props.tags}</span>
                         </div>
                         <div className="entryContent">
                             <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP1 }}/>

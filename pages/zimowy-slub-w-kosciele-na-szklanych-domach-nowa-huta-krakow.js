@@ -142,7 +142,7 @@ export default class BlogPageComponent extends React.Component {
 
           title={'ZIMOWY ŚLUB W KOŚCIELE NA SZKLANYCH DOMACH, NOWA HUTA, KRAKÓW - OLA i TOMEK'}
           tags={'Zimowy ślub Kraków, Kościół na Szkanych Domach, reportaż ślubny Nowa Huta'}
-          date={'27 stycznia 2018'}
+          date={'27 grudnia 2017'}
 
           menuNames={'OLA i TOMEK'}
           menuTitle={'ZIMOWY ŚLUB W KOŚCIELE NA SZKLANYCH DOMACH, NOWA HUTA, KRAKÓW'}
