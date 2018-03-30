@@ -1,20 +1,19 @@
-import Link from 'next/link'
-import NProgress from 'nprogress'
-import styled from 'styled-components'
-import Waypoint from 'react-waypoint'
-import Loader from '../components/loader'
-import FontLoader from '../components/fontLoader'
-import {isIOS} from 'react-device-detect';
+import Link from "next/link";
+import NProgress from "nprogress";
+import styled from "styled-components";
+import Waypoint from "react-waypoint";
+import Loader from "../components/loader";
+import FontLoader from "../components/fontLoader";
+import { isIOS } from "react-device-detect";
 
 const SliderWrapper = styled.div`
-height: 100vh;                    
-z-index:1;
+    height: 100vh;
+    z-index: 1;
 `;
 
 export default class Slider extends React.Component {
-
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             activeIndex: 0,
             eachImageState: 0,
@@ -26,10 +25,10 @@ export default class Slider extends React.Component {
             backgroundImage4Loaded: 0,
             backgroundImage5Loaded: 0,
             backgroundImage6Loaded: 0,
-            backgroundImage7Loaded: 0,            
-            isScrollOnTop: 'notScrolled',
+            backgroundImage7Loaded: 0,
+            isScrollOnTop: "notScrolled",
             fontLoaded: false
-        }
+        };
         this.handleBackgroundImage0Load = this.handleBackgroundImage0Load.bind(this);
         this.handleBackgroundImage1Load = this.handleBackgroundImage1Load.bind(this);
         this.handleBackgroundImage2Load = this.handleBackgroundImage2Load.bind(this);
@@ -37,7 +36,7 @@ export default class Slider extends React.Component {
         this.handleBackgroundImage4Load = this.handleBackgroundImage4Load.bind(this);
         this.handleBackgroundImage5Load = this.handleBackgroundImage5Load.bind(this);
         this.handleBackgroundImage6Load = this.handleBackgroundImage6Load.bind(this);
-        this.handleBackgroundImage7Load = this.handleBackgroundImage7Load.bind(this);        
+        this.handleBackgroundImage7Load = this.handleBackgroundImage7Load.bind(this);
         this.onWaypointEntered = this.onWaypointEntered.bind(this);
         this.onWaypointLeft = this.onWaypointLeft.bind(this);
         this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
@@ -67,7 +66,7 @@ export default class Slider extends React.Component {
         this.image6.onload = this.handleBackgroundImage6Load;
         this.image7 = new Image();
         this.image7.src = this.props.slides[7].imageUrl;
-        this.image7.onload = this.handleBackgroundImage7Load;        
+        this.image7.onload = this.handleBackgroundImage7Load;
         this.timerID = setInterval(() => this.slideChanger(), 1000);
     }
 
@@ -110,9 +109,9 @@ export default class Slider extends React.Component {
         this.setState({
             backgroundImage7Loaded: 1
         });
-    }    
+    }
 
-    componentWillUnmount() {        
+    componentWillUnmount() {
         this.image0.onload = null;
         this.image0 = null;
         this.image1.onload = null;
@@ -128,8 +127,8 @@ export default class Slider extends React.Component {
         this.image6.onload = null;
         this.image6 = null;
         this.image7.onload = null;
-        this.image7 = null;        
-         
+        this.image7 = null;
+
         clearInterval(this.timerID);
     }
 
@@ -167,109 +166,103 @@ export default class Slider extends React.Component {
     }
 
     render() {
-        let styleFadeInOut = 'slideShow';
+        let styleFadeInOut = "slideShow";
         if (this.state.eachImageState == 0) {
-            styleFadeInOut = 'slideShow fadeIn';
+            styleFadeInOut = "slideShow fadeIn";
         } else if (this.state.eachImageState == 4) {
-            styleFadeInOut = 'slideShow fadeOut';
-            if (this.state.isScrollOnTop == 'notScrolled') {
-                NProgress.done()
+            styleFadeInOut = "slideShow fadeOut";
+            if (this.state.isScrollOnTop == "notScrolled") {
+                NProgress.done();
             }
         } else {
-            if (this.state.isScrollOnTop == 'notScrolled') {
-                NProgress.configure({ parent: '.nProgressHandler' });
-                NProgress.inc()
+            if (this.state.isScrollOnTop == "notScrolled") {
+                NProgress.configure({ parent: ".nProgressHandler" });
+                NProgress.inc();
             }
-            styleFadeInOut = 'slideShow';
+            styleFadeInOut = "slideShow";
         }
 
         if (isIOS) {
-            styleFadeInOut = styleFadeInOut.concat(' isios');            
+            styleFadeInOut = styleFadeInOut.concat(" isios");
         } else {
-            styleFadeInOut = styleFadeInOut.concat(' others');
+            styleFadeInOut = styleFadeInOut.concat(" others");
         }
 
-        let loader = null
-        let fontLoader = null
-        if(this.props.firstLoad) {
+        let loader = null;
+        let fontLoader = null;
+        if (this.props.firstLoad) {
             if (this.state.backgroundImage0Loaded) {
-                fontLoader = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState}></FontLoader>
-                loader = <Loader />
+                fontLoader = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState} />;
+                loader = <Loader />;
             } else {
-                fontLoader = null
-                loader = <Loader />
+                fontLoader = null;
+                loader = <Loader />;
             }
             if (this.state.fontLoaded) {
-                fontLoader = null
-                loader = null
+                fontLoader = null;
+                loader = null;
                 this.props.triggerParentUpdateFontLoadedStateSlider();
             }
         }
 
-        
-
         return (
-
             <SliderWrapper>
                 {fontLoader}
                 {loader}
-                <Waypoint
-                    onEnter={this.onWaypointEntered.bind(this, 'notScrolled')}
-                    onLeave={this.onWaypointLeft.bind(this, 'scrolled')}
-                />
-                <div className={styleFadeInOut} style={{ backgroundImage: `url(${this.state.backgroundImage})` }}></div>
+                <Waypoint onEnter={this.onWaypointEntered.bind(this, "notScrolled")} onLeave={this.onWaypointLeft.bind(this, "scrolled")} />
+                <div className={styleFadeInOut} style={{ backgroundImage: `url(${this.state.backgroundImage})` }} />
                 <style jsx>{`
-                .isios {
-                    background-attachment:scroll;
-                }
-                .others {
-                    background-attachment: fixed;
-                }
-                .slideShow {
-                    position: relative;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-					-webkit-background-size: cover;
-					-moz-background-size: cover;
-					-o-background-size: cover;
-					-ms-background-size: cover;
-                    min-height: 100%;
-                    z-index:1;
-                }
-                .fadeIn {
-                    opacity: 1;
-                    animation: FadeIn 1s ease-in-out;
-                }
-                .fadeOut {
-                    opacity: 0;
-                    animation: FadeOut 1s ease-in-out;
-                }
-                @keyframes FadeIn {
-                    0% {
-                    opacity: 0;
-                    height: initial;
+                    .isios {
+                        background-attachment: scroll;
                     }
-                    100% {
-                    opacity: 1;
-                    height: initial;
+                    .others {
+                        background-attachment: fixed;
                     }
-                }
-                @keyframes FadeOut {
-                    0% {
+                    .slideShow {
+                        position: relative;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        -ms-background-size: cover;
+                        min-height: 100%;
+                        z-index: 1;
+                    }
+                    .fadeIn {
                         opacity: 1;
-                        height: initial;
+                        animation: FadeIn 1s ease-in-out;
                     }
-                    99% {
+                    .fadeOut {
                         opacity: 0;
-                        height: initial;
+                        animation: FadeOut 1s ease-in-out;
                     }
-                    100% {
-                        height: 0;
-                        opacity: 0;
-                        height: 0;
+                    @keyframes FadeIn {
+                        0% {
+                            opacity: 0;
+                            height: initial;
+                        }
+                        100% {
+                            opacity: 1;
+                            height: initial;
+                        }
                     }
-                }                
+                    @keyframes FadeOut {
+                        0% {
+                            opacity: 1;
+                            height: initial;
+                        }
+                        99% {
+                            opacity: 0;
+                            height: initial;
+                        }
+                        100% {
+                            height: 0;
+                            opacity: 0;
+                            height: 0;
+                        }
+                    }
                 `}</style>
             </SliderWrapper>
         );

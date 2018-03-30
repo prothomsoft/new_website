@@ -1,12 +1,12 @@
-import React from 'react';
-import Link from 'next/link'
-import LazyLoad from 'react-lazy-load';
+import React from "react";
+import Link from "next/link";
+import LazyLoad from "react-lazy-load";
 
 export default class OfferMobile extends React.Component {
     constructor() {
         super();
     }
-    
+
     render() {
         return (
             <div>
@@ -14,17 +14,13 @@ export default class OfferMobile extends React.Component {
                     <header>
                         <h1 className="quote-title">OFERTA FOTOGRAFII ŚLUBNEJ</h1>
                     </header>
-                    <h2>
-                    REPORTAŻ ŚLUBNY OBEJMUJĄCY                            
-                    </h2>
+                    <h2>REPORTAŻ ŚLUBNY OBEJMUJĄCY</h2>
                     <p>przygotowania, błogosławieństwo</p>
                     <p>ceremonię w kościele lub USC</p>
                     <p>przyjęcie weselne do oczepin włącznie (do godz. 1.00)</p>
                     <p>sesję poślubną w wybranym dniu po ślubie</p>
                     <div className="spacer">&nbsp;</div>
-                    <h2>                            
-                    OTRZYMUJECIE
-                    </h2>
+                    <h2>OTRZYMUJECIE</h2>
                     <p>fotoksiążkę - minimum 120 stron w twardej oprawie, format 30x30cm - około 350 zdjęć</p>
                     <p>minimum 450 zdjęć na płycie DVD w etui - wszystkie zdjęcia poddane są starannej obróbce graficznej</p>
                     <p>prezentację multimedialną zdjęć ślubnych na płycie DVD w etui</p>
@@ -36,20 +32,16 @@ export default class OfferMobile extends React.Component {
                     <header>
                         <h1 className="quote-title">OFERTA SESJI ZDJĘCIOWEJ</h1>
                     </header>
-                    <h2>
-                    SESJA ZDJĘCIOWA OBEJMUJĄCA                            
-                    </h2>
+                    <h2>SESJA ZDJĘCIOWA OBEJMUJĄCA</h2>
                     <p>cztery godziny fotografowania</p>
-                    <p>dwa lub trzy wybrane miejsca plenerowe</p>                        
+                    <p>dwa lub trzy wybrane miejsca plenerowe</p>
                     <p>&nbsp;</p>
                     <div className="spacer_more">&nbsp;</div>
-                    <h2>                                                    
-                    OTRZYMUJECIE
-                    </h2>
-                    <p>minimum 80 zdjęć na płycie DVD w etui - wszystkie zdjęcia poddane są starannej obróbce graficznej</p>                        
+                    <h2>OTRZYMUJECIE</h2>
+                    <p>minimum 80 zdjęć na płycie DVD w etui - wszystkie zdjęcia poddane są starannej obróbce graficznej</p>
                     <p>dojazd do 30 km na sesję zdjęciową GRATIS</p>
-                    <p>internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem</p>                                            
-                    <div className="spacer"></div>
+                    <p>internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem</p>
+                    <div className="spacer" />
                 </article>
 
                 <style jsx>{`
@@ -112,7 +104,6 @@ export default class OfferMobile extends React.Component {
                      
                 `}</style>
             </div>
-
-        )
+        );
     }
-};
+}

@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import styled from 'styled-components'
-import Link from 'next/link'
+import React, { Component } from "react";
+import styled from "styled-components";
+import Link from "next/link";
 
 const CaptionSectionWrapper = styled.div`
-
     margin: 0 auto;
-    width: 1160px; 
-    text-align: justify;   
+    width: 1160px;
+    text-align: justify;
     position: absolute;
     left: 0;
     top: 10%;
@@ -24,20 +23,20 @@ const CaptionSectionWrapper = styled.div`
 `;
 
 export default class LeadMobile extends Component {
+    constructor(props) {
+        super(props);
+    }
 
-  constructor(props) {
-    super(props) 
-  }
-  
-  render() {
+    render() {
+        return (
+            <CaptionSectionWrapper>
+                <p className="previewTitle">{this.props.leadNames}</p>
+                <h5 className="previewDescription">{this.props.leadTitle}</h5>
+                <Link href={this.props.leadUrl}>
+                    <input type="submit" value="GALERIA ZDJĘĆ" />
+                </Link>
 
-    return (
-        <CaptionSectionWrapper>
-            <p className="previewTitle">{this.props.leadNames}</p>                            
-            <h5 className="previewDescription">{this.props.leadTitle}</h5>
-            <Link href={this.props.leadUrl}><input type="submit" value="GALERIA ZDJĘĆ" /></Link>
-             
-        <style jsx>{`
+                <style jsx>{`
             .previewTitle {
                 font-family:Oswald;
                 font-style:normal;
@@ -84,7 +83,7 @@ export default class LeadMobile extends Component {
             }
              
         `}</style>
-      </CaptionSectionWrapper>
-    );
-  }
+            </CaptionSectionWrapper>
+        );
+    }
 }

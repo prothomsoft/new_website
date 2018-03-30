@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-import styled from 'styled-components'
+import React, { Component } from "react";
+import styled from "styled-components";
 
 const CaptionSectionWrapper = styled.div`
-
     margin: 0 auto;
-    width: 1160px; 
-    text-align: justify;   
+    width: 1160px;
+    text-align: justify;
     position: absolute;
     left: 0;
     top: 33%;
     width: 100%;
-    text-align: center;    
+    text-align: center;
 
     @media (max-width: 1160px) {
         width: 100%;
@@ -23,25 +22,21 @@ const CaptionSectionWrapper = styled.div`
 `;
 
 export default class IntroTextAndArrow extends Component {
+    constructor(props) {
+        super(props);
+    }
 
-  constructor(props) {
-    super(props) 
-  }
-  
-  render() {
+    render() {
+        return (
+            <CaptionSectionWrapper>
+                <div className="pos animated bounce">
+                    <div className="arrow" />
+                </div>
+                <h1 className="previewTitle">{this.props.menuNames}</h1>
+                <h2 className="previewDescription">{this.props.menuTitle}</h2>
+                <input type="submit" value={this.props.menuButton} />
 
-    return (
-        <CaptionSectionWrapper>
-
-            <div className="pos animated bounce">
-                <div className="arrow"></div>
-            </div>
-            <h1 className="previewTitle">{this.props.menuNames}</h1>                            
-            <h2 className="previewDescription">{this.props.menuTitle}</h2>
-            <input type="submit" value={this.props.menuButton} />
-            
-            
-            <style jsx>{`
+                <style jsx>{`
             .pos {
                 position: absolute;
                 top:170%;
@@ -162,7 +157,7 @@ export default class IntroTextAndArrow extends Component {
                 }
                 
             `}</style>
-      </CaptionSectionWrapper>
-    );
-  }
+            </CaptionSectionWrapper>
+        );
+    }
 }

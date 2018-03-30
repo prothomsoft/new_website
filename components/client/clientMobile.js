@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
-import styled from 'styled-components'
-import LazyLoad from 'react-lazy-load';
-import Link from 'next/link'
+import React, { Component } from "react";
+import styled from "styled-components";
+import LazyLoad from "react-lazy-load";
+import Link from "next/link";
 
 const CaptionSectionWrapper = styled.div`
-
     margin: 0 auto;
-    width: 1160px; 
-    text-align: justify;   
+    width: 1160px;
+    text-align: justify;
     position: absolute;
     left: 0;
     top: 10%;
@@ -25,22 +24,21 @@ const CaptionSectionWrapper = styled.div`
 `;
 
 export default class PortfolioMobile extends Component {
-
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
-            width: '0'
-        }
+            width: "0"
+        };
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
 
     componentDidMount() {
         this.updateWindowDimensions();
-        window.addEventListener('resize', this.updateWindowDimensions);
+        window.addEventListener("resize", this.updateWindowDimensions);
     }
 
     componentWillUnmount() {
-        window.removeEventListener('resize', this.updateWindowDimensions);
+        window.removeEventListener("resize", this.updateWindowDimensions);
     }
 
     updateWindowDimensions() {
@@ -48,7 +46,6 @@ export default class PortfolioMobile extends Component {
     }
 
     render() {
-
         return (
             <div>
                 <article>
@@ -56,7 +53,6 @@ export default class PortfolioMobile extends Component {
                         <h1 className="quote-title">STREFA KLIENTA</h1>
                     </header>
                     {this.props.clients.map((client, key) => {
-
                         let fullPathImage1 = `/static/portfolio/${client.image1}`;
                         let fullPathImage2 = `/static/portfolio/${client.image2}`;
                         let fullPathImage3 = `/static/portfolio/${client.image3}`;
@@ -66,18 +62,58 @@ export default class PortfolioMobile extends Component {
 
                         return (
                             <div>
-                                <Link><a href={fullPathUrl1} target="_blank"><div className="porfolioImage"><img src={fullPathImage1} /></div></a></Link>
-                                <Link><a href={fullPathUrl1} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title1 }} /></div></a></Link>
-                                <Link><a href={fullPathUrl2} target="_blank"><div className="porfolioImage"><img src={fullPathImage2} /></div></a></Link>
-                                <Link><a href={fullPathUrl2} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title2 }} /></div></a></Link>
-                                <Link><a href={fullPathUrl3} target="_blank"><div className="porfolioImage"><img src={fullPathImage3} /></div></a></Link>
-                                <Link><a href={fullPathUrl3} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title3 }} /></div></a></Link>
+                                <Link>
+                                    <a href={fullPathUrl1} target="_blank">
+                                        <div className="porfolioImage">
+                                            <img src={fullPathImage1} />
+                                        </div>
+                                    </a>
+                                </Link>
+                                <Link>
+                                    <a href={fullPathUrl1} target="_blank">
+                                        <div className="porfolioCaption">
+                                            <p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title1 }} />
+                                        </div>
+                                    </a>
+                                </Link>
+                                <Link>
+                                    <a href={fullPathUrl2} target="_blank">
+                                        <div className="porfolioImage">
+                                            <img src={fullPathImage2} />
+                                        </div>
+                                    </a>
+                                </Link>
+                                <Link>
+                                    <a href={fullPathUrl2} target="_blank">
+                                        <div className="porfolioCaption">
+                                            <p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title2 }} />
+                                        </div>
+                                    </a>
+                                </Link>
+                                <Link>
+                                    <a href={fullPathUrl3} target="_blank">
+                                        <div className="porfolioImage">
+                                            <img src={fullPathImage3} />
+                                        </div>
+                                    </a>
+                                </Link>
+                                <Link>
+                                    <a href={fullPathUrl3} target="_blank">
+                                        <div className="porfolioCaption">
+                                            <p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title3 }} />
+                                        </div>
+                                    </a>
+                                </Link>
                             </div>
-                        )}
-                    )}
-                    <div className="spacer_small"></div>
-                    <Link><a href='http://sk.99foto.pl' className="btn" target="_blank">LOGOWANIE DO STREFY KLIENTA</a></Link>
-                    <div className="spacer"></div>
+                        );
+                    })}
+                    <div className="spacer_small" />
+                    <Link>
+                        <a href="http://sk.99foto.pl" className="btn" target="_blank">
+                            LOGOWANIE DO STREFY KLIENTA
+                        </a>
+                    </Link>
+                    <div className="spacer" />
                 </article>
                 <style jsx>{`
                     .btn {width: 100%}

@@ -1,7 +1,7 @@
-import React from 'react';
-import Link from 'next/link'
-import styled from 'styled-components'
-import LazyLoad from 'react-lazy-load';
+import React from "react";
+import Link from "next/link";
+import styled from "styled-components";
+import LazyLoad from "react-lazy-load";
 
 export default class ClientDesktop extends React.Component {
     constructor() {
@@ -9,9 +9,6 @@ export default class ClientDesktop extends React.Component {
     }
 
     render() {
-
-
-
         return (
             <div>
                 <article>
@@ -19,7 +16,6 @@ export default class ClientDesktop extends React.Component {
                         <h1 className="quote-title">GALERIE ZDJĘĆ ZABEZPIECZONE HASŁEM</h1>
                     </header>
                     {this.props.clients.map((client, key) => {
-
                         let fullPathImage1 = `/static/portfolio_dtp/${client.image1}`;
                         let fullPathImage2 = `/static/portfolio_dtp/${client.image2}`;
                         let fullPathImage3 = `/static/portfolio_dtp/${client.image3}`;
@@ -29,96 +25,136 @@ export default class ClientDesktop extends React.Component {
 
                         return (
                             <div>
-                                <div style={{ display: 'flex' }}>
-                                    <Link><a href={fullPathUrl1} target="_blank"><div className="porfolioImage"><img src={fullPathImage1} /></div></a></Link>
-                                    <Link><a href={fullPathUrl2} target="_blank"><div className="porfolioImage"><img src={fullPathImage2} /></div></a></Link>
-                                    <Link><a href={fullPathUrl3} target="_blank"><div className="porfolioImage"><img src={fullPathImage3} /></div></a></Link>
+                                <div style={{ display: "flex" }}>
+                                    <Link>
+                                        <a href={fullPathUrl1} target="_blank">
+                                            <div className="porfolioImage">
+                                                <img src={fullPathImage1} />
+                                            </div>
+                                        </a>
+                                    </Link>
+                                    <Link>
+                                        <a href={fullPathUrl2} target="_blank">
+                                            <div className="porfolioImage">
+                                                <img src={fullPathImage2} />
+                                            </div>
+                                        </a>
+                                    </Link>
+                                    <Link>
+                                        <a href={fullPathUrl3} target="_blank">
+                                            <div className="porfolioImage">
+                                                <img src={fullPathImage3} />
+                                            </div>
+                                        </a>
+                                    </Link>
                                 </div>
-                                <div style={{ display: 'flex' }}>
-                                    <Link><a href={fullPathUrl1} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title1 }} /></div></a></Link>
-                                    <Link><a href={fullPathUrl2} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title2 }} /></div></a></Link>
-                                    <Link><a href={fullPathUrl3} target="_blank"><div className="porfolioCaption"><p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title3 }} /></div></a></Link>
+                                <div style={{ display: "flex" }}>
+                                    <Link>
+                                        <a href={fullPathUrl1} target="_blank">
+                                            <div className="porfolioCaption">
+                                                <p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title1 }} />
+                                            </div>
+                                        </a>
+                                    </Link>
+                                    <Link>
+                                        <a href={fullPathUrl2} target="_blank">
+                                            <div className="porfolioCaption">
+                                                <p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title2 }} />
+                                            </div>
+                                        </a>
+                                    </Link>
+                                    <Link>
+                                        <a href={fullPathUrl3} target="_blank">
+                                            <div className="porfolioCaption">
+                                                <p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title3 }} />
+                                            </div>
+                                        </a>
+                                    </Link>
                                 </div>
                             </div>
-                        )}
-                    )}
-                    <div className="spacer_small"></div>
-                    <Link><a href='http://sk.99foto.pl' className="btn" target="_blank">LOGOWANIE DO STREFY KLIENTA</a></Link>
-                    <div className="spacer"></div>
+                        );
+                    })}
+                    <div className="spacer_small" />
+                    <Link>
+                        <a href="http://sk.99foto.pl" className="btn" target="_blank">
+                            LOGOWANIE DO STREFY KLIENTA
+                        </a>
+                    </Link>
+                    <div className="spacer" />
                 </article>
 
                 <style jsx>{`
-                    .btn {width: 100%}
+                    .btn {
+                        width: 100%;
+                    }
                     .textCenter {
                         text-align: center;
                     }
                     .porfolioImage {
-                        position:relative;                
-                        width:340px;
+                        position: relative;
+                        width: 340px;
                         margin: 0 20px 0 20px;
                         border: 2px solid transparent;
                         transition: border 0.5s;
                         cursor: pointer;
                     }
                     .porfolioImage:hover {
-                        border: 2px solid #FFF;                
-                    }        
+                        border: 2px solid #fff;
+                    }
                     .porfolioImage:focus {
-                        outline:none;
-                    }        
+                        outline: none;
+                    }
                     .porfolioCaption {
                         cursor: pointer;
-                        position:relative;                
-                        width:340px;
+                        position: relative;
+                        width: 340px;
                         margin: 0 20px 0 20px;
-                    }        
-                    article {                        
+                    }
+                    article {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        text-align: center;                        
-                        font-family: 'Oswald';
-                        width: 1140px;                
+                        text-align: center;
+                        font-family: "Oswald";
+                        width: 1140px;
                     }
-                    article h1{
-                        color: #FFF;
+                    article h1 {
+                        color: #fff;
                     }
                     .spacer_small {
                         height: 30px;
-                    }                    
+                    }
                     .spacer {
                         height: 60px;
-                    }                    
+                    }
                     p {
                         font-size: 16px;
                         margin: 10px 0;
                         text-align: justify;
                         padding: 0 20px 0 20px;
-                    }                
-                                    
+                    }
+
                     .quote-title::before,
                     .quote-title::after {
-                        content: '';
+                        content: "";
                         display: block;
-                        border: 1px solid #33B59A;                    
+                        border: 1px solid #33b59a;
                     }
-                    
-                    .quote-title {                
+
+                    .quote-title {
                         display: flex;
                         align-items: center;
-                        color: #FFFFFF;
+                        color: #ffffff;
                         padding: 10px 0 10px 0;
                     }
-                    
+
                     .quote-title::before,
                     .quote-title::after {
                         flex-grow: 1;
                         margin: 0 20px;
-                    }               
-                    
+                    }
                 `}</style>
             </div>
-
-        )
+        );
     }
-};
+}

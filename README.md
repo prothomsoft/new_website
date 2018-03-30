@@ -16,3 +16,12 @@ serve -p 8080
 Always remember about:
 http://sk.99foto.pl/mig/
 http://sk.99foto.pl/getimagesize/
+
+Code formatting settings:
+
+"editor.formatOnSave": false,
+"[javascript]": {
+    "editor.formatOnSave": true
+},
+"prettier.printWidth": 200,
+"prettier.tabWidth": 4
