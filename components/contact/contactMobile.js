@@ -95,6 +95,7 @@ export default class ContactMobile extends React.Component {
                 <div style={{ display: `${displayFormConfirmation}` }}>
                     <p>TWOJA WIADOMOŚĆ ZOSTAŁA WYSŁANA.</p>
                     <p>DZIĘKUJĘ ZA PYTANIE. ODPOWIEM BARDZO SZYBKO.</p>
+                    <div className="spacer_confirmation" />
                 </div>
 
                 <div style={{ display: `${displayForm}` }}>
@@ -220,7 +221,7 @@ export default class ContactMobile extends React.Component {
                     text-align: center;                    
                     font-family: 'Oswald';                    
                     width: 100%;
-                    height: 840px;
+                    height: 900px;
                     color #FFF;
                     padding:40px;                    
                 }
@@ -253,6 +254,10 @@ export default class ContactMobile extends React.Component {
                     height: 40px;
                 }
 
+                .spacer_confirmation {
+                    height: 360px;
+                }
+
                 .spacer_small {
                     height: 20px;
                 }
@@ -262,7 +267,7 @@ export default class ContactMobile extends React.Component {
                 }
 
                 .spacer_large {
-                    height: 80px;
+                    height: 50px;
                 }
 
                 .header h1 {

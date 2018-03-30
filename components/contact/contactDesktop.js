@@ -95,6 +95,7 @@ export default class ContactDesktop extends React.Component {
                 <div style={{ display: `${displayFormConfirmation}` }}>
                     <p>TWOJA WIADOMOŚĆ ZOSTAŁA WYSŁANA.</p>
                     <p>DZIĘKUJĘ ZA PYTANIE. ODPOWIEM BARDZO SZYBKO.</p>
+                    <div className="spacer_confirmation" />
                 </div>
 
                 <div style={{ display: `${displayForm}` }}>
@@ -266,6 +267,10 @@ export default class ContactDesktop extends React.Component {
 
                 .spacer {
                     height: 30px;                    
+                }
+
+                .spacer_confirmation {
+                    height: 370px;
                 }
 
                 .header h1 {
