@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "dom-weselny-w-jablonce-zdjecia-slubne-przystan-w-kabanosie.jpg",
-                url1: "jolatomek",
-                title1: "PRZYSTAŃ W KABANOSIE JABŁONKA<br/>JOLANTA i TOMASZ",
+                image1: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
+                url1: "kasiapiotr",
+                title1: "ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
 
-                image2: "karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg",
-                url2: "gosiarafal",
-                title2: "REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI<br/>MAŁGORZATA i RAFAŁ",
+                image2: "dom-weselny-w-jablonce-zdjecia-slubne-przystan-w-kabanosie.jpg",
+                url2: "jolatomek",
+                title2: "PRZYSTAŃ W KABANOSIE JABŁONKA<br/>JOLANTA i TOMASZ",
 
-                image3: "zimowy-slub-w-kosciele-na-szklanych-domach-nowa-huta-krakow.jpg",
-                url3: "olatomek",
-                title3: "ZIMOWY ŚLUB NA SZKLANYCH DOMACH<br/>ALEKSANDRA i TOMASZ"
+                image3: "karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg",
+                url3: "gosiarafal",
+                title3: "REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI<br/>MAŁGORZATA i RAFAŁ"
             },
 
             {
@@ -26,9 +26,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "ewamateusz",
                 title2: "WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ",
 
-                image3: "dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg",
-                url3: "kingamaciek",
-                title3: "DEKORACJA SALI W STYLU RUSTYKALNYM<br/>KINGA i MACIEK"
+                image3: "zimowy-slub-w-kosciele-na-szklanych-domach-nowa-huta-krakow.jpg",
+                url3: "olatomek",
+                title3: "ZIMOWY ŚLUB NA SZKLANYCH DOMACH<br/>ALEKSANDRA i TOMASZ"
             },
 
             {
@@ -54,9 +54,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "kingajulien",
                 title2: "ŚLUB CYWILNY i WESELE W PLENERZE<br/>KINGA i JULIEN",
 
-                image3: "dom_weselny_marion_wesele_tarnow_i_zdjecia_slubne_portfolio.jpg",
-                url3: "annamichal",
-                title3: "ZDJĘCIA ŚLUBNE MARION TARNÓW<br/>ANNA i MICHAŁ"
+                image3: "dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg",
+                url3: "kingamaciek",
+                title3: "DEKORACJA SALI W STYLU RUSTYKALNYM<br/>KINGA i MACIEK"
             },
 
             {
