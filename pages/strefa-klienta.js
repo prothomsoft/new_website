@@ -8,9 +8,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "kasiapiotr",
                 title1: "ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
 
-                image2: "dom-weselny-w-jablonce-zdjecia-slubne-przystan-w-kabanosie.jpg",
-                url2: "jolatomek",
-                title2: "PRZYSTAŃ W KABANOSIE JABŁONKA<br/>JOLANTA i TOMASZ",
+                image2: "sesja-slubna-krakow-rynek-glowny-wawel-kazimierz.jpg",
+                url2: "katrina",
+                title2: "SESJA ŚLUBNA RYNEK KRAKÓW<br/>CHAN i KATRINA",
 
                 image3: "karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg",
                 url3: "gosiarafal",
@@ -22,9 +22,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "magdawaldek",
                 title1: "REPORTAŻ ŚLUBNY SZAFRANTU NIEPOŁOMICE<br/>MAGDALENA i WALDEMAR",
 
-                image2: "ewa_mateusz_hotel_lenart_portfolio.jpg",
-                url2: "ewamateusz",
-                title2: "WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ",
+                image2: "dom-weselny-w-jablonce-zdjecia-slubne-przystan-w-kabanosie.jpg",
+                url2: "jolatomek",
+                title2: "PRZYSTAŃ W KABANOSIE JABŁONKA<br/>JOLANTA i TOMASZ",
 
                 image3: "zimowy-slub-w-kosciele-na-szklanych-domach-nowa-huta-krakow.jpg",
                 url3: "olatomek",
@@ -32,13 +32,13 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg",
-                url1: "ewelinakamil",
-                title1: "SESJA ZDJĘCIOWA LAWENDOWE POLE<br/>EWELINA i KAMIL",
+                image1: "ewa_mateusz_hotel_lenart_portfolio.jpg",
+                url1: "ewamateusz",
+                title1: "WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ",
 
-                image2: "sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg",
-                url2: "annakrzysztof",
-                title2: "REPORTAŻ ŚLUBNY JORDANÓW<br/>ANNA i KRZYSZTOF",
+                image2: "hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg",
+                url2: "ewelinakamil",
+                title2: "SESJA ZDJĘCIOWA LAWENDOWE POLE<br/>EWELINA i KAMIL",
 
                 image3: "wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg",
                 url3: "iwonamarcinslub",

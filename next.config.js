@@ -19,6 +19,7 @@ module.exports = {
             "/blog/page/8": { page: "/blog", query: { page: "8" } },
             "/blog/page/9": { page: "/blog", query: { page: "9" } },
             "/blog/page/10": { page: "/blog", query: { page: "10" } },
+            "/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz": { page: "/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz" },
             "/dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna": { page: "/dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna" },
             "/dom-weselny-w-jablonce-zdjecia-slubne-przystan-w-kabanosie": { page: "/dom-weselny-w-jablonce-zdjecia-slubne-przystan-w-kabanosie" },
             "/zimowy-slub-w-kosciele-na-szklanych-domach-nowa-huta-krakow": { page: "/zimowy-slub-w-kosciele-na-szklanych-domach-nowa-huta-krakow" },
