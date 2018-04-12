@@ -71,7 +71,7 @@ export default class PortfolioDesktop extends Component {
                         <Link href="/wesele-na-polu-golfowym-w-paczoltowicach">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf ślubny kraków" src={"/static/portfolio_dtp/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} npm />
+                                    <img alt="fotograf ślubny kraków" src={"/static/portfolio_dtp/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
