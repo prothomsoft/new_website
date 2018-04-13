@@ -154,10 +154,10 @@ export default class HistoriaDesktop extends React.Component {
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/dom-weselny-marion-wesele-tarnow-i-zdjecia-slubne">
+                        <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img src={"/static/portfolio_dtp/dom_weselny_marion_wesele_tarnow_i_zdjecia_slubne_portfolio.jpg"} />
+                                    <img src={"/static/portfolio_dtp/chan_kristina_sesja_slubna_krakow.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -168,19 +168,19 @@ export default class HistoriaDesktop extends React.Component {
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/monika-i-rafal-zdjecia-slubne-krakow-restauracja-chocholowy-dwor">
+                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img src={"/static/portfolio_dtp/monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_portfolio.jpg"} />
+                                    <img src={"/static/portfolio_dtp/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/dom-weselny-marion-wesele-tarnow-i-zdjecia-slubne">
+                        <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    ZDJĘCIA ŚLUBNE MARION TARNÓW<br />ANNA i MICHAŁ
+                                    SESJA ŚLUBNA KRAKÓW<br />CHAN i KATRINA
                                 </p>
                             </div>
                         </Link>
@@ -191,10 +191,10 @@ export default class HistoriaDesktop extends React.Component {
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/monika-i-rafal-zdjecia-slubne-krakow-restauracja-chocholowy-dwor">
+                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    RESTAURACJA CHOCHOŁOWY DWÓR<br />MONIKA i RAFAŁ
+                                    MAGICZNY WYSTRÓJ SALI WESELNEJ<br />NATALIA i PIOTR
                                 </p>
                             </div>
                         </Link>

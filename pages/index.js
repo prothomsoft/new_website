@@ -16,7 +16,7 @@ export default class Index extends React.Component {
                 imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
             },
             {
-                imageUrl: "/static/julita_i_pawel_reportaz_slubny_kosciol_na_skalce_krakow_start.jpg"
+                imageUrl: "/static/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie-start.jpg"
             },
             {
                 imageUrl: "/static/natalia_marcin_i_maja_reportaz_slubny_gosciniec_branicki_start.jpg"

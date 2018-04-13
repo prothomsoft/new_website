@@ -98,17 +98,17 @@ export default class HistoriaMobile extends React.Component {
                             </p>
                         </div>
                     </Link>
-                    <Link href="/sesja-narzeczenska-krakow">
+                    <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
-                                <img src={"/static/portfolio/sesja_narzeczenska_krakow_portfolio.jpg"} />
+                                <img src={"/static/portfolio/chan_kristina_sesja_slubna_krakow.jpg"} />
                             </LazyLoad>
                         </div>
                     </Link>
-                    <Link href="/sesja-narzeczenska-krakow">
+                    <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
                         <div className="porfolioCaption">
                             <p style={{ textAlign: "center" }}>
-                                SESJA NARZECZEŃSKA KRAKÓW<br />KINGA i MACIEK
+                                SESJA ŚLUBNA KRAKÓW<br />CHAN i KATRINA
                             </p>
                         </div>
                     </Link>
@@ -126,17 +126,17 @@ export default class HistoriaMobile extends React.Component {
                             </p>
                         </div>
                     </Link>
-                    <Link href="/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz">
+                    <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
-                                <img src={"/static/portfolio/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg"} />
+                                <img src={"/static/portfolio/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
                             </LazyLoad>
                         </div>
                     </Link>
-                    <Link href="/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz">
+                    <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
                         <div className="porfolioCaption">
                             <p style={{ textAlign: "center" }}>
-                                SESJA ZDJĘCIOWA W KRAKOWIE<br />KAROLINA i BARTEK
+                                MAGICZNY WYSTRÓJ SALI WESELNEJ<br />NATALIA i PIOTR
                             </p>
                         </div>
                     </Link>

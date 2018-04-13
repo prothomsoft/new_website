@@ -55,7 +55,7 @@ export default class BlogPageComponent extends React.Component {
                     slug={"sesja-slubna-krakow-rynek-glowny-wawel-kazimierz"}
                     title={"SESJA ŚLUBNA KRAKÓW, RYNEK GŁÓWNY, WAWEL, KAZIMIERZ - CHAN i KATRINA"}
                     tags={"Sesja ślubna Kraków, zdjęcia ślubne na Kazimierzu, plener na Rynku w Krakowie"}
-                    date={"10 kwietnia 2018"}
+                    date={"4 kwietnia 2018"}
                     menuNames={"CHAN i KATRINA"}
                     menuTitle={"SESJA ŚLUBNA KRAKÓW, RYNEK GŁÓWNY, WAWEL, KAZIMIERZ"}
                     leadNames={"EWELINA i KAMIL"}

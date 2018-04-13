@@ -100,7 +100,7 @@ export default class SesjaMobile extends React.Component {
                         <Link href="/sylwia-i-bartek-sesja-poslubna-krakow">Sylwia i Bartek</Link>.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/sesja_zdjeciowa_krakow_6_portfolio.jpg"} />
+                        <img src={"/static/portfolio/sesja_zdjeciowa_krakow_7_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
                         Gorące podziękowania dla Tomka za wspaniałą pamiątkę z naszego wesela, które odbyło się 15 sierpnia tego roku. Współpraca, podejście do tematu, zaangażowanie na bardzo wysokim
@@ -108,7 +108,7 @@ export default class SesjaMobile extends React.Component {
                         <Link href="/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala">Patrycja i Michał</Link>.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/sesja_zdjeciowa_krakow_7_portfolio.jpg"} />
+                        <img src={"/static/portfolio/chan_kristina_sesja_slubna_krakow.jpg"} />
                     </LazyLoad>
                     <p>
                         Tomek jest świetnym fotografem. Każdy ważny moment jest uchwycony w magiczny sposób. Nie ma zdjęcia, które by sie powtarzało. Efekty mówią same za siebie, wystarczy tylko

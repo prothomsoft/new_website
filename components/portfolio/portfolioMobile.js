@@ -112,6 +112,20 @@ export default class PortfolioMobile extends Component {
                             </p>
                         </div>
                     </Link>
+                    <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
+                        <div className="porfolioImage">
+                            <LazyLoad offsetVertical={300}>
+                                <img alt="reportaż ślubny jordanów" src={"/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
+                            </LazyLoad>
+                        </div>
+                    </Link>
+                    <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
+                        <div className="porfolioCaption">
+                            <p style={{ textAlign: "center" }}>
+                                REPORTAŻ ŚLUBNY JORDANÓW<br /> ANNA i KRZYSZTOF
+                            </p>
+                        </div>
+                    </Link>
                     <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
@@ -126,17 +140,17 @@ export default class PortfolioMobile extends Component {
                             </p>
                         </div>
                     </Link>
-                    <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
+                    <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
-                                <img alt="reportaż ślubny jordanów" src={"/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
+                                <img alt="sesja ślubna kraków" src={"/static/portfolio/chan_kristina_sesja_slubna_krakow.jpg"} />
                             </LazyLoad>
                         </div>
                     </Link>
-                    <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
+                    <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
                         <div className="porfolioCaption">
                             <p style={{ textAlign: "center" }}>
-                                REPORTAŻ ŚLUBNY JORDANÓW<br /> ANNA i KRZYSZTOF
+                                SESJA ŚLUBNA KRAKÓW<br /> CHAN i KATRINA
                             </p>
                         </div>
                     </Link>
@@ -154,20 +168,6 @@ export default class PortfolioMobile extends Component {
                             </p>
                         </div>
                     </Link>
-                    <Link href="/sesja-narzeczenska-krakow">
-                        <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="sesja narzeczeńska kraków" src={"/static/portfolio/sesja_narzeczenska_krakow_portfolio.jpg"} />
-                            </LazyLoad>
-                        </div>
-                    </Link>
-                    <Link href="/sesja-narzeczenska-krakow">
-                        <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
-                                SESJA NARZECZEŃSKA KRAKÓW<br />KINGA i MACIEK
-                            </p>
-                        </div>
-                    </Link>
                     <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
@@ -182,17 +182,17 @@ export default class PortfolioMobile extends Component {
                             </h3>
                         </div>
                     </Link>
-                    <Link href="/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz">
+                    <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
-                                <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg"} />
+                                <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
                             </LazyLoad>
                         </div>
                     </Link>
-                    <Link href="/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz">
+                    <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
                         <div className="porfolioCaption">
                             <p style={{ textAlign: "center" }}>
-                                SESJA ZDJĘCIOWA W KRAKOWIE<br /> KAROLINA i BARTEK
+                                MAGICZNY WYSTRÓJ SALI WESELNEJ<br />NATALIA i PIOTR
                             </p>
                         </div>
                     </Link>

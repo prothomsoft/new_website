@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
-                url1: "kasiapiotr",
-                title1: "ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
+                image1: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
+                url1: "nataliapiotr",
+                title1: "MAGICZNY WYSTRÓJ SALI HOTEL MARGERITA<br/>NATALIA i PIOTR",
 
-                image2: "sesja-slubna-krakow-rynek-glowny-wawel-kazimierz.jpg",
-                url2: "katrina",
-                title2: "SESJA ŚLUBNA RYNEK KRAKÓW<br/>CHAN i KATRINA",
+                image2: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
+                url2: "kasiapiotr",
+                title2: "ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
 
-                image3: "karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg",
-                url3: "gosiarafal",
-                title3: "REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI<br/>MAŁGORZATA i RAFAŁ"
+                image3: "sesja-slubna-krakow-rynek-glowny-wawel-kazimierz.jpg",
+                url3: "katrina",
+                title3: "SESJA ŚLUBNA RYNEK KRAKÓW<br/>CHAN i KATRINA"
             },
 
             {
@@ -26,37 +26,37 @@ export default class ClientPageComponent extends React.Component {
                 url2: "jolatomek",
                 title2: "PRZYSTAŃ W KABANOSIE JABŁONKA<br/>JOLANTA i TOMASZ",
 
-                image3: "zimowy-slub-w-kosciele-na-szklanych-domach-nowa-huta-krakow.jpg",
-                url3: "olatomek",
-                title3: "ZIMOWY ŚLUB NA SZKLANYCH DOMACH<br/>ALEKSANDRA i TOMASZ"
+                image3: "karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg",
+                url3: "gosiarafal",
+                title3: "REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI<br/>MAŁGORZATA i RAFAŁ"
             },
 
             {
-                image1: "ewa_mateusz_hotel_lenart_portfolio.jpg",
-                url1: "ewamateusz",
-                title1: "WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ",
+                image1: "zimowy-slub-w-kosciele-na-szklanych-domach-nowa-huta-krakow.jpg",
+                url1: "olatomek",
+                title1: "ZIMOWY ŚLUB NA SZKLANYCH DOMACH<br/>ALEKSANDRA i TOMASZ",
 
-                image2: "hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg",
-                url2: "ewelinakamil",
-                title2: "SESJA ZDJĘCIOWA LAWENDOWE POLE<br/>EWELINA i KAMIL",
+                image2: "ewa_mateusz_hotel_lenart_portfolio.jpg",
+                url2: "ewamateusz",
+                title2: "WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ",
 
-                image3: "wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg",
-                url3: "iwonamarcinslub",
-                title3: "WESELE W GÓRALSKIM KLIMACIE<br/>IWONA i MARCIN"
+                image3: "hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg",
+                url3: "ewelinakamil",
+                title3: "SESJA ZDJĘCIOWA LAWENDOWE POLE<br/>EWELINA i KAMIL"
             },
 
             {
-                image1: "sesja_narzeczenska_krakow_portfolio.jpg",
-                url1: "kingamacieksn",
-                title1: "SESJA NARZECZEŃSKA KRAKÓW<br/>KINGA i MACIEK",
+                image1: "wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg",
+                url1: "iwonamarcinslub",
+                title1: "WESELE W GÓRALSKIM KLIMACIE<br/>IWONA i MARCIN",
 
                 image2: "slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg",
                 url2: "kingajulien",
                 title2: "ŚLUB CYWILNY i WESELE W PLENERZE<br/>KINGA i JULIEN",
 
-                image3: "dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg",
-                url3: "kingamaciek",
-                title3: "DEKORACJA SALI W STYLU RUSTYKALNYM<br/>KINGA i MACIEK"
+                image3: "sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg",
+                url3: "iwonamarcin",
+                title3: "SESJA ZDJĘCIOWA SŁOWACKIE GÓRY<br/>IWONA i MARCIN"
             },
 
             {
@@ -68,9 +68,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "joannagrzegorz",
                 title2: "WESELE NA POLU GOLFOWYM<br/>JOANNA i GRZEGORZ",
 
-                image3: "sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg",
-                url3: "iwonamarcin",
-                title3: "SESJA ZDJĘCIOWA SŁOWACKIE GÓRY<br/>IWONA i MARCIN"
+                image3: "dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg",
+                url3: "kingamaciek",
+                title3: "DEKORACJA SALI W STYLU RUSTYKALNYM<br/>KINGA i MACIEK"
             }
         ];
 

@@ -91,7 +91,7 @@ export default class OfferDesktop extends React.Component {
                         <Link href="/kasia-i-pawel-zimowa-sesja-slubna-w-gorach">Kasia i Paweł</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/dwor_szlachecki_sieciechowice_reportaz_slubny_miechow_portfolio.jpg"} />
+                        <img src={"/static/portfolio/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
                     </LazyLoad>
                     <p>
                         W każdym calu zajebisty fotograf a przede wszystkim człowiek!!! Polecam z czystym sumieniem. Jeżeli ktoś oczekuje pełnego zaangażowania, precyzji, kompetencji, sprytnego oka
