@@ -120,8 +120,8 @@ export default class OfferDesktop extends React.Component {
                         <img src={"/static/portfolio/sesja_zdjeciowa_krakow_8_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
-                        Just an amazing photograph that understand what the clients want! Would give him a 10 if it was possible (not possible on Facebook).{" "}
-                        <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">Kinga i Julien</Link>.
+                        Serdecznie polecamy. Niezwykle profesjonalne podejście, bardzo miła atmosfera i przepiękne zdjęcia! Długo zastanawialiśmy się nad wyborem fotografa, ale wiemy, że nie mogliśmy
+                        lepiej wybrać. Tomku, dziękujemy za piękną pamiątkę i serdecznie pozdrawiamy. <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">Natalia i Piotr</Link>.
                     </p>
                     <div className="spacer">&nbsp;</div>
                 </article>

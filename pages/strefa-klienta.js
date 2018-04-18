@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
-                url1: "nataliapiotr",
-                title1: "MAGICZNY WYSTRÓJ SALI HOTEL MARGERITA<br/>NATALIA i PIOTR",
+                image1: "renata_i_krzysztof_allegra.jpg",
+                url1: "renatakrzysztof",
+                title1: "REPORTAŻ ŚLUBNY ALLEGRA GIERCZYCE<br/>RENATA i KRZYSZTOF",
 
                 image2: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
                 url2: "kasiapiotr",
                 title2: "ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
 
-                image3: "sesja-slubna-krakow-rynek-glowny-wawel-kazimierz.jpg",
-                url3: "katrina",
-                title3: "SESJA ŚLUBNA RYNEK KRAKÓW<br/>CHAN i KATRINA"
+                image3: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
+                url3: "nataliapiotr",
+                title3: "MAGICZNY WYSTRÓJ SALI HOTEL MARGERITA<br/>NATALIA i PIOTR"
             },
 
             {
@@ -40,9 +40,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "ewamateusz",
                 title2: "WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ",
 
-                image3: "hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg",
-                url3: "ewelinakamil",
-                title3: "SESJA ZDJĘCIOWA LAWENDOWE POLE<br/>EWELINA i KAMIL"
+                image3: "sesja-slubna-krakow-rynek-glowny-wawel-kazimierz.jpg",
+                url3: "katrina",
+                title3: "SESJA ŚLUBNA RYNEK KRAKÓW<br/>CHAN i KATRINA"
             },
 
             {
