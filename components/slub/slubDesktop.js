@@ -48,10 +48,13 @@ export default class OfferDesktop extends React.Component {
                         <img src={"/static/portfolio/sesja_slubna_krakow_1_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
-                        Fotografia ślubna w moim wykonaniu mam nadzieję wciąga osobę oglądającą w ciąg wydarzeń, tak by mogła ona poczuć to, co czują osoby będące na zdjęciach. Uważam, że jestem na
-                        Waszym ślubie by dokumentować ten ważny dzień, pokazywać, że jestem tam dla Was i będę opowiadał o Was. Staram się uchwycić Was takimi, jakimi jesteście. Moje rozmowy z Wami w
-                        dniu ślubu czy sesji zdjęciowych są tylko i wyłącznie towarzyskie. Jestem fanem autentycznych emocji. Staram się nie prosić o uśmiech i cierpliwie czekam, aż przyjdzie on sam.
-                        W mojej pracy fotografa ślubnego kieruję się planem, doświadczeniem, ograniczając przypadek do minimum.
+                        <a href="https://wedding.pl/fotograf-slubny/tomaszprokop" target="_blank">
+                            Fotografia ślubna
+                        </a>{" "}
+                        w moim wykonaniu wciąga osobę oglądającą w ciąg wydarzeń, tak by mogła ona poczuć to, co czują osoby będące na zdjęciach. Uważam, że jestem na Waszym ślubie by dokumentować ten
+                        ważny dzień, pokazywać, że jestem tam dla Was i będę opowiadał o Was. Staram się uchwycić Was takimi, jakimi jesteście. Moje rozmowy z Wami w dniu ślubu czy sesji zdjęciowych
+                        są tylko i wyłącznie towarzyskie. Jestem fanem autentycznych emocji. Staram się nie prosić o uśmiech i cierpliwie czekam, aż przyjdzie on sam. W mojej pracy fotografa ślubnego
+                        kieruję się planem, doświadczeniem, ograniczając przypadek do minimum.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
                         <img src={"/static/portfolio/monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_portfolio.jpg"} />
