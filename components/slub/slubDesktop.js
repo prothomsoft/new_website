@@ -16,18 +16,27 @@ export default class OfferDesktop extends React.Component {
                     </header>
                     <p>
                         Kocham eksperymenty, czerpanie esencji z przemijających trendów, konsekwencję w dążeniu do celu, lubię mieć plan nie pozwalający wkraść się przypadkowi. Fotografia ślubna to
-                        dla mnie pasja i weekendowa odskocznia od codziennej korporacyjnej rzeczywistości. Fotografia to trójkąt zależności pomiędzy czasem ekspozycji, przysłoną i czułością ISO.
-                        Fotografia ślubna to jednocześnie trójkąt zależności pomiędzy chwilą, światłem i kadrem. W obu przypadkach jest to zawsze kompromis poparty pomysłem i doskonałym warsztatem,
-                        który pozwala ten pomysł zrealizować.
+                        dla mnie pasja i weekendowa odskocznia od codziennej korporacyjnej rzeczywistości. Fotografia to trójkąt zależności pomiędzy czasem ekspozycji, przysłoną i czułością ISO.{" "}
+                        <a href="https://www.planujemywesele.pl/47520-99foto-pl-fotograf-slubny-krakow" target="_blank">
+                            Fotografia ślubna
+                        </a>{" "}
+                        to jednocześnie trójkąt zależności pomiędzy chwilą, światłem i kadrem. W obu przypadkach jest to zawsze kompromis poparty pomysłem i doskonałym warsztatem, który pozwala ten
+                        pomysł zrealizować.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
                         <img src={"/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
-                        Fotografia ślubna to moim zdaniem przede wszystkim reportaż i temat człowieka w kadrze. Bez niego nie ma co mówić o uczuciach, radości, łzach wzruszenia, słowach, które
-                        układają się tworząc chwile, które chcemy zatrzymać na wieki. Światło to według mojej definicji kontekst. Nadaje ono miejscu charakter, tworzy tło dla wydarzeń i pozwala
-                        eksponować emocje. Kadr to wiedza, setki przeglądniętych zdjęć i budowane latami poczucie estetyki. Fotografia ślubna wykorzystuje te narzędzia tworząc opowieść o ludziach,
-                        miejscach, wydarzeniach i emocjach.
+                        <a href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny-krakow,35325/" target="_blank">
+                            Fotografia ślubna
+                        </a>{" "}
+                        to moim zdaniem przede wszystkim reportaż i temat człowieka w kadrze. Bez niego nie ma co mówić o uczuciach, radości, łzach wzruszenia, słowach, które układają się tworząc
+                        chwile, które chcemy zatrzymać na wieki. Światło to według mojej definicji kontekst. Nadaje ono miejscu charakter, tworzy tło dla wydarzeń i pozwala eksponować emocje. Kadr to
+                        wiedza, setki przeglądniętych zdjęć i budowane latami poczucie estetyki.{" "}
+                        <a href="https://www.fotoszukacz.pl/fotograf/2763,krakow,tomasz-prokop--fotograf-slubny-krakow" target="_blank">
+                            Fotografia ślubna
+                        </a>{" "}
+                        wykorzystuje te narzędzia tworząc opowieść o ludziach, miejscach, wydarzeniach i emocjach.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
                         <img src={"/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} />
