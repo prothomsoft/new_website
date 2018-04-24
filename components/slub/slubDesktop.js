@@ -27,12 +27,9 @@ export default class OfferDesktop extends React.Component {
                         <img src={"/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
-                        <a href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny-krakow,35325/" target="_blank">
-                            Fotografia ślubna
-                        </a>{" "}
-                        to moim zdaniem przede wszystkim reportaż i temat człowieka w kadrze. Bez niego nie ma co mówić o uczuciach, radości, łzach wzruszenia, słowach, które układają się tworząc
-                        chwile, które chcemy zatrzymać na wieki. Światło to według mojej definicji kontekst. Nadaje ono miejscu charakter, tworzy tło dla wydarzeń i pozwala eksponować emocje. Kadr to
-                        wiedza, setki przeglądniętych zdjęć i budowane latami poczucie estetyki.{" "}
+                        Fotografia ślubna to moim zdaniem przede wszystkim reportaż i temat człowieka w kadrze. Bez niego nie ma co mówić o uczuciach, radości, łzach wzruszenia, słowach, które
+                        układają się tworząc chwile, które chcemy zatrzymać na wieki. Światło to według mojej definicji kontekst. Nadaje ono miejscu charakter, tworzy tło dla wydarzeń i pozwala
+                        eksponować emocje. Kadr to wiedza, setki przeglądniętych zdjęć i budowane latami poczucie estetyki.{" "}
                         <a href="https://www.fotoszukacz.pl/fotograf/2763,krakow,tomasz-prokop--fotograf-slubny-krakow" target="_blank">
                             Fotografia ślubna
                         </a>{" "}

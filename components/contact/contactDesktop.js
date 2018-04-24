@@ -211,7 +211,14 @@ export default class ContactDesktop extends React.Component {
                             <div className="square_space">
                                 <a target="_blank" href="https://www.slubnaglowie.pl/katalog/firma/tomasz-prokop_6663">
                                     <div className="float_right">
-                                        <img alt="fotograf ślubny kraków" src={"/static/icons/slub_na_glowie.jpg"} />
+                                        <img src={"/static/icons/slub_na_glowie.jpg"} />
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="square_space">
+                                <a target="_blank" href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny-krakow,35325/">
+                                    <div className="float_right">
+                                        <img src={"/static/icons/wesele_z_klasa.jpg"} />
                                     </div>
                                 </a>
                             </div>

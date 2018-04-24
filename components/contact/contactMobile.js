@@ -215,6 +215,14 @@ export default class ContactMobile extends React.Component {
                                 </div>
                             </a>
                         </div>
+
+                        <div className="square_space">
+                            <a target="_blank" href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny-krakow,35325/">
+                                <div className="float_right">
+                                    <img src={"/static/icons/wesele_z_klasa.jpg"} />
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="spacer" />
