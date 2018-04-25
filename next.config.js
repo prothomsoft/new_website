@@ -19,6 +19,7 @@ module.exports = {
             "/blog/page/8": { page: "/blog", query: { page: "8" } },
             "/blog/page/9": { page: "/blog", query: { page: "9" } },
             "/blog/page/10": { page: "/blog", query: { page: "10" } },
+            "/sala-weselna-villa-marina-dabrowa-gornicza-slub-nad-jeziorem": { page: "/sala-weselna-villa-marina-dabrowa-gornicza-slub-nad-jeziorem" },
             "/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie": { page: "/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie" },
             "/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz": { page: "/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz" },
             "/dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna": { page: "/dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna" },
