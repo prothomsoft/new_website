@@ -4,31 +4,31 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "marta_piotr_kajasowka.jpg",
-                url1: "martapiotr",
-                title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
+                image1: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
+                url1: "krystynapiotr",
+                title1: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>KRYSTYNA i PIOTR",
 
-                image2: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
-                url2: "nataliapiotr",
-                title2: "MAGICZNY WYSTRÓJ SALI HOTEL MARGERITA<br/>NATALIA i PIOTR",
+                image2: "marta_piotr_kajasowka.jpg",
+                url2: "martapiotr",
+                title2: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
+
+                image3: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
+                url3: "nataliapiotr",
+                title3: "MAGICZNY WYSTRÓJ SALI HOTEL MARGERITA<br/>NATALIA i PIOTR"
+            },
+
+            {
+                image1: "villa_marina_sandra_maciek.jpg",
+                url1: "sandramaciek",
+                title1: "VILLA MARINA i ŚLUB NAD JEZIOREM<br/>SANDRA i MACIEK",
+
+                image2: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
+                url2: "kasiapiotr",
+                title2: "DOM WESELNY ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
 
                 image3: "cztery-pory-roku-alwernia-reportaz-slubny-chelmek.jpg",
                 url3: "kasiamarcin",
                 title3: "CZTERY PORY ROKU ALWERNIA<br/>KASIA i MARCIN"
-            },
-
-            {
-                image1: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
-                url1: "kasiapiotr",
-                title1: "DOM WESELNY ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
-
-                image2: "villa_marina_sandra_maciek.jpg",
-                url2: "sandramaciek",
-                title2: "VILLA MARINA i ŚLUB NAD JEZIOREM<br/>SANDRA i MACIEK",
-
-                image3: "karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg",
-                url3: "gosiarafal",
-                title3: "REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI<br/>MAŁGORZATA i RAFAŁ"
             },
 
             {
@@ -54,9 +54,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "iwonamarcin",
                 title2: "SESJA ZDJĘCIOWA SŁOWACKIE GÓRY<br/>IWONA i MARCIN",
 
-                image3: "dom-weselny-w-jablonce-zdjecia-slubne-przystan-w-kabanosie.jpg",
-                url3: "jolatomek",
-                title3: "PRZYSTAŃ W KABANOSIE JABŁONKA<br/>JOLANTA i TOMASZ"
+                image3: "karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg",
+                url3: "gosiarafal",
+                title3: "REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI<br/>MAŁGORZATA i RAFAŁ"
             },
 
             {

@@ -19,6 +19,7 @@ module.exports = {
             "/blog/page/8": { page: "/blog", query: { page: "8" } },
             "/blog/page/9": { page: "/blog", query: { page: "9" } },
             "/blog/page/10": { page: "/blog", query: { page: "10" } },
+            "/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso": { page: "/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso" },
             "/cztery-pory-roku-alwernia-reportaz-slubny-chelmek": { page: "/cztery-pory-roku-alwernia-reportaz-slubny-chelmek" },
             "/sala-weselna-villa-marina-dabrowa-gornicza-slub-nad-jeziorem": { page: "/sala-weselna-villa-marina-dabrowa-gornicza-slub-nad-jeziorem" },
             "/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie": { page: "/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie" },
