@@ -156,9 +156,9 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/05/dom_weselny_przystan_w_kabanosie_spytkowice_reportaz_slubny_0146.jpg", height: 763 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/05/dom_weselny_przystan_w_kabanosie_spytkowice_reportaz_slubny_0147.jpg", height: 763 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/05/dom_weselny_przystan_w_kabanosie_spytkowice_reportaz_slubny_0112.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/05/dom_weselny_przystan_w_kabanosie_spytkowice_reportaz_slubny_0148.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/05/dom_weselny_przystan_w_kabanosie_spytkowice_reportaz_slubny_0150.jpg", height: 383 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/05/dom_weselny_przystan_w_kabanosie_spytkowice_reportaz_slubny_0149.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/05/dom_weselny_przystan_w_kabanosie_spytkowice_reportaz_slubny_0150.jpg", height: 383 }
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/05/dom_weselny_przystan_w_kabanosie_spytkowice_reportaz_slubny_0148.jpg", height: 763 }
         ];
 
         return (
@@ -179,10 +179,10 @@ export default class BlogPageComponent extends React.Component {
                         'Tym razem zostało ono wypowiedziane w <a href="http://skawa.sdb.org.pl/" target="_blank">Kościele NMP Wspomożenia Wiernych</a> w Skawie. Kościół bardzo ciekawy, pozwalający zrobić zdjęcia z perspektywy drona bez drona. Po zdjęciu grupowym i życzeniach Para Młoda zaprosiła gości do Domu Weselnego <a href="http://przystanwkabanosie.pl/pl/page/6/Restauracja_Spytkowice/" taget="_blank">Przystań w Kabanosie</a> w Spytkowicach. Parkiet został otworzony brawurowym pierwszym tańcem, pyszne słodkości z mini karety zniknęły momentalnie i <a href="http://edenzespol.pl" target="_blank">Zespół muzyczny Eden</a> przejął pałeczkę dbając o to, by goście nie spędzali za dużo czasu przy stolikach. Atrakcje tego wieczoru można wyliczać długo, był tort podany w chmurach ciekłego azotu, pieczony świniak, fotobudka, pociąg, chusteczka, kaczuszki i pełny zestaw zabaw oczepinowych. Każdą minutę imprezy skrzętnie filmował Mateusz z <a href="https://www.planujemywesele.pl/2048-f-h-u-viva" target="_blank">Viva Film Fimowanie</a>. Było naprawdę re-we-la-cyj-nie. Zapraszam na reportaż ślubny z tego dnia, a po więcej do strefy klienta (przyda się hasło z mojej wizytówki). Miłego oglądania.'
                     }
                     slug={"przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow"}
-                    title={"PRZYSTAŃ W KABANOSIE SPYTKOWICE, ZDJĘCIA ŚLUBNE JORDANÓW - KRYSTYNA i PIOTR"}
+                    title={"PRZYSTAŃ W KABANOSIE SPYTKOWICE, ZDJĘCIA ŚLUBNE JORDANÓW - KRYSIA i PIOTR"}
                     tags={"Przystań w Kabanosie Spytkowice, zdjęcia ślubne Jordanów, Dom Weselny Spytkowice"}
                     date={"5 maja 2018"}
-                    menuNames={"KRYSTYNA i PIOTR"}
+                    menuNames={"KRYSIA i PIOTR"}
                     menuTitle={"PRZYSTAŃ W KABANOSIE SPYTKOWICE, ZDJĘCIA ŚLUBNE JORDANÓW"}
                     leadNames={"MAŁGORZATA I RAFAŁ"}
                     leadTitle={"PLENER ŚLUBNY SŁOWACJA, ŁOMNICKI STAW"}

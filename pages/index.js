@@ -13,7 +13,7 @@ export default class Index extends React.Component {
                 imageUrl: "/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_start.jpg"
             },
             {
-                imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+                imageUrl: "/static/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.jpg"
             },
             {
                 imageUrl: "/static/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie-start.jpg"
@@ -25,7 +25,7 @@ export default class Index extends React.Component {
                 imageUrl: "/static/sesja_narzeczenska_krakow_start.jpg"
             },
             {
-                imageUrl: "/static/ania_i_maciek_wesele_w_domu_weselnym_szlachecki_dwor_sieciechowice_start.jpg"
+                imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
             }
         ];
 
