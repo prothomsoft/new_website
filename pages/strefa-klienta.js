@@ -4,13 +4,13 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
-                url1: "krystynapiotr",
-                title1: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>KRYSTYNA i PIOTR",
+                image1: "folwark_zalesie_renata_michal.jpg",
+                url1: "renatamichal",
+                title1: "FOLWARK ZALESIE WIELICZKA<br/>RENATA i MICHAŁ",
 
-                image2: "marta_piotr_kajasowka.jpg",
-                url2: "martapiotr",
-                title2: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
+                image2: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
+                url2: "krystynapiotr",
+                title2: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>KRYSTYNA i PIOTR",
 
                 image3: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
                 url3: "nataliapiotr",
@@ -22,9 +22,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "sandramaciek",
                 title1: "VILLA MARINA i ŚLUB NAD JEZIOREM<br/>SANDRA i MACIEK",
 
-                image2: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
-                url2: "kasiapiotr",
-                title2: "DOM WESELNY ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
+                image2: "marta_piotr_kajasowka.jpg",
+                url2: "martapiotr",
+                title2: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
 
                 image3: "cztery-pory-roku-alwernia-reportaz-slubny-chelmek.jpg",
                 url3: "kasiamarcin",
@@ -36,9 +36,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "renatakrzysztof",
                 title1: "REPORTAŻ ŚLUBNY ALLEGRA GIERCZYCE<br/>RENATA i KRZYSZTOF",
 
-                image2: "zimowy-slub-w-kosciele-na-szklanych-domach-nowa-huta-krakow.jpg",
-                url2: "olatomek",
-                title2: "ZIMOWY ŚLUB NA SZKLANYCH DOMACH<br/>ALEKSANDRA i TOMASZ",
+                image2: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
+                url2: "kasiapiotr",
+                title2: "DOM WESELNY ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
 
                 image3: "sesja-slubna-krakow-rynek-glowny-wawel-kazimierz.jpg",
                 url3: "katrina",

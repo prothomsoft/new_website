@@ -4,10 +4,10 @@ export default class Index extends React.Component {
     render() {
         let slides = [
             {
-                imageUrl: "/static/sala_weselna_nedan_pcim_reportaz_slubny_start.jpg"
+                imageUrl: "/static/lomnicki_staw_portfolio_start.jpg"
             },
             {
-                imageUrl: "/static/fotograf_slubny_krakow_slider_homepage_start.jpg"
+                imageUrl: "/static/sala_weselna_nedan_pcim_reportaz_slubny_start.jpg"
             },
             {
                 imageUrl: "/static/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_start.jpg"
@@ -16,16 +16,16 @@ export default class Index extends React.Component {
                 imageUrl: "/static/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.jpg"
             },
             {
-                imageUrl: "/static/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie-start.jpg"
+                imageUrl: "/static/fotograf_slubny_krakow_slider_homepage_start.jpg"
+            },
+            {
+                imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
             },
             {
                 imageUrl: "/static/natalia_marcin_i_maja_reportaz_slubny_gosciniec_branicki_start.jpg"
             },
             {
-                imageUrl: "/static/sesja_narzeczenska_krakow_start.jpg"
-            },
-            {
-                imageUrl: "/static/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_start.jpg"
+                imageUrl: "/static/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie-start.jpg"
             }
         ];
 
