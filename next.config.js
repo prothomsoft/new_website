@@ -19,7 +19,7 @@ module.exports = {
             "/blog/page/8": { page: "/blog", query: { page: "8" } },
             "/blog/page/9": { page: "/blog", query: { page: "9" } },
             "/blog/page/10": { page: "/blog", query: { page: "10" } },
-
+            "/reportaz-slubny-hotel-junior-krakow-balonowy-szal": { page: "/reportaz-slubny-hotel-junior-krakow-balonowy-szal" },
             "/slub-w-lanckoronie-restauracja-old-joker-jaroszowice": { page: "/slub-w-lanckoronie-restauracja-old-joker-jaroszowice" },
             "/sala-weselna-folwark-zalesie-reportaz-slubny-wieliczka": { page: "/sala-weselna-folwark-zalesie-reportaz-slubny-wieliczka" },
             "/przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow": { page: "/przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow" },
