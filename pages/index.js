@@ -33,7 +33,7 @@ export default class Index extends React.Component {
             <div>
                 <Homepage
                     slides={slides}
-                    headTitle={"Fotograf ślubny Kraków"}
+                    headTitle={"Fotograf ślubny Kraków - Tomasz Prokop"}
                     headDescription={"Fotograf ślubny Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Album w cenie pakietu. Serdecznie zapraszam."}
                     headKeywords={"fotograf ślubny Kraków, fotograf na wesele"}
                     headUrl={"http://99foto.pl"}
