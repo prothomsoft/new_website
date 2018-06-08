@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Link from "next/link";
 import Fetch from "isomorphic-unfetch";
+import LazyLoad from "react-lazy-load";
 
 export default class ContactDesktop extends React.Component {
     constructor() {
@@ -211,7 +212,9 @@ export default class ContactDesktop extends React.Component {
                             <div className="square_space">
                                 <a target="_blank" href="https://www.slubnaglowie.pl/katalog/firma/tomasz-prokop_6663">
                                     <div className="float_right">
-                                        <img src={"/static/icons/slub_na_glowie.jpg"} />
+                                        <LazyLoad offsetVertical={300}>
+                                            <img src={"/static/icons/slub_na_glowie.jpg"} />
+                                        </LazyLoad>
                                     </div>
                                 </a>
                             </div>
