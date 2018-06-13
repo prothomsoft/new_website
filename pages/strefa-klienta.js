@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "reportaz-slubny-hotel-junior-krakow-balonowy-szal.jpg",
-                url1: "magdapiotr",
-                title1: "BALONOWY SZAŁ W HOTELU JUNIOR KRAKÓW<br/>MAGDALENA i PIOTR",
+                image1: "magdalena_andrzej_u_niedzwiedzia.jpg",
+                url1: "magdaandrzej",
+                title1: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
 
                 image2: "slub-w-lanckoronie-restauracja-old-joker-jaroszowice.jpg",
                 url2: "alicjagrzegorz",
@@ -18,9 +18,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "marta_piotr_kajasowka.jpg",
-                url1: "martapiotr",
-                title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
+                image1: "reportaz-slubny-hotel-junior-krakow-balonowy-szal.jpg",
+                url1: "magdapiotr",
+                title1: "BALONOWY SZAŁ W HOTELU JUNIOR KRAKÓW<br/>MAGDALENA i PIOTR",
 
                 image2: "villa_marina_sandra_maciek.jpg",
                 url2: "sandramaciek",
@@ -32,9 +32,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "renata_i_krzysztof_allegra.jpg",
-                url1: "renatakrzysztof",
-                title1: "REPORTAŻ ŚLUBNY ALLEGRA GIERCZYCE<br/>RENATA i KRZYSZTOF",
+                image1: "marta_piotr_kajasowka.jpg",
+                url1: "martapiotr",
+                title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
 
                 image2: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
                 url2: "kasiapiotr",
