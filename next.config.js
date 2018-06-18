@@ -20,6 +20,8 @@ module.exports = {
             "/blog/page/9": { page: "/blog", query: { page: "9" } },
             "/blog/page/10": { page: "/blog", query: { page: "10" } },
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
+            "/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice": { page: "/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice" },
+            "/impreza-rodzinna-stadnina-koni-botoja-korzkiew": { page: "/impreza-rodzinna-stadnina-koni-botoja-korzkiew" },
             "/reportaz-slubny-hotel-junior-krakow-balonowy-szal": { page: "/reportaz-slubny-hotel-junior-krakow-balonowy-szal" },
             "/slub-w-lanckoronie-restauracja-old-joker-jaroszowice": { page: "/slub-w-lanckoronie-restauracja-old-joker-jaroszowice" },
             "/sala-weselna-folwark-zalesie-reportaz-slubny-wieliczka": { page: "/sala-weselna-folwark-zalesie-reportaz-slubny-wieliczka" },
