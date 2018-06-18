@@ -14,59 +14,31 @@ export default class HistoriaMobile extends React.Component {
                     <header>
                         <h1 className="quote-title">KILKA HISTORII</h1>
                     </header>
-                    <Link href="/wesele-na-polu-golfowym-w-paczoltowicach">
+                    <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
-                                <img src={"/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} />
+                                <img alt="fotograf ślubny kraków" src={"/static/portfolio/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg"} />
                             </LazyLoad>
                         </div>
                     </Link>
-                    <Link href="/wesele-na-polu-golfowym-w-paczoltowicach">
+                    <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                         <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
-                                WESELE NA POLU GOLFOWYM<br />JOANNA i GRZEGORZ
-                            </p>
+                            <h4 style={{ textAlign: "center" }}>
+                                FOTOGRAF ŚLUBNY KRAKÓW <br />DAJANA i SYLWESTER
+                            </h4>
                         </div>
                     </Link>
-                    <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                    <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
-                                <img src={"/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} />
+                                <img alt="sesja zdjęciowa w górach" src={"/static/portfolio/plener_slubny_slowacja.jpg"} />
                             </LazyLoad>
                         </div>
                     </Link>
-                    <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                    <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                         <div className="porfolioCaption">
                             <p style={{ textAlign: "center" }}>
-                                DEKORACJA SALI W STYLU RUSTYKALNYM<br />KINGA i MACIEK
-                            </p>
-                        </div>
-                    </Link>
-                    <Link href="/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja">
-                        <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img src={"/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg"} />
-                            </LazyLoad>
-                        </div>
-                    </Link>
-                    <Link href="/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja">
-                        <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
-                                SESJA ZDJĘCIOWA SŁOWACKIE GÓRY<br />IWONA i MARCIN
-                            </p>
-                        </div>
-                    </Link>
-                    <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">
-                        <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img src={"/static/portfolio/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg"} />
-                            </LazyLoad>
-                        </div>
-                    </Link>
-                    <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">
-                        <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
-                                SESJA ZDJĘCIOWA LAWENDOWE POLE<br />EWELINA i KAMIL
+                                SESJA ZDJĘCIOWA W GÓRACH<br /> MAŁGORZATA i RAFAŁ
                             </p>
                         </div>
                     </Link>
@@ -84,6 +56,35 @@ export default class HistoriaMobile extends React.Component {
                             </p>
                         </div>
                     </Link>
+                    <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                        <div className="porfolioImage">
+                            <LazyLoad offsetVertical={300}>
+                                <img src={"/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} />
+                            </LazyLoad>
+                        </div>
+                    </Link>
+                    <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                        <div className="porfolioCaption">
+                            <p style={{ textAlign: "center" }}>
+                                DEKORACJA SALI W STYLU RUSTYKALNYM<br />KINGA i MACIEK
+                            </p>
+                        </div>
+                    </Link>
+                    <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">
+                        <div className="porfolioImage">
+                            <LazyLoad offsetVertical={300}>
+                                <img src={"/static/portfolio/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg"} />
+                            </LazyLoad>
+                        </div>
+                    </Link>
+                    <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">
+                        <div className="porfolioCaption">
+                            <p style={{ textAlign: "center" }}>
+                                SESJA ZDJĘCIOWA LAWENDOWE POLE<br />EWELINA i KAMIL
+                            </p>
+                        </div>
+                    </Link>
+
                     <Link href="/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>

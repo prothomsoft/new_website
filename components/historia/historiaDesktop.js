@@ -16,47 +16,93 @@ export default class HistoriaDesktop extends React.Component {
                         <h1 className="quote-title">KILKA HISTORII</h1>
                     </header>
                     <div style={{ display: "flex" }}>
-                        <Link href="/wesele-na-polu-golfowym-w-paczoltowicach">
+                        <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img src={"/static/portfolio_dtp/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} />
+                                    <img alt="fotograf ślubny kraków" src={"/static/portfolio_dtp/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                        <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img src={"/static/portfolio_dtp/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} />
+                                    <img alt="reportaż ślubny jordanów" src={"/static/portfolio_dtp/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja">
+                        <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img src={"/static/portfolio_dtp/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg"} />
+                                    <img alt="sesja zdjęciowa w górach" src={"/static/portfolio_dtp/plener_slubny_slowacja.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/wesele-na-polu-golfowym-w-paczoltowicach">
+                        <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
+                            <div className="porfolioCaption">
+                                <h4 style={{ textAlign: "center" }}>
+                                    FOTOGRAF ŚLUBNY KRAKÓW <br />DAJANA i SYLWESTER
+                                </h4>
+                            </div>
+                        </Link>
+                        <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    WESELE NA POLU GOLFOWYM<br />JOANNA i GRZEGORZ
+                                    REPORTAŻ ŚLUBNY JORDANÓW<br /> ANNA i KRZYSZTOF
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                        <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    DEKORACJA SALI W STYLU RUSTYKALNYM<br />KINGA i MACIEK
+                                    SESJA ZDJĘCIOWA W GÓRACH<br /> MAŁGORZATA i RAFAŁ
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja">
+                    </div>
+                    <div style={{ display: "flex" }}>
+                        <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
+                            <div className="porfolioImage">
+                                <LazyLoad height={224} offsetVertical={300}>
+                                    <img alt="sesja ślubna kraków" src={"/static/portfolio_dtp/chan_kristina_sesja_slubna_krakow.jpg"} />
+                                </LazyLoad>
+                            </div>
+                        </Link>
+                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
+                            <div className="porfolioImage">
+                                <LazyLoad height={224} offsetVertical={300}>
+                                    <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio_dtp/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
+                                </LazyLoad>
+                            </div>
+                        </Link>
+                        <Link href="/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice">
+                            <div className="porfolioImage">
+                                <LazyLoad height={224} offsetVertical={300}>
+                                    <img alt="wesele w góralskim klimacie" src={"/static/portfolio_dtp/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg"} />
+                                </LazyLoad>
+                            </div>
+                        </Link>
+                    </div>
+                    <div style={{ display: "flex" }}>
+                        <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    SESJA ZDJĘCIOWA SŁOWACKIE GÓRY<br />IWONA i MARCIN
+                                    SESJA ŚLUBNA KRAKÓW<br /> CHAN i KATRINA
+                                </p>
+                            </div>
+                        </Link>
+                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
+                            <div className="porfolioCaption">
+                                <p style={{ textAlign: "center" }}>
+                                    MAGICZNY WYSTRÓJ SALI WESELNEJ<br />NATALIA i PIOTR
+                                </p>
+                            </div>
+                        </Link>
+                        <Link href="/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice">
+                            <div className="porfolioCaption">
+                                <p style={{ textAlign: "center" }}>
+                                    WESELE W GÓRALSKIM KLIMACIE<br /> IWONA i MARCIN
                                 </p>
                             </div>
                         </Link>
@@ -66,52 +112,6 @@ export default class HistoriaDesktop extends React.Component {
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
                                     <img src={"/static/portfolio_dtp/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg"} />
-                                </LazyLoad>
-                            </div>
-                        </Link>
-                        <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
-                            <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img src={"/static/portfolio_dtp/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
-                                </LazyLoad>
-                            </div>
-                        </Link>
-                        <Link href="/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice">
-                            <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img src={"/static/portfolio_dtp/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg"} />
-                                </LazyLoad>
-                            </div>
-                        </Link>
-                    </div>
-                    <div style={{ display: "flex" }}>
-                        <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">
-                            <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
-                                    SESJA ZDJĘCIOWA LAWENDOWE POLE<br />EWELINA i KAMIL
-                                </p>
-                            </div>
-                        </Link>
-                        <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
-                            <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
-                                    REPORTAŻ ŚLUBNY JORDANÓW<br />ANNA i KRZYSZTOF
-                                </p>
-                            </div>
-                        </Link>
-                        <Link href="/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice">
-                            <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
-                                    WESELE W GÓRALSKIM KLIMACIE<br />IWONA i MARCIN
-                                </p>
-                            </div>
-                        </Link>
-                    </div>
-                    <div style={{ display: "flex" }}>
-                        <Link href="/sesja-narzeczenska-krakow">
-                            <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img src={"/static/portfolio_dtp/sesja_narzeczenska_krakow_portfolio.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -131,10 +131,10 @@ export default class HistoriaDesktop extends React.Component {
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/sesja-narzeczenska-krakow">
+                        <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    SESJA NARZECZEŃSKA KRAKÓW<br />KINGA i MACIEK
+                                    SESJA ZDJĘCIOWA LAWENDOWE POLE<br />EWELINA i KAMIL
                                 </p>
                             </div>
                         </Link>
@@ -269,6 +269,17 @@ export default class HistoriaDesktop extends React.Component {
                     .quote-title::after {
                         flex-grow: 1;
                         margin: 0 20px;
+                    }
+
+                    .porfolioCaption h4 {
+                        font-family: Oswald;
+                        font-style: normal;
+                        font-weight: normal;
+                        line-height: 1.4;
+                        text-rendering: optimizelegibility;
+                        font-size: 16px;
+                        padding: 0 20px 0 20px;
+                        margin: 10px 0;
                     }
                 `}</style>
             </div>

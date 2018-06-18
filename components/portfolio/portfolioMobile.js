@@ -71,45 +71,31 @@ export default class PortfolioMobile extends Component {
                     <header>
                         <h2 className="quote-title">POLECANE REPORTAŻE</h2>
                     </header>
-                    <Link href="/wesele-na-polu-golfowym-w-paczoltowicach">
+                    <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
-                                <img alt="fotograf ślubny kraków" src={"/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} />
+                                <img alt="fotograf ślubny kraków" src={"/static/portfolio/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg"} />
                             </LazyLoad>
                         </div>
                     </Link>
-                    <Link href="/wesele-na-polu-golfowym-w-paczoltowicach">
+                    <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                         <div className="porfolioCaption">
                             <h4 style={{ textAlign: "center" }}>
-                                FOTOGRAF ŚLUBNY KRAKÓW <br />JOANNA i GRZEGORZ
+                                FOTOGRAF ŚLUBNY KRAKÓW <br />DAJANA i SYLWESTER
                             </h4>
                         </div>
                     </Link>
-                    <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                    <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
-                                <img alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} />
+                                <img alt="sesja zdjęciowa w górach" src={"/static/portfolio/plener_slubny_slowacja.jpg"} />
                             </LazyLoad>
                         </div>
                     </Link>
-                    <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                    <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                         <div className="porfolioCaption">
                             <p style={{ textAlign: "center" }}>
-                                DEKORACJA SALI W STYLU RUSTYKALNYM<br /> KINGA i MACIEK
-                            </p>
-                        </div>
-                    </Link>
-                    <Link href="/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja">
-                        <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="sesja zdjęciowa w górach" src={"/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg"} />
-                            </LazyLoad>
-                        </div>
-                    </Link>
-                    <Link href="/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja">
-                        <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
-                                SESJA ZDJĘCIOWA W GÓRACH<br /> IWONA i MARCIN
+                                SESJA ZDJĘCIOWA W GÓRACH<br /> MAŁGORZATA i RAFAŁ
                             </p>
                         </div>
                     </Link>
@@ -124,6 +110,20 @@ export default class PortfolioMobile extends Component {
                         <div className="porfolioCaption">
                             <p style={{ textAlign: "center" }}>
                                 REPORTAŻ ŚLUBNY JORDANÓW<br /> ANNA i KRZYSZTOF
+                            </p>
+                        </div>
+                    </Link>
+                    <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                        <div className="porfolioImage">
+                            <LazyLoad offsetVertical={300}>
+                                <img alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} />
+                            </LazyLoad>
+                        </div>
+                    </Link>
+                    <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                        <div className="porfolioCaption">
+                            <p style={{ textAlign: "center" }}>
+                                DEKORACJA SALI W STYLU RUSTYKALNYM<br /> KINGA i MACIEK
                             </p>
                         </div>
                     </Link>

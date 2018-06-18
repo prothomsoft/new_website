@@ -69,47 +69,47 @@ export default class PortfolioDesktop extends Component {
                         <h2 className="quote-title">POLECANE REPORTAŻE I SESJE ŚLUBNE</h2>
                     </header>
                     <div style={{ display: "flex" }}>
-                        <Link href="/wesele-na-polu-golfowym-w-paczoltowicach">
+                        <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf ślubny kraków" src={"/static/portfolio_dtp/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} />
+                                    <img alt="fotograf ślubny kraków" src={"/static/portfolio_dtp/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                        <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio_dtp/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} />
+                                    <img alt="reportaż ślubny jordanów" src={"/static/portfolio_dtp/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja">
+                        <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja zdjęciowa w górach" src={"/static/portfolio_dtp/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg"} />
+                                    <img alt="sesja zdjęciowa w górach" src={"/static/portfolio_dtp/plener_slubny_slowacja.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/wesele-na-polu-golfowym-w-paczoltowicach">
+                        <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                             <div className="porfolioCaption">
                                 <h4 style={{ textAlign: "center" }}>
-                                    FOTOGRAF ŚLUBNY KRAKÓW <br />JOANNA i GRZEGORZ
+                                    FOTOGRAF ŚLUBNY KRAKÓW <br />DAJANA i SYLWESTER
                                 </h4>
                             </div>
                         </Link>
-                        <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                        <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    DEKORACJA SALI W STYLU RUSTYKALNYM<br /> KINGA i MACIEK
+                                    REPORTAŻ ŚLUBNY JORDANÓW<br /> ANNA i KRZYSZTOF
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja">
+                        <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    SESJA ZDJĘCIOWA W GÓRACH<br /> IWONA i MARCIN
+                                    SESJA ZDJĘCIOWA W GÓRACH<br /> MAŁGORZATA i RAFAŁ
                                 </p>
                             </div>
                         </Link>
@@ -122,11 +122,10 @@ export default class PortfolioDesktop extends Component {
                                 </LazyLoad>
                             </div>
                         </Link>
-
-                        <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
+                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="reportaż ślubny jordanów" src={"/static/portfolio_dtp/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
+                                    <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio_dtp/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -146,10 +145,10 @@ export default class PortfolioDesktop extends Component {
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
+                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    REPORTAŻ ŚLUBNY JORDANÓW<br /> ANNA i KRZYSZTOF
+                                    MAGICZNY WYSTRÓJ SALI WESELNEJ<br />NATALIA i PIOTR
                                 </p>
                             </div>
                         </Link>
@@ -169,10 +168,10 @@ export default class PortfolioDesktop extends Component {
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
+                        <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio_dtp/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
+                                    <img alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio_dtp/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -192,19 +191,18 @@ export default class PortfolioDesktop extends Component {
                                 </p>
                             </div>
                         </Link>
-
+                        <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                            <div className="porfolioCaption">
+                                <p style={{ textAlign: "center" }}>
+                                    DEKORACJA SALI W STYLU RUSTYKALNYM<br /> KINGA i MACIEK
+                                </p>
+                            </div>
+                        </Link>
                         <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
                             <div className="porfolioCaption">
                                 <h3 style={{ textAlign: "center" }}>
                                     FOTOGRAF ŚLUBNY KRAKÓW <br /> KINGA i JULIEN
                                 </h3>
-                            </div>
-                        </Link>
-                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
-                            <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
-                                    MAGICZNY WYSTRÓJ SALI WESELNEJ<br />NATALIA i PIOTR
-                                </p>
                             </div>
                         </Link>
                     </div>
