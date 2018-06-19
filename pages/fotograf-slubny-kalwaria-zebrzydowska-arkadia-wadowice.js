@@ -73,7 +73,7 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/06/fotograf_kalwaria_zebrzydowska_0062.jpg", height: 763 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/06/fotograf_kalwaria_zebrzydowska_0063.jpg", height: 763 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/06/fotograf_kalwaria_zebrzydowska_0064.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/06/fotograf_kalwaria_zebrzydowska_0065.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/06/fotograf_slubny_kalwaria_zebrzydowska_0001.jpg", height: 763 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/06/fotograf_kalwaria_zebrzydowska_0066.jpg", height: 383 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/06/fotograf_kalwaria_zebrzydowska_0067.jpg", height: 805 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/06/fotograf_kalwaria_zebrzydowska_0068.jpg", height: 763 },

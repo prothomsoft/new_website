@@ -4,13 +4,13 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "magdalena_andrzej_u_niedzwiedzia.jpg",
-                url1: "magdaandrzej",
-                title1: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
+                image1: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
+                url1: "dajanasylwester",
+                title1: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER",
 
-                image2: "slub-w-lanckoronie-restauracja-old-joker-jaroszowice.jpg",
-                url2: "alicjagrzegorz",
-                title2: "RESTAURACJA OLD JOKER JAROSZOWICE<br/>ALICJA i GRZEGORZ",
+                image2: "magdalena_andrzej_u_niedzwiedzia.jpg",
+                url2: "magdaandrzej",
+                title2: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
 
                 image3: "folwark_zalesie_renata_michal.jpg",
                 url3: "renatamichal",
@@ -22,13 +22,13 @@ export default class ClientPageComponent extends React.Component {
                 url1: "magdapiotr",
                 title1: "BALONOWY SZAŁ W HOTELU JUNIOR KRAKÓW<br/>MAGDALENA i PIOTR",
 
-                image2: "villa_marina_sandra_maciek.jpg",
-                url2: "sandramaciek",
-                title2: "VILLA MARINA i ŚLUB NAD JEZIOREM<br/>SANDRA i MACIEK",
+                image2: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
+                url2: "krystynapiotr",
+                title2: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>KRYSTYNA i PIOTR",
 
-                image3: "cztery-pory-roku-alwernia-reportaz-slubny-chelmek.jpg",
-                url3: "kasiamarcin",
-                title3: "CZTERY PORY ROKU ALWERNIA<br/>KASIA i MARCIN"
+                image3: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
+                url3: "nataliapiotr",
+                title3: "MAGICZNY WYSTRÓJ SALI HOTEL MARGERITA<br/>NATALIA i PIOTR"
             },
 
             {
@@ -36,9 +36,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "martapiotr",
                 title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
 
-                image2: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
-                url2: "kasiapiotr",
-                title2: "DOM WESELNY ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
+                image2: "slub-w-lanckoronie-restauracja-old-joker-jaroszowice.jpg",
+                url2: "alicjagrzegorz",
+                title2: "RESTAURACJA OLD JOKER JAROSZOWICE<br/>ALICJA i GRZEGORZ",
 
                 image3: "sesja-slubna-krakow-rynek-glowny-wawel-kazimierz.jpg",
                 url3: "katrina",
@@ -46,13 +46,13 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "ewa_mateusz_hotel_lenart_portfolio.jpg",
-                url1: "ewamateusz",
-                title1: "WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ",
+                image1: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
+                url1: "kasiapiotr",
+                title1: "DOM WESELNY ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
 
-                image2: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
-                url2: "krystynapiotr",
-                title2: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>KRYSTYNA i PIOTR",
+                image2: "ewa_mateusz_hotel_lenart_portfolio.jpg",
+                url2: "ewamateusz",
+                title2: "WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ",
 
                 image3: "karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg",
                 url3: "gosiarafal",
@@ -64,13 +64,13 @@ export default class ClientPageComponent extends React.Component {
                 url1: "magdawaldek",
                 title1: "REPORTAŻ ŚLUBNY SZAFRANTU NIEPOŁOMICE<br/>MAGDALENA i WALDEMAR",
 
-                image2: "sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg",
-                url2: "iwonamarcin",
-                title2: "SESJA ZDJĘCIOWA SŁOWACKIE GÓRY<br/>IWONA i MARCIN",
+                image2: "villa_marina_sandra_maciek.jpg",
+                url2: "sandramaciek",
+                title2: "VILLA MARINA i ŚLUB NAD JEZIOREM<br/>SANDRA i MACIEK",
 
-                image3: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
-                url3: "nataliapiotr",
-                title3: "MAGICZNY WYSTRÓJ SALI HOTEL MARGERITA<br/>NATALIA i PIOTR"
+                image3: "cztery-pory-roku-alwernia-reportaz-slubny-chelmek.jpg",
+                url3: "kasiamarcin",
+                title3: "CZTERY PORY ROKU ALWERNIA<br/>KASIA i MARCIN"
             }
         ];
 
