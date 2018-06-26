@@ -20,6 +20,8 @@ module.exports = {
             "/blog/page/9": { page: "/blog", query: { page: "9" } },
             "/blog/page/10": { page: "/blog", query: { page: "10" } },
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
+            "/tester": { page: "/tester" },
+            "/fotograf-slubny-sucha-beskidzka-magnolia-budzow": { page: "/fotograf-slubny-sucha-beskidzka-magnolia-budzow" },
             "/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice": { page: "/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice" },
             "/impreza-rodzinna-stadnina-koni-botoja-korzkiew": { page: "/impreza-rodzinna-stadnina-koni-botoja-korzkiew" },
             "/reportaz-slubny-hotel-junior-krakow-balonowy-szal": { page: "/reportaz-slubny-hotel-junior-krakow-balonowy-szal" },

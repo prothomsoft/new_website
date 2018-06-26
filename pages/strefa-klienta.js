@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
-                url1: "dajanasylwester",
-                title1: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER",
+                image1: "fotograf-slubny-magnolia-budzow.jpg",
+                url1: "kingamateusz",
+                title1: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ",
 
-                image2: "magdalena_andrzej_u_niedzwiedzia.jpg",
-                url2: "magdaandrzej",
-                title2: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
+                image2: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
+                url2: "dajanasylwester",
+                title2: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER",
 
-                image3: "folwark_zalesie_renata_michal.jpg",
-                url3: "renatamichal",
-                title3: "FOLWARK ZALESIE WIELICZKA<br/>RENATA i MICHAŁ"
+                image3: "magdalena_andrzej_u_niedzwiedzia.jpg",
+                url3: "magdaandrzej",
+                title3: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ"
             },
 
             {
@@ -60,9 +60,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "szafrantu-reportaz-slubny-zabierzow-bochenski-magda-waldek.jpg",
-                url1: "magdawaldek",
-                title1: "REPORTAŻ ŚLUBNY SZAFRANTU NIEPOŁOMICE<br/>MAGDALENA i WALDEMAR",
+                image1: "folwark_zalesie_renata_michal.jpg",
+                url1: "renatamichal",
+                title1: "FOLWARK ZALESIE WIELICZKA<br/>RENATA i MICHAŁ",
 
                 image2: "villa_marina_sandra_maciek.jpg",
                 url2: "sandramaciek",
