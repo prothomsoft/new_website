@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "fotograf-slubny-magnolia-budzow.jpg",
-                url1: "kingamateusz",
-                title1: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ",
+                image1: "marlena_arek_kocierz.jpg",
+                url1: "marlenaarek",
+                title1: "HOTEL KOCIERZ BACIARSKA CHATA<br/>MARLENA i ARKADIUSZ",
 
-                image2: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
-                url2: "dajanasylwester",
-                title2: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER",
+                image2: "fotograf-slubny-magnolia-budzow.jpg",
+                url2: "kingamateusz",
+                title2: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ",
 
-                image3: "magdalena_andrzej_u_niedzwiedzia.jpg",
-                url3: "magdaandrzej",
-                title3: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ"
+                image3: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
+                url3: "dajanasylwester",
+                title3: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER"
             },
 
             {
@@ -26,9 +26,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "krystynapiotr",
                 title2: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>KRYSTYNA i PIOTR",
 
-                image3: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
-                url3: "nataliapiotr",
-                title3: "MAGICZNY WYSTRÓJ SALI HOTEL MARGERITA<br/>NATALIA i PIOTR"
+                image3: "magdalena_andrzej_u_niedzwiedzia.jpg",
+                url3: "magdaandrzej",
+                title3: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ"
             },
 
             {
@@ -68,9 +68,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "sandramaciek",
                 title2: "VILLA MARINA i ŚLUB NAD JEZIOREM<br/>SANDRA i MACIEK",
 
-                image3: "cztery-pory-roku-alwernia-reportaz-slubny-chelmek.jpg",
-                url3: "kasiamarcin",
-                title3: "CZTERY PORY ROKU ALWERNIA<br/>KASIA i MARCIN"
+                image3: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
+                url3: "nataliapiotr",
+                title3: "MAGICZNY WYSTRÓJ SALI HOTEL MARGERITA<br/>NATALIA i PIOTR"
             }
         ];
 
