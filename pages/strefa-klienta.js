@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "marlena_arek_kocierz.jpg",
-                url1: "marlenaarek",
-                title1: "HOTEL KOCIERZ BACIARSKA CHATA<br/>MARLENA i ARKADIUSZ",
+                image1: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach.jpg",
+                url1: "nataliakamil",
+                title1: "SALA WESELNA WILLA ORCHIDEA WAKSMUND<br/>NATALIA i KAMIL",
 
                 image2: "fotograf-slubny-magnolia-budzow.jpg",
                 url2: "kingamateusz",
@@ -22,9 +22,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "magdapiotr",
                 title1: "BALONOWY SZAŁ W HOTELU JUNIOR KRAKÓW<br/>MAGDALENA i PIOTR",
 
-                image2: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
-                url2: "krystynapiotr",
-                title2: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>KRYSTYNA i PIOTR",
+                image2: "marlena_arek_kocierz.jpg",
+                url2: "marlenaarek",
+                title2: "HOTEL KOCIERZ BACIARSKA CHATA<br/>MARLENA i ARKADIUSZ",
 
                 image3: "magdalena_andrzej_u_niedzwiedzia.jpg",
                 url3: "magdaandrzej",
@@ -40,9 +40,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "alicjagrzegorz",
                 title2: "RESTAURACJA OLD JOKER JAROSZOWICE<br/>ALICJA i GRZEGORZ",
 
-                image3: "sesja-slubna-krakow-rynek-glowny-wawel-kazimierz.jpg",
-                url3: "katrina",
-                title3: "SESJA ŚLUBNA RYNEK KRAKÓW<br/>CHAN i KATRINA"
+                image3: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
+                url3: "krystynapiotr",
+                title3: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>KRYSTYNA i PIOTR"
             },
 
             {
