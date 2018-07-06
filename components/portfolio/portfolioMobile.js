@@ -155,17 +155,17 @@ export default class PortfolioMobile extends Component {
                             </p>
                         </div>
                     </Link>
-                    <Link href="/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice">
+                    <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
-                                <img alt="wesele w góralskim klimacie" src={"/static/portfolio/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg"} />
+                                <img alt="wesele w góralskim klimacie" src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} />
                             </LazyLoad>
                         </div>
                     </Link>
-                    <Link href="/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice">
+                    <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                         <div className="porfolioCaption">
                             <p style={{ textAlign: "center" }}>
-                                WESELE W GÓRALSKIM KLIMACIE<br /> IWONA i MARCIN
+                                WESELE W GÓRALSKIM KLIMACIE<br /> NATALIA i KAMIL
                             </p>
                         </div>
                     </Link>
