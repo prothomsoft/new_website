@@ -197,6 +197,16 @@ export default class HistoriaMobile extends React.Component {
                         margin: 0 20px;
                     } 
                      
+                    .porfolioCaption h4 {
+                        font-family: Oswald;
+                        font-style: normal;
+                        font-weight: normal;
+                        line-height: 1.4;
+                        text-rendering: optimizelegibility;
+                        font-size: 16px;
+                        padding: 0 20px 0 20px;
+                        margin: 10px 0;
+                    }
                 `}</style>
             </div>
         );
