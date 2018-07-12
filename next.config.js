@@ -21,6 +21,7 @@ module.exports = {
             "/blog/page/10": { page: "/blog", query: { page: "10" } },
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/tester": { page: "/tester" },
+            "/sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow": { page: "/sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow" },
             "/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach": { page: "/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach" },
             "/sesja-slubna-zielonym-szlakiem-na-popradzki-staw": { page: "/sesja-slubna-zielonym-szlakiem-na-popradzki-staw" },
             "/fotograf-slubny-sucha-beskidzka-magnolia-budzow": { page: "/fotograf-slubny-sucha-beskidzka-magnolia-budzow" },
