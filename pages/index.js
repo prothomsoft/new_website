@@ -38,10 +38,10 @@ export default class Index extends React.Component {
                     headKeywords={"fotograf ślubny Kraków, fotograf na wesele"}
                     headUrl={"http://99foto.pl"}
                     backgroundImage={"url(/static/wesele_na_polu_golfowym_w_paczoltowicach_start.jpg)"}
-                    leadNames={"IWONA i MARCIN"}
+                    leadNames={"NATALIA i KAMIL"}
                     leadTitle={"FOTOGRAF ŚLUBNY KRAKÓW I WESELE PO GÓRALSKU"}
-                    leadUrl={"/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice"}
-                    leadImage={"url(/static/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_start.jpg)"}
+                    leadUrl={"/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach"}
+                    leadImage={"url(/static/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach-start.jpg)"}
                 />
             </div>
         );
