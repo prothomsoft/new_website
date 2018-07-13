@@ -172,6 +172,11 @@ export default class ContactMobile extends React.Component {
                             <a>TOMASZ@99FOTO.PL</a>
                         </Link>
                     </p>
+                    <p>
+                        <Link href="/polityka-prywatnosci-rodo">
+                            <a>POLITYKA PRYWATNOŚCI - RODO</a>
+                        </Link>
+                    </p>
                     <div className="spacer_small" />
                     <p>OBSERWUJ MNIE:</p>
                     <div className="spacer_very_small" />

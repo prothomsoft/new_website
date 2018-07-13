@@ -15,6 +15,8 @@ import LeadDesktop from "../components/footer/leadDesktop";
 import LeadMobile from "../components/footer/leadMobile";
 import OfferDesktop from "../components/offer/offerDesktop";
 import OfferMobile from "../components/offer/offerMobile";
+import RodoDesktop from "../components/rodo/rodoDesktop";
+import RodoMobile from "../components/rodo/rodoMobile";
 import SlubDesktop from "../components/slub/slubDesktop";
 import SlubMobile from "../components/slub/slubMobile";
 import SesjaDesktop from "../components/sesja/sesjaDesktop";
@@ -99,6 +101,9 @@ export default class Singlepage extends React.Component {
         if (this.props.componentContentName == "offer") {
             componentContent = <OfferDesktop />;
         }
+        if (this.props.componentContentName == "rodo") {
+            componentContent = <RodoDesktop />;
+        }
         if (this.props.componentContentName == "slub") {
             componentContent = <SlubDesktop />;
         }
@@ -124,6 +129,9 @@ export default class Singlepage extends React.Component {
                 if (this.props.componentContentName == "offer") {
                     componentContent = <OfferMobile />;
                 }
+                if (this.props.componentContentName == "rodo") {
+                    componentContent = <RodoMobile />;
+                }
                 if (this.props.componentContentName == "slub") {
                     componentContent = <SlubMobile />;
                 }
@@ -147,6 +155,9 @@ export default class Singlepage extends React.Component {
                 contact = <ContactDesktop />;
                 if (this.props.componentContentName == "offer") {
                     componentContent = <OfferDesktop />;
+                }
+                if (this.props.componentContentName == "rodo") {
+                    componentContent = <RodoDesktop />;
                 }
                 if (this.props.componentContentName == "slub") {
                     componentContent = <SlubDesktop />;

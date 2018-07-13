@@ -171,9 +171,14 @@ export default class ContactDesktop extends React.Component {
                             </Link>
                         </p>
                         <p>NIP: 8133336677 &nbsp; REGON: 369770278</p>
+                        <p>
+                            <Link href="/polityka-prywatnosci-rodo">
+                                <a>POLITYKA PRYWATNOŚCI - RODO</a>
+                            </Link>
+                        </p>
                     </div>
                     <div className="floatLeft">
-                        <div className="spacer_very_small" />
+                        <div className="spacer_small" />
                         <p>OBSERWUJ MNIE</p>
                         <div className="icon_container">
                             <div className="square">
@@ -287,10 +292,6 @@ export default class ContactDesktop extends React.Component {
 
                 .spacer_small {
                     height: 15px;
-                }
-
-                .spacer_very_small {
-                    height: 10px;
                 }
 
                 .spacer {

@@ -3,7 +3,7 @@ import Link from "next/link";
 import styled from "styled-components";
 import LazyLoad from "react-lazy-load";
 
-export default class OfferDesktop extends React.Component {
+export default class HistoriaDesktop extends React.Component {
     constructor() {
         super();
     }
