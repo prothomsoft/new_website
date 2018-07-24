@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "sesja_slubna_ogrod_botaniczny.jpg",
-                url1: "izabelajakub",
-                title1: "SALA WESELNA SZAFRANTU NIEPOŁOMICE<br/>IZABELA i JAKUB",
+                image1: "sesja_narzeczenska_kopiec_kraka.jpg",
+                url1: "paulinakamil",
+                title1: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
 
-                image2: "sesja_narzeczenska_mogilany.jpg",
-                url2: "kingamichal",
-                title2: "SESJA NARZECZEŃSKA PARK MOGILANY<br/>KINGA i MICHAŁ",
+                image2: "fotograf_slubny_krzeszowice_start.jpg",
+                url2: "olagrzegorz",
+                title2: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
 
-                image3: "fotograf-slubny-magnolia-budzow.jpg",
-                url3: "kingamateusz",
-                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
+                image3: "sesja_narzeczenska_mogilany.jpg",
+                url3: "kingamichal",
+                title3: "SESJA NARZECZEŃSKA PARK MOGILANY<br/>KINGA i MICHAŁ"
             },
 
             {
@@ -22,13 +22,13 @@ export default class ClientPageComponent extends React.Component {
                 url1: "magdaandrzej",
                 title1: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
 
-                image2: "sesja-slubna-krakow-rynek-glowny-wawel-kazimierz.jpg",
-                url2: "katrina",
-                title2: "SESJA ŚLUBNA RYNEK KRAKÓW<br/>CHAN i KATRINA",
+                image2: "sesja_slubna_ogrod_botaniczny.jpg",
+                url2: "izabelajakub",
+                title2: "SALA WESELNA SZAFRANTU NIEPOŁOMICE<br/>IZABELA i JAKUB",
 
-                image3: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach.jpg",
-                url3: "nataliakamil",
-                title3: "SALA WESELNA WILLA ORCHIDEA WAKSMUND<br/>NATALIA i KAMIL"
+                image3: "fotograf-slubny-magnolia-budzow.jpg",
+                url3: "kingamateusz",
+                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
             },
 
             {
@@ -40,9 +40,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "marlenaarek",
                 title2: "HOTEL KOCIERZ BACIARSKA CHATA<br/>MARLENA i ARKADIUSZ",
 
-                image3: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
-                url3: "dajanasylwester",
-                title3: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER"
+                image3: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach.jpg",
+                url3: "nataliakamil",
+                title3: "SALA WESELNA WILLA ORCHIDEA WAKSMUND<br/>NATALIA i KAMIL"
             },
 
             {
@@ -54,9 +54,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "alicjagrzegorz",
                 title2: "RESTAURACJA OLD JOKER JAROSZOWICE<br/>ALICJA i GRZEGORZ",
 
-                image3: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
-                url3: "krystynapiotr",
-                title3: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>KRYSTYNA i PIOTR"
+                image3: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
+                url3: "dajanasylwester",
+                title3: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER"
             },
 
             {
@@ -68,9 +68,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "ewamateusz",
                 title2: "WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ",
 
-                image3: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
-                url3: "nataliapiotr",
-                title3: "MAGICZNY WYSTRÓJ SALI HOTEL MARGERITA<br/>NATALIA i PIOTR"
+                image3: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
+                url3: "krystynapiotr",
+                title3: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>KRYSTYNA i PIOTR"
             },
 
             {
@@ -82,9 +82,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "sandramaciek",
                 title2: "VILLA MARINA i ŚLUB NAD JEZIOREM<br/>SANDRA i MACIEK",
 
-                image3: "karczma-pod-kogutkiem-reportaz-slubny-makow-podhalanski-portfolio.jpg",
-                url3: "gosiarafal",
-                title3: "REPORTAŻ ŚLUBNY MAKÓW PODHALAŃSKI<br/>MAŁGORZATA i RAFAŁ"
+                image3: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
+                url3: "nataliapiotr",
+                title3: "MAGICZNY WYSTRÓJ SALI HOTEL MARGERITA<br/>NATALIA i PIOTR"
             }
         ];
 

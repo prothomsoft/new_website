@@ -150,26 +150,28 @@ export default class BlogPageComponent extends React.Component {
                 <Blogpage
                     slide={slide}
                     images={images}
-                    headTitle={"Zdjęcia ślubne Zajazd Polesie Przybysławice"}
-                    headDescription={"Reportaż ze ślubu Agi i Michała w Zajeździe Polesie - Przybysławice. Uroczystość zaślubin w Kościele pw. Św. Judy Tadeusza w Krakowie. Zapraszam do oglądania."}
-                    headKeywords={"fotograf na wesele kraków,zdjęcia ślubne w restauracji zajazd polesie"}
-                    headUrl={"http://99foto.pl/aga-michal-i-zuzia-zdjecia-slubne-zajazd-polesie-przybyslawice/"}
+                    headTitle={"Fotograf ślubny Krzeszowice, Cztery Pory Roku Alwernia"}
+                    headDescription={
+                        "Reportaż ze ślubu Oli i Grzegorza w Restauracji Cztery Pory Roku w Alwerni. Uroczystość zaślubin w Kościele pw. św. Marcina z Tours w Krzeszowicach. Fotograf ślubny zaprasza do oglądania."
+                    }
+                    headKeywords={"fotograf ślubny Krzeszowice, cztery pory roku Alwernia"}
+                    headUrl={"http://99foto.pl/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia/"}
                     entryContentP1={
-                        'Kilkukrotnie już pisałem, że wesela w górach mają swój niepowtarzalny klimat. Było tak i tym razem na ślubie Natalii i Kamila w Waksmundzie. Ósma rano, flat white na Orlenie, przejazd przez świetnie mi znane pienińskie zakątki, czyli Sromowce Wyżne brzegiem Jeziora Czorsztyńskiego i pierwszy przystanek <a href="https://www.facebook.com/Studio-Urody-Avangarda-Karolina-Bryja-200918166919683/" target="_blank">Studio Urody Avangarda Karoliny Bryja</a>. W tym miejscu rozpoczęliśmy przygotowania. Karolina to kuzynka Natalii, więc w takie rodzinnej atmosferze, mając salon niemalże na wyłączność powstał perfekcyjny makijaż. Podczas przygotowań Natalii towarzyszyły druhny. Wszystkie dziewczyny wyglądały świetnie i błyskawicznie pomogły Natalii założyć suknie, biżuterię, podwiązkę i buty. W oczekiwaniu na Kamila, który do Waksmundu jechał z Jordanowa w kuchni toczyła się alternatywna impreza. Holenderscy goście, którzy na codzień raczej tylko piwko, złamali się i bariera językowa szybko pękła... i nie tylko bariera pękła w tej kuchni. Dalej już błogosławieństwo, wzruszenia i przejazd końmi do <a href="http://www.diecezja.pl/parafie/lista-parafii/32-nowy-targ/parafia-sw-jadwigi-slaskiej.html" taget="_blank">Kościoła Świętej Jadwigi Śląskiej</a> w Waksmundzie.'
+                        'Nasza znajomość z Olą i Grześkiem rozpoczęła się wspólną wyprawą do Ogrodu Pełnego Lawendy w Ostrowie na ich sesję narzeczeńską. Podczas sesji towarzyszył nam piesek Sako. Czas płynie szybko, więc ten ważny dzień, ślubna sobota nadeszła jeszcze szybciej. Makijaż Oli wykonała Kasia w swoim salonie makijażu <a href="https://www.facebook.com/Kasia-Kardas-Make-Up-155460148296115" target="_blank">Katarzyna Kardas Make-Up</a> w Nawojowej Górze. Było wesoło i mega profesjonalnie. Następnie już razem z Darkiem z <a href="http://dbfilm.pl/" target="_blank">Filmy i Teledyski Ślubne Kraków DBFILM</a>, który filmowo dokumentował przygotowania, ceremonie i zabawę weselną udaliśmy się do Grzegorza. Niecałe piętnaście minut wystarczyło nam na wpięcie spinek do mankietów, poprawienie muszki, założenie marynarki i zawiązanie butów. W przygotowaniach Oli pomagała jej mama, pięknie dobrane detale w moim ulubionym błękitnym kolorze wyglądały niesamowicie.  Pełne emocji błogosławieństwo rozpoczęło się krótko po przyjeździe Grzegorza, który następnie porwał Olę do <a href="http://marcinkrzeszowice.pl/" target="_blank">Kościóła pw. św. Marcina z Tours</a> w Krzeszowicach. Dodam jeszcze, że za każdym razem, gdy ktoś z gości próbował otworzyć parasol, deszcz przestawał padać, więc na zdjęciach nie ma go wcale.'
                     }
                     entryContentP2={
-                        'Ksiądz prowadzący ceremonię z pewnością dawno nie widział tylu uśmiechów w trakcie Mszy Świętej. Zdjęcie grupowe i udaliśmy się do położonej w pobliżu <a href="http://www.willa-orchidea.pl/" target="_blank">Sali weselnej Willa Orchidea</a>. Sala ta fioletami elewacji zaprasza gości z daleka i trudno ją przeoczyć podróżując w tamtych stronach. Rodzice przywitali młodych chlebem i solą, następnie goście zjedli obiad i ustawili się w długiej kolejce do życzeń. Natalia czarowała uśmiechem, Kamil nie oszczędzał gorących uścisków, prezentów na stoliku w mgnieniu oka przybywało. Nadszedł czas na pierwszy taniec, tort weselny i cały zestaw zabaw. Animatorki zabawiały dzieciaki, a rodzice korzystali z zasłużonej chwili wolności. Gościom weselnym na parkiecie przygrywał <a href="http://edenzespol.pl" target="_blank">Zespół Eden</a>, wyróżniający się świetnym głosek wokalistki Ewy. Po lekkiej burzy udało nam się wyskoczyć na Waksmundzki punkt widkowy na mini sesję ślubą. Arek ze <a href="http://www.studiostyl.net/" target="_blank">Studio Styl</a> w górę jechał ze mną, ale wracał z młodymi, mówiąc, że tyle się dzieje, że musi to mieć na taśmie. Jestem pewny, że po oczepinach zabawa trwała do samego rana, albo nawet do poniedziałku, bo jak to w górach w planie były przecież oczepiny. Natalio i Kamilu, świetna impreza, oby takich więcej. Dzięki, że mogłem Wam towarzyszyć. Koniec pisania i początek oglądania. Serdecznie zapraszam.'
+                        'Piękny, jasny kościół, wspaniała ceremonia ślubna i wypowiedziane pewnie z uśmiechem na ustach sakramentalne TAK. Po wyjściu z kościoła zrobiliśmy zdjęcie grupowe, a Para młoda przyjęła gorące życzenia od swoich gości. Dalsza część imprezy czyli szalona zabawa weselna odbyła się <a href="http://alwernia-4poryroku.pl/" target="_blank">Restauracji Cztery Pory Roku w Alwernii</a>. Wspaniała sala weselna i super ogród z łatwością pomieścił wszystkich gości. Muzycznie było ambitnie bo grał jeden z moich ulubionych zespółów - <a href="http://www.somgorsy.pl/" target="_blank">Zespół muzyczny Somgorsy</a>. Gabrysia jak zwykle nie tylko śpiewała świetnie, ale równie dobrze prowadziła zabawy weselne. Atrakcją była fotobudka, pociąg, tort weselny i wiadomo o północy oczepiny. Świetnie zorganizowana impreza, wspaniali otwarci ludzie, których fotografowanie było czystą przyjemnością. Olu i Grześku dziękuję za zaufanie i zapraszam na zdjęcia. Miłego oglądania.'
                     }
-                    slug={"aga-michal-i-zuzia-zdjecia-slubne-zajazd-polesie-przybyslawice"}
+                    slug={"fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia"}
                     title={"FOTOGRAF ŚLUBNY KRZESZOWICE, CZTERY PORY ROKU ALWERNIA - ALEKSANDRA i GRZEGORZ"}
-                    tags={"fotograf na wesele kraków,zdjęcia ślubne w restauracji zajazd polesie"}
-                    date={"30 czerwca 2018"}
+                    tags={"fotograf ślubny Krzeszowice, cztery pory roku Alwernia"}
+                    date={"14 lipca 2018"}
                     menuNames={"ALEKSANDRA i GRZEGORZ"}
                     menuTitle={"FOTOGRAF ŚLUBNY KRZESZOWICE, CZTERY PORY ROKU ALWERNIA"}
-                    leadNames={"KAROLINA i BARTEK"}
-                    leadTitle={"ZDJĘCIA ŚLUBNE RESTAURACJA STEK SKAWINA"}
-                    leadUrl={"/zdjecia-slubne-restauracja-stek-skawina"}
-                    leadImage={"url(/static/zdjecia_slubne_restauracja_stek_skawina_start.jpg)"}
+                    leadNames={"NATALIA i KAMIL"}
+                    leadTitle={"SALA WESELNA WILLA ORCHIDEA WAKSMUND - ŚLUB NA PODHALU"}
+                    leadUrl={"/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach"}
+                    leadImage={"url(/static/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach-start.jpg)"}
                 />
             </div>
         );
