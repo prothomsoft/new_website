@@ -8,9 +8,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "paulinakamil",
                 title1: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
 
-                image2: "fotograf_slubny_krzeszowice_start.jpg",
-                url2: "olagrzegorz",
-                title2: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
+                image2: "sala_weselna_soprano_tarnow.jpg",
+                url2: "magdalenalukasz",
+                title2: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ",
 
                 image3: "sesja_narzeczenska_mogilany.jpg",
                 url3: "kingamichal",
@@ -22,9 +22,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "magdaandrzej",
                 title1: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
 
-                image2: "sesja_slubna_ogrod_botaniczny.jpg",
-                url2: "izabelajakub",
-                title2: "SALA WESELNA SZAFRANTU NIEPOŁOMICE<br/>IZABELA i JAKUB",
+                image2: "fotograf_slubny_krzeszowice_start.jpg",
+                url2: "olagrzegorz",
+                title2: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
 
                 image3: "fotograf-slubny-magnolia-budzow.jpg",
                 url3: "kingamateusz",
@@ -36,9 +36,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "magdapiotr",
                 title1: "BALONOWY SZAŁ W HOTELU JUNIOR KRAKÓW<br/>MAGDALENA i PIOTR",
 
-                image2: "marlena_arek_kocierz.jpg",
-                url2: "marlenaarek",
-                title2: "HOTEL KOCIERZ BACIARSKA CHATA<br/>MARLENA i ARKADIUSZ",
+                image2: "sesja_slubna_ogrod_botaniczny.jpg",
+                url2: "izabelajakub",
+                title2: "SALA WESELNA SZAFRANTU NIEPOŁOMICE<br/>IZABELA i JAKUB",
 
                 image3: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach.jpg",
                 url3: "nataliakamil",
@@ -50,9 +50,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "martapiotr",
                 title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
 
-                image2: "slub-w-lanckoronie-restauracja-old-joker-jaroszowice.jpg",
-                url2: "alicjagrzegorz",
-                title2: "RESTAURACJA OLD JOKER JAROSZOWICE<br/>ALICJA i GRZEGORZ",
+                image2: "marlena_arek_kocierz.jpg",
+                url2: "marlenaarek",
+                title2: "HOTEL KOCIERZ BACIARSKA CHATA<br/>MARLENA i ARKADIUSZ",
 
                 image3: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
                 url3: "dajanasylwester",
@@ -64,9 +64,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "kasiapiotr",
                 title1: "DOM WESELNY ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
 
-                image2: "ewa_mateusz_hotel_lenart_portfolio.jpg",
-                url2: "ewamateusz",
-                title2: "WESELE W HOTELU LENART WIELICZKA<br/>EWA i MATEUSZ",
+                image2: "slub-w-lanckoronie-restauracja-old-joker-jaroszowice.jpg",
+                url2: "alicjagrzegorz",
+                title2: "RESTAURACJA OLD JOKER JAROSZOWICE<br/>ALICJA i GRZEGORZ",
 
                 image3: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
                 url3: "krystynapiotr",
