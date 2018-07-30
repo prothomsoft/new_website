@@ -75,7 +75,7 @@ export default class OfferDesktop extends React.Component {
                         <div className="column right">
                             <p>&nbsp;</p>
                             <h2>SESJA ZDJĘCIOWA OBEJMUJĄCA</h2>
-                            <p>cztery godziny fotografowania</p>
+                            <p>trzy godziny fotografowania</p>
                             <p>dwa lub trzy wybrane miejsca plenerowe</p>
                             <p>&nbsp;</p>
                             <div className="spacer_more">&nbsp;</div>

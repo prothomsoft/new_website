@@ -33,7 +33,7 @@ export default class OfferMobile extends React.Component {
                         <h1 className="quote-title">OFERTA SESJI ZDJĘCIOWEJ</h1>
                     </header>
                     <h2>SESJA ZDJĘCIOWA OBEJMUJĄCA</h2>
-                    <p>cztery godziny fotografowania</p>
+                    <p>trzy godziny fotografowania</p>
                     <p>dwa lub trzy wybrane miejsca plenerowe</p>
                     <p>&nbsp;</p>
                     <div className="spacer_more">&nbsp;</div>
