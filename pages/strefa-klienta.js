@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "sesja_narzeczenska_kopiec_kraka.jpg",
-                url1: "paulinakamil",
-                title1: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
+                image1: "hotel_lenart_wieliczka_zdjecia_slubne.jpg",
+                url1: "monikamariusz",
+                title1: "HOTEL LENART WIELICZKA<br/>MONIKA i MARIUSZ",
 
-                image2: "sala_weselna_soprano_tarnow.jpg",
-                url2: "magdalenalukasz",
-                title2: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ",
+                image2: "sesja_narzeczenska_kopiec_kraka.jpg",
+                url2: "paulinakamil",
+                title2: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
 
-                image3: "sesja_narzeczenska_mogilany.jpg",
-                url3: "kingamichal",
-                title3: "SESJA NARZECZEŃSKA PARK MOGILANY<br/>KINGA i MICHAŁ"
+                image3: "sala_weselna_soprano_tarnow.jpg",
+                url3: "magdalenalukasz",
+                title3: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ"
             },
 
             {
@@ -26,23 +26,23 @@ export default class ClientPageComponent extends React.Component {
                 url2: "olagrzegorz",
                 title2: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
 
-                image3: "fotograf-slubny-magnolia-budzow.jpg",
-                url3: "kingamateusz",
-                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
+                image3: "sesja_narzeczenska_mogilany.jpg",
+                url3: "kingamichal",
+                title3: "SESJA NARZECZEŃSKA PARK MOGILANY<br/>KINGA i MICHAŁ"
             },
 
             {
-                image1: "reportaz-slubny-hotel-junior-krakow-balonowy-szal.jpg",
-                url1: "magdapiotr",
-                title1: "BALONOWY SZAŁ W HOTELU JUNIOR KRAKÓW<br/>MAGDALENA i PIOTR",
+                image1: "sesja_slubna_ogrod_botaniczny.jpg",
+                url1: "izabelajakub",
+                title1: "SALA WESELNA SZAFRANTU NIEPOŁOMICE<br/>IZABELA i JAKUB",
 
-                image2: "sesja_slubna_ogrod_botaniczny.jpg",
-                url2: "izabelajakub",
-                title2: "SALA WESELNA SZAFRANTU NIEPOŁOMICE<br/>IZABELA i JAKUB",
+                image2: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach.jpg",
+                url2: "nataliakamil",
+                title2: "SALA WESELNA WILLA ORCHIDEA WAKSMUND<br/>NATALIA i KAMIL",
 
-                image3: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach.jpg",
-                url3: "nataliakamil",
-                title3: "SALA WESELNA WILLA ORCHIDEA WAKSMUND<br/>NATALIA i KAMIL"
+                image3: "fotograf-slubny-magnolia-budzow.jpg",
+                url3: "kingamateusz",
+                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
             },
 
             {

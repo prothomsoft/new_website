@@ -49,8 +49,8 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/08/hotel_lenart_wieliczka_038.jpg", height: 382 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/08/hotel_lenart_wieliczka_039.jpg", height: 763 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/08/hotel_lenart_wieliczka_040.jpg", height: 527 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/08/hotel_lenart_wieliczka_041.jpg", height: 527 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/08/hotel_lenart_wieliczka_042.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/08/hotel_lenart_wieliczka_041.jpg", height: 527 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/08/hotel_lenart_wieliczka_044.jpg", height: 763 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/08/hotel_lenart_wieliczka_043.jpg", height: 762 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/08/hotel_lenart_wieliczka_045.jpg", height: 566 },
@@ -147,23 +147,23 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Zdjęcia ślubne Hotel Lenart Wieliczka, fotograf ślubny"}
                     headDescription={"Reportaż ze ślubu Moniki i Mariusza w Hotelu Lenart w Wieliczce. Uroczystość zaślubin w Kościele św. Sebastiana w Wieliczce. Zapraszam do oglądania."}
                     headKeywords={"fotograf ślubny wieliczka, zdjęcia ślubne hotel lenart w wieliczce"}
-                    headUrl={"http://99foto.pl/aga-michal-i-zuzia-zdjecia-slubne-zajazd-polesie-przybyslawice/"}
+                    headUrl={"http://99foto.pl/hotel-lenart-wieliczka-turkusowy-cadillac-de-ville/"}
                     entryContentP1={
-                        'Kilkukrotnie już pisałem, że wesela w górach mają swój niepowtarzalny klimat. Było tak i tym razem na ślubie Natalii i Kamila w Waksmundzie. Ósma rano, flat white na Orlenie, przejazd przez świetnie mi znane pienińskie zakątki, czyli Sromowce Wyżne brzegiem Jeziora Czorsztyńskiego i pierwszy przystanek <a href="https://www.facebook.com/Studio-Urody-Avangarda-Karolina-Bryja-200918166919683/" target="_blank">Studio Urody Avangarda Karoliny Bryja</a>. W tym miejscu rozpoczęliśmy przygotowania. Karolina to kuzynka Natalii, więc w takie rodzinnej atmosferze, mając salon niemalże na wyłączność powstał perfekcyjny makijaż. Podczas przygotowań Natalii towarzyszyły druhny. Wszystkie dziewczyny wyglądały świetnie i błyskawicznie pomogły Natalii założyć suknie, biżuterię, podwiązkę i buty. W oczekiwaniu na Kamila, który do Waksmundu jechał z Jordanowa w kuchni toczyła się alternatywna impreza. Holenderscy goście, którzy na codzień raczej tylko piwko, złamali się i bariera językowa szybko pękła... i nie tylko bariera pękła w tej kuchni. Dalej już błogosławieństwo, wzruszenia i przejazd końmi do <a href="http://www.diecezja.pl/parafie/lista-parafii/32-nowy-targ/parafia-sw-jadwigi-slaskiej.html" taget="_blank">Kościoła Świętej Jadwigi Śląskiej</a> w Waksmundzie.'
+                        'Zapowiadała się bardzo ciepła słoneczna sobota, bez najmniejszej kropelki deszczu i rzeczywiście tak było. Południowe słońce podgrzało atmosferę do blisko trzydziestu stopni. Gdy dodamy do tego temperaturę wywołaną przez emocje najważniejszego i jak napisała Monika już po ślubie najpiękniejszego dnia w jej życiu, to możecie wyobrazić sobie jak było gorąco. Krótko więc od początku, czyli od przygotowań Panny Młodej, które odbyły się w <a href="https://www.facebook.com/Gabinet-Hibiskus-Wieliczka-152566164795487/" target="_blank">Gabinecie Kosmetycznym Hibiskus w Wieliczce</a>. Dziewczyny pracowały od godziny dziewiątej rano nad fryzurą, malowały i utrwalały paznokcie, a na koniec tych przygotowań mistrzowski makijaż wykonała Ola. Nie mogło zabraknąć kilku minut na przygotowania Mariusza. Podjechaliśmy więc odnaleźć się w totalnie Krakowskich klimatach, mieszkaniu rodziców Pana Młodego w samym centrum naszego pięknego miasta. W ubieraniu spinek, muchy i garnituru ślubnego asystował Wujek Mariusza. Zielony Cadillac de Ville zaparkował przed domem Moniki w Wieliczce. Mariusz szczęśliwy ujżał Monikę po raz pierwszy tego dnia. Widziałem w jego oczach, że chciał, by chwila ta trwała wiecznie. W domu odbyło się błogosławieństwo, a Para Młoda podziękowała rodzicom. Nadszedł czas by udać się do kameralnego <a href="http://kosciol-sebastian.pl/" target="_blank">Kościoła Św. Sebastiana w Wieliczce</a>.'
                     }
                     entryContentP2={
-                        'Ksiądz prowadzący ceremonię z pewnością dawno nie widział tylu uśmiechów w trakcie Mszy Świętej. Zdjęcie grupowe i udaliśmy się do położonej w pobliżu <a href="http://www.willa-orchidea.pl/" target="_blank">Sali weselnej Willa Orchidea</a>. Sala ta fioletami elewacji zaprasza gości z daleka i trudno ją przeoczyć podróżując w tamtych stronach. Rodzice przywitali młodych chlebem i solą, następnie goście zjedli obiad i ustawili się w długiej kolejce do życzeń. Natalia czarowała uśmiechem, Kamil nie oszczędzał gorących uścisków, prezentów na stoliku w mgnieniu oka przybywało. Nadszedł czas na pierwszy taniec, tort weselny i cały zestaw zabaw. Animatorki zabawiały dzieciaki, a rodzice korzystali z zasłużonej chwili wolności. Gościom weselnym na parkiecie przygrywał <a href="http://edenzespol.pl" target="_blank">Zespół Eden</a>, wyróżniający się świetnym głosek wokalistki Ewy. Po lekkiej burzy udało nam się wyskoczyć na Waksmundzki punkt widkowy na mini sesję ślubą. Arek ze <a href="http://www.studiostyl.net/" target="_blank">Studio Styl</a> w górę jechał ze mną, ale wracał z młodymi, mówiąc, że tyle się dzieje, że musi to mieć na taśmie. Jestem pewny, że po oczepinach zabawa trwała do samego rana, albo nawet do poniedziałku, bo jak to w górach w planie były przecież oczepiny. Natalio i Kamilu, świetna impreza, oby takich więcej. Dzięki, że mogłem Wam towarzyszyć. Koniec pisania i początek oglądania. Serdecznie zapraszam.'
+                        'Meczu o szesnastej tym razem nie było, pomimo tego wygłoszone kazanie było tak krótkie, jakby Niemcy grali w półfinale. Sakramentalne TAK, zdjęcie grupowe, moc gorących życzeń przed Kościołem, a dosłownie chwilkę później Monika i Mariusz wylądowali na czerwonym dywanie w <a href="http://hotellenart.pl/" target="_blank">Hotelu Lenart w Wieliczce</a>. Rodzice tradycyjnie przywitali Parę Młodą chlebem i solą, a kieliszki uderzając o ziemię przeszły do historii. Razem z Krzyśkiem z <a href="http://camdesign.pl/" target="_blank">CamDesign - Pracownia Filmu Ślubnego</a> rejestrowaliśmy każdą minutę wydarzeń na parkiecie, oraz wszystkie możliwe zabawy. Goście chętnie korzystali z foto budki, tworząc pamiątkowe wpisy w księdze gości Młodej Pary. Zabawa trwała do białego rana. Moniko i Mariuszu, dziękuję, że mogłem być tam z Wami i zapraszam na zdjęcia. Miłego oglądania. Grubo ponad pięćset zdjęć jak zwykle w strefie klienta, do której hasło znajdziecie na mojej wizytówce.'
                     }
-                    slug={"aga-michal-i-zuzia-zdjecia-slubne-zajazd-polesie-przybyslawice"}
-                    title={"FOTOGRAF ŚLUBNY KRZESZOWICE, CZTERY PORY ROKU ALWERNIA - ALEKSANDRA i GRZEGORZ"}
-                    tags={"fotograf na wesele kraków,zdjęcia ślubne w restauracji zajazd polesie"}
-                    date={"30 czerwca 2018"}
-                    menuNames={"ALEKSANDRA i GRZEGORZ"}
-                    menuTitle={"FOTOGRAF ŚLUBNY KRZESZOWICE, CZTERY PORY ROKU ALWERNIA"}
-                    leadNames={"KAROLINA i BARTEK"}
-                    leadTitle={"ZDJĘCIA ŚLUBNE RESTAURACJA STEK SKAWINA"}
-                    leadUrl={"/zdjecia-slubne-restauracja-stek-skawina"}
-                    leadImage={"url(/static/zdjecia_slubne_restauracja_stek_skawina_start.jpg)"}
+                    slug={"hotel-lenart-wieliczka-turkusowy-cadillac-de-ville"}
+                    title={"HOTEL LENART WIELICZKA, TURKUSOWY CADILLAC DE VILLE"}
+                    tags={"fotograf ślubny wieliczka, zdjęcia ślubne hotel lenart w wieliczce"}
+                    date={"28 lipca 2018"}
+                    menuNames={"MONIKA i MARIUSZ"}
+                    menuTitle={"HOTEL LENART WIELICZKA, TURKUSOWY CADILLAC DE VILLE"}
+                    leadNames={"NATALIA i KAMIL"}
+                    leadTitle={"SALA WESELNA WILLA ORCHIDEA WAKSMUND - ŚLUB NA PODHALU"}
+                    leadUrl={"/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach"}
+                    leadImage={"url(/static/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach-start.jpg)"}
                 />
             </div>
         );
