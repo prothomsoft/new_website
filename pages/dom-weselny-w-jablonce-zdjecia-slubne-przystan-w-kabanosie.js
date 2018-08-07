@@ -176,7 +176,7 @@ export default class BlogPageComponent extends React.Component {
                     slug={"dom-weselny-w-jablonce-zdjecia-slubne-przystan-w-kabanosie"}
                     title={"DOM WESELNY W JABŁONCE, ZDJĘCIA ŚLUBNE PRZYSTAŃ W KABANOSIE - JOLA i TOMEK"}
                     tags={"Dom weselny w Jabłonce, zdjęcia ślubne Przystań w Kabanosie, fotograf na wesele Jabłonka"}
-                    date={"10 luty 2018"}
+                    date={"10 luty 2017"}
                     menuNames={"JOLA i TOMEK"}
                     menuTitle={"DOM WESELNY W JABŁONCE, ZDJĘCIA ŚLUBNE PRZYSTAŃ W KABANOSIE"}
                     leadNames={"KINGA i MACIEK"}

@@ -22,6 +22,8 @@ module.exports = {
             "/blog/page/10": { page: "/blog", query: { page: "10" } },
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/tester": { page: "/tester" },
+
+            "/tiffany-wola-filipowska-first-look-na-dachu-wiezowca": { page: "/tiffany-wola-filipowska-first-look-na-dachu-wiezowca" },
             "/hotel-lenart-wieliczka-turkusowy-cadillac-de-ville": { page: "/hotel-lenart-wieliczka-turkusowy-cadillac-de-ville" },
             "/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia": { page: "/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia" },
             "/sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow": { page: "/sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow" },

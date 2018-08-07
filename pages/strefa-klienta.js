@@ -4,27 +4,27 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "hotel_lenart_wieliczka_zdjecia_slubne.jpg",
-                url1: "monikamariusz",
-                title1: "HOTEL LENART WIELICZKA<br/>MONIKA i MARIUSZ",
+                image1: "restauracja_tiffany_wola_filpowska.jpg",
+                url1: "martamarcin",
+                title1: "RESTAURACJA TIFFANY WOLA FILIPOWSKA<br/>MARTA i MARCIN",
 
-                image2: "sesja_narzeczenska_kopiec_kraka.jpg",
-                url2: "paulinakamil",
-                title2: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
+                image2: "sala_weselna_soprano_tarnow.jpg",
+                url2: "magdalenalukasz",
+                title2: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ",
 
-                image3: "sala_weselna_soprano_tarnow.jpg",
-                url3: "magdalenalukasz",
-                title3: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ"
+                image3: "hotel_lenart_wieliczka_zdjecia_slubne.jpg",
+                url3: "monikamariusz",
+                title3: "HOTEL LENART WIELICZKA<br/>MONIKA i MARIUSZ"
             },
 
             {
-                image1: "magdalena_andrzej_u_niedzwiedzia.jpg",
-                url1: "magdaandrzej",
-                title1: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
+                image1: "sesja_narzeczenska_kopiec_kraka.jpg",
+                url1: "paulinakamil",
+                title1: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
 
-                image2: "fotograf_slubny_krzeszowice_start.jpg",
-                url2: "olagrzegorz",
-                title2: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
+                image2: "magdalena_andrzej_u_niedzwiedzia.jpg",
+                url2: "magdaandrzej",
+                title2: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
 
                 image3: "sesja_narzeczenska_mogilany.jpg",
                 url3: "kingamichal",
@@ -32,13 +32,13 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sesja_slubna_ogrod_botaniczny.jpg",
-                url1: "izabelajakub",
-                title1: "SALA WESELNA SZAFRANTU NIEPOŁOMICE<br/>IZABELA i JAKUB",
+                image1: "fotograf_slubny_krzeszowice_start.jpg",
+                url1: "olagrzegorz",
+                title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
 
-                image2: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach.jpg",
-                url2: "nataliakamil",
-                title2: "SALA WESELNA WILLA ORCHIDEA WAKSMUND<br/>NATALIA i KAMIL",
+                image2: "sesja_slubna_ogrod_botaniczny.jpg",
+                url2: "izabelajakub",
+                title2: "SALA WESELNA SZAFRANTU NIEPOŁOMICE<br/>IZABELA i JAKUB",
 
                 image3: "fotograf-slubny-magnolia-budzow.jpg",
                 url3: "kingamateusz",
@@ -50,9 +50,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "martapiotr",
                 title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
 
-                image2: "marlena_arek_kocierz.jpg",
-                url2: "marlenaarek",
-                title2: "HOTEL KOCIERZ BACIARSKA CHATA<br/>MARLENA i ARKADIUSZ",
+                image2: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach.jpg",
+                url2: "nataliakamil",
+                title2: "SALA WESELNA WILLA ORCHIDEA WAKSMUND<br/>NATALIA i KAMIL",
 
                 image3: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
                 url3: "dajanasylwester",
