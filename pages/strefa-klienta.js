@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "restauracja_tiffany_wola_filpowska.jpg",
-                url1: "martamarcin",
-                title1: "RESTAURACJA TIFFANY WOLA FILIPOWSKA<br/>MARTA i MARCIN",
+                image1: "magdalena_lukasz_myslenice.jpg",
+                url1: "magdalukasz",
+                title1: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>MAGDALENA i ŁUKASZ",
 
-                image2: "sala_weselna_soprano_tarnow.jpg",
-                url2: "magdalenalukasz",
-                title2: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ",
+                image2: "sesja_narzeczenska_mogilany.jpg",
+                url2: "kingamichal",
+                title2: "SESJA NARZECZEŃSKA PARK MOGILANY<br/>KINGA i MICHAŁ",
 
-                image3: "hotel_lenart_wieliczka_zdjecia_slubne.jpg",
-                url3: "monikamariusz",
-                title3: "HOTEL LENART WIELICZKA<br/>MONIKA i MARIUSZ"
+                image3: "sala_weselna_soprano_tarnow.jpg",
+                url3: "magdalenalukasz",
+                title3: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ"
             },
 
             {
@@ -22,13 +22,13 @@ export default class ClientPageComponent extends React.Component {
                 url1: "paulinakamil",
                 title1: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
 
-                image2: "magdalena_andrzej_u_niedzwiedzia.jpg",
-                url2: "magdaandrzej",
-                title2: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
+                image2: "hotel_lenart_wieliczka_zdjecia_slubne.jpg",
+                url2: "monikamariusz",
+                title2: "HOTEL LENART WIELICZKA<br/>MONIKA i MARIUSZ",
 
-                image3: "sesja_narzeczenska_mogilany.jpg",
-                url3: "kingamichal",
-                title3: "SESJA NARZECZEŃSKA PARK MOGILANY<br/>KINGA i MICHAŁ"
+                image3: "restauracja_tiffany_wola_filpowska.jpg",
+                url3: "martamarcin",
+                title3: "RESTAURACJA TIFFANY WOLA FILIPOWSKA<br/>MARTA i MARCIN"
             },
 
             {
@@ -36,9 +36,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "olagrzegorz",
                 title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
 
-                image2: "sesja_slubna_ogrod_botaniczny.jpg",
-                url2: "izabelajakub",
-                title2: "SALA WESELNA SZAFRANTU NIEPOŁOMICE<br/>IZABELA i JAKUB",
+                image2: "magdalena_andrzej_u_niedzwiedzia.jpg",
+                url2: "magdaandrzej",
+                title2: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
 
                 image3: "fotograf-slubny-magnolia-budzow.jpg",
                 url3: "kingamateusz",
@@ -50,9 +50,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "martapiotr",
                 title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
 
-                image2: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach.jpg",
-                url2: "nataliakamil",
-                title2: "SALA WESELNA WILLA ORCHIDEA WAKSMUND<br/>NATALIA i KAMIL",
+                image2: "sesja_slubna_ogrod_botaniczny.jpg",
+                url2: "izabelajakub",
+                title2: "SALA WESELNA SZAFRANTU NIEPOŁOMICE<br/>IZABELA i JAKUB",
 
                 image3: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
                 url3: "dajanasylwester",
@@ -64,9 +64,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "kasiapiotr",
                 title1: "DOM WESELNY ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
 
-                image2: "slub-w-lanckoronie-restauracja-old-joker-jaroszowice.jpg",
-                url2: "alicjagrzegorz",
-                title2: "RESTAURACJA OLD JOKER JAROSZOWICE<br/>ALICJA i GRZEGORZ",
+                image2: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach.jpg",
+                url2: "nataliakamil",
+                title2: "SALA WESELNA WILLA ORCHIDEA WAKSMUND<br/>NATALIA i KAMIL",
 
                 image3: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
                 url3: "krystynapiotr",
