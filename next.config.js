@@ -22,6 +22,7 @@ module.exports = {
             "/blog/page/10": { page: "/blog", query: { page: "10" } },
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/tester": { page: "/tester" },
+            "/palac-goetza-brzesko-sluba-sesja-zdjeciowa": { page: "/palac-goetza-brzesko-sluba-sesja-zdjeciowa" },
             "/ciekawe-miejsce-na-plener-slubny-sesja-slubna-w-tatrach": { page: "/ciekawe-miejsce-na-plener-slubny-sesja-slubna-w-tatrach" },
             "/tiffany-wola-filipowska-first-look-na-dachu-wiezowca": { page: "/tiffany-wola-filipowska-first-look-na-dachu-wiezowca" },
             "/hotel-lenart-wieliczka-turkusowy-cadillac-de-ville": { page: "/hotel-lenart-wieliczka-turkusowy-cadillac-de-ville" },
