@@ -46,14 +46,18 @@ export default class BlogPageComponent extends React.Component {
                     images={images}
                     headTitle={"Ogród Botaniczny w Krakowie, ślubna sesja zdjęciowa Kraków"}
                     headDescription={"Ogród Botaniczny w Krakowie, ślubna sesja zdjęciowa Dajany i Sylwestra. Sierpniowe słońce i ogrom emocji. Na sesje tylko Kraków. Zapraszam do oglądania."}
-                    headKeywords={"pOgród Botaniczny w Krakowie, ślubna sesja zdjęciowa Kraków, plener ślubny w dzień po ślubie"}
+                    headKeywords={"Ogród Botaniczny w Krakowie, ślubna sesja zdjęciowa Kraków, plener ślubny w dzień po ślubie"}
                     headUrl={"http://99foto.pl/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa/"}
-                    entryContentP1={"123"}
-                    entryContentP2={"123"}
+                    entryContentP1={
+                        "Sierpień to miesiąc magiczny, zachodzące słońce, którego ostatnio nam wszystkim nie brakuje z każdego miejsca na ziemi z łatwością tworzy niezapomniane obrazki. W jeden z takich idealnie upolowanych dni spotkaliśmy się z Dajaną i Sylwestrem na ślubnej sesji zdjęciowej w Ogrodzie Botanicznym w Krakowie. Miejsce to odwiedzam systematycznie, nie tylko z parami, którym robię zdjęcia plenerowe, ale również z Michałem, Martą i Jackiem moimi dzieciakami, które uwielbiają spacerować po pełnych zieleni alejkach. A to wszystko w sercu naszego pięknego miasta Krakowa. Ogród Botaniczny przechodzi gruntowne mega pozytywne zmiany i widać ogromny postęp w dbałości o szczegóły, gdy porównamy je do stanu obiektów Ogrodu Botanicznego sprzed dwóch lat."
+                    }
+                    entryContentP2={
+                        'Oczywiście nie mogło być za łatwo i na nasz plener nie udało się nam umówić za pierwszym razem. Ale wiadomo, że do trzech razy sztuka, w końcu udało się i mam nadzieję, że znajdziecie chwilkę na oglądnięcie zdjęć. Nie chcę się powtarzać, ale czasem nie warto pokonywać niezliczonej ilości kilometrów, gdy miejsce gwarantujące świetne zdjęcia znajduje się pod naszym nosem. Nominuję więc <a href="http://www.ogrod.uj.edu.pl/" target="_blank">Ogród Botaniczny w Krakowie</a> na miejsce numer jeden na sierpniowy plener ślubny. Zapraszam na zdjęcia i życzęm miłego oglądania.'
+                    }
                     slug={"ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
                     title={"OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA - DAJANA i SYLWESTER"}
-                    tags={"pałac goetz, pałac goetza brzesko, ślubna sesja zdjęcia, sala ślubna pałac goetz, wesele pod krakowem"}
-                    date={"19 sierpnia 2018"}
+                    tags={"Ogród Botaniczny w Krakowie, ślubna sesja zdjęciowa Kraków, plener ślubny w dzień po ślubie"}
+                    date={"23 sierpnia 2018"}
                     menuNames={"DAJANA i SYLWESTER"}
                     menuTitle={"OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA"}
                     leadNames={"MARTA i MARCIN"}

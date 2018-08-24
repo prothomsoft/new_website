@@ -4,27 +4,27 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
+                image1: "kopiec_krakusa.jpg",
+                url1: "martabartek",
+                title1: "SESJA NARZECZEŃSKA RYNEK PODGÓRSKI<br/>MARTA i BARTEK",
+
+                image2: "arkadia_wadowice_karolina_mateusz.jpg",
+                url2: "karolinamateusz",
+                title2: "SALA WESELNA ARKADIA WADOWICE<br/>KAROLINA i MATEUSZ",
+
+                image3: "sesja_narzeczenska_mogilany.jpg",
+                url3: "kingamichal",
+                title3: "SESJA NARZECZEŃSKA PARK MOGILANY<br/>KINGA i MICHAŁ"
+            },
+
+            {
                 image1: "magdalena_lukasz_myslenice.jpg",
                 url1: "magdalukasz",
                 title1: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>MAGDALENA i ŁUKASZ",
 
-                image2: "sesja_narzeczenska_mogilany.jpg",
-                url2: "kingamichal",
-                title2: "SESJA NARZECZEŃSKA PARK MOGILANY<br/>KINGA i MICHAŁ",
-
-                image3: "sala_weselna_soprano_tarnow.jpg",
-                url3: "magdalenalukasz",
-                title3: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ"
-            },
-
-            {
-                image1: "sesja_narzeczenska_kopiec_kraka.jpg",
-                url1: "paulinakamil",
-                title1: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
-
-                image2: "hotel_lenart_wieliczka_zdjecia_slubne.jpg",
-                url2: "monikamariusz",
-                title2: "HOTEL LENART WIELICZKA<br/>MONIKA i MARIUSZ",
+                image2: "sala_weselna_soprano_tarnow.jpg",
+                url2: "magdalenalukasz",
+                title2: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ",
 
                 image3: "restauracja_tiffany_wola_filpowska.jpg",
                 url3: "martamarcin",
@@ -32,9 +32,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "fotograf_slubny_krzeszowice_start.jpg",
-                url1: "olagrzegorz",
-                title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
+                image1: "sesja_narzeczenska_kopiec_kraka.jpg",
+                url1: "paulinakamil",
+                title1: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
 
                 image2: "magdalena_andrzej_u_niedzwiedzia.jpg",
                 url2: "magdaandrzej",
@@ -46,9 +46,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "marta_piotr_kajasowka.jpg",
-                url1: "martapiotr",
-                title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
+                image1: "fotograf_slubny_krzeszowice_start.jpg",
+                url1: "olagrzegorz",
+                title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
 
                 image2: "sesja_slubna_ogrod_botaniczny.jpg",
                 url2: "izabelajakub",
@@ -60,9 +60,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg",
-                url1: "kasiapiotr",
-                title1: "DOM WESELNY ALEKSANDRA MSZANA DOLNA<br/>KASIA i PIOTR",
+                image1: "marta_piotr_kajasowka.jpg",
+                url1: "martapiotr",
+                title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
 
                 image2: "sala-weselna-willa-orchidea-waksmund-slub-w-pieninach.jpg",
                 url2: "nataliakamil",

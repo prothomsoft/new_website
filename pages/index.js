@@ -7,7 +7,7 @@ export default class Index extends React.Component {
                 imageUrl: "/static/lomnicki_staw_portfolio_start.jpg"
             },
             {
-                imageUrl: "/static/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-start.jpg"
+                imageUrl: "/static/ogrod_botaniczny.jpg"
             },
             {
                 imageUrl: "/static/sala_weselna_nedan_pcim_reportaz_slubny_start.jpg"
