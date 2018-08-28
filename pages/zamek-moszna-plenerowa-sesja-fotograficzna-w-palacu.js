@@ -36,26 +36,26 @@ export default class BlogPageComponent extends React.Component {
                 <Blogpage
                     slide={slide}
                     images={images}
-                    headTitle={"Ogród Botaniczny w Krakowie, ślubna sesja zdjęciowa Kraków"}
-                    headDescription={"Ogród Botaniczny w Krakowie, ślubna sesja zdjęciowa Dajany i Sylwestra. Sierpniowe słońce i ogrom emocji. Na sesje tylko Kraków. Zapraszam do oglądania."}
-                    headKeywords={"pOgród Botaniczny w Krakowie, ślubna sesja zdjęciowa Kraków, plener ślubny w dzień po ślubie"}
-                    headUrl={"http://99foto.pl/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa/"}
+                    headTitle={"Zamek Moszna, plenerowa sesja fotograficzna, zdjęcia ślubne w pałacu"}
+                    headDescription={"Zamek Moszna, plenerowa ślubna sesja zdjęciowa Aleksandry i Grzegorza. Pałac z przepięknym ogrodem często wybierany na sesje ślubne. Zapraszam do oglądania."}
+                    headKeywords={"zamek moszna, plenerowa sesja fotograficzna, zdjęcia ślubne w pałacu"}
+                    headUrl={"http://99foto.pl/zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu/"}
                     entryContentP1={
-                        'Wiedziałem, że to kwestia czasu... i pewnego dnia, <a href="http://www.moszna-zamek.pl/" target="_blank">Zamek Moszna</a> mocno znany z dwuznacznej nazwy miejscowości w której powstał trafi do mojego portfolio. Nie było to do końca oczywiste tylko i wyłącznie ze względu na odległość do pokonania pomiędzy Krakowem, a bardzo popularną pałacową miejscówką na sesję ślubną. Kiedyś wracając z wakacji z Górach Stołowych, było blisko i po drodze, ale ten ostatni dzień był zbyt deszczowy.  Ale pamiętacie, sesje plenerowe są raz w życiu i są między innymi po to, by z ich pomocą spełniać marzenia.'
+                        'Wiedziałem, że to kwestia czasu... i pewnego dnia, <a href="http://www.moszna-zamek.pl/" target="_blank">Zamek Moszna</a> mocno znany z nazwy miejscowości w której powstał trafi do mojego portfolio. Nie było to do końca oczywiste tylko i wyłącznie ze względu na odległość do pokonania pomiędzy Krakowem, a bardzo popularną pałacową miejscówką na sesję ślubną. Dwa lata temu wracając z rodzinnych wakacji w Górach Stołowych, było nam bardzo blisko i po drodze by odwiedzić ten zamek, ale niestety deszcz zmienił nasze plany. Pamiętacie? Sesje plenerowe są raz w życiu i są między innymi po to, by z ich pomocą spełniać marzenia.'
                     }
                     entryContentP2={
-                        'Pamiętali o tym również Ola i Grzegorz, którzy spośród kilku okolicznych zamków i pałaców wybrali ten najmniej okoliczny, ale najwspanialszy - Zamek w Mosznej. Zastanawialiśmy się również nad opuszczonym <a href="https://www.facebook.com/palackrowiarki/" target="_blank">Pałacu w Krowiarkach</a>, czy Pałacu Goetza, który znajdziecie w moim poprzednim pałacowym wpisie na blogu. Pogodę mieliśmy świetną, zamkowa cisza i spokój została delikatnie zaburzona przez cztery inne pary, które w tym samym czasie plenerowały, spełniając swoje marzenia. Fryzura i makijaż Oli równie perfekcyjny jak w dniu ślubu i morze tematów, które poruszyliśmy tego dnia z Grześkiem. Zapraszam na zdjęcia i życzę miłego oglądania.'
+                        'Pamiętali o tym również Ola i Grzegorz, którzy spośród kilku okolicznych zamków i pałaców wybrali ten najmniej okoliczny, ale najwspanialszy - Zamek w Mosznej. Zastanawialiśmy się również nad opuszczonym <a href="https://www.facebook.com/palackrowiarki/" target="_blank">Pałacu w Krowiarkach</a>, czy Pałacu Goetza, który znajdziecie w moim poprzednim pałacowym wpisie na blogu. Pogodę mieliśmy świetną, zamkowa cisza i spokój została delikatnie zaburzona przez cztery inne pary, które w tym samym czasie plenerowały, spełniając swoje marzenia. Cóż więcej mogę rzec - fryzura i makijaż Oli były równie perfekcyjny jak w dniu ślubu i morze tematów, które poruszyliśmy tego dnia z Grześkiem, było niemierzalne. Zapraszam na zdjęcia i życzę miłego oglądania.'
                     }
-                    slug={"ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
-                    title={"OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA - DAJANA i SYLWESTER"}
-                    tags={"pałac goetz, pałac goetza brzesko, ślubna sesja zdjęcia, sala ślubna pałac goetz, wesele pod krakowem"}
-                    date={"19 sierpnia 2018"}
+                    slug={"zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu"}
+                    title={"ZAMEK MOSZNA, PLENEROWA SESJA FOTOGRAFICZNA W PAŁACU - ALEKSANDRA i GRZEGORZ"}
+                    tags={"zamek moszna, plenerowa sesja fotograficzna, zdjęcia ślubne w pałacu"}
+                    date={"28 sierpnia 2018"}
                     menuNames={"ALEKSANDRA i GRZEGORZ"}
-                    menuTitle={"ZAMEK MOSZNA, ŚLUBNA PLENEROWA SESJA FOTOGRAFICZNA"}
-                    leadNames={"MARTA i MARCIN"}
-                    leadTitle={"WESELE POD KRAKOWEM, FIRST LOOK NA DACHU WIEŻOWCA"}
-                    leadUrl={"/tiffany-wola-filipowska-first-look-na-dachu-wiezowca"}
-                    leadImage={"url(/static/restauracja_tiffany_wola_filpowska.jpg)"}
+                    menuTitle={"ZAMEK MOSZNA, PLENEROWA SESJA FOTOGRAFICZNA W PAŁACU"}
+                    leadNames={"DAJANA i SYLWESTER"}
+                    leadTitle={"OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA W OGRODZIE"}
+                    leadUrl={"/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
+                    leadImage={"url(/static/ogrod_botaniczny.jpg)"}
                 />
             </div>
         );
