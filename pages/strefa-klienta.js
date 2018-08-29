@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "kopiec_krakusa.jpg",
+                image1: "marta_bartek.jpg",
                 url1: "martabartek",
-                title1: "SESJA NARZECZEŃSKA RYNEK PODGÓRSKI<br/>MARTA i BARTEK",
+                title1: "HOTEL FERO EXPRESS KRAKÓW<br/>MARTA i BARTEK",
 
                 image2: "arkadia_wadowice_karolina_mateusz.jpg",
                 url2: "karolinamateusz",
