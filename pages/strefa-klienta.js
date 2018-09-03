@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "marta_bartek.jpg",
-                url1: "martabartek",
-                title1: "HOTEL FERO EXPRESS KRAKÓW<br/>MARTA i BARTEK",
+                image1: "kristina.jpg",
+                url1: "kristinaaleksandr",
+                title1: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
 
                 image2: "arkadia_wadowice_karolina_mateusz.jpg",
                 url2: "karolinamateusz",
                 title2: "SALA WESELNA ARKADIA WADOWICE<br/>KAROLINA i MATEUSZ",
 
-                image3: "sesja_narzeczenska_mogilany.jpg",
-                url3: "kingamichal",
-                title3: "SESJA NARZECZEŃSKA PARK MOGILANY<br/>KINGA i MICHAŁ"
+                image3: "marta_bartek.jpg",
+                url3: "martabartek",
+                title3: "HOTEL FERO EXPRESS KRAKÓW<br/>MARTA i BARTEK"
             },
 
             {
