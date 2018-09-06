@@ -49,7 +49,7 @@ export default class BlogPageComponent extends React.Component {
                     slug={"zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu"}
                     title={"ZAMEK MOSZNA, PLENEROWA SESJA FOTOGRAFICZNA W PAŁACU - ALEKSANDRA i GRZEGORZ"}
                     tags={"zamek moszna, plenerowa sesja fotograficzna, zdjęcia ślubne w pałacu"}
-                    date={"28 sierpnia 2018"}
+                    date={"29 lipca 2018"}
                     menuNames={"ALEKSANDRA i GRZEGORZ"}
                     menuTitle={"ZAMEK MOSZNA, PLENEROWA SESJA FOTOGRAFICZNA W PAŁACU"}
                     leadNames={"DAJANA i SYLWESTER"}
