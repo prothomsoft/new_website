@@ -128,7 +128,7 @@ export default class OfferDesktop extends React.Component {
                         cursor: pointer;
                         position: relative;
                         width: 420px;
-                        margin: 0 20px 0 20px;
+                        margin: 0 10px;
                     }
 
                     article {
@@ -192,7 +192,7 @@ export default class OfferDesktop extends React.Component {
                     .quote-title::before,
                     .quote-title::after {
                         flex-grow: 1;
-                        margin: 0 20px;
+                        margin: 0 10px;
                     }
                 `}</style>
             </div>

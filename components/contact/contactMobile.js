@@ -282,7 +282,7 @@ export default class ContactMobile extends React.Component {
                 .quote-title::before,
                 .quote-title::after {
                     flex-grow: 1;
-                    margin: 0 20px;
+                    margin: 0 10px;
                 }
                 
                 .spacer {

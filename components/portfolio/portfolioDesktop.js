@@ -95,21 +95,24 @@ export default class PortfolioDesktop extends Component {
                         <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    WESELE W GÓRALSKIM KLIMACIE<br /> NATALIA i KAMIL
+                                    WESELE W GÓRALSKIM KLIMACIE
+                                    <br /> NATALIA i KAMIL
                                 </p>
                             </div>
                         </Link>
                         <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    REPORTAŻ ŚLUBNY JORDANÓW<br /> ANNA i KRZYSZTOF
+                                    REPORTAŻ ŚLUBNY JORDANÓW
+                                    <br /> ANNA i KRZYSZTOF
                                 </p>
                             </div>
                         </Link>
                         <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    SESJA ZDJĘCIOWA W GÓRACH<br /> MAŁGORZATA i RAFAŁ
+                                    SESJA ZDJĘCIOWA W GÓRACH
+                                    <br /> MAŁGORZATA i RAFAŁ
                                 </p>
                             </div>
                         </Link>
@@ -141,14 +144,17 @@ export default class PortfolioDesktop extends Component {
                         <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    SESJA ŚLUBNA KRAKÓW<br /> CHAN i KATRINA
+                                    SESJA ŚLUBNA KRAKÓW
+                                    <br /> CHAN i KATRINA
                                 </p>
                             </div>
                         </Link>
                         <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    MAGICZNY WYSTRÓJ SALI WESELNEJ<br />NATALIA i PIOTR
+                                    MAGICZNY WYSTRÓJ SALI WESELNEJ
+                                    <br />
+                                    NATALIA i PIOTR
                                 </p>
                             </div>
                         </Link>
@@ -187,21 +193,24 @@ export default class PortfolioDesktop extends Component {
                         <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    SESJA ŚLUBNA LAWENDOWE POLE<br /> EWELINA i KAMIL
+                                    SESJA ŚLUBNA LAWENDOWE POLE
+                                    <br /> EWELINA i KAMIL
                                 </p>
                             </div>
                         </Link>
                         <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    DEKORACJA SALI W STYLU RUSTYKALNYM<br /> KINGA i MACIEK
+                                    DEKORACJA SALI W STYLU RUSTYKALNYM
+                                    <br /> KINGA i MACIEK
                                 </p>
                             </div>
                         </Link>
                         <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                             <div className="porfolioCaption">
                                 <h4 style={{ textAlign: "center" }}>
-                                    FOTOGRAF ŚLUBNY KRAKÓW <br />DAJANA i SYLWESTER
+                                    FOTOGRAF ŚLUBNY KRAKÓW <br />
+                                    DAJANA i SYLWESTER
                                 </h4>
                             </div>
                         </Link>
@@ -212,7 +221,7 @@ export default class PortfolioDesktop extends Component {
                     .porfolioImage {
                         position: relative;
                         width: 420px;
-                        margin: 0 20px 0 20px;
+                        margin: 0 20px;
                         border: 2px solid transparent;
                         transition: border 0.5s;
                         cursor: pointer;
@@ -230,7 +239,7 @@ export default class PortfolioDesktop extends Component {
                         cursor: pointer;
                         position: relative;
                         width: 420px;
-                        margin: 0 20px 0 20px;
+                        margin: 0 20px;
                     }
 
                     .porfolioCaption h3 {
@@ -304,7 +313,7 @@ export default class PortfolioDesktop extends Component {
                     .quote-title::before,
                     .quote-title::after {
                         flex-grow: 1;
-                        margin: 0 20px;
+                        margin: 0 10px;
                     }
                 `}</style>
             </div>

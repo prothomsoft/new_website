@@ -93,7 +93,7 @@ export default class ClientDesktop extends React.Component {
                     .porfolioImage {
                         position: relative;
                         width: 340px;
-                        margin: 0 20px 0 20px;
+                        margin: 0 20px;
                         border: 2px solid transparent;
                         transition: border 0.5s;
                         cursor: pointer;
@@ -108,7 +108,7 @@ export default class ClientDesktop extends React.Component {
                         cursor: pointer;
                         position: relative;
                         width: 340px;
-                        margin: 0 20px 0 20px;
+                        margin: 0 20px;
                     }
                     article {
                         display: flex;
@@ -151,7 +151,7 @@ export default class ClientDesktop extends React.Component {
                     .quote-title::before,
                     .quote-title::after {
                         flex-grow: 1;
-                        margin: 0 20px;
+                        margin: 0 10px;
                     }
                 `}</style>
             </div>

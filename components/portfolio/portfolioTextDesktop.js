@@ -78,7 +78,8 @@ export default class PortfolioTextDesktop extends Component {
                         Serdecznie zachęcam do odwiedzenia{" "}
                         <Link href="/blog">
                             <a>mojego bloga</a>
-                        </Link>. Przeglądając umieszczone tam zdjęcia ocenisz mój sposób postrzegania otaczającego nas świata. Polecam Kraków i okolice. Serdecznie zapraszam.
+                        </Link>
+                        . Przeglądając umieszczone tam zdjęcia ocenisz mój sposób postrzegania otaczającego nas świata. Polecam Kraków i okolice. Serdecznie zapraszam.
                     </p>
                 </article>
 
@@ -124,7 +125,7 @@ export default class PortfolioTextDesktop extends Component {
                     .quote-title::before,
                     .quote-title::after {
                         flex-grow: 1;
-                        margin: 0 20px;
+                        margin: 0 10px;
                     }
                 `}</style>
             </div>

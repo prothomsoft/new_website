@@ -125,7 +125,7 @@ export default class PortfolioMobile extends Component {
                     }
                     .porfolioCaption {
                         cursor: pointer;                
-                        margin: 0 20px 0 20px;
+                        margin: 0 10px;
                     }                    
                     article {
                         display: flex;
@@ -173,7 +173,7 @@ export default class PortfolioMobile extends Component {
                     .quote-title::before,
                     .quote-title::after {
                         flex-grow: 1;
-                        margin: 0 20px;
+                        margin: 0 10px;
                     } 
                     
                 `}</style>
