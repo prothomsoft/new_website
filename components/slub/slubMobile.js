@@ -109,7 +109,7 @@ export default class SlubMobile extends React.Component {
                         najpiękniejsze chwile w życiu! <Link href="/paulina-i-bartek-sesja-poslubna-kasprowy-wierch-i-nosal-zakopane">Paulina i Bartek</Link>.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/dom_weselny_marion_wesele_tarnow_i_zdjecia_slubne_portfolio.jpg"} />
+                        <img src={"/static/portfolio/marta_piotr_kajasowka.jpg"} />
                     </LazyLoad>
                     <p>
                         Tak jak już wiele osób pisało – Tomek to profesjonalista w każdym calu! W niesamowity sposób uwiecznia na zdjęciach najważniejsze chwile – pełne wzruszeń, pozytywnych emocji i

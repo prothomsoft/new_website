@@ -17,17 +17,18 @@ export default class OfferDesktop extends React.Component {
 
                     <div className="container">
                         <div className="column left">
-                            <Link href="/wesele-w-goralskim-klimacie-przystan-kabanos-spytkowice">
+                            <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
                                 <div className="porfolioImage">
                                     <LazyLoad height={225} offsetVertical={300}>
-                                        <img src={"/static/portfolio_dtp/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg"} />
+                                        <img src={"/static/portfolio_dtp/marta_bartek.jpg"} />
                                     </LazyLoad>
                                 </div>
                             </Link>
-                            <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
+
+                            <Link href="/tiffany-wola-filipowska-first-look-na-dachu-wiezowca">
                                 <div className="porfolioImage">
                                     <LazyLoad height={225} offsetVertical={300}>
-                                        <img src={"/static/portfolio_dtp/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
+                                        <img src={"/static/portfolio_dtp/dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna.jpg"} />
                                     </LazyLoad>
                                 </div>
                             </Link>
@@ -56,17 +57,17 @@ export default class OfferDesktop extends React.Component {
 
                     <div className="container">
                         <div className="column left">
-                            <Link href="/sesja-narzeczenska-krakow">
+                            <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                                 <div className="porfolioImage">
                                     <LazyLoad height={225} offsetVertical={300}>
-                                        <img src={"/static/portfolio_dtp/sesja_narzeczenska_krakow_portfolio.jpg"} />
+                                        <img src={"/static/portfolio_dtp/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} />
                                     </LazyLoad>
                                 </div>
                             </Link>
-                            <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">
+                            <Link href="/palac-goetza-brzesko-sluba-sesja-zdjeciowa">
                                 <div className="porfolioImage">
                                     <LazyLoad height={225} offsetVertical={300}>
-                                        <img src={"/static/portfolio_dtp/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg"} />
+                                        <img src={"/static/portfolio_dtp/palac_goetza_brzesko.jpg"} />
                                     </LazyLoad>
                                 </div>
                             </Link>

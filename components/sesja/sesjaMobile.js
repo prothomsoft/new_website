@@ -20,7 +20,7 @@ export default class SesjaMobile extends React.Component {
                         chętnie odwiedzane przez turystów, pełne historii miasto. Fajnych miejsc na sesję zdjęciową nie musimy szukać długo.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg"} />
+                        <img src={"/static/portfolio/ogrod_botaniczny.jpg"} />
                     </LazyLoad>
                     <p>
                         Na północ od Krakowa rozciągają się atrakcje turystyczne Jury Krakowsko-Częstochowskiej reprezentowane przez Ojcowski Park Narodowy, Zamek w Pieskowej Skale, Dwór w
@@ -28,7 +28,7 @@ export default class SesjaMobile extends React.Component {
                         w Mogilanach, Kopiec Kraka i Park Bednarskiego. Wschód Krakowa natomiast to industrialne klimaty Nowej Huty oraz Muzeum Lotnictwa na Czyżynach.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/sesja_slubna_w_plenerze_park_krajobrazowy_w_ojcowie_i_okolice_portfolio.jpg"} />
+                        <img src={"/static/portfolio/marta_bartek.jpg"} />
                     </LazyLoad>
                     <p>
                         Centrum to kwintesencja Krakowa czyli Bulwary Wiślane, Kazimierz z ulicą Szeroką, Plac Nowy, kluby i restauracje reprezentowane przez Mleczarnię, Alchemię, Starą Zajezdnie i
@@ -37,7 +37,7 @@ export default class SesjaMobile extends React.Component {
                         gwarantuję, że znajdziecie coś dla siebie.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/sesja_narzeczenska_krakow_portfolio.jpg"} />
+                        <img src={"/static/portfolio/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
                         Sesja zdjęciowa w Krakowie to przede wszystkim dobry plan w układaniu którego bardzo chętnie Wam pomogę, konsultując logistykę miejsc, podpowiadając pory dnia, które będą
@@ -45,11 +45,11 @@ export default class SesjaMobile extends React.Component {
                         sesji oryginalności.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/sesja_zdjeciowa_dwor_tomaszowice_krakow_portfolio.jpg"} />
+                        <img src={"/static/portfolio/kristina.jpg"} />
                     </LazyLoad>
                     <p>Warto też przygotować makijaż i fryzurę zbliżone do tego z dnia ślubu . Koniecznie należy też zabrać ze sobą dobry humor, gdyż jest to bardzo ale to bardzo ważne.</p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg"} />
+                        <img src={"/static/portfolio/kopiec_krakusa_sesja_slubna.jpg"} />
                     </LazyLoad>
                     <p>
                         Fotografia jest moją pasją od lat. Jak nie trudno zgadnąć skala kreatywności poczas sesji zdjęciowych sięga zenitu. Każdy wieczór poprzedzający sesję zdjęciową mija mi na
@@ -116,7 +116,7 @@ export default class SesjaMobile extends React.Component {
                         <Link href="/wesele-tarnow-dwor-bistuszowa-i-staropolski-klimat-slubny">Aleksandra i Przemek</Link>.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/sesja_zdjeciowa_krakow_8_portfolio.jpg"} />
+                        <img src={"/static/portfolio/sesja_slubna_w_plenerze_park_krajobrazowy_w_ojcowie_i_okolice_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
                         Serdecznie polecamy. Niezwykle profesjonalne podejście, bardzo miła atmosfera i przepiękne zdjęcia! Długo zastanawialiśmy się nad wyborem fotografa, ale wiemy, że nie mogliśmy
