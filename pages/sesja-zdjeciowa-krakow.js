@@ -10,15 +10,15 @@ export default class SesjaPageComponent extends React.Component {
                     headKeywords={"sesja zdjęciowa kraków, plener ślubny w krakowie"}
                     headUrl={"http://99foto.pl/sesja-zdjeciowa-krakow/"}
                     componentContentName={"sesja"}
-                    slug={"sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja"}
-                    title={"SESJA ŚLUBNA STRBSKIE PLESO i POPRADZKI STAW, SŁOWACJA - IWONA i MARCIN"}
-                    date={"3 LISTOPADA 2017"}
-                    tags={"PLENER STRBSKIE PLESO, POPRADZKI STAW ZDJĘCIA ŚLUBNE, SESJA ŚLUBNA SŁOWACJA"}
-                    backgroundImage={"url(/static/hotel_qubus_krakow_sesja_zdjeciowa_start.jpg)"}
-                    leadNames={"EWELINA i KAMIL"}
-                    leadTitle={"HOTEL QUBUS KRAKÓW SESJA ZDJĘCIOWA"}
-                    leadUrl={"/hotel-qubus-krakow-sesja-zdjeciowa"}
-                    leadImage={"url(/static/hotel_qubus_krakow_sesja_zdjeciowa_start.jpg)"}
+                    slug={"sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew"}
+                    title={"ŚLUBNA SESJA ZDJĘCIOWA W KRAKOWIE - KRISTINA i ALEKSANDR"}
+                    date={"19 WRZEŚNIA 2018"}
+                    tags={"ŚLUBNA SESJA ZDJĘCIOWA W KRAKOWIE"}
+                    backgroundImage={"url(/static/plener_slubny_zamek_pieskowa_skala.jpg)"}
+                    leadNames={"KRISTINA i ALEKSANDR"}
+                    leadTitle={"SESJA ŚLUBNA, PLENER ŚLUBNY W KRAKOWIE"}
+                    leadUrl={"/sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew"}
+                    leadImage={"url(/static/plener_slubny_zamek_pieskowa_skala.jpg)"}
                 />
             </div>
         );

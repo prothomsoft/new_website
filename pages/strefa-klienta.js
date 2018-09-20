@@ -4,23 +4,37 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "kristina.jpg",
-                url1: "kristinaaleksandr",
-                title1: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
+                image1: "magda_grzegorz.jpg",
+                url1: "magdagrzegorz",
+                title1: "RESTAURACJA KOLIBA MURZASICHLE<br/>MAGDALENA i GRZEGORZ",
 
-                image2: "karolina_mateusz.jpg",
-                url2: "km",
-                title2: "DOM WESELNY SZLACHECKI DWÓR RACŁAWICE<br/>KAROLINA i MATEUSZ",
+                image2: "marta_bartek.jpg",
+                url2: "martabartek",
+                title2: "HOTEL FERO EXPRESS KRAKÓW<br/>MARTA i BARTEK",
 
-                image3: "marta_bartek.jpg",
-                url3: "martabartek",
-                title3: "HOTEL FERO EXPRESS KRAKÓW<br/>MARTA i BARTEK"
+                image3: "kristina.jpg",
+                url3: "kristinaaleksandr",
+                title3: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR"
             },
 
             {
                 image1: "magdalena_lukasz_myslenice.jpg",
                 url1: "magdalukasz",
                 title1: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>MAGDALENA i ŁUKASZ",
+
+                image2: "arkadia_wadowice_karolina_mateusz.jpg",
+                url2: "karolinamateusz",
+                title2: "SALA WESELNA ARKADIA WADOWICE<br/>KAROLINA i MATEUSZ",
+
+                image3: "karolina_mateusz.jpg",
+                url3: "km",
+                title3: "DOM WESELNY SZLACHECKI DWÓR RACŁAWICE<br/>KAROLINA i MATEUSZ"
+            },
+
+            {
+                image1: "sesja_narzeczenska_kopiec_kraka.jpg",
+                url1: "paulinakamil",
+                title1: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
 
                 image2: "restauracja_tiffany_wola_filpowska.jpg",
                 url2: "martamarcin",
@@ -32,20 +46,6 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sesja_narzeczenska_kopiec_kraka.jpg",
-                url1: "paulinakamil",
-                title1: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
-
-                image2: "arkadia_wadowice_karolina_mateusz.jpg",
-                url2: "karolinamateusz",
-                title2: "SALA WESELNA ARKADIA WADOWICE<br/>KAROLINA i MATEUSZ",
-
-                image3: "fotograf-slubny-magnolia-budzow.jpg",
-                url3: "kingamateusz",
-                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
-            },
-
-            {
                 image1: "fotograf_slubny_krzeszowice_start.jpg",
                 url1: "olagrzegorz",
                 title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
@@ -54,9 +54,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "magdalenalukasz",
                 title2: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ",
 
-                image3: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
-                url3: "dajanasylwester",
-                title3: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER"
+                image3: "fotograf-slubny-magnolia-budzow.jpg",
+                url3: "kingamateusz",
+                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
             },
 
             {
@@ -68,9 +68,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "magdaandrzej",
                 title2: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
 
-                image3: "przystan-w-kabanosie-spytkowice-zdjecia-slubne-jordanow.jpg",
-                url3: "krystynapiotr",
-                title3: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>KRYSTYNA i PIOTR"
+                image3: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
+                url3: "dajanasylwester",
+                title3: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER"
             },
 
             {

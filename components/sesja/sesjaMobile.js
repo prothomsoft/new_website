@@ -116,7 +116,7 @@ export default class SesjaMobile extends React.Component {
                         <Link href="/wesele-tarnow-dwor-bistuszowa-i-staropolski-klimat-slubny">Aleksandra i Przemek</Link>.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/sesja_slubna_w_plenerze_park_krajobrazowy_w_ojcowie_i_okolice_portfolio.jpg"} />
+                        <img src={"/static/portfolio/plener_slubny_szczyrbskie_jezioro.jpg"} />
                     </LazyLoad>
                     <p>
                         Serdecznie polecamy. Niezwykle profesjonalne podejście, bardzo miła atmosfera i przepiękne zdjęcia! Długo zastanawialiśmy się nad wyborem fotografa, ale wiemy, że nie mogliśmy

@@ -22,6 +22,7 @@ module.exports = {
             "/blog/page/10": { page: "/blog", query: { page: "10" } },
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/tester": { page: "/tester" },
+            "/sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew": { page: "/sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew" },
             "/zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu": { page: "/zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu" },
             "/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa": { page: "/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa" },
             "/palac-goetza-brzesko-sluba-sesja-zdjeciowa": { page: "/palac-goetza-brzesko-sluba-sesja-zdjeciowa" },

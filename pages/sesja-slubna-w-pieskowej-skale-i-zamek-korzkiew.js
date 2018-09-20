@@ -36,7 +36,6 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/09/sesja_slubna_zamek_pieskowa_skala_0023.jpg", height: 763 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/09/sesja_slubna_zamek_pieskowa_skala_0026.jpg", height: 763 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/09/sesja_slubna_zamek_pieskowa_skala_0025.jpg", height: 527 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/09/sesja_slubna_zamek_pieskowa_skala_0028.jpg", height: 763 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/09/sesja_slubna_zamek_pieskowa_skala_0027.jpg", height: 850 },
             { imageSrc: "http://99foto.pl/wp-content/uploads/2018/09/sesja_slubna_zamek_pieskowa_skala_0024.jpg", height: 762 }
         ];
@@ -49,23 +48,23 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesja ślubna Zamek Pieskowa Skała, Zamek Korzkiew"}
                     headDescription={"Zamek Pieskowa Skała, ślubna sesja zdjęciowa Kristiny i Aleksandra. Gonitwa za zachodzącym słońcem i moc emocji. Na sesje tylko Kraków. Zapraszam do oglądania."}
                     headKeywords={"Sesja ślubna Zamek Pieskowa Skała, Zamek Korzkiew, miejsce na sesję plenerową w Krakowie"}
-                    headUrl={"http://99foto.pl/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa/"}
+                    headUrl={"http://99foto.pl/sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew/"}
                     entryContentP1={
                         "Ostatnio dużo się dzieje i kilka wpisów ślubnych pojawiło się tylko w strefie klienta. Czas to jednak zmienić i nadrobić zaległości wpisem co prawda krótszym niż ślubny, bo plenerowym, ale zawsze wpisem. Ślub Kristiny i Aleksandra miałem przyjemność fotografować w sierpniu, będąc jednym z zaproszonych gości Dworu Sieraków. Trzy tygodnie później umówiliśmy się na sesję plenerową w Krakowie. Na poszukiwania trzech składowych czyli chwili, światła i kadru wybraliśmy się w dobrze znane mi miejsca."
                     }
                     entryContentP2={
                         'Pierwszym z nich był <a href="http://korzkiew.pl/" target="_blank">Zamek w Korzkwi</a>, a drugim <a href="http://pieskowaskala.eu/" target="_blank">Zamek w Pieskowej Skale</a>. Czyli było zamkowo i słonecznie. Po raz kolejny goniliśmy zachodzące słońce wspinając się wyżej i wyżej. Mam nadzieję pojawić się w tych miejscach jeszcze co najmniej raz w tym roku, korzystając z uroków polskiej złotej jesieni. Serdecznie zapraszam na kilka zdjęć zrobionych tego popołudnia. Miłego oglądania.'
                     }
-                    slug={"ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
+                    slug={"sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew"}
                     title={"SESJA ŚLUBNA W PIESKOWEJ SKALE i ZAMEK KORZKIEW - KRISTINA i ALEKSANDR"}
-                    tags={"pałac goetz, pałac goetza brzesko, ślubna sesja zdjęcia, sala ślubna pałac goetz, wesele pod krakowem"}
+                    tags={"Sesja ślubna Zamek Pieskowa Skała, Zamek Korzkiew, miejsce na sesję plenerową w Krakowie"}
                     date={"19 września 2018"}
                     menuNames={"KRISTINA i ALEKSANDR"}
                     menuTitle={"SESJA ŚLUBNA W PIESKOWEJ SKALE i ZAMEK KORZKIEW"}
-                    leadNames={"MARTA i MARCIN"}
-                    leadTitle={"WESELE POD KRAKOWEM, FIRST LOOK NA DACHU WIEŻOWCA"}
-                    leadUrl={"/tiffany-wola-filipowska-first-look-na-dachu-wiezowca"}
-                    leadImage={"url(/static/restauracja_tiffany_wola_filpowska.jpg)"}
+                    leadNames={"DAJANA i SYLWESTER"}
+                    leadTitle={"OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA"}
+                    leadUrl={"/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
+                    leadImage={"url(/static/ogrod_botaniczny.jpg)"}
                 />
             </div>
         );
