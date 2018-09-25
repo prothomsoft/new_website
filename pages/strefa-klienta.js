@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "magda_grzegorz.jpg",
-                url1: "magdagrzegorz",
-                title1: "RESTAURACJA KOLIBA MURZASICHLE<br/>MAGDALENA i GRZEGORZ",
+                image1: "skalny_dwor.jpg",
+                url1: "monikawojtek",
+                title1: "DOM WESELNY SKALNY DWÓR SUŁOSZOWA<br/>MONIKA i WOJTEK",
 
-                image2: "marta_bartek.jpg",
-                url2: "martabartek",
-                title2: "HOTEL FERO EXPRESS KRAKÓW<br/>MARTA i BARTEK",
+                image2: "kristina.jpg",
+                url2: "kristinaaleksandr",
+                title2: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
 
-                image3: "kristina.jpg",
-                url3: "kristinaaleksandr",
-                title3: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR"
+                image3: "alina_michal.jpg",
+                url3: "alinamichal",
+                title3: "SALA WESELNA SZAFRAN ZAGACIE<br/>ALINA i MICHAŁ"
             },
 
             {
@@ -32,17 +32,17 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sesja_narzeczenska_kopiec_kraka.jpg",
-                url1: "paulinakamil",
-                title1: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
+                image1: "restauracja_tiffany_wola_filpowska.jpg",
+                url1: "martamarcin",
+                title1: "RESTAURACJA TIFFANY WOLA FILIPOWSKA<br/>MARTA i MARCIN",
 
-                image2: "restauracja_tiffany_wola_filpowska.jpg",
-                url2: "martamarcin",
-                title2: "RESTAURACJA TIFFANY WOLA FILIPOWSKA<br/>MARTA i MARCIN",
+                image2: "sesja_narzeczenska_kopiec_kraka.jpg",
+                url2: "paulinakamil",
+                title2: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
 
-                image3: "alina_michal.jpg",
-                url3: "alinamichal",
-                title3: "SALA WESELNA SZAFRAN ZAGACIE<br/>ALINA i MICHAŁ"
+                image3: "magda_grzegorz.jpg",
+                url3: "magdagrzegorz",
+                title3: "RESTAURACJA KOLIBA MURZASICHLE<br/>MAGDALENA i GRZEGORZ"
             },
 
             {
