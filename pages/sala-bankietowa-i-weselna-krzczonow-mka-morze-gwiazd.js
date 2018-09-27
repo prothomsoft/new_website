@@ -166,11 +166,11 @@ export default class BlogPageComponent extends React.Component {
                         'Kilka kropel deszczu przeszkodziło nam w życzeniach pod kościołem, więc ogrom uśmiechów, żartów, uścisków spadł na młodych na sali weselnej. Rodzice przywitali młodych chlebem i solą, Grzegorz przeniósł Magde przez próg i zabawa w <a href="https://www.facebook.com/mka.salabankietowa/" target="_blank">Domu Weselnym MKA Sala Bankietowa w Krzczonowie</a> uznaliśmy za otwartą. Gorącą atmosferę na parkiecie zapewniał zespół <a href="http://" target="_blank">Ja Majka</a>. Dzieciaki świetnie bawiły się pod opieką przemiłej animatorki, natomiast goście weselni zachwycali się nad kolejnymi atrakcjami wieczoru, których nie brakowało. Bardzo dziękuję za ten wyjątkowy dzień, ciepłe przyjęcie i wspaniałą atmosferę. Miłego oglądania, a po więcej zdjęć zapraszam gości weselnych do strefy klienta z hasłem z mojej wizytówki.'
                     }
                     slug={"sala-bankietowa-i-weselna-krzczonow-mka-morze-gwiazd"}
-                    title={"SALA BANKIETOWA I WESELNA KRZCZONÓW MKA - MORZE GWIAZD - MAGDA i GRZEGORZ"}
+                    title={"SALA WESELNA KRZCZONÓW MKA - MORZE GWIAZD - MAGDA i GRZEGORZ"}
                     tags={"fotograf ślubny myślenice,sala weselna krzczonów,sala bankietowa pcim"}
                     date={"16 czerwca 2017"}
                     menuNames={"MAGDA i GRZEGORZ"}
-                    menuTitle={"SALA BANKIETOWA I WESELNA KRZCZONÓW MKA - MORZE GWIAZD"}
+                    menuTitle={"SALA WESELNA KRZCZONÓW MKA - MORZE GWIAZD"}
                     leadNames={"NATALIA i TOMASZ"}
                     leadTitle={"SESJA ZDJĘCIOWA KOPIEC KRAKA, PRZEGORZAŁY, KRYSPINÓW"}
                     leadUrl={"/sesja-zdjeciowa-kopiec-kraka-przegorzaly-kryspinow"}

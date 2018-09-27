@@ -63,11 +63,11 @@ export default class BlogPageComponent extends React.Component {
                         "Wędkowanie pasja Damiana zaprowadziły nas nad piękne jezioro, gdzie w ciszy i spokoju można było podziwiać widok kładącego się na tafli wody słońca, smakując czerwone półwytrawne winko. Ostatnie promienie zachodzącego słońca oglądaliśmy w okolicach Chrzanowa wdrapując się na położony w tej okolicy punkt widokowy. Magda nie tylko rewelacyjnie wyglądała, ale również mega profesjonalnie pozowała do zdjęć. Pamiętajcie, że sesja narzeczeńska w Krakowie lub najbliższych okolicach to nie strata czasu, ale świetna okazja na mile spędzone chwile i kilka pamiątkowych zdjęć. Life isn't perfect but it has perfect moments... Poznajcie Magdę i Damiana, którzy na pewno na moim blogu pojawią się ponownie już wkrótce. Miłego oglądania."
                     }
                     slug={"sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow"}
-                    title={"SESJA NARZECZEŃSKA W KRAKOWIE I OKOLICACH - WYGIEŁZÓW - MAGDALENA I DAMIAN"}
+                    title={"SESJA NARZECZEŃSKA W KRAKOWIE – WYGIEŁZÓW - MAGDALENA I DAMIAN"}
                     tags={"Sesja narzeczeńśka w Krakowie, Nadwiślański Park Etnograficzny Wygiełzów, Zamek Lipowiec"}
                     date={"9 lipca 2018"}
                     menuNames={"MAGDALENA i DAMIAN"}
-                    menuTitle={"SESJA NARZECZEŃSKA W KRAKOWIE I OKOLICACH - WYGIEŁZÓW"}
+                    menuTitle={"SESJA NARZECZEŃSKA W KRAKOWIE – WYGIEŁZÓW"}
                     leadNames={"NATALIA i KAMIL"}
                     leadTitle={"SALA WESELNA WILLA ORCHIDEA WAKSMUND - ŚLUB NA PODHALU"}
                     leadUrl={"/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach"}

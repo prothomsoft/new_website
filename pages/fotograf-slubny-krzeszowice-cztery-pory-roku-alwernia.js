@@ -163,10 +163,10 @@ export default class BlogPageComponent extends React.Component {
                         'Piękny, jasny kościół, wspaniała ceremonia ślubna i wypowiedziane pewnie z uśmiechem na ustach sakramentalne TAK. Po wyjściu z kościoła zrobiliśmy zdjęcie grupowe, a Para młoda przyjęła gorące życzenia od swoich gości. Dalsza część imprezy czyli szalona zabawa weselna odbyła się <a href="http://alwernia-4poryroku.pl/" target="_blank">Restauracji Cztery Pory Roku w Alwernii</a>. Wspaniała sala weselna i super ogród z łatwością pomieścił wszystkich gości. Muzycznie było ambitnie bo grał jeden z moich ulubionych zespółów - <a href="http://www.somgorsy.pl/" target="_blank">Zespół muzyczny Somgorsy</a>. Gabrysia jak zwykle nie tylko śpiewała świetnie, ale równie dobrze prowadziła zabawy weselne. Atrakcją była fotobudka, pociąg, tort weselny i wiadomo o północy oczepiny. Świetnie zorganizowana impreza, wspaniali otwarci ludzie, których fotografowanie było czystą przyjemnością. Olu i Grześku dziękuję za zaufanie i zapraszam na zdjęcia. Miłego oglądania.'
                     }
                     slug={"fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia"}
-                    title={"FOTOGRAF ŚLUBNY KRZESZOWICE, CZTERY PORY ROKU ALWERNIA - ALEKSANDRA i GRZEGORZ"}
+                    title={"FOTOGRAF ŚLUBNY KRZESZOWICE, CZTERY PORY ROKU ALWERNIA - OLA i GRZEGORZ"}
                     tags={"fotograf ślubny Krzeszowice, cztery pory roku Alwernia"}
                     date={"14 lipca 2018"}
-                    menuNames={"ALEKSANDRA i GRZEGORZ"}
+                    menuNames={"OLA i GRZEGORZ"}
                     menuTitle={"FOTOGRAF ŚLUBNY KRZESZOWICE, CZTERY PORY ROKU ALWERNIA"}
                     leadNames={"NATALIA i KAMIL"}
                     leadTitle={"SALA WESELNA WILLA ORCHIDEA WAKSMUND - ŚLUB NA PODHALU"}

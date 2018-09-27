@@ -47,11 +47,11 @@ export default class BlogPageComponent extends React.Component {
                         'Pamiętali o tym również Ola i Grzegorz, którzy spośród kilku okolicznych zamków i pałaców wybrali ten najmniej okoliczny, ale najwspanialszy - Zamek w Mosznej. Zastanawialiśmy się również nad opuszczonym <a href="https://www.facebook.com/palackrowiarki/" target="_blank">Pałacu w Krowiarkach</a>, czy Pałacu Goetza, który znajdziecie w moim poprzednim pałacowym wpisie na blogu. Pogodę mieliśmy świetną, zamkowa cisza i spokój została delikatnie zaburzona przez cztery inne pary, które w tym samym czasie plenerowały, spełniając swoje marzenia. Cóż więcej mogę rzec - fryzura i makijaż Oli były równie perfekcyjny jak w dniu ślubu i morze tematów, które poruszyliśmy tego dnia z Grześkiem, było niemierzalne. Zapraszam na zdjęcia i życzę miłego oglądania.'
                     }
                     slug={"zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu"}
-                    title={"ZAMEK MOSZNA, PLENEROWA SESJA FOTOGRAFICZNA W PAŁACU - ALEKSANDRA i GRZEGORZ"}
+                    title={"ZAMEK MOSZNA, SESJA FOTOGRAFICZNA W PAŁACU - ALEKSANDRA i GRZEGORZ"}
                     tags={"zamek moszna, plenerowa sesja fotograficzna, zdjęcia ślubne w pałacu"}
                     date={"29 lipca 2018"}
                     menuNames={"ALEKSANDRA i GRZEGORZ"}
-                    menuTitle={"ZAMEK MOSZNA, PLENEROWA SESJA FOTOGRAFICZNA W PAŁACU"}
+                    menuTitle={"ZAMEK MOSZNA, SESJA FOTOGRAFICZNA W PAŁACU"}
                     leadNames={"DAJANA i SYLWESTER"}
                     leadTitle={"OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA W OGRODZIE"}
                     leadUrl={"/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}

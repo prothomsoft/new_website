@@ -177,11 +177,11 @@ export default class BlogPageComponent extends React.Component {
                         'Gdy makijaż był gotowy udaliśmy się do domu Natalii, gdzie kuzynka, a w tym wyjątkowym dniu druhna Magda pomagała w przygotowaniach. Nieprzypadkowo powieszony welon i świetnie urządzone mieszkanie w kolorze blue, piękna Natalia i Magda, promienie słońca wpadające świetlikiem były gwarancją niesamowitych zdjęć. Gdy zebrali się już wszyscy zaproszeni goście Tato Natalii wykorzystał jedyną w swoim życiu okazję na krótkie przemówienie po którym odbyło się błogosławieństwo.  Ceremonia odbyła się w <a href="http://www.biezanow.diecezja-krakow.pl/">Kościele Narodzenia NMP</a> znajdującym się w Krakowskim Starym Bieżanowie. Ambona zapełniała się kolejnymi prelegentami, wśrod których brylował Łukasz (tak to słowo tu pasuje). Przysłuchując się dźwiękom dobiegającym z chóru można było usłyszeć pięknie brzmiące skrzypce. Po zdjęciu grupowym Para Młoda zaprosiła gości do <a href="http://www.margerita.pl/" target="_blank">Hotelu, Restauracji Margerita</a>. Magiczny wystrój sali mocno przypadł do gustu gościom weselnym. Odbyły się życzenia, pierwszy taniec w chmurach ktore zorganizował <a href="https://www.facebook.com/DJ4U-Piotr-P%C5%82awski-466649040058113/" target="_blank">DJ Piotr</a>, kolejne atrakcje to fotobudka z gadżetami, pociąg, podziękowania dla rodziców, pyszny tort i oczywiście zabawy oczepinowe. Na filmie imprezę uwieczniał <a href="https://www.facebook.com/yurievfilm/" target="_blank">Serhij Juriev ze Stylowe Wesele</a>, który był niekwestionowanym mistrzem odnajdywania idealnego światła. Niesamowity dzień, spędzony w wybornym towarzystwie. Natalio i Piotrze cieszę się bardzo, że mogłem być tam z Wami w tych najważniejszych chwilach Waszego życia. Zapraszam do oglądania zdjęć. Po więcej zapraszam do strefy klienta.'
                     }
                     slug={"hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie"}
-                    title={"HOTEL MARGERITA, MAGICZNY WYSTRÓJ SALI WESELNEJ W KRAKOWIE - NATALIA i PIOTR"}
+                    title={"HOTEL MARGERITA, MAGIA SALI WESELNEJ W KRAKOWIE - NATALIA i PIOTR"}
                     tags={"Hotel Margerita Kraków, magiczny wystrój sali weselnej, ślub w Krakowie"}
                     date={"12 kwietnia 2018"}
                     menuNames={"NATALIA i PIOTR"}
-                    menuTitle={"HOTEL MARGERITA, MAGICZNY WYSTRÓJ SALI WESELNEJ W KRAKOWIE"}
+                    menuTitle={"HOTEL MARGERITA, MAGIA SALI WESELNEJ W KRAKOWIE"}
                     leadNames={"JOANNA i GRZEGORZ"}
                     leadTitle={"WESELE NA POLU GOLFOWYM W PACZÓŁTOWICACH"}
                     leadUrl={"/wesele-na-polu-golfowym-w-paczoltowicach"}

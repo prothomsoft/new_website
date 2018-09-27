@@ -50,11 +50,11 @@ export default class BlogPageComponent extends React.Component {
                         'Dzień był mega słoneczny i pomimo, że mamy już początek września udało nam się świetnie trafić na zachodzące słońce. Taki był plan, który udało się zrealizować. <a href="http://pieskowaskala.eu/" target="_blank">Pieskowa Skała</a> jest świetnym miejscem ponieważ można tam wychodzić, wyżej i wyżej za każdym razem oszukując czas i oglądając słońce z trochę innej perspektywy. Zobaczcie sami. Zapraszam na zdjęcia.'
                     }
                     slug={"sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice"}
-                    title={"SESJA ŚLUBNA W PLENERZE, PARK KRAJOBRAZOWY W OJCOWIE I OKOLICE - OLA i PAWEŁ"}
+                    title={"SESJA ŚLUBNA W PLENERZE, PARK KRAJOBRAZOWY OJCÓW - OLA i PAWEŁ"}
                     tags={"Park Krajobrazowy w Ojcowie, Sesja ślubna w plenerze, Zamek Pieskowa Skała"}
                     date={"4 września 2017"}
                     menuNames={"OLA i PAWEŁ"}
-                    menuTitle={"SESJA ŚLUBNA W PLENERZE, PARK KRAJOBRAZOWY W OJCOWIE I OKOLICE"}
+                    menuTitle={"SESJA ŚLUBNA W PLENERZE, PARK KRAJOBRAZOWY OJCÓW"}
                     leadNames={"OLA i PAWEŁ"}
                     leadTitle={"DWÓR SZLACHECKI SIECIECHOWICE, REPORTAŻ ŚLUBNY MIECHÓW"}
                     leadUrl={"/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow"}

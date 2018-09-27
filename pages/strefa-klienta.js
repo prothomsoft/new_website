@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "skalny_dwor.jpg",
-                url1: "monikawojtek",
-                title1: "DOM WESELNY SKALNY DWÓR SUŁOSZOWA<br/>MONIKA i WOJTEK",
+                image1: "sala_bankietowa_triana_mogilany.jpg",
+                url1: "paulina",
+                title1: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
 
                 image2: "kristina.jpg",
                 url2: "kristinaaleksandr",
@@ -18,13 +18,13 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "magdalena_lukasz_myslenice.jpg",
-                url1: "magdalukasz",
-                title1: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>MAGDALENA i ŁUKASZ",
+                image1: "skalny_dwor.jpg",
+                url1: "monikawojtek",
+                title1: "DOM WESELNY SKALNY DWÓR SUŁOSZOWA<br/>MONIKA i WOJTEK",
 
-                image2: "arkadia_wadowice_karolina_mateusz.jpg",
-                url2: "karolinamateusz",
-                title2: "SALA WESELNA ARKADIA WADOWICE<br/>KAROLINA i MATEUSZ",
+                image2: "magdalena_lukasz_myslenice.jpg",
+                url2: "magdalukasz",
+                title2: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>MAGDALENA i ŁUKASZ",
 
                 image3: "karolina_mateusz.jpg",
                 url3: "km",
@@ -36,9 +36,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "martamarcin",
                 title1: "RESTAURACJA TIFFANY WOLA FILIPOWSKA<br/>MARTA i MARCIN",
 
-                image2: "sesja_narzeczenska_kopiec_kraka.jpg",
-                url2: "paulinakamil",
-                title2: "SESJA NARZECZEŃSKA KOPIEC KRAKUSA<br/>PAULINA i KAMIL",
+                image2: "arkadia_wadowice_karolina_mateusz.jpg",
+                url2: "karolinamateusz",
+                title2: "SALA WESELNA ARKADIA WADOWICE<br/>KAROLINA i MATEUSZ",
 
                 image3: "magda_grzegorz.jpg",
                 url3: "magdagrzegorz",

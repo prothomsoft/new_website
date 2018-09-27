@@ -195,11 +195,11 @@ export default class BlogPageComponent extends React.Component {
                         'Fotografowanie Dajany i Sylwestra podczas ceremoni zaślubin były czystą przyjemnością. Spokój i koncentracja, błysk szczęścia w oku i niezwykła radość tuż po wypowiedzianym sakramentalnym TAK. Kolejne minuty tego pełnego wrażeń dnia spędziliśmy w Domu Weselnym <a href="http://www.arkadia-wadowice.pl/glowna.html" target="_blank">Arkadia Wadowice</a>. Rodzice przywitali Parę Młodą, a po życzeniach pierwszy taniec otworzył parkiet. <a href="https://www.facebook.com/TangoLuz" target="_blank">Zespół Tango Luz z Chrzanowa</a>, który nie pozwalał gościom posiedzieć na miejscu, serwował perełki repertuaru weselnego, momentami sięgając po numery gwiazd polskiego rocka. Oczywiście nie zabrakło atrakcji, takich jak tort weselny, podziękowania dla rodziców, podczas których polały się łzy, pociąg i tradycyjne oczepiny. Grubo po północy muzycy oddali instrumenty i koncertowy popis zaserwowali sami Państwo Młodzi, pod sceną było naprawdę gorąco. Pewnie powstałoby kilka paragrafów tekstu więcej gdybym chciał opisać wszystko to, co działo się podczas tego pełnego wrażeń dnia. Ale wiecie co, łatwiej będzie jak zerkniecie na zdjęcia i zobaczycie co się działo na własne oczy. Tradycyjnie więcej zdjęć odnajdziecie w strefie klienta, korzystając z hasła z mojej wizytówki. Miłego oglądania.'
                     }
                     slug={"fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice"}
-                    title={"FOTOGRAF ŚLUBNY KALWARIA ZEBRZYDOWSKA, ARKADIA WADOWICE - DAJANA i SYLWESTER"}
+                    title={"FOTOGRAF ŚLUBNY WADOWICE, SALA WESELNA ARKADIA - DAJANA i SYLWESTER"}
                     tags={"Fotograf ślubny Kalwaria Zebrzydowska, Arkadia Wadowice"}
                     date={"10 czerwca 2018"}
                     menuNames={"DAJANA i SYLWESTER"}
-                    menuTitle={"FOTOGRAF ŚLUBNY KALWARIA ZEBRZYDOWSKA, ARKADIA WADOWICE"}
+                    menuTitle={"FOTOGRAF ŚLUBNY WADOWICE, SALA WESELNA ARKADIA"}
                     leadNames={"MAGDALENA i PIOTR"}
                     leadTitle={"REPORTAŻ ŚLUBNY HOTEL JUNIOR KRAKÓW, BALONOWY SZAŁ"}
                     leadUrl={"/reportaz-slubny-hotel-junior-krakow-balonowy-szal"}

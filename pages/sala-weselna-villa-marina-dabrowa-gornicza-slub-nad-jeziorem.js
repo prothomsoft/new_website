@@ -176,11 +176,11 @@ export default class BlogPageComponent extends React.Component {
                         'Po wyjściu z kościoła Parę Młodą przywitało piękne słońce i deszcz... monet, które goście wyrzucili na szczęcie. Garść gorących życzeń, po których Para Młoda zaprosiła gości weselnych na mniej oficjalną część imprezy do wspomnianej już <a href="http://villamarina.eu/" target="_blank">Sali Bankietowej Villa Marina w Dąbrowie Górniczej</a>. Sala weselena Villa Marina i ośrodek wypoczynkowy położony są nad brzegiem jeziora Pogoria w bezpiecznej odległości od centrum miasta, malowniczej okolicy w otoczeniu lasu. Każdy z gości po dotarciu na miejsce nie krył zachwytu rozwodząc się nad wspaniałością tego miejsca. Sandra i Maciek przyjęli resztę gorących życzeń od wszystkich gości weselnych i otworzyli parkiet pierwszym tańcem. <a href="http://zespol-lavado.pl" target="_blank">Zespół Lavado</a>, który grał dla nas tego wieczoru stanął na wysokości zadania. Świetne brzmienie gitary, Grzegorz i jego saksofon wyrzucający z lekkością motyla niezliczoną ilość perfekcyjnie poukładanych dźwięków, wybitny głos wokalistki i szeroki wachlarz utworów zostaną w naszych głowach na długo. Po raz kolejny miałem też możliwość spotkać się i współpracować z Krzysiem z <a href="http://camdesign.pl/" target="_blank">CAMDESIGN - Pracownia Filmu Ślubnego</a>, który nagrywał, rejestrował i filmował jednocześnie. Naprawdę super impreza w wakacyjnym klimacie, którego w kwietniu nikt przecież by się nie mógł spodziewać. Sandro i Maćku, dzięki za zaufanie i zaproszenie mnie na Wasz ślub. Nie przedłużająć serdecznie zapraszam do oglądania zdjęć, a po kilka więcej do strefy klienta z hasłem z mojej wizytówki.'
                     }
                     slug={"sala-weselna-villa-marina-dabrowa-gornicza-slub-nad-jeziorem"}
-                    title={"SALA WESELNA VILLA MARINA DĄBROWA GÓRNICZA, ŚLUB NAD JEZIOREM - SANDRA i MACIEK"}
+                    title={"VILLA MARINA DĄBROWA GÓRNICZA, ŚLUB NAD JEZIOREM - SANDRA i MACIEK"}
                     tags={"Villa Marina Dąbrowa Górnicza, sala weselna nad jeziorem, ślub na śląsku"}
                     date={"20 kwietnia 2018"}
                     menuNames={"SANDRA i MACIEK"}
-                    menuTitle={"SALA WESELNA VILLA MARINA DĄBROWA GÓRNICZA, ŚLUB NAD JEZIOREM"}
+                    menuTitle={"VILLA MARINA DĄBROWA GÓRNICZA, ŚLUB NAD JEZIOREM"}
                     leadNames={"NATALIA i PIOTR"}
                     leadTitle={"HOTEL MARGERITA, MAGICZNY WYSTRÓJ SALI WESELNEJ W KRAKOWIE"}
                     leadUrl={"/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie"}
