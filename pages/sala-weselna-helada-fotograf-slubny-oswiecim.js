@@ -169,19 +169,23 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Helada sala weselna, Fotograf ślubny Oświęcim"}
                     headDescription={"Helada sala weselna Oświęcim. Dużo emocji i świetnie zorganizowany ślub Magdaleny i Damiana. Zapraszam do oglądania."}
                     headKeywords={"Helada sala weselna, fotograf ślubny Oświęcim"}
-                    headUrl={"http://99foto.pl/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa/"}
-                    entryContentP1={"123"}
-                    entryContentP2={"123"}
-                    slug={"ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
+                    headUrl={"http://99foto.pl/sala-weselna-helada-fotograf-slubny-oswiecim/"}
+                    entryContentP1={
+                        'Starożytna Grecja przez jedno el... w ten sposób właściciele bardzo klimatycznej <a href="http://helada.pl/" target="_blank">sali weselnej Helada</a> w Oświęcimiu nazwali miejsce spotkań gości weselnych. Sobota więc to wyprawa na zachód do Oświęcimia, gdzie ja zrobiłem zdjęcia, a <a href="https://www.facebook.com/filiplempamedia" target="_blank">Filip Lempa z FL Media</a>, młody wilk ślubnej kinematografii nakręcił materiał z przygotowań Damiana. Następnie już jako zespół wróciliśmy w okolice Alwerni do Babic, by spotkać się z Panną Młodą. Magdę i Damiana poznałem już wcześniej podczas naszej sesji narzeczeńskiej w <a href="http://mnpe.pl/" target="_blank">Nadwiślańskim Parku Etnograficznym w Wygiełzowie</a>, który możecie odnaleźć na moim blogu. Makijaż wykonała <a href="https://www.facebook.com/paulinakurzelarzesyimakijaz/" target="_blank">Paulina Kurzela</a>. Chwilę później dołączyła do nas druhna Paulina i rozpoczęło się ubieranie sukni ślubnej, biżuterii i wszystkich innych ślubnych gadżetów. Srebrny Passat zaparkował przed domem, a Damian gorącym buziakiem przywitał się z Magdą. Rozpoczęło się pełne emocji i wzruszeń błogosławieństwo.'
+                    }
+                    entryContentP2={
+                        'Ceremonia zaślubin odbyła się w Kościele pw. Wszystkich Świętych w Babicach. Piękny ślub i charyzmatyczny ksiądz, który może zdjęć nie lubił, ale humor to mu bardzo dopisywał. Pod kościołem ciachnęliśmy jeszcze zdjęcie grupowe i pełni energii pojechaliśmy do wspomnianej już <a href="http://helada.pl/" target="_blank">Helady</a> w Oświęcimiu. Pierwszy taniec odbył się przy muzyce zespołu Metallica, a z głośników wydobyły się dźwięki utworu "Nothing else matters". <a href="https://www.facebook.com/Dj-Admin-Obs%C5%82uga-Muzyczna-Imprez-346036832234952/"  target="_blank">DJ Admin</a>, który tą sale weselną znał na pamięć i genialnie podkręcał klimat imprezy stanął na wysokości zadania tego wieczoru i dał czadu. Muza padła na podatny grunt, bo goście weselni chętnie wychodzili na parkiet i mocno balowali. Nie zabrakło też atrakcji takich jak fotobudka, zabaw z jedną słuszną nagrodą, barmana serwującego pyszne drinki. Przed dwunastą Magda i Damian całowali się w towarzystwie płonących rac, a później były oczepiny i dużo rozdanych i skonsumowanych nagród. Niedługo widzimy się ponownie na plenerze ślubnym, ale tymczasem oglądajcie i wspominajcie jak było miło. Zapraszam na zdjęcia blogowe, a po więcej do strefy klienta.'
+                    }
+                    slug={"sala-weselna-helada-fotograf-slubny-oswiecim"}
                     title={"SALA WESELNA HELADA, FOTOGRAF ŚLUBNY OŚWIĘCIM - MAGDALENA i DAMIAN"}
                     tags={"Helada sala weselna, Fotograf ślubny Oświęcim"}
                     date={"30 września 2018"}
                     menuNames={"MAGDALENA i DAMIAN"}
                     menuTitle={"SALA WESELNA HELADA, FOTOGRAF ŚLUBNY OŚWIĘCIM"}
-                    leadNames={"MARTA i MARCIN"}
-                    leadTitle={"WESELE POD KRAKOWEM, FIRST LOOK NA DACHU WIEŻOWCA"}
-                    leadUrl={"/tiffany-wola-filipowska-first-look-na-dachu-wiezowca"}
-                    leadImage={"url(/static/restauracja_tiffany_wola_filpowska.jpg)"}
+                    leadNames={"MAGDALENA I DAMIAN"}
+                    leadTitle={"SESJA NARZECZEŃSKA W KRAKOWIE – WYGIEŁZÓW"}
+                    leadUrl={"/sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow"}
+                    leadImage={"url(/static/sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow-start.jpg)"}
                 />
             </div>
         );

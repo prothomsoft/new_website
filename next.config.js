@@ -23,6 +23,7 @@ module.exports = {
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
             "/tester": { page: "/tester" },
+            "/sala-weselna-helada-fotograf-slubny-oswiecim": { page: "/sala-weselna-helada-fotograf-slubny-oswiecim" },
             "/sala-bankietowa-triana-mogilany-reportaz-slubny-podstolice": { page: "/sala-bankietowa-triana-mogilany-reportaz-slubny-podstolice" },
             "/sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew": { page: "/sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew" },
             "/zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu": { page: "/zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu" },
