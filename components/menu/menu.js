@@ -42,7 +42,7 @@ const ClassicMenuWrapper = styled.div`
 
 function getWidthString(span) {
     if (!span) return;
-    let width = span / 12 * 100;
+    let width = (span / 12) * 100;
     return `width: ${width}%;`;
 }
 

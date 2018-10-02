@@ -1,9 +1,23 @@
 import React from "react";
+import styled from "styled-components";
+
+const SectionWrapper = styled.div`
+    overflow-x: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 1160px;
+    text-align: justify;
+    padding: 20px 10px 0 10px;
+
+    @media (max-width: 1160px) {
+        width: 100%;
+    }
+`;
 
 export default class Loader extends React.Component {
     render() {
         return (
-            <div className="preloaderWrapper">
+            <SectionWrapper>
                 <div className="preloader">
                     <div className="tableHelper">
                         <div className="cellHelper">
@@ -14,12 +28,6 @@ export default class Loader extends React.Component {
                     </div>
                 </div>
                 <style jsx>{`
-                    .preloaderWrapper {
-                        overflow-x: hidden;
-                        position: relative;
-                        margin: 0 auto;
-                    }
-
                     .preloader {
                         position: fixed;
                         width: 100%;
@@ -61,7 +69,7 @@ export default class Loader extends React.Component {
                         }
                     }
                 `}</style>
-            </div>
+            </SectionWrapper>
         );
     }
 }
