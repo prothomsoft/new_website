@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "helada_oswiecim.jpg",
-                url1: "magdadamian",
-                title1: "SALA WESELNA HELADA OŚWIĘCIM<br/>MAGDALENA i DAMIAN",
+                image1: "sala_bankietowa_triana_mogilany.jpg",
+                url1: "paulina",
+                title1: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
 
-                image2: "sala_bankietowa_triana_mogilany.jpg",
-                url2: "paulina",
-                title2: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
+                image2: "dom_weselny_euforia_myslenice_1.jpg",
+                url2: "izaarek",
+                title2: "DOM WESELNY EUFORIA MYŚLENICE<br/>IZABELA i ARKADIUSZ",
 
-                image3: "magda_grzegorz.jpg",
-                url3: "magdagrzegorz",
-                title3: "RESTAURACJA KOLIBA MURZASICHLE<br/>MAGDALENA i GRZEGORZ"
+                image3: "helada_oswiecim.jpg",
+                url3: "magdadamian",
+                title3: "SALA WESELNA HELADA OŚWIĘCIM<br/>MAGDALENA i DAMIAN"
             },
 
             {
@@ -36,9 +36,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "martamarcin",
                 title1: "RESTAURACJA TIFFANY WOLA FILIPOWSKA<br/>MARTA i MARCIN",
 
-                image2: "magdalena_lukasz_myslenice.jpg",
-                url2: "magdalukasz",
-                title2: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>MAGDALENA i ŁUKASZ",
+                image2: "magda_grzegorz.jpg",
+                url2: "magdagrzegorz",
+                title2: "RESTAURACJA KOLIBA MURZASICHLE<br/>MAGDALENA i GRZEGORZ",
 
                 image3: "alina_michal.jpg",
                 url3: "alinamichal",
@@ -50,9 +50,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "olagrzegorz",
                 title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
 
-                image2: "arkadia_wadowice_karolina_mateusz.jpg",
-                url2: "karolinamateusz",
-                title2: "SALA WESELNA ARKADIA WADOWICE<br/>KAROLINA i MATEUSZ",
+                image2: "magdalena_lukasz_myslenice.jpg",
+                url2: "magdalukasz",
+                title2: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>MAGDALENA i ŁUKASZ",
 
                 image3: "fotograf-slubny-magnolia-budzow.jpg",
                 url3: "kingamateusz",
