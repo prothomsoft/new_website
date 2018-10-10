@@ -23,6 +23,7 @@ module.exports = {
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
             "/tester": { page: "/tester" },
+            "/sesja-slubna-jesienia-palac-goetzow-okocimskich": { page: "/sesja-slubna-jesienia-palac-goetzow-okocimskich" },
             "/dom-weselny-euforia-myslenice-i-sloneczne-love": { page: "/dom-weselny-euforia-myslenice-i-sloneczne-love" },
             "/sala-weselna-helada-fotograf-slubny-oswiecim": { page: "/sala-weselna-helada-fotograf-slubny-oswiecim" },
             "/sala-bankietowa-triana-mogilany-reportaz-slubny-podstolice": { page: "/sala-bankietowa-triana-mogilany-reportaz-slubny-podstolice" },
