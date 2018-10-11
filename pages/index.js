@@ -37,11 +37,11 @@ export default class Index extends React.Component {
                     headDescription={"Fotograf ślubny Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Album w cenie pakietu. Serdecznie zapraszam."}
                     headKeywords={"fotograf ślubny Kraków, fotograf na wesele"}
                     headUrl={"http://99foto.pl"}
-                    backgroundImage={"url(/static/wesele_na_polu_golfowym_w_paczoltowicach_start.jpg)"}
-                    leadNames={"NATALIA i KAMIL"}
-                    leadTitle={"FOTOGRAF ŚLUBNY KRAKÓW I WESELE PO GÓRALSKU"}
-                    leadUrl={"/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach"}
-                    leadImage={"url(/static/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach-start.jpg)"}
+                    backgroundImage={"url(/static/sesja_slubna_jesienia.jpg)"}
+                    leadNames={"MARTA i MARCIN"}
+                    leadTitle={"FOTOGRAF ŚLUBNY KRAKÓW, FIRST LOOK NA DACHU WIEŻOWCA"}
+                    leadUrl={"/tiffany-wola-filipowska-first-look-na-dachu-wiezowca"}
+                    leadImage={"url(/static/restauracja_tiffany_wola_filpowska.jpg)"}
                 />
             </div>
         );
