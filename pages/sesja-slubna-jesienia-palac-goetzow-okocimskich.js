@@ -8,7 +8,48 @@ export default class BlogPageComponent extends React.Component {
             }
         ];
 
-        let images = [{ imageSrc: "http://99foto.pl/wp-content/uploads/2018/09/helada_sala_bankietowa_oswiecim_001.jpg", height: 762 }];
+        let images = [
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0001.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0003.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0002.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0004.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0027.jpg", height: 850 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0006.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0018.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0030.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0007.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0025.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0008.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0009.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0010.jpg", height: 850 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0011.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0014.jpg", height: 527 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0013.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0016.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0017.jpg", height: 850 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0024.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0019.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0020.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0021.jpg", height: 850 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0022.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0023.jpg", height: 850 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0040.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0015.jpg", height: 527 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0012.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0005.jpg", height: 850 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0031.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0028.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0032.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0029.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0039.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0034.jpg", height: 762 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0035.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0037.jpg", height: 527 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0033.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0036.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0042.jpg", height: 763 },
+            { imageSrc: "http://99foto.pl/wp-content/uploads/2018/10/sesja_slubna_jesienia_palac_goetzow_okocimskich_0026.jpg", height: 762 }
+        ];
 
         return (
             <div>
