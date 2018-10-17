@@ -4,13 +4,27 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
+                image1: "kosciol_myslenice.jpg",
+                url1: "basiagrzegorz",
+                title1: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>BASIA i GRZEGORZ",
+
+                image2: "anna_piotr_slub_krakow.jpg",
+                url2: "annapiotr",
+                title2: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>ANNA i PIOTR",
+
+                image3: "dom_weselny_euforia_myslenice_1.jpg",
+                url3: "izaarek",
+                title3: "DOM WESELNY EUFORIA MYŚLENICE<br/>IZABELA i ARKADIUSZ"
+            },
+
+            {
                 image1: "sala_bankietowa_triana_mogilany.jpg",
                 url1: "paulina",
                 title1: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
 
-                image2: "dom_weselny_euforia_myslenice_1.jpg",
-                url2: "izaarek",
-                title2: "DOM WESELNY EUFORIA MYŚLENICE<br/>IZABELA i ARKADIUSZ",
+                image2: "kristina.jpg",
+                url2: "kristinaaleksandr",
+                title2: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
 
                 image3: "helada_oswiecim.jpg",
                 url3: "magdadamian",
@@ -22,20 +36,6 @@ export default class ClientPageComponent extends React.Component {
                 url1: "monikawojtek",
                 title1: "DOM WESELNY SKALNY DWÓR SUŁOSZOWA<br/>MONIKA i WOJTEK",
 
-                image2: "kristina.jpg",
-                url2: "kristinaaleksandr",
-                title2: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
-
-                image3: "karolina_mateusz.jpg",
-                url3: "km",
-                title3: "DOM WESELNY SZLACHECKI DWÓR RACŁAWICE<br/>KAROLINA i MATEUSZ"
-            },
-
-            {
-                image1: "restauracja_tiffany_wola_filpowska.jpg",
-                url1: "martamarcin",
-                title1: "RESTAURACJA TIFFANY WOLA FILIPOWSKA<br/>MARTA i MARCIN",
-
                 image2: "magda_grzegorz.jpg",
                 url2: "magdagrzegorz",
                 title2: "RESTAURACJA KOLIBA MURZASICHLE<br/>MAGDALENA i GRZEGORZ",
@@ -46,9 +46,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "fotograf_slubny_krzeszowice_start.jpg",
-                url1: "olagrzegorz",
-                title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
+                image1: "restauracja_tiffany_wola_filpowska.jpg",
+                url1: "martamarcin",
+                title1: "RESTAURACJA TIFFANY WOLA FILIPOWSKA<br/>MARTA i MARCIN",
 
                 image2: "magdalena_lukasz_myslenice.jpg",
                 url2: "magdalukasz",
@@ -60,9 +60,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "marta_piotr_kajasowka.jpg",
-                url1: "martapiotr",
-                title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>MARTA i PIOTR",
+                image1: "fotograf_slubny_krzeszowice_start.jpg",
+                url1: "olagrzegorz",
+                title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
 
                 image2: "sala_weselna_soprano_tarnow.jpg",
                 url2: "magdalenalukasz",

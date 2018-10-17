@@ -53,7 +53,7 @@ export default class BlogPageComponent extends React.Component {
                     slug={"palac-goetza-brzesko-sluba-sesja-zdjeciowa"}
                     title={"PAŁAC GOETZA BRZESKO, ŚLUBNA SESJA ZDJĘCIOWA - MAGDALENA i ŁUKASZ"}
                     tags={"pałac goetz, pałac goetza brzesko, ślubna sesja zdjęcia, sala ślubna pałac goetz, wesele pod krakowem"}
-                    date={"19 sierpnia 2018"}
+                    date={"19 lipca 2018"}
                     menuNames={"MAGDALENA i ŁUKASZ"}
                     menuTitle={"PAŁAC GOETZA BRZESKO, ŚLUBNA SESJA ZDJĘCIOWA"}
                     leadNames={"MARTA i MARCIN"}
