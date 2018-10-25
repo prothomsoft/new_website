@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "kosciol_myslenice.jpg",
-                url1: "basiagrzegorz",
-                title1: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>BASIA i GRZEGORZ",
+                image1: "zielone_wzgorze_koniusza.jpg",
+                url1: "karolamati",
+                title1: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
 
                 image2: "anna_piotr_slub_krakow.jpg",
                 url2: "annapiotr",
@@ -18,13 +18,13 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sala_bankietowa_triana_mogilany.jpg",
-                url1: "paulina",
-                title1: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
+                image1: "kristina.jpg",
+                url1: "kristinaaleksandr",
+                title1: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
 
-                image2: "kristina.jpg",
-                url2: "kristinaaleksandr",
-                title2: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
+                image2: "kosciol_myslenice.jpg",
+                url2: "basiagrzegorz",
+                title2: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>BASIA i GRZEGORZ",
 
                 image3: "helada_oswiecim.jpg",
                 url3: "magdadamian",
@@ -32,9 +32,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "skalny_dwor.jpg",
-                url1: "monikawojtek",
-                title1: "DOM WESELNY SKALNY DWÓR SUŁOSZOWA<br/>MONIKA i WOJTEK",
+                image1: "sala_bankietowa_triana_mogilany.jpg",
+                url1: "paulina",
+                title1: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
 
                 image2: "magda_grzegorz.jpg",
                 url2: "magdagrzegorz",

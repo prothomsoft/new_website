@@ -168,22 +168,26 @@ export default class BlogPageComponent extends React.Component {
                 <Blogpage
                     slide={slide}
                     images={images}
-                    headTitle={"Helada sala weselna, Fotograf ślubny Oświęcim"}
-                    headDescription={"Helada sala weselna Oświęcim. Dużo emocji i świetnie zorganizowany ślub Magdaleny i Damiana. Zapraszam do oglądania."}
-                    headKeywords={"Helada sala weselna, fotograf ślubny Oświęcim"}
-                    headUrl={"http://99foto.pl/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa/"}
-                    entryContentP1={"123"}
-                    entryContentP2={"123"}
-                    slug={"ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
-                    title={"SALA WESELNA HELADA, FOTOGRAF ŚLUBNY OŚWIĘCIM - MAGDALENA i DAMIAN"}
-                    tags={"Helada sala weselna, Fotograf ślubny Oświęcim"}
-                    date={"30 września 2018"}
-                    menuNames={"MAGDALENA i DAMIAN"}
-                    menuTitle={"SALA WESELNA HELADA, FOTOGRAF ŚLUBNY OŚWIĘCIM"}
-                    leadNames={"MARTA i MARCIN"}
-                    leadTitle={"WESELE POD KRAKOWEM, FIRST LOOK NA DACHU WIEŻOWCA"}
-                    leadUrl={"/tiffany-wola-filipowska-first-look-na-dachu-wiezowca"}
-                    leadImage={"url(/static/restauracja_tiffany_wola_filpowska.jpg)"}
+                    headTitle={"Zielone Wgórze Koniusza, TAK w promieniach słońca"}
+                    headDescription={"Zielone Wgórze Koniusza, fotograf ślubny Proszowice. TAK w promieniach słońca, garbus i dużo kwiatów na ślubie Karoliny i Mateusza. Zapraszam do oglądania."}
+                    headKeywords={"Zielone Wzgórze Koniusza, fotograf ślubny Proszowice, garbus do ślubu"}
+                    headUrl={"http://99foto.pl/zielone-wzgorze-koniusza-tak-w-promieniach-slonca/"}
+                    entryContentP1={
+                        'We wrześniu 2016 roku, czyli dwa lata temu na przygotowaniach do <a href="http://99foto.pl/natalia-marcin-i-maja-reportaz-slubny-gosciniec-branicki/" target="_blank">ślubu Natalii i Marcina</a>, który można oglądnąć na moim blogu, poznałem Karolinę. Nie jestem do końca pewien czy dobrze zaobserwowałem, ale właśnie wtedy pod Kościołem na Wzgórzach Krzesławickich Karolina przedstawiała znajomym swojego nowego chłopaka Mateusza. No iskrzyło między nimi i po dwóch latach spotkaliśmy się ponownie po to by postawić kropkę nad i. Dzień rozpoczęliśmy od przygotowań Karoliny w <a href="https://www.facebook.com/pages/category/Beauty-Salon/Odpicuj-Si%C4%99-322995571499190/" target="_blank">Studio Odpicuj się</a>. Profesjonalny makijaż wykonała <a href="http://aleksandra-szczepanek.com.pl/" target="_blank">Aleksandra Szczepanek</a>. Następnie nie zważając na utrudnienia w ruchu związane z odbywającym się w Krakowie maratonem, przebiliśmy się do Nowej Huty, dokładniej na Osiedle Kalinowe w celu uwiecznienia przygotowań Mateusza. Piszę w liczbie mnogiej ponieważ od samego rana biegaliśmy fotografując i filmując z <a href="https://camdesign.pl/" target="_blank">Krzyśkiem z CAMDESIGN</a>, którego bardzo polecam wszystkim przyszłym nowożeńcom. Było tak jak lubię, działo się dużo i można było darować sobie ustawki skupiając się na fajnych momentach. Przygotowania u Karoliny przebiegły w rodzinnej atmosferze. Dom wypełniały śmiechy bawiących się dzieciaków i nutka napięcia budowanego zbliżającym się przybyciem Mateusza.'
+                    }
+                    entryContentP2={
+                        'First look, wpinanie butonierek, błogosławieństwo rodziców i ubrany w przepiękne kwiaty Garbus odtransportował Parę Młodą do <a href="http://parafia.kalinowe.pl/" target="_blank">Kościóła św. Józefa Oblubieńca Najświętszej Maryi Panny w Krakowie</a>. Trochę już tych ślubów mam na swoim koncie, ale w takiej ceremonii miałem okazję uczestniczyć po raz pierwszy. Ksiądz był gospodarzem przez duże gie. Już na początku poprzesadzał gości do przednich ławek, poprosił aparaciarzy by oszczędzali nogi podczas kazania, przez blisko pół godziny próbował bezskutecznie zrozumieć naturę kobiety, by na sam koniec zaprosić wszystkich gości do przodu by napewno nie przegapili chwili, w której obrączki trafią na swoje miejsce. No i co, były łzy, pocałunki, pełno emocji. Po wyjściu z kościoła przywitała nas polska złota jesień. Wykorzystując te nieziemskie warunki zrobiliśmy zdjęcie grupowe i ruszyliśmy w stronę Proszowic do <a href="http://www.salazielonewzgorze.pl/" target="_blank">Sali Weselnej Zielone Wzgórze w miejscowości Koniusza</a>. Na parkiecie gości przywitał Artur z <a href="http://artmuz.krakow.pl/" target="_blank">Zespółu Muzycznego ART MUZ</a>. Para Młoda zatańczyła pierwszy taniec, pokroiła torta i zaprosiła gości weselnych do wspólnej zabawy na parkiecie. Artur kręcił zabawę na poziomie jako frontment niemalże zwisając ze sceny. Pewnie gdyby szukał pracy na etacie to stacja telewizyjna TVN przygarnęłaby go jego talent już po pierwszym interview. Była też fotobudka, litery LOVE i dużo pysznych rzeczy na ząb. Dzięki, że mogłem sfotografować Wasz ślub. Było tak jak się spodziewałem emocjonalnie i energetycznie. Zapraszam na wybrane zdjęcia, a po więcej do strefy klienta.'
+                    }
+                    slug={"zielone-wzgorze-koniusza-tak-w-promieniach-slonca"}
+                    title={"ZIELONE WZGÓRZE KONIUSZA, TAK W PROMIENIACH SŁOŃCA - KAROLINA i MATEUSZ"}
+                    tags={"Zielone Wzgórze Koniusza, fotograf ślubny Proszowice, garbus do ślubu"}
+                    date={"23 października 2018"}
+                    menuNames={"KAROLINA i MATEUSZ"}
+                    menuTitle={"ZIELONE WZGÓRZE KONIUSZA, TAK W PROMIENIACH SŁOŃCA"}
+                    leadNames={"IZABELA i ARKADIUSZ"}
+                    leadTitle={"SESJA ŚLUBNA JESIENIĄ - PAŁAC GOETZÓW OKOCIMSKICH"}
+                    leadUrl={"/sesja-slubna-jesienia-palac-goetzow-okocimskich"}
+                    leadImage={"url(/static/sesja_slubna_jesienia.jpg)"}
                 />
             </div>
         );
