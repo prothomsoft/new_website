@@ -168,8 +168,8 @@ export default class BlogPageComponent extends React.Component {
                 <Blogpage
                     slide={slide}
                     images={images}
-                    headTitle={"Zielone Wgórze Koniusza, TAK w promieniach słońca"}
-                    headDescription={"Zielone Wgórze Koniusza, fotograf ślubny Proszowice. TAK w promieniach słońca, garbus i dużo kwiatów na ślubie Karoliny i Mateusza. Zapraszam do oglądania."}
+                    headTitle={"Zielone Wzgórze Koniusza, TAK w promieniach słońca"}
+                    headDescription={"Zielone Wzgórze Koniusza, fotograf ślubny Proszowice. TAK w promieniach słońca, garbus i dużo kwiatów na ślubie Karoliny i Mateusza. Zapraszam do oglądania."}
                     headKeywords={"Zielone Wzgórze Koniusza, fotograf ślubny Proszowice, garbus do ślubu"}
                     headUrl={"http://99foto.pl/zielone-wzgorze-koniusza-tak-w-promieniach-slonca/"}
                     entryContentP1={
