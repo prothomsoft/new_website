@@ -4,9 +4,23 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "zielone_wzgorze_koniusza.jpg",
-                url1: "karolamati",
-                title1: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
+                image1: "hotel_zajazd_celtycki_zakrzow.jpg",
+                url1: "aniabartek",
+                title1: "HOTEL ZAJAZD CELTYCKI ZAKRZÓW<br/>ANNA i BARTŁOMIEJ",
+
+                image2: "zielone_wzgorze_koniusza.jpg",
+                url2: "karolamati",
+                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
+
+                image3: "sala_bankietowa_triana_mogilany.jpg",
+                url3: "paulina",
+                title3: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ"
+            },
+
+            {
+                image1: "arka_pana_nowa_huta.jpg",
+                url1: "olarafal",
+                title1: "KOŚCIÓŁ ARKA PANA NOWA HUTA<br/>ALEKSANDRA i RAFAŁ",
 
                 image2: "anna_piotr_slub_krakow.jpg",
                 url2: "annapiotr",
@@ -26,23 +40,23 @@ export default class ClientPageComponent extends React.Component {
                 url2: "basiagrzegorz",
                 title2: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>BASIA i GRZEGORZ",
 
-                image3: "helada_oswiecim.jpg",
-                url3: "magdadamian",
-                title3: "SALA WESELNA HELADA OŚWIĘCIM<br/>MAGDALENA i DAMIAN"
+                image3: "alina_michal.jpg",
+                url3: "alinamichal",
+                title3: "SALA WESELNA SZAFRAN ZAGACIE<br/>ALINA i MICHAŁ"
             },
 
             {
-                image1: "sala_bankietowa_triana_mogilany.jpg",
-                url1: "paulina",
-                title1: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
+                image1: "helada_oswiecim.jpg",
+                url1: "magdadamian",
+                title1: "SALA WESELNA HELADA OŚWIĘCIM<br/>MAGDALENA i DAMIAN",
 
                 image2: "magda_grzegorz.jpg",
                 url2: "magdagrzegorz",
                 title2: "RESTAURACJA KOLIBA MURZASICHLE<br/>MAGDALENA i GRZEGORZ",
 
-                image3: "alina_michal.jpg",
-                url3: "alinamichal",
-                title3: "SALA WESELNA SZAFRAN ZAGACIE<br/>ALINA i MICHAŁ"
+                image3: "fotograf-slubny-magnolia-budzow.jpg",
+                url3: "kingamateusz",
+                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
             },
 
             {
@@ -54,9 +68,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "magdalukasz",
                 title2: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>MAGDALENA i ŁUKASZ",
 
-                image3: "fotograf-slubny-magnolia-budzow.jpg",
-                url3: "kingamateusz",
-                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
+                image3: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
+                url3: "dajanasylwester",
+                title3: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER"
             },
 
             {
@@ -67,20 +81,6 @@ export default class ClientPageComponent extends React.Component {
                 image2: "sala_weselna_soprano_tarnow.jpg",
                 url2: "magdalenalukasz",
                 title2: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ",
-
-                image3: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
-                url3: "dajanasylwester",
-                title3: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER"
-            },
-
-            {
-                image1: "folwark_zalesie_renata_michal.jpg",
-                url1: "renatamichal",
-                title1: "FOLWARK ZALESIE WIELICZKA<br/>RENATA i MICHAŁ",
-
-                image2: "magdalena_andrzej_u_niedzwiedzia.jpg",
-                url2: "magdaandrzej",
-                title2: "OPACTWO BENEDYKTYNÓW W TYŃCU<br/>MAGDALENA i ANDRZEJ",
 
                 image3: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
                 url3: "nataliapiotr",
