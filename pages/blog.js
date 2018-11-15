@@ -13,10 +13,10 @@ export default class BlogListComponent extends React.Component {
                     headDescription={"Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"}
                     headKeywords={"zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa"}
                     headUrl={"http://99foto.pl/blog/"}
-                    leadNames={"EWELINA i KAMIL"}
-                    leadTitle={"HOTEL TADEUSZ USZEW i GÓRALSKA SALA WESELNA"}
-                    leadUrl={"/hotel-tadeusz-uszew-i-goralska-sala-weselna"}
-                    leadImage={"url(/static/hotel_tadeusz_uszew_i_goralska_sala_weselna_start.jpg)"}
+                    leadNames={"IZABELA i ARKADIUSZ"}
+                    leadTitle={"DOM WESELNY EUFORIA MYŚLENICE i SŁONECZNE LOVE"}
+                    leadUrl={"/dom-weselny-euforia-myslenice-i-sloneczne-love"}
+                    leadImage={"url(/static/dom_weselny_euforia_myslenice_1.jpg)"}
                 />
             </div>
         );

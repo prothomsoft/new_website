@@ -97,6 +97,20 @@ export default class OfferDesktop extends React.Component {
                         <img src={"/static/portfolio/sesja_zdjeciowa_krakow_5_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
+                        Serdecznie polecamy. Niezwykle profesjonalne podejście, bardzo miła atmosfera i przepiękne zdjęcia! Długo zastanawialiśmy się nad wyborem fotografa, ale wiemy, że nie mogliśmy
+                        lepiej wybrać. Tomku, dziękujemy za piękną pamiątkę i serdecznie pozdrawiamy. <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">Natalia i Piotr</Link>.
+                    </p>
+                    <LazyLoad height={760} offsetVertical={300}>
+                        <img src={"/static/portfolio/plener_slubny_slowacja.jpg"} />
+                    </LazyLoad>
+                    <p>
+                        Dziękujemy, dziękujemy, dziękujemy. Byliśmy pewni że nasza współpraca z Tomkiem przebiegnie idealnie i tak właśnie było. Polecamy wszystkim z całego serca!!!{" "}
+                        <Link href="/zielone-wzgorze-koniusza-tak-w-promieniach-slonca">Karola i Mati</Link>.
+                    </p>
+                    <LazyLoad height={760} offsetVertical={300}>
+                        <img src={"/static/portfolio/anna_piotr_slub_krakow.jpg"} />
+                    </LazyLoad>
+                    <p>
                         Pełen profesjonalizm i zaangażowanie! Dyskretna i bardzo efektowna praca Tomka robi wrażenie tak jak Jego zdjęcia :) spokój i usmiech :) świetna współpraca! Dziękujemy Tomek.{" "}
                         <Link href="/sylwia-i-bartek-sesja-poslubna-krakow">Sylwia i Bartek</Link>.
                     </p>
@@ -104,12 +118,19 @@ export default class OfferDesktop extends React.Component {
                         <img src={"/static/portfolio/sesja_zdjeciowa_krakow_7_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
+                        Otwarty, profesjonalny i cierpliwy, polecamy Tomka każdemu! Zdjęcia które wykonuje są piękne i klimatyczne, współprace z nim będziemy bardzo miło wspominać.{" "}
+                        <Link href="/sala-bankietowa-triana-mogilany-reportaz-slubny-podstolice">Paulina i Paweł</Link>.
+                    </p>
+                    <LazyLoad height={760} offsetVertical={300}>
+                        <img src={"/static/portfolio/chan_kristina_sesja_slubna_krakow.jpg"} />
+                    </LazyLoad>
+                    <p>
                         Gorące podziękowania dla Tomka za wspaniałą pamiątkę z naszego wesela, które odbyło się 15 sierpnia tego roku. Współpraca, podejście do tematu, zaangażowanie na bardzo wysokim
                         poziomie. Materiał z wesela otrzymaliśmy w ekspresowym terminie. Wszystkim serdecznie polecamy!{" "}
                         <Link href="/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala">Patrycja i Michał</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/chan_kristina_sesja_slubna_krakow.jpg"} />
+                        <img src={"/static/portfolio/plener_slubny_szczyrbskie_jezioro.jpg"} />
                     </LazyLoad>
                     <p>
                         Tomek jest świetnym fotografem. Każdy ważny moment jest uchwycony w magiczny sposób. Nie ma zdjęcia, które by sie powtarzało. Efekty mówią same za siebie, wystarczy tylko
@@ -117,11 +138,11 @@ export default class OfferDesktop extends React.Component {
                         <Link href="/wesele-tarnow-dwor-bistuszowa-i-staropolski-klimat-slubny">Aleksandra i Przemek</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/plener_slubny_szczyrbskie_jezioro.jpg"} />
+                        <img src={"/static/portfolio/sesja_slubna_jesienia.jpg"} />
                     </LazyLoad>
                     <p>
-                        Serdecznie polecamy. Niezwykle profesjonalne podejście, bardzo miła atmosfera i przepiękne zdjęcia! Długo zastanawialiśmy się nad wyborem fotografa, ale wiemy, że nie mogliśmy
-                        lepiej wybrać. Tomku, dziękujemy za piękną pamiątkę i serdecznie pozdrawiamy. <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">Natalia i Piotr</Link>.
+                        Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego
+                        fotografa. Polecamy wszystkim! <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">Aleksandra i Grzegorz</Link>.
                     </p>
                     <div className="spacer">&nbsp;</div>
                 </article>

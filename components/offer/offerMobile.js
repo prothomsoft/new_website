@@ -21,9 +21,8 @@ export default class OfferMobile extends React.Component {
                     <p>sesję poślubną w wybranym dniu po ślubie</p>
                     <div className="spacer">&nbsp;</div>
                     <h2>OTRZYMUJECIE</h2>
-                    <p>fotoksiążkę - minimum 120 stron w twardej oprawie, format 30x30cm - około 350 zdjęć</p>
-                    <p>minimum 450 zdjęć na płycie DVD w etui - wszystkie zdjęcia poddane są starannej obróbce graficznej</p>
-                    <p>prezentację multimedialną zdjęć ślubnych na płycie DVD w etui</p>
+                    <p>fotoksiążkę - minimum 120 stron w twardej oprawie, format 30x30cm</p>
+                    <p>pendrive w etui - minimum 450 zdjęć poddanych starannej obróbce graficznej</p>
                     <p>dojazd w dniu ślubu GRATIS</p>
                     <p>internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem</p>
                 </article>
@@ -38,7 +37,7 @@ export default class OfferMobile extends React.Component {
                     <p>&nbsp;</p>
                     <div className="spacer_more">&nbsp;</div>
                     <h2>OTRZYMUJECIE</h2>
-                    <p>minimum 80 zdjęć na płycie DVD w etui - wszystkie zdjęcia poddane są starannej obróbce graficznej</p>
+                    <p>pendrive w etui - minimum 80 zdjęć poddanych starannej obróbce graficznej</p>
                     <p>dojazd do 30 km na sesję zdjęciową GRATIS</p>
                     <p>internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem</p>
                     <div className="spacer" />
