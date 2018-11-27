@@ -4,37 +4,37 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "kosciol_makow_podhalanski.jpg",
-                url1: "olakuba",
-                title1: "KARCZMA U LIPY JORDANÓW<br/>ALEKSANDRA i JAKUB",
+                image1: "kosciol_morawica.jpg",
+                url1: "magdakuba",
+                title1: "SALA BANKIETOWA SZAFRAN ZAGACIE<br/>MAGDALENA i JAKUB",
 
-                image2: "hotel_zajazd_celtycki_zakrzow.jpg",
-                url2: "aniabartek",
-                title2: "HOTEL ZAJAZD CELTYCKI ZAKRZÓW<br/>ANNA i BARTŁOMIEJ",
+                image2: "zielone_wzgorze_koniusza.jpg",
+                url2: "karolamati",
+                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
 
-                image3: "zielone_wzgorze_koniusza.jpg",
-                url3: "karolamati",
-                title3: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ"
+                image3: "hotel_zajazd_celtycki_zakrzow.jpg",
+                url3: "aniabartek",
+                title3: "HOTEL ZAJAZD CELTYCKI ZAKRZÓW<br/>ANNA i BARTŁOMIEJ"
+            },
+
+            {
+                image1: "arka_pana_nowa_huta.jpg",
+                url1: "olarafal",
+                title1: "KOŚCIÓŁ ARKA PANA NOWA HUTA<br/>ALEKSANDRA i RAFAŁ",
+
+                image2: "anna_piotr_slub_krakow.jpg",
+                url2: "annapiotr",
+                title2: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>ANNA i PIOTR",
+
+                image3: "kosciol_makow_podhalanski.jpg",
+                url3: "olakuba",
+                title3: "KARCZMA U LIPY JORDANÓW<br/>ALEKSANDRA i JAKUB"
             },
 
             {
                 image1: "sala_bankietowa_triana_mogilany.jpg",
                 url1: "paulina",
                 title1: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
-
-                image2: "arka_pana_nowa_huta.jpg",
-                url2: "olarafal",
-                title2: "KOŚCIÓŁ ARKA PANA NOWA HUTA<br/>ALEKSANDRA i RAFAŁ",
-
-                image3: "anna_piotr_slub_krakow.jpg",
-                url3: "annapiotr",
-                title3: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>ANNA i PIOTR"
-            },
-
-            {
-                image1: "helada_oswiecim.jpg",
-                url1: "magdadamian",
-                title1: "SALA WESELNA HELADA OŚWIĘCIM<br/>MAGDALENA i DAMIAN",
 
                 image2: "kristina.jpg",
                 url2: "kristinaaleksandr",
@@ -46,9 +46,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "kosciol_myslenice.jpg",
-                url1: "basiagrzegorz",
-                title1: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>BASIA i GRZEGORZ",
+                image1: "helada_oswiecim.jpg",
+                url1: "magdadamian",
+                title1: "SALA WESELNA HELADA OŚWIĘCIM<br/>MAGDALENA i DAMIAN",
 
                 image2: "magda_grzegorz.jpg",
                 url2: "magdagrzegorz",

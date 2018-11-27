@@ -36,7 +36,7 @@ export default class OfferDesktop extends React.Component {
                         wykorzystuje te narzędzia tworząc opowieść o ludziach, miejscach, wydarzeniach i emocjach.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} />
+                        <img src={"/static/portfolio/kosciol_morawica.jpg"} />
                     </LazyLoad>
                     <p>
                         Każde zdjęcie ślubne zaczyna się od pomysłu. To zwykle konfrontacja pomiędzy powstałym w naszej głowie ideałem i możliwościami jakie stwarza nam zastana sytuacja. Sprzęt
@@ -91,7 +91,7 @@ export default class OfferDesktop extends React.Component {
                         będziemy zawsze miło wspominać! <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">Anna i Krzysztof</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/julita_i_pawel_reportaz_slubny_kosciol_na_skalce_krakow_portfolio.jpg"} />
+                        <img src={"/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
                         Tomek jest fotografem z pasją, robi świetne zdjęcia, a do tego zna sie na tej sztuce! Poza tym jest wspaniałym, uśmiechniętym człowiekiem i praca z nim to czysta przyjemność
