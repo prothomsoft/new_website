@@ -12,7 +12,7 @@ export default class BlogListComponent extends React.Component {
                     headTitle={"Zdjęcia ślubne Kraków"}
                     headDescription={"Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"}
                     headKeywords={"zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa"}
-                    headUrl={"http://99foto.pl/blog/"}
+                    headUrl={"https://99foto.pl/blog/"}
                     leadNames={"IZABELA i ARKADIUSZ"}
                     leadTitle={"DOM WESELNY EUFORIA MYŚLENICE i SŁONECZNE LOVE"}
                     leadUrl={"/dom-weselny-euforia-myslenice-i-sloneczne-love"}
@@ -27,7 +27,7 @@ BlogListComponent.getInitialProps = async function({ query }) {
     const page = parseInt(query.page) || 1;
     const per_page = 9;
 
-    const res = await Fetch(`http://99foto.pl/wp-json/wp/v2/posts?page=${page}&per_page=${per_page}`);
+    const res = await Fetch(`https://99foto.pl/wp-json/wp/v2/posts?page=${page}&per_page=${per_page}`);
     const posts = await res.json();
 
     const total = res.headers.get("X-WP-Total");

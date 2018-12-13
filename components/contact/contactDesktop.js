@@ -155,7 +155,7 @@ export default class ContactDesktop extends React.Component {
                     <div className="floatLeft">
                         <p>
                             TOMASZ PROKOP -{" "}
-                            <Link href="http://99foto.pl">
+                            <Link href="https://99foto.pl">
                                 <a>FOTOGRAF ŚLUBNY KRAKÓW</a>
                             </Link>
                         </p>

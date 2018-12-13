@@ -9,29 +9,29 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0001.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0002.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0003.jpg", height: 850 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0004.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0005.jpg", height: 805 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0007.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0006.jpg", height: 850 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0024.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0009.jpg", height: 850 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0010.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0011.jpg", height: 527 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0014.jpg", height: 850 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0015.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0012.jpg", height: 850 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0021.jpg", height: 527 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0016.jpg", height: 850 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0017.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0018.jpg", height: 850 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0019.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0020.jpg", height: 850 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0022.jpg", height: 527 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0023.jpg", height: 527 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0008.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0001.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0002.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0003.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0004.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0005.jpg", height: 805 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0007.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0006.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0024.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0009.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0010.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0011.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0014.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0015.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0012.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0021.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0016.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0017.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0018.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0019.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0020.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0022.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0023.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/09/sesja_zdjeciowa_ojcow_0008.jpg", height: 763 }
         ];
 
         return (
@@ -42,12 +42,12 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesja ślubna w plenerze Kraków"}
                     headDescription={"Park krajobrazowy w Ojcowie i okolice to świetne miejsce na sesję ślubną w plenerze. Sesja ślubna w plenerze musi się tam udać. Zapraszam na bloga."}
                     headKeywords={"sesja ślubna w plenerze,zamek pieskowa skała,park krajobrazowy w ojcowie"}
-                    headUrl={"http://99foto.pl/sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice/"}
+                    headUrl={"https://99foto.pl/sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice/"}
                     entryContentP1={
-                        'Sesja ślubna w plenerze to zwykle poszukiwanie trzech składowych chwili, światła i kadru. Każda para młoda musi sobie odpowiedzieć na pytanie, czy warto jechać pół dnia do innego miasta, żeby zrobić sesję zdjęciową. Może warto ten czas wykorzystać inaczej i zdecydować się na sesję w Krakowie. Zdecydowanie inaczej jest gdy chcecie mieć góry w tle, wtedy rzeczywiście warto się zastanowić nad wyjazdem. W ubiegłym tygodniu razem z Olą i Pawłem polowaliśmy na odpowiedni moment w <a href="http://korzkiew.pl/" target="_blank">Zamku Korzkiew</a> i w <a href="http://ojcowskiparknarodowy.pl/" target="_blank">Parku Krajobrazowym w Ojcowie</a>.'
+                        'Sesja ślubna w plenerze to zwykle poszukiwanie trzech składowych chwili, światła i kadru. Każda para młoda musi sobie odpowiedzieć na pytanie, czy warto jechać pół dnia do innego miasta, żeby zrobić sesję zdjęciową. Może warto ten czas wykorzystać inaczej i zdecydować się na sesję w Krakowie. Zdecydowanie inaczej jest gdy chcecie mieć góry w tle, wtedy rzeczywiście warto się zastanowić nad wyjazdem. W ubiegłym tygodniu razem z Olą i Pawłem polowaliśmy na odpowiedni moment w <a href="https://korzkiew.pl/" target="_blank">Zamku Korzkiew</a> i w <a href="https://ojcowskiparknarodowy.pl/" target="_blank">Parku Krajobrazowym w Ojcowie</a>.'
                     }
                     entryContentP2={
-                        'Dzień był mega słoneczny i pomimo, że mamy już początek września udało nam się świetnie trafić na zachodzące słońce. Taki był plan, który udało się zrealizować. <a href="http://pieskowaskala.eu/" target="_blank">Pieskowa Skała</a> jest świetnym miejscem ponieważ można tam wychodzić, wyżej i wyżej za każdym razem oszukując czas i oglądając słońce z trochę innej perspektywy. Zobaczcie sami. Zapraszam na zdjęcia.'
+                        'Dzień był mega słoneczny i pomimo, że mamy już początek września udało nam się świetnie trafić na zachodzące słońce. Taki był plan, który udało się zrealizować. <a href="https://pieskowaskala.eu/" target="_blank">Pieskowa Skała</a> jest świetnym miejscem ponieważ można tam wychodzić, wyżej i wyżej za każdym razem oszukując czas i oglądając słońce z trochę innej perspektywy. Zobaczcie sami. Zapraszam na zdjęcia.'
                     }
                     slug={"sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice"}
                     title={"SESJA ŚLUBNA W PLENERZE, PARK KRAJOBRAZOWY OJCÓW - OLA i PAWEŁ"}

@@ -9,29 +9,29 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0003.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0002.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0001.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0004.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0005.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0006.jpg", height: 852 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0007.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0008.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0010.jpg", height: 851 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0009.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0011.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0012.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0013.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0014.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0015.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0016.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0017.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0018.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0019.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0020.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0021.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0022.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/09/99FOTOPL_SPM_087.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0003.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0002.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0001.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0004.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0005.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0006.jpg", height: 852 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0007.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0008.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0010.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0009.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0011.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0012.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0013.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0014.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0015.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0016.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0017.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0018.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0019.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0020.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0021.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/sesja_poslubna_rynek_wawel_krakow_0022.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/09/99FOTOPL_SPM_087.jpg", height: 763 }
         ];
 
         return (
@@ -42,7 +42,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Plener ślubny w sercu Krakowa. Krakowski Rynek Główny i Wawel."}
                     headDescription={"Plener ślubny na Krakowskim Rynku, zdjęcia ślubne Wawel. Zapraszam do oglądania."}
                     headKeywords={"plener ślubny krakowski rynek, zdjęcia ślubne wawel"}
-                    headUrl={"http://99foto.pl/aga-i-michal-sesja-poslubna-wawel-rynek-krakow/"}
+                    headUrl={"https://99foto.pl/aga-i-michal-sesja-poslubna-wawel-rynek-krakow/"}
                     entryContentP1={
                         "Kraków i jego najbardziej znane miejsce na plener czyli Rynek i Wawel przez wielu określane są mianem miejsc oklepanych. Dlatego też młodzi najczęściej mało entuzjastycznie przyjmują propozycję sesji ślubnej właśnie tam. Tymczasem wędrując przez Kraków z aparatem można odkryć wiele ciekawych zakamarków, co więcej dysponując odrobiną czasu i wychodząc ze strefy komfortu w poszukiwaniu nowych ujęć, można odkryć nowe kadry i ciekawe miejsca. Mam nadzieję, że było dokładnie tak i tym razem."
                     }

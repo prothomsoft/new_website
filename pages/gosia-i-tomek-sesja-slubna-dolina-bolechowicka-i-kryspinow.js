@@ -9,31 +9,31 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0001.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0002.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0003.jpg", height: 852 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0004.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0005.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0006.jpg", height: 852 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0007.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0008.jpg", height: 852 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0009.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0011.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0010.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0012.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0013.jpg", height: 852 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0014.jpg", height: 804 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0015.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0016.jpg", height: 851 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0017.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0018.jpg", height: 805 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0019.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0020.jpg", height: 851 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0021.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0023.jpg", height: 851 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0022.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0024.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0025.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0001.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0002.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0003.jpg", height: 852 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0004.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0005.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0006.jpg", height: 852 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0007.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0008.jpg", height: 852 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0009.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0011.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0010.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0012.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0013.jpg", height: 852 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0014.jpg", height: 804 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0015.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0016.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0017.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0018.jpg", height: 805 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0019.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0020.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0021.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0023.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0022.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0024.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2016/07/plener_slubny_krakow_0025.jpg", height: 763 }
         ];
 
         return (
@@ -44,7 +44,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesja ślubna Dolina Bolechowicka i Kryspinów"}
                     headDescription={"Serdecznie zapraszam do Doliny Bolechowickiej i Kryspinowa. Gdyby ktoś poszukiwał miejsc na weekendowy spacer to polecam zajrzeć. Miłego oglądania."}
                     headKeywords={"sesja ślubna kraków,plener ślubny kryspinów"}
-                    headUrl={"http://99foto.pl/gosia-i-tomek-sesja-slubna-dolina-bolechowicka-i-kryspinow/"}
+                    headUrl={"https://99foto.pl/gosia-i-tomek-sesja-slubna-dolina-bolechowicka-i-kryspinow/"}
                     entryContentP1={
                         "Wiele młodych par myśli, że zrobienie fajnych zdjęć do sesji ślubnej wymaga wyjazdu z Krakowa i okolic, pozostawienia za sobą mięc oklepanych i nowe poszukiwania. Mam nadzieję, że po raz kolejny razem z Gosią i Tomkiem udowodnimy, że to nie prawda. Gosia mieszka w Bolechowicach i doskonale zna okolicę, Dolina Bolechowicka to też wspomnienia, chociażby długie treningi pierwszego tańca z Tomkiem, dlatego też zdecydowaliśmy się rozpocząć zdjęcia w tym miejscu. W Dolinie Bolechowickiej doszliśmy do wodospadu, co w sukni ślubnej było dość trudne."
                     }

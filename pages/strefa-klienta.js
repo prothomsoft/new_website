@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "kosciol_morawica.jpg",
-                url1: "magdakuba",
-                title1: "SALA BANKIETOWA SZAFRAN ZAGACIE<br/>MAGDALENA i JAKUB",
+                image1: "filip_chrzest.jpg",
+                url1: "filip",
+                title1: "CHRZEST ŚWIĘTY FILIPA <br/>AGNIESZKA i PIOTR",
 
                 image2: "zielone_wzgorze_koniusza.jpg",
                 url2: "karolamati",
@@ -18,9 +18,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "arka_pana_nowa_huta.jpg",
-                url1: "olarafal",
-                title1: "KOŚCIÓŁ ARKA PANA NOWA HUTA<br/>ALEKSANDRA i RAFAŁ",
+                image1: "kosciol_morawica.jpg",
+                url1: "magdakuba",
+                title1: "SALA BANKIETOWA SZAFRAN ZAGACIE<br/>MAGDALENA i JAKUB",
 
                 image2: "anna_piotr_slub_krakow.jpg",
                 url2: "annapiotr",
@@ -32,9 +32,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sala_bankietowa_triana_mogilany.jpg",
-                url1: "paulina",
-                title1: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
+                image1: "arka_pana_nowa_huta.jpg",
+                url1: "olarafal",
+                title1: "KOŚCIÓŁ ARKA PANA NOWA HUTA<br/>ALEKSANDRA i RAFAŁ",
 
                 image2: "kristina.jpg",
                 url2: "kristinaaleksandr",
@@ -46,9 +46,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "helada_oswiecim.jpg",
-                url1: "magdadamian",
-                title1: "SALA WESELNA HELADA OŚWIĘCIM<br/>MAGDALENA i DAMIAN",
+                image1: "sala_bankietowa_triana_mogilany.jpg",
+                url1: "paulina",
+                title1: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
 
                 image2: "magda_grzegorz.jpg",
                 url2: "magdagrzegorz",
@@ -60,9 +60,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "restauracja_tiffany_wola_filpowska.jpg",
-                url1: "martamarcin",
-                title1: "RESTAURACJA TIFFANY WOLA FILIPOWSKA<br/>MARTA i MARCIN",
+                image1: "helada_oswiecim.jpg",
+                url1: "magdadamian",
+                title1: "SALA WESELNA HELADA OŚWIĘCIM<br/>MAGDALENA i DAMIAN",
 
                 image2: "magdalena_lukasz_myslenice.jpg",
                 url2: "magdalukasz",
@@ -95,7 +95,7 @@ export default class ClientPageComponent extends React.Component {
                     headTitle={"Strefa klienta"}
                     headDescription={"Galeria zdjęć zabezpieczona hasłem. Wasze historie ślubne i reportaże. Dostęp tylko dla Was."}
                     headKeywords={"strefa klienta, historie ślubne"}
-                    headUrl={"http://99foto.pl/strefa-klienta/"}
+                    headUrl={"https://99foto.pl/strefa-klienta/"}
                     componentContentName={"client"}
                     backgroundImage={"url(/static/sesja_zdjeciowa_dwor_tomaszowice_krakow_start.jpg)"}
                     leadNames={"KAROLINA i BARTEK"}

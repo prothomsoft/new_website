@@ -9,33 +9,33 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0001.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0002.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0003.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0004.jpg", height: 852 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0005.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0006.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0007.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0008.jpg", height: 851 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0009.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0010.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0017.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0011.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0012.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0013.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0014.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0015.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0016.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0018.jpg", height: 851 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0019.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0020.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0021.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0023.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0022.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0025.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0026.jpg", height: 762 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0024.jpg", height: 763 },
-            { imageSrc: "http://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0027.jpg", height: 762 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0001.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0002.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0003.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0004.jpg", height: 852 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0005.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0006.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0007.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0008.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0009.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0010.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0017.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0011.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0012.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0013.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0014.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0015.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0016.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0018.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0019.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0020.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0021.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0023.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0022.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0025.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0026.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0024.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2015/07/sesja_poslubna_kazimierz_krakow_0027.jpg", height: 762 }
         ];
 
         return (
@@ -46,7 +46,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesja ślubna Kazimierz Kraków"}
                     headDescription={"Kościół na Skałce, Wawel, spacer bulwarami Wiślanymi i Kazimierz. W każdym miejscu kilka fajnych zdjęć Igi i Marcina. Zapraszam do oglądania."}
                     headKeywords={"sesja ślubna kazimierz,zdjęcia ślubne na wawelu,fotograf na ślub kraków"}
-                    headUrl={"http://99foto.pl/iga-i-marcin-sesja-poslubna-kazimierz-krakow/"}
+                    headUrl={"https://99foto.pl/iga-i-marcin-sesja-poslubna-kazimierz-krakow/"}
                     entryContentP1={
                         "Iga i Marcin w czasach studenckich mieszkali na ulicy Paulińskiej, dlatego też z tego miejsca rozpoczęliśmy naszą wyprawę po Krakowie. Kościół na Skałce, wspinaczka na Wawel i tam kilka fotek, a następnie prosto na Kazimierz, gdzie odwiedziliśmy Stajnię, Mleczarnie, Qulinaria, Starą Zajezdnię i Kładkę Bernatkę, każde miejsce inne i ciekawe do fotografowania."
                     }
