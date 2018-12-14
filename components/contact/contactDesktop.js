@@ -55,7 +55,7 @@ export default class ContactDesktop extends React.Component {
             .map(k => esc(k) + "=" + esc(formData[k]))
             .join("&");
 
-        var sUrlWithParams = "http://prothomsoft.com/test.php" + "?" + query;
+        var sUrlWithParams = "https://99foto.pl/test.php" + "?" + query;
         Fetch(sUrlWithParams, {
             method: "GET",
             headers: {
