@@ -154,10 +154,10 @@ export default class BlogPageComponent extends React.Component {
                     date={"15 czerwca 2018"}
                     menuNames={"SMARTRECRUITERS"}
                     menuTitle={"IMPREZA RODZINNA STADNINA KONI BOTOJA KORZKIEW"}
-                    leadNames={"MAŁGORZATA I RAFAŁ"}
-                    leadTitle={"PLENER ŚLUBNY SŁOWACJA, ŁOMNICKI STAW"}
-                    leadUrl={"/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso"}
-                    leadImage={"url(/static/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.jpg)"}
+                    leadNames={"IZABELA i ARKADIUSZ"}
+                    leadTitle={"SESJA ŚLUBNA JESIENIĄ - PAŁAC GOETZÓW OKOCIMSKICH"}
+                    leadUrl={"/sesja-slubna-jesienia-palac-goetzow-okocimskich"}
+                    leadImage={"url(/static/sesja_slubna_jesienia.jpg)"}
                 />
             </div>
         );
