@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Layout from "../components/layout";
-import Fetch from "isomorphic-unfetch";
 import styled from "styled-components";
 import LazyLoad from "react-lazy-load";
 import Menu from "../components/menu/menu";
@@ -109,13 +108,16 @@ export default class BlogList extends React.Component {
                 {componentTwo}
                 <div style={{ height: menuSpace }} />
                 <SectionWrapper>
-                    {this.props.posts.map((post, key) => <PostLink key={key} post={post} height={height} />)}
+                    {this.props.posts.map((post, key) => (
+                        <PostLink key={key} post={post} height={height} />
+                    ))}
                     <div style={{ textAlign: "right" }}>
                         {this.props.previous_page && (
                             <Link as={`/blog/page/${this.props.previous_page}`} href={`/blog?page=${this.props.previous_page}`}>
                                 <a className="btn">POPRZEDNIA STRONA</a>
                             </Link>
-                        )}&nbsp;&nbsp;
+                        )}
+                        &nbsp;&nbsp;
                         {this.props.next_page && (
                             <Link as={`/blog/page/${this.props.next_page}`} href={`/blog?page=${this.props.next_page}`}>
                                 <a className="btn">NASTĘPNA STRONA</a>

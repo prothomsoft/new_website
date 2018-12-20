@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import LazyLoad from "react-lazy-load";
 import Link from "next/link";
 
 const CaptionSectionWrapper = styled.div`

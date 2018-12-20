@@ -1,7 +1,4 @@
 import React from "react";
-import Scroll from "react-scroll";
-
-var LinkScroll = Scroll.Link;
 
 export default class IntroArrow extends React.Component {
     constructor(props) {

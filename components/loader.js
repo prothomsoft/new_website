@@ -8,7 +8,6 @@ const SectionWrapper = styled.div`
     width: 1160px;
     text-align: justify;
     padding: 0 10px 0 10px;
-
     @media (max-width: 1160px) {
         width: 100%;
     }

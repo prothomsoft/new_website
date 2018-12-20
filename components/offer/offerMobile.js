@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "next/link";
-import LazyLoad from "react-lazy-load";
 
 export default class OfferMobile extends React.Component {
     constructor() {

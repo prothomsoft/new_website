@@ -4,7 +4,6 @@ import Router from "next/router";
 import Meta from "../components/meta";
 import styled from "styled-components";
 import { injectGlobal } from "styled-components";
-import Loader from "../components/loader";
 import ScrollUpButton from "react-scroll-up-button";
 import { initGA, logPageView } from "../components/utils/analytics";
 

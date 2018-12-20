@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import Link from "next/link";
 import Fetch from "isomorphic-unfetch";
 import LazyLoad from "react-lazy-load";

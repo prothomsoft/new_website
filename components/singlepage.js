@@ -1,11 +1,8 @@
-import Link from "next/link";
 import Layout from "../components/layout";
 import Loader from "../components/loader";
-import NProgress from "nprogress";
 import Menu from "../components/menu/menu";
 import Scroll from "react-scroll";
 import styled from "styled-components";
-import LazyLoadWrapper from "../components/lazyLoadWrapper";
 import FontLoader from "../components/fontLoader";
 import { isIOS } from "react-device-detect";
 

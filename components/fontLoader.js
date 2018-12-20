@@ -1,5 +1,3 @@
-import Link from "next/link";
-import NProgress from "nprogress";
 import FontFaceObserver from "fontfaceobserver";
 
 export default class FontLoader extends React.Component {
