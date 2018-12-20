@@ -87,10 +87,7 @@ img {
   border: 2px solid #FFFFFF;
   background-color: #FFFFFF;
   color: #000
-}
-
-
-`;
+}`;
 
 Router.onRouteChangeStart = url => {
     NProgress.configure({ parent: ".nProgressHandler" });

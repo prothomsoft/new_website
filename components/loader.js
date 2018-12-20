@@ -7,7 +7,7 @@ const SectionWrapper = styled.div`
     margin: 0 auto;
     width: 1160px;
     text-align: justify;
-    padding: 20px 10px 0 10px;
+    padding: 0 10px 0 10px;
 
     @media (max-width: 1160px) {
         width: 100%;
