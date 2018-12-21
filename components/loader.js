@@ -30,7 +30,7 @@ export default class Loader extends React.Component {
                     .preloader {
                         position: fixed;
                         width: 100%;
-                        height: 100%;
+                        height: 100vh;
                         left: 0;
                         right: 0;
                         z-index: 10;
@@ -40,8 +40,8 @@ export default class Loader extends React.Component {
                     }
 
                     .preloader .typing_loader {
-                        width: 6px;
-                        height: 6px;
+                        width: 8px;
+                        height: 8px;
                         border-radius: 50%;
                         -webkit-animation: Typing 1s linear infinite alternate;
                         -moz-animation: Typing 1s linear infinite alternate;
@@ -50,7 +50,6 @@ export default class Loader extends React.Component {
                         animation: Typing 1s linear infinite alternate;
                         margin: 15px auto;
                         position: relative;
-                        left: -12px;
                     }
 
                     @keyframes Typing {

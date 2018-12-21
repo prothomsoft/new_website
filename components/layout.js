@@ -15,7 +15,8 @@ body {
   color:#B3B3B3;
   line-height:1.42857;
   font-family:Arial,Helvetica,sans-serif;
-  font-size:13px
+  font-size:13px;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-device-width: 1140px) {
