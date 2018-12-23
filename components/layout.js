@@ -3,12 +3,11 @@ import NProgress from "nprogress";
 import Router from "next/router";
 import Meta from "../components/meta";
 import styled from "styled-components";
-import { injectGlobal } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 import ScrollUpButton from "react-scroll-up-button";
 import { initGA, logPageView } from "../components/utils/analytics";
 
-injectGlobal`
-
+export const GlobalStyle = createGlobalStyle`
 body {        
   margin:0;
   background-color: #000;
@@ -174,8 +173,9 @@ export default class LayoutComponent extends Component {
         logPageView();
     }
     render() {
-        let component = (
+        let component = (            
             <GeneralWrapper style={{ overflow: "visible" }} className="nProgressHandler">
+            <GlobalStyle />
                 <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} />
                 {this.props.children}
                 <ScrollUpButton />
@@ -183,11 +183,12 @@ export default class LayoutComponent extends Component {
         );
         if (this.props.overflow === "hidden") {
             component = (
-                <GeneralWrapper style={{ overflow: "hidden" }} className="nProgressHandler">
-                    <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} />
-                    {this.props.children}
-                    <ScrollUpButton />
-                </GeneralWrapper>
+            <GeneralWrapper style={{ overflow: "hidden" }} className="nProgressHandler">
+            <GlobalStyle />
+                <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} />
+                {this.props.children}
+                <ScrollUpButton />
+            </GeneralWrapper>
             );
         }
         return component;
