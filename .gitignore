@@ -1,0 +1,10 @@
+# Node
+node_modules
+npm-debug.log
+
+# VSCODE
+.vscode
+
+# NEXT
+.next
+out
