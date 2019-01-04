@@ -64,20 +64,6 @@ export default class HistoriaDesktop extends React.Component {
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
-                            <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja ślubna kraków" src={"/static/portfolio_dtp/chan_kristina_sesja_slubna_krakow.jpg"} />
-                                </LazyLoad>
-                            </div>
-                        </Link>
-                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
-                            <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio_dtp/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
-                                </LazyLoad>
-                            </div>
-                        </Link>
                         <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
@@ -85,45 +71,10 @@ export default class HistoriaDesktop extends React.Component {
                                 </LazyLoad>
                             </div>
                         </Link>
-                    </div>
-                    <div style={{ display: "flex" }}>
-                        <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
-                            <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
-                                    SESJA ŚLUBNA KRAKÓW
-                                    <br /> CHAN i KATRINA
-                                </p>
-                            </div>
-                        </Link>
-                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
-                            <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
-                                    MAGICZNY WYSTRÓJ SALI WESELNEJ
-                                    <br />
-                                    NATALIA i PIOTR
-                                </p>
-                            </div>
-                        </Link>
-                        <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
-                            <div className="porfolioCaption">
-                                <h3 style={{ textAlign: "center" }}>
-                                    FOTOGRAF ŚLUBNY KRAKÓW <br /> KINGA i JULIEN
-                                </h3>
-                            </div>
-                        </Link>
-                    </div>
-                    <div style={{ display: "flex" }}>
-                        <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">
+                        <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja ślubna lawendowe pole" src={"/static/portfolio_dtp/hotel_qubus_krakow_sesja_zdjeciowa_portfolio.jpg"} />
-                                </LazyLoad>
-                            </div>
-                        </Link>
-                        <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
-                            <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio_dtp/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} />
+                                    <img alt="sesja zdjęciowa pałac goetzów brzesko" src={"/static/portfolio_dtp/plener_slubny_palac_goetzow_brzesko.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -136,19 +87,18 @@ export default class HistoriaDesktop extends React.Component {
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">
+                        <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
                             <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
-                                    SESJA ŚLUBNA LAWENDOWE POLE
-                                    <br /> EWELINA i KAMIL
-                                </p>
+                                <h3 style={{ textAlign: "center" }}>
+                                    FOTOGRAF ŚLUBNY KRAKÓW <br /> KINGA i JULIEN
+                                </h3>
                             </div>
                         </Link>
-                        <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+                        <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    DEKORACJA SALI W STYLU RUSTYKALNYM
-                                    <br /> KINGA i MACIEK
+                                    SESJA ŚLUBNA JESIENIĄ - PAŁAC GOETZÓW
+                                    <br /> IZABELA i ARKADIUSZ
                                 </p>
                             </div>
                         </Link>
@@ -158,6 +108,56 @@ export default class HistoriaDesktop extends React.Component {
                                     FOTOGRAF ŚLUBNY KRAKÓW <br />
                                     DAJANA i SYLWESTER
                                 </h4>
+                            </div>
+                        </Link>
+                    </div>
+                    <div style={{ display: "flex" }}>
+                        <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">
+                            <div className="porfolioImage">
+                                <LazyLoad height={224} offsetVertical={300}>
+                                    <img alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio_dtp/fotograf_slubny_krzeszowice_start.jpg"} />
+                                </LazyLoad>
+                            </div>
+                        </Link>
+                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
+                            <div className="porfolioImage">
+                                <LazyLoad height={224} offsetVertical={300}>
+                                    <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio_dtp/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
+                                </LazyLoad>
+                            </div>
+                        </Link>
+                        <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
+                            <div className="porfolioImage">
+                                <LazyLoad height={224} offsetVertical={300}>
+                                    <img alt="sesja ślubna kraków" src={"/static/portfolio_dtp/chan_kristina_sesja_slubna_krakow.jpg"} />
+                                </LazyLoad>
+                            </div>
+                        </Link>
+                    </div>
+                    <div style={{ display: "flex" }}>
+                        <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">
+                            <div className="porfolioCaption">
+                                <p style={{ textAlign: "center" }}>
+                                    CZTERY PORY ROKU ALWERNIA
+                                    <br /> OLA i GRZEGORZ
+                                </p>
+                            </div>
+                        </Link>
+                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
+                            <div className="porfolioCaption">
+                                <p style={{ textAlign: "center" }}>
+                                    MAGICZNY WYSTRÓJ SALI WESELNEJ
+                                    <br />
+                                    NATALIA i PIOTR
+                                </p>
+                            </div>
+                        </Link>
+                        <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
+                            <div className="porfolioCaption">
+                                <p style={{ textAlign: "center" }}>
+                                    SESJA ŚLUBNA KRAKÓW
+                                    <br /> CHAN i KATRINA
+                                </p>
                             </div>
                         </Link>
                     </div>

@@ -36,7 +36,7 @@ export default class OfferDesktop extends React.Component {
                         wykorzystuje te narzędzia tworząc opowieść o ludziach, miejscach, wydarzeniach i emocjach.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/kosciol_morawica.jpg"} />
+                        <img src={"/static/portfolio/sesja_zdjeciowa_palac_goetzow_brzesko.jpg"} />
                     </LazyLoad>
                     <p>
                         Każde zdjęcie ślubne zaczyna się od pomysłu. To zwykle konfrontacja pomiędzy powstałym w naszej głowie ideałem i możliwościami jakie stwarza nam zastana sytuacja. Sprzęt
