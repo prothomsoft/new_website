@@ -23,6 +23,8 @@ module.exports = {
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
             "/tester": { page: "/tester" },
+
+            "/pomysl-na-sesje-zimowa-w-krakowie-dwor-jana-matejki": { page: "/pomysl-na-sesje-zimowa-w-krakowie-dwor-jana-matejki" },
             "/fotograf_na_wigilie_firmowa_w_krakowie": { page: "/fotograf_na_wigilie_firmowa_w_krakowie" },
             "/zielone-wzgorze-koniusza-tak-w-promieniach-slonca": { page: "/zielone-wzgorze-koniusza-tak-w-promieniach-slonca" },
             "/sesja-slubna-jesienia-palac-goetzow-okocimskich": { page: "/sesja-slubna-jesienia-palac-goetzow-okocimskich" },
