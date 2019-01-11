@@ -43,7 +43,7 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0030.jpg", height: 762 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0032.jpg", height: 763 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0031.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0023.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/pomysl_na_sesje_slubna_zimowa_w_krakowie_0024_1.jpg", height: 763 }
         ];
 
         return (
