@@ -22,8 +22,7 @@ module.exports = {
             "/blog/page/10": { page: "/blog", query: { page: "10" } },
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
-            "/tester": { page: "/tester" },
-
+            "/blog/page/13": { page: "/blog", query: { page: "13" } },
             "/pomysl-na-sesje-zimowa-w-krakowie-dwor-jana-matejki": { page: "/pomysl-na-sesje-zimowa-w-krakowie-dwor-jana-matejki" },
             "/fotograf_na_wigilie_firmowa_w_krakowie": { page: "/fotograf_na_wigilie_firmowa_w_krakowie" },
             "/zielone-wzgorze-koniusza-tak-w-promieniach-slonca": { page: "/zielone-wzgorze-koniusza-tak-w-promieniach-slonca" },

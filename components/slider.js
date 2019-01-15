@@ -24,7 +24,6 @@ export default class Slider extends React.Component {
             backgroundImage4Loaded: 0,
             backgroundImage5Loaded: 0,
             backgroundImage6Loaded: 0,
-            backgroundImage7Loaded: 0,
             isScrollOnTop: "notScrolled",
             fontLoaded: false
         };
@@ -35,7 +34,6 @@ export default class Slider extends React.Component {
         this.handleBackgroundImage4Load = this.handleBackgroundImage4Load.bind(this);
         this.handleBackgroundImage5Load = this.handleBackgroundImage5Load.bind(this);
         this.handleBackgroundImage6Load = this.handleBackgroundImage6Load.bind(this);
-        this.handleBackgroundImage7Load = this.handleBackgroundImage7Load.bind(this);
         this.onWaypointEntered = this.onWaypointEntered.bind(this);
         this.onWaypointLeft = this.onWaypointLeft.bind(this);
         this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
@@ -63,9 +61,6 @@ export default class Slider extends React.Component {
         this.image6 = new Image();
         this.image6.src = this.props.slides[6].imageUrl;
         this.image6.onload = this.handleBackgroundImage6Load;
-        this.image7 = new Image();
-        this.image7.src = this.props.slides[7].imageUrl;
-        this.image7.onload = this.handleBackgroundImage7Load;
         this.timerID = setInterval(() => this.slideChanger(), 1000);
     }
 
@@ -104,11 +99,6 @@ export default class Slider extends React.Component {
             backgroundImage6Loaded: 1
         });
     }
-    handleBackgroundImage7Load(e) {
-        this.setState({
-            backgroundImage7Loaded: 1
-        });
-    }
 
     componentWillUnmount() {
         this.image0.onload = null;
@@ -125,8 +115,6 @@ export default class Slider extends React.Component {
         this.image5 = null;
         this.image6.onload = null;
         this.image6 = null;
-        this.image7.onload = null;
-        this.image7 = null;
 
         clearInterval(this.timerID);
     }
@@ -139,7 +127,7 @@ export default class Slider extends React.Component {
                 activeIndex = this.state.activeIndex + 1;
                 eachImageState = 0;
             }
-            if (activeIndex == 8) {
+            if (activeIndex == 7) {
                 activeIndex = 0;
             }
             this.setState({
