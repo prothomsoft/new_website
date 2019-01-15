@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "fotograf_slubny_stroza.jpg",
-                url1: "natalialukasz",
-                title1: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
+                image1: "karczma_pod_kogutkiem_krzywaczka.jpg",
+                url1: "ilonaadam",
+                title1: "KARCZMA POD KOGUTKIEM KRZYWACZKA<br/>ILONA i ADAM",
 
                 image2: "zielone_wzgorze_koniusza.jpg",
                 url2: "karolamati",
@@ -18,31 +18,31 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "kosciol_morawica.jpg",
-                url1: "magdakuba",
-                title1: "SALA BANKIETOWA SZAFRAN ZAGACIE<br/>MAGDALENA i JAKUB",
+                image1: "anna_piotr_slub_krakow.jpg",
+                url1: "annapiotr",
+                title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>ANNA i PIOTR",
 
-                image2: "anna_piotr_slub_krakow.jpg",
-                url2: "annapiotr",
-                title2: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>ANNA i PIOTR",
-
-                image3: "kosciol_makow_podhalanski.jpg",
-                url3: "olakuba",
-                title3: "KARCZMA U LIPY JORDANÓW<br/>ALEKSANDRA i JAKUB"
-            },
-
-            {
-                image1: "arka_pana_nowa_huta.jpg",
-                url1: "olarafal",
-                title1: "KOŚCIÓŁ ARKA PANA NOWA HUTA<br/>ALEKSANDRA i RAFAŁ",
-
-                image2: "kristina.jpg",
-                url2: "kristinaaleksandr",
-                title2: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
+                image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
+                url2: "natalialukasz",
+                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
 
                 image3: "dom_weselny_euforia_myslenice_1.jpg",
                 url3: "izaarek",
                 title3: "DOM WESELNY EUFORIA MYŚLENICE<br/>IZABELA i ARKADIUSZ"
+            },
+
+            {
+                image1: "kristina.jpg",
+                url1: "kristinaaleksandr",
+                title1: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
+
+                image2: "arka_pana_nowa_huta.jpg",
+                url2: "olarafal",
+                title2: "KOŚCIÓŁ ARKA PANA NOWA HUTA<br/>ALEKSANDRA i RAFAŁ",
+
+                image3: "fotograf-slubny-magnolia-budzow.jpg",
+                url3: "kingamateusz",
+                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
             },
 
             {
@@ -54,9 +54,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "magdagrzegorz",
                 title2: "RESTAURACJA KOLIBA MURZASICHLE<br/>MAGDALENA i GRZEGORZ",
 
-                image3: "fotograf-slubny-magnolia-budzow.jpg",
-                url3: "kingamateusz",
-                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
+                image3: "kosciol_makow_podhalanski.jpg",
+                url3: "olakuba",
+                title3: "KARCZMA U LIPY JORDANÓW<br/>ALEKSANDRA i JAKUB"
             },
 
             {

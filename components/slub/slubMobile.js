@@ -36,7 +36,7 @@ export default class SlubMobile extends React.Component {
                         Fotografia ślubna wykorzystuje te narzędzia tworząc opowieść o ludziach, miejscach, wydarzeniach i emocjach.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/kosciol_morawica.jpg"} />
+                        <img src={"/static/portfolio/sesja_zdjeciowa_palac_goetzow_brzesko.jpg"} />
                     </LazyLoad>
                     <p>
                         Każde zdjęcie ślubne zaczyna się od pomysłu. To zwykle konfrontacja pomiędzy powstałym w naszej głowie ideałem i możliwościami jakie stwarza nam zastana sytuacja. Sprzęt
@@ -51,7 +51,7 @@ export default class SlubMobile extends React.Component {
                         mi stworzyć zdjęcia i wypracować styl warty Waszej uwagi. W trakcie reportażu lubię obserwować wydarzenia, sporadycznie wyrywam się z drobnymi sugestiami.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/sesja_slubna_krakow_1_portfolio.jpg"} />
+                        <img src={"/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"} />
                     </LazyLoad>
                     <p>
                         <a href="https://wedding.pl/fotograf-slubny/tomaszprokop" target="_blank">
@@ -63,7 +63,7 @@ export default class SlubMobile extends React.Component {
                         kieruję się planem, doświadczeniem, ograniczając przypadek do minimum.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_portfolio.jpg"} />
+                        <img src={"/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
                         Serdecznie zapraszam do odwiedzenia{" "}
@@ -74,7 +74,7 @@ export default class SlubMobile extends React.Component {
                         fotografii ślubnej będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
+                        <img src={"/static/portfolio/sesja_slubna_krakow_1_portfolio.jpg"} />
                     </LazyLoad>
                     <div className="spacer">&nbsp;</div>
                 </article>

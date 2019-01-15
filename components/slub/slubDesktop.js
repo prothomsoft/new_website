@@ -51,7 +51,7 @@ export default class OfferDesktop extends React.Component {
                         mi stworzyć zdjęcia i wypracować styl warty Waszej uwagi. W trakcie reportażu lubię obserwować wydarzenia, sporadycznie wyrywam się z drobnymi sugestiami.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/sesja_slubna_krakow_1_portfolio.jpg"} />
+                        <img src={"/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"} />
                     </LazyLoad>
                     <p>
                         <a href="https://wedding.pl/fotograf-slubny/tomaszprokop" target="_blank">
@@ -63,7 +63,7 @@ export default class OfferDesktop extends React.Component {
                         kieruję się planem, doświadczeniem, ograniczając przypadek do minimum.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/monika_i_rafal_zdjecia_slubne_krakow_restauracja_chocholowy_dwor_portfolio.jpg"} />
+                        <img src={"/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
                         Serdecznie zapraszam do odwiedzenia{" "}
@@ -74,7 +74,7 @@ export default class OfferDesktop extends React.Component {
                         fotografii ślubnej będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
+                        <img src={"/static/portfolio/sesja_slubna_krakow_1_portfolio.jpg"} />
                     </LazyLoad>
                     <div className="spacer">&nbsp;</div>
                 </article>
