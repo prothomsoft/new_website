@@ -118,12 +118,19 @@ export default class OfferDesktop extends React.Component {
                         <Link href="/sesja-zdjeciowa-kopiec-kraka-przegorzaly-kryspinow">Natalia i Tomasz</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/wesele_w_goralskim_klimacie_przystan_kabanos_spytkowice_portfolio.jpg"} />
+                        <img src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
                         Jednym słowem - fotograf z pasją, co widać po efektach. Juz nie możemy doczekać się zdjęć z sesji. W przyszłości jeśli będę miała szukać fotografa, na pewno zadzwonię do Tomka.
                         Dziękujemy za przepiękne zdjęcia, zaangazowanie, uśmiech i energię, która udzieliła sie również nam. Do zobaczenia.{" "}
                         <Link href="/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow">Aleksandra i Paweł</Link>.
+                    </p>
+                    <LazyLoad height={760} offsetVertical={300}>
+                        <img src={"/static/portfolio/tiffany_wola_filipowska.jpg"} />
+                    </LazyLoad>
+                    <p>
+                        Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego
+                        fotografa. Polecamy wszystkim ! <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">Aleksandra i Grzegorz</Link>.
                     </p>
                     <div className="spacer">&nbsp;</div>
                 </article>

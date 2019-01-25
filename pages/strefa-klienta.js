@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "karczma_pod_kogutkiem_krzywaczka.jpg",
-                url1: "ilonaadam",
-                title1: "KARCZMA POD KOGUTKIEM KRZYWACZKA<br/>ILONA i ADAM",
+                image1: "tiffany_wola_filipowska.jpg",
+                url1: "nataliadominik",
+                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
 
-                image2: "zielone_wzgorze_koniusza.jpg",
-                url2: "karolamati",
-                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
+                image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
+                url2: "natalialukasz",
+                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
 
-                image3: "hotel_zajazd_celtycki_zakrzow.jpg",
-                url3: "aniabartek",
-                title3: "HOTEL ZAJAZD CELTYCKI ZAKRZÓW<br/>ANNA i BARTŁOMIEJ"
+                image3: "karczma_pod_kogutkiem_krzywaczka_1.jpg",
+                url3: "ilonaadam",
+                title3: "KARCZMA POD KOGUTKIEM KRZYWACZKA<br/>ILONA i ADAM"
             },
 
             {
@@ -22,9 +22,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "annapiotr",
                 title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>ANNA i PIOTR",
 
-                image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
-                url2: "natalialukasz",
-                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
+                image2: "zielone_wzgorze_koniusza.jpg",
+                url2: "karolamati",
+                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
 
                 image3: "dom_weselny_euforia_myslenice_1.jpg",
                 url3: "izaarek",
