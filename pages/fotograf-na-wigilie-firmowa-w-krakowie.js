@@ -120,12 +120,12 @@ export default class BlogPageComponent extends React.Component {
                         "Wigilia firmowa w SmartRecruiters. Rodzinny klimat, niezliczona ilość atrakcji i wyróżnienia z okazji pięciolecia działaności firmy w Polsce. Serdecznie zapraszam na reportaż. Miłego oglądania."
                     }
                     headKeywords={"Wigilia firmowa w SmartRecruiters"}
-                    headUrl={"https://99foto.pl/impreza-rodzinna-stadnina-koni-botoja-korzkiew/"}
+                    headUrl={"https://99foto.pl/fotograf-na-wigilie-firmowa-w-krakowie/"}
                     entryContentP1={
                         "Dwie okazje czyli pięciolecie działalności firmy SmartRecruiters w Polsce i rodzinne spotkanie wigilijne. To już drugi raz jak miałem przyjemność zatrzymywać rodzinne chwile podczas imprezy firmowej. Jak zwykle dużo atrakcji dla najmłodszych i zasłużone wyróżnienia dla najstarszych. Zapraszam na zdjęcia i życzę miłego oglądania."
                     }
                     entryContentP2={""}
-                    slug={"fotograf_na_wigilie_firmowa_w_krakowie"}
+                    slug={"fotograf-na-wigilie-firmowa-w-krakowie"}
                     title={"RODZINNA WIGILA FIRMOWA I PIĘCIOLECIE DZIAŁALNOŚCI - SMARTRECRUITERS"}
                     tags={"Rodzinna Wigilia firmowa, Fotograf na wigilie firmową w krakowie"}
                     date={"14 grudnia 2018"}
