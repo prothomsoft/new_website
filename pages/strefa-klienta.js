@@ -4,23 +4,23 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "tiffany_wola_filipowska.jpg",
-                url1: "nataliadominik",
-                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
+                image1: "hotel_nad_raba_bochnia.jpg",
+                url1: "adaarek",
+                title1: "HOTEL NAD RABĄ BOCHNIA<br/>ADRIANNA i ARKADIUSZ",
 
-                image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
-                url2: "natalialukasz",
-                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
+                image2: "tiffany_wola_filipowska.jpg",
+                url2: "nataliadominik",
+                title2: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
 
-                image3: "karczma_pod_kogutkiem_krzywaczka_1.jpg",
-                url3: "ilonaadam",
-                title3: "KARCZMA POD KOGUTKIEM KRZYWACZKA<br/>ILONA i ADAM"
+                image3: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
+                url3: "natalialukasz",
+                title3: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ"
             },
 
             {
-                image1: "anna_piotr_slub_krakow.jpg",
-                url1: "annapiotr",
-                title1: "REPORTAŻ ŚLUBNY KASZTEL KAJASÓWKA<br/>ANNA i PIOTR",
+                image1: "karczma_pod_kogutkiem_krzywaczka_1.jpg",
+                url1: "ilonaadam",
+                title1: "KARCZMA POD KOGUTKIEM KRZYWACZKA<br/>ILONA i ADAM",
 
                 image2: "zielone_wzgorze_koniusza.jpg",
                 url2: "karolamati",
