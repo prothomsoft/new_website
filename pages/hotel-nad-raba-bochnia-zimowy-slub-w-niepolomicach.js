@@ -9,15 +9,20 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0001.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0009.jpg", height: 763 },            
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0010.jpg", height: 762 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0002.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0003.jpg", height: 527 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0004.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0005.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0006.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0007.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0009.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0010.jpg", height: 762 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0003.jpg", height: 763 },            
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0011.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0008.jpg", height: 852 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/01/restauracja_nad_raba_brzesko_0012.jpg", height: 762 },
+           
+           
+          
+            
+          
+            
         ];
 
         return (
