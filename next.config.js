@@ -23,6 +23,7 @@ module.exports = {
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
             "/blog/page/13": { page: "/blog", query: { page: "13" } },
+            "/jak-zaplanowac-i-zorganizowac-wymarzony-slub-w-zimie": { page: "/jak-zaplanowac-i-zorganizowac-wymarzony-slub-w-zimie" },
             "/hotel-nad-raba-bochnia-zimowy-slub-w-niepolomicach": { page: "/hotel-nad-raba-bochnia-zimowy-slub-w-niepolomicach" },
             "/pomysl-na-sesje-zimowa-w-krakowie-dwor-jana-matejki": { page: "/pomysl-na-sesje-zimowa-w-krakowie-dwor-jana-matejki" },
             "/fotograf-na-wigilie-firmowa-w-krakowie": { page: "/fotograf-na-wigilie-firmowa-w-krakowie" },
