@@ -4,27 +4,27 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "hotel_nad_raba_bochnia.jpg",
-                url1: "adaarek",
-                title1: "HOTEL NAD RABĄ BOCHNIA<br/>ADRIANNA i ARKADIUSZ",
+                image1: "slub_zima.jpg",
+                url1: "martamichal",
+                title1: "GOŚCINIEC NAŁĘŻE JAWOŻE<br/>MARTA i MICHAŁ",
 
-                image2: "tiffany_wola_filipowska.jpg",
-                url2: "nataliadominik",
-                title2: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
+                image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
+                url2: "natalialukasz",
+                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
 
-                image3: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
-                url3: "natalialukasz",
-                title3: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ"
+                image3: "hotel_nad_raba_bochnia.jpg",
+                url3: "adaarek",
+                title3: "HOTEL NAD RABĄ BOCHNIA<br/>ADRIANNA i ARKADIUSZ",
             },
 
             {
-                image1: "karczma_pod_kogutkiem_krzywaczka_1.jpg",
-                url1: "ilonaadam",
-                title1: "KARCZMA POD KOGUTKIEM KRZYWACZKA<br/>ILONA i ADAM",
+                image1: "tiffany_wola_filipowska.jpg",
+                url1: "nataliadominik",
+                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
 
-                image2: "zielone_wzgorze_koniusza.jpg",
-                url2: "karolamati",
-                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
+                image2: "karczma_pod_kogutkiem_krzywaczka_1.jpg",
+                url2: "ilonaadam",
+                title2: "KARCZMA POD KOGUTKIEM KRZYWACZKA<br/>ILONA i ADAM",
 
                 image3: "dom_weselny_euforia_myslenice_1.jpg",
                 url3: "izaarek",
@@ -36,9 +36,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "kristinaaleksandr",
                 title1: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
 
-                image2: "arka_pana_nowa_huta.jpg",
-                url2: "olarafal",
-                title2: "KOŚCIÓŁ ARKA PANA NOWA HUTA<br/>ALEKSANDRA i RAFAŁ",
+                image2: "zielone_wzgorze_koniusza.jpg",
+                url2: "karolamati",
+                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
 
                 image3: "fotograf-slubny-magnolia-budzow.jpg",
                 url3: "kingamateusz",
