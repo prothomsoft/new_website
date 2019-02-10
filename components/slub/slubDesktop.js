@@ -17,7 +17,7 @@ export default class OfferDesktop extends React.Component {
                     <p>
                         Kocham eksperymenty, czerpanie esencji z przemijających trendów, konsekwencję w dążeniu do celu, lubię mieć plan nie pozwalający wkraść się przypadkowi. Fotografia ślubna to
                         dla mnie pasja i weekendowa odskocznia od codziennej korporacyjnej rzeczywistości. Fotografia to trójkąt zależności pomiędzy czasem ekspozycji, przysłoną i czułością ISO.{" "}
-                        <a href="https://www.planujemywesele.pl/47520-99foto-pl-fotograf-slubny-krakow" target="_blank">
+                        <a href="https://www.planujemywesele.pl/47520-99foto-pl-fotograf-slubny-krakow" rel="nofollow" target="_blank">
                             Fotografia ślubna
                         </a>{" "}
                         to jednocześnie trójkąt zależności pomiędzy chwilą, światłem i kadrem. W obu przypadkach jest to zawsze kompromis poparty pomysłem i doskonałym warsztatem, który pozwala ten
@@ -30,7 +30,7 @@ export default class OfferDesktop extends React.Component {
                         Fotografia ślubna to moim zdaniem przede wszystkim reportaż i temat człowieka w kadrze. Bez niego nie ma co mówić o uczuciach, radości, łzach wzruszenia, słowach, które
                         układają się tworząc chwile, które chcemy zatrzymać na wieki. Światło to według mojej definicji kontekst. Nadaje ono miejscu charakter, tworzy tło dla wydarzeń i pozwala
                         eksponować emocje. Kadr to wiedza, setki przeglądniętych zdjęć i budowane latami poczucie estetyki.{" "}
-                        <a href="https://www.fotoszukacz.pl/fotograf/2763,krakow,tomasz-prokop--fotograf-slubny-krakow" target="_blank">
+                        <a href="https://www.fotoszukacz.pl/fotograf/2763,krakow,tomasz-prokop--fotograf-slubny-krakow" rel="nofollow" target="_blank">
                             Fotografia ślubna
                         </a>{" "}
                         wykorzystuje te narzędzia tworząc opowieść o ludziach, miejscach, wydarzeniach i emocjach.
@@ -54,7 +54,7 @@ export default class OfferDesktop extends React.Component {
                         <img src={"/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"} />
                     </LazyLoad>
                     <p>
-                        <a href="https://wedding.pl/fotograf-slubny/tomaszprokop" target="_blank">
+                        <a href="https://wedding.pl/fotograf-slubny/tomaszprokop" rel="nofollow" target="_blank">
                             Fotografia ślubna
                         </a>{" "}
                         w moim wykonaniu wciąga osobę oglądającą w ciąg wydarzeń, tak by mogła ona poczuć to, co czują osoby będące na zdjęciach. Uważam, że jestem na Waszym ślubie by dokumentować ten

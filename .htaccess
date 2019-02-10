@@ -2,6 +2,22 @@
 	Header set Cache-Control "max-age=2592000"  
 </FilesMatch>
 
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
 # TN Expires Caching Start #
 <IfModule mod_expires.c>
 ExpiresActive On
@@ -38,4 +54,9 @@ ExpiresByType image/jpg "access 1 year"
 ExpiresByType image/svg+xml "access plus 1 month"
 ExpiresByType image/svg  "access plus 1 month"
 </IfModule>
-# TN Expires Caching End #	
+# TN Expires Caching End #
+
+## SITE REFERRER BANNING
+RewriteCond %{HTTP_REFERER} Sharebutton.to [NC,OR]
+RewriteCond %{HTTP_REFERER} Sharebutton.to
+RewriteRule .* - [F]
