@@ -148,7 +148,7 @@ export default class BlogPageComponent extends React.Component {
                     images={images}
                     headTitle={"Fotograf ślubny Jordanów"}
                     headDescription={"Twarz Marilyn Monroe podpisaną Dziękuję, że jesteś w dalekim Trondheim wyklikał Bartek dla ukochanej Sylwii. Kilka łez poleciało... Zapraszam na reportaż."}
-                    headKeywords={"fotograf na wesele kraków,fotograf ślubny kraków,zdjęcia ślubne dom weselny karolinka"}
+                    headKeywords={"fotograf na wesele kraków,reportaż ślubny kraków,zdjęcia ślubne dom weselny karolinka"}
                     headUrl={"https://99foto.pl/sylwia-i-bartek-zdjecia-slubne-w-jordanowie/"}
                     entryContentP1={
                         "W Jordanowie fotografowałem już kilka razy. Zawsze spotykam się tam z niezwykłą otwartością ludzi i podziwiam ich umiejętność odstresowania i oddania się szalonej zabawie. Tym razem nie mogło być inaczej &#8211; udowodnili to Sylwia i Bartek. Przygotowania odbyły się w domu rodzinnym Sylwii. Panna młoda zastosowała jedno z moich ulubionych powiedzeń &#8211; jeśli chcesz coś mieć zrobione dobrze, zrób to sam &#8211; i jako znana już w okolicach Trondheim wizażystka makijaż wykonała samodzielnie. Mocno trzymaliśmy kciuki za pogodę, która pewnie dlatego wytrzymała do samego końca. Udało mi się też tym razem zrobić jedno z moich ulubionych zdjęć z przygotowań Pana Młodego. Ciekawe czy oglądając reportaż zgadniecie, które to zdjęcie."
@@ -158,7 +158,7 @@ export default class BlogPageComponent extends React.Component {
                     }
                     slug={"sylwia-i-bartek-zdjecia-slubne-w-jordanowie"}
                     title={"ZDJĘCIA ŚLUBNE W JORDANOWIE - SYLWIA i BARTEK"}
-                    tags={"fotograf na wesele kraków,fotograf ślubny kraków,zdjęcia ślubne dom weselny karolinka"}
+                    tags={"fotograf na wesele kraków,reportaż ślubny kraków,zdjęcia ślubne dom weselny karolinka"}
                     date={"3 czerwca 2016"}
                     menuNames={"SYLWIA i BARTEK"}
                     menuTitle={"ZDJĘCIA ŚLUBNE W JORDANOWIE"}

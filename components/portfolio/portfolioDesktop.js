@@ -46,7 +46,7 @@ export default class PortfolioDesktop extends Component {
             <div>
                 <article>
                     <header>
-                        <h1 className="quote-title"> FOTOGRAF ŚLUBNY KRAKÓW </h1>
+                        <h1 className="quote-title">FOTOGRAF ŚLUBNY KRAKÓW</h1>
                     </header>
                     <p>
                         Zaczynając studia grałem na gitarze elektrycznej i planowałem zostać inżynierem dźwięku. Rynek pracy zweryfikował te plany i w ten sposób zostałem zawodowym programistą. Kilka
@@ -121,7 +121,7 @@ export default class PortfolioDesktop extends Component {
                         <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf ślubny Kraków" src={"/static/portfolio_dtp/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg"} />
+                                    <img alt="fotograf na wesele Kraków" src={"/static/portfolio_dtp/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -135,7 +135,7 @@ export default class PortfolioDesktop extends Component {
                         <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf ślubny kraków" src={"/static/portfolio_dtp/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg"} />
+                                    <img alt="fotograf na wesele kraków" src={"/static/portfolio_dtp/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -144,7 +144,7 @@ export default class PortfolioDesktop extends Component {
                         <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
                             <div className="porfolioCaption">
                                 <h3 style={{ textAlign: "center" }}>
-                                    FOTOGRAF ŚLUBNY KRAKÓW <br /> KINGA i JULIEN
+                                    FOTOGRAF NA WESELE KRAKÓW <br /> KINGA i JULIEN
                                 </h3>
                             </div>
                         </Link>
@@ -159,7 +159,7 @@ export default class PortfolioDesktop extends Component {
                         <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                             <div className="porfolioCaption">
                                 <h4 style={{ textAlign: "center" }}>
-                                    FOTOGRAF ŚLUBNY KRAKÓW <br />
+                                    FOTOGRAF NA WESELE KRAKÓW <br />
                                     DAJANA i SYLWESTER
                                 </h4>
                             </div>

@@ -154,17 +154,17 @@ export default class BlogPageComponent extends React.Component {
                     images={images}
                     headTitle={"Reportaż ślubny Bolechowice, Dom Weselny u Niedźwiedzia"}
                     headDescription={"Jeden zero dla Polski takimi słowami ksiądz rozpoczął kazanie na ślubie Gosi i Tomka. Mówił oczywiście o meczu ze Szwajcarami. Zapraszam."}
-                    headKeywords={"fotograf ślubny kraków,reportaż ślubny bolechowiece,dom weselny u niedźwiedzia"}
+                    headKeywords={"fotograf na wesele kraków,reportaż ślubny bolechowiece,dom weselny u niedźwiedzia"}
                     headUrl={"https://99foto.pl/gosia-i-tomek-reportaz-slubny-bolechowice-dom-weselny-u-niedzwiedzia/"}
                     entryContentP1={
-                        'Sobota 25 czerwca była jednym z bardziej ciepłych dni tego lata, nie przeszkodziło to jednak w wykonaniu pięknego reportażu ze ślubu Gosi i Tomka. Przygotowania rozpoczęliśmy wcześnie rano od makijażu i fryzury w domu rodzinnym Gosi. Dziewczyny stanęły na wysokości zadania i pozostało tylko oczekiwać na przyjazd Tomka. Kilka buziaków powitalnych, następnie błogosławieństwo i wszyscy udaliśmy się do <a href="https://www.parafiabolechowice.pl/" target="_blank">Kościoła Piotra i Pawła w Bolechowicach</a>. Jest jeden zero dla Polski takimi słowami ksiądz rozpoczął kazanie na ślubie Gosi i Tomka.'
+                        'Sobota 25 czerwca była jednym z bardziej ciepłych dni tego lata, nie przeszkodziło to jednak w wykonaniu pięknego reportażu ze ślubu Gosi i Tomka. Przygotowania rozpoczęliśmy wcześnie rano od makijażu i fryzury w domu rodzinnym Gosi. Dziewczyny stanęły na wysokości zadania i pozostało tylko oczekiwać na przyjazd Tomka. Kilka buziaków powitalnych, następnie błogosławieństwo i wszyscy udaliśmy się do <a href="https://www.parafiabolechowice.pl/" target="_blank" rel="nofollow">Kościoła Piotra i Pawła w Bolechowicach</a>. Jest jeden zero dla Polski takimi słowami ksiądz rozpoczął kazanie na ślubie Gosi i Tomka.'
                     }
                     entryContentP2={
-                        'Mówił oczywiście o meczu ze Szwajcarami. Po wzruszającej ceremonii, którą rodzice mieli przyjemność oglądać ze specjalnie dla nich przygotowanych miejsc, zaprosiliśmy gości weselnych do zdjęcia grupowego pod kościołem, a następnie do życzeń. Chwilę później kieliszki uderzyły o ziemię pod <a href="https://www.uniedzwiedzia.pl/" target="_blank">Domem Weselnym u Niedźwiedzia</a> i Tomek tradycyjnie przeniósł Małgorzatę przez próg. Pierwszy taniec długo ćwiczony wyszedł młodym rewelacyjnie. Działo się mnóstwo i wszędzie. Niesamowity wieczór, niesamowici ludzie. Dziękuję, że mogłem być tego dnia z Wami. Przed nami plener w Bolechowicach, gdzie młodzi oprowadzą mnie po swoich romantycznych miejscach i Kryspinów, gdzie mam nadzieję upolować zachodzące słońce. Miłego oglądania.'
+                        'Mówił oczywiście o meczu ze Szwajcarami. Po wzruszającej ceremonii, którą rodzice mieli przyjemność oglądać ze specjalnie dla nich przygotowanych miejsc, zaprosiliśmy gości weselnych do zdjęcia grupowego pod kościołem, a następnie do życzeń. Chwilę później kieliszki uderzyły o ziemię pod <a href="https://www.uniedzwiedzia.pl/" target="_blank" rel="nofollow">Domem Weselnym u Niedźwiedzia</a> i Tomek tradycyjnie przeniósł Małgorzatę przez próg. Pierwszy taniec długo ćwiczony wyszedł młodym rewelacyjnie. Działo się mnóstwo i wszędzie. Niesamowity wieczór, niesamowici ludzie. Dziękuję, że mogłem być tego dnia z Wami. Przed nami plener w Bolechowicach, gdzie młodzi oprowadzą mnie po swoich romantycznych miejscach i Kryspinów, gdzie mam nadzieję upolować zachodzące słońce. Miłego oglądania.'
                     }
                     slug={"gosia-i-tomek-reportaz-slubny-bolechowice-dom-weselny-u-niedzwiedzia"}
                     title={"REPORTAŻ ŚLUBNY BOLECHOWICE, DOM WESELNY U NIEDŹWIEDZIA - GOSIA i TOMEK"}
-                    tags={"fotograf ślubny kraków,reportaż ślubny bolechowiece,dom weselny u niedźwiedzia"}
+                    tags={"fotograf na wesele kraków,reportaż ślubny bolechowiece,dom weselny u niedźwiedzia"}
                     date={"3 listopada 2017"}
                     menuNames={"GOSIA i TOMEK"}
                     menuTitle={"REPORTAŻ ŚLUBNY BOLECHOWICE, DOM WESELNY U NIEDŹWIEDZIA"}

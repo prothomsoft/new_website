@@ -38,7 +38,7 @@ export default class BlogPageComponent extends React.Component {
                     headKeywords={"zdjęcia ślubne wawel,plener ślubny kopiec kościuszki"}
                     headUrl={"https://99foto.pl/zuza-i-jarek-sesja-poslubna-kopiec-kosciuszki-i-wawel/"}
                     entryContentP1={
-                        'Zuzę i Jarka znacie już z <a href="https://99foto.pl/zuza-i-jarek-zdjecia-slubne-modrzewiowe-wzgorze-zakliczyn/" target="_blank">tego ślubnego wpisu</a> na moim blogu. Spotkaliśmy się w tygodniu po ślubie w ramach wspominanego już urlopu w ojczyźnie w Krakowie na plenerowej sesji ślubnej. Początkowo planowaliśmy sesję w okolicach Tarnowa lub w Brzesku w Pałacu Goetzów, jednak w końcu postawiliśmy na Kraków wybierając Kopiec Kościuszki i Wawel.'
+                        'Zuzę i Jarka znacie już z <a href="https://99foto.pl/zuza-i-jarek-zdjecia-slubne-modrzewiowe-wzgorze-zakliczyn/" target="_blank" rel="nofollow">tego ślubnego wpisu</a> na moim blogu. Spotkaliśmy się w tygodniu po ślubie w ramach wspominanego już urlopu w ojczyźnie w Krakowie na plenerowej sesji ślubnej. Początkowo planowaliśmy sesję w okolicach Tarnowa lub w Brzesku w Pałacu Goetzów, jednak w końcu postawiliśmy na Kraków wybierając Kopiec Kościuszki i Wawel.'
                     }
                     entryContentP2={
                         "Miejsca te podobnie jak Rynek, Kazimierz, Mogilany, Kryspinów, Tyniec można uznać za wizytówkę Krakowa i wszystkim, którzy decydują się na sesję w Krakowie bardzo je polecam. Trzy godzinna sesja minęła nam w dobrych humorach i delikatnych starciach ze strażnikami KRÓLEWSKIEJ TRAWY WAWELU. Miłego oglądania."

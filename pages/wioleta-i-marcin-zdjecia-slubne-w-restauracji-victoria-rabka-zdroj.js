@@ -159,17 +159,17 @@ export default class BlogPageComponent extends React.Component {
                     images={images}
                     headTitle={"Zdjęcia ślubne w Restauracji Victoria - Rabka Zdrój"}
                     headDescription={"Reportaż ze ślubu Wiolety i Marcina w Restauracji Victoria - Rabka Zdrój. Uroczystość zaślubin w kościele w Łętowni. Zapraszam do oglądania."}
-                    headKeywords={"fotograf na wesele kraków,zdjęcia ślubne w restauracji victoria - rabka zdrój,fotograf ślubny kraków"}
+                    headKeywords={"fotograf na wesele kraków,zdjęcia ślubne w restauracji victoria - rabka zdrój"}
                     headUrl={"https://99foto.pl/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj/"}
                     entryContentP1={
                         "Tego dnia było wszystko, co być powinno – szczere uśmiechy, wiele wzruszeń i pełno emocji! Przedstawiam zatem Wioletę i Marcina, którym miałem przyjemność towarzyszyć zza aparatu podczas ich najważniejszego dnia w życiu. Przygotowania zaczęliśmy popołudniową porą od makijażu. Pokój Wiolety stał się centrum dowodzenia, a do makijażu ustawiła się kolejka. Pomimo, że temat poważny to humor dopisywał, a uśmiechy trzymały się wszystkich. Chwilę później odwiedziłem dom rodzinny Marcina, który wpasował się w bardzo elegancki mundur strażacki."
                     }
                     entryContentP2={
-                        'Po błogosławieństwie udaliśmy się do pięknie przystrojonego Kościoła w Łętowni. Msza była niezwykle wzruszająca, ksiądz prowadzący zadbał aby ta chwila była naprawdę wyjątkowa. Następnie udaliśmy się do <a href="https://www.victoria-rabka.pl/" target="_blank">Restauracji Wiktoria</a> w Rabce Zdrój, gdzie odbyło się wesele. Po tylu wyczerpujących emocjach, przyszedł czas na zabawę, i to jaką! Pełny pakiet, kolorowe światła i niezwalniający tempa zespół. To był piękny dzień. Pozdrowienia dla Wszystkich gości i miłego oglądania. Pamiętajcie, że więcej zdjęć znajdziecie w strefie klienta &#8211; hasło z mojej wizytówki.'
+                        'Po błogosławieństwie udaliśmy się do pięknie przystrojonego Kościoła w Łętowni. Msza była niezwykle wzruszająca, ksiądz prowadzący zadbał aby ta chwila była naprawdę wyjątkowa. Następnie udaliśmy się do <a href="https://www.victoria-rabka.pl/" target="_blank" rel="nofollow">Restauracji Wiktoria</a> w Rabce Zdrój, gdzie odbyło się wesele. Po tylu wyczerpujących emocjach, przyszedł czas na zabawę, i to jaką! Pełny pakiet, kolorowe światła i niezwalniający tempa zespół. To był piękny dzień. Pozdrowienia dla Wszystkich gości i miłego oglądania. Pamiętajcie, że więcej zdjęć znajdziecie w strefie klienta &#8211; hasło z mojej wizytówki.'
                     }
                     slug={"wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj"}
                     title={"ZDJĘCIA ŚLUBNE W RESTAURACJI VICTORIA - RABKA ZDRÓJ - WIOLETA i MARCIN"}
-                    tags={"fotograf na wesele kraków,zdjęcia ślubne w restauracji victoria - rabka zdrój,fotograf ślubny kraków"}
+                    tags={"fotograf na wesele kraków,zdjęcia ślubne w restauracji victoria - rabka zdrój"}
                     date={"1 czerwca 2015"}
                     menuNames={"WIOLETA i MARCIN"}
                     menuTitle={"ZDJĘCIA ŚLUBNE W RESTAURACJI VICTORIA - RABKA ZDRÓJ"}

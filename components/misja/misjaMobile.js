@@ -158,7 +158,11 @@ export default class HistoriaMobile extends React.Component {
                     <p className="alignRight">
                         Pozdrawiam i zapraszam serdecznie do skorzystania z moich usług.
                         <br />
-                        Tomasz Prokop - Fotograf Ślubny Kraków.
+                        Tomasz Prokop -{" "}
+                        <Link href="https://99foto.pl">
+                            <a>Fotograf Ślubny Kraków</a>
+                        </Link>
+                        .
                     </p>
                     <div className="spacer" />
                 </article>
