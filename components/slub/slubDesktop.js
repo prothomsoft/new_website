@@ -46,9 +46,10 @@ export default class OfferDesktop extends React.Component {
                         <img src={"/static/portfolio/beata_marcin_mszana_dolna_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
-                        Pamiętajmy jednak, że dobry fotograf to taki, który poświęcił setki godzin na odkrywanie nowych technik, doskonalenie warsztatu, podpatrywanie mistrzów, próby i błędy,
-                        analizowanie sytuacji i wyciąganie wynikających z nich wniosków. Kilka lat bacznego obserwowania rynku fotografii ślubnej, pasja i upór w dążeniu do celu z pewnością pozwoliło
-                        mi stworzyć zdjęcia i wypracować styl warty Waszej uwagi. W trakcie reportażu lubię obserwować wydarzenia, sporadycznie wyrywam się z drobnymi sugestiami.
+                        Pamiętajmy jednak, że osoba zajmująca się fotografią ślubną to osoba, która poświęciła setki godzin na odkrywanie nowych technik, doskonalenie warsztatu, podpatrywanie
+                        mistrzów, próby i błędy, analizowanie sytuacji i wyciąganie wynikających z nich wniosków. Kilka lat bacznego obserwowania rynku fotografii ślubnej, pasja i upór w dążeniu do
+                        celu z pewnością pozwoliło mi stworzyć zdjęcia i wypracować styl warty Waszej uwagi. W trakcie reportażu lubię obserwować wydarzenia, sporadycznie wyrywam się z drobnymi
+                        sugestiami.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
                         <img src={"/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"} />
@@ -94,16 +95,16 @@ export default class OfferDesktop extends React.Component {
                         <img src={"/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
-                        Tomek jest fotografem z pasją, robi świetne zdjęcia, a do tego zna sie na tej sztuce! Poza tym jest wspaniałym, uśmiechniętym człowiekiem i praca z nim to czysta przyjemność
-                        :-) słyszałam, że najlepszy fotograf to taki, na którego nie zwraca się uwagi i Tomek taki jest. Cichaczem pstryka fotki i przez to są naturalne, a na plenerze daje mnóstwo
-                        super pomysłów :-) dziękujemy Tomku za zdjęcia ślubne i wczorajszy plener (to był dla nas z Pawłem wspaniały prezent na rocznice) !!!{" "}
+                        Tomek zajmuje się fotografią ślubną z pasją, robi świetne zdjęcia, a do tego zna sie na tej sztuce! Poza tym jest wspaniałym, uśmiechniętym człowiekiem i praca z nim to czysta
+                        przyjemność :-) słyszałam, że najlepszy aparaciarz to taki, na którego nie zwraca się uwagi i Tomek taki jest. Cichaczem pstryka fotki i przez to są naturalne, a na plenerze
+                        daje mnóstwo super pomysłów :-) dziękujemy Tomku za zdjęcia ślubne i wczorajszy plener (to był dla nas z Pawłem wspaniały prezent na rocznice) !!!{" "}
                         <Link href="/kasia-i-pawel-zimowa-sesja-slubna-w-gorach">Kasia i Paweł</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
                         <img src={"/static/portfolio/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
                     </LazyLoad>
                     <p>
-                        W każdym calu zajebisty fotograf a przede wszystkim człowiek!!! Polecam z czystym sumieniem. Jeżeli ktoś oczekuje pełnego zaangażowania, precyzji, kompetencji, sprytnego oka
+                        W każdym calu zajebisty fotograf, a przede wszystkim człowiek!!! Polecam z czystym sumieniem. Jeżeli ktoś oczekuje pełnego zaangażowania, precyzji, kompetencji, sprytnego oka
                         oraz wielu wielu innych drobnych jak i większych zdolności od fotografa - to właśnie znalazł odpowiednią osobę! Jeżeli chcesz aby fotograf plątał Ci się pod nogami albo
                         szturchał Cię bez słowa przepraszam, to tutaj takiej osoby nie znajdziesz. Tomek, to ciepły człowiek o wielkim sercu do swojej pasji. Zrobi wszystko, żeby zachować Twoje
                         najpiękniejsze chwile w życiu! <Link href="/paulina-i-bartek-sesja-poslubna-kasprowy-wierch-i-nosal-zakopane">Paulina i Bartek</Link>.
@@ -121,8 +122,8 @@ export default class OfferDesktop extends React.Component {
                         <img src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
-                        Jednym słowem - fotograf z pasją, co widać po efektach. Juz nie możemy doczekać się zdjęć z sesji. W przyszłości jeśli będę miała szukać fotografa, na pewno zadzwonię do Tomka.
-                        Dziękujemy za przepiękne zdjęcia, zaangazowanie, uśmiech i energię, która udzieliła sie również nam. Do zobaczenia.{" "}
+                        Jednym słowem - człowek zajmujący się fotogafią ślubną z pasją, co widać po efektach. Już nie możemy doczekać się zdjęć z sesji. W przyszłości jeśli będę miała szukać
+                        fotografa, na pewno zadzwonię do Tomka. Dziękujemy za przepiękne zdjęcia, zaangazowanie, uśmiech i energię, która udzieliła sie również nam. Do zobaczenia.{" "}
                         <Link href="/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow">Aleksandra i Paweł</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
