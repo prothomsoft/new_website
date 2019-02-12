@@ -67,7 +67,7 @@ export default class HistoriaDesktop extends React.Component {
                         <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf ślubny Kraków" src={"/static/portfolio_dtp/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg"} />
+                                    <img alt="reportaż ślubny Kraków" src={"/static/portfolio_dtp/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -81,7 +81,7 @@ export default class HistoriaDesktop extends React.Component {
                         <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf ślubny kraków" src={"/static/portfolio_dtp/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg"} />
+                                    <img alt="reportaż ślubny kraków" src={"/static/portfolio_dtp/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -90,7 +90,7 @@ export default class HistoriaDesktop extends React.Component {
                         <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
                             <div className="porfolioCaption">
                                 <h3 style={{ textAlign: "center" }}>
-                                    FOTOGRAF ŚLUBNY KRAKÓW <br /> KINGA i JULIEN
+                                    REPORTAŻ ŚLUBNY KRAKÓW <br /> KINGA i JULIEN
                                 </h3>
                             </div>
                         </Link>
@@ -105,7 +105,7 @@ export default class HistoriaDesktop extends React.Component {
                         <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                             <div className="porfolioCaption">
                                 <h4 style={{ textAlign: "center" }}>
-                                    FOTOGRAF ŚLUBNY KRAKÓW <br />
+                                    REPORTAŻ ŚLUBNY KRAKÓW <br />
                                     DAJANA i SYLWESTER
                                 </h4>
                             </div>
