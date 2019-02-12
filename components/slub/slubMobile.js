@@ -82,7 +82,7 @@ export default class SlubMobile extends React.Component {
 
                 <article>
                     <header>
-                        <h1 className="quote-title">REFERENCJE</h1>
+                        <h2 className="quote-title">REFERENCJE</h2>
                     </header>
                     <p>
                         Nie jestem pewna, czy Tomek zasługuje na 5 gwiazdek... bo w naszej opinii należy Mu się znacznie więcej! Niekrępująca atmosfera, profesjonalizm i czujne oko obserwatora były

@@ -12,7 +12,7 @@ export default class OfferDesktop extends React.Component {
             <div>
                 <article>
                     <header>
-                        <h1 className="quote-title">FOTOGRAFIA ŚLUBNA KRAKÓW - CHWILA, ŚWIATŁO, KADR</h1>
+                        <h1 className="quote-title">FOTOGRAFIA ŚLUBNA KRAKÓW</h1>
                     </header>
                     <p>
                         Kocham eksperymenty, czerpanie esencji z przemijających trendów, konsekwencję w dążeniu do celu, lubię mieć plan nie pozwalający wkraść się przypadkowi. Fotografia ślubna to
@@ -82,7 +82,7 @@ export default class OfferDesktop extends React.Component {
 
                 <article>
                     <header>
-                        <h1 className="quote-title">REFERENCJE</h1>
+                        <h2 className="quote-title">REFERENCJE</h2>
                     </header>
                     <p>
                         Nie jestem pewna, czy Tomek zasługuje na 5 gwiazdek... bo w naszej opinii należy Mu się znacznie więcej! Niekrępująca atmosfera, profesjonalizm i czujne oko obserwatora były
@@ -146,8 +146,11 @@ export default class OfferDesktop extends React.Component {
                         color #BEBEBE;
                         margin: 25px 0 0 0;
                     }
-                    article h1{
+                    article h1 {
                         color: #FFF;
+                    }
+                    article header h2 {
+                        font-size: 30px;
                     }
 
                     .spacer {

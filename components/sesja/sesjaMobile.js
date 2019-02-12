@@ -85,7 +85,7 @@ export default class SesjaMobile extends React.Component {
 
                 <article>
                     <header>
-                        <h1 className="quote-title">REFERENCJE</h1>
+                        <h2 className="quote-title">REFERENCJE</h2>
                     </header>
                     <p>
                         Od samego początku współpraca z Tomkiem przebiegała idealnie :) Pełen pomysłów w głowie i zapału do pracy, a przy okazji napełniony dobrą energii, która dodała nam "powera" w
