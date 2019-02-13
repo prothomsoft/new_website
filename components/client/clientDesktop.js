@@ -25,21 +25,21 @@ export default class ClientDesktop extends React.Component {
                             <div>
                                 <div style={{ display: "flex" }}>
                                     <Link>
-                                        <a href={fullPathUrl1} target="_blank">
+                                        <a href={fullPathUrl1} target="_blank" rel="nofollow">
                                             <div className="porfolioImage">
                                                 <img src={fullPathImage1} />
                                             </div>
                                         </a>
                                     </Link>
                                     <Link>
-                                        <a href={fullPathUrl2} target="_blank">
+                                        <a href={fullPathUrl2} target="_blank" rel="nofollow">
                                             <div className="porfolioImage">
                                                 <img src={fullPathImage2} />
                                             </div>
                                         </a>
                                     </Link>
                                     <Link>
-                                        <a href={fullPathUrl3} target="_blank">
+                                        <a href={fullPathUrl3} target="_blank" rel="nofollow">
                                             <div className="porfolioImage">
                                                 <img src={fullPathImage3} />
                                             </div>
@@ -48,21 +48,21 @@ export default class ClientDesktop extends React.Component {
                                 </div>
                                 <div style={{ display: "flex" }}>
                                     <Link>
-                                        <a href={fullPathUrl1} target="_blank">
+                                        <a href={fullPathUrl1} target="_blank" rel="nofollow">
                                             <div className="porfolioCaption">
                                                 <p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title1 }} />
                                             </div>
                                         </a>
                                     </Link>
                                     <Link>
-                                        <a href={fullPathUrl2} target="_blank">
+                                        <a href={fullPathUrl2} target="_blank" rel="nofollow">
                                             <div className="porfolioCaption">
                                                 <p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title2 }} />
                                             </div>
                                         </a>
                                     </Link>
                                     <Link>
-                                        <a href={fullPathUrl3} target="_blank">
+                                        <a href={fullPathUrl3} target="_blank" rel="nofollow">
                                             <div className="porfolioCaption">
                                                 <p className="textCenter" dangerouslySetInnerHTML={{ __html: client.title3 }} />
                                             </div>
@@ -74,7 +74,7 @@ export default class ClientDesktop extends React.Component {
                     })}
                     <div className="spacer_small" />
                     <Link>
-                        <a href="http://sk.99foto.pl" className="btn" target="_blank">
+                        <a href="http://sk.99foto.pl" className="btn" target="_blank" rel="nofollow">
                             LOGOWANIE DO STREFY KLIENTA
                         </a>
                     </Link>
