@@ -115,23 +115,23 @@ export default class BlogPageComponent extends React.Component {
                 <Blogpage
                     slide={slide}
                     images={images}
-                    headTitle={"Wigilia firmowa w SmartRecruiters"}
+                    headTitle={"Fotograf na wigilię firmową w Krakowie"}
                     headDescription={
-                        "Wigilia firmowa w SmartRecruiters. Rodzinny klimat, niezliczona ilość atrakcji i wyróżnienia z okazji pięciolecia działaności firmy w Polsce. Serdecznie zapraszam na reportaż. Miłego oglądania."
+                        "Wigilia firmowa w Krakowie. Rodzinny klimat, niezliczona ilość atrakcji i wyróżnienia z okazji pięciolecia działaności firmy SmartRecruiters w Polsce. Serdecznie zapraszam."
                     }
-                    headKeywords={"Wigilia firmowa w SmartRecruiters"}
+                    headKeywords={"Fotograf na wilgilię firmową w Krakowie, wigilia firmowa"}
                     headUrl={"https://99foto.pl/fotograf-na-wigilie-firmowa-w-krakowie/"}
                     entryContentP1={
-                        "Dwie okazje czyli pięciolecie działalności firmy SmartRecruiters w Polsce i rodzinne spotkanie wigilijne. To już drugi raz jak miałem przyjemność zatrzymywać rodzinne chwile podczas imprezy firmowej. Jak zwykle dużo atrakcji dla najmłodszych i zasłużone wyróżnienia dla najstarszych. Zapraszam na zdjęcia i życzę miłego oglądania."
+                        "Wigilia firmowa w Krakowie i pięciolecie działalności firmy SmartRecruiters w Polsce. Rodzinne spotkanie wigilijne. To już drugi raz jak miałem przyjemność zatrzymywać rodzinne chwile podczas imprezy firmowej. Jak zwykle dużo atrakcji dla najmłodszych i zasłużone wyróżnienia dla najstarszych. Zapraszam na zdjęcia i życzę miłego oglądania."
                     }
                     entryContentP2={""}
                     slug={"fotograf-na-wigilie-firmowa-w-krakowie"}
-                    title={"RODZINNA WIGILA FIRMOWA I PIĘCIOLECIE DZIAŁALNOŚCI - SMARTRECRUITERS"}
-                    tags={"Rodzinna Wigilia firmowa, Fotograf na wigilie firmową w krakowie"}
+                    title={"WIGILA FIRMOWA i FOTOGRAF NA WIGILIĘ FIRMOWĄ W KRAKOWIE"}
+                    tags={"Fotograf na wigilię firmową w Krakowie, wigilia firmowa"}
                     date={"14 grudnia 2018"}
-                    menuNames={"SMARTRECRUITERS"}
-                    menuTitle={"RODZINNA WIGILIA FIRMOWA"}
-                    leadNames={"SMARTRECRUITERS"}
+                    menuNames={"FIRMA SMARTRECRUITERS"}
+                    menuTitle={"WIGILA FIRMOWA i FOTOGRAF NA WIGILIĘ FIRMOWĄ W KRAKOWIE"}
+                    leadNames={"FIRMA SMARTRECRUITERS"}
                     leadTitle={"IMPREZA RODZINNA STADNINA KONI BOTOJA KORZKIEW"}
                     leadUrl={"/impreza-rodzinna-stadnina-koni-botoja-korzkiew"}
                     leadImage={"url(/static/impreza-rodzinna-stadnina-koni-botoja-korzkiew-start.jpg)"}
