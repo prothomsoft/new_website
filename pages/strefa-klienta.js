@@ -7,10 +7,10 @@ export default class ClientPageComponent extends React.Component {
                 image1: "sala_bankietowa_impresja_jordanow.jpg",
                 url1: "patrycjastaszek",
                 title1: "SALA BANKIETOWA IMPRESJA JORDANÓW<br/>PATRYCJA i STANISŁAW",
-
+                
                 image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
                 url2: "natalialukasz",
-                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
+                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",                
 
                 image3: "slub_zima.jpg",
                 url3: "martamichal",
@@ -18,13 +18,14 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "tiffany_wola_filipowska.jpg",
-                url1: "nataliadominik",
-                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
 
-                image2: "zielone_wzgorze_koniusza.jpg",
-                url2: "karolamati",
-                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
+                image1: "hotel_junior_skotniki.jpg",
+                url1: "magdalena2019",
+                title1: "HOTEL JUNIOR SKOTNIKI KRAKÓW<br/>MAGDALENA i ŁUKASZ",
+
+                image2: "tiffany_wola_filipowska.jpg",
+                url2: "nataliadominik",
+                title2: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
 
                 image3: "dom_weselny_euforia_myslenice_1.jpg",
                 url3: "izaarek",
@@ -36,9 +37,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "adaarek",
                 title1: "HOTEL NAD RABĄ BOCHNIA<br/>ADRIANNA i ARKADIUSZ",
 
-                image2: "sala_bankietowa_triana_mogilany.jpg",
-                url2: "paulina",
-                title2: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
+                image2: "zielone_wzgorze_koniusza.jpg",
+                url2: "karolamati",
+                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
                 
                 image3: "fotograf-slubny-magnolia-budzow.jpg",
                 url3: "kingamateusz",
@@ -50,9 +51,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "olagrzegorz",
                 title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
                 
-                image2: "kosciol_makow_podhalanski.jpg",
-                url2: "olakuba",
-                title2: "KARCZMA U LIPY JORDANÓW<br/>ALEKSANDRA i JAKUB",
+                image2: "sala_bankietowa_triana_mogilany.jpg",
+                url2: "paulina",
+                title2: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
 
                 image3: "magda_grzegorz.jpg",
                 url3: "magdagrzegorz",
