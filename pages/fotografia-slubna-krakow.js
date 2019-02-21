@@ -6,7 +6,7 @@ export default class SlubPageComponent extends React.Component {
             <div>
                 <Singlepage
                     headTitle={"Fotografia ślubna Kraków"}
-                    headDescription={"Fotografia ślubna Kraków, trójkąt zależności pomiędzy chwilą, światłem i kadrem. Reportaż ślubny pełny kolorów i autentycznych emocji."}
+                    headDescription={"Fotografia ślubna Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji."}
                     headKeywords={"fotografia ślubna kraków, reportaż ślubny, ślub w plenerze"}
                     headUrl={"https://99foto.pl/fotografia-slubna-krakow/"}
                     componentContentName={"slub"}

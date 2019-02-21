@@ -16,12 +16,12 @@ export default class SlubMobile extends React.Component {
                     </header>
                     <p>
                         Kocham eksperymenty, czerpanie esencji z przemijających trendów, konsekwencję w dążeniu do celu, lubię mieć plan nie pozwalający wkraść się przypadkowi. Fotografia ślubna to
-                        dla mnie pasja i weekendowa odskocznia od codziennej korporacyjnej rzeczywistości. Fotografia to trójkąt zależności pomiędzy czasem ekspozycji, przysłoną i czułością ISO.{" "}
+                        dla mnie pasja i weekendowa odskocznia od codziennej korporacyjnej rzeczywistości. Fotografia ślubna to zależność pomiędzy czasem ekspozycji, przysłoną i czułością ISO.{" "}
                         <a href="https://www.planujemywesele.pl/47520-99foto-pl-fotograf-slubny-krakow" target="_blank" rel="nofollow">
                             Fotografia ślubna
                         </a>{" "}
-                        to jednocześnie trójkąt zależności pomiędzy chwilą, światłem i kadrem. W obu przypadkach jest to zawsze kompromis poparty pomysłem i doskonałym warsztatem, który pozwala ten
-                        pomysł zrealizować.
+                        to jednocześnie zależność pomiędzy chwilą, światłem i kadrem. W obu przypadkach jest to zawsze kompromis poparty pomysłem i doskonałym warsztatem, który pozwala ten pomysł
+                        zrealizować.
                     </p>
                     <LazyLoad offsetVertical={300}>
                         <img src={"/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} />
