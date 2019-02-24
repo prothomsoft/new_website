@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "sala_bankietowa_impresja_jordanow.jpg",
-                url1: "patrycjastaszek",
-                title1: "SALA BANKIETOWA IMPRESJA JORDANÓW<br/>PATRYCJA i STANISŁAW",
+                image1: "willa_decjusza_krakow_slub_cywilny_sesja_zdjeciowa.jpg",
+                url1: "kristinaola",
+                title1: "ŚLUB CYWILNY WILLA DECJUSZA<br/>KRISTINA i OLA",
                 
                 image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
                 url2: "natalialukasz",
@@ -18,10 +18,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-
-                image1: "hotel_junior_skotniki.jpg",
-                url1: "magdalena2019",
-                title1: "HOTEL JUNIOR SKOTNIKI KRAKÓW<br/>MAGDALENA i ŁUKASZ",
+                image1: "sala_bankietowa_impresja_jordanow.jpg",
+                url1: "patrycjastaszek",
+                title1: "SALA BANKIETOWA IMPRESJA JORDANÓW<br/>PATRYCJA i STANISŁAW",
 
                 image2: "tiffany_wola_filipowska.jpg",
                 url2: "nataliadominik",
@@ -33,9 +32,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "hotel_nad_raba_bochnia.jpg",
-                url1: "adaarek",
-                title1: "HOTEL NAD RABĄ BOCHNIA<br/>ADRIANNA i ARKADIUSZ",
+                image1: "hotel_junior_skotniki.jpg",
+                url1: "magdalena2019",
+                title1: "HOTEL JUNIOR SKOTNIKI KRAKÓW<br/>MAGDALENA i ŁUKASZ",
 
                 image2: "zielone_wzgorze_koniusza.jpg",
                 url2: "karolamati",
@@ -47,9 +46,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "fotograf_slubny_krzeszowice_start.jpg",
-                url1: "olagrzegorz",
-                title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
+                image1: "hotel_nad_raba_bochnia.jpg",
+                url1: "adaarek",
+                title1: "HOTEL NAD RABĄ BOCHNIA<br/>ADRIANNA i ARKADIUSZ",
                 
                 image2: "sala_bankietowa_triana_mogilany.jpg",
                 url2: "paulina",
@@ -62,9 +61,9 @@ export default class ClientPageComponent extends React.Component {
 
             {
 
-                image1: "kristina.jpg",
-                url1: "kristinaaleksandr",
-                title1: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
+                image1: "fotograf_slubny_krzeszowice_start.jpg",
+                url1: "olagrzegorz",
+                title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
                 
                 image2: "magdalena_lukasz_myslenice.jpg",
                 url2: "magdalukasz",
@@ -76,9 +75,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "helada_oswiecim.jpg",
-                url1: "magdadamian",
-                title1: "SALA WESELNA HELADA OŚWIĘCIM<br/>MAGDALENA i DAMIAN",
+                image1: "kristina.jpg",
+                url1: "kristinaaleksandr",
+                title1: "DWÓR SIERAKÓW W DOBCZYCACH<br/>KRISTINA i ALEKSANDR",
 
                 image2: "sala_weselna_soprano_tarnow.jpg",
                 url2: "magdalenalukasz",
