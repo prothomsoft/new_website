@@ -18,13 +18,10 @@ export default class BlogPageComponent extends React.Component {
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0011.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0004.jpg", height: 850 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0002.jpg", height: 763 },
-
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0021.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0007.jpg", height: 850 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0008.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0028.jpg", height: 763 },
-
-
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0013.jpg", height: 850 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0018.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0020.jpg", height: 850 },
@@ -34,8 +31,6 @@ export default class BlogPageComponent extends React.Component {
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0029.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0023.jpg", height: 762 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0015.jpg", height: 763 },
-
-
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0031.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0027.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0006.jpg", height: 763 },
@@ -54,7 +49,7 @@ export default class BlogPageComponent extends React.Component {
                     images={images}
                     headTitle={"Willa Decjusza Kraków, Ślub Cywilny, Sesja Zdjęciowa"}
                     headDescription={
-                        "Coś dla odważnych - sesja ślubna zimą. Jeżeli szukacie pomysłu na sesje zimową i miejsca na sesję zimową w Krakowie to serdecznie zapraszam na bloga, a w przyszłości do Dworu Jana Matejki w Krzesławicach."
+                        "Ślub Cywilny w międzynarodowym towarzystwie. Sesja zdjęciowa Willa Decjusza w Krakowie. Serdecznie zapraszam na bloga, a w przyszłości do zdjęć w Naszym pięknym mieście Krakowie."
                     }
                     headKeywords={"pomysł na sesje zimową, sesja ślubna zimą, miejsce na sesję ślubną w Krakowie"}
                     headUrl={"https://99foto.pl/willa-decjusza-krakow-slub-cywilny-sesja-zdjeciowa/"}
@@ -70,10 +65,10 @@ export default class BlogPageComponent extends React.Component {
                     date={"24 luty 2019"}
                     menuNames={"KRISTINA i OLA"}
                     menuTitle={"WILLA DECJUSZA KRAKÓW, ŚLUB CYWILNY i SESJA ZDJĘCIOWA"}
-                    leadNames={"KAROLINA i MATEUSZ"}
-                    leadTitle={"ZIELONE WZGÓRZE KONIUSZA, TAK W PROMIENIACH SŁOŃCA"}
-                    leadUrl={"/zielone-wzgorze-koniusza-tak-w-promieniach-slonca"}
-                    leadImage={"url(/static/zielone_wzgorze_koniusza.jpg)"}
+                    leadNames={"MARTA i MICHAŁ"}
+                    leadTitle={"JAK ZAPLANOWAĆ I ZORGANIZOWAĆ WYMARZONY ŚLUB W ZIMIE"}
+                    leadUrl={"/jak-zaplanowac-i-zorganizowac-wymarzony-slub-w-zimie"}
+                    leadImage={"url(/static/slub_zima.jpg)"}
                 />
             </div>
         );
