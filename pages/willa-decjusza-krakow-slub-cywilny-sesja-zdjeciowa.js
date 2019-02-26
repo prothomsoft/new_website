@@ -26,7 +26,7 @@ export default class BlogPageComponent extends React.Component {
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0018.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0020.jpg", height: 850 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0014.jpg", height: 763 },
-{ imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0019.jpg", height: 527 },
+{ imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0040.jpg", height: 805 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0025.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0029.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0023.jpg", height: 762 },
@@ -34,11 +34,9 @@ export default class BlogPageComponent extends React.Component {
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0031.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0027.jpg", height: 763 },
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0006.jpg", height: 763 },
-
-
-
-
 { imageSrc: "https://99foto.pl/wp-content/uploads/2019/02/willa_decjusza_sesja_zdjeciowa_slub_cywilny_0022.jpg", height: 763 }
+
+
 
         ];
 
@@ -62,7 +60,7 @@ export default class BlogPageComponent extends React.Component {
                     slug={"willa-decjusza-krakow-slub-cywilny-sesja-zdjeciowa"}
                     title={"WILLA DECJUSZA KRAKÓW, ŚLUB CYWILNY i SESJA ZDJĘCIOWA - KRISTINA i OLA"}
                     tags={"Willa Decjusza Kraków, Ślub Cywilny, Sesja Zdjęciowa"}
-                    date={"24 luty 2019"}
+                    date={"24 lutego 2019"}
                     menuNames={"KRISTINA i OLA"}
                     menuTitle={"WILLA DECJUSZA KRAKÓW, ŚLUB CYWILNY i SESJA ZDJĘCIOWA"}
                     leadNames={"MARTA i MICHAŁ"}
