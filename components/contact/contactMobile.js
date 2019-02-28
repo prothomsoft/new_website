@@ -203,20 +203,18 @@ export default class ContactMobile extends React.Component {
                             </Link>
                         </div>
                         <div className="square">
-                            <Link href="https://plus.google.com/+99fotoPl_fotograf_na_wesele_krakow">
-                                <a target="_blank" rel="nofollow">
-                                    <svg width="60px" height="43px" viewBox="0 0 16 24">
-                                        <g fill="white">
-                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-10.333 16.667c-2.581 0-4.667-2.087-4.667-4.667s2.086-4.667 4.667-4.667c1.26 0 2.313.46 3.127 1.22l-1.267 1.22c-.347-.333-.954-.72-1.86-.72-1.593 0-2.893 1.32-2.893 2.947s1.3 2.947 2.893 2.947c1.847 0 2.54-1.327 2.647-2.013h-2.647v-1.6h4.406c.041.233.074.467.074.773-.001 2.666-1.787 4.56-4.48 4.56zm11.333-4h-2v2h-1.334v-2h-2v-1.333h2v-2h1.334v2h2v1.333z" />
-                                        </g>
-                                    </svg>
-                                </a>
-                            </Link>
+                            <a target="_blank" href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny,35325/" rel="nofollow">
+                                <div className="float_right">
+                                    <LazyLoad offsetVertical={43}>
+                                        <img src={"/static/icons/wesele_z_klasa.jpg"} />
+                                    </LazyLoad>
+                                </div>
+                            </a>
                         </div>
                         <div className="square_space">
                             <a target="_blank" href="https://www.slubnaglowie.pl/katalog/firma/tomasz-prokop_6663" rel="nofollow">
                                 <div className="float_right">
-                                    <LazyLoad offsetVertical={300}>
+                                    <LazyLoad offsetVertical={43}>
                                         <img src={"/static/icons/slub_na_glowie.jpg"} />
                                     </LazyLoad>
                                 </div>
