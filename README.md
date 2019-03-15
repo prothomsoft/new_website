@@ -16,6 +16,11 @@ serve -p 8080
 Always remember about:
 http://sk.99foto.pl/mig/
 
+Auto Import -> steoates
+Material Icon Theme -> Kief
+Prettier - Code formatter -> Peterson
+React-Native/React/Redux snippets -> Equimper
+
 Code formatting settings:
 
 "editor.formatOnSave": false,
