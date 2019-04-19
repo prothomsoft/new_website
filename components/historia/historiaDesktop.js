@@ -89,9 +89,9 @@ export default class HistoriaDesktop extends React.Component {
                     <div style={{ display: "flex" }}>
                         <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
                             <div className="porfolioCaption">
-                                <h3 style={{ textAlign: "center" }}>
+                                <h4 style={{ textAlign: "center" }}>
                                     REPORTAŻ ŚLUBNY KRAKÓW <br /> KINGA i JULIEN
-                                </h3>
+                                </h4>
                             </div>
                         </Link>
                         <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
