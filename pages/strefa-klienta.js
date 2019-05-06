@@ -4,23 +4,23 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "hotel-junior-skotnicka.jpg",
-                url1: "kingapawel",
-                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
+                image1: "dom_weselny_monika_dzialoszyce.jpg",
+                url1: "monikadaniel",
+                title1: "DOM WESELNY MONIKA DZIAŁOSZYCE<br/>MONIKA i DANIEL",
 
-                image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
-                url2: "natalialukasz",
-                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
+                image2: "hotel-junior-skotnicka.jpg",
+                url2: "kingapawel",
+                title2: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
 
-                image3: "slub_zima.jpg",
-                url3: "martamichal",
-                title3: "GOŚCINIEC NAŁĘŻE JAWOŻE<br/>MARTA i MICHAŁ"
+                image3: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
+                url3: "natalialukasz",
+                title3: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ"
             },
 
             {
-                image1: "sala_bankietowa_impresja_jordanow.jpg",
-                url1: "patrycjastaszek",
-                title1: "SALA BANKIETOWA IMPRESJA JORDANÓW<br/>PATRYCJA i STANISŁAW",
+                image1: "dworek_skawina.jpg",
+                url1: "asiabartek",
+                title1: "HOTEL DWOREK SKAWIŃSKI<br/>JOANNA i BARTŁOMIEJ",
 
                 image2: "tiffany_wola_filipowska.jpg",
                 url2: "nataliadominik",
@@ -32,9 +32,10 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sala_weselna_alexia_ochojno.jpg",
-                url1: "joannaszymon",
-                title1: "SALA BANKIETOWA ALEXIA OCHOJNO<br/>JOANNA i SZYMON",
+                image1: "slub_zima.jpg",
+                url1: "martamichal",
+                title1: "GOŚCINIEC NAŁĘŻE JAWOŻE<br/>MARTA i MICHAŁ",
+
 
                 image2: "zielone_wzgorze_koniusza.jpg",
                 url2: "karolamati",
@@ -46,9 +47,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "willa_decjusza_krakow_slub_cywilny_sesja_zdjeciowa.jpg",
-                url1: "kristinaola",
-                title1: "ŚLUB CYWILNY WILLA DECJUSZA<br/>KRISTINA i OLA",
+                image1: "sala_bankietowa_impresja_jordanow.jpg",
+                url1: "patrycjastaszek",
+                title1: "SALA BANKIETOWA IMPRESJA JORDANÓW<br/>PATRYCJA i STANISŁAW",
 
                 image2: "sala_bankietowa_triana_mogilany.jpg",
                 url2: "paulina",
@@ -60,10 +61,10 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
+                image1: "sala_weselna_alexia_ochojno.jpg",
+                url1: "joannaszymon",
+                title1: "SALA BANKIETOWA ALEXIA OCHOJNO<br/>JOANNA i SZYMON",
 
-                image1: "hotel_junior_skotniki.jpg",
-                url1: "magdalena2019",
-                title1: "HOTEL JUNIOR SKOTNIKI KRAKÓW<br/>MAGDALENA i ŁUKASZ",
 
                 image2: "magdalena_lukasz_myslenice.jpg",
                 url2: "magdalukasz",
