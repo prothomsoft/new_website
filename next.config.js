@@ -1,5 +1,5 @@
 module.exports = {
-    exportPathMap: function() {
+    exportPathMap: function () {
         return {
             "/": { page: "/" },
             "/blog": { page: "/blog" },
@@ -23,6 +23,7 @@ module.exports = {
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
             "/blog/page/13": { page: "/blog", query: { page: "13" } },
+            "/sala-bankietowa-szafrantu-fotografia-slubna-niepolomice": { page: "/sala-bankietowa-szafrantu-fotografia-slubna-niepolomice" },
             "/hotel-junior-skotnicka-zdjecia-slubne-skawina": { page: "/hotel-junior-skotnicka-zdjecia-slubne-skawina" },
             "/willa-decjusza-krakow-slub-cywilny-sesja-zdjeciowa": { page: "/willa-decjusza-krakow-slub-cywilny-sesja-zdjeciowa" },
             "/jak-zaplanowac-i-zorganizowac-wymarzony-slub-w-zimie": { page: "/jak-zaplanowac-i-zorganizowac-wymarzony-slub-w-zimie" },

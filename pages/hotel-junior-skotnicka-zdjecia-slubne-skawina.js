@@ -141,7 +141,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Hotel Junior Skotnicka, zdjęcia ślubne Skawina"}
                     headDescription={"Piękni i młodzi Kinga i Paweł. Dużo słońca, uśmiechów i pozytywnej energii. Hotelu Junior Skotnicka i impreza do białego rana. Zapraszam."}
                     headKeywords={"Hotel Junior Skotnicka, dobry fotograf ślubny Skawina, zdjęcia ślubne w Skawinie"}
-                    headUrl={"https://99foto.pl/jak-zaplanowac-i-zorganizowac-wymarzony-slub-w-zimie/"}
+                    headUrl={"https://99foto.pl/hotel-junior-skotnicka-zdjecia-slubne-skawina/"}
                     entryContentP1={
                         'Piątek, piąteczek, piątunio to dla niektórych kolejny dzień spędzony w pracy i oczekiwanie na nadchodzący weekend, dla innych jeden z najważniejszych dni w życiu i okazja do świętowania w gronie najbliższych. Ten wiosenny dzień rozpoczęliśmy od makijażu Kingi, który wykonała Michalina Mikrut z <a href="https://www.facebook.com/allureofmakeup/" target="_blank" rel="nofollow">Allure of Makeup</a>. Miła atmosfera i blisko godzina rozmów pozwoliła mi poznać kilka zagadnień branży wizażu. Piętnaście minut później byliśmy już w mieszkaniu rodziców Kingi, gdzie Mama w turkusowej sukience pomagała Kindze w ubieraniu suknii ślubnej i wszystkich niezbędnych dodatków. Dosłownie tuż za rogiem skawińskiego osiedla czekał na mnie Paweł, który od rana dzielnie jak na wzorowego tatę przystało zajmował się Maksem. Gdy mucha siadła pod kołnierzem białej koszuli, razem z rodzicami Pawła wyruszyliśmy na spotkanie z Kingą i wspólne błogosławieństwo. Nie brakowało wzruszeń w momencie gdy rodzice składali gorące życzenia swoim kochanym dzieciom.'
                     }
@@ -153,7 +153,7 @@ export default class BlogPageComponent extends React.Component {
                     tags={"Hotel Junior Skotnicka, dobry fotograf ślubny Skawina, zdjęcia ślubne w Skawinie"}
                     date={"29 kwietnia 2019"}
                     menuNames={"KINGA i PAWEŁ"}
-                    menuTitle={"HOTEL JUNIOR SKOTNICKA, ZDJĘCIA ŚLUBNE SKAWINA - KINGA i PAWEŁ"}
+                    menuTitle={"HOTEL JUNIOR SKOTNICKA, ZDJĘCIA ŚLUBNE SKAWINA"}
                     leadNames={"KRISTINA i OLA"}
                     leadTitle={"WILLA DECJUSZA KRAKÓW, ŚLUB CYWILNY i SESJA ZDJĘCIOWA"}
                     leadUrl={"/willa-decjusza-krakow-slub-cywilny-sesja-zdjeciowa"}
