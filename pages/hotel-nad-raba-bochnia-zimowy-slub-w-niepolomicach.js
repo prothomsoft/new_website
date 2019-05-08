@@ -142,7 +142,7 @@ export default class BlogPageComponent extends React.Component {
                     slug={"hotel-nad-raba-bochnia-zimowy-slub-w-niepolomicach"}
                     title={"HOTEL NAD RABĄ BOCHNIA, ZIMOWY ŚLUB W NIEPOŁOMICACH - ADA i AREK"}
                     tags={"Hotel nad Rabą Bochnia, Gospoda nad Rabą Bochnia wesela, zimowy ślub w Niepołomicach"}
-                    date={"29 stycznia 2019"}
+                    date={"1 lutego 2018"}
                     menuNames={"ADRIANNA i ARKADIUSZ"}
                     menuTitle={"HOTEL NAD RABĄ BOCHNIA, ZIMOWY ŚLUB W NIEPOŁOMICACH"}
                     leadNames={"NATALIA i ŁUKASZ"}

@@ -4,9 +4,23 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "dom_weselny_monika_dzialoszyce.jpg",
-                url1: "monikadaniel",
-                title1: "DOM WESELNY MONIKA DZIAŁOSZYCE<br/>MONIKA i DANIEL",
+                image1: "sala-bankietowa-szafrantu.jpg",
+                url1: "karolinakamil",
+                title1: "SALA BANKIETOWA SZAFRANTU NIEPOŁOMICE<br/>KAROLINA i KAMIL",
+
+                image2: "dom_weselny_monika_dzialoszyce.jpg",
+                url2: "monikadaniel",
+                title2: "DOM WESELNY MONIKA DZIAŁOSZYCE<br/>MONIKA i DANIEL",
+
+                image3: "dworek_skawina.jpg",
+                url3: "asiabartek",
+                title3: "HOTEL DWOREK SKAWIŃSKI<br/>JOANNA i BARTŁOMIEJ"
+            },
+
+            {
+                image1: "tiffany_wola_filipowska.jpg",
+                url1: "nataliadominik",
+                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
 
                 image2: "hotel-junior-skotnicka.jpg",
                 url2: "kingapawel",
@@ -18,32 +32,17 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "dworek_skawina.jpg",
-                url1: "asiabartek",
-                title1: "HOTEL DWOREK SKAWIŃSKI<br/>JOANNA i BARTŁOMIEJ",
-
-                image2: "tiffany_wola_filipowska.jpg",
-                url2: "nataliadominik",
-                title2: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
-
-                image3: "dom_weselny_euforia_myslenice_1.jpg",
-                url3: "izaarek",
-                title3: "DOM WESELNY EUFORIA MYŚLENICE<br/>IZABELA i ARKADIUSZ"
-            },
-
-            {
                 image1: "slub_zima.jpg",
                 url1: "martamichal",
                 title1: "GOŚCINIEC NAŁĘŻE JAWOŻE<br/>MARTA i MICHAŁ",
-
 
                 image2: "zielone_wzgorze_koniusza.jpg",
                 url2: "karolamati",
                 title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
 
-                image3: "fotograf-slubny-magnolia-budzow.jpg",
-                url3: "kingamateusz",
-                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
+                image3: "dom_weselny_euforia_myslenice_1.jpg",
+                url3: "izaarek",
+                title3: "DOM WESELNY EUFORIA MYŚLENICE<br/>IZABELA i ARKADIUSZ"
             },
 
             {
@@ -55,9 +54,10 @@ export default class ClientPageComponent extends React.Component {
                 url2: "paulina",
                 title2: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
 
-                image3: "magda_grzegorz.jpg",
-                url3: "magdagrzegorz",
-                title3: "RESTAURACJA KOLIBA MURZASICHLE<br/>MAGDALENA i GRZEGORZ"
+                image3: "fotograf-slubny-magnolia-budzow.jpg",
+                url3: "kingamateusz",
+                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
+
             },
 
             {
