@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "chrzest_antosi.jpg",
-                url1: "antosia",
-                title1: "KOŚCIÓŁ ŚW. BARBARY KRAKÓW<br/>CHRZEST ANTOSI",
+                image1: "chrzest_alicja.jpg",
+                url1: "alicja",
+                title1: "KOŚCIÓŁ PW. ŚWIĘTEGO JACKA KRAKÓW<br/>CHRZEST ALICJI",
 
                 image2: "dom_weselny_monika_dzialoszyce.jpg",
                 url2: "monikadaniel",
@@ -18,23 +18,23 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "tiffany_wola_filipowska.jpg",
-                url1: "nataliadominik",
-                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
+                image1: "hotel-junior-skotnicka.jpg",
+                url1: "kingapawel",
+                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
 
-                image2: "dworek_skawina.jpg",
-                url2: "asiabartek",
-                title2: "HOTEL DWOREK SKAWIŃSKI<br/>JOANNA i BARTŁOMIEJ",
+                image2: "dworek_fantazja.jpg",
+                url2: "karolinamichal",
+                title2: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>KAROLINA i MICHAŁ",
 
-                image3: "hotel-junior-skotnicka.jpg",
-                url3: "kingapawel",
-                title3: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ"
+                image3: "dworek_skawina.jpg",
+                url3: "asiabartek",
+                title3: "HOTEL DWOREK SKAWIŃSKI<br/>JOANNA i BARTŁOMIEJ"
             },
 
             {
-                image1: "slub_zima.jpg",
-                url1: "martamichal",
-                title1: "GOŚCINIEC NAŁĘŻE JAWOŻE<br/>MARTA i MICHAŁ",
+                image1: "chrzest_antosi.jpg",
+                url1: "antosia",
+                title1: "KOŚCIÓŁ ŚW. BARBARY KRAKÓW<br/>CHRZEST ANTOSI",
 
                 image2: "zielone_wzgorze_koniusza.jpg",
                 url2: "karolamati",
@@ -46,9 +46,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sala_bankietowa_impresja_jordanow.jpg",
-                url1: "patrycjastaszek",
-                title1: "SALA BANKIETOWA IMPRESJA JORDANÓW<br/>PATRYCJA i STANISŁAW",
+                image1: "tiffany_wola_filipowska.jpg",
+                url1: "nataliadominik",
+                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
 
                 image2: "sala_bankietowa_triana_mogilany.jpg",
                 url2: "paulina",
