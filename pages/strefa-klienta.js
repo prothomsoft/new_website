@@ -4,13 +4,13 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "chrzest_alicja.jpg",
-                url1: "alicja",
-                title1: "KOŚCIÓŁ PW. ŚWIĘTEGO JACKA KRAKÓW<br/>CHRZEST ALICJI",
+                image1: "dom_weselny_amarlis_sienna.jpg",
+                url1: "paulinamichal",
+                title1: "DOM WESELNY AMARLIS SIENNA<br/>PAULINA i MICHAŁ",
 
-                image2: "dom_weselny_monika_dzialoszyce.jpg",
-                url2: "monikadaniel",
-                title2: "DOM WESELNY MONIKA DZIAŁOSZYCE<br/>MONIKA i DANIEL",
+                image2: "chrzest_alicja.jpg",
+                url2: "alicja",
+                title2: "KOŚCIÓŁ PW. ŚWIĘTEGO JACKA KRAKÓW<br/>CHRZEST ALICJI",
 
                 image3: "sala-bankietowa-szafrantu.jpg",
                 url3: "karolinakamil",
@@ -18,9 +18,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "hotel-junior-skotnicka.jpg",
-                url1: "kingapawel",
-                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
+                image1: "dom_weselny_monika_dzialoszyce.jpg",
+                url1: "monikadaniel",
+                title1: "DOM WESELNY MONIKA DZIAŁOSZYCE<br/>MONIKA i DANIEL",
 
                 image2: "dworek_fantazja.jpg",
                 url2: "karolinamichal",
@@ -32,9 +32,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "chrzest_antosi.jpg",
-                url1: "antosia",
-                title1: "KOŚCIÓŁ ŚW. BARBARY KRAKÓW<br/>CHRZEST ANTOSI",
+                image1: "hotel-junior-skotnicka.jpg",
+                url1: "kingapawel",
+                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
 
                 image2: "zielone_wzgorze_koniusza.jpg",
                 url2: "karolamati",
@@ -46,9 +46,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "tiffany_wola_filipowska.jpg",
-                url1: "nataliadominik",
-                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
+                image1: "chrzest_antosi.jpg",
+                url1: "antosia",
+                title1: "KOŚCIÓŁ ŚW. BARBARY KRAKÓW<br/>CHRZEST ANTOSI",
 
                 image2: "sala_bankietowa_triana_mogilany.jpg",
                 url2: "paulina",
@@ -61,10 +61,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sala_weselna_alexia_ochojno.jpg",
-                url1: "joannaszymon",
-                title1: "SALA BANKIETOWA ALEXIA OCHOJNO<br/>JOANNA i SZYMON",
-
+                image1: "tiffany_wola_filipowska.jpg",
+                url1: "nataliadominik",
+                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
 
                 image2: "magdalena_lukasz_myslenice.jpg",
                 url2: "magdalukasz",
