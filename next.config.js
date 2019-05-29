@@ -23,6 +23,7 @@ module.exports = {
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
             "/blog/page/13": { page: "/blog", query: { page: "13" } },
+            "/sala-weselna-karolinka-bystra-podhalanska": { page: "/sala-weselna-karolinka-bystra-podhalanska" },
             "/sala-bankietowa-szafrantu-fotografia-slubna-niepolomice": { page: "/sala-bankietowa-szafrantu-fotografia-slubna-niepolomice" },
             "/hotel-junior-skotnicka-zdjecia-slubne-skawina": { page: "/hotel-junior-skotnicka-zdjecia-slubne-skawina" },
             "/willa-decjusza-krakow-slub-cywilny-sesja-zdjeciowa": { page: "/willa-decjusza-krakow-slub-cywilny-sesja-zdjeciowa" },
