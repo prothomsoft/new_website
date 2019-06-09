@@ -68,7 +68,6 @@ export default class ClientPageComponent extends React.Component {
                 url2: "paulina",
                 title2: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
 
-
                 image3: "dom_weselny_euforia_myslenice_1.jpg",
                 url3: "izaarek",
                 title3: "DOM WESELNY EUFORIA MYŚLENICE<br/>IZABELA i ARKADIUSZ"
