@@ -4,27 +4,70 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "sala_weselna_alexia_ochojno.jpg",
-                url1: "joannaszymon",
-                title1: "SALA BANKIETOWA ALEXIA OCHOJNO<br/>JOANNA i SZYMON",
-                
-                image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
-                url2: "natalialukasz",
-                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",                
+                image1: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
+                url1: "monikamartin",
+                title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
 
-                image3: "slub_zima.jpg",
-                url3: "martamichal",
-                title3: "GOŚCINIEC NAŁĘŻE JAWOŻE<br/>MARTA i MICHAŁ"                
+                image2: "chrzest_alicja.jpg",
+                url2: "alicja",
+                title2: "KOŚCIÓŁ PW. ŚWIĘTEGO JACKA KRAKÓW<br/>CHRZEST ALICJI",
+
+                image3: "restauracja_karolinka_bystra_podhalanska.jpg",
+                url3: "marlenamaciej",
+                title3: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ"
             },
 
             {
-                image1: "sala_bankietowa_impresja_jordanow.jpg",
-                url1: "patrycjastaszek",
-                title1: "SALA BANKIETOWA IMPRESJA JORDANÓW<br/>PATRYCJA i STANISŁAW",
+                image1: "dom_weselny_monika_dzialoszyce.jpg",
+                url1: "monikadaniel",
+                title1: "DOM WESELNY MONIKA DZIAŁOSZYCE<br/>MONIKA i DANIEL",
 
-                image2: "tiffany_wola_filipowska.jpg",
-                url2: "nataliadominik",
-                title2: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
+                image2: "sala-bankietowa-szafrantu.jpg",
+                url2: "karolinakamil",
+                title2: "SALA BANKIETOWA SZAFRANTU NIEPOŁOMICE<br/>KAROLINA i KAMIL",
+
+                image3: "dom_weselny_amarlis_sienna.jpg",
+                url3: "paulinamichal",
+                title3: "DOM WESELNY AMARLIS SIENNA<br/>PAULINA i MICHAŁ"
+            },
+
+            {
+                image1: "hotel-junior-skotnicka.jpg",
+                url1: "kingapawel",
+                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
+
+                image2: "dworek_fantazja.jpg",
+                url2: "karolinamichal",
+                title2: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>KAROLINA i MICHAŁ",
+
+                image3: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
+                url3: "natalialukasz",
+                title3: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ"
+            },
+
+            {
+                image1: "chrzest_antosi.jpg",
+                url1: "antosia",
+                title1: "KOŚCIÓŁ ŚW. BARBARY KRAKÓW<br/>CHRZEST ANTOSI",
+
+                image2: "zielone_wzgorze_koniusza.jpg",
+                url2: "karolamati",
+                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
+
+                image3: "dworek_skawina.jpg",
+                url3: "asiabartek",
+                title3: "HOTEL DWOREK SKAWIŃSKI<br/>JOANNA i BARTŁOMIEJ"
+            },
+
+            {
+                image1: "tiffany_wola_filipowska.jpg",
+                url1: "nataliadominik",
+                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
+
+                image2: "sala_bankietowa_triana_mogilany.jpg",
+                url2: "paulina",
+                title2: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
+
 
                 image3: "dom_weselny_euforia_myslenice_1.jpg",
                 url3: "izaarek",
@@ -32,56 +75,13 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "willa_decjusza_krakow_slub_cywilny_sesja_zdjeciowa.jpg",
-                url1: "kristinaola",
-                title1: "ŚLUB CYWILNY WILLA DECJUSZA<br/>KRISTINA i OLA",                
-
-                image2: "zielone_wzgorze_koniusza.jpg",
-                url2: "karolamati",
-                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
-                
-                image3: "fotograf-slubny-magnolia-budzow.jpg",
-                url3: "kingamateusz",
-                title3: "RESTAURACJA MAGNOLIA BUDZÓW<br/>KINGA i MATEUSZ"
-            },
-
-            {
-                image1: "hotel_junior_skotniki.jpg",
-                url1: "magdalena2019",
-                title1: "HOTEL JUNIOR SKOTNIKI KRAKÓW<br/>MAGDALENA i ŁUKASZ",
-                
-                image2: "sala_bankietowa_triana_mogilany.jpg",
-                url2: "paulina",
-                title2: "SALA BANKIETOWA TRIANA MOGILANY<br/>PAULINA i PAWEŁ",
-
-                image3: "magda_grzegorz.jpg",
-                url3: "magdagrzegorz",
-                title3: "RESTAURACJA KOLIBA MURZASICHLE<br/>MAGDALENA i GRZEGORZ"
-            },
-
-            {
-
-                image1: "hotel_nad_raba_bochnia.jpg",
-                url1: "adaarek",
-                title1: "HOTEL NAD RABĄ BOCHNIA<br/>ADRIANNA i ARKADIUSZ",
-                
-                image2: "magdalena_lukasz_myslenice.jpg",
-                url2: "magdalukasz",
-                title2: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>MAGDALENA i ŁUKASZ",
-
-                image3: "fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg",
-                url3: "dajanasylwester",
-                title3: "SALA WESELNA ARKADIA WADOWICE<br/>DAJANA i SYLWESTER"
-            },
-
-            {
                 image1: "fotograf_slubny_krzeszowice_start.jpg",
                 url1: "olagrzegorz",
                 title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
 
-                image2: "sala_weselna_soprano_tarnow.jpg",
-                url2: "magdalenalukasz",
-                title2: "SALA WESELNA SOPRANO TARNÓW<br/>MAGDALENA i ŁUKASZ",
+                image2: "magdalena_lukasz_myslenice.jpg",
+                url2: "magdalukasz",
+                title2: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>MAGDALENA i ŁUKASZ",
 
                 image3: "hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg",
                 url3: "nataliapiotr",
