@@ -76,10 +76,10 @@ export default class PortfolioDesktop extends Component {
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
+                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="reportaż ślubny jordanów" src={"/static/portfolio_dtp/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} />
+                                    <img alt="wesele międzynarodowe, polskie tradycje weselne" src={"/static/portfolio_dtp/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -100,11 +100,11 @@ export default class PortfolioDesktop extends Component {
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
+                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    REPORTAŻ ŚLUBNY JORDANÓW
-                                    <br /> ANNA i KRZYSZTOF
+                                    WESELE MIĘDZYNARODOWE KRAKÓW
+                                    <br /> MONIKA i MARTIN
                                 </p>
                             </div>
                         </Link>
@@ -118,10 +118,10 @@ export default class PortfolioDesktop extends Component {
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
+                        <Link href="/sala-weselna-karolinka-bystra-podhalanska">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf na wesele Kraków" src={"/static/portfolio_dtp/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg"} />
+                                    <img alt="fotograf na wesele Kraków" src={"/static/portfolio_dtp/restauracja_karolinka_bystra_podhalanska.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -141,10 +141,10 @@ export default class PortfolioDesktop extends Component {
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
+                        <Link href="/sala-weselna-karolinka-bystra-podhalanska">
                             <div className="porfolioCaption">
                                 <h3 style={{ textAlign: "center" }}>
-                                    FOTOGRAF NA WESELE KRAKÓW <br /> KINGA i JULIEN
+                                    FOTOGRAF NA WESELE KRAKÓW <br /> MARLENA i MACIEJ
                                 </h3>
                             </div>
                         </Link>

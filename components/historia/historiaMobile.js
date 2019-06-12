@@ -51,6 +51,21 @@ export default class HistoriaMobile extends React.Component {
                             </LazyLoad>
                         </div>
                     </Link>
+                    <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
+                        <div className="porfolioImage">
+                            <LazyLoad offsetVertical={300}>
+                                <img alt="wesele międzynarodowe kraków, polskie tradycje weselne" src={"/static/portfolio/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} />
+                            </LazyLoad>
+                        </div>
+                    </Link>
+                    <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
+                        <div className="porfolioCaption">
+                            <p style={{ textAlign: "center" }}>
+                                WESELE MIĘDZYNARODOWE KRAKÓW<br />
+                                MONIKA i MARTIN
+                            </p>
+                        </div>
+                    </Link>
                     <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                         <div className="porfolioCaption">
                             <p style={{ textAlign: "center" }}>
@@ -76,34 +91,19 @@ export default class HistoriaMobile extends React.Component {
                             </p>
                         </div>
                     </Link>
-                    <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
+                    <Link href="/sala-weselna-karolinka-bystra-podhalanska">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
-                                <img alt="reportaż ślubny Kraków" src={"/static/portfolio/slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_portfolio.jpg"} />
+                                <img alt="fotograf na wesele Kraków" src={"/static/portfolio/restauracja_karolinka_bystra_podhalanska.jpg"} />
                             </LazyLoad>
                         </div>
                     </Link>
-                    <Link href="/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow">
+                    <Link href="/sala-weselna-karolinka-bystra-podhalanska">
                         <div className="porfolioCaption">
                             <h3 style={{ textAlign: "center" }}>
-                                REPORTAŻ ŚLUBNY KRAKÓW <br />
-                                KINGA i JULIEN
+                                FOTOGRAF NA WESELE KRAKÓW <br />
+                                MARLENA i MACIEJ
                             </h3>
-                        </div>
-                    </Link>
-                    <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
-                        <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="sesja ślubna kraków" src={"/static/portfolio/chan_kristina_sesja_slubna_krakow.jpg"} />
-                            </LazyLoad>
-                        </div>
-                    </Link>
-                    <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
-                        <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
-                                SESJA ŚLUBNA KRAKÓW
-                                <br /> CHAN i KATRINA
-                            </p>
                         </div>
                     </Link>
                     <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
