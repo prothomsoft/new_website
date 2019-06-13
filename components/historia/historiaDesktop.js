@@ -49,7 +49,7 @@ export default class HistoriaDesktop extends React.Component {
                         <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    WESELE MIęDZYNARODOWE KRAKÓW
+                                    WESELE MIĘDZYNARODOWE KRAKÓW
                                     <br /> MONIKA i MARTIN
                                 </p>
                             </div>
@@ -67,7 +67,7 @@ export default class HistoriaDesktop extends React.Component {
                         <Link href="/sala-weselna-karolinka-bystra-podhalanska">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf na wesele KrakÃ³w" src={"/static/portfolio_dtp/restauracja_karolinka_bystra_podhalanska.jpg"} />
+                                    <img alt="fotografia ślubna Kraków" src={"/static/portfolio_dtp/restauracja_karolinka_bystra_podhalanska.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -90,7 +90,7 @@ export default class HistoriaDesktop extends React.Component {
                         <Link href="/sala-weselna-karolinka-bystra-podhalanska">
                             <div className="porfolioCaption">
                                 <h3 style={{ textAlign: "center" }}>
-                                    FOTOGRAF NA WESELE KRAKÃ“W <br /> MARLENA i MACIEJ
+                                    FOTOGRAFIA ŚLUBNA KRAKÓW <br /> MARLENA i MACIEJ
                                 </h3>
                             </div>
                         </Link>
@@ -187,6 +187,28 @@ export default class HistoriaDesktop extends React.Component {
                         position: relative;
                         width: 420px;
                         margin: 0 20px;
+                    }
+
+                    .porfolioCaption h3 {
+                        font-family: Oswald;
+                        font-style: normal;
+                        font-weight: normal;
+                        line-height: 1.4;
+                        text-rendering: optimizelegibility;
+                        font-size: 16px;
+                        padding: 0 20px 0 20px;
+                        margin: 10px 0;
+                    }
+
+                    .porfolioCaption h4 {
+                        font-family: Oswald;
+                        font-style: normal;
+                        font-weight: normal;
+                        line-height: 1.4;
+                        text-rendering: optimizelegibility;
+                        font-size: 16px;
+                        padding: 0 20px 0 20px;
+                        margin: 10px 0;
                     }
 
                     article {

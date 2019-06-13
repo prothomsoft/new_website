@@ -121,7 +121,7 @@ export default class PortfolioDesktop extends Component {
                         <Link href="/sala-weselna-karolinka-bystra-podhalanska">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf na wesele Kraków" src={"/static/portfolio_dtp/restauracja_karolinka_bystra_podhalanska.jpg"} />
+                                    <img alt="fotograf ślubny Kraków" src={"/static/portfolio_dtp/restauracja_karolinka_bystra_podhalanska.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -144,7 +144,7 @@ export default class PortfolioDesktop extends Component {
                         <Link href="/sala-weselna-karolinka-bystra-podhalanska">
                             <div className="porfolioCaption">
                                 <h3 style={{ textAlign: "center" }}>
-                                    FOTOGRAF NA WESELE KRAKÓW <br /> MARLENA i MACIEJ
+                                    FOTOGRAF ŚLUBNY KRAKÓW <br /> MARLENA i MACIEJ
                                 </h3>
                             </div>
                         </Link>
