@@ -1,5 +1,5 @@
 module.exports = {
-    exportPathMap: function() {
+    exportPathMap: function () {
         return {
             "/": { page: "/" },
             "/blog": { page: "/blog" },
@@ -23,6 +23,7 @@ module.exports = {
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
             "/blog/page/13": { page: "/blog", query: { page: "13" } },
+            "/reportaz-slubny-sala-weselna-babie-lato-gdow-cieplutko": { page: "/reportaz-slubny-sala-weselna-babie-lato-gdow-cieplutko" },
             "/fotograf_na_event_firmowy_krakow": { page: "/fotograf_na_event_firmowy_krakow" },
             "/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne": { page: "/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne" },
             "/sala-weselna-karolinka-bystra-podhalanska": { page: "/sala-weselna-karolinka-bystra-podhalanska" },

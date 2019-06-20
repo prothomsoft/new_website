@@ -4,10 +4,23 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
+                image1: "sala_weselna_babie_lato_gdow_1.jpg",
+                url1: "paulinakamil",
+                title1: "SALA WESELNA BABIE LATO GDÓW<br/>PAULINA i KAMIL",
 
-                image1: "fotograf_slubny_limanowa.jpg",
-                url1: "magdarobert",
-                title1: "SALA WESELNA HOTEL LIMANOVA<br/>MAGDALENA i ROBERT",
+                image2: "fotograf_slubny_trzemesnia.jpg",
+                url2: "edytamarcin",
+                title2: "REPORTAŻ ŚLUBNY TRZEMEŚNIA<br/>EDYTA i MARCIN",
+
+                image3: "fotograf_slubny_limanowa.jpg",
+                url3: "magdarobert",
+                title3: "SALA WESELNA HOTEL LIMANOVA<br/>MAGDALENA i ROBERT"
+            },
+
+            {
+                image1: "dom_weselny_monika_dzialoszyce.jpg",
+                url1: "monikadaniel",
+                title1: "DOM WESELNY MONIKA DZIAŁOSZYCE<br/>MONIKA i DANIEL",
 
                 image2: "chrzest_alicja.jpg",
                 url2: "alicja",
@@ -19,13 +32,14 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "dom_weselny_monika_dzialoszyce.jpg",
-                url1: "monikadaniel",
-                title1: "DOM WESELNY MONIKA DZIAŁOSZYCE<br/>MONIKA i DANIEL",
+                image1: "chrzest_antosi.jpg",
+                url1: "antosia",
+                title1: "KOŚCIÓŁ ŚW. BARBARY KRAKÓW<br/>CHRZEST ANTOSI",
 
                 image2: "restauracja_karolinka_bystra_podhalanska.jpg",
                 url2: "marlenamaciej",
                 title2: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
+
 
                 image3: "dom_weselny_amarlis_sienna.jpg",
                 url3: "paulinamichal",
@@ -33,31 +47,19 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "chrzest_antosi.jpg",
-                url1: "antosia",
-                title1: "KOŚCIÓŁ ŚW. BARBARY KRAKÓW<br/>CHRZEST ANTOSI",
+                image1: "hotel-junior-skotnicka.jpg",
+                url1: "kingapawel",
+                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
+
 
                 image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
                 url2: "natalialukasz",
                 title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
 
+
                 image3: "sala-bankietowa-szafrantu.jpg",
                 url3: "karolinakamil",
                 title3: "SALA BANKIETOWA SZAFRANTU NIEPOŁOMICE<br/>KAROLINA i KAMIL"
-            },
-
-            {
-                image1: "hotel-junior-skotnicka.jpg",
-                url1: "kingapawel",
-                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
-
-                image2: "dworek_fantazja.jpg",
-                url2: "karolinamichal",
-                title2: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>KAROLINA i MICHAŁ",
-
-                image3: "dworek_skawina.jpg",
-                url3: "asiabartek",
-                title3: "HOTEL DWOREK SKAWIŃSKI<br/>JOANNA i BARTŁOMIEJ"
             },
 
             {
@@ -69,9 +71,10 @@ export default class ClientPageComponent extends React.Component {
                 url2: "karolamati",
                 title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
 
-                image3: "dom_weselny_euforia_myslenice_1.jpg",
-                url3: "izaarek",
-                title3: "DOM WESELNY EUFORIA MYŚLENICE<br/>IZABELA i ARKADIUSZ"
+                image3: "dworek_skawina.jpg",
+                url3: "asiabartek",
+                title3: "HOTEL DWOREK SKAWIŃSKI<br/>JOANNA i BARTŁOMIEJ"
+
             },
 
             {
