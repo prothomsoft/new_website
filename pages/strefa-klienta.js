@@ -4,27 +4,30 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "sala_weselna_babie_lato_gdow_1.jpg",
-                url1: "paulinakamil",
-                title1: "SALA WESELNA BABIE LATO GDÓW<br/>PAULINA i KAMIL",
+
+
+                image1: "sala_weselna_alexandra_mszana_dolna.jpg",
+                url1: "paulinagrzegorz",
+                title1: "ALEXANDRA MSZANA DOLNA<br/>PAULINA i GRZEGORZ",
+
+                image2: "sala_weselna_u_niedzwiedzia.jpg",
+                url2: "angelikalukasz",
+                title2: "SALA WESELNA U NIEDŹWIEDZIA<br/>ANGELIKA i ŁUKASZ",
+
+                image3: "sala_weselna_babie_lato_gdow_1.jpg",
+                url3: "paulinakamil",
+                title3: "SALA WESELNA BABIE LATO GDÓW<br/>PAULINA i KAMIL"
+            },
+
+            {
+
+                image1: "fotograf_slubny_limanowa.jpg",
+                url1: "magdarobert",
+                title1: "SALA WESELNA HOTEL LIMANOVA<br/>MAGDALENA i ROBERT",
 
                 image2: "fotograf_slubny_trzemesnia.jpg",
                 url2: "edytamarcin",
                 title2: "REPORTAŻ ŚLUBNY TRZEMEŚNIA<br/>EDYTA i MARCIN",
-
-                image3: "fotograf_slubny_limanowa.jpg",
-                url3: "magdarobert",
-                title3: "SALA WESELNA HOTEL LIMANOVA<br/>MAGDALENA i ROBERT"
-            },
-
-            {
-                image1: "dom_weselny_monika_dzialoszyce.jpg",
-                url1: "monikadaniel",
-                title1: "DOM WESELNY MONIKA DZIAŁOSZYCE<br/>MONIKA i DANIEL",
-
-                image2: "chrzest_alicja.jpg",
-                url2: "alicja",
-                title2: "KOŚCIÓŁ PW. ŚWIĘTEGO JACKA KRAKÓW<br/>CHRZEST ALICJI",
 
                 image3: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
                 url3: "monikamartin",
@@ -32,9 +35,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "chrzest_antosi.jpg",
-                url1: "antosia",
-                title1: "KOŚCIÓŁ ŚW. BARBARY KRAKÓW<br/>CHRZEST ANTOSI",
+                image1: "dom_weselny_monika_dzialoszyce.jpg",
+                url1: "monikadaniel",
+                title1: "DOM WESELNY MONIKA DZIAŁOSZYCE<br/>MONIKA i DANIEL",
 
                 image2: "restauracja_karolinka_bystra_podhalanska.jpg",
                 url2: "marlenamaciej",
