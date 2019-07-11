@@ -6,38 +6,41 @@ export default class ClientPageComponent extends React.Component {
             {
 
 
-                image1: "sala_weselna_alexandra_mszana_dolna.jpg",
-                url1: "paulinagrzegorz",
-                title1: "ALEXANDRA MSZANA DOLNA<br/>PAULINA i GRZEGORZ",
+                image1: "rancho_lot_nowy_targ_fotograf_slubny.jpg",
+                url1: "kamilasebastian",
+                title1: "RANCHO LOT NOWY TARG<br/>KAMILA i SEBASTIAN",
 
                 image2: "sala_weselna_u_niedzwiedzia.jpg",
                 url2: "angelikalukasz",
                 title2: "SALA WESELNA U NIEDŹWIEDZIA<br/>ANGELIKA i ŁUKASZ",
 
+                image3: "fotograf_slubny_trzemesnia.jpg",
+                url3: "edytamarcin",
+                title3: "REPORTAŻ ŚLUBNY TRZEMEŚNIA<br/>EDYTA i MARCIN"
+
+
+            },
+
+            {
+                image1: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
+                url1: "monikamartin",
+                title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
+
+                image2: "sala_weselna_alexandra_mszana_dolna.jpg",
+                url2: "paulinagrzegorz",
+                title2: "ALEXANDRA MSZANA DOLNA<br/>PAULINA i GRZEGORZ",
+
                 image3: "sala_weselna_babie_lato_gdow_1.jpg",
                 url3: "paulinakamil",
                 title3: "SALA WESELNA BABIE LATO GDÓW<br/>PAULINA i KAMIL"
+
+
             },
 
             {
-
                 image1: "fotograf_slubny_limanowa.jpg",
                 url1: "magdarobert",
                 title1: "SALA WESELNA HOTEL LIMANOVA<br/>MAGDALENA i ROBERT",
-
-                image2: "fotograf_slubny_trzemesnia.jpg",
-                url2: "edytamarcin",
-                title2: "REPORTAŻ ŚLUBNY TRZEMEŚNIA<br/>EDYTA i MARCIN",
-
-                image3: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
-                url3: "monikamartin",
-                title3: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN"
-            },
-
-            {
-                image1: "dom_weselny_monika_dzialoszyce.jpg",
-                url1: "monikadaniel",
-                title1: "DOM WESELNY MONIKA DZIAŁOSZYCE<br/>MONIKA i DANIEL",
 
                 image2: "restauracja_karolinka_bystra_podhalanska.jpg",
                 url2: "marlenamaciej",
