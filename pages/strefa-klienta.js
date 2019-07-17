@@ -4,21 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
+                image1: "fotograf_slubny_zlotniki.jpg",
+                url1: "magdalenagrzegorz",
+                title1: "SALA WESELNA ZŁOTNIKI<br/>MAGDALENA i GRZEGORZ",
 
-
-                image1: "rancho_lot_nowy_targ_fotograf_slubny.jpg",
-                url1: "kamilasebastian",
-                title1: "RANCHO LOT NOWY TARG<br/>KAMILA i SEBASTIAN",
-
-                image2: "sala_weselna_u_niedzwiedzia.jpg",
-                url2: "angelikalukasz",
-                title2: "SALA WESELNA U NIEDŹWIEDZIA<br/>ANGELIKA i ŁUKASZ",
+                image2: "sala_weselna_babie_lato_gdow_1.jpg",
+                url2: "paulinakamil",
+                title2: "SALA WESELNA BABIE LATO GDÓW<br/>PAULINA i KAMIL",
 
                 image3: "fotograf_slubny_trzemesnia.jpg",
                 url3: "edytamarcin",
                 title3: "REPORTAŻ ŚLUBNY TRZEMEŚNIA<br/>EDYTA i MARCIN"
-
-
             },
 
             {
@@ -26,15 +22,13 @@ export default class ClientPageComponent extends React.Component {
                 url1: "monikamartin",
                 title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
 
-                image2: "sala_weselna_alexandra_mszana_dolna.jpg",
-                url2: "paulinagrzegorz",
-                title2: "ALEXANDRA MSZANA DOLNA<br/>PAULINA i GRZEGORZ",
+                image2: "rancho_lot_nowy_targ_fotograf_slubny.jpg",
+                url2: "kamilasebastian",
+                title2: "RANCHO LOT NOWY TARG<br/>KAMILA i SEBASTIAN",
 
-                image3: "sala_weselna_babie_lato_gdow_1.jpg",
-                url3: "paulinakamil",
-                title3: "SALA WESELNA BABIE LATO GDÓW<br/>PAULINA i KAMIL"
-
-
+                image3: "sala_weselna_u_niedzwiedzia.jpg",
+                url3: "angelikalukasz",
+                title3: "SALA WESELNA U NIEDŹWIEDZIA<br/>ANGELIKA i ŁUKASZ"
             },
 
             {
@@ -46,10 +40,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "marlenamaciej",
                 title2: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
 
-
-                image3: "dom_weselny_amarlis_sienna.jpg",
-                url3: "paulinamichal",
-                title3: "DOM WESELNY AMARLIS SIENNA<br/>PAULINA i MICHAŁ"
+                image3: "sala_weselna_alexandra_mszana_dolna.jpg",
+                url3: "paulinagrzegorz",
+                title3: "ALEXANDRA MSZANA DOLNA<br/>PAULINA i GRZEGORZ"
             },
 
             {
@@ -57,11 +50,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "kingapawel",
                 title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
 
-
                 image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
                 url2: "natalialukasz",
                 title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
-
 
                 image3: "sala-bankietowa-szafrantu.jpg",
                 url3: "karolinakamil",
@@ -80,7 +71,6 @@ export default class ClientPageComponent extends React.Component {
                 image3: "dworek_skawina.jpg",
                 url3: "asiabartek",
                 title3: "HOTEL DWOREK SKAWIŃSKI<br/>JOANNA i BARTŁOMIEJ"
-
             },
 
             {
