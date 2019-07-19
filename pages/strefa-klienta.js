@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "fotograf_slubny_zlotniki.jpg",
-                url1: "magdalenagrzegorz",
-                title1: "SALA WESELNA ZŁOTNIKI<br/>MAGDALENA i GRZEGORZ",
+                image1: "sesja_narzeczenska_krakow_kazimierz.jpg",
+                url1: "marlenaadam",
+                title1: "MIEJSKA SESJA NARZECZEŃSKA<br/>MARLENA i ADAM",
 
-                image2: "sala_weselna_babie_lato_gdow_1.jpg",
-                url2: "paulinakamil",
-                title2: "SALA WESELNA BABIE LATO GDÓW<br/>PAULINA i KAMIL",
+                image2: "fotograf_slubny_zlotniki.jpg",
+                url2: "magdalenagrzegorz",
+                title2: "REPORTAŻ ŚLUBNY ZŁOTNIKI<br/>MAGDALENA i GRZEGORZ",
 
-                image3: "fotograf_slubny_trzemesnia.jpg",
-                url3: "edytamarcin",
-                title3: "REPORTAŻ ŚLUBNY TRZEMEŚNIA<br/>EDYTA i MARCIN"
+                image3: "sala_weselna_babie_lato_gdow_1.jpg",
+                url3: "paulinakamil",
+                title3: "SALA WESELNA BABIE LATO GDÓW<br/>PAULINA i KAMIL"
             },
 
             {
@@ -26,9 +26,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "kamilasebastian",
                 title2: "RANCHO LOT NOWY TARG<br/>KAMILA i SEBASTIAN",
 
-                image3: "sala_weselna_u_niedzwiedzia.jpg",
-                url3: "angelikalukasz",
-                title3: "SALA WESELNA U NIEDŹWIEDZIA<br/>ANGELIKA i ŁUKASZ"
+                image3: "fotograf_slubny_trzemesnia.jpg",
+                url3: "edytamarcin",
+                title3: "REPORTAŻ ŚLUBNY TRZEMEŚNIA<br/>EDYTA i MARCIN"
             },
 
             {
@@ -40,9 +40,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "marlenamaciej",
                 title2: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
 
-                image3: "sala_weselna_alexandra_mszana_dolna.jpg",
-                url3: "paulinagrzegorz",
-                title3: "ALEXANDRA MSZANA DOLNA<br/>PAULINA i GRZEGORZ"
+                image3: "sala_weselna_u_niedzwiedzia.jpg",
+                url3: "angelikalukasz",
+                title3: "SALA WESELNA U NIEDŹWIEDZIA<br/>ANGELIKA i ŁUKASZ"
             },
 
             {
@@ -54,9 +54,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "natalialukasz",
                 title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
 
-                image3: "sala-bankietowa-szafrantu.jpg",
-                url3: "karolinakamil",
-                title3: "SALA BANKIETOWA SZAFRANTU NIEPOŁOMICE<br/>KAROLINA i KAMIL"
+                image3: "sala_weselna_alexandra_mszana_dolna.jpg",
+                url3: "paulinagrzegorz",
+                title3: "ALEXANDRA MSZANA DOLNA<br/>PAULINA i GRZEGORZ"
             },
 
             {
@@ -68,9 +68,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "karolamati",
                 title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
 
-                image3: "dworek_skawina.jpg",
-                url3: "asiabartek",
-                title3: "HOTEL DWOREK SKAWIŃSKI<br/>JOANNA i BARTŁOMIEJ"
+                image3: "sala-bankietowa-szafrantu.jpg",
+                url3: "karolinakamil",
+                title3: "SALA BANKIETOWA SZAFRANTU NIEPOŁOMICE<br/>KAROLINA i KAMIL"
             },
 
             {
