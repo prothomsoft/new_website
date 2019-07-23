@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "sesja_narzeczenska_krakow_kazimierz.jpg",
-                url1: "marlenaadam",
-                title1: "MIEJSKA SESJA NARZECZEŃSKA<br/>MARLENA i ADAM",
+                image1: "fotograf_slubny_pallatia_zielonki.jpg",
+                url1: "kamilamateusz",
+                title1: "DOM WESELNY PALLATIA ZIELONKI<br/>KAMILA i MATEUSZ",
 
                 image2: "fotograf_slubny_zlotniki.jpg",
                 url2: "magdalenagrzegorz",
@@ -18,13 +18,13 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
-                url1: "monikamartin",
-                title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
+                image1: "rancho_lot_nowy_targ_fotograf_slubny.jpg",
+                url1: "kamilasebastian",
+                title1: "RANCHO LOT NOWY TARG<br/>KAMILA i SEBASTIAN",
 
-                image2: "rancho_lot_nowy_targ_fotograf_slubny.jpg",
-                url2: "kamilasebastian",
-                title2: "RANCHO LOT NOWY TARG<br/>KAMILA i SEBASTIAN",
+                image2: "restauracja_karolinka_bystra_podhalanska.jpg",
+                url2: "marlenamaciej",
+                title2: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
 
                 image3: "fotograf_slubny_trzemesnia.jpg",
                 url3: "edytamarcin",
@@ -32,13 +32,13 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "fotograf_slubny_limanowa.jpg",
-                url1: "magdarobert",
-                title1: "SALA WESELNA HOTEL LIMANOVA<br/>MAGDALENA i ROBERT",
+                image1: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
+                url1: "monikamartin",
+                title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
 
-                image2: "restauracja_karolinka_bystra_podhalanska.jpg",
-                url2: "marlenamaciej",
-                title2: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
+                image2: "sesja_narzeczenska_krakow_kazimierz.jpg",
+                url2: "marlenaadam",
+                title2: "MIEJSKA SESJA NARZECZEŃSKA<br/>MARLENA i ADAM",
 
                 image3: "sala_weselna_u_niedzwiedzia.jpg",
                 url3: "angelikalukasz",
