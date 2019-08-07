@@ -23,6 +23,7 @@ module.exports = {
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
             "/blog/page/13": { page: "/blog", query: { page: "13" } },
+            "/bazylika-bozego-ciala-krakow-fotoreportaz-slubny": { page: "/bazylika-bozego-ciala-krakow-fotoreportaz-slubny" },
             "/miejska-sesja-narzeczenska-piekni-mlodzi-i-zakochani": { page: "/miejska-sesja-narzeczenska-piekni-mlodzi-i-zakochani" },
             "/ciekawe-miejsca-w-krakowie-czyli-pomysl-na-sesje-zdjeciowa": { page: "/ciekawe-miejsca-w-krakowie-czyli-pomysl-na-sesje-zdjeciowa" },
             "/reportaz-slubny-sala-weselna-babie-lato-gdow-cieplutko": { page: "/reportaz-slubny-sala-weselna-babie-lato-gdow-cieplutko" },
