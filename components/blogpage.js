@@ -77,6 +77,23 @@ export default class Blogpage extends React.Component {
         let componentOne = null;
         let componentTwo = null;
         let componentThree = null;
+        let paragraph1 = null;
+        let paragraph2 = null;
+        let paragraph3 = null;
+        let paragraph4 = null;
+        let paragraph5 = null;
+        let paragraph6 = null;
+        let paragraph7 = null;
+        let paragraph8 = null;
+        let paragraph9 = null;
+        let imagesParagraph1 = null;
+        let imagesParagraph2 = null;
+        let imagesParagraph3 = null;
+        let imagesParagraph4 = null;
+        let imagesParagraph5 = null;
+        let imagesParagraph6 = null;
+        let imagesParagraph7 = null;
+        let imagesParagraph8 = null;
         let menuSpace = null;
         let lead = null;
         let contact = null;
@@ -87,6 +104,14 @@ export default class Blogpage extends React.Component {
                 componentOne = null;
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={"70px"} />;
                 componentThree = <LazyLoadWrapper images={this.props.images} skipHeight={true} />;
+                if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} skipHeight={true} />;
+                if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} skipHeight={true} />;
+                if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} skipHeight={true} />;
+                if (this.props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={this.props.imagesParagraph4} skipHeight={true} />;
+                if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} skipHeight={true} />;
+                if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} skipHeight={true} />;
+                if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} skipHeight={true} />;
+                if (this.props.imagesParagraph8) imagesParagraph8 = <LazyLoadWrapper images={this.props.imagesParagraph8} skipHeight={true} />;
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
                 contact = <ContactMobile />;
             } else {
@@ -104,6 +129,14 @@ export default class Blogpage extends React.Component {
                     />
                 );
                 componentThree = <LazyLoadWrapper images={this.props.images} skipHeight={false} />;
+                if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} skipHeight={false} />;
+                if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} skipHeight={false} />;
+                if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} skipHeight={false} />;
+                if (this.props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={this.props.imagesParagraph4} skipHeight={false} />;
+                if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} skipHeight={false} />;
+                if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} skipHeight={false} />;
+                if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} skipHeight={false} />;
+                if (this.props.imagesParagraph8) imagesParagraph8 = <LazyLoadWrapper images={this.props.imagesParagraph8} skipHeight={false} />;
                 lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
                 contact = <ContactDesktop />;
             }
@@ -121,6 +154,34 @@ export default class Blogpage extends React.Component {
         let bgImg3 = "bgimg-3 others";
         if (isIOS) {
             bgImg3 = "bgimg-3 isios";
+        }
+
+        if (this.props.entryContentP1 !== '') {
+            paragraph1 = <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP1 }} />;
+        }
+        if (this.props.entryContentP2 !== '') {
+            paragraph2 = <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP2 }} />;
+        }
+        if (this.props.entryContentP3 !== '') {
+            paragraph3 = <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP3 }} />;
+        }
+        if (this.props.entryContentP4 !== '') {
+            paragraph4 = <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP4 }} />;
+        }
+        if (this.props.entryContentP5 !== '') {
+            paragraph5 = <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP5 }} />;
+        }
+        if (this.props.entryContentP6 !== '') {
+            paragraph6 = <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP6 }} />;
+        }
+        if (this.props.entryContentP7 !== '') {
+            paragraph7 = <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP7 }} />;
+        }
+        if (this.props.entryContentP8 !== '') {
+            paragraph8 = <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP8 }} />;
+        }
+        if (this.props.entryContentP9 !== '') {
+            paragraph9 = <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP9 }} />;
         }
 
         return (
@@ -143,8 +204,23 @@ export default class Blogpage extends React.Component {
                             {this.props.date}, TAGI: <span className="spanColor">{this.props.tags}</span>
                         </div>
                         <div className="entryContent">
-                            <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP1 }} />
-                            <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP2 }} />
+                            {paragraph1}
+                            {imagesParagraph1}
+                            {paragraph2}
+                            {imagesParagraph2}
+                            {paragraph3}
+                            {imagesParagraph3}
+                            {paragraph4}
+                            {imagesParagraph4}
+                            {paragraph5}
+                            {imagesParagraph5}
+                            {paragraph6}
+                            {imagesParagraph6}
+                            {paragraph7}
+                            {imagesParagraph7}
+                            {paragraph8}
+                            {imagesParagraph8}
+                            {paragraph9}
                         </div>
                     </article>
                     {componentThree}
