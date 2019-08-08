@@ -272,7 +272,11 @@ function getPostContent(content) {
 }
 
 function getPostTitleWithNames(post) {
-    return post.title.rendered.concat(" - ").concat(post.post_tags[0].imiona);
+    if (post.post_tags[0].imiona == '') {
+        return post.title.rendered;
+    } else {
+        return post.title.rendered.concat(" - ").concat(post.post_tags[0].imiona);
+    }
 }
 
 function getPostImage(content) {

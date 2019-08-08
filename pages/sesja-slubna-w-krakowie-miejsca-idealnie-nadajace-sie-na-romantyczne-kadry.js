@@ -36,22 +36,13 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/fotograf_na_wesele_krakow_0002.jpg", height: 763 }
         ];
 
-        let imagesParagraph8 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/fotograf_na_wesele_krakow_0002.jpg", height: 763 }
-        ];
-
-        let images = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/fotograf_na_wesele_krakow_0002.jpg", height: 763 }
-        ];
-
         return (
             <div>
                 <Blogpage
                     slide={slide}
-                    images={images}
-                    headTitle={"Sesja ślubna w Krakowie. Miejsca idealnie nadające się na romantyczne kadry."}
+                    headTitle={"Sesja ślubna w Krakowie. Miejsca idealne na romantyczne kadry."}
                     headDescription={"Sesja ślubna piękna, romantyczna z niesamowitymi i mającymi to coś w sobie kadrami. Wybierzcie magiczny Kraków. Zapraszam."}
-                    headKeywords={"sesja ślubna w Krakowie, miejsca plenerowe Kraków, pomysły na sesje"}
+                    headKeywords={"sesja ślubna w Krakowie, miejsca plenerowe Kraków, pomysły na sesje ślubną"}
                     headUrl={"https://99foto.pl/sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry/"}
                     entryContentP1={'Sesja ślubna to prawdziwy must have każdej pary młodej. Godziny przed lustrem, idealna suknia ślubna i garnitur skrojony na miarę po prostu muszą zostać uwiecznione w obiektywie fotografa! Oczywiście zdjęcia ze ślubu i wesela są standardem, ale wtedy nie jesteście sami. Wokół was jest mnóstwo osób, wiele się dzieje. Trudno o chwilę skupienia i uwagi tylko dla siebie nawzajem. Taką szansę stwarza specjalna sesja ślubna, na którą warto się zdecydować.'}
                     imagesParagraph1={imagesParagraph1}
@@ -68,14 +59,13 @@ export default class BlogPageComponent extends React.Component {
                     entryContentP7={'Piękne krakowskie uliczki, które dodadzą klimatu waszej sesji to na przykład Grodzka lub Kanoniczna. Do nietypowych miejsc zaliczyć można na przykład kolorowe schody w dzielnicy Podgórze. Ciekawe tło dla kadrów daje też zabudowa ulicy Wawrzyńca oraz Muzeum Inżynierii Miejskiej. Oczywiście nie można zapomnieć też o słynnym Kazimierzu, gdzie zdjęcia zarówno w ciągu dnia, jak i nocą wychodzą przepiękne! Niech waszej uwadze nie umknie ulica Józefa i brama przy pubie "Stajnia". Zdjęcia będą magiczne!'}
                     imagesParagraph7={imagesParagraph7}
                     entryContentP8={'Podsumowując, jeśli marzycie o pięknej i romantycznej sesji ślubnej z niesamowitymi i mającymi „to coś” kadrami, wybierzcie magiczny Kraków. Jest to wręcz raj dla miłośników zabytków i architektury, ale także natury! Wystarczy wybrać tylko miejsca, które najbardziej do was pasują i dobrego fotografa, a efekt będzie niesamowity!'}
-                    imagesParagraph8={imagesParagraph8}
                     entryContentP9={'Artykuł powstał przy współpracy portalu <a href="https://www.weselezklasa.pl/" target="_blank" rel="nofollow">Wesele z klasą</a>.'}
                     slug={"sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry"}
-                    title={"SESJA ŚLUBNA W KRAKOWIE. MIEJSCA IDEALNIE NADAJĄCE SIĘ NA ROMANTYCZNE KADRY."}
-                    tags={"sesja ślubna w Krakowie, miejsca plenerowe Kraków, pomysły na sesje"}
-                    date={"8 sierpnia 2019"}
+                    title={"SESJA ŚLUBNA W KRAKOWIE. MIEJSCA IDEALNE NA ROMANTYCZNE KADRY."}
+                    tags={"sesja ślubna w Krakowie, miejsca plenerowe Kraków, pomysły na sesje ślubną"}
+                    date={"6 sierpnia 2019"}
                     menuNames={"SESJA ŚLUBNA W KRAKOWIE"}
-                    menuTitle={"MIEJSCA IDEALNIE NADAJĄCE SIĘ NA ROMANTYCZNE KADRY. POMYSŁY NA SESJE."}
+                    menuTitle={"MIEJSCA IDEALNE NA ROMANTYCZNE KADRY. POMYSŁY NA SESJE."}
                     leadNames={"MARLENA i ADAM"}
                     leadTitle={"MIEJSKA SESJA NARZECZEŃSKA, PIĘKNI, MŁODZI i ZAKOCHANI"}
                     leadUrl={"/miejska-sesja-narzeczenska-piekni-mlodzi-i-zakochani"}

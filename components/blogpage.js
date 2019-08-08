@@ -93,7 +93,6 @@ export default class Blogpage extends React.Component {
         let imagesParagraph5 = null;
         let imagesParagraph6 = null;
         let imagesParagraph7 = null;
-        let imagesParagraph8 = null;
         let menuSpace = null;
         let lead = null;
         let contact = null;
@@ -103,7 +102,7 @@ export default class Blogpage extends React.Component {
                 menuSpace = "70px";
                 componentOne = null;
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={"70px"} />;
-                componentThree = <LazyLoadWrapper images={this.props.images} skipHeight={true} />;
+                if (this.props.images) componentThree = <LazyLoadWrapper images={this.props.images} skipHeight={true} />;
                 if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} skipHeight={true} />;
                 if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} skipHeight={true} />;
                 if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} skipHeight={true} />;
@@ -111,7 +110,6 @@ export default class Blogpage extends React.Component {
                 if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} skipHeight={true} />;
                 if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} skipHeight={true} />;
                 if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} skipHeight={true} />;
-                if (this.props.imagesParagraph8) imagesParagraph8 = <LazyLoadWrapper images={this.props.imagesParagraph8} skipHeight={true} />;
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
                 contact = <ContactMobile />;
             } else {
@@ -128,7 +126,7 @@ export default class Blogpage extends React.Component {
                         menuButton={"ZOBACZ ZDJĘCIA"}
                     />
                 );
-                componentThree = <LazyLoadWrapper images={this.props.images} skipHeight={false} />;
+                if (this.props.images) componentThree = <LazyLoadWrapper images={this.props.images} skipHeight={false} />;
                 if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} skipHeight={false} />;
                 if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} skipHeight={false} />;
                 if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} skipHeight={false} />;
@@ -136,7 +134,6 @@ export default class Blogpage extends React.Component {
                 if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} skipHeight={false} />;
                 if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} skipHeight={false} />;
                 if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} skipHeight={false} />;
-                if (this.props.imagesParagraph8) imagesParagraph8 = <LazyLoadWrapper images={this.props.imagesParagraph8} skipHeight={false} />;
                 lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
                 contact = <ContactDesktop />;
             }
@@ -219,7 +216,6 @@ export default class Blogpage extends React.Component {
                             {paragraph7}
                             {imagesParagraph7}
                             {paragraph8}
-                            {imagesParagraph8}
                             {paragraph9}
                         </div>
                     </article>
