@@ -9,31 +9,34 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let imagesParagraph1 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/fotograf_na_wesele_krakow_0002.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0001.jpg", height: 763 }
         ];
 
         let imagesParagraph2 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/fotograf_na_wesele_krakow_0002.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0002.jpg", height: 851 }
         ];
 
         let imagesParagraph3 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/fotograf_na_wesele_krakow_0002.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0003.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0009.jpg", height: 762 }
         ];
 
         let imagesParagraph4 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/fotograf_na_wesele_krakow_0002.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0004.jpg", height: 762 }
         ];
 
         let imagesParagraph5 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/fotograf_na_wesele_krakow_0002.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0005.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0008.jpg", height: 762 }
         ];
 
         let imagesParagraph6 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/fotograf_na_wesele_krakow_0002.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0007.jpg", height: 763 }
         ];
 
         let imagesParagraph7 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/fotograf_na_wesele_krakow_0002.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0006.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0010.jpg", height: 762 }
         ];
 
         return (

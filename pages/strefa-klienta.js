@@ -4,13 +4,13 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "bazylika_bozego_ciala_krakow_fotoreportaz_slubny_1.jpg",
-                url1: "annapiotr",
-                title1: "SALA BANKIETOWA HOTEL JUNIOR<br/>ANNA i PIOTR",
+                image1: "ninja_style.jpg",
+                url1: "edytadawid",
+                title1: "SALA WESELNA GOŚCINIEC TENCZYN<br/>EDYTA i DAWID",
 
-                image2: "fotograf_slubny_zlotniki.jpg",
-                url2: "magdalenagrzegorz",
-                title2: "REPORTAŻ ŚLUBNY ZŁOTNIKI<br/>MAGDALENA i GRZEGORZ",
+                image2: "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg",
+                url2: "annapiotr",
+                title2: "SALA BANKIETOWA HOTEL JUNIOR<br/>ANNA i PIOTR",
 
                 image3: "fotograf_slubny_pallatia_zielonki.jpg",
                 url3: "kamilamateusz",
@@ -22,9 +22,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "marlenamaciej",
                 title1: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
 
-                image2: "sesja_narzeczenska_krakow_kazimierz.jpg",
-                url2: "marlenaadam",
-                title2: "MIEJSKA SESJA NARZECZEŃSKA<br/>MARLENA i ADAM",
+                image2: "fotograf_slubny_zlotniki.jpg",
+                url2: "magdalenagrzegorz",
+                title2: "REPORTAŻ ŚLUBNY ZŁOTNIKI<br/>MAGDALENA i GRZEGORZ",
 
                 image3: "sala_weselna_babie_lato_gdow_1.jpg",
                 url3: "paulinakamil",
@@ -36,9 +36,10 @@ export default class ClientPageComponent extends React.Component {
                 url1: "monikamartin",
                 title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
 
-                image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
-                url2: "natalialukasz",
-                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
+                image2: "sesja_narzeczenska_krakow_kazimierz.jpg",
+                url2: "marlenaadam",
+                title2: "MIEJSKA SESJA NARZECZEŃSKA<br/>MARLENA i ADAM",
+
 
                 image3: "fotograf_slubny_trzemesnia.jpg",
                 url3: "edytamarcin",
@@ -50,9 +51,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "kingapawel",
                 title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
 
-                image2: "rancho_lot_nowy_targ_fotograf_slubny.jpg",
-                url2: "kamilasebastian",
-                title2: "RANCHO LOT NOWY TARG<br/>KAMILA i SEBASTIAN",
+                image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
+                url2: "natalialukasz",
+                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
 
                 image3: "sala_weselna_u_niedzwiedzia.jpg",
                 url3: "angelikalukasz",
