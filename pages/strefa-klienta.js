@@ -4,31 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "ninja_style.jpg",
-                url1: "edytadawid",
-                title1: "SALA WESELNA GOŚCINIEC TENCZYN<br/>EDYTA i DAWID",
+                image1: "sesja_slubna_popradzki_staw.jpg",
+                url1: "adelaszymon",
+                title1: "SALA WESELNA IMPRESJA JORDANÓW<br/>ADELA i SZYMON",
 
-                image2: "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg",
-                url2: "annapiotr",
-                title2: "SALA BANKIETOWA HOTEL JUNIOR<br/>ANNA i PIOTR",
+                image2: "fotograf_slubny_kielce.jpg",
+                url2: "annamarcin",
+                title2: "SALA BALOWA SZAFRANOWY DWÓR STRAWCZYNEK<br/>ANNA i MARCIN",
 
-                image3: "fotograf_slubny_pallatia_zielonki.jpg",
-                url3: "kamilamateusz",
-                title3: "DOM WESELNY PALLATIA ZIELONKI<br/>KAMILA i MATEUSZ"
-            },
-
-            {
-                image1: "restauracja_karolinka_bystra_podhalanska.jpg",
-                url1: "marlenamaciej",
-                title1: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
-
-                image2: "fotograf_slubny_zlotniki.jpg",
-                url2: "magdalenagrzegorz",
-                title2: "REPORTAŻ ŚLUBNY ZŁOTNIKI<br/>MAGDALENA i GRZEGORZ",
-
-                image3: "sala_weselna_babie_lato_gdow_1.jpg",
-                url3: "paulinakamil",
-                title3: "SALA WESELNA BABIE LATO GDÓW<br/>PAULINA i KAMIL"
+                image3: "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg",
+                url3: "annapiotr",
+                title3: "SALA BANKIETOWA HOTEL JUNIOR<br/>ANNA i PIOTR"
             },
 
             {
@@ -36,14 +22,27 @@ export default class ClientPageComponent extends React.Component {
                 url1: "monikamartin",
                 title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
 
-                image2: "sesja_narzeczenska_krakow_kazimierz.jpg",
-                url2: "marlenaadam",
-                title2: "MIEJSKA SESJA NARZECZEŃSKA<br/>MARLENA i ADAM",
+                image2: "ninja_style.jpg",
+                url2: "edytadawid",
+                title2: "SALA WESELNA GOŚCINIEC TENCZYN<br/>EDYTA i DAWID",
 
+                image3: "fotograf_slubny_zlotniki.jpg",
+                url3: "magdalenagrzegorz",
+                title3: "REPORTAŻ ŚLUBNY ZŁOTNIKI<br/>MAGDALENA i GRZEGORZ"
+            },
 
-                image3: "fotograf_slubny_trzemesnia.jpg",
-                url3: "edytamarcin",
-                title3: "REPORTAŻ ŚLUBNY TRZEMEŚNIA<br/>EDYTA i MARCIN"
+            {
+                image1: "restauracja_karolinka_bystra_podhalanska.jpg",
+                url1: "marlenamaciej",
+                title1: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
+
+                image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
+                url2: "natalialukasz",
+                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
+
+                image3: "fotograf_slubny_pallatia_zielonki.jpg",
+                url3: "kamilamateusz",
+                title3: "DOM WESELNY PALLATIA ZIELONKI<br/>KAMILA i MATEUSZ"
             },
 
             {
@@ -51,13 +50,13 @@ export default class ClientPageComponent extends React.Component {
                 url1: "kingapawel",
                 title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
 
-                image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
-                url2: "natalialukasz",
-                title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
+                image2: "zielone_wzgorze_koniusza.jpg",
+                url2: "karolamati",
+                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
 
-                image3: "sala_weselna_u_niedzwiedzia.jpg",
-                url3: "angelikalukasz",
-                title3: "SALA WESELNA U NIEDŹWIEDZIA<br/>ANGELIKA i ŁUKASZ"
+                image3: "sala_weselna_babie_lato_gdow_1.jpg",
+                url3: "paulinakamil",
+                title3: "SALA WESELNA BABIE LATO GDÓW<br/>PAULINA i KAMIL"
             },
 
             {
@@ -65,9 +64,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "nataliadominik",
                 title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
 
-                image2: "zielone_wzgorze_koniusza.jpg",
-                url2: "karolamati",
-                title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
+                image2: "sesja_narzeczenska_krakow_kazimierz.jpg",
+                url2: "marlenaadam",
+                title2: "MIEJSKA SESJA NARZECZEŃSKA<br/>MARLENA i ADAM",
 
                 image3: "sala_weselna_alexandra_mszana_dolna.jpg",
                 url3: "paulinagrzegorz",
