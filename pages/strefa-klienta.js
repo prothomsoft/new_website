@@ -8,9 +8,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "nataliabenjamin",
                 title1: "SESJA NARZECZEŃSKA KRAKÓW<br/>NATALIA i BENJAMIN",
 
-                image2: "sesja_slubna_popradzki_staw.jpg",
-                url2: "adelaszymon",
-                title2: "SALA WESELNA IMPRESJA JORDANÓW<br/>ADELA i SZYMON",
+                image2: "hotel_zameczek_ksiaz_wielki.jpg",
+                url2: "katarzynapawel",
+                title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
 
                 image3: "sesja_narzeczenska_klasztor_w_tyncu.jpg",
                 url3: "teresaandrzej",
@@ -18,13 +18,13 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
-                url1: "monikamartin",
-                title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
+                image1: "fotograf_slubny_kielce.jpg",
+                url1: "annamarcin",
+                title1: "SALA BALOWA SZAFRANOWY DWÓR STRAWCZYNEK<br/>ANNA i MARCIN",
 
-                image2: "fotograf_slubny_kielce.jpg",
-                url2: "annamarcin",
-                title2: "SALA BALOWA SZAFRANOWY DWÓR STRAWCZYNEK<br/>ANNA i MARCIN",
+                image2: "ninja_style.jpg",
+                url2: "edytadawid",
+                title2: "SALA WESELNA GOŚCINIEC TENCZYN<br/>EDYTA i DAWID",
 
                 image3: "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg",
                 url3: "annapiotr",
@@ -32,13 +32,13 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "restauracja_karolinka_bystra_podhalanska.jpg",
-                url1: "marlenamaciej",
-                title1: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
+                image1: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
+                url1: "monikamartin",
+                title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
 
-                image2: "ninja_style.jpg",
-                url2: "edytadawid",
-                title2: "SALA WESELNA GOŚCINIEC TENCZYN<br/>EDYTA i DAWID",
+                image2: "sesja_slubna_popradzki_staw.jpg",
+                url2: "adelaszymon",
+                title2: "SALA WESELNA IMPRESJA JORDANÓW<br/>ADELA i SZYMON",
 
                 image3: "fotograf_slubny_zlotniki.jpg",
                 url3: "magdalenagrzegorz",
@@ -46,9 +46,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "hotel-junior-skotnicka.jpg",
-                url1: "kingapawel",
-                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
+                image1: "restauracja_karolinka_bystra_podhalanska.jpg",
+                url1: "marlenamaciej",
+                title1: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
 
                 image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
                 url2: "natalialukasz",
@@ -60,9 +60,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "tiffany_wola_filipowska.jpg",
-                url1: "nataliadominik",
-                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
+                image1: "hotel-junior-skotnicka.jpg",
+                url1: "kingapawel",
+                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
 
                 image2: "zielone_wzgorze_koniusza.jpg",
                 url2: "karolamati",
@@ -74,9 +74,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "fotograf_slubny_krzeszowice_start.jpg",
-                url1: "olagrzegorz",
-                title1: "CZTERY PORY ROKU ALWERNIA<br/>ALEKSANDRA i GRZEGORZ",
+                image1: "tiffany_wola_filipowska.jpg",
+                url1: "nataliadominik",
+                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
 
                 image2: "magdalena_lukasz_myslenice.jpg",
                 url2: "magdalukasz",

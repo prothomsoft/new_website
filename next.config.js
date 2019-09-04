@@ -24,6 +24,7 @@ module.exports = {
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
             "/blog/page/13": { page: "/blog", query: { page: "13" } },
 
+            "/hotel-zameczek-ksiaz-wielki-i-slubne-iskierki-milosci": { page: "/hotel-zameczek-ksiaz-wielki-i-slubne-iskierki-milosci" },
             "/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca": { page: "/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca" },
             "/sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry": { page: "/sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry" },
             "/bazylika-bozego-ciala-krakow-fotoreportaz-slubny": { page: "/bazylika-bozego-ciala-krakow-fotoreportaz-slubny" },
