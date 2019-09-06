@@ -95,12 +95,12 @@ export default class BlogPageComponent extends React.Component {
                         "Event firmowy w Krakowie. Rodzinny klimat, niezliczona ilość atrakcji i blisko dwieście osób, pracowników firmy SmartRecruiters z dzieciakami. Serdecznie zapraszam na zdjęcia."
                     }
                     headKeywords={"Fotograf na event firmowy Kraków, impreza plenerowa firmowa Chochołowy Dwór"}
-                    headUrl={"https://99foto.pl/fotograf_na_event_firmowy_krakow/"}
+                    headUrl={"https://99foto.pl/fotograf-na-event-firmowy-krakow/"}
                     entryContentP1={
                         "Event firmowy w Krakowie. Blisko dwieście osób pracownicy z rodzinami i ich spotkanie w środku lata. Wymarzona pogoda i miejsce pełne atrakcji dla dużych i małych. To już trzeci raz jak miałem przyjemność zatrzymywać rodzinne chwile podczas imprezy firmowej w Smartach. Grupówki gdzieś tam wiszą na lodówce. Zapraszam na zdjęcia i życzę miłego oglądania."
                     }
                     entryContentP2={""}
-                    slug={"fotograf_na_event_firmowy_krakow"}
+                    slug={"fotograf-na-event-firmowy-krakow"}
                     title={"FOTOGRAF NA EVENT FIRMOWY KRAKÓW, IMPREZA PLENEROWA CHOCHOŁOWY DWÓR"}
                     tags={"Fotograf na event firmowy Kraków, impreza plenerowa firmowa Chochołowy Dwór"}
                     date={"14 grudnia 2018"}

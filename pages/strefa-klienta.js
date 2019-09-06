@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "sesja_narzeczenska_stara_zajezdnia.jpg",
-                url1: "nataliabenjamin",
-                title1: "SESJA NARZECZEŃSKA KRAKÓW<br/>NATALIA i BENJAMIN",
+                image1: "sesja_narzeczenska_zakrzowek.jpg",
+                url1: "ewelinajakub",
+                title1: "SESJA NARZECZEŃSKA ZAKRZÓWEK<br/>EWELINA i JAKUB",
 
                 image2: "hotel_zameczek_ksiaz_wielki.jpg",
                 url2: "katarzynapawel",
                 title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
 
-                image3: "sesja_narzeczenska_klasztor_w_tyncu.jpg",
-                url3: "teresaandrzej",
-                title3: "SESJA NARZECZEŃSKA W TYŃCU<br/>TERESA i ANDRZEJ"
+                image3: "kosciol_sw_jozefa_krakow_podgorze.jpg",
+                url3: "agnieszkamateusz",
+                title3: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA I MATEUSZ"
             },
 
             {
@@ -26,9 +26,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "edytadawid",
                 title2: "SALA WESELNA GOŚCINIEC TENCZYN<br/>EDYTA i DAWID",
 
-                image3: "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg",
-                url3: "annapiotr",
-                title3: "SALA BANKIETOWA HOTEL JUNIOR<br/>ANNA i PIOTR"
+                image3: "sesja_narzeczenska_klasztor_w_tyncu.jpg",
+                url3: "teresaandrzej",
+                title3: "SESJA NARZECZEŃSKA W TYŃCU<br/>TERESA i ANDRZEJ"
             },
 
             {
@@ -40,9 +40,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "adelaszymon",
                 title2: "SALA WESELNA IMPRESJA JORDANÓW<br/>ADELA i SZYMON",
 
-                image3: "fotograf_slubny_zlotniki.jpg",
-                url3: "magdalenagrzegorz",
-                title3: "REPORTAŻ ŚLUBNY ZŁOTNIKI<br/>MAGDALENA i GRZEGORZ"
+                image3: "sesja_narzeczenska_stara_zajezdnia.jpg",
+                url3: "nataliabenjamin",
+                title3: "SESJA NARZECZEŃSKA KRAKÓW<br/>NATALIA i BENJAMIN"
             },
 
             {
@@ -54,9 +54,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "natalialukasz",
                 title2: "DOM WESELNY ARKADIA CZASŁAW<br/>NATALIA i ŁUKASZ",
 
-                image3: "fotograf_slubny_pallatia_zielonki.jpg",
-                url3: "kamilamateusz",
-                title3: "DOM WESELNY PALLATIA ZIELONKI<br/>KAMILA i MATEUSZ"
+                image3: "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg",
+                url3: "annapiotr",
+                title3: "SALA BANKIETOWA HOTEL JUNIOR<br/>ANNA i PIOTR"
             },
 
             {
@@ -68,9 +68,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "karolamati",
                 title2: "ZIELONE WZGÓRZE KONIUSZA<br/>KAROLINA i MATEUSZ",
 
-                image3: "sala_weselna_babie_lato_gdow_1.jpg",
-                url3: "paulinakamil",
-                title3: "SALA WESELNA BABIE LATO GDÓW<br/>PAULINA i KAMIL"
+                image3: "fotograf_slubny_zlotniki.jpg",
+                url3: "magdalenagrzegorz",
+                title3: "REPORTAŻ ŚLUBNY ZŁOTNIKI<br/>MAGDALENA i GRZEGORZ"
             },
 
             {
@@ -82,9 +82,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "magdalukasz",
                 title2: "REPORTAŻ ŚLUBNY MYŚLENICE<br/>MAGDALENA i ŁUKASZ",
 
-                image3: "sala_weselna_alexandra_mszana_dolna.jpg",
-                url3: "paulinagrzegorz",
-                title3: "ALEXANDRA MSZANA DOLNA<br/>PAULINA i GRZEGORZ"
+                image3: "fotograf_slubny_pallatia_zielonki.jpg",
+                url3: "kamilamateusz",
+                title3: "DOM WESELNY PALLATIA ZIELONKI<br/>KAMILA i MATEUSZ"
             }
         ];
 
