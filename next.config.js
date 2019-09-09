@@ -31,7 +31,7 @@ module.exports = {
             "/miejska-sesja-narzeczenska-piekni-mlodzi-i-zakochani": { page: "/miejska-sesja-narzeczenska-piekni-mlodzi-i-zakochani" },
             "/ciekawe-miejsca-w-krakowie-czyli-pomysl-na-sesje-zdjeciowa": { page: "/ciekawe-miejsca-w-krakowie-czyli-pomysl-na-sesje-zdjeciowa" },
             "/reportaz-slubny-sala-weselna-babie-lato-gdow-cieplutko": { page: "/reportaz-slubny-sala-weselna-babie-lato-gdow-cieplutko" },
-            "/fotograf_na_event_firmowy_krakow": { page: "/fotograf_na_event_firmowy_krakow" },
+            "/fotograf-na-event-firmowy-krakow": { page: "/fotograf-na-event-firmowy-krakow" },
             "/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne": { page: "/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne" },
             "/sala-weselna-karolinka-bystra-podhalanska": { page: "/sala-weselna-karolinka-bystra-podhalanska" },
             "/sala-bankietowa-szafrantu-fotografia-slubna-niepolomice": { page: "/sala-bankietowa-szafrantu-fotografia-slubna-niepolomice" },
