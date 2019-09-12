@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "fotograf_slubny_mielec.jpg",
-                url1: "marlenaadam",
-                title1: "SALA WESELNA ASTORIA MIELEC<br/>MARLENA i ADAM",
+                image1: "karolinka_bystra_podhalanska.jpg",
+                url1: "edytarobert",
+                title1: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA I ROBERT",
 
-                image2: "kosciol_sw_jozefa_krakow_podgorze.jpg",
-                url2: "agnieszkamateusz",
-                title2: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA I MATEUSZ",
+                image2: "hotel_zameczek_ksiaz_wielki.jpg",
+                url2: "katarzynapawel",
+                title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
 
-                image3: "hotel_zameczek_ksiaz_wielki.jpg",
-                url3: "katarzynapawel",
-                title3: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ"
+                image3: "fotograf_slubny_mielec.jpg",
+                url3: "marlenaadam",
+                title3: "SALA WESELNA ASTORIA MIELEC<br/>MARLENA i ADAM"
             },
 
             {
@@ -22,9 +22,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "annamarcin",
                 title1: "SALA BALOWA SZAFRANOWY DWÓR STRAWCZYNEK<br/>ANNA i MARCIN",
 
-                image2: "sesja_narzeczenska_zakrzowek.jpg",
-                url2: "ewelinajakub",
-                title2: "SESJA NARZECZEŃSKA ZAKRZÓWEK<br/>EWELINA i JAKUB",
+                image2: "kosciol_sw_jozefa_krakow_podgorze.jpg",
+                url2: "agnieszkamateusz",
+                title2: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA I MATEUSZ",
 
                 image3: "sesja_narzeczenska_klasztor_w_tyncu.jpg",
                 url3: "teresaandrzej",
@@ -36,9 +36,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "monikamartin",
                 title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
 
-                image2: "ninja_style.jpg",
-                url2: "edytadawid",
-                title2: "SALA WESELNA GOŚCINIEC TENCZYN<br/>EDYTA i DAWID",
+                image2: "sesja_narzeczenska_zakrzowek.jpg",
+                url2: "ewelinajakub",
+                title2: "SESJA NARZECZEŃSKA ZAKRZÓWEK<br/>EWELINA i JAKUB",
 
                 image3: "sesja_narzeczenska_stara_zajezdnia.jpg",
                 url3: "nataliabenjamin",
@@ -50,9 +50,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "marlenamaciej",
                 title1: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
 
-                image2: "sesja_slubna_popradzki_staw.jpg",
-                url2: "adelaszymon",
-                title2: "SALA WESELNA IMPRESJA JORDANÓW<br/>ADELA i SZYMON",
+                image2: "ninja_style.jpg",
+                url2: "edytadawid",
+                title2: "SALA WESELNA GOŚCINIEC TENCZYN<br/>EDYTA i DAWID",
 
                 image3: "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg",
                 url3: "annapiotr",
