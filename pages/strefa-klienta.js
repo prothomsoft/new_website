@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "karolinka_bystra_podhalanska.jpg",
-                url1: "edytarobert",
-                title1: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA I ROBERT",
+                image1: "akacjowy_dwor_krakow.jpg",
+                url1: "dominikaandrzej",
+                title1: "DOM WESELNY AKACJOWY DWÓR KRAKÓW<br/>DOMINIKA i ANDRZEJ",
 
                 image2: "hotel_zameczek_ksiaz_wielki.jpg",
                 url2: "katarzynapawel",
@@ -18,23 +18,23 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "fotograf_slubny_kielce.jpg",
-                url1: "annamarcin",
-                title1: "SALA BALOWA SZAFRANOWY DWÓR STRAWCZYNEK<br/>ANNA i MARCIN",
+                image1: "sesja_narzeczenska_klasztor_w_tyncu.jpg",
+                url1: "teresaandrzej",
+                title1: "SESJA NARZECZEŃSKA W TYŃCU<br/>TERESA i ANDRZEJ",
 
                 image2: "kosciol_sw_jozefa_krakow_podgorze.jpg",
                 url2: "agnieszkamateusz",
-                title2: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA I MATEUSZ",
+                title2: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ",
 
-                image3: "sesja_narzeczenska_klasztor_w_tyncu.jpg",
-                url3: "teresaandrzej",
-                title3: "SESJA NARZECZEŃSKA W TYŃCU<br/>TERESA i ANDRZEJ"
+                image3: "karolinka_bystra_podhalanska.jpg",
+                url3: "edytarobert",
+                title3: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT"
             },
 
             {
-                image1: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
-                url1: "monikamartin",
-                title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
+                image1: "fotograf_slubny_kielce.jpg",
+                url1: "annamarcin",
+                title1: "SALA BALOWA SZAFRANOWY DWÓR STRAWCZYNEK<br/>ANNA i MARCIN",
 
                 image2: "sesja_narzeczenska_zakrzowek.jpg",
                 url2: "ewelinajakub",
@@ -46,9 +46,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "restauracja_karolinka_bystra_podhalanska.jpg",
-                url1: "marlenamaciej",
-                title1: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
+                image1: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
+                url1: "monikamartin",
+                title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
 
                 image2: "ninja_style.jpg",
                 url2: "edytadawid",
@@ -60,9 +60,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "hotel-junior-skotnicka.jpg",
-                url1: "kingapawel",
-                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
+                image1: "restauracja_karolinka_bystra_podhalanska.jpg",
+                url1: "marlenamaciej",
+                title1: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
 
                 image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
                 url2: "natalialukasz",
@@ -74,9 +74,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "tiffany_wola_filipowska.jpg",
-                url1: "nataliadominik",
-                title1: "TIFFANY WOLA FILIPOWSKA<br/>NATALIA i DOMINIK",
+                image1: "hotel-junior-skotnicka.jpg",
+                url1: "kingapawel",
+                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
 
                 image2: "magdalena_lukasz_myslenice.jpg",
                 url2: "magdalukasz",
