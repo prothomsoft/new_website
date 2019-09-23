@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "akacjowy_dwor_krakow.jpg",
-                url1: "dominikaandrzej",
-                title1: "DOM WESELNY AKACJOWY DWÓR KRAKÓW<br/>DOMINIKA i ANDRZEJ",
+                image1: "zdjecia_slubne_wadowice.jpg",
+                url1: "beatatobiasz",
+                title1: "SALA WESELNA KARPIK W ZATORZE<br/>BEATA i TOBIASZ",
 
                 image2: "hotel_zameczek_ksiaz_wielki.jpg",
                 url2: "katarzynapawel",
                 title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
 
-                image3: "fotograf_slubny_mielec.jpg",
-                url3: "marlenaadam",
-                title3: "SALA WESELNA ASTORIA MIELEC<br/>MARLENA i ADAM"
+                image3: "akacjowy_dwor_krakow.jpg",
+                url3: "dominikaandrzej",
+                title3: "DOM WESELNY AKACJOWY DWÓR KRAKÓW<br/>DOMINIKA i ANDRZEJ"
             },
 
             {
@@ -26,9 +26,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "agnieszkamateusz",
                 title2: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ",
 
-                image3: "karolinka_bystra_podhalanska.jpg",
-                url3: "edytarobert",
-                title3: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT"
+                image3: "fotograf_slubny_mielec.jpg",
+                url3: "marlenaadam",
+                title3: "SALA WESELNA ASTORIA MIELEC<br/>MARLENA i ADAM"
             },
 
             {
@@ -40,9 +40,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "ewelinajakub",
                 title2: "SESJA NARZECZEŃSKA ZAKRZÓWEK<br/>EWELINA i JAKUB",
 
-                image3: "sesja_narzeczenska_stara_zajezdnia.jpg",
-                url3: "nataliabenjamin",
-                title3: "SESJA NARZECZEŃSKA KRAKÓW<br/>NATALIA i BENJAMIN"
+                image3: "karolinka_bystra_podhalanska.jpg",
+                url3: "edytarobert",
+                title3: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT"
             },
 
             {
