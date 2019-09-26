@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "zdjecia_slubne_wadowice_1.jpg",
-                url1: "beatatobiasz",
-                title1: "SALA WESELNA KARPIK W ZATORZE<br/>BEATA i TOBIASZ",
+                image1: "slub_cywilny_hotel_junior_skotnicka.jpg",
+                url1: "nataliakrzysztof",
+                title1: "SALA BANKIETOWA HOTEL JUNIOR<br/>NATALIA i KRZYSZTOF",
 
                 image2: "hotel_zameczek_ksiaz_wielki.jpg",
                 url2: "katarzynapawel",
@@ -18,9 +18,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sesja_narzeczenska_klasztor_w_tyncu.jpg",
-                url1: "teresaandrzej",
-                title1: "SESJA NARZECZEŃSKA W TYŃCU<br/>TERESA i ANDRZEJ",
+                image1: "zdjecia_slubne_wadowice_1.jpg",
+                url1: "beatatobiasz",
+                title1: "SALA WESELNA KARPIK W ZATORZE<br/>BEATA i TOBIASZ",
 
                 image2: "kosciol_sw_jozefa_krakow_podgorze.jpg",
                 url2: "agnieszkamateusz",
@@ -32,9 +32,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "fotograf_slubny_kielce.jpg",
-                url1: "annamarcin",
-                title1: "SALA BALOWA SZAFRANOWY DWÓR STRAWCZYNEK<br/>ANNA i MARCIN",
+                image1: "sesja_narzeczenska_klasztor_w_tyncu.jpg",
+                url1: "teresaandrzej",
+                title1: "SESJA NARZECZEŃSKA W TYŃCU<br/>TERESA i ANDRZEJ",
 
                 image2: "sesja_narzeczenska_zakrzowek.jpg",
                 url2: "ewelinajakub",
@@ -46,9 +46,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
-                url1: "monikamartin",
-                title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
+                image1: "fotograf_slubny_kielce.jpg",
+                url1: "annamarcin",
+                title1: "SALA BALOWA SZAFRANOWY DWÓR STRAWCZYNEK<br/>ANNA i MARCIN",
 
                 image2: "ninja_style.jpg",
                 url2: "edytadawid",
@@ -60,9 +60,10 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "restauracja_karolinka_bystra_podhalanska.jpg",
-                url1: "marlenamaciej",
-                title1: "KAROLINKA BYSTRA PODHALAŃSKA<br/>MARLENA i MACIEJ",
+                image1: "sala_weselna_biala_wilczyca_kocmyrzow.jpg",
+                url1: "monikamartin",
+                title1: "SALA WESELNA BIAŁA WILCZYCA<br/>MONIKA i MARTIN",
+
 
                 image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
                 url2: "natalialukasz",
