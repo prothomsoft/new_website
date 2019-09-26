@@ -78,9 +78,9 @@ export default class BlogPageComponent extends React.Component {
                     }
                     entryContentP2={""}
                     slug={"fotograf_na_event_firmowy_krakow"}
-                    title={"FFIRMOWE SPOTKANIE SMARTÓW - TURNIEJ PIŁKARZYKÓW"}
+                    title={"FIRMOWE SPOTKANIE SMARTÓW - TURNIEJ PIŁKARZYKÓW"}
                     tags={"Fotograf na event firmowy Kraków, turniej piłkarzyków w firmie"}
-                    date={"14 grudnia 2018"}
+                    date={"5 września 2019"}
                     menuNames={"FIRMA SMARTRECRUITERS"}
                     menuTitle={"FIRMOWE SPOTKANIE SMARTÓW - TURNIEJ PIŁKARZYKÓW"}
                     leadNames={"FIRMA SMARTRECRUITERS"}
