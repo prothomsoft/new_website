@@ -43,7 +43,7 @@ export default class BlogPageComponent extends React.Component {
             <div>
                 <Blogpage
                     slide={slide}
-                    headTitle={"Sesja ślubna w Krakowie. Miejsca idealne na romantyczne kadry."}
+                    headTitle={"Sesja ślubna w Krakowie. Miejsca idealne na romantyczne kadry"}
                     headDescription={"Sesja ślubna piękna, romantyczna z niesamowitymi i mającymi to coś w sobie kadrami. Wybierzcie magiczny Kraków. Zapraszam."}
                     headKeywords={"sesja ślubna w Krakowie, miejsca plenerowe Kraków, pomysły na sesje ślubną"}
                     headUrl={"https://99foto.pl/sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry/"}
@@ -64,7 +64,7 @@ export default class BlogPageComponent extends React.Component {
                     entryContentP8={'Podsumowując, jeśli marzycie o pięknej i romantycznej sesji ślubnej z niesamowitymi i mającymi „to coś” kadrami, wybierzcie magiczny Kraków. Jest to wręcz raj dla miłośników zabytków i architektury, ale także natury! Wystarczy wybrać tylko miejsca, które najbardziej do was pasują i dobrego fotografa, a efekt będzie niesamowity!'}
                     entryContentP9={'Artykuł powstał przy współpracy portalu <a href="https://www.weselezklasa.pl/" target="_blank" rel="nofollow">Wesele z klasą</a>.'}
                     slug={"sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry"}
-                    title={"SESJA ŚLUBNA W KRAKOWIE. MIEJSCA IDEALNE NA ROMANTYCZNE KADRY."}
+                    title={"SESJA ŚLUBNA W KRAKOWIE. MIEJSCA IDEALNE NA ROMANTYCZNE KADRY"}
                     tags={"sesja ślubna w Krakowie, miejsca plenerowe Kraków, pomysły na sesje ślubną"}
                     date={"6 sierpnia 2019"}
                     menuNames={"SESJA ŚLUBNA W KRAKOWIE"}

@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "plener_slubny_ojcow.jpg",
-                url1: "emiliadaniel",
-                title1: "DOM WESELNY POD KASZTANAMI IGOŁOMIA<br/>EMILIA i DANIEL",
+                image1: "sztuczne_ognie_na_weselu.jpg",
+                url1: "agnieszkarobert",
+                title1: "DOM WESELNY BABIE LATO GDÓW<br/>AGNIESZKA i ROBERT",
 
                 image2: "kosciol_sw_jozefa_krakow_podgorze.jpg",
                 url2: "agnieszkamateusz",
@@ -22,9 +22,23 @@ export default class ClientPageComponent extends React.Component {
                 url1: "nataliakrzysztof",
                 title1: "SALA BANKIETOWA HOTEL JUNIOR<br/>NATALIA i KRZYSZTOF",
 
-                image2: "akacjowy_dwor_krakow.jpg",
-                url2: "dominikaandrzej",
-                title2: "DOM WESELNY AKACJOWY DWÓR KRAKÓW<br/>DOMINIKA i ANDRZEJ",
+                image2: "sesja_narzeczenska_zakrzowek.jpg",
+                url2: "ewelinajakub",
+                title2: "SESJA NARZECZEŃSKA ZAKRZÓWEK<br/>EWELINA i JAKUB",
+
+                image3: "karolinka_bystra_podhalanska.jpg",
+                url3: "edytarobert",
+                title3: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT"
+            },
+
+            {
+                image1: "akacjowy_dwor_krakow.jpg",
+                url1: "dominikaandrzej",
+                title1: "DOM WESELNY AKACJOWY DWÓR KRAKÓW<br/>DOMINIKA i ANDRZEJ",
+
+                image2: "plener_slubny_ojcow.jpg",
+                url2: "emiliadaniel",
+                title2: "DOM WESELNY POD KASZTANAMI IGOŁOMIA<br/>EMILIA i DANIEL",
 
                 image3: "fotograf_slubny_mielec.jpg",
                 url3: "marlenaadam",
@@ -36,20 +50,6 @@ export default class ClientPageComponent extends React.Component {
                 url1: "beatatobiasz",
                 title1: "SALA WESELNA KARPIK W ZATORZE<br/>BEATA i TOBIASZ",
 
-                image2: "sesja_narzeczenska_zakrzowek.jpg",
-                url2: "ewelinajakub",
-                title2: "SESJA NARZECZEŃSKA ZAKRZÓWEK<br/>EWELINA i JAKUB",
-
-                image3: "karolinka_bystra_podhalanska.jpg",
-                url3: "edytarobert",
-                title3: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT"
-            },
-
-            {
-                image1: "sesja_narzeczenska_klasztor_w_tyncu.jpg",
-                url1: "teresaandrzej",
-                title1: "SESJA NARZECZEŃSKA W TYŃCU<br/>TERESA i ANDRZEJ",
-
                 image2: "ninja_style.jpg",
                 url2: "edytadawid",
                 title2: "SALA WESELNA GOŚCINIEC TENCZYN<br/>EDYTA i DAWID",
@@ -60,9 +60,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "fotograf_slubny_kielce.jpg",
-                url1: "annamarcin",
-                title1: "SALA BALOWA SZAFRANOWY DWÓR STRAWCZYNEK<br/>ANNA i MARCIN",
+                image1: "sesja_narzeczenska_klasztor_w_tyncu.jpg",
+                url1: "teresaandrzej",
+                title1: "SESJA NARZECZEŃSKA W TYŃCU<br/>TERESA i ANDRZEJ",
 
                 image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
                 url2: "natalialukasz",
@@ -74,9 +74,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "hotel-junior-skotnicka.jpg",
-                url1: "kingapawel",
-                title1: "HOTEL JUNIOR SKOTNIKI<br/>KINGA i PAWEŁ",
+                image1: "fotograf_slubny_kielce.jpg",
+                url1: "annamarcin",
+                title1: "SALA BALOWA SZAFRANOWY DWÓR STRAWCZYNEK<br/>ANNA i MARCIN",
 
                 image2: "magdalena_lukasz_myslenice.jpg",
                 url2: "magdalukasz",

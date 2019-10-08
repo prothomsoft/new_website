@@ -23,6 +23,7 @@ module.exports = {
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
             "/blog/page/13": { page: "/blog", query: { page: "13" } },
+            "/sesja-na-slowacji-tatrzanska-lomnica-szczyrbskie-jezioro": { page: "/sesja-na-slowacji-tatrzanska-lomnica-szczyrbskie-jezioro" },
             "/rebranding-saba": { page: "/rebranding-saba" },
             "/firmowe-spotkanie-smartow": { page: "/firmowe-spotkanie-smartow" },
             "/hotel-zameczek-ksiaz-wielki-i-slubne-iskierki-milosci": { page: "/hotel-zameczek-ksiaz-wielki-i-slubne-iskierki-milosci" },
