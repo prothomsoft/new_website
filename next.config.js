@@ -23,6 +23,8 @@ module.exports = {
             "/blog/page/11": { page: "/blog", query: { page: "11" } },
             "/blog/page/12": { page: "/blog", query: { page: "12" } },
             "/blog/page/13": { page: "/blog", query: { page: "13" } },
+            "/blog/page/14": { page: "/blog", query: { page: "14" } },
+            "/blog/page/15": { page: "/blog", query: { page: "15" } },
             "/sesja-na-slowacji-tatrzanska-lomnica-szczyrbskie-jezioro": { page: "/sesja-na-slowacji-tatrzanska-lomnica-szczyrbskie-jezioro" },
             "/rebranding-saba": { page: "/rebranding-saba" },
             "/firmowe-spotkanie-smartow": { page: "/firmowe-spotkanie-smartow" },
