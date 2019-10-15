@@ -4,17 +4,31 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "sztuczne_ognie_na_weselu.jpg",
-                url1: "agnieszkarobert",
-                title1: "DOM WESELNY BABIE LATO GDÓW<br/>AGNIESZKA i ROBERT",
+                image1: "skalny_dwor_wola_kalinowska.jpg",
+                url1: "katarzynamateusz",
+                title1: "DOM WESELNY SKALNY DWÓR<br/>KATARZYNA i MATEUSZ",
 
-                image2: "kosciol_sw_jozefa_krakow_podgorze.jpg",
-                url2: "agnieszkamateusz",
-                title2: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ",
+                image2: "karolinka_bystra_podhalanska.jpg",
+                url2: "edytarobert",
+                title2: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT",
 
-                image3: "hotel_zameczek_ksiaz_wielki.jpg",
-                url3: "katarzynapawel",
-                title3: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ"
+                image3: "sztuczne_ognie_na_weselu.jpg",
+                url3: "agnieszkarobert",
+                title3: "DOM WESELNY BABIE LATO GDÓW<br/>AGNIESZKA i ROBERT"
+            },
+
+            {
+                image1: "hotel_junior_zawila.jpg",
+                url1: "nataliahubert",
+                title1: "DOM WESELNY HOTEL JUNIOR ZAWIŁA<br/>NATALIA i HUBERT",
+
+                image2: "hotel_zameczek_ksiaz_wielki.jpg",
+                url2: "katarzynapawel",
+                title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
+
+                image3: "kosciol_sw_jozefa_krakow_podgorze.jpg",
+                url3: "agnieszkamateusz",
+                title3: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ"
             },
 
             {
@@ -26,29 +40,15 @@ export default class ClientPageComponent extends React.Component {
                 url2: "ewelinajakub",
                 title2: "SESJA NARZECZEŃSKA ZAKRZÓWEK<br/>EWELINA i JAKUB",
 
-                image3: "karolinka_bystra_podhalanska.jpg",
-                url3: "edytarobert",
-                title3: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT"
-            },
-
-            {
-                image1: "akacjowy_dwor_krakow.jpg",
-                url1: "dominikaandrzej",
-                title1: "DOM WESELNY AKACJOWY DWÓR KRAKÓW<br/>DOMINIKA i ANDRZEJ",
-
-                image2: "plener_slubny_ojcow.jpg",
-                url2: "emiliadaniel",
-                title2: "DOM WESELNY POD KASZTANAMI IGOŁOMIA<br/>EMILIA i DANIEL",
-
                 image3: "fotograf_slubny_mielec.jpg",
                 url3: "marlenaadam",
                 title3: "SALA WESELNA ASTORIA MIELEC<br/>MARLENA i ADAM"
             },
 
             {
-                image1: "zdjecia_slubne_wadowice_1.jpg",
-                url1: "beatatobiasz",
-                title1: "SALA WESELNA KARPIK W ZATORZE<br/>BEATA i TOBIASZ",
+                image1: "akacjowy_dwor_krakow.jpg",
+                url1: "dominikaandrzej",
+                title1: "DOM WESELNY AKACJOWY DWÓR KRAKÓW<br/>DOMINIKA i ANDRZEJ",
 
                 image2: "ninja_style.jpg",
                 url2: "edytadawid",
