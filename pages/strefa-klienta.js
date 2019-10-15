@@ -4,9 +4,23 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "skalny_dwor_wola_kalinowska.jpg",
-                url1: "katarzynamateusz",
-                title1: "DOM WESELNY SKALNY DWÓR<br/>KATARZYNA i MATEUSZ",
+                image1: "fotograf_slubny_mszana_dolna.jpg",
+                url1: "martaartur",
+                title1: "DOM WESELNY NEDAN PCIM<br/>MARTA i ARTUR",
+
+                image2: "hotel_zameczek_ksiaz_wielki.jpg",
+                url2: "katarzynapawel",
+                title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
+
+                image3: "skalny_dwor_wola_kalinowska.jpg",
+                url3: "katarzynamateusz",
+                title3: "DOM WESELNY SKALNY DWÓR<br/>KATARZYNA i MATEUSZ"
+            },
+
+            {
+                image1: "hotel_junior_zawila.jpg",
+                url1: "nataliahubert",
+                title1: "DOM WESELNY HOTEL JUNIOR ZAWIŁA<br/>NATALIA i HUBERT",
 
                 image2: "karolinka_bystra_podhalanska.jpg",
                 url2: "edytarobert",
@@ -18,20 +32,6 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "hotel_junior_zawila.jpg",
-                url1: "nataliahubert",
-                title1: "DOM WESELNY HOTEL JUNIOR ZAWIŁA<br/>NATALIA i HUBERT",
-
-                image2: "hotel_zameczek_ksiaz_wielki.jpg",
-                url2: "katarzynapawel",
-                title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
-
-                image3: "kosciol_sw_jozefa_krakow_podgorze.jpg",
-                url3: "agnieszkamateusz",
-                title3: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ"
-            },
-
-            {
                 image1: "slub_cywilny_hotel_junior_skotnicka.jpg",
                 url1: "nataliakrzysztof",
                 title1: "SALA BANKIETOWA HOTEL JUNIOR<br/>NATALIA i KRZYSZTOF",
@@ -40,9 +40,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "ewelinajakub",
                 title2: "SESJA NARZECZEŃSKA ZAKRZÓWEK<br/>EWELINA i JAKUB",
 
-                image3: "fotograf_slubny_mielec.jpg",
-                url3: "marlenaadam",
-                title3: "SALA WESELNA ASTORIA MIELEC<br/>MARLENA i ADAM"
+                image3: "kosciol_sw_jozefa_krakow_podgorze.jpg",
+                url3: "agnieszkamateusz",
+                title3: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ"
             },
 
             {
