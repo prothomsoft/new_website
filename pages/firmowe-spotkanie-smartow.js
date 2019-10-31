@@ -72,18 +72,18 @@ export default class BlogPageComponent extends React.Component {
                         "Event firmowy w Krakowie. Rodzinny klimat, niezliczona ilość atrakcji i blisko dwieście osób, pracowników firmy SmartRecruiters z dzieciakami. Serdecznie zapraszam na zdjęcia."
                     }
                     headKeywords={"Fotograf na event firmowy Kraków, impreza plenerowa firmowa Chochołowy Dwór"}
-                    headUrl={"https://99foto.pl/fotograf_na_event_firmowy_krakow/"}
+                    headUrl={"https://99foto.pl/firmowe-spotkanie-smartow/"}
                     entryContentP1={
                         "Event firmowy w Krakowie. Turniej piłkarzyków i ping ponga rozegrany z gośćmi z San Francisco. Kilka zdjęć z imprezy firmowej Smartów. Zapraszam i życzę miłego oglądania."
                     }
                     entryContentP2={""}
-                    slug={"fotograf_na_event_firmowy_krakow"}
+                    slug={"firmowe-spotkanie-smartow"}
                     title={"FIRMOWE SPOTKANIE SMARTÓW - TURNIEJ PIŁKARZYKÓW"}
                     tags={"Fotograf na event firmowy Kraków, turniej piłkarzyków w firmie"}
                     date={"5 września 2019"}
-                    menuNames={"FIRMA SMARTRECRUITERS"}
+                    menuNames={"SMARTRECRUITERS"}
                     menuTitle={"FIRMOWE SPOTKANIE SMARTÓW - TURNIEJ PIŁKARZYKÓW"}
-                    leadNames={"FIRMA SMARTRECRUITERS"}
+                    leadNames={"SMARTRECRUITERS"}
                     leadTitle={"FOTOGRAF NA EVENT FIRMOWY KRAKÓW, IMPREZA PLENEROWA CHOCHOŁOWY DWÓR"}
                     leadUrl={"/fotograf-na-event-firmowy-krakow"}
                     leadImage={"url(/static/fotograf_na_event_firmowy_krakow.jpg)"}

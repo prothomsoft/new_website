@@ -13,10 +13,10 @@ export default class Index extends React.Component {
                 imageUrl: "/static/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"
             },
             {
-                imageUrl: "/static/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.jpg"
+                imageUrl: "/static/fotograf_slubny_rabka_zdroj.jpg"
             },
             {
-                imageUrl: "/static/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie-start.jpg"
+                imageUrl: "/static/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.jpg"
             },
             {
                 imageUrl: "/static/natalia_marcin_i_maja_reportaz_slubny_gosciniec_branicki_start.jpg"
