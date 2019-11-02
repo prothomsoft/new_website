@@ -4,17 +4,18 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "fotograf_slubny_mszana_dolna.jpg",
-                url1: "martaartur",
-                title1: "DOM WESELNY NEDAN PCIM<br/>MARTA i ARTUR",
+                image1: "dworek_fantazja_skomielna_biala_fotograf.jpg",
+                url1: "patrycjakrzysztof",
+                title1: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>PATRYCJA i KRZYSZTOF",
 
                 image2: "hotel_zameczek_ksiaz_wielki.jpg",
                 url2: "katarzynapawel",
                 title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
 
-                image3: "skalny_dwor_wola_kalinowska.jpg",
-                url3: "katarzynamateusz",
-                title3: "DOM WESELNY SKALNY DWÓR<br/>KATARZYNA i MATEUSZ"
+                image3: "kosciol_sw_jozefa_krakow_podgorze.jpg",
+                url3: "agnieszkamateusz",
+                title3: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ"
+
             },
 
             {
@@ -40,9 +41,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "ewelinajakub",
                 title2: "SESJA NARZECZEŃSKA ZAKRZÓWEK<br/>EWELINA i JAKUB",
 
-                image3: "kosciol_sw_jozefa_krakow_podgorze.jpg",
-                url3: "agnieszkamateusz",
-                title3: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ"
+                image3: "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg",
+                url3: "annapiotr",
+                title3: "SALA BANKIETOWA HOTEL JUNIOR<br/>ANNA i PIOTR"
             },
 
             {
@@ -54,9 +55,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "edytadawid",
                 title2: "SALA WESELNA GOŚCINIEC TENCZYN<br/>EDYTA i DAWID",
 
-                image3: "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg",
-                url3: "annapiotr",
-                title3: "SALA BANKIETOWA HOTEL JUNIOR<br/>ANNA i PIOTR"
+                image3: "fotograf_slubny_mszana_dolna.jpg",
+                url3: "martaartur",
+                title3: "DOM WESELNY NEDAN PCIM<br/>MARTA i ARTUR"
             },
 
             {
