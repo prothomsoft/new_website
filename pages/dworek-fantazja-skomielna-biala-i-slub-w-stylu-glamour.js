@@ -233,10 +233,10 @@ export default class BlogPageComponent extends React.Component {
                     title={"DWOREK FANTAZJA SKOMIELNA BIAŁA i ŚLUB W STYLU GLAMOUR - PATRYCJA i KRZYSZTOF"}
                     tags={"wesele glamour, ślub w stylu glamour, dworek fantazja skomielna biała"}
                     date={"2 listopada 2019"}
-                    menuNames={"PATRYCJA I KRZYSZTOF"}
+                    menuNames={"PATRYCJA i KRZYSZTOF"}
                     menuTitle={"DWOREK FANTAZJA SKOMIELNA BIAŁA i ŚLUB W STYLU GLAMOUR"}
                     leadNames={"KATARZYNA i PAWEŁ"}
-                    leadTitle={"HOTEL ZAMECZEK KSIĄŻ WIELKI, ŚLUBNE ISKIERKI MIŁOŚCI - "}
+                    leadTitle={"HOTEL ZAMECZEK KSIĄŻ WIELKI, ŚLUBNE ISKIERKI MIŁOŚCI"}
                     leadUrl={"/hotel-zameczek-ksiaz-wielki-i-slubne-iskierki-milosci"}
                     leadImage={"url(/static/hotel_zameczek_ksiaz_wielki.jpg)"}
                 />
