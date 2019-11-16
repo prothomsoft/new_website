@@ -4,17 +4,17 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "dworek_fantazja_skomielna_biala_fotograf.jpg",
-                url1: "patrycjakrzysztof",
-                title1: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>PATRYCJA i KRZYSZTOF",
+                image1: "przystan_kabanos_spytkowice.jpg",
+                url1: "amandajacek",
+                title1: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>AMANDA i JACEK",
 
                 image2: "hotel_zameczek_ksiaz_wielki.jpg",
                 url2: "katarzynapawel",
                 title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
 
-                image3: "kosciol_sw_jozefa_krakow_podgorze.jpg",
-                url3: "agnieszkamateusz",
-                title3: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ"
+                image3: "dworek_fantazja_skomielna_biala_fotograf.jpg",
+                url3: "patrycjakrzysztof",
+                title3: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>PATRYCJA i KRZYSZTOF"
 
             },
 
@@ -27,9 +27,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "edytarobert",
                 title2: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT",
 
-                image3: "sztuczne_ognie_na_weselu.jpg",
-                url3: "agnieszkarobert",
-                title3: "DOM WESELNY BABIE LATO GDÓW<br/>AGNIESZKA i ROBERT"
+                image3: "kosciol_sw_jozefa_krakow_podgorze.jpg",
+                url3: "agnieszkamateusz",
+                title3: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ"
             },
 
             {
@@ -41,9 +41,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "ewelinajakub",
                 title2: "SESJA NARZECZEŃSKA ZAKRZÓWEK<br/>EWELINA i JAKUB",
 
-                image3: "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg",
-                url3: "annapiotr",
-                title3: "SALA BANKIETOWA HOTEL JUNIOR<br/>ANNA i PIOTR"
+                image3: "sztuczne_ognie_na_weselu.jpg",
+                url3: "agnieszkarobert",
+                title3: "DOM WESELNY BABIE LATO GDÓW<br/>AGNIESZKA i ROBERT"
             },
 
             {
@@ -55,9 +55,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "edytadawid",
                 title2: "SALA WESELNA GOŚCINIEC TENCZYN<br/>EDYTA i DAWID",
 
-                image3: "fotograf_slubny_mszana_dolna.jpg",
-                url3: "martaartur",
-                title3: "DOM WESELNY NEDAN PCIM<br/>MARTA i ARTUR"
+                image3: "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg",
+                url3: "annapiotr",
+                title3: "SALA BANKIETOWA HOTEL JUNIOR<br/>ANNA i PIOTR"
             },
 
             {

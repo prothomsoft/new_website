@@ -4,7 +4,7 @@ export default class BlogPageComponent extends React.Component {
     render() {
         let slide = [
             {
-                imageUrl: "/static/dworek_fantazja_skomielna_biala1.jpg"
+                imageUrl: "/static/przystan_kabanos_spytkowice.jpg"
             }
         ];
 
@@ -112,14 +112,57 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0100.jpg", height: 383 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0102.jpg", height: 763 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0103.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0109.jpg", height: 763 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0104.jpg", height: 763 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0105.jpg", height: 763 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0106.jpg", height: 527 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0107.jpg", height: 763 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0108.jpg", height: 763 },
             { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0110.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0111.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0111.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0112.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0113.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0114.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0115.jpg", height: 382 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0116.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0117.jpg", height: 382 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0118.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0119.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0120.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0121.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0122.jpg", height: 382 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0123.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0124.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0125.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0127.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0126.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0128.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0129.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0130.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0131.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0133.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0134.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0135.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0136.jpg", height: 382 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0137.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0138.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0139.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0140.jpg", height: 382 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0141.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0142.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0143.jpg", height: 382 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0144.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0145.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0146.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0147.jpg", height: 382 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0148.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0149.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0151.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0152.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0153.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0154.jpg", height: 382 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0155.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0150.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/11/sala_weselna_kabanos_spytkowice_0132.jpg", height: 763 }
         ];
 
         return (
