@@ -69,6 +69,56 @@ export default class PortfolioDesktop extends Component {
                         <h2 className="quote-title">POLECANE REPORTAŻE I SESJE ŚLUBNE</h2>
                     </header>
                     <div style={{ display: "flex" }}>
+                        <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
+                            <div className="porfolioImage">
+                                <LazyLoad height={224} offsetVertical={300}>
+                                    <img alt="bazylika bożego ciała kraków fotoreportaż ślubny" src={"/static/portfolio_dtp/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg"} />
+                                </LazyLoad>
+                            </div>
+                        </Link>
+
+                        <Link href="/hotel-zameczek-ksiaz-wielki-i-slubne-iskierki-milosci">
+                            <div className="porfolioImage">
+                                <LazyLoad height={224} offsetVertical={300}>
+                                    <img alt="fotograf ślubny Kraków" src={"/static/portfolio_dtp/hotel_zameczek_ksiaz_wielki.jpg"} />
+                                </LazyLoad>
+                            </div>
+                        </Link>
+                        <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
+                            <div className="porfolioImage">
+                                <LazyLoad height={224} offsetVertical={300}>
+                                    <img alt="ślub w stylu glamour" src={"/static/portfolio_dtp/dworek_fantazja_skomielna_biala_fotograf.jpg"} />
+                                </LazyLoad>
+                            </div>
+                        </Link>
+                    </div>
+                    <div style={{ display: "flex" }}>
+                        <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
+                            <div className="porfolioCaption">
+                                <p style={{ textAlign: "center" }}>
+                                    REPORTAŻ ŚLUBNY KRAKÓW
+                                    <br /> ANNA i PIOTR
+                                </p>
+                            </div>
+                        </Link>
+                        <Link href="/hotel-zameczek-ksiaz-wielki-i-slubne-iskierki-milosci">
+                            <div className="porfolioCaption">
+                                <h3 style={{ textAlign: "center" }}>
+                                    FOTOGRAF ŚLUBNY KRAKÓW <br /> KATARZYNA i PAWEŁ
+                                </h3>
+                            </div>
+                        </Link>
+                        <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
+                            <div className="porfolioCaption">
+                                <p style={{ textAlign: "center" }}>
+                                    ŚLUB W STYLU GLAMOUR
+                                    <br />
+                                    PATRYCJA i KRZYSZTOF
+                                </p>
+                            </div>
+                        </Link>
+                    </div>
+                    <div style={{ display: "flex" }}>
                         <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
@@ -76,10 +126,10 @@ export default class PortfolioDesktop extends Component {
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
+                        <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="wesele międzynarodowe, polskie tradycje weselne" src={"/static/portfolio_dtp/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} />
+                                    <img alt="sesja zdjęciowa pałac goetzów brzesko" src={"/static/portfolio_dtp/plener_slubny_palac_goetzow_brzesko.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -100,11 +150,11 @@ export default class PortfolioDesktop extends Component {
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
+                        <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    WESELE MIĘDZYNARODOWE KRAKÓW
-                                    <br /> MONIKA i MARTIN
+                                    SESJA ŚLUBNA JESIENIĄ - PAŁAC GOETZÓW
+                                    <br /> IZABELA i ARKADIUSZ
                                 </p>
                             </div>
                         </Link>
@@ -118,20 +168,14 @@ export default class PortfolioDesktop extends Component {
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/sala-weselna-karolinka-bystra-podhalanska">
+                        <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf ślubny Kraków" src={"/static/portfolio_dtp/restauracja_karolinka_bystra_podhalanska.jpg"} />
+                                    <img alt="sesja ślubna kraków" src={"/static/portfolio_dtp/sesja_narzeczenska_klasztor_w_tyncu.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
-                            <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja zdjęciowa pałac goetzów brzesko" src={"/static/portfolio_dtp/plener_slubny_palac_goetzow_brzesko.jpg"} />
-                                </LazyLoad>
-                            </div>
-                        </Link>
+
                         <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
@@ -139,20 +183,20 @@ export default class PortfolioDesktop extends Component {
                                 </LazyLoad>
                             </div>
                         </Link>
-                    </div>
-                    <div style={{ display: "flex" }}>
-                        <Link href="/sala-weselna-karolinka-bystra-podhalanska">
-                            <div className="porfolioCaption">
-                                <h3 style={{ textAlign: "center" }}>
-                                    FOTOGRAF ŚLUBNY KRAKÓW <br /> MARLENA i MACIEJ
-                                </h3>
+                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
+                            <div className="porfolioImage">
+                                <LazyLoad height={224} offsetVertical={300}>
+                                    <img alt="wesele międzynarodowe, polskie tradycje weselne" src={"/static/portfolio_dtp/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} />
+                                </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
+                    </div>
+                    <div style={{ display: "flex" }}>
+                        <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    SESJA ŚLUBNA JESIENIĄ - PAŁAC GOETZÓW
-                                    <br /> IZABELA i ARKADIUSZ
+                                    SESJA ŚLUBNA KRAKÓW
+                                    <br /> TERESA i ANDRZEJ
                                 </p>
                             </div>
                         </Link>
@@ -164,54 +208,11 @@ export default class PortfolioDesktop extends Component {
                                 </h4>
                             </div>
                         </Link>
-                    </div>
-                    <div style={{ display: "flex" }}>
-                        <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">
-                            <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio_dtp/fotograf_slubny_krzeszowice_start.jpg"} />
-                                </LazyLoad>
-                            </div>
-                        </Link>
-                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
-                            <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio_dtp/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
-                                </LazyLoad>
-                            </div>
-                        </Link>
-
-                        <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
-                            <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja ślubna kraków" src={"/static/portfolio_dtp/chan_kristina_sesja_slubna_krakow.jpg"} />
-                                </LazyLoad>
-                            </div>
-                        </Link>
-                    </div>
-                    <div style={{ display: "flex" }}>
-                        <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">
+                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    CZTERY PORY ROKU ALWERNIA
-                                    <br /> OLA i GRZEGORZ
-                                </p>
-                            </div>
-                        </Link>
-                        <Link href="/hotel-margerita-magiczny-wystroj-sali-weselnej-w-krakowie">
-                            <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
-                                    MAGICZNY WYSTRÓJ SALI WESELNEJ
-                                    <br />
-                                    NATALIA i PIOTR
-                                </p>
-                            </div>
-                        </Link>
-                        <Link href="/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz">
-                            <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
-                                    SESJA ŚLUBNA KRAKÓW
-                                    <br /> CHAN i KATRINA
+                                    WESELE MIĘDZYNARODOWE KRAKÓW
+                                    <br /> MONIKA i MARTIN
                                 </p>
                             </div>
                         </Link>

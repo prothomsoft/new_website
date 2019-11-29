@@ -92,7 +92,7 @@ export default class OfferDesktop extends React.Component {
                         będziemy zawsze miło wspominać! <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">Anna i Krzysztof</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} />
+                        <img src={"/static/portfolio/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
                     </LazyLoad>
                     <p>
                         Tomek zajmuje się fotografią ślubną z pasją, robi świetne zdjęcia, a do tego zna sie na tej sztuce! Poza tym jest wspaniałym, uśmiechniętym człowiekiem i praca z nim to czysta
@@ -101,7 +101,7 @@ export default class OfferDesktop extends React.Component {
                         <Link href="/kasia-i-pawel-zimowa-sesja-slubna-w-gorach">Kasia i Paweł</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} />
+                        <img src={"/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
                         W każdym calu zajebisty fotograf, a przede wszystkim człowiek!!! Polecam z czystym sumieniem. Jeżeli ktoś oczekuje pełnego zaangażowania, precyzji, kompetencji, sprytnego oka
@@ -110,7 +110,7 @@ export default class OfferDesktop extends React.Component {
                         najpiękniejsze chwile w życiu! <Link href="/paulina-i-bartek-sesja-poslubna-kasprowy-wierch-i-nosal-zakopane">Paulina i Bartek</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/marta_piotr_kajasowka.jpg"} />
+                        <img src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} />
                     </LazyLoad>
                     <p>
                         Tak jak już wiele osób pisało – Tomek to profesjonalista w każdym calu! W niesamowity sposób uwiecznia na zdjęciach najważniejsze chwile – pełne wzruszeń, pozytywnych emocji i
@@ -119,7 +119,7 @@ export default class OfferDesktop extends React.Component {
                         <Link href="/sesja-zdjeciowa-kopiec-kraka-przegorzaly-kryspinow">Natalia i Tomasz</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} />
+                        <img src={"/static/portfolio/aleksandra_mszana_dolna.jpg"} />
                     </LazyLoad>
                     <p>
                         Jednym słowem - człowek zajmujący się fotogafią ślubną z pasją, co widać po efektach. Już nie możemy doczekać się zdjęć z sesji. W przyszłości jeśli będę miała szukać
@@ -127,7 +127,7 @@ export default class OfferDesktop extends React.Component {
                         <Link href="/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow">Aleksandra i Paweł</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/tiffany_wola_filipowska.jpg"} />
+                        <img src={"/static/portfolio/marta_piotr_kajasowka.jpg"} />
                     </LazyLoad>
                     <p>
                         Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego
@@ -140,7 +140,7 @@ export default class OfferDesktop extends React.Component {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        text-align: center;                        
+                        text-align: center;
                         font-family: 'Oswald';
                         width: 1140px;
                         color #BEBEBE;
@@ -156,20 +156,18 @@ export default class OfferDesktop extends React.Component {
                     .spacer {
                         height: 50px;
                     }
-                    
+
                     p {
                         font-size: 16px;
                         margin: 20px 0;
                         text-align: justify;
-                    }                
-                                    
+                    }
                     .quote-title::before,
                     .quote-title::after {
                         content: '';
                         display: block;
-                        border: 1px solid #33B59A;                    
+                        border: 1px solid #33B59A;
                     }
-                    
                     .quote-title {
                         margin: 10px 0 0px 0;
                         display: flex;
@@ -177,13 +175,11 @@ export default class OfferDesktop extends React.Component {
                         color: #FFFFFF;
                         padding: 0px 0 0px 0;
                     }
-                    
                     .quote-title::before,
                     .quote-title::after {
                         flex-grow: 1;
                         margin: 0 10px;
-                    }               
-                    
+                    }
                 `}</style>
             </div>
         );
