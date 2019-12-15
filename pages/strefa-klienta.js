@@ -4,38 +4,38 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
+                image1: "slub_zielone_wzgorze_koniusza.jpg",
+                url1: "martabartek",
+                title1: "SALA WESELNA ZIELONE WZGÓRZA KONIUSZA<br/>MARTA i BARTŁOMIEJ",
+
+                image2: "dworek_fantazja_skomielna_biala_fotograf.jpg",
+                url2: "patrycjakrzysztof",
+                title2: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>PATRYCJA i KRZYSZTOF",
+
+                image3: "hotel_zameczek_ksiaz_wielki.jpg",
+                url3: "katarzynapawel",
+                title3: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ"
+
+            },
+
+            {
                 image1: "przystan_kabanos_spytkowice.jpg",
                 url1: "amandajacek",
                 title1: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>AMANDA i JACEK",
 
-                image2: "hotel_zameczek_ksiaz_wielki.jpg",
-                url2: "katarzynapawel",
-                title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
+                image2: "kosciol_sw_jozefa_krakow_podgorze.jpg",
+                url2: "agnieszkamateusz",
+                title2: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ",
 
-                image3: "dworek_fantazja_skomielna_biala_fotograf.jpg",
-                url3: "patrycjakrzysztof",
-                title3: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>PATRYCJA i KRZYSZTOF"
-
+                image3: "karolinka_bystra_podhalanska.jpg",
+                url3: "edytarobert",
+                title3: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT"
             },
 
             {
                 image1: "hotel_junior_zawila.jpg",
                 url1: "nataliahubert",
                 title1: "DOM WESELNY HOTEL JUNIOR ZAWIŁA<br/>NATALIA i HUBERT",
-
-                image2: "karolinka_bystra_podhalanska.jpg",
-                url2: "edytarobert",
-                title2: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT",
-
-                image3: "kosciol_sw_jozefa_krakow_podgorze.jpg",
-                url3: "agnieszkamateusz",
-                title3: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ"
-            },
-
-            {
-                image1: "slub_cywilny_hotel_junior_skotnicka.jpg",
-                url1: "nataliakrzysztof",
-                title1: "SALA BANKIETOWA HOTEL JUNIOR<br/>NATALIA i KRZYSZTOF",
 
                 image2: "sesja_narzeczenska_zakrzowek.jpg",
                 url2: "ewelinajakub",
