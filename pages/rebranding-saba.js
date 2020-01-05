@@ -82,10 +82,10 @@ export default class BlogPageComponent extends React.Component {
                     date={"26 września 2019"}
                     menuNames={"FIRMA SABA SOFTWARE"}
                     menuTitle={"REBRANDING WORK LIKE YOU"}
-                    leadNames={"FIRMOWE SPOTKANIE SMARTÓW"}
-                    leadTitle={"TURNIEJ PIŁKARZYKÓW"}
-                    leadUrl={"/firmowe-spotkanie-smartow"}
-                    leadImage={"url(/static/impreza_smartow.jpg)"}
+                    leadNames={"FIRMA SMARTRECRUITERS"}
+                    leadTitle={"WIGILIA FIRMOWA"}
+                    leadUrl={"/wigilia-firmowa-smartrecruiters-2019"}
+                    leadImage={"url(/static/wigilia_smart_2019.jpg)"}
                 />
             </div>
         );

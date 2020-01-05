@@ -25,6 +25,7 @@ module.exports = {
             "/blog/page/13": { page: "/blog", query: { page: "13" } },
             "/blog/page/14": { page: "/blog", query: { page: "14" } },
             "/blog/page/15": { page: "/blog", query: { page: "15" } },
+            "/wigilia-firmowa-saba-2019": { page: "/wigilia-firmowa-saba-2019" },
             "/wigilia-firmowa-smartrecruiters-2019": { page: "/wigilia-firmowa-smartrecruiters-2019" },
             "/we-are-all-friends-here-letownia-krzczonow-spytkowice": { page: "/we-are-all-friends-here-letownia-krzczonow-spytkowice" },
             "/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour": { page: "/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour" },

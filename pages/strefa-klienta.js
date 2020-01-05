@@ -4,9 +4,9 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "slub_zielone_wzgorze_koniusza.jpg",
-                url1: "martabartek",
-                title1: "SALA WESELNA ZIELONE WZGÓRZA KONIUSZA<br/>MARTA i BARTŁOMIEJ",
+                image1: "karczma_u_lipy_jordanow.jpg",
+                url1: "dominikanorbert",
+                title1: "DOM WESELNY PRZYSTAŃ U LIPY JORDANÓW<br/>DOMINIKA i NORBERT",
 
                 image2: "dworek_fantazja_skomielna_biala_fotograf.jpg",
                 url2: "patrycjakrzysztof",
@@ -19,9 +19,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "przystan_kabanos_spytkowice.jpg",
-                url1: "amandajacek",
-                title1: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>AMANDA i JACEK",
+                image1: "slub_zielone_wzgorze_koniusza.jpg",
+                url1: "martabartek",
+                title1: "SALA WESELNA ZIELONE WZGÓRZA KONIUSZA<br/>MARTA i BARTŁOMIEJ",
 
                 image2: "kosciol_sw_jozefa_krakow_podgorze.jpg",
                 url2: "agnieszkamateusz",
@@ -33,9 +33,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "hotel_junior_zawila.jpg",
-                url1: "nataliahubert",
-                title1: "DOM WESELNY HOTEL JUNIOR ZAWIŁA<br/>NATALIA i HUBERT",
+                image1: "przystan_kabanos_spytkowice.jpg",
+                url1: "amandajacek",
+                title1: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>AMANDA i JACEK",
 
                 image2: "sesja_narzeczenska_zakrzowek.jpg",
                 url2: "ewelinajakub",
@@ -47,9 +47,10 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "akacjowy_dwor_krakow.jpg",
-                url1: "dominikaandrzej",
-                title1: "DOM WESELNY AKACJOWY DWÓR KRAKÓW<br/>DOMINIKA i ANDRZEJ",
+
+                image1: "hotel_junior_zawila.jpg",
+                url1: "nataliahubert",
+                title1: "DOM WESELNY HOTEL JUNIOR ZAWIŁA<br/>NATALIA i HUBERT",
 
                 image2: "ninja_style.jpg",
                 url2: "edytadawid",
@@ -61,9 +62,9 @@ export default class ClientPageComponent extends React.Component {
             },
 
             {
-                image1: "sesja_narzeczenska_klasztor_w_tyncu.jpg",
-                url1: "teresaandrzej",
-                title1: "SESJA NARZECZEŃSKA W TYŃCU<br/>TERESA i ANDRZEJ",
+                image1: "akacjowy_dwor_krakow.jpg",
+                url1: "dominikaandrzej",
+                title1: "DOM WESELNY AKACJOWY DWÓR KRAKÓW<br/>DOMINIKA i ANDRZEJ",
 
                 image2: "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
                 url2: "natalialukasz",
