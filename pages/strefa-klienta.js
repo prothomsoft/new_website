@@ -4,28 +4,29 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "karczma_u_lipy_jordanow.jpg",
-                url1: "dominikanorbert",
-                title1: "DOM WESELNY PRZYSTAŃ U LIPY JORDANÓW<br/>DOMINIKA i NORBERT",
+
+                image1: "fotograf_slubny_dobczyce.jpg",
+                url1: "ewelinajakub",
+                title1: "SALA WESELNA ALEXIA OCHOJNO<br/>EWELINA i JAKUB",
 
                 image2: "dworek_fantazja_skomielna_biala_fotograf.jpg",
                 url2: "patrycjakrzysztof",
                 title2: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>PATRYCJA i KRZYSZTOF",
 
-                image3: "hotel_zameczek_ksiaz_wielki.jpg",
-                url3: "katarzynapawel",
-                title3: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ"
+                image3: "karczma_u_lipy_jordanow.jpg",
+                url3: "dominikanorbert",
+                title3: "DOM WESELNY PRZYSTAŃ U LIPY JORDANÓW<br/>DOMINIKA i NORBERT"
 
             },
 
             {
-                image1: "slub_zielone_wzgorze_koniusza.jpg",
-                url1: "martabartek",
-                title1: "SALA WESELNA ZIELONE WZGÓRZA KONIUSZA<br/>MARTA i BARTŁOMIEJ",
+                image1: "kosciol_sw_jozefa_krakow_podgorze.jpg",
+                url1: "agnieszkamateusz",
+                title1: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ",
 
-                image2: "kosciol_sw_jozefa_krakow_podgorze.jpg",
-                url2: "agnieszkamateusz",
-                title2: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ",
+                image2: "slub_zielone_wzgorze_koniusza.jpg",
+                url2: "martabartek",
+                title2: "SALA WESELNA ZIELONE WZGÓRZA KONIUSZA<br/>MARTA i BARTŁOMIEJ",
 
                 image3: "karolinka_bystra_podhalanska.jpg",
                 url3: "edytarobert",
@@ -37,9 +38,9 @@ export default class ClientPageComponent extends React.Component {
                 url1: "amandajacek",
                 title1: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>AMANDA i JACEK",
 
-                image2: "sesja_narzeczenska_zakrzowek.jpg",
-                url2: "ewelinajakub",
-                title2: "SESJA NARZECZEŃSKA ZAKRZÓWEK<br/>EWELINA i JAKUB",
+                image2: "hotel_zameczek_ksiaz_wielki.jpg",
+                url2: "katarzynapawel",
+                title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
 
                 image3: "sztuczne_ognie_na_weselu.jpg",
                 url3: "agnieszkarobert",
