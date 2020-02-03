@@ -25,6 +25,7 @@ module.exports = {
             "/blog/page/13": { page: "/blog", query: { page: "13" } },
             "/blog/page/14": { page: "/blog", query: { page: "14" } },
             "/blog/page/15": { page: "/blog", query: { page: "15" } },
+            "/wieczor_panienski_bubble_toast_krakow": { page: "/wieczor_panienski_bubble_toast_krakow" },
             "/sala-weselna-alexia-ochojno-emocje-i-swietna-zabawa": { page: "/sala-weselna-alexia-ochojno-emocje-i-swietna-zabawa" },
             "/wigilia-firmowa-saba-2019": { page: "/wigilia-firmowa-saba-2019" },
             "/wigilia-firmowa-smartrecruiters-2019": { page: "/wigilia-firmowa-smartrecruiters-2019" },
