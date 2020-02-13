@@ -189,7 +189,7 @@ export default class BlogPageComponent extends React.Component {
                     leadNames={"PATRYCJA i KRZYSZTOF"}
                     leadTitle={"DWOREK FANTAZJA SKOMIELNA BIAŁA i ŚLUB W STYLU GLAMOUR"}
                     leadUrl={"/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour"}
-                    leadImage={"url(/static/dworek_fantazja_skomielna_biala.jpg)"}
+                    leadImage={"url(/static/dworek_fantazja_skomielna_biala_fotograf.jpg)"}
                 />
             </div>
         );

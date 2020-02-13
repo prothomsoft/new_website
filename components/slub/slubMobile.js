@@ -127,11 +127,18 @@ export default class SlubMobile extends React.Component {
                         <Link href="/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow">Aleksandra i Paweł</Link>.
                     </p>
                     <LazyLoad offsetVertical={300}>
+                        <img src={"/static/portfolio/portret_panny_mlodej.jpg"} />
+                    </LazyLoad>
+                    <p>
+                        Serdecznie polecamy Tomka! To świetny, niezwykle profesjonalny fotograf, który jest zaangażowany w swoją pracę, a przy tym jest przesympatyczny i zawsze uśmiechnięty. Zdjęcia otrzymaliśmy w ekspresowym tempie, na każdym z nich Tomek uchwycił piękne chwile z naszego dnia. Zdjęcia są przepiękną pamiątką! Tomku, to była przyjemność z Tobą współpracować! Jeszcze raz dziękujemy za przepiękne zdjęcia!{" "}
+                        <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">Anna i Piotr</Link>.
+                    </p>
+                    <LazyLoad offsetVertical={300}>
                         <img src={"/static/portfolio/marta_piotr_kajasowka.jpg"} />
                     </LazyLoad>
                     <p>
                         Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego
-                        fotografa. Polecamy wszystkim ! <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">Aleksandra i Grzegorz</Link>.
+                        fotografa. Polecamy wszystkim!{" "} <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">Aleksandra i Grzegorz</Link>.
                     </p>
                     <div className="spacer">&nbsp;</div>
                 </article>
@@ -154,20 +161,17 @@ export default class SlubMobile extends React.Component {
                     .spacer {
                         height: 50px;
                     }
-                    
                     p {
                         font-size: 16px;
                         margin: 20px 0;
                         text-align: justify;
-                    }                
-                                    
+                    }
                     .quote-title::before,
                     .quote-title::after {
                         content: '';
                         display: block;
-                        border: 1px solid #33B59A;                    
+                        border: 1px solid #33B59A;
                     }
-                    
                     .quote-title {
                         margin: 10px 0 0px 0;
                         display: flex;
@@ -175,12 +179,11 @@ export default class SlubMobile extends React.Component {
                         color: #FFFFFF;
                         padding: 0px 0 0px 0;
                     }
-                    
                     .quote-title::before,
                     .quote-title::after {
                         flex-grow: 1;
                         margin: 0 10px;
-                    }  
+                    }
                 `}</style>
             </div>
         );

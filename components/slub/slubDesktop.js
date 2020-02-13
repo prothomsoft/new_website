@@ -127,6 +127,13 @@ export default class OfferDesktop extends React.Component {
                         <Link href="/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow">Aleksandra i Paweł</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
+                        <img src={"/static/portfolio/portret_panny_mlodej.jpg"} />
+                    </LazyLoad>
+                    <p>
+                        Serdecznie polecamy Tomka! To świetny, niezwykle profesjonalny fotograf, który jest zaangażowany w swoją pracę, a przy tym jest przesympatyczny i zawsze uśmiechnięty. Zdjęcia otrzymaliśmy w ekspresowym tempie, na każdym z nich Tomek uchwycił piękne chwile z naszego dnia. Zdjęcia są przepiękną pamiątką! Tomku, to była przyjemność z Tobą współpracować! Jeszcze raz dziękujemy za przepiękne zdjęcia!{" "}
+                        <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">Anna i Piotr</Link>.
+                    </p>
+                    <LazyLoad height={760} offsetVertical={300}>
                         <img src={"/static/portfolio/marta_piotr_kajasowka.jpg"} />
                     </LazyLoad>
                     <p>
