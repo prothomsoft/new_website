@@ -4,54 +4,48 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
+                image1: "fotograf_slubny_krzczonow.jpg",
+                url1: "anetajacek",
+                title1: "DOM WESELNY KAROLINKA BYSTRA PODHALAŃSKA<br/>ANETA i JACEK",
 
+                image2: "portret_panny_mlodej.jpg",
+                url2: "monikakarol",
+                title2: "KARCZMA SKANSEN SMAKÓW KRYSPINÓW<br/>MONIKA i KAROL",
+
+                image3: "karczma_u_lipy_jordanow.jpg",
+                url3: "dominikanorbert",
+                title3: "SALA WESELNA PRZYSTAŃ U LIPY JORDANÓW<br/>DOMINIKA i NORBERT"
+            },
+            {
                 image1: "fotograf_slubny_dobczyce.jpg",
                 url1: "ewelinajakub",
                 title1: "SALA WESELNA ALEXIA OCHOJNO<br/>EWELINA i JAKUB",
 
-                image2: "dworek_fantazja_skomielna_biala_fotograf.jpg",
-                url2: "patrycjakrzysztof",
-                title2: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>PATRYCJA i KRZYSZTOF",
+                image2: "sztuczne_ognie_na_weselu.jpg",
+                url2: "agnieszkarobert",
+                title2: "DOM WESELNY BABIE LATO GDÓW<br/>AGNIESZKA i ROBERT",
 
-                image3: "karczma_u_lipy_jordanow.jpg",
-                url3: "dominikanorbert",
-                title3: "DOM WESELNY PRZYSTAŃ U LIPY JORDANÓW<br/>DOMINIKA i NORBERT"
-
+                image3: "dworek_fantazja_skomielna_biala_fotograf.jpg",
+                url3: "patrycjakrzysztof",
+                title3: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>PATRYCJA i KRZYSZTOF"
             },
-
             {
-                image1: "kosciol_sw_jozefa_krakow_podgorze.jpg",
-                url1: "agnieszkamateusz",
-                title1: "KOŚCIÓŁ ŚWIĘTEGO JÓZEFA W KRAKOWIE<br/>AGNIESZKA i MATEUSZ",
-
-                image2: "slub_zielone_wzgorze_koniusza.jpg",
-                url2: "martabartek",
-                title2: "SALA WESELNA ZIELONE WZGÓRZA KONIUSZA<br/>MARTA i BARTŁOMIEJ",
-
-                image3: "karolinka_bystra_podhalanska.jpg",
-                url3: "edytarobert",
-                title3: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT"
-            },
-
-            {
-                image1: "przystan_kabanos_spytkowice.jpg",
-                url1: "amandajacek",
-                title1: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>AMANDA i JACEK",
+                image1: "slub_zielone_wzgorze_koniusza.jpg",
+                url1: "martabartek",
+                title1: "SALA WESELNA ZIELONE WZGÓRZA KONIUSZA<br/>MARTA i BARTŁOMIEJ",
 
                 image2: "hotel_zameczek_ksiaz_wielki.jpg",
                 url2: "katarzynapawel",
                 title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
 
-                image3: "sztuczne_ognie_na_weselu.jpg",
-                url3: "agnieszkarobert",
-                title3: "DOM WESELNY BABIE LATO GDÓW<br/>AGNIESZKA i ROBERT"
+                image3: "karolinka_bystra_podhalanska.jpg",
+                url3: "edytarobert",
+                title3: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT"
             },
-
             {
-
-                image1: "hotel_junior_zawila.jpg",
-                url1: "nataliahubert",
-                title1: "DOM WESELNY HOTEL JUNIOR ZAWIŁA<br/>NATALIA i HUBERT",
+                image1: "przystan_kabanos_spytkowice.jpg",
+                url1: "amandajacek",
+                title1: "PRZYSTAŃ W KABANOSIE SPYTKOWICE<br/>AMANDA i JACEK",
 
                 image2: "ninja_style.jpg",
                 url2: "edytadawid",
@@ -61,7 +55,6 @@ export default class ClientPageComponent extends React.Component {
                 url3: "annapiotr",
                 title3: "SALA BANKIETOWA HOTEL JUNIOR<br/>ANNA i PIOTR"
             },
-
             {
                 image1: "akacjowy_dwor_krakow.jpg",
                 url1: "dominikaandrzej",
@@ -75,11 +68,10 @@ export default class ClientPageComponent extends React.Component {
                 url3: "magdalenagrzegorz",
                 title3: "REPORTAŻ ŚLUBNY ZŁOTNIKI<br/>MAGDALENA i GRZEGORZ"
             },
-
             {
-                image1: "fotograf_slubny_kielce.jpg",
-                url1: "annamarcin",
-                title1: "SALA BALOWA SZAFRANOWY DWÓR STRAWCZYNEK<br/>ANNA i MARCIN",
+                image1: "hotel_junior_zawila.jpg",
+                url1: "nataliahubert",
+                title1: "DOM WESELNY HOTEL JUNIOR ZAWIŁA<br/>NATALIA i HUBERT",
 
                 image2: "magdalena_lukasz_myslenice.jpg",
                 url2: "magdalukasz",
