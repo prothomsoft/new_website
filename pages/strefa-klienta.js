@@ -4,30 +4,30 @@ export default class ClientPageComponent extends React.Component {
     render() {
         let clients = [
             {
-                image1: "fotograf_slubny_krzczonow.jpg",
-                url1: "anetajacek",
-                title1: "DOM WESELNY KAROLINKA BYSTRA PODHALAŃSKA<br/>ANETA i JACEK",
+                image1: "fotograf_slubny_targanice.jpg",
+                url1: "marzenamateusz",
+                title1: "DOM WESELNY POLONEZ WIEPRZ<br/>MARZENA i MATEUSZ",
 
                 image2: "portret_panny_mlodej.jpg",
                 url2: "monikakarol",
                 title2: "KARCZMA SKANSEN SMAKÓW KRYSPINÓW<br/>MONIKA i KAROL",
 
+                image3: "fotograf_slubny_krzczonow.jpg",
+                url3: "anetajacek",
+                title3: "DOM WESELNY KAROLINKA BYSTRA PODHALAŃSKA<br/>ANETA i JACEK"
+            },
+            {
+                image1: "sztuczne_ognie_na_weselu.jpg",
+                url1: "agnieszkarobert",
+                title1: "DOM WESELNY BABIE LATO GDÓW<br/>AGNIESZKA i ROBERT",
+
+                image2: "fotograf_slubny_dobczyce.jpg",
+                url2: "ewelinajakub",
+                title2: "SALA WESELNA ALEXIA OCHOJNO<br/>EWELINA i JAKUB",
+
                 image3: "karczma_u_lipy_jordanow.jpg",
                 url3: "dominikanorbert",
                 title3: "SALA WESELNA PRZYSTAŃ U LIPY JORDANÓW<br/>DOMINIKA i NORBERT"
-            },
-            {
-                image1: "fotograf_slubny_dobczyce.jpg",
-                url1: "ewelinajakub",
-                title1: "SALA WESELNA ALEXIA OCHOJNO<br/>EWELINA i JAKUB",
-
-                image2: "sztuczne_ognie_na_weselu.jpg",
-                url2: "agnieszkarobert",
-                title2: "DOM WESELNY BABIE LATO GDÓW<br/>AGNIESZKA i ROBERT",
-
-                image3: "dworek_fantazja_skomielna_biala_fotograf.jpg",
-                url3: "patrycjakrzysztof",
-                title3: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>PATRYCJA i KRZYSZTOF"
             },
             {
                 image1: "slub_zielone_wzgorze_koniusza.jpg",
@@ -38,9 +38,9 @@ export default class ClientPageComponent extends React.Component {
                 url2: "katarzynapawel",
                 title2: "HOTEL ZAMECZEK KSIĄŻ WIELKI<br/>KATARZYNA i PAWEŁ",
 
-                image3: "karolinka_bystra_podhalanska.jpg",
-                url3: "edytarobert",
-                title3: "KAROLINKA BYSTRA PODHALAŃSKA<br/>EDYTA i ROBERT"
+                image3: "dworek_fantazja_skomielna_biala_fotograf.jpg",
+                url3: "patrycjakrzysztof",
+                title3: "DWOREK FANTAZJA SKOMIELNA BIAŁA<br/>PATRYCJA i KRZYSZTOF"
             },
             {
                 image1: "przystan_kabanos_spytkowice.jpg",
