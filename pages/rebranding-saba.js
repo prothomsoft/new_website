@@ -66,7 +66,7 @@ export default class BlogPageComponent extends React.Component {
                 <Blogpage
                     slide={slide}
                     images={images}
-                    headTitle={"Fotograf impreza firmowa Kraków, rebranding SABA SOFTWARE WORK LIKE YOU"}
+                    headTitle={"Fotograf impreza firmowa Kraków, rebranding Saba Software WORK LIKE YOU"}
                     headDescription={
                         "Event firmowy w Krakowie. Rebranding firmy Saba. Świetnie przygotowana impreza firmowa i wiele wspaniałych atrakcji przygotowanych dla pracowników. Serdecznie zapraszam na zdjęcia."
                     }
