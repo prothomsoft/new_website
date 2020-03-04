@@ -29,5 +29,3 @@ Code formatting settings:
 },
 "prettier.printWidth": 200,
 "prettier.tabWidth": 4
-
-123
