@@ -9,30 +9,30 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0001.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0011.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0008.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0002.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0004.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0024.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0005.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0006.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0013.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0007.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0009.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0010.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0012.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0014.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0025.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0015.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0016.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0017.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0018.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0019.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0026.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0020.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0023.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0021.jpg", height: 763 }
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0001.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0011.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0008.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0002.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0004.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0024.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0005.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0006.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0013.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0007.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0009.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0010.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0012.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0014.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0025.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0015.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0016.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0017.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0018.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0019.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0026.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0020.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0023.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/sesja_zdjeciowa_park_w_mogilanach_0021.jpg", height: 763 }
         ];
 
         return (
@@ -43,7 +43,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesja zdjęciowa Park w Mogilanach"}
                     headDescription={"Park w Mogilanach, Zakrzówek i Kazimierz to jedna z tras plenerowych, które polecam na sesje zdjęciowe w Krakowie. Sprawdźcie na moim blogu."}
                     headKeywords={"park w mogilanach,plener ślubny zakrzówek,sesja ślubna kazimierz"}
-                    headUrl={"https://99foto.pl/sesja-zdjeciowa-park-w-mogilanach-zakrzowek-i-kazimierz/"}
+                    headUrl={"http://wp.99foto.pl/sesja-zdjeciowa-park-w-mogilanach-zakrzowek-i-kazimierz/"}
                     entryContentP1={
                         "Kraków to piękne miejsce, pełne niezwykłych miejsc i świetnie utrzymanej zieleni, a w połączeniu z dobrym popołudniowym światłem i w miłym towarzystwem Pary Młodej świetny sposób na spędzanie wolnego czasu. Sesja plenerowa w Krakowie to relaks po ślubie i okazja do zrobienia kilku zdjęć na zupełnym luzie. Julia i Piotrek to moi sąsiedzi i pomimo, że nie fotografowałem ich ślubu chętnie zgodziłem się na zdjęciową sesję ślubną. Starannie wybraliśmy miejsca tak i ułożyliśmy plan."
                     }

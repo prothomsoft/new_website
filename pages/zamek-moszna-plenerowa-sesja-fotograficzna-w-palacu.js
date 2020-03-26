@@ -9,26 +9,26 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0021.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0002.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0001.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0005.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0006.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0020.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0016.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0010.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0011.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0012.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0013.jpg", height: 852 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0007.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0014.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0008.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0017.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0004.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0009.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0003.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0019.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0015.jpg", height: 763 }
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0021.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0002.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0001.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0005.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0006.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0020.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0016.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0010.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0011.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0012.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0013.jpg", height: 852 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0007.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0014.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0008.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0017.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0004.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0009.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0003.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0019.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/08/zamek_moszna_sesja_fotograficzna_zdjecia_slubne_0015.jpg", height: 763 }
         ];
 
         return (
@@ -39,7 +39,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Zamek Moszna, plenerowa sesja fotograficzna, zdjęcia ślubne w pałacu"}
                     headDescription={"Zamek Moszna, plenerowa ślubna sesja zdjęciowa Aleksandry i Grzegorza. Pałac z przepięknym ogrodem często wybierany na sesje ślubne. Zapraszam do oglądania."}
                     headKeywords={"zamek moszna, plenerowa sesja fotograficzna, zdjęcia ślubne w pałacu"}
-                    headUrl={"https://99foto.pl/zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu/"}
+                    headUrl={"http://wp.99foto.pl/zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu/"}
                     entryContentP1={
                         'Wiedziałem, że to kwestia czasu... i pewnego dnia, <a href="https://www.moszna-zamek.pl/" target="_blank" rel="nofollow">Zamek Moszna</a> mocno znany z nazwy miejscowości w której powstał trafi do mojego portfolio. Nie było to do końca oczywiste tylko i wyłącznie ze względu na odległość do pokonania pomiędzy Krakowem, a bardzo popularną pałacową miejscówką na sesję ślubną. Dwa lata temu wracając z rodzinnych wakacji w Górach Stołowych, było nam bardzo blisko i po drodze by odwiedzić ten zamek, ale niestety deszcz zmienił nasze plany. Pamiętacie? Sesje plenerowe są raz w życiu i są między innymi po to, by z ich pomocą spełniać marzenia.'
                     }

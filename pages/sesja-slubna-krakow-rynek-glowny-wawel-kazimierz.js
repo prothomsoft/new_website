@@ -9,30 +9,30 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0014.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0002.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0020.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0003.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0004.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0005.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0006.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0023.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0007.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0024.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0008.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0016.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0013.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0009.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0010.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0011.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0012.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0015.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0017.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0018.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0019.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0022.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0025.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0021.jpg", height: 763 }
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0014.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0002.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0020.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0003.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0004.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0005.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0006.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0023.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0007.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0024.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0008.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0016.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0013.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0009.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0010.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0011.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0012.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0015.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0017.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0018.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0019.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0022.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0025.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/04/sesja_slubna_krakow_0021.jpg", height: 763 }
         ];
 
         return (
@@ -45,7 +45,7 @@ export default class BlogPageComponent extends React.Component {
                         "Piękny Kraków, piękna Katrina i dla równowagi Chan i ja. Taką kompozycje fifty/fifty możecie zobaczyć dzisiaj na moim blogu. Serdecznie zapraszam na sesje plenerowe i sesje ślubne w Krakowie. Kazimierz i Rynek Główny sprawdzają się świetnie."
                     }
                     headKeywords={"Sesja ślubna Kraków, zdjęcia ślubne na Kazimierzu, plener na Rynku w Krakowie"}
-                    headUrl={"https://99foto.pl/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz/"}
+                    headUrl={"http://wp.99foto.pl/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz/"}
                     entryContentP1={
                         "Chan i Katrina postanowili przebyć szmat drogi by zrealizować swoje marzenie, sesję zdjęciową w jednym z najpiękniejszych miast europejskich jakim jest Kraków. Wcześniej odwiedzili Austrię, a w Krakowie podczas czterodniowego pobytu mieli okazję zwiedzić Kopalnie Soli w Wieliczce i Obóz Koncentracyjny Auschwitz-Birkenau w Oświęcimiu. Krakowski Rynek, Zamek Królewski na Wawelu i zakamarki Kazimierza mieli okazję odkrywać ze mną na zaplanowanej już rok wcześniej sesji ślubnej w Krakowie."
                     }

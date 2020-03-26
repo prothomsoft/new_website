@@ -9,34 +9,34 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let imagesParagraph1 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0001.jpg", height: 763 }
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0001.jpg", height: 763 }
         ];
 
         let imagesParagraph2 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0002.jpg", height: 851 }
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0002.jpg", height: 851 }
         ];
 
         let imagesParagraph3 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0003.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0009.jpg", height: 762 }
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0003.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0009.jpg", height: 762 }
         ];
 
         let imagesParagraph4 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0004.jpg", height: 762 }
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0004.jpg", height: 762 }
         ];
 
         let imagesParagraph5 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0005.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0008.jpg", height: 762 }
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0005.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0008.jpg", height: 762 }
         ];
 
         let imagesParagraph6 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0007.jpg", height: 763 }
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0007.jpg", height: 763 }
         ];
 
         let imagesParagraph7 = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0006.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0010.jpg", height: 762 }
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0006.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_zdjeciowa_w_krakowie_0010.jpg", height: 762 }
         ];
 
         return (
@@ -46,7 +46,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesja ślubna w Krakowie. Miejsca idealne na romantyczne kadry"}
                     headDescription={"Sesja ślubna piękna, romantyczna z niesamowitymi i mającymi to coś w sobie kadrami. Wybierzcie magiczny Kraków. Zapraszam."}
                     headKeywords={"sesja ślubna w Krakowie, miejsca plenerowe Kraków, pomysły na sesje ślubną"}
-                    headUrl={"https://99foto.pl/sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry/"}
+                    headUrl={"http://wp.99foto.pl/sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry/"}
                     entryContentP1={'Sesja ślubna to prawdziwy must have każdej pary młodej. Godziny przed lustrem, idealna suknia ślubna i garnitur skrojony na miarę po prostu muszą zostać uwiecznione w obiektywie fotografa! Oczywiście zdjęcia ze ślubu i wesela są standardem, ale wtedy nie jesteście sami. Wokół was jest mnóstwo osób, wiele się dzieje. Trudno o chwilę skupienia i uwagi tylko dla siebie nawzajem. Taką szansę stwarza specjalna sesja ślubna, na którą warto się zdecydować.'}
                     imagesParagraph1={imagesParagraph1}
                     entryContentP2={'Jest wiele pięknych scenerii na wykonanie sesji. Zdjęcia pary młodej wspaniale prezentują się zarówno na łonie natury, jak i w oryginalnych przestrzeniach z wykorzystaniem architektury. Nie da się ukryć, że starsze polskie miasta mają w sobie to coś. Klimat zabytków połączony z piękną przyrodą to doskonałe tło dla zaprezentowania waszych uczuć w obiektywie fotografa. Jeśli zastanawiacie się nad pięknym miejscem, które jest jednocześnie romantyczne i daje wiele możliwości na ciekawe kadry, Kraków z pewnością spełni wasze oczekiwania!'}

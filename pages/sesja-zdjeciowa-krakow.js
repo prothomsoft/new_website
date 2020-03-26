@@ -8,7 +8,7 @@ export default class SesjaPageComponent extends React.Component {
                     headTitle={"Sesja zdjęciowa Kraków"}
                     headDescription={"Sesja zdjęciowa w Krakowie to atrakcje turystyczne w pięknym miejscu. Spotkajmy się, wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze."}
                     headKeywords={"sesja zdjęciowa kraków, plener ślubny w krakowie"}
-                    headUrl={"https://99foto.pl/sesja-zdjeciowa-krakow/"}
+                    headUrl={"http://wp.99foto.pl/sesja-zdjeciowa-krakow/"}
                     componentContentName={"sesja"}
                     slug={"sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew"}
                     title={"ŚLUBNA SESJA ZDJĘCIOWA W KRAKOWIE - KRISTINA i ALEKSANDR"}
