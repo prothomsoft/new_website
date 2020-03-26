@@ -191,7 +191,7 @@ export default class HistoriaDesktop extends React.Component {
                                 Pozdrawiam i zapraszam serdecznie do skorzystania z moich usług.
                                 <br />
                                 Tomasz Prokop -{" "}
-                                <Link href="https://99foto.pl">
+                                <Link href="http://wp.99foto.pl">
                                     <a>Fotograf Ślubny Kraków</a>
                                 </Link>
                                 .

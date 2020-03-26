@@ -9,39 +9,39 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_001.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_002.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_004.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_003.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_013.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_005.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_032.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_007.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_009.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_008.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_014.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_010.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_012.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_006.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_031.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_015.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_011.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_017.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_018.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_019.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_020.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_021.jpg", height: 852 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_022.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_023.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_024.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_025.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_027.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_028.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_029.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_026.jpg", height: 852 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_030.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_033.jpg", height: 526 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_016.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_001.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_002.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_004.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_003.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_013.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_005.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_032.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_007.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_009.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_008.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_014.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_010.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_012.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_006.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_031.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_015.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_011.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_017.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_018.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_019.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_020.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_021.jpg", height: 852 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_022.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_023.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_024.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_025.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_027.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_028.jpg", height: 850 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_029.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_026.jpg", height: 852 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_030.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_033.jpg", height: 526 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/08/sesja_narzeczenska_w_krakowie_016.jpg", height: 763 },
         ];
 
         return (
@@ -52,7 +52,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Park Mogilany, buziaki skąpane w promieniach słońca"}
                     headDescription={"Mury Opactwa Tynieckiego, zieleń Parku w Mogilanach i moc buziaków skąpanych w promieniach zachodzącego słońca. Sesja narzeczeńska Teresy i Andrzeja w Krakowie. Zapraszam na bloga."}
                     headKeywords={"sesja narzeczeńska Kraków, Park Mogilany, Opactwo Benedyktynów Tyniec, Opactwo Tynieckie"}
-                    headUrl={"https://99foto.pl/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca/"}
+                    headUrl={"http://wp.99foto.pl/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca/"}
                     entryContentP1={
                         'Długa historia moi drodzy. Rozpoczyna się ona trzy lata temu na ślubie Pauliny i Darka w <a href="https://www.skansensmakow.pl/wesela/" target="_blank" rel="nofollow">Skansenie Smaków w Kryspinowie</a>. Podczas przygotowań Pauliny poznałem siostrę Teresy Anię. W tak zwanym międzyczasie Piotr kupił pierścionek, zaplanował oświadczyny, a gdy Ania powiedziała TAK wspólnie wybrali sale weselną, ustalili datę ślubu i wybrali fotografa. Miałem szczęscie bo wypadło na mnie. Ekipa na ślubie Ani i Piotra w <a href="http://kajasowka.com.pl/oferta-imprez/" target="_blank" rel="nofollow">Kasztelu Kajasówka</a> była mocno zaprzyjaźniona, a gdy do tego dodamy, że imprezę prowadził DJ Dawid, legenda krakowskich dance florów, którego miałem okazję poznać już chwilę temu, poczułem się dosłownie jak domu. Wiemy, czas płynie szybko i już za rok na Orawie spotkamy się na ślubie Teresy i Andrzeja. Będzie to w perspektywie czterech lat trzeci ślub, na którym po raz kolejny spotka się ta sama doskonale zaprzyjaźniona grupa przyjaciół - może nie ze sobą, ale ze swoim ulubionym fotografem na pewno. Ale tym czasem postanowiliśmy dobrze wykorzystać czas przedślubny i umówić się na kilka zdjęć podczas sesji narzeczeńskiej oczywiście w Krakowie.'
                     }

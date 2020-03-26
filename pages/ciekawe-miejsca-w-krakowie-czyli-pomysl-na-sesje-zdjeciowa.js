@@ -9,30 +9,30 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0003.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0002.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0015.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0019.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0004.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0007.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0005.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0006.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0009.jpg", height: 852 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0008.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0010.jpg", height: 852 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0011.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0012.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0014.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0023.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0013.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0021.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0016.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0017.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0018.jpg", height: 806 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0001.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0020.jpg", height: 526 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0022.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0024.jpg", height: 762 }
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0003.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0002.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0015.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0019.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0004.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0007.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0005.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0006.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0009.jpg", height: 852 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0008.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0010.jpg", height: 852 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0011.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0012.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0014.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0023.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0013.jpg", height: 851 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0021.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0016.jpg", height: 527 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0017.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0018.jpg", height: 806 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0001.jpg", height: 762 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0020.jpg", height: 526 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0022.jpg", height: 763 },
+            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2019/06/miejsce_na_sesje_zdjeciowa_krakow_park_w_mogilanach_0024.jpg", height: 762 }
 
         ];
 
@@ -44,7 +44,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Ciekawe miejsca w Krakowie, pomysł na sesję zdjęciową"}
                     headDescription={"Ciekawe miejsca w Krakowie, pomysł na sesję zdjęciową, sesja ślubna plenerowa gdzie zrobić. Odpowiedzi na te pytania znajdziecie zaglądając na bloga. Zapraszam."}
                     headKeywords={"pomysł na sesję zdjęciową, ciekawe miejsca w krakowie, zdjęcia pary młodej w plenerze"}
-                    headUrl={"https://99foto.pl/ciekawe-miejsca-w-krakowie-czyli-pomysl-na-sesje-zdjeciowa/"}
+                    headUrl={"http://wp.99foto.pl/ciekawe-miejsca-w-krakowie-czyli-pomysl-na-sesje-zdjeciowa/"}
                     entryContentP1={
                         'Dzień ślubu jest dla wszystkich nowożeńców najważniejszy, a zdjęcia reportażowe przedstawiające emocje, których tego dnia przecież nie brakuje, bardzo często wywołują łzy wzruszenia lub uśmiechy na twarzach oglądających. Gdy obrazki z dnia ślubu na dobre zadomowią się w Waszej pamięci wtedy nadchodzi czas na kolejny etap fotograficznej przygody. Etap równie przyjemny, a na pewno mniej wymagający niż organizacja imprezy w dniu ślubu - sesja plenerowa. Ponieważ sesji zdjęciowych poślubnych nie robi się codziennie, suknie ślubne często trafiają na allegro, a garniaków nie można poszerzać w nieskończoność to warto na przygotowanie się do takiej sesji poświęcić kilkanaście minut i dobrze wybrać ciekawe miejsca na plener ślubny w Krakowie.'
                     }

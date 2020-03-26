@@ -1,6 +1,6 @@
 import NProgress from "nprogress";
 import styled from "styled-components";
-import Waypoint from "react-waypoint";
+import { Waypoint } from 'react-waypoint';
 import Loader from "../components/loader";
 import FontLoader from "../components/fontLoader";
 import { isIOS } from "react-device-detect";

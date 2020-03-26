@@ -111,19 +111,6 @@ export default class BlogList extends React.Component {
                     {this.props.posts.map((post, key) => (
                         <PostLink key={key} post={post} height={height} />
                     ))}
-                    <div style={{ textAlign: "right" }}>
-                        {this.props.previous_page && (
-                            <Link as={`/blog/page/${this.props.previous_page}`} href={`/blog?page=${this.props.previous_page}`}>
-                                <a className="btn">POPRZEDNIA STRONA</a>
-                            </Link>
-                        )}
-                        &nbsp;&nbsp;
-                        {this.props.next_page && (
-                            <Link as={`/blog/page/${this.props.next_page}`} href={`/blog?page=${this.props.next_page}`}>
-                                <a className="btn">NASTĘPNA STRONA</a>
-                            </Link>
-                        )}
-                    </div>
                 </SectionWrapper>
 
                 <div className="spacer" />
@@ -163,7 +150,7 @@ export default class BlogList extends React.Component {
     }
 }
 
-const PostLink = ({ key, post, height }) => (
+const PostLink = ({ post, height }) => (
     <article>
         <header className="header">
             <h1>

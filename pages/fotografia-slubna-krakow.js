@@ -8,7 +8,7 @@ export default class SlubPageComponent extends React.Component {
                     headTitle={"Fotografia ślubna Kraków"}
                     headDescription={"Fotografia ślubna Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji."}
                     headKeywords={"fotografia ślubna kraków, reportaż ślubny, ślub w plenerze"}
-                    headUrl={"https://99foto.pl/fotografia-slubna-krakow/"}
+                    headUrl={"http://wp.99foto.pl/fotografia-slubna-krakow/"}
                     componentContentName={"slub"}
                     backgroundImage={"url(/static/sala_weselna_biala_wilczyca_kocmyrzow.jpg)"}
                     leadNames={"MONIKA i MARTIN"}

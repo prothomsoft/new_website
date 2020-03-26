@@ -4,7 +4,7 @@ import IntroTextAndArrow from "../menu/introTextAndArrow";
 import IntroArrow from "../menu/introArrow";
 import styled from "styled-components";
 import Scroll from "react-scroll";
-import Waypoint from "react-waypoint";
+import { Waypoint } from 'react-waypoint';
 import NProgress from "nprogress";
 
 var LinkScroll = Scroll.Link;
@@ -127,9 +127,9 @@ export default class Menu extends React.Component {
                                 <a className="mtn-mobile-logo" style={{ backgroundColor: `${background}` }} href="/">
                                     <img src="/static/99foto_logo_mobile.svg" style={{ width: "105px", visibility: `${logoVisibility}` }} />
                                 </a>
-                                <icon onClick={this.showFixedMobileMenu} className="mtn-trigger">
+                                <i onClick={this.showFixedMobileMenu} className="mtn-trigger">
                                     <i />
-                                </icon>
+                                </i>
                             </div>
                             <div className="mobileMenuWrapper" style={{ visibility: `${fixedMobileMenuVisibility}`, background: `${background}`, height: height }}>
                                 <div className="mobileMenuContent" style={{ height: height }}>

@@ -54,7 +54,7 @@ export default class ContactDesktop extends React.Component {
             .map(k => esc(k) + "=" + esc(formData[k]))
             .join("&");
 
-        var sUrlWithParams = "https://99foto.pl/test.php" + "?" + query;
+        var sUrlWithParams = "http://wp.99foto.pl/test.php" + "?" + query;
         Fetch(sUrlWithParams, {
             method: "GET",
             headers: {
@@ -154,25 +154,21 @@ export default class ContactDesktop extends React.Component {
                     <div className="floatLeft">
                         <p>
                             TOMASZ PROKOP -{" "}
-                            <Link href="https://99foto.pl">
-                                <a>FOTOGRAF ŚLUBNY KRAKÓW</a>
+                            <Link href="http://wp.99foto.pl"><a>FOTOGRAF ŚLUBNY KRAKÓW</a>
                             </Link>
                         </p>
                         <p>ul. Bociana 4A/35, 31-231 Kraków</p>
                         <p>
                             TELEFON:{" "}
-                            <Link href="tel:+48663275222">
-                                <a>+48 663 275 222</a>
+                            <Link href="tel:+48663275222"><a>+48 663 275 222</a>
                             </Link>{" "}
                             &nbsp; EMAIL:{" "}
-                            <Link href="mailto:tomasz@99foto.pl">
-                                <a>TOMASZ@99FOTO.PL</a>
+                            <Link href="mailto:tomasz@99foto.pl"><a>TOMASZ@99FOTO.PL</a>
                             </Link>
                         </p>
                         <p>NIP: 8133336677 &nbsp; REGON: 369770278</p>
                         <p>
-                            <Link href="/polityka-prywatnosci-rodo">
-                                <a>POLITYKA PRYWATNOŚCI - RODO</a>
+                            <Link href="/polityka-prywatnosci-rodo"><a>POLITYKA PRYWATNOŚCI - RODO</a>
                             </Link>
                         </p>
                     </div>

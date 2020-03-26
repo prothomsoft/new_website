@@ -4,11 +4,11 @@ import Router from "next/router";
 import Meta from "../components/meta";
 import styled from "styled-components";
 import { createGlobalStyle } from 'styled-components';
-import ScrollUpButton from "react-scroll-up-button";
 import { initGA, logPageView } from "../components/utils/analytics";
+import ScrollUpButton from "react-scroll-up-button";
 
 export const GlobalStyle = createGlobalStyle`
-body {        
+body {
   margin:0;
   background-color: #000;
   color:#B3B3B3;
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, li {
 }
 
 h1 {
-  font-size: 33px  
+  font-size: 33px
 }
 
 img {
@@ -61,7 +61,7 @@ img {
   border:0
 }
 
-.btn {  
+.btn {
   vertical-align: middle;
   color: #FFF;
   display: inline-block;
@@ -79,7 +79,7 @@ img {
   font-family: 'Oswald';
   background-color: #000;
   width:200px;
-  font-size: 16px  
+  font-size: 16px
 }
 
 .btn:hover {
@@ -173,12 +173,12 @@ export default class LayoutComponent extends Component {
         logPageView();
     }
     render() {
-        let component = (            
+        let component = (
             <GeneralWrapper style={{ overflow: "visible" }} className="nProgressHandler">
             <GlobalStyle />
                 <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} />
                 {this.props.children}
-                <ScrollUpButton />
+                <ScrollUpButton  style={{width: 40}} ToggledStyle={{right: 20}} />
             </GeneralWrapper>
         );
         if (this.props.overflow === "hidden") {
@@ -187,7 +187,7 @@ export default class LayoutComponent extends Component {
             <GlobalStyle />
                 <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} />
                 {this.props.children}
-                <ScrollUpButton />
+                <ScrollUpButton  style={{width: 40}} ToggledStyle={{right: 20}}/>
             </GeneralWrapper>
             );
         }

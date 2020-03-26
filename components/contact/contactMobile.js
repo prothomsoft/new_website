@@ -54,7 +54,7 @@ export default class ContactMobile extends React.Component {
             .map(k => esc(k) + "=" + esc(formData[k]))
             .join("&");
 
-        var sUrlWithParams = "https://99foto.pl/test.php" + "?" + query;
+        var sUrlWithParams = "http://wp.99foto.pl/test.php" + "?" + query;
         Fetch(sUrlWithParams, {
             method: "GET",
             headers: {
@@ -153,7 +153,7 @@ export default class ContactMobile extends React.Component {
                 <div>
                     <p>
                         TOMASZ PROKOP -{" "}
-                        <Link href="https://99foto.pl">
+                        <Link href="http://wp.99foto.pl">
                             <a>FOTOGRAF ŚLUBNY</a>
                         </Link>
                     </p>

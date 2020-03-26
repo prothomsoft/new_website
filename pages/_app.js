@@ -1,12 +1,12 @@
 import React from "react";
-import App, { Container } from "next/app";
+import App from "next/app";
 import { PageTransition } from "next-page-transitions";
 
 export default class MyApp extends App {
     render() {
         const { Component, pageProps } = this.props;
         return (
-            <Container>
+            <React.Fragment>
                 <PageTransition timeout={300} classNames="page-transition">
                     <Component {...pageProps} />
                 </PageTransition>
@@ -26,7 +26,7 @@ export default class MyApp extends App {
                         transition: opacity 300ms;
                     }
                 `}</style>
-            </Container>
+            </React.Fragment>
         );
     }
 }

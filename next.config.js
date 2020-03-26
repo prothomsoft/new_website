@@ -1,5 +1,8 @@
 module.exports = {
-    exportPathMap: function () {
+    exportPathMap: async function(
+      defaultPathMap,
+      { dev, dir, outDir, distDir, buildId }
+    ) {
         return {
             "/": { page: "/" },
             "/blog": { page: "/blog" },
@@ -10,21 +13,6 @@ module.exports = {
             "/historie-slubne": { page: "/historie-slubne" },
             "/strefa-klienta": { page: "/strefa-klienta" },
             "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },
-            "/blog/page/1": { page: "/blog", query: { page: "1" } },
-            "/blog/page/2": { page: "/blog", query: { page: "2" } },
-            "/blog/page/3": { page: "/blog", query: { page: "3" } },
-            "/blog/page/4": { page: "/blog", query: { page: "4" } },
-            "/blog/page/5": { page: "/blog", query: { page: "5" } },
-            "/blog/page/6": { page: "/blog", query: { page: "6" } },
-            "/blog/page/7": { page: "/blog", query: { page: "7" } },
-            "/blog/page/8": { page: "/blog", query: { page: "8" } },
-            "/blog/page/9": { page: "/blog", query: { page: "9" } },
-            "/blog/page/10": { page: "/blog", query: { page: "10" } },
-            "/blog/page/11": { page: "/blog", query: { page: "11" } },
-            "/blog/page/12": { page: "/blog", query: { page: "12" } },
-            "/blog/page/13": { page: "/blog", query: { page: "13" } },
-            "/blog/page/14": { page: "/blog", query: { page: "14" } },
-            "/blog/page/15": { page: "/blog", query: { page: "15" } },
             "/smart-reverse-recruitment": { page: "/smart-reverse-recruitment" },
             "/wieczor_panienski_bubble_toast_krakow": { page: "/wieczor_panienski_bubble_toast_krakow" },
             "/sala-weselna-alexia-ochojno-emocje-i-swietna-zabawa": { page: "/sala-weselna-alexia-ochojno-emocje-i-swietna-zabawa" },
