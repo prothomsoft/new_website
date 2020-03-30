@@ -154,7 +154,7 @@ export default class ContactDesktop extends React.Component {
                     <div className="floatLeft">
                         <p>
                             TOMASZ PROKOP -{" "}
-                            <Link href="http://wp.99foto.pl"><a>FOTOGRAF ŚLUBNY KRAKÓW</a>
+                            <Link href="https://99foto.pl"><a>FOTOGRAF ŚLUBNY KRAKÓW</a>
                             </Link>
                         </p>
                         <p>ul. Bociana 4A/35, 31-231 Kraków</p>

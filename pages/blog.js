@@ -9,14 +9,14 @@ function BlogListComponent({ posts }) {
                 headTitle={"Zdjęcia ślubne Kraków"}
                 headDescription={"Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"}
                 headKeywords={"zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa"}
-                headUrl={"http://wp.99foto.pl/blog/"}
+                headUrl={"https://99foto.pl/blog/"}
                 leadNames={"IZABELA i ARKADIUSZ"}
                 leadTitle={"DOM WESELNY EUFORIA MYŚLENICE i SŁONECZNE LOVE"}
                 leadUrl={"/dom-weselny-euforia-myslenice-i-sloneczne-love"}
                 leadImage={"url(/static/dom_weselny_euforia_myslenice_1.jpg)"}
             />
         </div>
-    )
+      )
   }
 
   export async function getStaticProps() {

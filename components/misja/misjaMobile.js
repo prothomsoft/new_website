@@ -159,7 +159,7 @@ export default class HistoriaMobile extends React.Component {
                         Pozdrawiam i zapraszam serdecznie do skorzystania z moich usług.
                         <br />
                         Tomasz Prokop -{" "}
-                        <Link href="http://wp.99foto.pl">
+                        <Link href="https://99foto.pl">
                             <a>Fotograf Ślubny Kraków</a>
                         </Link>
                         .
@@ -167,20 +167,18 @@ export default class HistoriaMobile extends React.Component {
                     <div className="spacer" />
                 </article>
                 <style jsx>{`
-                    .porfolioImage {                
+                    .porfolioImage {
                         cursor: pointer;
                     }
-        
                     .porfolioCaption {
-                        cursor: pointer;                
+                        cursor: pointer;
                         margin: 0 10px;
                     }
-                    
                     article {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        text-align: center;                        
+                        text-align: center;
                         font-family: 'Oswald';
                         width: 100%;
                         color #BEBEBE;
@@ -190,37 +188,31 @@ export default class HistoriaMobile extends React.Component {
                         color: #FFF;
                         font-size: 26px;
                     }
-        
                     .spacer {
                         height: 50px;
                     }
-                    
                     p {
                         font-size: 16px;
                         margin: 10px 0;
-                        text-align: justify;                
-                    }                
-                                    
+                        text-align: justify;
+                    }
                     .quote-title::before,
                     .quote-title::after {
                         content: '';
                         display: block;
-                        border: 1px solid #33B59A;                    
+                        border: 1px solid #33B59A;
                     }
-                    
-                    .quote-title {                
+                    .quote-title {
                         display: flex;
                         align-items: center;
                         color: #FFFFFF;
                         padding: 10px 0 10px 0;
                     }
-                    
                     .quote-title::before,
                     .quote-title::after {
                         flex-grow: 1;
                         margin: 0 10px;
-                    } 
-                     
+                    }
                 `}</style>
             </div>
         );

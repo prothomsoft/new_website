@@ -9,27 +9,27 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0016.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0001.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0002.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0003.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0005.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0006.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0007.jpg", height: 852 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0008.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0009.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0012.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0010.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0017.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0011.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0013.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0014.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0015.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0020.jpg", height: 382 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0004.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0018.jpg", height: 852 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0019.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2016/10/sesja_slubna_pieskowa_skala_ojcow_0021.jpg", height: 851 }
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0016.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0001.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0002.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0003.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0005.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0006.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0007.jpg", height: 852 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0008.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0009.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0012.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0010.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0017.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0011.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0013.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0014.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0015.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0020.jpg", height: 382 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0004.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0018.jpg", height: 852 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0019.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0021.jpg", height: 851 }
         ];
 
         return (
@@ -40,7 +40,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesja ślubna Pieskowa Skała i Ojców"}
                     headDescription={"Kolejna odsłona pięknej jesieni. Tym razem w imieniu Natalii i Marcina zapraszam do Pieskowej Skały i Ojcowa."}
                     headKeywords={"sesja ślubna pieskowa skała,plener ojców"}
-                    headUrl={"http://wp.99foto.pl/natalia-i-marcin-sesja-slubna-pieskowa-skala-i-ojcow/"}
+                    headUrl={"https://99foto.pl/natalia-i-marcin-sesja-slubna-pieskowa-skala-i-ojcow/"}
                     entryContentP1={
                         "Od ślubu Natalii i Marcina minęło już trochę czasu. Można byłoby powiedzieć, że długo czekaliśmy na różnokolorowe liście i jesienną aurę w Ojcowskim Parku Narodowym i Pieskowej Skale, jednak nie byłaby to stuprocentowa prawda. Jak się pewnie domyślacie powstrzymała nas jesienna pogoda, która oprócz deszczu serwowała temperaturę zwykle poniżej 10 kresek na termometrze. Ale w końcu prognozy sprawdziły się i w może nie najbardziej słoneczny, ale bezdeszczowy i ciepły dzień wybraliśmy się w zaplanowane miejsce."
                     }

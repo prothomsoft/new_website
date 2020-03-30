@@ -221,17 +221,6 @@ function getProperLazyLoad(imgSrc, height) {
     }
 }
 
-function getPostTags(content) {
-    let returnContent = "";
-    for (let i = 0; i < 5; i++) {
-        if (content[i]) {
-            returnContent = returnContent.concat(content[i].name);
-            returnContent = returnContent.concat(", ");
-        }
-    }
-    return (returnContent = returnContent.substring(0, returnContent.length - 2));
-}
-
 function getPostDate(content) {
     let postDate = new Date(Date.parse(content));
     let MonthName = new Array(12);
@@ -259,11 +248,22 @@ function getPostContent(content) {
 }
 
 function getPostTitleWithNames(post) {
-    if (post.post_tags[0].imiona == '') {
+    if (typeof post.own_tags === 'undefined') {
         return post.title.rendered;
     } else {
-        return post.title.rendered.concat(" - ").concat(post.post_tags[0].imiona);
+        return post.title.rendered.concat(" - ").concat(post.own_tags);
     }
+}
+
+function getPostTags(content) {
+    let returnContent = "";
+    for (let i = 0; i < 5; i++) {
+        if (content[i]) {
+            returnContent = returnContent.concat(content[i]);
+            returnContent = returnContent.concat(", ");
+        }
+    }
+    return (returnContent = returnContent.substring(0, returnContent.length - 2));
 }
 
 function getPostImage(content) {

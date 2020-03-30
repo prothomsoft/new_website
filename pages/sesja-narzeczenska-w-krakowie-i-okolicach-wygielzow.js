@@ -9,42 +9,42 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0003.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0001.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0004.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0005.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0006.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0008.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0007.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0028.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0010.jpg", height: 382 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0011.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0012.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0013.jpg", height: 383 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0026.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0014.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0015.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0002.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0016.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0017.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0018.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0019.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0020.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0021.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0023.jpg", height: 383 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0022.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0024.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0036.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0027.jpg", height: 383 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0029.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0009.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0032.jpg", height: 527 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0030.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0031.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0033.jpg", height: 527 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0025.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0035.jpg", height: 377 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2018/07/sesja_narzeczenska_w_krakowie_0034.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0003.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0001.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0004.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0005.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0006.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0008.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0007.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0028.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0010.jpg", height: 382 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0011.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0012.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0013.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0026.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0014.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0015.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0002.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0016.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0017.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0018.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0019.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0020.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0021.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0023.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0022.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0024.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0036.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0027.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0029.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0009.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0032.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0030.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0031.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0033.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0025.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0035.jpg", height: 377 },
+            { imageSrc: "https://99foto.pl/static/blog/2018/07/sesja_narzeczenska_w_krakowie_0034.jpg", height: 763 }
         ];
 
         return (
@@ -55,7 +55,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesja narzeczeńśka w Krakowie i okolicach"}
                     headDescription={"Sesja narzeczeńśka w Krakowie, Nadwiślański Park Etnograficzny Wygiełzów, Zamek Lipowiec"}
                     headKeywords={"sesja narzeczeńska w Krakowie"}
-                    headUrl={"http://wp.99foto.pl/sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow/"}
+                    headUrl={"https://99foto.pl/sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow/"}
                     entryContentP1={
                         'Magde i Damiana poznałem rok temu. Już wtedy podczas naszego pierwszego spotkania pomyśleliśmy, że sesja narzeczeńska przed ślubem to świetny pomysł.  Udało nam się znaleźć czas i trafić odpowiednią pogodę, więc spontanicznie umówiliśmy się na zdjęcia. Żeby dotrzeć do miejsca naszego pleneru trzeba minąć Zalew w Kryspinowie, Kasztel Kajasówka, Cztery Pory Roku by jadąc dalej w stronę Oświęcimia w końcu trafić do <a href="https://mnpe.pl/" target="_blank" rel="nofollow">Nadwiślańskiego Parku Etnograficznego</a> w Wygiełzowie. Miejsce to jest szczególne dla Magdy i Damiana ponieważ już pod koniec września tego roku w Kościele z Ryczowa, który jest częścią skansenu wypowiedzą sakramentalne TAK. Na naszej sesji narzeczeńskiej nie brakowało świetnego światła, które to malowało wszystko ciepłymi barwami.'
                     }

@@ -6,14 +6,14 @@ function BlogListComponent({ posts }) {
         <div>
             <Clientlist
                 posts={posts}
-                headTitle={"Zdjęcia ślubne Kraków"}
-                headDescription={"Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"}
-                headKeywords={"zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa"}
-                headUrl={"http://wp.99foto.pl/blog/"}
-                leadNames={"IZABELA i ARKADIUSZ"}
-                leadTitle={"DOM WESELNY EUFORIA MYŚLENICE i SŁONECZNE LOVE"}
-                leadUrl={"/dom-weselny-euforia-myslenice-i-sloneczne-love"}
-                leadImage={"url(/static/dom_weselny_euforia_myslenice_1.jpg)"}
+                headTitle={"Strefa klienta"}
+                headDescription={"Strefa klienta to miejsce, w którym możesz oglądać zdjęcia i dzielić się nimi ze znajomymi i rodziną. Serdecznie zapraszam !"}
+                headKeywords={"Strefa klienta, moje zdjęcia, dobre zdjęcia"}
+                headUrl={"https://99foto.pl/strefa-klienta/"}
+                leadNames={"ANNA i PIOTR"}
+                leadTitle={"BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"}
+                leadUrl={"/bazylika-bozego-ciala-krakow-fotoreportaz-slubny"}
+                leadImage={"url(/static/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg)"}
             />
         </div>
     )

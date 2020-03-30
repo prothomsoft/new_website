@@ -9,32 +9,32 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0001.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0002.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0003.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0004.jpg", height: 527 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0005.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0006.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0007.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0008.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0009.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0010.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0011.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0012.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0013.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0014.jpg", height: 527 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0015.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0016.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0026.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0017.jpg", height: 383 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0018.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0019.jpg", height: 383 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0021.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0022.jpg", height: 382 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0020.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0025.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0024.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/08/plener_narzeczenski_krakow_i_okolice_0023.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0001.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0002.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0003.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0004.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0005.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0006.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0007.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0008.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0009.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0010.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0011.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0012.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0013.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0014.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0015.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0016.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0026.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0017.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0018.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0019.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0021.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0022.jpg", height: 382 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0020.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0025.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0024.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/08/plener_narzeczenski_krakow_i_okolice_0023.jpg", height: 763 }
         ];
 
         return (
@@ -45,7 +45,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Plener narzeczeński Kraków"}
                     headDescription={"Plener narzeczeński staje się integralną cześcią planowanego ślubu. Serdecznie zapraszam na zdjęcia Aliny i Michała, którzy zabrali ze sobą Bruna."}
                     headKeywords={"plener narzeczeński kraków,sesja narzeczeńska ojców"}
-                    headUrl={"http://wp.99foto.pl/plener-narzeczenski-krakow-i-okolice/"}
+                    headUrl={"https://99foto.pl/plener-narzeczenski-krakow-i-okolice/"}
                     entryContentP1={
                         "Plener narzeczeński bardzo często staje się integralną cześcią planowanego ślubu. Spotkanie z fotografem przed ślubem pozwala oswoić się z aparatem i zdobyć trochę doświadczenia w pozowaniu przed obiektywem. Sesja narzeczeńśka jest też świetną okazją do poznania fotografa jako człowieka, przełamania pierwszych lodów w tej znajomości. Osobiście możecie przekonać się w jakiej atmosferze powstać będą Wasze zdjęcia ślubne, a obecność fotografa w Waszym domu nie będzie stresująca, ponieważ będzie to osoba, którą mieliście okazję poznać osobiście."
                     }

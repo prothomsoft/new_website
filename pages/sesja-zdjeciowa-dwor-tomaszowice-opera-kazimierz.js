@@ -9,37 +9,37 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0002.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0001.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0003.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0004.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0005.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0016.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0007.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0008.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0009.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0011.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0010.jpg", height: 383 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0012.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0013.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0014.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0015.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0006.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0028.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0017.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0018.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0019.jpg", height: 806 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0020.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0021.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0023.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0022.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0024.jpg", height: 806 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0025.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0026.jpg", height: 805 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0027.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0029.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0030.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0031.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0002.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0001.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0003.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0004.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0005.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0016.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0007.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0008.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0009.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0011.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0010.jpg", height: 383 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0012.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0013.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0014.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0015.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0006.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0028.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0017.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0018.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0019.jpg", height: 806 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0020.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0021.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0023.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0022.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0024.jpg", height: 806 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0025.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0026.jpg", height: 805 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0027.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0029.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0030.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/11/sesja_zdjeciowa_dwor_tomaszowice_krakow_0031.jpg", height: 763 }
         ];
 
         return (
@@ -50,7 +50,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesja zdjęciowa Dwór Tomaszowice, Opera Krakowska, Kazimierz"}
                     headDescription={"Serdecznie zapraszam na ostatni w tym roku jesienny i krakowski plener Karoliny i Bartka. Dwór Tomaszowice, Opera Krakowska i zakamarki Kazimierza."}
                     headKeywords={"sesja zdjęciowa dwór tomaszowice, plener ślubny kazimierz kraków"}
-                    headUrl={"http://wp.99foto.pl/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz/"}
+                    headUrl={"https://99foto.pl/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz/"}
                     entryContentP1={
                         "Dzisiaj zapraszam na ostatni w tym roku jesienny krakowski plener Karoliny i Bartka. Do zrealizowania planu A, który zakładał, że wybieramy się do Zakopanego i spacerujemy do Morskiego Oka, zabrakło nam dosłownie jednego dnia. Akurat w sobotę, początek tego wolnego weekendu, w którym mieliśmy się wybrać w góry gęsta mgła przysłoniła świat i to nie tylko w Krakowie, wszędzie."
                     }

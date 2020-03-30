@@ -9,34 +9,34 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0001.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0002.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0003.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0004.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0005.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0006.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0007.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0008.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0009.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0010.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0011.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0012.jpg", height: 852 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0013.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0014.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0015.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0016.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0017.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0018.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0019.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0020.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0021.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0022.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0023.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0024.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0025.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0027.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0026.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/07/sesja_narzeczenska_pieskowa_skala_0028.jpg", height: 762 }
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0001.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0002.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0003.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0004.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0005.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0006.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0007.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0008.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0009.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0010.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0011.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0012.jpg", height: 852 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0013.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0014.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0015.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0016.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0017.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0018.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0019.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0020.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0021.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0022.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0023.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0024.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0025.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0027.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0026.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/07/sesja_narzeczenska_pieskowa_skala_0028.jpg", height: 762 }
         ];
 
         return (
@@ -47,7 +47,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesja narzeczeńska Pieskowa Skała"}
                     headDescription={"Trochę deszczu, trochę gradu i przebłyski słońca - taka pogoda nie zaskoczyła Patrycję i Michała podczas ich sesji narzeczeńskiej w Pieskowej Skale."}
                     headKeywords={"sesja narzeczeńska pieskowa skała,plener ślubny w ojcowie"}
-                    headUrl={"http://wp.99foto.pl/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala/"}
+                    headUrl={"https://99foto.pl/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala/"}
                     entryContentP1={
                         "Czasem trzeba wyjść ze strefy komfortu i nawet, gdy na niebie pojawią się chmury, twoja pogoda mówi, że będzie na pewno padał deszcz, a może nawet grad &#8211; należy twardo realizować plan. Tym razem plan ten to sesja narzeczeńska Patrycji i Michała w Pieskowej Skale. Turyści pochowali się przed deszczem, natomiast my przeszliśmy szybki kurs pozowania."
                     }

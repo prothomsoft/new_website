@@ -9,25 +9,25 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0001.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0022.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0023.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0003.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0004.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0012.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0006.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0007.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0019.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0008.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0009.jpg", height: 527 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0014.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0011.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0013.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0015.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0021.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0002.jpg", height: 850 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0017.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2017/05/sesja_zdjeciowa_krakow_0010.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0001.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0022.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0023.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0003.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0004.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0012.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0006.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0007.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0019.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0008.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0009.jpg", height: 527 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0014.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0011.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0013.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0015.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0021.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0002.jpg", height: 850 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0017.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0010.jpg", height: 763 }
         ];
 
         return (
@@ -38,7 +38,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesje plenerowe ślubne Kraków"}
                     headDescription={"Serdecznie zapraszam na sesje plenerowe ślubne do Krakowa. Mieszkam w tym mieście i potrafię zaproponować fajne miejsca na niezapomniane zdjęcia."}
                     headKeywords={"sesja zdjęciowa kraków,plener ślubny na wawelu"}
-                    headUrl={"http://wp.99foto.pl/sesje-plenerowe-slubne-w-sercu-krakowa/"}
+                    headUrl={"https://99foto.pl/sesje-plenerowe-slubne-w-sercu-krakowa/"}
                     entryContentP1={
                         "Kraków to miejsce piękne, niezwykłe i spełniające wszystkie kryteria niezbędne do wykonania niezapomnianej plenerowej sesji ślubnej. Dodajmy do tego jeszcze świetnie przygotowaną, uśmiechniętą parę czyli Natalię i Piotra, gram kreatywnych pomysłów fotografa, kilka promieni majowego słońca i mogę powiedzieć, że zdjęcia praktycznie robiły się same. Nie miałem okazji fotografować ślubu Natalii i Piotra. Ślub ten odbył się blisko rok temu. Od czego mamy jednak facebook, instagram i wyszukiwarki internetowe. Młodzi wpisali hasło sesja zdjęciowa Kraków i w ten sposób mieliśmy okazję miło spędzić jedno popołudnie, przeszukując Kraków w poszukiwaniu inspiracji i ciekawych kadrów."
                     }

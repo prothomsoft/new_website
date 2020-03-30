@@ -9,32 +9,32 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0001.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0004.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0002.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0003.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0005.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0006.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0007.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0009.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0010.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0008.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0012.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0013.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0011.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0014.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0015.jpg", height: 851 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0016.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0018.jpg", height: 762 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0017.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0019.jpg", height: 764 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0020.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0021.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0022.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0023.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0024.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0025.jpg", height: 763 },
-            { imageSrc: "http://wp.99foto.pl/wp-content/uploads/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0026.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0001.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0004.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0002.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0003.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0005.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0006.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0007.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0009.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0010.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0008.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0012.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0013.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0011.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0014.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0015.jpg", height: 851 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0016.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0018.jpg", height: 762 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0017.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0019.jpg", height: 764 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0020.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0021.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0022.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0023.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0024.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0025.jpg", height: 763 },
+            { imageSrc: "https://99foto.pl/static/blog/2015/08/sesja_plenerowa_dwor_tomaszowice_korzekiew_ojcow_0026.jpg", height: 763 }
         ];
 
         return (
@@ -45,7 +45,7 @@ export default class BlogPageComponent extends React.Component {
                     headTitle={"Sesja zdjęciowa Dwór Tomaszowice"}
                     headDescription={"Promienie zachodzącego słońca i trzy podkrakowskie miejsca plenerowe: Dwór w Tomaszowicach, zamki w Korzkwi i Ojcowie. Zapraszam na plener Agaty i Mateusza."}
                     headKeywords={"plener poślubny dwór tomaszowice,plener ślubny zamek korzkiew,zdjęcia ślubne ojców"}
-                    headUrl={"http://wp.99foto.pl/agata-i-mateusz-dwor-w-tomaszowicach-zamek-w-korzkwi-i-ojcow/"}
+                    headUrl={"https://99foto.pl/agata-i-mateusz-dwor-w-tomaszowicach-zamek-w-korzkwi-i-ojcow/"}
                     entryContentP1={
                         "Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw."
                     }
