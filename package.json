@@ -1,33 +1,33 @@
 {
-  "name": "layout-component",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "export": "next export"
-  },
-  "dependencies": {
-    "babel-plugin-module-resolver": "^3.1.1",
-    "babel-plugin-styled-components": "1.8.0",
-    "express": "^4.15.4",
-    "fontfaceobserver": "^2.0.13",
-    "isomorphic-unfetch": "^2.0.0",
-    "moment": "^2.24.0",
-    "next": "^9.3.1",
-    "next-page-transitions": "^1.0.0-alpha.4",
-    "npm": "^6.14.4",
-    "nprogress": "^0.2.0",
-    "react": "^16.13.1",
-    "react-device-detect": "^0.1.0",
-    "react-dom": "^16.13.1",
-    "react-ga": "^2.4.1",
-    "react-headroom": "^2.2.1",
-    "react-hover-image": "^1.0.1",
-    "react-lazy-load": "^3.0.13",
-    "react-scroll": "^1.5.5",
-    "react-scroll-up-button": "^1.6.4",
-    "react-waypoint": "^9.0.2",
-    "styled-components": "^4.1.2"
-  },
-  "license": "ISC"
+    "name": "layout-component",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "node server.js",
+        "build": "next build",
+        "export": "next export"
+    },
+    "dependencies": {
+        "babel-plugin-module-resolver": "^3.1.1",
+        "babel-plugin-styled-components": "1.8.0",
+        "express": "^4.15.4",
+        "fontfaceobserver": "^2.0.13",
+        "isomorphic-unfetch": "^2.0.0",
+        "moment": "^2.24.0",
+        "next": "^9.3.3",
+        "next-page-transitions": "^1.0.0-alpha.4",
+        "npm": "^6.14.4",
+        "nprogress": "^0.2.0",
+        "react": "^16.13.1",
+        "react-device-detect": "^0.1.0",
+        "react-dom": "^16.13.1",
+        "react-ga": "^2.4.1",
+        "react-headroom": "^2.2.1",
+        "react-hover-image": "^1.0.1",
+        "react-lazy-load": "^3.0.13",
+        "react-scroll": "^1.5.5",
+        "react-scroll-up-button": "^1.6.4",
+        "react-waypoint": "^9.0.2",
+        "styled-components": "^4.1.2"
+    },
+    "license": "ISC"
 }
