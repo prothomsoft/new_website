@@ -16,16 +16,16 @@ function BlogListComponent({ posts }) {
                 leadImage={"url(/static/dom_weselny_euforia_myslenice_1.jpg)"}
             />
         </div>
-      )
-  }
+    );
+}
 
-  export async function getStaticProps() {
+export async function getStaticProps() {
     const res = await Fetch(`http://wp.99foto.pl/wp-json/wp/v2/posts`);
     const posts = await res.json();
     return {
         props: {
-          posts
+            posts
         }
-      }
-  }
-  export default BlogListComponent
+    };
+}
+export default BlogListComponent;

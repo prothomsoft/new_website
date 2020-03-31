@@ -248,7 +248,7 @@ function getPostContent(content) {
 }
 
 function getPostTitleWithNames(post) {
-    if (typeof post.own_tags === 'undefined') {
+    if (typeof post.own_tags === "undefined") {
         return post.title.rendered;
     } else {
         return post.title.rendered.concat(" - ").concat(post.own_tags);
