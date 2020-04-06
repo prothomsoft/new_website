@@ -35,7 +35,7 @@ export default class ClientList extends React.Component {
         super(props);
         this.state = {
             width: "0",
-            overflow: false
+            overflow: false,
         };
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
         this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
@@ -48,13 +48,13 @@ export default class ClientList extends React.Component {
 
     updateFontLoadedState() {
         this.setState({
-            fontLoaded: !this.state.fontLoaded
+            fontLoaded: !this.state.fontLoaded,
         });
     }
 
     updateOverflowState() {
         this.setState({
-            overflow: !this.state.overflow
+            overflow: !this.state.overflow,
         });
     }
 
@@ -104,13 +104,14 @@ export default class ClientList extends React.Component {
         }
 
         let title = (post, width) => {
-            return post.name.concat(" - ").concat(moment(post.creationDate).format('DD-MM-YYYY'));
-        }
+            //return post.name.concat(" - ").concat(moment(post.creationDate).format('DD-MM-YYYY'));
+            return post.name;
+        };
 
         if (this.state.width < 600) {
             title = (post, width) => {
                 return post.name;
-            }
+            };
         }
 
         return (
@@ -120,11 +121,14 @@ export default class ClientList extends React.Component {
                 <div style={{ height: menuSpace }} />
                 <SectionWrapper>
                     {this.props.posts.map((post, key) => (
-                    <div key={key}>
-                       <h1 className="quote-title">{title(post)}</h1>
-                       <Link as={`/${post.slug}`} href={`/${post.slug}`}><a href={`http://sk.99foto.pl/login/${post.welcomeURL}`} target="_blank" rel="nofollow">{getProperLazyLoad(`/static/client/${post.welcomeURL}.jpg`, height )}</a>
-                        </Link>
-                    </div>
+                        <div key={key}>
+                            <h1 className="quote-title">{title(post)}</h1>
+                            <Link as={`/${post.slug}`} href={`/${post.slug}`}>
+                                <a href={`http://sk.99foto.pl/login/${post.welcomeURL}`} target="_blank" rel="nofollow">
+                                    {getProperLazyLoad(`/static/client/${post.welcomeURL}.jpg`, height)}
+                                </a>
+                            </Link>
+                        </div>
                     ))}
                 </SectionWrapper>
 
