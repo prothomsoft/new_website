@@ -10,11 +10,11 @@ export default class MisjaPageComponent extends React.Component {
                     headKeywords={"sesja zdjęciowa kraków,fotograf na wesele kraków"}
                     headUrl={"https://99foto.pl/misja-i-faq/"}
                     componentContentName={"misja"}
-                    backgroundImage={"url(/static/wesele_na_polu_golfowym_w_paczoltowicach_start.jpg)"}
-                    leadNames={"JOANNA i GRZEGORZ"}
-                    leadTitle={"WESELE NA POLU GOLFOWYM W PACZÓŁTOWICACH"}
-                    leadUrl={"/wesele-na-polu-golfowym-w-paczoltowicach"}
-                    leadImage={"url(/static/wesele_na_polu_golfowym_w_paczoltowicach_start.jpg)"}
+                    backgroundImage={"url(/static/dworek_fantazja_skomielna_biala_fotograf.jpg)"}
+                    leadNames={"PATRYCJA i KRZYSZTOF"}
+                    leadTitle={"DWOREK FANTAZJA SKOMIELNA BIAŁA i ŚLUB W STYLU GLAMOUR"}
+                    leadUrl={"/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour"}
+                    leadImage={"url(/static/dworek_fantazja_skomielna_biala_fotograf.jpg)"}
                 />
             </div>
         );

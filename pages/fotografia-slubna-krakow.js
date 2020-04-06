@@ -10,11 +10,11 @@ export default class SlubPageComponent extends React.Component {
                     headKeywords={"fotografia ślubna kraków, reportaż ślubny, ślub w plenerze"}
                     headUrl={"https://99foto.pl/fotografia-slubna-krakow/"}
                     componentContentName={"slub"}
-                    backgroundImage={"url(/static/sala_weselna_biala_wilczyca_kocmyrzow.jpg)"}
-                    leadNames={"MONIKA i MARTIN"}
-                    leadTitle={"WESELE MIĘDZYNARODOWE i POLSKIE TRADYCJE WESELNE"}
-                    leadUrl={"/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne"}
-                    leadImage={"url(/static/sala_weselna_biala_wilczyca_kocmyrzow.jpg)"}
+                    backgroundImage={"url(/static/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg)"}
+                    leadNames={"ANNA i PIOTR"}
+                    leadTitle={"BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"}
+                    leadUrl={"/bazylika-bozego-ciala-krakow-fotoreportaz-slubny"}
+                    leadImage={"url(/static/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg)"}
                 />
             </div>
         );

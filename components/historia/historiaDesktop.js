@@ -113,18 +113,17 @@ export default class HistoriaDesktop extends React.Component {
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
+                        <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
+                            <div className="porfolioImage">
+                                <LazyLoad height={224} offsetVertical={300}>
+                                    <img alt="fotograf na wesele kraków" src={"/static/portfolio_dtp/ogrod_botaniczny.jpg"} />
+                                </LazyLoad>
+                            </div>
+                        </Link>
                         <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
                                     <img alt="sesja ślubna kraków" src={"/static/portfolio_dtp/sesja_narzeczenska_klasztor_w_tyncu.jpg"} />
-                                </LazyLoad>
-                            </div>
-                        </Link>
-
-                        <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
-                            <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf na wesele kraków" src={"/static/portfolio_dtp/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice-1.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -137,20 +136,20 @@ export default class HistoriaDesktop extends React.Component {
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
+                        <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
+                            <div className="porfolioCaption">
+                                <h4 style={{ textAlign: "center" }}>
+                                    FOTOGRAF NA WESELE KRAKÓW <br />
+                                    DAJANA i SYLWESTER
+                                </h4>
+                            </div>
+                        </Link>
                         <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
                                     SESJA ŚLUBNA KRAKÓW
                                     <br /> TERESA i ANDRZEJ
                                 </p>
-                            </div>
-                        </Link>
-                        <Link href="/fotograf-slubny-kalwaria-zebrzydowska-arkadia-wadowice">
-                            <div className="porfolioCaption">
-                                <h4 style={{ textAlign: "center" }}>
-                                    FOTOGRAF NA WESELE KRAKÓW <br />
-                                    DAJANA i SYLWESTER
-                                </h4>
                             </div>
                         </Link>
                         <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
@@ -162,7 +161,7 @@ export default class HistoriaDesktop extends React.Component {
                             </div>
                         </Link>
                     </div>
-                    <div className="spacer">&nbsp;</div>
+                    <div className="spacer" />
                 </article>
 
                 <style jsx>{`

@@ -10,23 +10,23 @@ function BlogListComponent({ posts }) {
                 headDescription={"Strefa klienta to miejsce, w którym możesz oglądać zdjęcia i dzielić się nimi ze znajomymi i rodziną. Serdecznie zapraszam !"}
                 headKeywords={"Strefa klienta, moje zdjęcia, dobre zdjęcia"}
                 headUrl={"https://99foto.pl/strefa-klienta/"}
-                leadNames={"ANNA i PIOTR"}
-                leadTitle={"BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"}
-                leadUrl={"/bazylika-bozego-ciala-krakow-fotoreportaz-slubny"}
-                leadImage={"url(/static/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg)"}
+                leadNames={"MONIKA i MARTIN"}
+                leadTitle={"WESELE MIĘDZYNARODOWE i POLSKIE TRADYCJE WESELNE"}
+                leadUrl={"/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne"}
+                leadImage={"url(/static/sala_weselna_biala_wilczyca_kocmyrzow.jpg)"}
             />
         </div>
-    )
-  }
-export async function getStaticProps() {
-  const page = 0;
-  const per_page = 100;
-  const res = await Fetch(`http://sk.99foto.pl/api/users/clients/${page}/${per_page}`);
-  const posts = await res.json();
-  return {
-      props: {
-        posts
-      }
-    }
+    );
 }
-export default BlogListComponent
+export async function getStaticProps() {
+    const page = 0;
+    const per_page = 100;
+    const res = await Fetch(`http://sk.99foto.pl/api/users/clients/${page}/${per_page}`);
+    const posts = await res.json();
+    return {
+        props: {
+            posts,
+        },
+    };
+}
+export default BlogListComponent;
