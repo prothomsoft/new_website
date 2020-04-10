@@ -4,25 +4,19 @@
 
 RewriteEngine On
 
+Options FollowSymLinks
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^.*\.html$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ %{REQUEST_FILENAME}.html
+
 RewriteCond %{HTTP_HOST} ^www.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
-
-
-
-# BEGIN WordPress
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
-
-# END WordPress
 
 # TN Expires Caching Start #
 <IfModule mod_expires.c>
@@ -61,8 +55,3 @@ ExpiresByType image/svg+xml "access plus 1 month"
 ExpiresByType image/svg  "access plus 1 month"
 </IfModule>
 # TN Expires Caching End #
-
-## SITE REFERRER BANNING
-RewriteCond %{HTTP_REFERER} Sharebutton.to [NC,OR]
-RewriteCond %{HTTP_REFERER} Sharebutton.to
-RewriteRule .* - [F]
