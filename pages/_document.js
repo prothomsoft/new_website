@@ -5,10 +5,9 @@ export default class SiteDocument extends Document {
     render() {
         const sheet = new ServerStyleSheet();
         const main = sheet.collectStyles(<Main />);
-        const styleTags = sheet.getStyleElement();
         return (
             <html lang="pl-PL">
-                <Head>{styleTags}</Head>
+                <Head></Head>
                 <body>
                     {main}
                     <NextScript />

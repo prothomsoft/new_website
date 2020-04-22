@@ -3,9 +3,9 @@ import NProgress from "nprogress";
 import Router from "next/router";
 import Meta from "../components/meta";
 import styled from "styled-components";
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 import { initGA, logPageView } from "../components/utils/analytics";
-import ScrollUpButton from "react-scroll-up-button";
+import ScrollUpButton from "../components/utils/react-scroll-up-button";
 
 export const GlobalStyle = createGlobalStyle`
 body {
@@ -88,7 +88,7 @@ img {
   color: #000
 }`;
 
-Router.onRouteChangeStart = url => {
+Router.onRouteChangeStart = (url) => {
     NProgress.configure({ parent: ".nProgressHandler" });
     NProgress.start();
 };
@@ -98,7 +98,7 @@ Router.onRouteChangeComplete = () => {
         window.gtag("config", window.gaTrackingId, {
             page_location: window.location.href,
             page_path: window.location.pathname,
-            page_title: window.document.title
+            page_title: window.document.title,
         });
     }
 };
@@ -110,7 +110,7 @@ const GeneralWrapper = styled.div`
     height: 100vh;
     position: relative;
     z-index: 1;
-    overflow: ${props => props.overflow};
+    overflow: ${(props) => props.overflow};
     @media only screen and (max-device-width: 1140px) {
         .bgimg-2,
         .bgimg-3 {
@@ -175,20 +175,20 @@ export default class LayoutComponent extends Component {
     render() {
         let component = (
             <GeneralWrapper style={{ overflow: "visible" }} className="nProgressHandler">
-            <GlobalStyle />
                 <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} />
+                <GlobalStyle />
                 {this.props.children}
-                <ScrollUpButton  style={{width: 40}} ToggledStyle={{right: 20}} />
+                <ScrollUpButton style={{ width: 40 }} ToggledStyle={{ right: 20 }} />
             </GeneralWrapper>
         );
         if (this.props.overflow === "hidden") {
             component = (
-            <GeneralWrapper style={{ overflow: "hidden" }} className="nProgressHandler">
-            <GlobalStyle />
-                <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} />
-                {this.props.children}
-                <ScrollUpButton  style={{width: 40}} ToggledStyle={{right: 20}}/>
-            </GeneralWrapper>
+                <GeneralWrapper style={{ overflow: "hidden" }} className="nProgressHandler">
+                    <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} />
+                    <GlobalStyle />
+                    {this.props.children}
+                    <ScrollUpButton style={{ width: 40 }} ToggledStyle={{ right: 20 }} />
+                </GeneralWrapper>
             );
         }
         return component;
