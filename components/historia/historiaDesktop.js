@@ -18,7 +18,7 @@ export default class HistoriaDesktop extends React.Component {
                         <Link href="/plener-slubny-na-rynku-w-krakowie">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="Plener ślubny na Rynku w Krakowie" src={"/static/portfolio/plener_0002.jpg"} />
+                                    <img alt="Plener ślubny na Rynku w Krakowie" src={"/static/portfolio_dtp/plener_0002.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>

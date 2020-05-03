@@ -59,14 +59,14 @@ export default class OfferDesktop extends React.Component {
                             <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
                                 <div className="porfolioImage">
                                     <LazyLoad height={225} offsetVertical={300}>
-                                        <img src={"/static/portfolio_dtp/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"} />
+                                        <img src={"/static/portfolio_dtp/plener_0002.jpg"} />
                                     </LazyLoad>
                                 </div>
                             </Link>
                             <Link href="/palac-goetza-brzesko-sluba-sesja-zdjeciowa">
                                 <div className="porfolioImage">
                                     <LazyLoad height={225} offsetVertical={300}>
-                                        <img src={"/static/portfolio_dtp/magda_grzegorz.jpg"} />
+                                        <img src={"/static/portfolio_dtp/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"} />
                                     </LazyLoad>
                                 </div>
                             </Link>
