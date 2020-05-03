@@ -78,15 +78,15 @@ export default class OfferDesktop extends React.Component {
                         graficznej. Emocje, emocje i jeszcze raz emocje. Zero ustawek i balast sprzętowy ograniczony do niezbędnego minimum. Osobiście czerpię prawdziwą przyjemność w poszukiwaniu
                         prawdziwych emocji w moich zdjęciach, zdobywania Waszego zaufania i odnajdywaniu kadrów w przeróżnych miejscach dzięki niekończącej się magii światła.
                     </p>
-                    <LazyLoad height={525} offsetVertical={300}>
-                        <img src={"/static/portfolio/portfolio_0003.jpg"} />
+                    <LazyLoad height={760} offsetVertical={300}>
+                        <img src={"/static/portfolio/portfolio_0009.jpg"} />
                     </LazyLoad>
                     <p>
                         Plener ślubny w Krakowie to najlepszy moment na upamiętnienie tych najpiękniejszych i najromantyczniejszych chwil na fotografiach. To chwila na oderwanie się od rzeczywistości
                         i wcielenie w rolę rozluźnionego modela. Spotkajmy się w Krakowie, wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze. Serdecznie zapraszam.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/portfolio_0009.jpg"} />
+                        <img src={"/static/portfolio/portfolio_300.jpg"} />
                     </LazyLoad>
                 </article>
 
@@ -121,8 +121,8 @@ export default class OfferDesktop extends React.Component {
                         Dziękujemy, dziękujemy, dziękujemy. Byliśmy pewni że nasza współpraca z Tomkiem przebiegnie idealnie i tak właśnie było. Polecamy wszystkim z całego serca!!!{" "}
                         <Link href="/zielone-wzgorze-koniusza-tak-w-promieniach-slonca">Karola i Mati</Link>.
                     </p>
-                    <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/portfolio_0004.jpg"} />
+                    <LazyLoad height={525} offsetVertical={300}>
+                        <img src={"/static/portfolio/portfolio_0003.jpg"} />
                     </LazyLoad>
                     <p>
                         Pełen profesjonalizm i zaangażowanie! Dyskretna i bardzo efektowna praca Tomka robi wrażenie tak jak Jego zdjęcia :) spokój i usmiech :) świetna współpraca! Dziękujemy Tomek.{" "}
