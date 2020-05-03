@@ -4,8 +4,8 @@ export default class BlogPageComponent extends React.Component {
     render() {
         let slide = [
             {
-                imageUrl: "/static/monika_i_marek_sesja_poslubna_rabkoland_rabka_zdroj_start.jpg"
-            }
+                imageUrl: "/static/monika_i_marek_sesja_poslubna_rabkoland_rabka_zdroj_start.jpg",
+            },
         ];
 
         let images = [
@@ -29,7 +29,7 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_rabkoland_0018.jpg", height: 762 },
             { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_rabkoland_0020.jpg", height: 762 },
             { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_rabkoland_0019.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_rabkoland_0022.jpg", height: 762 }
+            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_rabkoland_0022.jpg", height: 762 },
         ];
 
         return (
@@ -38,7 +38,7 @@ export default class BlogPageComponent extends React.Component {
                     slide={slide}
                     images={images}
                     headTitle={"Sesja ślubna Rabkoland - Rabka Zdrój"}
-                    headDescription={"Czy magiczne miasteczko Rabkoland to miejsce odpowiednie na sesję poślubną? Koniecznie sprawdźcie na moim blogu. Zapraszam w imieniu Marka i Moniki."}
+                    headDescription={"Czy magiczne miasteczko Rabkoland to miejsce odpowiednie na sesję ślubną? Koniecznie sprawdźcie na moim blogu. Zapraszam w imieniu Marka i Moniki."}
                     headKeywords={"plener poślubny rabkoland,zdjęcia ślubne wesołe miasteczko,fotograf na wesele rabka zdrój"}
                     headUrl={"https://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/"}
                     entryContentP1={

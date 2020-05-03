@@ -16,7 +16,7 @@ export default class OfferMobile extends React.Component {
                     <p>przygotowania, błogosławieństwo</p>
                     <p>ceremonię w kościele lub USC</p>
                     <p>przyjęcie weselne do oczepin włącznie (do godz. 1.00)</p>
-                    <p>sesję poślubną w wybranym dniu po ślubie</p>
+                    <p>sesję ślubną w wybranym dniu po ślubie</p>
                     <div className="spacer">&nbsp;</div>
                     <h2>OTRZYMUJECIE</h2>
                     <p>fotoksiążkę - minimum 120 stron w twardej oprawie, format 30x30cm</p>

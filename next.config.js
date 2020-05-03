@@ -1,8 +1,5 @@
 module.exports = {
-    exportPathMap: async function(
-      defaultPathMap,
-      { dev, dir, outDir, distDir, buildId }
-    ) {
+    exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
         return {
             "/": { page: "/" },
             "/blog": { page: "/blog" },
@@ -13,6 +10,7 @@ module.exports = {
             "/historie-slubne": { page: "/historie-slubne" },
             "/strefa-klienta": { page: "/strefa-klienta" },
             "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },
+            "/plener-slubny-na-rynku-w-krakowie": { page: "/plener-slubny-na-rynku-w-krakowie" },
             "/smart-reverse-recruitment": { page: "/smart-reverse-recruitment" },
             "/wieczor_panienski_bubble_toast_krakow": { page: "/wieczor_panienski_bubble_toast_krakow" },
             "/sala-weselna-alexia-ochojno-emocje-i-swietna-zabawa": { page: "/sala-weselna-alexia-ochojno-emocje-i-swietna-zabawa" },
@@ -153,7 +151,7 @@ module.exports = {
             "/sesja-poslubna-wiolety-i-marcina-mogilany-i-kazimierz": { page: "/sesja-poslubna-wiolety-i-marcina-mogilany-i-kazimierz" },
             "/iga-i-marcin-zdjecia-slubne-kosciol-skomielna-czarna": { page: "/iga-i-marcin-zdjecia-slubne-kosciol-skomielna-czarna" },
             "/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj": { page: "/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj" },
-            "/ulubione-wakacyjne-kadry": { page: "/ulubione-wakacyjne-kadry" }
+            "/ulubione-wakacyjne-kadry": { page: "/ulubione-wakacyjne-kadry" },
         };
-    }
+    },
 };

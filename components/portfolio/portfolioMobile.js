@@ -177,20 +177,17 @@ export default class PortfolioMobile extends Component {
                             </p>
                         </div>
                     </Link>
-
-                    <Link href="/hotel-zameczek-ksiaz-wielki-i-slubne-iskierki-milosci">
+                    <Link href="/plener-slubny-na-rynku-w-krakowie">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>
-                                <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio/hotel_zameczek_ksiaz_wielki.jpg"} />
+                                <img alt="Plener ślubny na Rynku w Krakowie" src={"/static/portfolio/plener_0002.jpg"} />
                             </LazyLoad>
                         </div>
                     </Link>
-                    <Link href="/hotel-zameczek-ksiaz-wielki-i-slubne-iskierki-milosci">
+                    <Link href="/plener-slubny-na-rynku-w-krakowie">
                         <div className="porfolioCaption">
                             <p style={{ textAlign: "center" }}>
-                                MAGICZNY WYSTRÓJ SALI WESELNEJ
-                                <br />
-                                KATARZYNA i PAWEŁ
+                                PLENER ŚLUBNY NA RYNKU W KRAKOWIE <br /> PATRYCJA i KRZYSZTOF
                             </p>
                         </div>
                     </Link>
