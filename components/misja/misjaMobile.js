@@ -107,7 +107,7 @@ export default class HistoriaMobile extends React.Component {
                 </article>
                 <article>
                     <header>
-                        <h1 className="quote-title">MISJA</h1>
+                        <h2 className="quote-title">MISJA</h2>
                     </header>
                     <p className="alignJustify">
                         Kiedy spojrzę w przeszłość na kilka ślubów, które miałem przyjemność fotografować, mogę powiedzieć jedno: każdy ślub jest inny. Para młoda i idealnie dopracowane detale są po
@@ -185,6 +185,10 @@ export default class HistoriaMobile extends React.Component {
                         margin: 20px 0 0 0;
                     }
                     article h1{
+                        color: #FFF;
+                        font-size: 26px;
+                    }
+                    article h2{
                         color: #FFF;
                         font-size: 26px;
                     }

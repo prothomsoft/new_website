@@ -126,7 +126,7 @@ export default class HistoriaDesktop extends React.Component {
 
                 <article>
                     <header>
-                        <h1 className="quote-title">MISJA - CZYLI NIE ODNAJDZIE WIĘCEJ WAS TA SAMA CHWILA</h1>
+                        <h2 className="quote-title">MISJA - CZYLI NIE ODNAJDZIE WIĘCEJ WAS TA SAMA CHWILA</h2>
                     </header>
 
                     <div className="container">
@@ -253,6 +253,10 @@ export default class HistoriaDesktop extends React.Component {
 
                     article h1 {
                         color: #fff;
+                    }
+
+                    article h2 {
+                        font-size: 2.5em;
                     }
 
                     .spacer {

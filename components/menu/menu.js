@@ -4,7 +4,7 @@ import IntroTextAndArrow from "../menu/introTextAndArrow";
 import IntroArrow from "../menu/introArrow";
 import styled from "styled-components";
 import Scroll from "react-scroll";
-import { Waypoint } from 'react-waypoint';
+import { Waypoint } from "react-waypoint";
 import NProgress from "nprogress";
 
 var LinkScroll = Scroll.Link;
@@ -51,7 +51,7 @@ export default class Menu extends React.Component {
         super(props);
         this.state = {
             showFixedMobileMenu: false,
-            isScrollOnTop: "notScrolled"
+            isScrollOnTop: "notScrolled",
         };
         this.showFixedMobileMenu = this.showFixedMobileMenu.bind(this);
         this.onWaypointEntered = this.onWaypointEntered.bind(this);
@@ -61,7 +61,7 @@ export default class Menu extends React.Component {
     showFixedMobileMenu() {
         this.props.triggerUpdateParentOverflowState();
         this.setState({
-            showFixedMobileMenu: !this.state.showFixedMobileMenu
+            showFixedMobileMenu: !this.state.showFixedMobileMenu,
         });
     }
 
@@ -150,7 +150,7 @@ export default class Menu extends React.Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/historie-slubne">
+                                            <Link href="/reportaze-slubne-sesje-plenerowe">
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="KILKA HISTORII" />
                                             </Link>
                                         </li>
@@ -160,7 +160,7 @@ export default class Menu extends React.Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/kontakt">
+                                            <Link href="/oferta-fotografii-slubnej">
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="OFERTA" />
                                             </Link>
                                         </li>
@@ -197,7 +197,7 @@ export default class Menu extends React.Component {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/historie-slubne">
+                                    <Link href="/reportaze-slubne-sesje-plenerowe">
                                         <a>KILKA HISTORII</a>
                                     </Link>
                                 </li>
@@ -214,7 +214,7 @@ export default class Menu extends React.Component {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/kontakt">
+                                    <Link href="/oferta-fotografii-slubnej">
                                         <a>OFERTA</a>
                                     </Link>
                                 </li>

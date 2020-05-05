@@ -210,7 +210,7 @@ export default class OfferDesktop extends React.Component {
                         color: #FFF;
                     }
                     article header h2 {
-                        font-size: 30px;
+                        font-size: 2.5em;
                     }
 
                     .spacer {

@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, li {
   font-family:Oswald;
   font-style:normal;
   font-weight:bold;
-  line-height:1.1;  
+  line-height:1.1;
   text-rendering: optimizelegibility
 }
 

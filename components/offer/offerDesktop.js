@@ -51,7 +51,7 @@ export default class OfferDesktop extends React.Component {
 
                 <article>
                     <header>
-                        <h1 className="quote-title">OFERTA SESJI ZDJĘCIOWEJ</h1>
+                        <h3 className="quote-title">OFERTA SESJI ZDJĘCIOWEJ</h3>
                     </header>
 
                     <div className="container">
@@ -142,6 +142,7 @@ export default class OfferDesktop extends React.Component {
 
                     article h1 {
                         color: #fff;
+                        font-size: 2.5em;
                         text-align: left;
                     }
 
@@ -149,6 +150,11 @@ export default class OfferDesktop extends React.Component {
                         color: #fff;
                         padding: 0px 20px 10px 20px;
                         text-align: center;
+                    }
+
+                    article h3 {
+                        color: #fff;
+                        font-size: 2.5em;
                     }
 
                     .spacer {

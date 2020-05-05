@@ -164,7 +164,7 @@ export default class HistoriaDesktop extends React.Component {
                     <div className="spacer" />
                     <div>
                         <header>
-                            <h2 className="quote-title">ZNAJDŹMY CHWILĘ, ŚWIATŁO, KADR - ZACHOWAJMY JE NA ZAWSZE</h2>
+                            <h2 className="quote-title">ZNAJDŹMY CHWILĘ, ŚWIATŁO, KADR</h2>
                         </header>
 
                         <p>
@@ -273,9 +273,11 @@ export default class HistoriaDesktop extends React.Component {
                         font-family: "Oswald";
                         width: 1140px;
                     }
-
                     article h1 {
                         color: #fff;
+                    }
+                    article header h2 {
+                        font-size: 2.5em;
                     }
 
                     .spacer {
@@ -295,7 +297,6 @@ export default class HistoriaDesktop extends React.Component {
                         display: block;
                         border: 1px solid #33b59a;
                     }
-
                     .quote-title {
                         display: flex;
                         align-items: center;

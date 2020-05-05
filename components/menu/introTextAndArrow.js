@@ -114,12 +114,12 @@ export default class IntroTextAndArrow extends Component {
             }
                 .previewTitle {
                     color #FFF;
-                    font-size: 50px;                    
+                    font-size: 50px;
                 }
 
                 .previewDescription {
                     color: #FFF;
-                    font-size: 30px;
+                    font-size: 2.5em;
                     padding: 20px 20px 40px 20px;
                 }
 

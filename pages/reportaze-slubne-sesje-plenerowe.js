@@ -5,9 +5,9 @@ export default class HistoriaPageComponent extends React.Component {
         return (
             <div>
                 <Singlepage
-                    headTitle={"Historie ślubne, portfolio fotografa ślubnego"}
-                    headDescription={"Portfolio fotografa ślubnego, w którym zobaczycie wybrane historie ślubne i sesje plenerowe. Zapraszam."}
-                    headKeywords={"historie ślubne, reportaż ślubny kraków, portfolio fotografa ślubnego"}
+                    headTitle={"Reportaż ślubny i sesja plenerowa, portfolio fotografa ślubnego"}
+                    headDescription={"Portfolio fotografa ślubnego, w którym zobaczycie wybrane reportaże ślubne i sesje plenerowe. Zapraszam."}
+                    headKeywords={"reportaże ślubne i sesje plenerowe, portfolio fotografa ślubnego"}
                     headUrl={"https://99foto.pl/sesja-slubna-jesienia-palac-goetzow-okocimskich/"}
                     componentContentName={"historia"}
                     backgroundImage={"url(/static/sesja_slubna_jesienia.jpg)"}

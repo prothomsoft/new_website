@@ -3,11 +3,11 @@ module.exports = {
         return {
             "/": { page: "/" },
             "/blog": { page: "/blog" },
-            "/kontakt": { page: "/kontakt" },
+            "/oferta-fotografii-slubnej": { page: "/oferta-fotografii-slubnej" },
             "/fotografia-slubna-krakow": { page: "/fotografia-slubna-krakow" },
             "/sesja-zdjeciowa-krakow": { page: "/sesja-zdjeciowa-krakow" },
             "/misja-i-faq": { page: "/misja-i-faq" },
-            "/historie-slubne": { page: "/historie-slubne" },
+            "/reportaze-slubne-sesje-plenerowe": { page: "/reportaze-slubne-sesje-plenerowe" },
             "/strefa-klienta": { page: "/strefa-klienta" },
             "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },
             "/plener-slubny-na-rynku-w-krakowie": { page: "/plener-slubny-na-rynku-w-krakowie" },

@@ -21,14 +21,14 @@ const CaptionSectionWrapper = styled.div`
         background-color: transparent;
         width: 20%;
         font-size: 16px;
-        border: ${props => (props.black ? "4px solid #000" : "4px solid #FFF")};
-        color: ${props => (props.black ? "#000" : "#FFF")};
+        border: ${(props) => (props.black ? "4px solid #000" : "4px solid #FFF")};
+        color: ${(props) => (props.black ? "#000" : "#FFF")};
     }
 
     input[type="submit"]:hover {
         width: 20%;
-        border: ${props => (props.black ? "4px solid #000" : "4px solid #FFF")};
-        background-color: ${props => (props.black ? "#FFF" : "#FFF")};
+        border: ${(props) => (props.black ? "4px solid #000" : "4px solid #FFF")};
+        background-color: ${(props) => (props.black ? "#FFF" : "#FFF")};
         color: #000;
     }
 
@@ -76,7 +76,7 @@ export default class LeadDesktop extends Component {
                             color: #fff;
                         }
                         .previewDescription {
-                            font-size: 30px;
+                            font-size: 2.5em;
                             padding: 20px 20px 40px 20px;
                             color: #fff;
                         }
