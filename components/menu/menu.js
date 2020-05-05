@@ -125,7 +125,7 @@ export default class Menu extends React.Component {
                         <div className={navClassName} style={{ background: `${background}` }}>
                             <div className="mtn-bar-wrap" style={{ background: `${background}` }}>
                                 <a className="mtn-mobile-logo" style={{ backgroundColor: `${background}` }} href="/">
-                                    <img src="/static/99foto_logo_mobile.svg" style={{ width: "105px", visibility: `${logoVisibility}` }} />
+                                    <img src="/static/99foto_logo_mobile.svg" alt="fotograf ślubny kraków" style={{ width: "105px", visibility: `${logoVisibility}` }} />
                                 </a>
                                 <i onClick={this.showFixedMobileMenu} className="mtn-trigger">
                                     <i />
