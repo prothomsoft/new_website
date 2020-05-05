@@ -6,17 +6,17 @@ RewriteEngine On
 
 Options FollowSymLinks
 
-RewriteEngine On
+Redirect 301 "/historie-slubne" "/reportaze-slubne-sesje-plenerowe"
+Redirect 301 "/kontakt" "/oferta-fotografii-slubnej"
+
 RewriteCond %{REQUEST_URI} !^.*\.html$
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ %{REQUEST_FILENAME}.html
 
-RewriteCond %{HTTP_HOST} ^www.(.*)$ [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
 RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] 
+RewriteRule ^(.*)$ https://99foto.pl [L,R=301] 
 
 # TN Expires Caching Start #
 <IfModule mod_expires.c>

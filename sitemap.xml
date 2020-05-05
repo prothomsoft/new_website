@@ -2,8 +2,20 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://99foto.pl/plener-slubny-na-rynku-w-krakowie/</loc>
+		<lastmod>2020-05-02T11:32:22Z</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://99foto.pl/reportaze-slubne-sesje-plenerowe/</loc>
+		<lastmod>2020-05-03T11:32:22Z</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>	
+	<url>
 		<loc>https://99foto.pl/oferta-fotografii-slubnej/</loc>
-		<lastmod>2017-08-21T11:32:22Z</lastmod>
+		<lastmod>2020-05-04T11:32:22Z</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
