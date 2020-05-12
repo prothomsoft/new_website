@@ -188,7 +188,7 @@ export default class SesjaMobile extends React.Component {
                         współpracować! Jeszcze raz dziękujemy za przepiękne zdjęcia <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">Anna i Piotr</Link>.
                     </p>
                     <LazyLoad offsetVertical={300}>
-                        <img src={"/static/portfolio/plener_slubny_szczyrbskie_jezioro.jpg"} />
+                        <img src={"/static/portfolio/plener_slubny_w_gorach.jpg"} />
                     </LazyLoad>
                     <p>
                         Chcielibyśmy bardzo podziękować za pełen profesjonalizm zarówno w dniu ślubu jak i na sesji! Rewelacyjne zdjęcia, super współpraca, nie da się ukryć że Tomasz robi to, co lubi
@@ -200,7 +200,7 @@ export default class SesjaMobile extends React.Component {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        text-align: center;                        
+                        text-align: center;
                         font-family: 'Oswald';
                         width: 100%;
                         color #BEBEBE;
@@ -210,24 +210,20 @@ export default class SesjaMobile extends React.Component {
                         color: #FFF;
                         font-size: 26px;
                     }
-
                     .spacer {
                         height: 50px;
                     }
-                    
                     p {
                         font-size: 16px;
                         margin: 20px 0;
                         text-align: justify;
-                    }                
-                                    
+                    }
                     .quote-title::before,
                     .quote-title::after {
                         content: '';
                         display: block;
-                        border: 1px solid #33B59A;                    
+                        border: 1px solid #33B59A;
                     }
-                    
                     .quote-title {
                         margin: 10px 0 0px 0;
                         display: flex;
@@ -235,12 +231,11 @@ export default class SesjaMobile extends React.Component {
                         color: #FFFFFF;
                         padding: 0px 0 0px 0;
                     }
-                    
                     .quote-title::before,
                     .quote-title::after {
                         flex-grow: 1;
                         margin: 0 10px;
-                    }  
+                    }
                 `}</style>
             </div>
         );

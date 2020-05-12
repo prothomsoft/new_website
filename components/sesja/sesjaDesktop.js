@@ -188,7 +188,7 @@ export default class OfferDesktop extends React.Component {
                         współpracować! Jeszcze raz dziękujemy za przepiękne zdjęcia <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">Anna i Piotr</Link>.
                     </p>
                     <LazyLoad height={760} offsetVertical={300}>
-                        <img src={"/static/portfolio/plener_slubny_szczyrbskie_jezioro.jpg"} />
+                        <img src={"/static/portfolio/plener_slubny_w_gorach.jpg"} />
                     </LazyLoad>
                     <p>
                         Chcielibyśmy bardzo podziękować za pełen profesjonalizm zarówno w dniu ślubu jak i na sesji! Rewelacyjne zdjęcia, super współpraca, nie da się ukryć że Tomasz robi to, co lubi
