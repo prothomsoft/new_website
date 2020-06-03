@@ -16,7 +16,7 @@ module.exports = {
             "/sala-weselna-alexia-ochojno-emocje-i-swietna-zabawa": { page: "/sala-weselna-alexia-ochojno-emocje-i-swietna-zabawa" },
             "/wigilia-firmowa-saba-2019": { page: "/wigilia-firmowa-saba-2019" },
             "/wigilia-firmowa-smartrecruiters-2019": { page: "/wigilia-firmowa-smartrecruiters-2019" },
-            "/we-are-all-friends-here-letownia-krzczonow-spytkowice": { page: "/we-are-all-friends-here-letownia-krzczonow-spytkowice" },
+            "/sala-weselna-kabanos-spytkowice-akordeonowe-love": { page: "/sala-weselna-kabanos-spytkowice-akordeonowe-love" },
             "/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour": { page: "/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour" },
             "/reverse-recruiting-smartow": { page: "/reverse-recruiting-smartow" },
             "/sesja-na-slowacji-tatrzanska-lomnica-szczyrbskie-jezioro": { page: "/sesja-na-slowacji-tatrzanska-lomnica-szczyrbskie-jezioro" },

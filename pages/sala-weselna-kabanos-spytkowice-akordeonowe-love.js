@@ -4,8 +4,8 @@ export default class BlogPageComponent extends React.Component {
     render() {
         let slide = [
             {
-                imageUrl: "/static/przystan_kabanos_spytkowice.jpg"
-            }
+                imageUrl: "/static/przystan_kabanos_spytkowice.jpg",
+            },
         ];
 
         let images = [
@@ -162,7 +162,7 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "https://99foto.pl/static/blog/2019/11/sala_weselna_kabanos_spytkowice_0154.jpg", height: 382 },
             { imageSrc: "https://99foto.pl/static/blog/2019/11/sala_weselna_kabanos_spytkowice_0155.jpg", height: 763 },
             { imageSrc: "https://99foto.pl/static/blog/2019/11/sala_weselna_kabanos_spytkowice_0150.jpg", height: 383 },
-            { imageSrc: "https://99foto.pl/static/blog/2019/11/sala_weselna_kabanos_spytkowice_0132.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/static/blog/2019/11/sala_weselna_kabanos_spytkowice_0132.jpg", height: 763 },
         ];
 
         return (
@@ -170,22 +170,24 @@ export default class BlogPageComponent extends React.Component {
                 <Blogpage
                     slide={slide}
                     images={images}
-                    headTitle={"Fotograf na wesele Łętownia, Krzczonów, Spytkowice"}
-                    headDescription={"Po kilku latach fotografowania ślubów w okolicach Łętowni, Krzczonowa, Spytkowic, Myślenic robiąc zdjęcia na ślubie w tych okolicach czuje się jak w domu. Totalnie ziomalski klimat na ślubie Amandy i Jacka. Zapraszam."}
+                    headTitle={"Sala weselna Kabanos Spytkowice, akordeonowe love"}
+                    headDescription={
+                        "Po kilku latach fotografowania ślubów w okolicach Łętowni, Krzczonowa, Spytkowic, Myślenic robiąc zdjęcia na ślubie w tych okolicach czuje się jak w domu. Totalnie ziomalski klimat na ślubie Amandy i Jacka. Zapraszam."
+                    }
                     headKeywords={"fotograf na wesele Łętownia, sala weselna Spytkowice, zdjęcia ślubne Krzczonów"}
-                    headUrl={"https://99foto.pl/we-are-all-friends-here-letownia-krzczonow-spytkowice/"}
+                    headUrl={"https://99foto.pl/sala-weselna-kabanos-spytkowice-akordeonowe-love/"}
                     entryContentP1={
                         'Po kilku latach fotografowania ślubów w okolicach Łętowni, Krzczonowa, Pcimia, Tokarni, Spytkowic i Myślenic robiąc zdjęcia na ślubie w tamtych okolicach czuje się jak w domu. Totalnie ziomalski klimat gdzie każdy z uśmiechem przybija pione i nie schodzi z parkietu do białego rana. Przygotowania, na których nie ma czasu na grupówki bo tyle ciekawszych rzeczy dzieje się równocześnie. Otwartość ludzi, której współczynnik rośnie odwrotnie proporcjonalnie do odległości od szczytów górskich. Góralska mowa, która wkrada się do słownika gości weselnych często, bardzo często. Okoliczności do focenia level master. Ale do sedna. Dzień otworzyliśmy wizytą na makijażu w domowym studio wizażu <a href="https://www.facebook.com/madebymemakeup" target="_blank" rel="nofollow">Made by me Ewa Kobiałka</a>. Minka Amandy, która zebrała już żniwo na <a href="https://www.instagram.com/99foto.pl/" target="_blank" rel="nofollow">moim instagramie</a>, mówiła sama za siebie, było idealnie. Przygotowania Panny Młodej i Pana Młodego minęły błyskawicznie.'
                     }
                     entryContentP2={
                         'Jacek przyjechał Mustangiem, wygarnął kilka nut na akordeonie. Amanda była jego, nie było innej opcji. Błogosławieństwo pełne emocji i piękna ceremonia w <a href="http://letownia.katolicki.eu/" target="_blank" rel="nofollow">Kościele Świętych Apostołów Szymona i Judy Tadeusza w Łętowni</a>. Dwie nieszablonowe bramy po drodze wysprzątały baganiżnik Mustanga niemalże do zera. Tradycyjne przywitanie przez rodziców i szampanówki roztrzaskane na szczęście otworzyły wrota <a href="http://przystanwkabanosie.pl/" target="_blank" rel="nofollow">Restauracja Przystań w Kabanosie w Spytkowicach</a>. Amanda i Jacek zostali przywitani przez Gabrysię z <a href="http://www.somgorsy.pl/" target="_blank" rel="nofollow">Zespółu Muzycznego Somgorsy</a>, a ich pierwszy taniec w moment po gorących życzeniach i pysznym obiedzie otworzył parkiet. Muza na bardzo wysokim poziomie dopasowana do gustu gości dodała im skrzydeł. Sandra z <a href="https://www.facebook.com/psvideofoto/" target="_blank" rel="nofollow">PS Filmy w parze z fotografią</a> filmowała każdą sekundę dance floorowego szaleństwa z uśmiechem na ustach. Nikt nie wie kiedy to się stało, ale w pewnym momencie Gabrysia zarządziła oczepiny. Welon i krawat poszybowały w górę. Szalona zabawa w łapki na podłodze zakończyła konkurs na najbardziej wygimnastykowaną parę wesela. Dużo się działo. Zapraszam na zestaw zdjęć na żywca bez ustawek. Miłego oglądania.'
                     }
-                    slug={"we-are-all-friends-here-letownia-krzczonow-spytkowice"}
-                    title={"WE ARE ALL FRIENDS HERE ŁĘTOWNIA, KRZCZONÓW, SPYTKOWICE - AMANDA i JACEK"}
+                    slug={"sala-weselna-kabanos-spytkowice-akordeonowe-love"}
+                    title={"SALA WESELNA KABANOS SPYTKOWICE, AKORDEONOWE LOVE - AMANDA i JACEK"}
                     tags={"fotograf na wesele Łętownia, sala weselna Spytkowice, zdjęcia ślubne Krzczonów"}
                     date={"14 listopada 2019"}
                     menuNames={"AMANDA i JACEK"}
-                    menuTitle={"WE ARE ALL FRIENDS HERE ŁĘTOWNIA, KRZCZONÓW, SPYTKOWICE"}
+                    menuTitle={"SALA WESELNA KABANOS SPYTKOWICE, AKORDEONOWE LOVE"}
                     leadNames={"PATRYCJA i KRZYSZTOF"}
                     leadTitle={"DWOREK FANTAZJA SKOMIELNA BIAŁA i ŚLUB W STYLU GLAMOUR"}
                     leadUrl={"/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour"}
