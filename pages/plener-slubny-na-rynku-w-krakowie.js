@@ -61,7 +61,7 @@ export default class BlogPageComponent extends React.Component {
                     slug={"plener-slubny-na-rynku-w-krakowie"}
                     title={"PLENER ŚLUBNY NA RYNKU W KRAKOWIE - PATRYCJA i KRZYSZTOF"}
                     tags={"plener ślubny w czasie epidemii koronawirusa, sesja zdjęciowa na rynku w Krakowie"}
-                    date={"02 maja 2029"}
+                    date={"02 maja 2020"}
                     menuNames={"PATRYCJA i KRZYSZTOF"}
                     menuTitle={"PLENER ŚLUBNY NA RYNKU W KRAKOWIE"}
                     leadNames={"MARLENA i ADAM"}

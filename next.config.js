@@ -10,6 +10,7 @@ module.exports = {
             "/reportaze-slubne-sesje-plenerowe": { page: "/reportaze-slubne-sesje-plenerowe" },
             "/strefa-klienta": { page: "/strefa-klienta" },
             "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },
+            "/sesja-slubna-pieniny-szczawnica-wysoki-wierch": { page: "/sesja-slubna-pieniny-szczawnica-wysoki-wierch" },
             "/plener-slubny-na-rynku-w-krakowie": { page: "/plener-slubny-na-rynku-w-krakowie" },
             "/smart-reverse-recruitment": { page: "/smart-reverse-recruitment" },
             "/wieczor_panienski_bubble_toast_krakow": { page: "/wieczor_panienski_bubble_toast_krakow" },
