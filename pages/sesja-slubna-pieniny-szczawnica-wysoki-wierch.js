@@ -52,7 +52,7 @@ export default class BlogPageComponent extends React.Component {
                     images={images}
                     headTitle={"Plener ślubny Pieniny, Szczawnica, Wysoki Wierch"}
                     headDescription={"Plener ślubny Pieniny, podróż kolejką linową na Palenicę w Szczawnicy i dwie godziny spaceru niebieskim szlakiem. Serdecznie zapraszam na Wysoki Wierch."}
-                    headKeywords={"sesja ślubna pieniny, wysoki wierch w pieninach, fotograf na sesję ślubną szczawnica"}
+                    headKeywords={"sesja ślubna pieniny, wysoki wierch w pieninach, fotograf na sesje ślubną szczawnica"}
                     headUrl={"https://99foto.pl/sesja-slubna-pieniny-szczawnica-wysoki-wierch/"}
                     entryContentP1={
                         "Zbliża się długi weekend czerwcowy, więc dla wielu z nas to doskonała okazja do wyrwania się z miasta w poszukiwaniu spokoju, czystego powietrza i pięknych widoków. Sesja ślubna w Pieninach to doskonała ku temu okazja. Być może zapytacie mnie dlaczego na sesję ślubną wybraliśmy Pieniny. Miejsce to gwarantuje nam szereg pięknych krajobrazów, rozległych pasm górskich wśród których odnajdziemy wyróżniające się Trzy Korony i Sokolice. W zasięgu wzroku mamy oddaloną panoramę Tatr, świetnie zagospodarowaną promenadę w Szczawnicy, a w bliskiej odległości Przełom Białki, zamki w Czorsztynie i Niedzicy oraz wiele innych ciekawych atrakcji turystycznych. Na nasz sobotni plener ślubny w Pieninach wyruszyliśmy z Krakowa o godzinie dziesiątej rano."
@@ -62,7 +62,7 @@ export default class BlogPageComponent extends React.Component {
                     }
                     slug={"sesja-slubna-pieniny-szczawnica-wysoki-wierch"}
                     title={"SESJA ŚLUBNA PIENINY, SZCZAWNICA, WYSOKI WIERCH - EWELINA i JAKUB"}
-                    tags={"sesja ślubna pieniny, wysoki wierch w pieninach, fotograf na sesję ślubną szczawnica"}
+                    tags={"sesja ślubna pieniny, wysoki wierch w pieninach, fotograf na sesje ślubną szczawnica"}
                     date={"10 czerwca 2020"}
                     menuNames={"EWELINA i JAKUB"}
                     menuTitle={"SESJA ŚLUBNA PIENINY, SZCZAWNICA, WYSOKI WIERCH"}
