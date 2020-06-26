@@ -69,6 +69,7 @@ export default class ClientList extends React.Component {
 
     render() {
         let menuSpace = null;
+        let fontSize = null;
         let componentOne = null;
         let componentTwo = null;
 
@@ -82,12 +83,14 @@ export default class ClientList extends React.Component {
             if (this.state.width < 1160) {
                 height = 0;
                 menuSpace = "70px";
+                fontSize = "1.6em";
                 componentOne = null;
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={menuSpace} />;
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
                 contact = <ContactMobile />;
             } else {
                 menuSpace = "180px";
+                fontSize = "2.6em";
                 componentOne = null;
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={menuSpace} />;
                 lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
@@ -104,7 +107,7 @@ export default class ClientList extends React.Component {
         }
 
         let title = (post, width) => {
-            //return post.name.concat(" - ").concat(moment(post.creationDate).format('DD-MM-YYYY'));
+            //return post.name.concat(" - ").concat(moment(post.creationDate).format("DD-MM-YYYY"));
             return post.name;
         };
 
@@ -122,7 +125,9 @@ export default class ClientList extends React.Component {
                 <SectionWrapper>
                     {this.props.posts.map((post, key) => (
                         <div key={key}>
-                            <h1 className="quote-title">{title(post)}</h1>
+                            <h1 className="quote-title" style={{ fontSize: fontSize }}>
+                                {title(post)}
+                            </h1>
                             <Link as={`/${post.slug}`} href={`/${post.slug}`}>
                                 <a href={`http://sk.99foto.pl/login/${post.welcomeURL}`} target="_blank" rel="nofollow">
                                     {getProperLazyLoad(`/static/client/${post.welcomeURL}.jpg`, height)}
