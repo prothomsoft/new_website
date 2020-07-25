@@ -10,6 +10,8 @@ module.exports = {
             "/reportaze-slubne-sesje-plenerowe": { page: "/reportaze-slubne-sesje-plenerowe" },
             "/strefa-klienta": { page: "/strefa-klienta" },
             "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },
+            "/folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem": { page: "/folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem" },
+            "/wesele-w-bystrej-i-ogrod-pelen-lawendy-w-klimontowie": { page: "/wesele-w-bystrej-i-ogrod-pelen-lawendy-w-klimontowie" },
             "/sesja-slubna-pieniny-szczawnica-wysoki-wierch": { page: "/sesja-slubna-pieniny-szczawnica-wysoki-wierch" },
             "/plener-slubny-na-rynku-w-krakowie": { page: "/plener-slubny-na-rynku-w-krakowie" },
             "/smart-reverse-recruitment": { page: "/smart-reverse-recruitment" },
