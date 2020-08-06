@@ -169,7 +169,7 @@ export default class BlogPageComponent extends React.Component {
                     leadNames={"NATALIA i TOMASZ"}
                     leadTitle={"WESELE W BYSTREJ I OGRÓD PEŁEN LAWENDY W KLIMONTOWIE"}
                     leadUrl={"/wesele-w-bystrej-i-ogrod-pelen-lawendy-w-klimontowie"}
-                    leadImage={"url(/static//karolinka_bystra_podhalanska_wesele.jpg)"}
+                    leadImage={"url(/static/karolinka_bystra_podhalanska_wesele.jpg)"}
                 />
             </div>
         );

@@ -71,6 +71,20 @@ export default class PortfolioMobile extends Component {
                     <header>
                         <h2 className="quote-title">POLECANE REPORTAŻE</h2>
                     </header>
+                    <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
+                        <div className="porfolioImage">
+                            <LazyLoad offsetVertical={300}>
+                                <img alt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu" src={"/static/portfolio/hotel_mercure_kasprowy_zakopane.jpg"} />
+                            </LazyLoad>
+                        </div>
+                    </Link>
+                    <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
+                        <div className="porfolioCaption">
+                            <p style={{ textAlign: "center" }}>
+                                WESELE W ZAKOPANEM HOTEL KASPROWY <br /> PATRYCJA i TOMASZ
+                            </p>
+                        </div>
+                    </Link>
                     <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
                         <div className="porfolioImage">
                             <LazyLoad offsetVertical={300}>

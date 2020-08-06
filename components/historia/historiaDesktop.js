@@ -15,10 +15,10 @@ export default class HistoriaDesktop extends React.Component {
                         <h1 className="quote-title">REPORTAŻE ŚLUBNE i SESJE PLENEROWE</h1>
                     </header>
                     <div style={{ display: "flex" }}>
-                        <Link href="/plener-slubny-na-rynku-w-krakowie">
+                        <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="Plener ślubny na Rynku w Krakowie" src={"/static/portfolio_dtp/plener_0002.jpg"} />
+                                    <img alt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu" src={"/static/portfolio_dtp/hotel_mercure_kasprowy_zakopane.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -29,19 +29,20 @@ export default class HistoriaDesktop extends React.Component {
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
+                        <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="wesele międzynarodowe, polskie tradycje weselne" src={"/static/portfolio_dtp/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} />
+                                    <img alt="sesja zdjęciowa w górach" src={"/static/portfolio_dtp/plener_slubny_slowacja.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/plener-slubny-na-rynku-w-krakowie">
+                        <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
                             <div className="porfolioCaption">
                                 <h3 style={{ textAlign: "center" }}>
-                                    PLENER ŚLUBNY NA RYNKU W KRAKOWIE <br /> PATRYCJA i KRZYSZTOF
+                                    WESELE W ZAKOPANEM HOTEL KASPROWY
+                                    <br /> PATRYCJA i TOMASZ
                                 </h3>
                             </div>
                         </Link>
@@ -53,11 +54,11 @@ export default class HistoriaDesktop extends React.Component {
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
+                        <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    WESELE MIĘDZYNARODOWE KRAKÓW
-                                    <br /> MONIKA i MARTIN
+                                    SESJA ZDJĘCIOWA W GÓRACH
+                                    <br /> MAŁGORZATA i RAFAŁ
                                 </p>
                             </div>
                         </Link>
@@ -77,10 +78,10 @@ export default class HistoriaDesktop extends React.Component {
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
+                        <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja zdjęciowa w górach" src={"/static/portfolio_dtp/plener_slubny_slowacja.jpg"} />
+                                    <img alt="ślub w stylu glamour" src={"/static/portfolio_dtp/dworek_fantazja_skomielna_biala_fotograf.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -102,11 +103,12 @@ export default class HistoriaDesktop extends React.Component {
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
+                        <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    SESJA ZDJĘCIOWA W GÓRACH
-                                    <br /> MAŁGORZATA i RAFAŁ
+                                    ŚLUB W STYLU GLAMOUR
+                                    <br />
+                                    PATRYCJA i KRZYSZTOF
                                 </p>
                             </div>
                         </Link>
@@ -126,10 +128,10 @@ export default class HistoriaDesktop extends React.Component {
                                 </LazyLoad>
                             </div>
                         </Link>
-                        <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
+                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                             <div className="porfolioImage">
                                 <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="ślub w stylu glamour" src={"/static/portfolio_dtp/dworek_fantazja_skomielna_biala_fotograf.jpg"} />
+                                    <img alt="wesele międzynarodowe, polskie tradycje weselne" src={"/static/portfolio_dtp/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} />
                                 </LazyLoad>
                             </div>
                         </Link>
@@ -151,12 +153,11 @@ export default class HistoriaDesktop extends React.Component {
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
+                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                             <div className="porfolioCaption">
                                 <p style={{ textAlign: "center" }}>
-                                    ŚLUB W STYLU GLAMOUR
-                                    <br />
-                                    PATRYCJA i KRZYSZTOF
+                                    WESELE MIĘDZYNARODOWE KRAKÓW
+                                    <br /> MONIKA i MARTIN
                                 </p>
                             </div>
                         </Link>
