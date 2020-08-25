@@ -10,6 +10,7 @@ module.exports = {
             "/reportaze-slubne-sesje-plenerowe": { page: "/reportaze-slubne-sesje-plenerowe" },
             "/strefa-klienta": { page: "/strefa-klienta" },
             "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },
+            "/wesele-euforia-myslenice-plener-slubny-dwor-mogilany": { page: "/wesele-euforia-myslenice-plener-slubny-dwor-mogilany" },
             "/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje": { page: "/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje" },
             "/folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem": { page: "/folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem" },
             "/wesele-w-bystrej-i-ogrod-pelen-lawendy-w-klimontowie": { page: "/wesele-w-bystrej-i-ogrod-pelen-lawendy-w-klimontowie" },
