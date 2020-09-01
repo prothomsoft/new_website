@@ -4,8 +4,8 @@ export default class BlogPageComponent extends React.Component {
     render() {
         let slide = [
             {
-                imageUrl: "/static/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.jpg"
-            }
+                imageUrl: "/static/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.jpg",
+            },
         ];
 
         let images = [
@@ -43,7 +43,7 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "https://99foto.pl/static/blog/2018/05/plener_slubny_lomnicki_staw_0035.jpg", height: 763 },
             { imageSrc: "https://99foto.pl/static/blog/2018/05/plener_slubny_lomnicki_staw_0034.jpg", height: 763 },
             { imageSrc: "https://99foto.pl/static/blog/2018/05/plener_slubny_lomnicki_staw_0037.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2018/05/plener_slubny_lomnicki_staw_0012.jpg", height: 763 }
+            { imageSrc: "https://99foto.pl/static/blog/2018/05/plener_slubny_lomnicki_staw_0012.jpg", height: 763 },
         ];
 
         return (
