@@ -57,7 +57,7 @@ export default class BlogPageComponent extends React.Component {
                 <Blogpage
                     slide={slide}
                     images={images}
-                    headTitle={"plener ślubny w Krakoskim Ogrodzie Botanicznym"}
+                    headTitle={"Plener ślubny w Krakowskim Ogrodzie Botanicznym"}
                     headDescription={"Plener ślubny w Krakowskim Ogrodzie Botanicznym, sesja ślubna w Krakowie. Fotografem ślubnym zostałem, żeby robić właśnie takie zdjęcia. Zapraszam na bloga..."}
                     headKeywords={"plener ślubny w Ogrodzie Botanicznym, zakochani w Krakowie, ślubna sesja zdjęciowa jesienią"}
                     headUrl={"https://99foto.pl/plener-slubny-w-krakowskim-ogrodzie-botanicznym/"}
