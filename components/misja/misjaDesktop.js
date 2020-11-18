@@ -66,7 +66,7 @@ export default class HistoriaDesktop extends React.Component {
                                 <br />
                                 4. Jakiego sprzętu fotograficznego używasz w swojej pracy?
                                 <br />
-                                Zdjęcia wykonuję pełnoklatkowymi lustrzankami cyfrowymi Nikon i jasnymi obiektywami Nikkor i Sigma ART.
+                                Zdjęcia wykonuję bezlusterkowymi aparatami pełnoklatkowymi systemu Nikon Z i jasnymi obiektywami Nikkor Z.
                                 <br />
                                 <br />
                                 5. Do której godziny jesteś na weselu?
