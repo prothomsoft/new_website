@@ -4,7 +4,8 @@
     "scripts": {
         "dev": "node server.js",
         "build": "next build",
-        "export": "next export"
+        "export": "next export",
+        "start": "next start"
     },
     "dependencies": {
         "babel-plugin-module-resolver": "^3.2.0",
