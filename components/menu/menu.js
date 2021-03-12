@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import MyLink from "../menu/myLink";
 import IntroTextAndArrow from "../menu/introTextAndArrow";

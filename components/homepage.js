@@ -1,3 +1,4 @@
+import React from "react";
 import Layout from "../components/layout";
 import Slider from "../components/slider";
 import Menu from "../components/menu/menu";

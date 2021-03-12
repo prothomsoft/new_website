@@ -1,3 +1,4 @@
+import React from "react";
 import NProgress from "nprogress";
 import styled from "styled-components";
 import { Waypoint } from 'react-waypoint';

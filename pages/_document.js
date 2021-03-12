@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
 export default class SiteDocument extends Document {
@@ -6,13 +6,13 @@ export default class SiteDocument extends Document {
         const sheet = new ServerStyleSheet();
         const main = sheet.collectStyles(<Main />);
         return (
-            <html lang="pl-PL">
-                <Head></Head>
+            <Html lang="pl-PL">
+                <Head />
                 <body>
                     {main}
                     <NextScript />
                 </body>
-            </html>
+            </Html>
         );
     }
 }

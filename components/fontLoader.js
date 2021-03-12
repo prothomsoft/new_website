@@ -1,3 +1,4 @@
+import React from "react";
 import FontFaceObserver from "fontfaceobserver";
 
 export default class FontLoader extends React.Component {

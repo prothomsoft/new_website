@@ -1,3 +1,4 @@
+import React from "react";
 import Homepage from "../components/homepage";
 
 export default class Index extends React.Component {

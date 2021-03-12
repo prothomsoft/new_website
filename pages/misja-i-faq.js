@@ -1,3 +1,4 @@
+import React from "react";
 import Singlepage from "../components/singlepage";
 
 export default class MisjaPageComponent extends React.Component {

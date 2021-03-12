@@ -1,3 +1,4 @@
+import React from 'react';
 import Blogpage from "../components/blogpage";
 
 export default class BlogPageComponent extends React.Component {
