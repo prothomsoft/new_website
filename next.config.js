@@ -1,4 +1,9 @@
 module.exports = {
+    env: {
+        accessKeyId: "AKIAWII6DD5WIP3W3GPD",
+        secretAccessKey: "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",
+        region: "eu-west-3"
+    },
     exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
         return {
             "/": { page: "/" },

@@ -13,6 +13,7 @@ import PortfolioMobile from "../components/portfolio/portfolioMobile";
 import PortfolioTextDesktop from "../components/portfolio/portfolioTextDesktop";
 import PortfolioTextMobile from "../components/portfolio/portfolioTextMobile";
 import { isIOS } from "react-device-detect";
+import FontFaceObserver from "fontfaceobserver";
 
 var Element = Scroll.Element;
 
@@ -45,12 +46,26 @@ export default class Homepage extends React.Component {
         };
         this.updateOverflowState = this.updateOverflowState.bind(this);
         this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
-        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);        
     }
 
     componentDidMount() {
         this.updateWindowDimensions();
         window.addEventListener("resize", this.updateWindowDimensions);
+
+        let link = document.createElement("link");
+        link.href = "https://fonts.googleapis.com/css?family=Oswald:400&subset=latin,latin-ext";
+        link.rel = "stylesheet";
+        document.head.appendChild(link);
+
+        Promise.all([new FontFaceObserver("Oswald").load()]).then(
+            () => {
+                this.updateFontLoadedState();
+            },
+            err => {
+                console.error("Failed to load fonts!", err);
+            }
+        );
     }
 
     componentWillUnmount() {
@@ -104,7 +119,7 @@ export default class Homepage extends React.Component {
                 lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
             }
         } else {
-            componentOne = <Slider slides={this.props.slides} firstLoad={true} triggerParentUpdateFontLoadedStateSlider={this.updateFontLoadedState} />;
+            componentOne = <Slider slides={this.props.slides} firstLoad={true} />
         }
 
         let overflow = null;

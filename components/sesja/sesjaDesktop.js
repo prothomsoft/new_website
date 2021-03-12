@@ -6,8 +6,7 @@ export default class OfferDesktop extends React.Component {
     constructor() {
         super();
     }
-
-    render() {
+    render() {        
         return (
             <div>
                 <article>
@@ -20,32 +19,32 @@ export default class OfferDesktop extends React.Component {
                         chętnie odwiedzane przez turystów i pełne historii miasto. Fajnych miejsc na sesję zdjęciową nie trzeba tu poszukiwać długo. Łatwo odnajdziemy każdy styl by uwiecznić w nim
                         Waszą miłość.
                     </p>
-                    <Image src={"/static/portfolio/ogrod_botaniczny.jpg"} width='1140' height='760' quality='100'/>
+                    <Image src={"/static/portfolio/ogrod_botaniczny.jpg"} width='1140' height='760'/>
                     <p>
                         Na północ od Krakowa rozciągają się atrakcje turystyczne Jury Krakowsko-Częstochowskiej reprezentowane przez Ojcowski Park Narodowy, Zamek w Pieskowej Skale, Dwór w
                         Tomaszowicach czy Zamek w Korzkwi. Zachód Krakowa to Zalew w Kryspinowie, Dolina Bolechowicka, Zamek w Przegorzałach, Kopiec Kościuszki i Skałki Twardowskiego. Południe to Park
                         w Mogilanach, Kopiec Kraka i Park Bednarskiego. Wschód Krakowa natomiast to industrialne klimaty Nowej Huty oraz Muzeum Lotnictwa na Czyżynach.
                     </p>
-                    <Image src={"/static/portfolio/portfolio_0002.jpg"} width='1140' height='851'  quality='100'/>
+                    <Image src={"/static/portfolio/portfolio_0002.jpg"} width='1140' height='851'/>
                     <p>
                         Centrum to kwintesencja Krakowa czyli Bulwary Wiślane, klimatyczny Kazimierz, Plac Nowy, kluby i restauracje reprezentowane przez Mleczarnię, Alchemię, Starą Zajezdnie i Studio
                         Qulinarne. Stare Miasto i niezliczona ilość uliczek, Wawel, Planty, Zaułek Czartoryskich, Opera Krakowska, Sukiennice i Rynek Główny, Browar Lubicz, Hotel Stary - wymieniać
                         przeróżne miejsca można długo.
                     </p>
-                    <Image src={"/static/portfolio/plener_0002.jpg"} width='1140' height='761' quality='100'/>
+                    <Image src={"/static/portfolio/plener_0002.jpg"} width='1140' height='761'/>
                     <p>
                         Przygotowując się do sesji zdjęciowej i szukając odpowiedzi na pytanie gdzie można zrobić sesję fotograficzną w Krakowie, wpiszcie miejsca z powyższego paragrafu, a gwarantuję,
                         że znajdziecie coś dla Was. Niezliczona ilość zakątków, ciekawych miejsc tych bardziej znanych i dopiero czekających na odkrycie.
                     </p>
-                    <Image src={"/static/portfolio/portfolio_0014.jpg"} width='1140' height='760' quality='100'/>
+                    <Image src={"/static/portfolio/portfolio_0014.jpg"} width='1140' height='760'/>
                     <p>
                         Sesja zdjęciowa w Krakowie to przede wszystkim dobry plan w układaniu którego bardzo chętnie Wam pomogę, konsultując logistykę miejsc, podpowiadając pory dnia, które będą
                         najlepsze dla danej lokalizacji. Zdjęcia z pleneru mają być niezwykłe i niepowtarzalne dlatego warto poświęcić chwilę na znalezienie odpowiednich rekwizytów, które nadadzą
                         sesji oryginalności.
                     </p>
-                    <Image src={"/static/portfolio/portfolio_0008.jpg"} width='1140' height='760' quality='100'/>
+                    <Image src={"/static/portfolio/portfolio_0008.jpg"} width='1140' height='760'/>
                     <p>Warto też przygotować makijaż i fryzurę zbliżone do tego z dnia ślubu . Pamiętajcie też, by koniecznie zabrać ze sobą dobry humor - jest to bardzo ale to bardzo ważne.</p>
-                    <Image src={"/static/portfolio/sesja_zdjeciowa_palac_goetzow_brzesko.jpg"} width='1140' height='760' quality='100'/>
+                    <Image src={"/static/portfolio/sesja_zdjeciowa_palac_goetzow_brzesko.jpg"} width='1140' height='760'/>
                     <p>
                         Fotografia jest moją pasją od lat. Jak nie trudno zgadnąć skala kreatywności poczas sesji zdjęciowych sięga zenitu. Kilka chwil w dzień poprzedzający Waszą sesję zdjęciową
                         warto spędzić na przeanalizowaniu moich i istniejacych już w internecie prac innych fotografów ślubnych wykonanych w miejscach lub okolicach miejsc do których się wybieramy.

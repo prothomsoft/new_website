@@ -1,6 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import LazyLoad from "react-lazy-load";
+import aws from 'aws-sdk';
+
+aws.config.update({
+    accessKeyId: process.env.accessKeyId,
+    secretAccessKey: process.env.secretAccessKey,
+    region:process.env.region
+});
 
 export default class ContactDesktop extends React.Component {
     constructor() {
@@ -38,29 +45,44 @@ export default class ContactDesktop extends React.Component {
     handleSubmit = e => {
         e.preventDefault();
 
-        let formData = {
-            formSender: this.state.sender,
-            formEmail: this.state.email,
-            formMessage: this.state.message
+        let ses = new aws.SES();
+
+        let params = {
+            Destination: {
+                ToAddresses: [
+                "Tomasz Prokop <tomasz@99foto.pl>"
+            ]
+            }, 
+            Message: {
+                Body: {
+                    Html: {
+                    Charset: "UTF-8", 
+                    Data: this.state.message
+                    }
+                }, 
+                Subject: {
+                    Charset: "UTF-8", 
+                    Data: "Wiadomość od Tomasz Prokop (99FOTO.PL)"
+                }
+            }, 
+            Source: "Tomasz Prokop <tomasz@99foto.pl>",
+            ReplyToAddresses: [
+                this.state.sender + " <" + this.state.email + ">"
+            ]
         };
 
-        if (formData.formSender.length < 1 || formData.formEmail.length < 1 || formData.formMessage.length < 1) {
+        if (this.state.sender.length < 1 || this.state.email.length < 1 || this.state.message.length < 1) {
             return false;
         }
 
-        var esc = encodeURIComponent;
-        var query = Object.keys(formData)
-            .map(k => esc(k) + "=" + esc(formData[k]))
-            .join("&");
-
-        var sUrlWithParams = "https://99foto.pl/test.php" + "?" + query;
-        fetch(sUrlWithParams, {
-            method: "GET",
-            headers: {
-                Accept: "application/json, text/plain, */*",
-                "Content-Type": "application/json"
+        ses.sendEmail(params, function(err, data) {
+            if (err)  {
+                console.log(err, err.stack);
             }
-        });
+            else  {
+                console.log(data);
+            }  
+        });        
 
         this.setState({
             sender: "",

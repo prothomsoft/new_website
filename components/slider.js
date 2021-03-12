@@ -3,7 +3,6 @@ import NProgress from "nprogress";
 import styled from "styled-components";
 import { Waypoint } from 'react-waypoint';
 import Loader from "../components/loader";
-import FontLoader from "../components/fontLoader";
 import { isIOS } from "react-device-detect";
 
 const SliderWrapper = styled.div`
@@ -177,25 +176,18 @@ export default class Slider extends React.Component {
         }
 
         let loader = null;
-        let fontLoader = null;
+        
         if (this.props.firstLoad) {
             if (this.state.backgroundImage0Loaded) {
-                fontLoader = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState} />;
-                loader = <Loader />;
-            } else {
-                fontLoader = null;
                 loader = <Loader />;
             }
             if (this.state.fontLoaded) {
-                fontLoader = null;
-                loader = null;
-                this.props.triggerParentUpdateFontLoadedStateSlider();
+                loader = null;                
             }
         }
 
         return (
             <SliderWrapper>
-                {fontLoader}
                 {loader}
                 <Waypoint onEnter={this.onWaypointEntered.bind(this, "notScrolled")} onLeave={this.onWaypointLeft.bind(this, "scrolled")} />
                 <div className={styleFadeInOut} style={{ backgroundImage: `url(${this.state.backgroundImage})` }} />
