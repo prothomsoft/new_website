@@ -1,5 +1,4 @@
 import Bloglist from "../components/bloglist";
-import Fetch from "isomorphic-unfetch";
 
 function BlogListComponent({ posts }) {
     return (
@@ -20,7 +19,7 @@ function BlogListComponent({ posts }) {
 }
 
 export async function getStaticProps() {
-    const res = await Fetch(`http://wp.99foto.pl/wp-json/wp/v2/posts`);
+    const res = await fetch(`http://wp.99foto.pl/wp-json/wp/v2/posts`);
     const posts = await res.json();
     return {
         props: {

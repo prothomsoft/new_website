@@ -1,5 +1,4 @@
 import Clientlist from "../components/clientlist";
-import Fetch from "isomorphic-unfetch";
 
 function BlogListComponent({ posts }) {
     return (
@@ -19,7 +18,7 @@ function BlogListComponent({ posts }) {
     );
 }
 export async function getStaticProps() {
-    const res = await Fetch(`http://sk.99foto.pl/api/users/clients`);
+    const res = await fetch(`http://sk.99foto.pl/api/users/clients`);
     const posts = await res.json();
     return {
         props: {

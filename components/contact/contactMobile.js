@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Fetch from "isomorphic-unfetch";
 import LazyLoad from "react-lazy-load";
 
 export default class ContactMobile extends React.Component {
@@ -55,7 +54,7 @@ export default class ContactMobile extends React.Component {
             .join("&");
 
         var sUrlWithParams = "https://99foto.pl/test.php" + "?" + query;
-        Fetch(sUrlWithParams, {
+        fetch(sUrlWithParams, {
             method: "GET",
             headers: {
                 Accept: "application/json, text/plain, */*",
