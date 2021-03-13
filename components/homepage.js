@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../components/layout";
-import Slider from "../components/slider";
 import Menu from "../components/menu/menu";
 import Scroll from "react-scroll";
 import styled from "styled-components";
@@ -13,7 +12,7 @@ import PortfolioMobile from "../components/portfolio/portfolioMobile";
 import PortfolioTextDesktop from "../components/portfolio/portfolioTextDesktop";
 import PortfolioTextMobile from "../components/portfolio/portfolioTextMobile";
 import { isIOS } from "react-device-detect";
-import FontFaceObserver from "fontfaceobserver";
+import BackgroundSlider from 'react-background-slider'
 
 var Element = Scroll.Element;
 
@@ -22,7 +21,6 @@ const SectionWrapper = styled.div`
     width: 1160px;
     text-align: justify;
     padding: 20px 10px 0px 10px;
-
     @media (max-width: 1160px) {
         width: 100%;
     }
@@ -33,31 +31,15 @@ export default class Homepage extends React.Component {
         super(props);
         this.state = {
             overflow: true,
-            fontLoaded: false,
             width: "0"
         };
         this.updateOverflowState = this.updateOverflowState.bind(this);
-        this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);        
     }
 
     componentDidMount() {
         this.updateWindowDimensions();
         window.addEventListener("resize", this.updateWindowDimensions);
-
-        let link = document.createElement("link");
-        link.href = "https://fonts.googleapis.com/css?family=Oswald:400&subset=latin,latin-ext";
-        link.rel = "stylesheet";
-        document.head.appendChild(link);
-
-        Promise.all([new FontFaceObserver("Oswald").load()]).then(
-            () => {
-                this.updateFontLoadedState();
-            },
-            err => {
-                console.error("Failed to load fonts!", err);
-            }
-        );
     }
 
     componentWillUnmount() {
@@ -74,15 +56,7 @@ export default class Homepage extends React.Component {
         });
     }
 
-    updateFontLoadedState() {
-        this.setState({
-            fontLoaded: !this.state.fontLoaded
-        });
-    }
-
     render() {
-        let menuSpace = null;
-
         let componentOne = null;
         let componentTwo = null;
 
@@ -90,29 +64,23 @@ export default class Homepage extends React.Component {
         let portfolioText = <PortfolioTextDesktop />;
         let contact = <ContactDesktop />;
 
-        let lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
-
-        if (this.state.fontLoaded) {
-            if (this.state.width < 1160) {
-                menuSpace = "70px";
-                componentOne = <Slider slides={this.props.slides} firstLoad={false} />;
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={"100vh"} displayTextAndArrow={false} displayArrow={true} />;
-                portfolio = <PortfolioMobile />;
-                portfolioText = <PortfolioTextMobile />;
-                contact = <ContactMobile />;
-                lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
-            } else {
-                menuSpace = "5px";
-                componentOne = <Slider slides={this.props.slides} firstLoad={false} />;
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={"100vh"} displayTextAndArrow={false} displayArrow={true} />;
-                portfolio = <PortfolioDesktop />;
-                portfolioText = <PortfolioTextDesktop />;
-                contact = <ContactDesktop />;
-                lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
-            }
+        let lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
+        
+        if (this.state.width < 1160) {
+            componentOne =  <BackgroundSlider images={this.props.slides} duration={5} transition={3} />
+            componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={"100vh"} displayTextAndArrow={false} displayArrow={true} />
+            portfolio = <PortfolioMobile />;
+            portfolioText = <PortfolioTextMobile />;
+            contact = <ContactMobile />;
+            lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
         } else {
-            componentOne = <Slider slides={this.props.slides} firstLoad={true} />
-        }
+            componentOne = <BackgroundSlider  images={this.props.slides} duration={5} transition={3} />
+            componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={"100vh"} displayTextAndArrow={false} displayArrow={true} />
+            portfolio = <PortfolioDesktop />;
+            portfolioText = <PortfolioTextDesktop />;
+            contact = <ContactDesktop />;
+            lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
+        }        
 
         let overflow = null;
         if (this.state.overflow) {
@@ -132,21 +100,20 @@ export default class Homepage extends React.Component {
             <Layout title={this.props.headTitle} description={this.props.headDescription} keywords={this.props.headKeywords} url={this.props.headUrl} overflow={overflow}>
                 {componentOne}
                 {componentTwo}
-                <div style={{ height: menuSpace }} />
+                <div className="staticHeight" />
                 <Element id="portfolio" />
                 <SectionWrapper>{portfolio}</SectionWrapper>
-
                 <div className={bgImg2} style={{ backgroundImage: this.props.backgroundImage }} />
-
                 <SectionWrapper>{portfolioText}</SectionWrapper>
-
                 <SectionWrapper>{contact}</SectionWrapper>
-
                 <div className={bgImg3} style={{ backgroundImage: this.props.leadImage }}>
                     {lead}
                 </div>
-
                 <style jsx>{`
+
+                    .staticHeight {
+                        height: 100vh;
+                    }
                     article {
                         display: flex;
                         flex-direction: column;
