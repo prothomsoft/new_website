@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Layout from "../components/layout";
 import styled from "styled-components";
-import LazyLoad from "react-lazy-load";
 import Menu from "../components/menu/menu";
 import FontLoader from "../components/fontLoader";
 import Loader from "../components/loader";
@@ -11,20 +10,13 @@ import ContactMobile from "../components/contact/contactMobile";
 import LeadDesktop from "../components/footer/leadDesktop";
 import LeadMobile from "../components/footer/leadMobile";
 import { isIOS } from "react-device-detect";
+import Image from 'next/image';
 
 const SectionWrapper = styled.div`
     margin: 0 auto;
     width: 1160px;
     text-align: justify;
     padding: 0 10px 0 10px;
-    .LazyLoad {
-        opacity: 0;
-        transition: all 1s ease-in-out;
-
-        &.is-visible {
-            opacity: 1;
-        }
-    }
     @media (max-width: 1160px) {
         width: 100%;
     }
@@ -165,7 +157,9 @@ const PostLink = ({ post, height }) => (
         </div>
         <div>
             <Link as={`/${post.slug}`} href={`/${post.slug}`}>
-                <a>{getProperLazyLoad(getPostImage(post.content.rendered), height)}</a>
+                <a href={`/${post.slug}`}>
+                    <Image src={getPostImage(post.content.rendered)} width={1140} height={762} />
+                </a>
             </Link>
             <div className="entryContent" dangerouslySetInnerHTML={{ __html: getPostContent(post.content.rendered) }} />
             <div className="specialPadding">
@@ -205,22 +199,6 @@ const PostLink = ({ post, height }) => (
         `}</style>
     </article>
 );
-
-function getProperLazyLoad(imgSrc, height) {
-    if (height === 0) {
-        return (
-            <LazyLoad offsetVertical={300}>
-                <img src={imgSrc} />
-            </LazyLoad>
-        );
-    } else {
-        return (
-            <LazyLoad height={height} offsetVertical={300}>
-                <img src={imgSrc} />
-            </LazyLoad>
-        );
-    }
-}
 
 function getPostDate(content) {
     let postDate = new Date(Date.parse(content));
@@ -270,5 +248,6 @@ function getPostTags(content) {
 function getPostImage(content) {
     let fields = content.split('" alt="');
     fields = fields[0].split('<img src="');
-    return fields[1];
+    let res = fields[1].replace("https://99foto.pl", "");
+    return res;
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import NProgress from "nprogress";
 import styled from "styled-components";
 import { Waypoint } from 'react-waypoint';
 import Loader from "../components/loader";
@@ -157,15 +156,8 @@ export default class Slider extends React.Component {
         if (this.state.eachImageState == 0) {
             styleFadeInOut = "slideShow fadeIn";
         } else if (this.state.eachImageState == 4) {
-            styleFadeInOut = "slideShow fadeOut";
-            if (this.state.isScrollOnTop == "notScrolled") {
-                NProgress.done();
-            }
-        } else {
-            if (this.state.isScrollOnTop == "notScrolled") {
-                NProgress.configure({ parent: ".nProgressHandler" });
-                NProgress.inc();
-            }
+            styleFadeInOut = "slideShow fadeOut";            
+        } else {            
             styleFadeInOut = "slideShow";
         }
 

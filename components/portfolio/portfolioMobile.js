@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import LazyLoad from "react-lazy-load";
+import Image from 'next/image';
 import Link from "next/link";
 
 const CaptionSectionWrapper = styled.div`
@@ -73,43 +73,40 @@ export default class PortfolioMobile extends Component {
                     </header>
                     <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
                         <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu" src={"/static/portfolio/hotel_mercure_kasprowy_zakopane.jpg"} />
-                            </LazyLoad>
+                            <Image alt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu" src={"/static/portfolio/hotel_mercure_kasprowy_zakopane.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
                         <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
-                                WESELE W ZAKOPANEM HOTEL KASPROWY <br /> PATRYCJA i TOMASZ
+                            <p>
+                                WESELE W ZAKOPANEM HOTEL KASPROWY 
+                                <br />PATRYCJA i TOMASZ
                             </p>
                         </div>
                     </Link>
                     <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
                         <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="fotograf ślubny Kraków" src={"/static/portfolio/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg"} />
-                            </LazyLoad>
+                            
+                                <Image alt="fotograf ślubny Kraków" src={"/static/portfolio/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg"} width={1140} height={760} />
+                            
                         </div>
                     </Link>
                     <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
                         <div className="porfolioCaption">
-                            <h3 style={{ textAlign: "center" }}>
-                                FOTOGRAF ŚLUBNY KRAKÓW <br />
-                                ANNA i PIOTR
+                            <h3>
+                                FOTOGRAF ŚLUBNY KRAKÓW 
+                                <br />ANNA i PIOTR
                             </h3>
                         </div>
                     </Link>
                     <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                         <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="sesja zdjęciowa pałac goetzów brzesko" src={"/static/portfolio/plener_slubny_palac_goetzow_brzesko.jpg"} />
-                            </LazyLoad>
+                            <Image alt="sesja zdjęciowa pałac goetzów brzesko" src={"/static/portfolio/plener_slubny_palac_goetzow_brzesko.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                         <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
+                            <p>
                                 SESJA ŚLUBNA JESIENIĄ - PAŁAC GOETZÓW
                                 <br /> IZABELA i ARKADIUSZ
                             </p>
@@ -117,14 +114,12 @@ export default class PortfolioMobile extends Component {
                     </Link>
                     <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
                         <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio/dworek_fantazja_skomielna_biala_fotograf.jpg"} />
-                            </LazyLoad>
+                            <Image alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio/dworek_fantazja_skomielna_biala_fotograf.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
                         <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
+                            <p>
                                 ŚLUB W STYLU GLAMOUR
                                 <br /> PATRYCJA i KRZYSZTOF
                             </p>
@@ -132,60 +127,51 @@ export default class PortfolioMobile extends Component {
                     </Link>
                     <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                         <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="sesja zdjęciowa w górach" src={"/static/portfolio/plener_slubny_slowacja.jpg"} />
-                            </LazyLoad>
+                            <Image alt="sesja zdjęciowa w górach" src={"/static/portfolio/plener_slubny_slowacja.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                         <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
+                            <p>
                                 SESJA ZDJĘCIOWA W GÓRACH
-                                <br /> MAŁGORZATA i RAFAŁ
+                                <br />MAŁGORZATA i RAFAŁ
                             </p>
                         </div>
                     </Link>
                     <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                         <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="wesele międzynarodowe kraków" src={"/static/portfolio/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} />
-                            </LazyLoad>
+                            <Image alt="wesele międzynarodowe kraków" src={"/static/portfolio/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                         <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
+                            <p>
                                 WESELE MIĘDZYNARODOWE KRAKÓW
-                                <br />
-                                MONIKA i MARTIN
+                                <br />MONIKA i MARTIN
                             </p>
                         </div>
                     </Link>
                     <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
                         <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="fotograf na wesele kraków" src={"/static/portfolio/ogrod_botaniczny.jpg"} />
-                            </LazyLoad>
-                        </div>
+                            <Image alt="fotograf na wesele kraków" src={"/static/portfolio/ogrod_botaniczny.jpg"} width={1140} height={760} />
+                            </div>
                     </Link>
                     <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
                         <div className="porfolioCaption">
-                            <h4 style={{ textAlign: "center" }}>
-                                FOTOGRAF NA WESELE KRAKÓW <br />
-                                DAJANA i SYLWESTER
+                            <h4>
+                                FOTOGRAF NA WESELE KRAKÓW 
+                                <br />DAJANA i SYLWESTER
                             </h4>
                         </div>
                     </Link>
                     <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                         <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="wesele w góralskim klimacie" src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} />
-                            </LazyLoad>
-                        </div>
+                            <Image alt="wesele w góralskim klimacie" src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} width={1140} height={760} />
+                            </div>
                     </Link>
                     <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                         <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
+                            <p>
                                 WESELE W GÓRALSKIM KLIMACIE
                                 <br /> NATALIA i KAMIL
                             </p>
@@ -193,31 +179,26 @@ export default class PortfolioMobile extends Component {
                     </Link>
                     <Link href="/plener-slubny-na-rynku-w-krakowie">
                         <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="Plener ślubny na Rynku w Krakowie" src={"/static/portfolio/plener_0002.jpg"} />
-                            </LazyLoad>
+                            <Image alt="Plener ślubny na Rynku w Krakowie" src={"/static/portfolio/plener_0002.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/plener-slubny-na-rynku-w-krakowie">
                         <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
+                            <p>
                                 PLENER ŚLUBNY NA RYNKU W KRAKOWIE <br /> PATRYCJA i KRZYSZTOF
                             </p>
                         </div>
                     </Link>
                     <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
                         <div className="porfolioImage">
-                            <LazyLoad offsetVertical={300}>
-                                <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio/sesja_narzeczenska_klasztor_w_tyncu.jpg"} />
-                            </LazyLoad>
+                            <Image alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio/sesja_narzeczenska_klasztor_w_tyncu.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
                         <div className="porfolioCaption">
-                            <p style={{ textAlign: "center" }}>
+                            <p>
                                 SESJA ŚLUBNA KRAKÓW
-                                <br />
-                                TERESA i ANDRZEJ
+                                <br /> TERESA i ANDRZEJ
                             </p>
                         </div>
                     </Link>
@@ -234,6 +215,10 @@ export default class PortfolioMobile extends Component {
                 margin: 0 10px;
             }
 
+            .porfolioCaption p {
+                text-align: center;
+            }
+
             .porfolioCaption h3 {
                 font-family:Oswald;
                 font-style:normal;
@@ -243,6 +228,7 @@ export default class PortfolioMobile extends Component {
                 font-size: 16px;
                 padding: 0 20px 0 20px;
                 margin: 10px 0;
+                text-align: center;
             }
 
             .porfolioCaption h4 {
@@ -254,6 +240,7 @@ export default class PortfolioMobile extends Component {
                 font-size: 16px;
                 padding: 0 20px 0 20px;
                 margin: 10px 0;
+                text-align: center;
             }
 
             article {

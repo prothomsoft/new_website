@@ -32,14 +32,6 @@ const SectionWrapper = styled.div`
     text-align: justify;
     padding: 20px 10px 0px 10px;
 
-    .LazyLoad {
-        opacity: 0;
-        transition: all 1s ease-in-out;
-
-        &.is-visible {
-            opacity: 1;
-        }
-    }
     @media (max-width: 1160px) {
         width: 100%;
     }

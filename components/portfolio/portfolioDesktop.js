@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import LazyLoad from "react-lazy-load";
+import Image from 'next/image';
 import Link from "next/link";
 
 const CaptionSectionWrapper = styled.div`
@@ -71,48 +71,42 @@ export default class PortfolioDesktop extends Component {
                     <div style={{ display: "flex" }}>
                         <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
                             <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu" src={"/static/portfolio_dtp/hotel_mercure_kasprowy_zakopane.jpg"} />
-                                </LazyLoad>
+                                <Image alt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu" src={"/static/portfolio_dtp/hotel_mercure_kasprowy_zakopane.jpg"} width={336} height={225}/>
                             </div>
                         </Link>
                         <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
                             <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="bazylika bożego ciała kraków fotoreportaż ślubny" src={"/static/portfolio_dtp/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg"} />
-                                </LazyLoad>
+                                <Image alt="bazylika bożego ciała kraków fotoreportaż ślubny" src={"/static/portfolio_dtp/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg"} width={336} height={225}/>
                             </div>
                         </Link>
                         <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                             <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja zdjęciowa w górach" src={"/static/portfolio_dtp/plener_slubny_slowacja.jpg"} />
-                                </LazyLoad>
+                                <Image alt="sesja zdjęciowa w górach" src={"/static/portfolio_dtp/plener_slubny_slowacja.jpg"} width={336} height={225}/>
                             </div>
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
                         <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
                             <div className="porfolioCaption">
-                                <h3 style={{ textAlign: "center" }}>
+                                <h3>
                                     WESELE W ZAKOPANEM HOTEL KASPROWY
-                                    <br /> PATRYCJA i TOMASZ
+                                    <br />PATRYCJA i TOMASZ
                                 </h3>
                             </div>
                         </Link>
                         <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
                             <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
+                                <p>
                                     REPORTAŻ ŚLUBNY KRAKÓW
-                                    <br /> ANNA i PIOTR
+                                    <br />ANNA i PIOTR
                                 </p>
                             </div>
                         </Link>
                         <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                             <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
+                                <p>
                                     SESJA ZDJĘCIOWA W GÓRACH
-                                    <br /> MAŁGORZATA i RAFAŁ
+                                    <br />MAŁGORZATA i RAFAŁ
                                 </p>
                             </div>
                         </Link>
@@ -120,49 +114,42 @@ export default class PortfolioDesktop extends Component {
                     <div style={{ display: "flex" }}>
                         <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                             <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="wesele w góralskim klimacie" src={"/static/portfolio_dtp/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} />
-                                </LazyLoad>
-                            </div>
+                                <Image alt="wesele w góralskim klimacie" src={"/static/portfolio_dtp/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} width={336} height={225}/>
+                              </div>
                         </Link>
                         <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                             <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja zdjęciowa pałac goetzów brzesko" src={"/static/portfolio_dtp/plener_slubny_palac_goetzow_brzesko.jpg"} />
-                                </LazyLoad>
-                            </div>
+                                <Image alt="sesja zdjęciowa pałac goetzów brzesko" src={"/static/portfolio_dtp/plener_slubny_palac_goetzow_brzesko.jpg"} width={336} height={225}/>
+                              </div>
                         </Link>
                         <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
                             <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="ślub w stylu glamour" src={"/static/portfolio_dtp/dworek_fantazja_skomielna_biala_fotograf.jpg"} />
-                                </LazyLoad>
+                                <Image alt="ślub w stylu glamour" src={"/static/portfolio_dtp/dworek_fantazja_skomielna_biala_fotograf.jpg"} width={336} height={225}/>
                             </div>
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
                         <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                             <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
+                                <p>
                                     WESELE W GÓRALSKIM KLIMACIE
-                                    <br /> NATALIA i KAMIL
+                                    <br />NATALIA i KAMIL
                                 </p>
                             </div>
                         </Link>
                         <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                             <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
+                                <p>
                                     SESJA ŚLUBNA JESIENIĄ - PAŁAC GOETZÓW
-                                    <br /> IZABELA i ARKADIUSZ
+                                    <br />IZABELA i ARKADIUSZ
                                 </p>
                             </div>
                         </Link>
                         <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
                             <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
+                                <p>
                                     ŚLUB W STYLU GLAMOUR
-                                    <br />
-                                    PATRYCJA i KRZYSZTOF
+                                    <br />PATRYCJA i KRZYSZTOF
                                 </p>
                             </div>
                         </Link>
@@ -170,48 +157,42 @@ export default class PortfolioDesktop extends Component {
                     <div style={{ display: "flex" }}>
                         <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
                             <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="fotograf na wesele kraków" src={"/static/portfolio_dtp/ogrod_botaniczny.jpg"} />
-                                </LazyLoad>
+                                <Image alt="fotograf na wesele kraków" src={"/static/portfolio_dtp/ogrod_botaniczny.jpg"} width={336} height={225}/>
                             </div>
                         </Link>
                         <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
                             <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="sesja ślubna kraków" src={"/static/portfolio_dtp/sesja_narzeczenska_klasztor_w_tyncu.jpg"} />
-                                </LazyLoad>
+                                <Image alt="sesja ślubna kraków" src={"/static/portfolio_dtp/sesja_narzeczenska_klasztor_w_tyncu.jpg"} width={336} height={225}/>
                             </div>
                         </Link>
                         <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                             <div className="porfolioImage">
-                                <LazyLoad height={224} offsetVertical={300}>
-                                    <img alt="wesele międzynarodowe, polskie tradycje weselne" src={"/static/portfolio_dtp/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} />
-                                </LazyLoad>
+                                <Image alt="wesele międzynarodowe, polskie tradycje weselne" src={"/static/portfolio_dtp/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} width={336} height={225}/>
                             </div>
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
                         <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
                             <div className="porfolioCaption">
-                                <h4 style={{ textAlign: "center" }}>
-                                    FOTOGRAF NA WESELE KRAKÓW <br />
-                                    DAJANA i SYLWESTER
+                                <h4>
+                                    FOTOGRAF NA WESELE KRAKÓW 
+                                    <br />DAJANA i SYLWESTER
                                 </h4>
                             </div>
                         </Link>
                         <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
                             <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
+                                <p>
                                     SESJA ŚLUBNA KRAKÓW
-                                    <br /> TERESA i ANDRZEJ
+                                    <br />TERESA i ANDRZEJ
                                 </p>
                             </div>
                         </Link>
                         <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                             <div className="porfolioCaption">
-                                <p style={{ textAlign: "center" }}>
+                                <p>
                                     WESELE MIĘDZYNARODOWE KRAKÓW
-                                    <br /> MONIKA i MARTIN
+                                    <br />MONIKA i MARTIN
                                 </p>
                             </div>
                         </Link>
@@ -222,6 +203,7 @@ export default class PortfolioDesktop extends Component {
                     .porfolioImage {
                         position: relative;
                         width: 420px;
+                        height: 229px;
                         margin: 0 20px;
                         border: 2px solid transparent;
                         transition: border 0.5s;
@@ -243,6 +225,10 @@ export default class PortfolioDesktop extends Component {
                         margin: 0 20px;
                     }
 
+                    .porfolioCaption p {
+                        text-align: center;
+                    }
+
                     .porfolioCaption h3 {
                         font-family: Oswald;
                         font-style: normal;
@@ -252,6 +238,7 @@ export default class PortfolioDesktop extends Component {
                         font-size: 16px;
                         padding: 0 20px 0 20px;
                         margin: 10px 0;
+                        text-align: center;
                     }
 
                     .porfolioCaption h4 {
@@ -263,6 +250,7 @@ export default class PortfolioDesktop extends Component {
                         font-size: 16px;
                         padding: 0 20px 0 20px;
                         margin: 10px 0;
+                        text-align: center;
                     }
 
                     article {

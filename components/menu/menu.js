@@ -6,7 +6,6 @@ import IntroArrow from "../menu/introArrow";
 import styled from "styled-components";
 import Scroll from "react-scroll";
 import { Waypoint } from "react-waypoint";
-import NProgress from "nprogress";
 
 var LinkScroll = Scroll.Link;
 
@@ -81,8 +80,7 @@ export default class Menu extends React.Component {
         if (this.state.isScrollOnTop == "notScrolled") {
             background = "transparent";
         } else {
-            background = "#000000";
-            NProgress.done();
+            background = "#000000";            
         }
 
         let height = null;

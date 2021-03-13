@@ -84,47 +84,35 @@ export default class OfferDesktop extends React.Component {
                         szturchał Cię bez słowa przepraszam, to tutaj takiej osoby nie znajdziesz. Tomek, to ciepły człowiek o wielkim sercu do swojej pasji. Zrobi wszystko, żeby zachować Twoje
                         najpiękniejsze chwile w życiu! <Link href="/paulina-i-bartek-sesja-poslubna-kasprowy-wierch-i-nosal-zakopane">Paulina i Bartek</Link>.
                     </p>
-                    
-                        <Image src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} width={1140} height={760} />
-                    
+                    <Image src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} width={1140} height={760} />
                     <p>
                         Tak jak już wiele osób pisało – Tomek to profesjonalista w każdym calu! W niesamowity sposób uwiecznia na zdjęciach najważniejsze chwile – pełne wzruszeń, pozytywnych emocji i
                         radości. Wtapia się w gości, dzięki czemu zdjęcia są mega naturalne. Stwarza genialną atmosferę, jest przesympatyczny i ciągle uśmiechnięty – praca z Nim to sama przyjemność! A
                         zdjęcia dostarcza błyskawicznie! Tomku, raz jeszcze dziękujemy za przepiękne zdjęcia, dzięki którym wspomnienia powracają! Wszystkim gorąco polecamy!{" "}
                         <Link href="/sesja-zdjeciowa-kopiec-kraka-przegorzaly-kryspinow">Natalia i Tomasz</Link>.
                     </p>
-                    
-                        <Image src={"/static/portfolio/portfolio_0022.jpg"} width={1140} height={760} />
-                    
+                    <Image src={"/static/portfolio/portfolio_0022.jpg"} width={1140} height={760} />
                     <p>
                         Piękne zdjęcia i pełen profesjonalizm. Dziękujemy jeszcze raz za wspaniałą współprace. Szczerze polecam.{" "}
                         <Link href="/hotel-lenart-wieliczka-turkusowy-cadillac-de-ville">Monika i Mariusz</Link>.
                     </p>
-                    
-                        <Image src={"/static/portfolio/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} width={1140} height={760} />
-                    
+                    <Image src={"/static/portfolio/hotel_margerita_krakow_magiczny_wystroj_sali_weselnej_w_krakowie.jpg"} width={1140} height={760} />
                     <p>
                         Serdecznie polecamy Tomka! To świetny, niezwykle profesjonalny fotograf, który jest zaangażowany w swoją pracę, a przy tym jest przesympatyczny i zawsze uśmiechnięty. Zdjęcia
                         otrzymaliśmy w ekspresowym tempie, na każdym z nich Tomek uchwycił piękne chwile z naszego dnia. Zdjęcia są przepiękną pamiątką! Tomku, to była przyjemność z Tobą
                         współpracować! Jeszcze raz dziękujemy za przepiękne zdjęcia! <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">Anna i Piotr</Link>.
                     </p>
-                    
-                        <Image src={"/static/portfolio/portfolio_0017.jpg"} width={1140} height={760} />
-                    
+                    <Image src={"/static/portfolio/portfolio_0017.jpg"} width={1140} height={760} />
                     <p>
                         Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego
                         fotografa. Polecamy wszystkim ! <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">Aleksandra i Grzegorz</Link>.
                     </p>
-                    
-                        <Image src={"/static/portfolio/aleksandra_mszana_dolna.jpg"} width={1140} height={760} />
-                    
+                    <Image src={"/static/portfolio/aleksandra_mszana_dolna.jpg"} width={1140} height={760} />
                     <p>
                         Zaangażowany, baczny obserwator wydarzeń, profesjonalista z pasją i pomysłowością. Czego efektem są piękne zdjęcia! Dziękujemy i polecamy!{" "}
                         <Link href="/palac-goetza-brzesko-sluba-sesja-zdjeciowa">Magdalena i Łukasz</Link>.
                     </p>
-                    
-                        <Image src={"/static/portfolio/beata_marcin_mszana_dolna_portfolio.jpg"} width={1140} height={760} />
-                    
+                    <Image src={"/static/portfolio/beata_marcin_mszana_dolna_portfolio.jpg"} width={1140} height={760} />
                     <p>
                         Jednym słowem - człowek zajmujący się fotogafią ślubną z pasją, co widać po efektach. Już nie możemy doczekać się zdjęć z sesji. W przyszłości jeśli będę miała szukać
                         fotografa, na pewno zadzwonię do Tomka. Dziękujemy za przepiękne zdjęcia, zaangazowanie, uśmiech i energię, która udzieliła sie również nam. Do zobaczenia.{" "}

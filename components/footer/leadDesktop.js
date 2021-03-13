@@ -71,7 +71,7 @@ export default class LeadDesktop extends Component {
                             font-family: Oswald;
                             font-style: normal;
                             font-weight: bold;
-                            line-height: 1.1;
+                            line-height: 1.4;
                             text-rendering: optimizelegibility;
                             color: #fff;
                         }

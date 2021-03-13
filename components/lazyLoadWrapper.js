@@ -1,36 +1,12 @@
-import React, { Component } from "react";
-import LazyLoad from "react-lazy-load";
+import React, { Fragment } from "react";
+import Image from 'next/image';
 
-export default class LazyLoadWrapper extends Component {
+export default class LazyLoadWrapper extends React.Component {
     constructor(props) {
         super(props);
     }
 
     render() {
-        return <div>{this.props.images.map((image, key) => <LazyLoadSwitch imageSrc={image.imageSrc} height={image.height} key={image.imageSrc} skipHeight={this.props.skipHeight} />)}</div>;
+        return <Fragment>{this.props.images.map((image, key) => <Image src={image.imageSrc.replace("https://99foto.pl", "")} width={1140} height={image.height} />)}</Fragment>
     }
-}
-
-function LazyLoadSwitch(props) {
-    if (props.height == 0 || props.skipHeight) {
-        return <LazyLoadNoHeight imageSrc={props.imageSrc} />;
-    } else {
-        return <LazyLoadHeight height={props.height} imageSrc={props.imageSrc} />;
-    }
-}
-
-function LazyLoadNoHeight(props) {
-    return (
-        <LazyLoad offsetVertical={300}>
-            <img src={props.imageSrc} />
-        </LazyLoad>
-    );
-}
-
-function LazyLoadHeight(props) {
-    return (
-        <LazyLoad height={props.height} offsetVertical={300}>
-            <img src={props.imageSrc} />
-        </LazyLoad>
-    );
 }

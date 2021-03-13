@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import LazyLoad from "react-lazy-load";
+import Image from 'next/image';
 
 export default class OfferDesktop extends React.Component {
     constructor() {
@@ -19,17 +19,13 @@ export default class OfferDesktop extends React.Component {
                         <div className="column left">
                             <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
                                 <div className="porfolioImage">
-                                    <LazyLoad height={225} offsetVertical={300}>
-                                        <img src={"/static/portfolio_dtp/portret_panny_mlodej.jpg"} />
-                                    </LazyLoad>
+                                    <Image src={"/static/portfolio_dtp/portret_panny_mlodej.jpg"} width={336} height={225} />                                    
                                 </div>
                             </Link>
 
                             <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
                                 <div className="porfolioImage">
-                                    <LazyLoad height={225} offsetVertical={300}>
-                                        <img src={"/static/portfolio_dtp/aleksandra_mszana_dolna.jpg"} />
-                                    </LazyLoad>
+                                    <Image src={"/static/portfolio_dtp/aleksandra_mszana_dolna.jpg"}  width={336} height={225}/>
                                 </div>
                             </Link>
                         </div>
@@ -58,16 +54,12 @@ export default class OfferDesktop extends React.Component {
                         <div className="column left">
                             <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
                                 <div className="porfolioImage">
-                                    <LazyLoad height={225} offsetVertical={300}>
-                                        <img src={"/static/portfolio_dtp/plener_0002.jpg"} />
-                                    </LazyLoad>
+                                    <Image src={"/static/portfolio_dtp/plener_0002.jpg"}  width={336} height={225} />
                                 </div>
                             </Link>
                             <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                                 <div className="porfolioImage">
-                                    <LazyLoad height={225} offsetVertical={300}>
-                                        <img src={"/static/portfolio_dtp/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"} />
-                                    </LazyLoad>
+                                    <Image src={"/static/portfolio_dtp/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"}  width={336} height={225}/>
                                 </div>
                             </Link>
                             <div className="spacer">&nbsp;</div>

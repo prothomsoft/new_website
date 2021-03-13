@@ -41,7 +41,7 @@ export default class LeadMobile extends Component {
                 font-family:Oswald;
                 font-style:normal;
                 font-weight:bold;
-                line-height:1.1;  
+                line-height:1.4;  
                 text-rendering: optimizelegibility;                
                 color #FFF;
                 font-size: 42px;                    

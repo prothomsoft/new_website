@@ -21,15 +21,8 @@ const SectionWrapper = styled.div`
     width: 1160px;
     text-align: justify;
     padding: 20px 10px 0 10px;
-
-    .LazyLoad {
-        opacity: 0;
-        transition: all 1s ease-in-out;
-
-        &.is-visible {
-            opacity: 1;
-        }
-    }
+    line-height:0; 
+    
     @media (max-width: 1160px) {
         width: 100%;
     }
@@ -41,7 +34,7 @@ export default class Blogpage extends React.Component {
         this.state = {
             overflow: true,
             fontLoaded: false,
-            width: "0"
+            width: '0'
         };
         this.updateOverflowState = this.updateOverflowState.bind(this);
         this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
@@ -103,14 +96,14 @@ export default class Blogpage extends React.Component {
                 menuSpace = "70px";
                 componentOne = null;
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={"70px"} />;
-                if (this.props.images) componentThree = <LazyLoadWrapper images={this.props.images} skipHeight={true} />;
-                if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} skipHeight={true} />;
-                if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} skipHeight={true} />;
-                if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} skipHeight={true} />;
-                if (this.props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={this.props.imagesParagraph4} skipHeight={true} />;
-                if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} skipHeight={true} />;
-                if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} skipHeight={true} />;
-                if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} skipHeight={true} />;
+                if (this.props.images) componentThree = <LazyLoadWrapper images={this.props.images}/>;
+                if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} />;
+                if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} />;
+                if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} />;
+                if (this.props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={this.props.imagesParagraph4} />;
+                if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} />;
+                if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} />;
+                if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} />;
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
                 contact = <ContactMobile />;
             } else {
@@ -127,14 +120,14 @@ export default class Blogpage extends React.Component {
                         menuButton={"ZOBACZ ZDJĘCIA"}
                     />
                 );
-                if (this.props.images) componentThree = <LazyLoadWrapper images={this.props.images} skipHeight={false} />;
-                if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} skipHeight={false} />;
-                if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} skipHeight={false} />;
-                if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} skipHeight={false} />;
-                if (this.props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={this.props.imagesParagraph4} skipHeight={false} />;
-                if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} skipHeight={false} />;
-                if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} skipHeight={false} />;
-                if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} skipHeight={false} />;
+                if (this.props.images) componentThree = <LazyLoadWrapper images={this.props.images} />;
+                if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} />;
+                if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} />;
+                if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} />;
+                if (this.props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={this.props.imagesParagraph4} />;
+                if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} />;
+                if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} />;
+                if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} />;
                 lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
                 contact = <ContactDesktop />;
             }
@@ -155,7 +148,7 @@ export default class Blogpage extends React.Component {
         }
 
         if (this.props.entryContentP1 !== '') {
-            paragraph1 = <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP1 }} />;
+            paragraph1 = <p className="par" dangerouslySetInnerHTML={{ __html: this.props.entryContentP1 }} />;
         }
         if (this.props.entryContentP2 !== '') {
             paragraph2 = <p dangerouslySetInnerHTML={{ __html: this.props.entryContentP2 }} />;
@@ -250,6 +243,7 @@ export default class Blogpage extends React.Component {
                     .entryContent {
                         font-family: "Oswald";
                         font-size: 16px;
+                        line-height: 1.4;
                     }
                     .bgimg-3 {
                         position: relative;

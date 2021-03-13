@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import LazyLoad from "react-lazy-load";
+import Image from 'next/image';
 import aws from 'aws-sdk';
 
 aws.config.update({
@@ -226,18 +226,14 @@ export default class ContactMobile extends React.Component {
                         <div className="square">
                             <a target="_blank" href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny,35325/" rel="nofollow">
                                 <div className="float_right">
-                                    <LazyLoad offsetVertical={43}>
-                                        <img src={"/static/icons/wesele_z_klasa.jpg"} />
-                                    </LazyLoad>
+                                    <Image src={"/static/icons/wesele_z_klasa.jpg"} width={43} height={43} />
                                 </div>
                             </a>
                         </div>
                         <div className="square_space">
                             <a target="_blank" href="https://www.slubnaglowie.pl/katalog/firma/tomasz-prokop_6663" rel="nofollow">
                                 <div className="float_right">
-                                    <LazyLoad offsetVertical={43}>
-                                        <img src={"/static/icons/slub_na_glowie.jpg"} />
-                                    </LazyLoad>
+                                     <Image src={"/static/icons/slub_na_glowie.jpg"} width={43} height={43} />
                                 </div>
                             </a>
                         </div>
@@ -406,7 +402,7 @@ export default class ContactMobile extends React.Component {
                     border-bottom:1px solid #757575;
                     background-color: #000;
                     color: #FFF;
-                    line-height:1.42857;
+                    line-height:1.4;
                     font-family:Arial,Helvetica,sans-serif;
                     height:80px;
                 }

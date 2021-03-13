@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default ({ title, description, keywords, url }) => (
+const MetaComponent = ({ title, description, keywords, url }) => (
     <Head>
         <title>{title}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -15,3 +15,5 @@ export default ({ title, description, keywords, url }) => (
         <link rel="shortcut icon" href="/static/favicon.ico" />
     </Head>
 );
+
+export default MetaComponent;

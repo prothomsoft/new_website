@@ -1,17 +1,15 @@
-import React, { useState, useEffect, Fragment } from 'react';
+import React, { useState, useEffect } from 'react';
 import Singlepage from "../components/singlepage";
 import { isWebPSupport } from "../components/utils/checkWebP";
  
 const SesjaPageComponent = () => {
     const [supported, setSupported] = useState(false);
-
     useEffect(() => {
         isWebPSupport(result => {
           setSupported(result)
         })        
       }, [])
-    return <Fragment>
-    <Singlepage
+    return <Singlepage
         headTitle={"Sesja zdjęciowa Kraków"}
         headDescription={"Sesja zdjęciowa w Krakowie to atrakcje turystyczne w pięknym miejscu. Spotkajmy się, wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze."}
         headKeywords={"sesja zdjęciowa kraków, plener ślubny w krakowie"}
@@ -27,7 +25,6 @@ const SesjaPageComponent = () => {
         leadUrl={"/sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew"}
         leadImage={supported ? "url(/static/webp/plener_slubny_zamek_pieskowa_skala.webp)" : "url(/static/plener_slubny_zamek_pieskowa_skala.jpg)"}
     />
-    </Fragment>
   }
 
 export default SesjaPageComponent;

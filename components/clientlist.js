@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Layout from "./layout";
 import styled from "styled-components";
-import LazyLoad from "react-lazy-load";
+import Image from 'next/image';
 import Menu from "./menu/menu";
 import FontLoader from "./fontLoader";
 import Loader from "./loader";
@@ -18,14 +18,6 @@ const SectionWrapper = styled.div`
     width: 1160px;
     text-align: justify;
     padding: 0 10px 0 10px;
-    .LazyLoad {
-        opacity: 0;
-        transition: all 1s ease-in-out;
-
-        &.is-visible {
-            opacity: 1;
-        }
-    }
     @media (max-width: 1160px) {
         width: 100%;
     }
@@ -131,7 +123,7 @@ export default class ClientList extends React.Component {
                             </h1>
                             <Link as={`/${post.slug}`} href={`/${post.slug}`}>
                                 <a href={`http://sk.99foto.pl/login/${post.welcomeURL}`} target="_blank" rel="nofollow">
-                                    {getProperLazyLoad(`/static/client/${post.welcomeURL}.jpg`, height)}
+                                    <Image src={`/static/client/${post.welcomeURL}.jpg`} width={1140} height={951} />
                                 </a>
                             </Link>
                         </div>
@@ -191,22 +183,6 @@ export default class ClientList extends React.Component {
                     }
                 `}</style>
             </Layout>
-        );
-    }
-}
-
-function getProperLazyLoad(imgSrc, height) {
-    if (height === 0) {
-        return (
-            <LazyLoad offsetVertical={300}>
-                <img src={imgSrc} />
-            </LazyLoad>
-        );
-    } else {
-        return (
-            <LazyLoad height={height} offsetVertical={300}>
-                <img src={imgSrc} />
-            </LazyLoad>
         );
     }
 }
