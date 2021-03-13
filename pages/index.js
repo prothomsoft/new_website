@@ -56,14 +56,19 @@ const Index = () => {
         ];
       }
 
-      let componentOne = <Layout><SectionWrapper><Loader /></SectionWrapper></Layout>
+      let headTitle = "Fotograf ślubny Kraków: Tomasz Prokop";
+      let headDescription = "Fotograf ślubny Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Album w cenie pakietu. Serdecznie zapraszam.";
+      let headKeywords = "fotograf ślubny Kraków, fotograf na wesele";
+      let headUrl = "https://99foto.pl";
+      
+      let componentOne = <Layout title={headTitle} description={headDescription} keywords={headKeywords} url={headUrl} overflow="hidden"><SectionWrapper><Loader /></SectionWrapper></Layout>
       if(font) {
           componentOne = <Homepage
           slides={slides}
-          headTitle={"Fotograf ślubny Kraków: Tomasz Prokop"}
-          headDescription={"Fotograf ślubny Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Album w cenie pakietu. Serdecznie zapraszam."}
-          headKeywords={"fotograf ślubny Kraków, fotograf na wesele"}
-          headUrl={"https://99foto.pl"}
+          headTitle={headTitle}
+          headDescription={headDescription}
+          headKeywords={headKeywords}
+          headUrl={headUrl}
           backgroundImage={supported ? "url(/static/webp/sesja_slubna_jesienia.webp)" : "url(/static/sesja_slubna_jesienia.jpg)"}
           leadNames={"PATRYCJA i KRZYSZTOF"}
           leadTitle={"PLENER ŚLUBNY NA RYNKU W KRAKOWIE"}

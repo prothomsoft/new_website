@@ -67,14 +67,14 @@ export default class Homepage extends React.Component {
         let lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
         
         if (this.state.width < 1160) {
-            componentOne =  <BackgroundSlider images={this.props.slides} duration={5} transition={3} />
+            componentOne =  <BackgroundSlider images={this.props.slides} duration={5} transition={0.6} />
             componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={"100vh"} displayTextAndArrow={false} displayArrow={true} />
             portfolio = <PortfolioMobile />;
             portfolioText = <PortfolioTextMobile />;
             contact = <ContactMobile />;
             lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
         } else {
-            componentOne = <BackgroundSlider  images={this.props.slides} duration={5} transition={3} />
+            componentOne = <BackgroundSlider  images={this.props.slides} duration={5} transition={0.6} />
             componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={"100vh"} displayTextAndArrow={false} displayArrow={true} />
             portfolio = <PortfolioDesktop />;
             portfolioText = <PortfolioTextDesktop />;
