@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import {useState, useEffect} from 'react';
 import Singlepage from "../components/singlepage";
 import { isWebPSupport } from "../components/utils/checkWebP";
  
 const SlubPageComponent = () => {
     const [supported, setSupported] = useState(false);
-
     useEffect(() => {
         isWebPSupport(result => {
           setSupported(result)

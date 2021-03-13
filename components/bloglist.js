@@ -158,7 +158,7 @@ const PostLink = ({ post, height }) => (
         <div>
             <Link as={`/${post.slug}`} href={`/${post.slug}`}>
                 <a href={`/${post.slug}`}>
-                    <Image src={getPostImage(post.content.rendered)} width={1140} height={762} />
+                    <Image alt={`${getPostTitleWithNames(post)}`} src={getPostImage(post.content.rendered)} width={1140} height={762} />
                 </a>
             </Link>
             <div className="entryContent" dangerouslySetInnerHTML={{ __html: getPostContent(post.content.rendered) }} />

@@ -1,6 +1,14 @@
+import { useState, useEffect } from 'react';
 import Clientlist from "../components/clientlist";
+import { isWebPSupport } from "../components/utils/checkWebP";
 
 function BlogListComponent({ posts }) {
+    const [supported, setSupported] = useState(false);
+    useEffect(() => {
+        isWebPSupport(result => {
+          setSupported(result)
+        })        
+      }, [])
     return (
         <div>
             <Clientlist
@@ -12,7 +20,7 @@ function BlogListComponent({ posts }) {
                 leadNames={"MONIKA i MARTIN"}
                 leadTitle={"WESELE MIĘDZYNARODOWE i POLSKIE TRADYCJE WESELNE"}
                 leadUrl={"/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne"}
-                leadImage={"url(/static/sala_weselna_biala_wilczyca_kocmyrzow.jpg)"}
+                leadImage={supported ? "url(/static/webp/sala_weselna_biala_wilczyca_kocmyrzow.webp)" : "url(/static/sala_weselna_biala_wilczyca_kocmyrzow.jpg)"}
             />
         </div>
     );

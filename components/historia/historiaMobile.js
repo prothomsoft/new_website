@@ -287,8 +287,7 @@ export default class HistoriaMobile extends React.Component {
                     .quote-title-noline::before,
                     .quote-title-noline::after {
                         content: "";
-                        display: block;
-                        xborder: 1px solid #33b59a;
+                        display: block;                       
                     }
 
                     .quote-title-noline {

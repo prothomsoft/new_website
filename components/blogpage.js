@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Link from "next/link";
 import Layout from "../components/layout";
 import Slide from "../components/slide";
@@ -22,6 +22,18 @@ const SectionWrapper = styled.div`
     text-align: justify;
     padding: 20px 10px 0 10px;
     line-height:0; 
+    
+    @media (max-width: 1160px) {
+        width: 100%;
+    }
+`;
+
+const SectionWrapperExtended = styled.div`
+    margin: 0 auto;
+    width: 1160px;
+    text-align: justify;
+    padding: 20px 10px 0 10px;
+    line-height:1.4; 
     
     @media (max-width: 1160px) {
         width: 100%;
@@ -96,14 +108,14 @@ export default class Blogpage extends React.Component {
                 menuSpace = "70px";
                 componentOne = null;
                 componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={"70px"} />;
-                if (this.props.images) componentThree = <LazyLoadWrapper images={this.props.images}/>;
-                if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} />;
-                if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} />;
-                if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} />;
-                if (this.props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={this.props.imagesParagraph4} />;
-                if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} />;
-                if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} />;
-                if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} />;
+                if (this.props.images) componentThree = <LazyLoadWrapper images={this.props.images} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} title={this.props.headTitle} />;
+                if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} title={this.props.headTitle} />;
+                if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={this.props.imagesParagraph4} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} title={this.props.headTitle}/>;
                 lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
                 contact = <ContactMobile />;
             } else {
@@ -120,14 +132,14 @@ export default class Blogpage extends React.Component {
                         menuButton={"ZOBACZ ZDJĘCIA"}
                     />
                 );
-                if (this.props.images) componentThree = <LazyLoadWrapper images={this.props.images} />;
-                if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} />;
-                if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} />;
-                if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} />;
-                if (this.props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={this.props.imagesParagraph4} />;
-                if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} />;
-                if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} />;
-                if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} />;
+                if (this.props.images) componentThree = <LazyLoadWrapper images={this.props.images} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={this.props.imagesParagraph1} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={this.props.imagesParagraph2} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={this.props.imagesParagraph3} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={this.props.imagesParagraph4} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={this.props.imagesParagraph5} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={this.props.imagesParagraph6} title={this.props.headTitle}/>;
+                if (this.props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={this.props.imagesParagraph7} title={this.props.headTitle}/>;
                 lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
                 contact = <ContactDesktop />;
             }
@@ -216,7 +228,7 @@ export default class Blogpage extends React.Component {
                     {componentThree}
                 </SectionWrapper>
 
-                <SectionWrapper>{contact}</SectionWrapper>
+                <SectionWrapperExtended>{contact}</SectionWrapperExtended>
 
                 <div className={bgImg3} style={{ backgroundImage: this.props.leadImage }}>
                     {lead}
@@ -231,9 +243,7 @@ export default class Blogpage extends React.Component {
                         margin: 0;
                         text-align: left;
                     }
-                    .entryMeta {
-                        border-bottom: 1px solid #262626;
-                        border-top: 1px solid #262626;
+                    .entryMeta {                       
                         margin-bottom: 10px;
                         text-transform: uppercase;
                         padding: 6px 0 6px 0;
