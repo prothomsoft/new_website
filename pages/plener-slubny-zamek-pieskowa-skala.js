@@ -21,7 +21,6 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "https://99foto.pl/static/blog/2020/09/plener_slubny_zamek_pieskowa_skala_krakow_0017.jpg", height: 763 },
             { imageSrc: "https://99foto.pl/static/blog/2020/09/plener_slubny_zamek_pieskowa_skala_krakow_0011.jpg", height: 850 },
             { imageSrc: "https://99foto.pl/static/blog/2020/09/plener_slubny_zamek_pieskowa_skala_krakow_0026.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/09/plener_slubny_zamek_pieskowa_skala_krakow_0012.jpg", height: 850 },
             { imageSrc: "https://99foto.pl/static/blog/2020/09/plener_slubny_zamek_pieskowa_skala_krakow_0028.jpg", height: 763 },            
             { imageSrc: "https://99foto.pl/static/blog/2020/09/plener_slubny_zamek_pieskowa_skala_krakow_0014.jpg", height: 850 },
             { imageSrc: "https://99foto.pl/static/blog/2020/09/plener_slubny_zamek_pieskowa_skala_krakow_0015.jpg", height: 763 },
