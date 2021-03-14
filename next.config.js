@@ -10,6 +10,7 @@ module.exports = {
             "/reportaze-slubne-sesje-plenerowe": { page: "/reportaze-slubne-sesje-plenerowe" },
             "/strefa-klienta": { page: "/strefa-klienta" },
             "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },
+            "/palac-goetz-wesele-plener-slubny": { page: "/palac-goetz-wesele-plener-slubny" },
             "/plener-slubny-w-krakowskim-ogrodzie-botanicznym": { page: "/plener-slubny-w-krakowskim-ogrodzie-botanicznym" },
             "/plener-w-beskidach-sesja-slubna-w-beskidzie-slaskim": { page: "/plener-w-beskidach-sesja-slubna-w-beskidzie-slaskim" },
             "/plener-slubny-zamek-pieskowa-skala": { page: "/plener-slubny-zamek-pieskowa-skala" },
@@ -163,9 +164,9 @@ module.exports = {
             "/ulubione-wakacyjne-kadry": { page: "/ulubione-wakacyjne-kadry" },
         };
     },
-	env: {
+    env: {
         accessKeyId: "AKIAWII6DD5WIP3W3GPD",
         secretAccessKey: "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",
-        region: "eu-west-3"
-    }
+        region: "eu-west-3",
+    },
 };
