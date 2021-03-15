@@ -166,7 +166,7 @@ module.exports = {
     },
     env: {
         accessKeyId: "AKIAWII6DD5WIB32FSW5",
-        secretAccessKey: "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",
+        secretAccessKey: "0RLm5vgO6RbQqV9Lcj2VyW8kUQEQGgWMAL+sa7g1",
         region: "eu-west-3",
     },
 };
