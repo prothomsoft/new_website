@@ -76,7 +76,7 @@ const BlogPageComponent = () => {
             leadNames={"TERESA i ANDRZEJ"}
             leadTitle={"PLENER ŚLUBNY W KRAKOWSKIM OGRODZIE BOTANICZNYM"}
             leadUrl={"/plener-slubny-w-krakowskim-ogrodzie-botanicznym"}
-            leadImage={supported ? "url(/static/webp/plener_slubny_krakowski_ogrod_botaniczny.webp)" : "url(/static/jpg/plener_slubny_krakowski_ogrod_botaniczny.jpg)"}
+            leadImage={supported ? "url(/static/webp/plener_slubny_krakowski_ogrod_botaniczny.webp)" : "url(/static/plener_slubny_krakowski_ogrod_botaniczny.jpg)"}
         />
     );
 };

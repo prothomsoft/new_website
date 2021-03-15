@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Homepage from "../components/homepage";
+import dynamic from 'next/dynamic'
 import { isWebPSupport } from "../components/utils/checkWebP";
 import FontFaceObserver from "fontfaceobserver";
 import Loader from "../components/loader";
@@ -25,7 +25,7 @@ const Index = () => {
         })
 
         let link = document.createElement("link");
-        link.href = "https://fonts.googleapis.com/css?family=Oswald:400&subset=latin,latin-ext";
+        link.href = "https://fonts.googleapis.com/css?family=Oswald:400&display=swap&subset=latin,latin-ext";
         link.rel = "stylesheet";
         document.head.appendChild(link);
 
@@ -62,7 +62,9 @@ const Index = () => {
       let headUrl = "https://99foto.pl";
       
       let componentOne = <Layout title={headTitle} description={headDescription} keywords={headKeywords} url={headUrl} overflow="hidden"><SectionWrapper><Loader /></SectionWrapper></Layout>
+      
       if(font) {
+          const Homepage = dynamic(() => import('../components/homepage'))    
           componentOne = <Homepage
           slides={slides}
           headTitle={headTitle}

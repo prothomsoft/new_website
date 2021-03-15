@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Clientlist from "../components/clientlist";
+import dynamic from 'next/dynamic'
 import { isWebPSupport } from "../components/utils/checkWebP";
 
 function BlogListComponent({ posts }) {
@@ -9,8 +9,8 @@ function BlogListComponent({ posts }) {
           setSupported(result)
         })        
       }, [])
-    return (
-        <div>
+    const Clientlist = dynamic(() => import('../components/clientlist'))
+    return (        
             <Clientlist
                 posts={posts}
                 headTitle={"Strefa klienta"}
@@ -22,7 +22,7 @@ function BlogListComponent({ posts }) {
                 leadUrl={"/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne"}
                 leadImage={supported ? "url(/static/webp/sala_weselna_biala_wilczyca_kocmyrzow.webp)" : "url(/static/sala_weselna_biala_wilczyca_kocmyrzow.jpg)"}
             />
-        </div>
+        
     );
 }
 export async function getStaticProps() {

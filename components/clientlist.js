@@ -11,7 +11,6 @@ import ContactMobile from "./contact/contactMobile";
 import LeadDesktop from "./footer/leadDesktop";
 import LeadMobile from "./footer/leadMobile";
 import { isIOS } from "react-device-detect";
-import moment from "moment";
 
 const SectionWrapper = styled.div`
     margin: 0 auto;
@@ -100,7 +99,6 @@ export default class ClientList extends React.Component {
         }
 
         let title = (post, width) => {
-            //return post.name.concat(" - ").concat(moment(post.creationDate).format("DD-MM-YYYY"));
             return post.name;
         };
 

@@ -8,7 +8,7 @@ export default class FontLoader extends React.Component {
 
     componentDidMount() {
         let link = document.createElement("link");
-        link.href = "https://fonts.googleapis.com/css?family=Oswald:400&subset=latin,latin-ext";
+        link.href = "https://fonts.googleapis.com/css?family=Oswald:400&display=swap&subset=latin,latin-ext";
         link.rel = "stylesheet";
         document.head.appendChild(link);
 
