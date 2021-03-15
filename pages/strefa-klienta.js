@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import dynamic from 'next/dynamic'
+import Clientlist from "../components/clientlist";
 import { isWebPSupport } from "../components/utils/checkWebP";
 
 function BlogListComponent({ posts }) {
@@ -9,7 +9,6 @@ function BlogListComponent({ posts }) {
           setSupported(result)
         })        
       }, [])
-    const Clientlist = dynamic(() => import('../components/clientlist'))
     return (        
             <Clientlist
                 posts={posts}

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import dynamic from 'next/dynamic'
+import Homepage from "../components/homepage";
 import {isWebPSupport} from "../components/utils/checkWebP";
 import FontFaceObserver from "fontfaceobserver";
 import Loader from "../components/loader";
@@ -64,7 +64,6 @@ const Index = () => {
       let componentOne = <Layout title={headTitle} description={headDescription} keywords={headKeywords} url={headUrl} overflow="hidden"><SectionWrapper><Loader /></SectionWrapper></Layout>
       
       if(font) {
-          const Homepage = dynamic(() => import('../components/homepage'))    
           componentOne = <Homepage
           slides={slides}
           headTitle={headTitle}
