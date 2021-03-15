@@ -243,12 +243,15 @@ export default class Blogpage extends React.Component {
                         margin: 0;
                         text-align: left;
                     }
-                    .entryMeta {                       
+                    .entryMeta {
+                        border-bottom: 1px solid #262626;
+                        border-top: 1px solid #262626;                       
                         margin-bottom: 10px;
                         text-transform: uppercase;
                         padding: 6px 0 6px 0;
                         font-family: "Oswald";
                         font-size: 16px;
+                        line-height: 1.4;
                     }
                     .entryContent {
                         font-family: "Oswald";
