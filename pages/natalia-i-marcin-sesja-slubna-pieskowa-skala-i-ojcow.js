@@ -10,27 +10,27 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0016.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0001.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0002.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0003.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0005.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0006.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0007.jpg", height: 852 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0008.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0009.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0012.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0010.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0017.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0011.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0013.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0014.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0015.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0020.jpg", height: 382 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0004.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0018.jpg", height: 852 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0019.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0021.jpg", height: 851 }
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0016.jpg", height: 762 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0001.jpg", height: 851 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0002.jpg", height: 763 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0003.jpg", height: 851 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0005.jpg", height: 851 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0006.jpg", height: 763 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0007.jpg", height: 852 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0008.jpg", height: 763 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0009.jpg", height: 851 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0012.jpg", height: 763 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0010.jpg", height: 851 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0017.jpg", height: 763 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0011.jpg", height: 851 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0013.jpg", height: 763 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0014.jpg", height: 851 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0015.jpg", height: 763 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0020.jpg", height: 382 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0004.jpg", height: 763 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0018.jpg", height: 852 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0019.jpg", height: 763 },
+            { imageSrc: "/static/blog/2016/10/sesja_slubna_pieskowa_skala_ojcow_0021.jpg", height: 851 }
         ];
 
         return (

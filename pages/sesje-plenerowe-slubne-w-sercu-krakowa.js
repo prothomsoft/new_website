@@ -10,25 +10,25 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0001.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0022.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0023.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0003.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0004.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0012.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0006.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0007.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0019.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0008.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0009.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0014.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0011.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0013.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0015.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0021.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0002.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0017.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2017/05/sesja_zdjeciowa_krakow_0010.jpg", height: 763 }
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0001.jpg", height: 762 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0022.jpg", height: 850 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0023.jpg", height: 850 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0003.jpg", height: 763 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0004.jpg", height: 851 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0012.jpg", height: 763 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0006.jpg", height: 850 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0007.jpg", height: 763 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0019.jpg", height: 763 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0008.jpg", height: 763 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0009.jpg", height: 527 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0014.jpg", height: 763 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0011.jpg", height: 850 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0013.jpg", height: 851 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0015.jpg", height: 763 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0021.jpg", height: 763 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0002.jpg", height: 850 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0017.jpg", height: 763 },
+            { imageSrc: "/static/blog/2017/05/sesja_zdjeciowa_krakow_0010.jpg", height: 763 }
         ];
 
         return (

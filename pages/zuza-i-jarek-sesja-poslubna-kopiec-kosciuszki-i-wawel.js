@@ -10,23 +10,23 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0003.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0002.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0013.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0004.jpg", height: 852 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0005.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0006.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0007.jpg", height: 852 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0008.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0009.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0010.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0011.jpg", height: 852 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0012.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0001.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0014.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0015.jpg", height: 850 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0016.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0017.jpg", height: 763 }
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0003.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0002.jpg", height: 851 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0013.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0004.jpg", height: 852 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0005.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0006.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0007.jpg", height: 852 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0008.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0009.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0010.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0011.jpg", height: 852 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0012.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0001.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0014.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0015.jpg", height: 850 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0016.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/09/sesja_poslubna_kopiec_kosciuszki_wawel_0017.jpg", height: 763 }
         ];
 
         return (

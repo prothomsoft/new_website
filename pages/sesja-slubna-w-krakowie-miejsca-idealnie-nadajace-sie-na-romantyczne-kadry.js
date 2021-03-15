@@ -10,39 +10,39 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let imagesParagraph1 = [
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_001.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_002.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_003.jpg", height: 763 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_001.jpg", height: 762 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_002.jpg", height: 851 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_003.jpg", height: 763 },
         ];
 
-        let imagesParagraph3 = [{ imageSrc: "https://99foto.pl/static/blog/2019/08/sesja_zdjeciowa_w_krakowie_0001.jpg", height: 763 }];
+        let imagesParagraph3 = [{ imageSrc: "/static/blog/2019/08/sesja_zdjeciowa_w_krakowie_0001.jpg", height: 763 }];
 
         let imagesParagraph2 = [
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_004.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_005.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_006.jpg", height: 763 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_004.jpg", height: 851 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_005.jpg", height: 763 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_006.jpg", height: 763 },
         ];
 
         let imagesParagraph4 = [
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_007.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_008.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_009.jpg", height: 851 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_007.jpg", height: 851 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_008.jpg", height: 762 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_009.jpg", height: 851 },
         ];
 
         let imagesParagraph5 = [
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_010.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_011.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_012.jpg", height: 763 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_010.jpg", height: 762 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_011.jpg", height: 762 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_012.jpg", height: 763 },
         ];
 
-        let imagesParagraph6 = [{ imageSrc: "https://99foto.pl/static/blog/2019/08/sesja_zdjeciowa_w_krakowie_0002.jpg", height: 851 }];
+        let imagesParagraph6 = [{ imageSrc: "/static/blog/2019/08/sesja_zdjeciowa_w_krakowie_0002.jpg", height: 851 }];
 
         let imagesParagraph7 = [
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_013.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_014.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_015.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_016.jpg", height: 527 },
-            { imageSrc: "https://99foto.pl/static/blog/2020/04/99FOTOPL_SPP_017.jpg", height: 763 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_013.jpg", height: 762 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_014.jpg", height: 851 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_015.jpg", height: 527 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_016.jpg", height: 527 },
+            { imageSrc: "/static/blog/2020/04/99FOTOPL_SPP_017.jpg", height: 763 },
         ];
 
         return (

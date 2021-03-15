@@ -10,27 +10,27 @@ export default class BlogPageComponent extends React.Component {
         ];
 
         let images = [
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_0033.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_002.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_003.jpg", height: 852 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_004.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_005.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_006.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_007.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_008.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_009.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_010.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_011.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_012.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_013.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_014.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_015.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_016.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_017.jpg", height: 851 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_018.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_019.jpg", height: 762 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_020.jpg", height: 763 },
-            { imageSrc: "https://99foto.pl/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_021.jpg", height: 762 }
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_0033.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_002.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_003.jpg", height: 852 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_004.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_005.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_006.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_007.jpg", height: 851 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_008.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_009.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_010.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_011.jpg", height: 851 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_012.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_013.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_014.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_015.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_016.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_017.jpg", height: 851 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_018.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_019.jpg", height: 762 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_020.jpg", height: 763 },
+            { imageSrc: "/static/blog/2015/10/sesja_poslubna_krakow_kazimierz_021.jpg", height: 762 }
         ];
 
         return (
