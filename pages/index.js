@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic'
-import { isWebPSupport } from "../components/utils/checkWebP";
+import {isWebPSupport} from "../components/utils/checkWebP";
 import FontFaceObserver from "fontfaceobserver";
 import Loader from "../components/loader";
 import Layout from "../components/layout";
