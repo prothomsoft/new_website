@@ -165,8 +165,8 @@ module.exports = {
         };
     },
     env: {
-        accessKeyId: "AKIAWII6DD5WIB32FSW5",
-        secretAccessKey: "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",
-        region: "eu-west-3",
+        accessKeyId: process.env.AWS_ACCESS_KEY_ID_MYAPP,
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY_MYAPP,
+        region: process.env.AWS_REGION_MYAPP,
     },
 };
