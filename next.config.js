@@ -167,7 +167,7 @@ module.exports = {
     env: {
         accessKeyId: process.env.AWS_ACCESS_KEY_ID_MYAPP,
         secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY_MYAPP,
-        region: process.env.AWS_REGION_MYAPP
+        region: process.env.AWS_REGION_MYAPP,
     },
     images: {
         deviceSizes: [640, 750, 828, 1080, 1140, 1920, 2048, 3840],

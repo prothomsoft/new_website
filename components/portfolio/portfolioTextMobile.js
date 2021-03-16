@@ -61,7 +61,7 @@ export default class PortfolioTextMobile extends Component {
                         Często mówimy o fotografowaniu sercem, jednak moim zdaniem świat sztuki, wrażliwość artystyczna, niezwykłość to nie wszystko. Fotograf ślubny chętnie śledzi premiery sprzętowe
                         w świecie komputerów, aparatów, obiektywów, programów do obróbki zdjęć i sprzętu oświetleniowego. W ten sposób zdobywam informacje i doskonale mój warsztat, rozbudowywuję
                         zaplecze sprzętowe, a to wszystko ogromnie ułatwia moją pracę. Stosowanie nowości technicznych w praktyce pozwala mi utrzymać dystans od zdjęć wykonanych przez innych
-                        uczestników ślubu. Fotografią ślubną zajmuję się już blisko dziesięć lat i uwielbiam miasto Kraków jako główne miejsce mojej działalności.
+                        uczestników ślubu. Fotografią ślubną zajmuję się już blisko dziesięt lat i uwielbiam miasto Kraków jako główne miejsce mojej działalności.
                     </p>
                     <p>
                         Mam pomysł jak wykonane przeze mnie zdjęcia ślubne powinny wyglądać za rok czy dwa lata i plan jak mogę ten cel osiągnąć i zrealizować. Upór i konsekwencja w dążeniu do
