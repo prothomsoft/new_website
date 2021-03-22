@@ -25,7 +25,7 @@ function BlogListComponent({ posts }) {
     );
 }
 export async function getStaticProps() {
-    const res = await fetch(`http://sk.99foto.pl/api/users/clients`);
+    const res = await fetch(`https://sk.99foto.pl/api/users/clients`);
     const posts = await res.json();
     return {
         props: {
