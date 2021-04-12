@@ -260,7 +260,7 @@ export default class ContactMobile extends React.Component {
 
                 .submitPad {
                     text-align: left;
-                    padding: 20p 0 30px 0;
+                    padding: 20px 0 30px 0;
                 }
 
                 article {

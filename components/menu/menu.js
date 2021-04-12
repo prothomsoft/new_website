@@ -10,7 +10,7 @@ import { Waypoint } from "react-waypoint";
 var LinkScroll = Scroll.Link;
 
 const Row = styled.div`
-    height: "100%";
+    height: 100%;
     ${({ mobile }) => (mobile ? "display:block" : "display: none")};
     @media only screen and (min-width: 1160px) {
         ${({ mobile }) => (mobile ? "display:none" : "display: block")};
@@ -23,7 +23,7 @@ const Row = styled.div`
 `;
 
 const Column = styled.div`
-    height: "100%";
+    height: 100%;
     float: left;
     ${({ xs }) => (xs ? getWidthString(xs) : "width: 100%")};
     @media only screen and (min-width: 1160px) {
@@ -203,7 +203,7 @@ export default class Menu extends React.Component {
                                 <li>
                                     <Link href="/">
                                         <a>
-                                            <img style={{ height: "140px", width: "100px", margin: "-15px 0px 0px 5px" }} src="/static/99foto_logo.svg" />
+                                            <img alt="Fotograf ślubny Kraków" style={{ height: "140px", width: "100px", margin: "-15px 0px 0px 5px" }} src="/static/99foto_logo.svg" />
                                         </a>
                                     </Link>
                                 </li>
