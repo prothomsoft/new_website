@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "../components/layout";
 import Loader from "../components/loader";
+import FontFaceObserver from "fontfaceobserver";
 import Menu from "../components/menu/menu";
 import Scroll from "react-scroll";
 import styled from "styled-components";
-import FontLoader from "../components/fontLoader";
 import { isIOS } from "react-device-detect";
 
 import ContactDesktop from "../components/contact/contactDesktop";
@@ -44,17 +44,27 @@ export default class Singlepage extends React.Component {
             activeIndex: 0,
             eachImageState: 0,
             overflow: true,
-            fontLoaded: false,
+            font: false,
             width: "0"
         };
         this.updateOverflowState = this.updateOverflowState.bind(this);
-        this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
 
     componentDidMount() {
         this.updateWindowDimensions();
         window.addEventListener("resize", this.updateWindowDimensions);
+
+        let link = document.createElement("link");
+        link.href = "https://fonts.googleapis.com/css?family=Oswald:400&display=swap&subset=latin,latin-ext";
+        link.rel = "stylesheet";
+        document.head.appendChild(link);
+
+        Promise.all([new FontFaceObserver("Oswald").load()]).then(
+            () => {
+            this.setState({ font: true });
+            }
+        );
     }
 
     componentWillUnmount() {
@@ -71,21 +81,15 @@ export default class Singlepage extends React.Component {
         });
     }
 
-    updateFontLoadedState() {
-        this.setState({
-            fontLoaded: !this.state.fontLoaded
-        });
-    }
-
     render() {
+        let loader = <Loader />;   
         let overflow = null;
         let componentOne = null;
-        let componentTwo = null;
+        let menuSpace = "160px";
+        let componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={menuSpace} displayTextAndArrow={false} displayArrow={false} />;
+        let contact = <ContactDesktop />;
+        let lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
         let componentContent = null;
-        let menuSpace = null;
-        let contact = null;
-        let lead = null;
-
         if (this.props.componentContentName == "offer") {
             componentContent = <OfferDesktop />;
         }
@@ -104,62 +108,37 @@ export default class Singlepage extends React.Component {
         if (this.props.componentContentName == "historia") {
             componentContent = <HistoriaDesktop />;
         }
-       
-        if (this.state.fontLoaded) {
-            if (this.state.width < 1160) {
-                menuSpace = "40px";
-                componentOne = null;
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={menuSpace} displayTextAndArrow={false} displayArrow={false} />;
-                contact = <ContactMobile />;
-                if (this.props.componentContentName == "offer") {
-                    componentContent = <OfferMobile />;
-                }
-                if (this.props.componentContentName == "rodo") {
-                    componentContent = <RodoMobile />;
-                }
-                if (this.props.componentContentName == "slub") {
-                    componentContent = <SlubMobile />;
-                }
-                if (this.props.componentContentName == "sesja") {
-                    componentContent = <SesjaMobile />;
-                }
-                if (this.props.componentContentName == "misja") {
-                    componentContent = <MisjaMobile />;
-                }
-                if (this.props.componentContentName == "historia") {
-                    componentContent = <HistoriaMobile />;
-                }
-                lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
-            } else {
-                menuSpace = "160px";
-                componentOne = null;
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={menuSpace} displayTextAndArrow={false} displayArrow={false} />;
-                contact = <ContactDesktop />;
-                if (this.props.componentContentName == "offer") {
-                    componentContent = <OfferDesktop />;
-                }
-                if (this.props.componentContentName == "rodo") {
-                    componentContent = <RodoDesktop />;
-                }
-                if (this.props.componentContentName == "slub") {
-                    componentContent = <SlubDesktop />;
-                }
-                if (this.props.componentContentName == "sesja") {
-                    componentContent = <SesjaDesktop />;
-                }
-                if (this.props.componentContentName == "misja") {
-                    componentContent = <MisjaDesktop />;
-                }
-                if (this.props.componentContentName == "historia") {
-                    componentContent = <HistoriaDesktop />;
-                }
-                lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
-            }
-        } else {
-            componentTwo = <Loader />;
-            componentOne = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState} />;
-        }
 
+        if(this.state.font) {
+            loader = null;            
+        }
+        
+        if (this.state.width < 1160) {
+            menuSpace = "40px";
+            componentOne = null;
+            componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={menuSpace} displayTextAndArrow={false} displayArrow={false} />;
+            contact = <ContactMobile />;
+            if (this.props.componentContentName == "offer") {
+                componentContent = <OfferMobile />;
+            }
+            if (this.props.componentContentName == "rodo") {
+                componentContent = <RodoMobile />;
+            }
+            if (this.props.componentContentName == "slub") {
+                componentContent = <SlubMobile />;
+            }
+            if (this.props.componentContentName == "sesja") {
+                componentContent = <SesjaMobile />;
+            }
+            if (this.props.componentContentName == "misja") {
+                componentContent = <MisjaMobile />;
+            }
+            if (this.props.componentContentName == "historia") {
+                componentContent = <HistoriaMobile />;
+            }
+            lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
+        } 
+        
         if (this.state.overflow) {
             overflow = "visible";
         } else {
@@ -175,6 +154,7 @@ export default class Singlepage extends React.Component {
 
         return (
             <Layout title={this.props.headTitle} description={this.props.headDescription} keywords={this.props.headKeywords} url={this.props.headUrl} overflow={overflow}>
+                {loader}
                 {componentOne}
                 {componentTwo}
                 <div style={{ height: menuSpace }} />

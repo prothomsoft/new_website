@@ -1,9 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 import Homepage from "../components/homepage";
 import {isWebPSupport} from "../components/utils/checkWebP";
-import FontFaceObserver from "fontfaceobserver";
-import Loader from "../components/loader";
-import Layout from "../components/layout";
 import styled from "styled-components";
 
 const SectionWrapper = styled.div`
@@ -18,23 +15,10 @@ const SectionWrapper = styled.div`
 
 const Index = () => {
     const [supported, setSupported] = useState(false);
-    const [font, setFont] = useState(false);
     useEffect(() => {
         isWebPSupport(result => {
           setSupported(result)
         })
-
-        let link = document.createElement("link");
-        link.href = "https://fonts.googleapis.com/css?family=Oswald:400&display=swap&subset=latin,latin-ext";
-        link.rel = "stylesheet";
-        document.head.appendChild(link);
-
-        Promise.all([new FontFaceObserver("Oswald").load()]).then(
-            () => {
-                setFont(true)
-            }
-        );
-              
       }, [])
 
       let slides = [];
@@ -61,10 +45,8 @@ const Index = () => {
       let headKeywords = "fotograf ślubny Kraków, fotograf na wesele";
       let headUrl = "https://99foto.pl";
       
-      let componentOne = <Layout title={headTitle} description={headDescription} keywords={headKeywords} url={headUrl} overflow="hidden"><SectionWrapper><Loader /></SectionWrapper></Layout>
       
-      if(font) {
-          componentOne = <Homepage
+      return <Homepage
           slides={slides}
           headTitle={headTitle}
           headDescription={headDescription}
@@ -75,10 +57,7 @@ const Index = () => {
           leadTitle={"PLENER ŚLUBNY NA RYNKU W KRAKOWIE"}
           leadUrl={"/plener-slubny-na-rynku-w-krakowie"}
           leadImage={supported ? "url(/static/webp/plener_slubny_na_rynku_w_krakowie.webp)" : "url(/static/plener_slubny_na_rynku_w_krakowie.jpg)"}
-      />
-      }     
-
-    return componentOne    
+      />        
 }
 
 export default Index;

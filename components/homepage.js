@@ -13,6 +13,8 @@ import PortfolioTextDesktop from "../components/portfolio/portfolioTextDesktop";
 import PortfolioTextMobile from "../components/portfolio/portfolioTextMobile";
 import { isIOS } from "react-device-detect";
 import BackgroundSlider from 'react-background-slider'
+import FontFaceObserver from "fontfaceobserver";
+import Loader from "../components/loader";
 
 var Element = Scroll.Element;
 
@@ -31,7 +33,9 @@ export default class Homepage extends React.Component {
         super(props);
         this.state = {
             overflow: true,
-            width: "0"
+            width: "0",
+            font: false,
+            supported: false
         };
         this.updateOverflowState = this.updateOverflowState.bind(this);
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);        
@@ -40,6 +44,17 @@ export default class Homepage extends React.Component {
     componentDidMount() {
         this.updateWindowDimensions();
         window.addEventListener("resize", this.updateWindowDimensions);
+
+        let link = document.createElement("link");
+        link.href = "https://fonts.googleapis.com/css?family=Oswald:400&display=swap&subset=latin,latin-ext";
+        link.rel = "stylesheet";
+        document.head.appendChild(link);
+
+        Promise.all([new FontFaceObserver("Oswald").load()]).then(
+            () => {
+            this.setState({ font: true });
+            }
+        );
     }
 
     componentWillUnmount() {
@@ -57,14 +72,17 @@ export default class Homepage extends React.Component {
     }
 
     render() {
-        let componentOne = null;
-        let componentTwo = null;
-
+        let loader = <Loader />;        
+        let componentOne = <BackgroundSlider  images={this.props.slides} duration={5} transition={0.6} />
+        let componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={"100vh"} displayTextAndArrow={false} displayArrow={true} />
         let portfolio = <PortfolioDesktop />;
         let portfolioText = <PortfolioTextDesktop />;
         let contact = <ContactDesktop />;
-
         let lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
+
+        if(this.state.font) {
+            loader = null;            
+        }
         
         if (this.state.width < 1160) {
             componentOne =  <BackgroundSlider images={this.props.slides} duration={5} transition={0.6} />
@@ -73,14 +91,7 @@ export default class Homepage extends React.Component {
             portfolioText = <PortfolioTextMobile />;
             contact = <ContactMobile />;
             lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
-        } else {
-            componentOne = <BackgroundSlider  images={this.props.slides} duration={5} transition={0.6} />
-            componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} height={"100vh"} displayTextAndArrow={false} displayArrow={true} />
-            portfolio = <PortfolioDesktop />;
-            portfolioText = <PortfolioTextDesktop />;
-            contact = <ContactDesktop />;
-            lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />
-        }        
+        } 
 
         let overflow = null;
         if (this.state.overflow) {
@@ -95,9 +106,11 @@ export default class Homepage extends React.Component {
             bgImg2 = "bgimg-2 isios";
             bgImg3 = "bgimg-3 isios";
         }
+        
 
         return (
             <Layout title={this.props.headTitle} description={this.props.headDescription} keywords={this.props.headKeywords} url={this.props.headUrl} overflow={overflow}>
+                {loader}
                 {componentOne}
                 {componentTwo}
                 <div className="staticHeight" />

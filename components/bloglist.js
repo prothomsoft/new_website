@@ -3,8 +3,8 @@ import Link from "next/link";
 import Layout from "../components/layout";
 import styled from "styled-components";
 import Menu from "../components/menu/menu";
-import FontLoader from "../components/fontLoader";
 import Loader from "../components/loader";
+import FontFaceObserver from "fontfaceobserver";
 import ContactDesktop from "../components/contact/contactDesktop";
 import ContactMobile from "../components/contact/contactMobile";
 import LeadDesktop from "../components/footer/leadDesktop";
@@ -27,21 +27,16 @@ export default class BlogList extends React.Component {
         super(props);
         this.state = {
             width: "0",
-            overflow: false
+            overflow: false,
+            font: false
         };
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-        this.updateFontLoadedState = this.updateFontLoadedState.bind(this);
+       
         this.updateOverflowState = this.updateOverflowState.bind(this);
     }
 
     updateWindowDimensions() {
         this.setState({ width: window.innerWidth });
-    }
-
-    updateFontLoadedState() {
-        this.setState({
-            fontLoaded: !this.state.fontLoaded
-        });
     }
 
     updateOverflowState() {
@@ -53,6 +48,17 @@ export default class BlogList extends React.Component {
     componentDidMount() {
         this.updateWindowDimensions();
         window.addEventListener("resize", this.updateWindowDimensions);
+
+        let link = document.createElement("link");
+        link.href = "https://fonts.googleapis.com/css?family=Oswald:400&display=swap&subset=latin,latin-ext";
+        link.rel = "stylesheet";
+        document.head.appendChild(link);
+
+        Promise.all([new FontFaceObserver("Oswald").load()]).then(
+            () => {
+            this.setState({ font: true });
+            }
+        );
     }
 
     componentWillUnmount() {
@@ -60,35 +66,28 @@ export default class BlogList extends React.Component {
     }
 
     render() {
-        let menuSpace = null;
+        let loader = <Loader />;   
+        let menuSpace = "210px";
         let componentOne = null;
-        let componentTwo = null;
-
-        let lead = null;
-        let contact = null;
-
+        let componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={menuSpace} />;
+        let lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
+        let contact = <ContactDesktop />;
+       
         // assumption that all blog images are horizontal with height = 762px
         let height = 762;
 
-        if (this.state.fontLoaded) {
-            if (this.state.width < 1160) {
-                height = 0;
-                menuSpace = "70px";
-                componentOne = null;
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={menuSpace} />;
-                lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
-                contact = <ContactMobile />;
-            } else {
-                menuSpace = "210px";
-                componentOne = null;
-                componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={menuSpace} />;
-                lead = <LeadDesktop leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
-                contact = <ContactDesktop />;
-            }
-        } else {
-            componentOne = <FontLoader triggerParentUpdateFontLoadedState={this.updateFontLoadedState} />;
-            componentTwo = <Loader />;
+        if(this.state.font) {
+            loader = null;            
         }
+       
+        if (this.state.width < 1160) {
+            height = 0;
+            menuSpace = "70px";
+            componentOne = null;
+            componentTwo = <Menu triggerUpdateParentOverflowState={this.updateOverflowState} displayTextAndArrow={false} displayArrow={false} height={menuSpace} />;
+            lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
+            contact = <ContactMobile />;
+        } 
 
         let bgImg3 = "bgimg-3 others";
         if (isIOS) {
@@ -97,6 +96,7 @@ export default class BlogList extends React.Component {
 
         return (
             <Layout title={this.props.headTitle} description={this.props.headDescription} keywords={this.props.headKeywords} url={this.props.headUrl}>
+                {loader}
                 {componentOne}
                 {componentTwo}
                 <div style={{ height: menuSpace }} />
