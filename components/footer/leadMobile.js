@@ -31,7 +31,7 @@ export default class LeadMobile extends Component {
         return (
             <CaptionSectionWrapper>
                 <p className="previewTitle">{this.props.leadNames}</p>
-                <h5 className="previewDescription">{this.props.leadTitle}</h5>
+                <p className="previewDescription">{this.props.leadTitle}</p>
                 <Link href={this.props.leadUrl}>
                     <input type="submit" value="GALERIA ZDJĘĆ" />
                 </Link>
@@ -51,6 +51,11 @@ export default class LeadMobile extends Component {
                 color: #FFF;
                 font-size: 24px;
                 padding: 20px 20px 40px 20px;
+                font-family:Oswald;
+                font-style:normal;
+                font-weight:bold;
+                line-height:1.4;
+                text-rendering: optimizelegibility
             }
 
             input[type=submit] {

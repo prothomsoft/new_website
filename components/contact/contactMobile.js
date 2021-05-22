@@ -138,7 +138,7 @@ export default class ContactMobile extends React.Component {
                             />
                             <span className="highlight" />
                             <span className="bar" />
-                            <label>Twoje imię i nazwisko</label>
+                            <label for="formSender">Twoje imię i nazwisko</label>
                         </div>
 
                         <div className="group">
@@ -155,14 +155,14 @@ export default class ContactMobile extends React.Component {
                             />
                             <span className="highlight" />
                             <span className="bar" />
-                            <label>Twój adres e-mail</label>
+                            <label for="formEmail">Twój adres e-mail</label>
                         </div>
 
                         <div className="group">
                             <textarea id="formMessage" className={this.state.messageUsed} name="message" required onChange={this.handleChange} onBlur={this.handleBlur} value={this.state.message} />
                             <span className="highlight" />
                             <span className="bar" />
-                            <label>Twoja wiadomość</label>
+                            <label for="formMessage">Twoja wiadomość</label>
                         </div>
 
                         <div className="submitPad">
