@@ -123,7 +123,7 @@ export default class Menu extends React.Component {
                         <div className={navClassName} style={{ background: `${background}` }}>
                             <div className="mtn-bar-wrap" style={{ background: `${background}` }}>
                                 <a className="mtn-mobile-logo" style={{ backgroundColor: `${background}` }} href="/">
-                                    <img src="https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/99foto_logo_mobile.svg" alt="fotograf ślubny kraków" style={{ width: "105px", visibility: `${logoVisibility}` }} />
+                                    <img src="https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/99foto_logo_mobile.svg" alt="fotograf ślubny kraków" style={{ width: "105px", height: "35px", visibility: `${logoVisibility}` }} />
                                 </a>
                                 <i onClick={this.showFixedMobileMenu} className="mtn-trigger">
                                     <i />
