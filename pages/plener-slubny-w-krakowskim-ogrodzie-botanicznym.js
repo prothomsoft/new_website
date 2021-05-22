@@ -1,30 +1,13 @@
-import { useState, useEffect } from "react";
 import Blogpage from "../components/blogpage";
-import { isWebPSupport } from "../components/utils/checkWebP";
 
 const BlogPageComponent = () => {
-    const [supported, setSupported] = useState(false);
-    useEffect(() => {
-        isWebPSupport((result) => {
-            setSupported(result);
-        });
-    }, []);
-
+    
     let slide = [];
-
-    if (supported) {
-        slide = [
-            {
-                imageUrl: "/static/webp/plener_slubny_krakowski_ogrod_botaniczny.webp",
-            },
-        ];
-    } else {
-        slide = [
-            {
-                imageUrl: "/static/plener_slubny_krakowski_ogrod_botaniczny.jpg",
-            },
-        ];
-    }
+    slide = [
+        {
+            imageUrl: "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/plener_slubny_krakowski_ogrod_botaniczny.jpg",
+        },
+    ];    
 
     let images = [
         { imageSrc: "/static/blog/2020/10/sesja_zdjeciowa_krakow_ogrod_botaniczny_0002.jpg", height: 763 },
@@ -93,7 +76,7 @@ const BlogPageComponent = () => {
             leadNames={"MAGDALENA i JONASZ"}
             leadTitle={"PLENER W BESKIDACH, SESJA ŚLUBNA W BESKIDZIE ŚLĄSKIM"}
             leadUrl={"/plener-w-beskidach-sesja-slubna-w-beskidzie-slaskim"}
-            leadImage={supported ? "url(/static/webp/plener_slubny_bielsko_szyndzielnia_klimczok.webp)" : "url(/static/plener_slubny_bielsko_szyndzielnia_klimczok.jpg)"}
+            leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/plener_slubny_bielsko_szyndzielnia_klimczok.jpg)"}
         />
     );
 };

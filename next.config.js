@@ -170,6 +170,8 @@ module.exports = {
         region: process.env.AWS_REGION_MYAPP,
     },
     images: {
-        deviceSizes: [640, 750, 828, 1080, 1140, 1920, 2048, 3840],
+        loader: "cloudinary",
+        path: "https://res.cloudinary.com/cloud99fotopl"
+        //deviceSizes: [640, 750, 828, 1080, 1140, 1920, 2048, 3840],
     }
 };

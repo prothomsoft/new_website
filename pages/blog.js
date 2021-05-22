@@ -1,14 +1,7 @@
 import { useState, useEffect } from 'react';
 import Bloglist from "../components/bloglist";
-import { isWebPSupport } from "../components/utils/checkWebP";
 
 function BlogListComponent({ posts }) {
-    const [supported, setSupported] = useState(false);
-    useEffect(() => {
-        isWebPSupport(result => {
-          setSupported(result)
-        })        
-      }, [])
     return (
         <div>
             <Bloglist
@@ -20,7 +13,7 @@ function BlogListComponent({ posts }) {
                 leadNames={"IZABELA i ARKADIUSZ"}
                 leadTitle={"DOM WESELNY EUFORIA MYŚLENICE i SŁONECZNE LOVE"}
                 leadUrl={"/dom-weselny-euforia-myslenice-i-sloneczne-love"}
-                leadImage={supported ? "url(/static/webp/dom_weselny_euforia_myslenice_1.webp)" : "url(/static/dom_weselny_euforia_myslenice_1.jpg)"}
+                leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/dom_weselny_euforia_myslenice_1.jpg)"}
             />
         </div>
     );

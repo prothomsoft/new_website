@@ -1,28 +1,13 @@
-import { useState, useEffect } from 'react';
 import Blogpage from "../components/blogpage";
-import { isWebPSupport } from "../components/utils/checkWebP";
 
 const BlogPageComponent = () => {
-    const [supported, setSupported] = useState(false);
-    useEffect(() => {
-        isWebPSupport(result => {
-          setSupported(result)
-        })        
-      }, [])
-
       let slide = [];
 
-        if(supported) {
             slide = [
                 {
-                    imageUrl: "/static/webp/plener_slubny_bielsko_szyndzielnia_klimczok.webp"
+                    imageUrl: "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/plener_slubny_bielsko_szyndzielnia_klimczok.jpg"
                 }];
-        } else {
-            slide = [
-                {
-                    imageUrl: "/static/plener_slubny_bielsko_szyndzielnia_klimczok.jpg"
-                }];
-        }
+
 
         let images = [
             { imageSrc: "/static/blog/2020/10/plener_slubny_bielsko_szyndzielnia_klimczok_0001.jpg", height: 763 },
@@ -82,7 +67,7 @@ const BlogPageComponent = () => {
         leadNames={"MARTYNA i MICHAŁ"}
         leadTitle={"PLENER ŚLUBNY ZAMEK PIESKOWA SKAŁA"}
         leadUrl={"/plener-slubny-zamek-pieskowa-skala"}
-        leadImage={supported ? "url(/static/webp/plener_slubny_zamek_pieskowa_skala_krakow.webp)" : "url(/static/plener_slubny_zamek_pieskowa_skala_krakow.jpg)"}
+        leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/plener_slubny_zamek_pieskowa_skala_krakow.jpg)"}
     />
 }
 

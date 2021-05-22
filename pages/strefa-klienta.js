@@ -1,14 +1,6 @@
-import { useState, useEffect } from 'react';
 import Clientlist from "../components/clientlist";
-import { isWebPSupport } from "../components/utils/checkWebP";
 
 function BlogListComponent({ posts }) {
-    const [supported, setSupported] = useState(false);
-    useEffect(() => {
-        isWebPSupport(result => {
-          setSupported(result)
-        })        
-      }, [])
     return (        
             <Clientlist
                 posts={posts}
@@ -19,7 +11,7 @@ function BlogListComponent({ posts }) {
                 leadNames={"MONIKA i MARTIN"}
                 leadTitle={"WESELE MIĘDZYNARODOWE i POLSKIE TRADYCJE WESELNE"}
                 leadUrl={"/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne"}
-                leadImage={supported ? "url(/static/webp/sala_weselna_biala_wilczyca_kocmyrzow.webp)" : "url(/static/sala_weselna_biala_wilczyca_kocmyrzow.jpg)"}
+                leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/sala_weselna_biala_wilczyca_kocmyrzow.jpg)"}
             />
         
     );
