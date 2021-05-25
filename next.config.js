@@ -172,6 +172,6 @@ module.exports = {
     images: {
         loader: "cloudinary",
         path: "https://res.cloudinary.com/cloud99fotopl",
-        deviceSizes: [640, 750, 828, 1080, 1140, 1920, 2048, 3840]
+        deviceSizes: [640, 750, 828, 1080, 1140, 1920]
     }
 };
