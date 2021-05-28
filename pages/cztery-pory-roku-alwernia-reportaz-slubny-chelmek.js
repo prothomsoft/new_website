@@ -5,7 +5,7 @@ export default class BlogPageComponent extends React.Component {
     render() {
         let slide = [
             {
-                imageUrl: "/static/cztery-pory-roku-alwernia-reportaz-slubny-chelmek-start.jpg"
+                imageUrl: process.env.staticImagesPath + "cztery-pory-roku-alwernia-reportaz-slubny-chelmek-start.jpg"
             }
         ];
 

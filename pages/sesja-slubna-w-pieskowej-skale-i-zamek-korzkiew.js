@@ -5,7 +5,7 @@ export default class BlogPageComponent extends React.Component {
     render() {
         let slide = [
             {
-                imageUrl: "/static/webp/plener_slubny_zamek_pieskowa_skala.webp"
+                imageUrl: process.env.staticImagesPath + "webp/plener_slubny_zamek_pieskowa_skala.webp"
             }
         ];
 

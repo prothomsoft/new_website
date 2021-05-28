@@ -7,7 +7,7 @@ const BlogPageComponent = () => {
    
         slide = [
             {
-                imageUrl: "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/sesja_slubna_palac_goetza.jpg",
+                imageUrl: process.env.staticImagesPath + "sesja_slubna_palac_goetza.jpg",
             },
         ];
    
@@ -62,7 +62,7 @@ const BlogPageComponent = () => {
             leadNames={"TERESA i ANDRZEJ"}
             leadTitle={"PLENER ŚLUBNY W KRAKOWSKIM OGRODZIE BOTANICZNYM"}
             leadUrl={"/plener-slubny-w-krakowskim-ogrodzie-botanicznym"}
-            leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/plener_slubny_krakowski_ogrod_botaniczny.jpg)"}
+            leadImage={"url(" + process.env.staticImagesPath + "plener_slubny_krakowski_ogrod_botaniczny.jpg)"}
         />
     );
 };

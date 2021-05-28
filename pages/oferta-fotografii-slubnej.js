@@ -7,11 +7,11 @@ const OfferPageComponent = () => {
       headKeywords={"oferta fotografii ślubnej, oferta sesji zdjęciowej, kraków, wieliczka, jordanów, miechów, tarnów, skawina"}
       headUrl={"https://99foto.pl/oferta-fotografii-slubnej/"}
       componentContentName={"offer"}
-      backgroundImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/wydruki_fotograf_krakow_start.jpg)"}
+      backgroundImage={"url(" + process.env.staticImagesPath + "wydruki_fotograf_krakow_start.jpg)"}
       leadNames={"DAJANA i SYLWESTER"}
       leadTitle={"OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA"}
       leadUrl={"/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
-      leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/ogrod_botaniczny.jpg)"}
+      leadImage={"url(" + process.env.staticImagesPath + "ogrod_botaniczny.jpg)"}
   />
 
 }

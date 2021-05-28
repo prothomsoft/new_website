@@ -138,7 +138,7 @@ export default class ContactDesktop extends React.Component {
                             />
                             <span className="highlight" />
                             <span className="bar" />
-                            <label for="formSender">Twoje imię i nazwisko</label>
+                            <label htmlFor="formSender">Twoje imię i nazwisko</label>
                         </div>
 
                         <div className="group">
@@ -155,14 +155,14 @@ export default class ContactDesktop extends React.Component {
                             />
                             <span className="highlight" />
                             <span className="bar" />
-                            <label for="formEmail">Twój adres e-mail</label>
+                            <label htmlFor="formEmail">Twój adres e-mail</label>
                         </div>
 
                         <div className="group">
                             <textarea id="formMessage" className={this.state.messageUsed} name="message" required onChange={this.handleChange} onBlur={this.handleBlur} value={this.state.message} />
                             <span className="highlight" />
                             <span className="bar" />
-                            <label for="formMessage">Twoja wiadomość</label>
+                            <label htmlFor="formMessage">Twoja wiadomość</label>
                         </div>
 
                         <div style={{ textAlign: "left", paddingTop: "20px" }}>

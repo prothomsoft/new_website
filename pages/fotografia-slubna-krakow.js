@@ -9,11 +9,11 @@ const SlubPageComponent = () => {
         headKeywords={"fotografia ślubna kraków, reportaż ślubny, ślub w plenerze"}
         headUrl={"https://99foto.pl/fotografia-slubna-krakow/"}
         componentContentName={"slub"}
-        backgroundImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg)"}
+        backgroundImage={"url(" + process.env.staticImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg)"}
         leadNames={"ANNA i PIOTR"}
         leadTitle={"BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"}
         leadUrl={"/bazylika-bozego-ciala-krakow-fotoreportaz-slubny"}
-        leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg)"}
+        leadImage={"url(" + process.env.staticImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg)"}
         />
   }
 

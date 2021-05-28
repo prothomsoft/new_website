@@ -16,11 +16,11 @@ const SectionWrapper = styled.div`
 const Index = () => {
       let slides = [];
       slides = [            
-              "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/lomnicki_staw_portfolio_start.jpg",
-              "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/ogrod_botaniczny.jpg",
-              "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
-              "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.jpg",
-              "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/fotograf_slubny_rabka_zdroj.jpg"
+            process.env.staticImagesPath + "lomnicki_staw_portfolio_start.jpg",
+            process.env.staticImagesPath + "ogrod_botaniczny.jpg",
+            process.env.staticImagesPath + "pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg",
+            process.env.staticImagesPath + "plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso-start-1.jpg",
+            process.env.staticImagesPath + "fotograf_slubny_rabka_zdroj.jpg"
       ];
       
       let headTitle = "Fotograf ślubny Kraków: Tomasz Prokop";
@@ -35,11 +35,11 @@ const Index = () => {
           headDescription={headDescription}
           headKeywords={headKeywords}
           headUrl={headUrl}
-          backgroundImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/sesja_slubna_jesienia.jpg)"}
+          backgroundImage={"url(" + process.env.staticImagesPath + "sesja_slubna_jesienia.jpg)"}
           leadNames={"PATRYCJA i KRZYSZTOF"}
           leadTitle={"PLENER ŚLUBNY NA RYNKU W KRAKOWIE"}
           leadUrl={"/plener-slubny-na-rynku-w-krakowie"}
-          leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/plener_slubny_na_rynku_w_krakowie.jpg)"}
+          leadImage={"url(" + process.env.staticImagesPath + "plener_slubny_na_rynku_w_krakowie.jpg)"}
       />        
 }
 

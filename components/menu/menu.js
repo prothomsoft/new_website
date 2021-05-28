@@ -114,6 +114,9 @@ export default class Menu extends React.Component {
             );
         }
 
+        let logoMobileSrc = process.env.staticImagesPath + "99foto_logo_mobile.svg";
+        let logoSrc = process.env.staticImagesPath + "99foto_logo.svg";
+
         return (
             <div className="menuWrapper" style={{ height: height }}>
                 <Waypoint onEnter={this.onWaypointEntered.bind(this, "notScrolled")} onLeave={this.onWaypointLeft.bind(this, "scrolled")} />
@@ -123,7 +126,7 @@ export default class Menu extends React.Component {
                         <div className={navClassName} style={{ background: `${background}` }}>
                             <div className="mtn-bar-wrap" style={{ background: `${background}` }}>
                                 <a className="mtn-mobile-logo" style={{ backgroundColor: `${background}` }} href="/">
-                                    <img src="https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/99foto_logo_mobile.svg" alt="fotograf ślubny kraków" style={{ width: "105px", height: "35px", visibility: `${logoVisibility}` }} />
+                                    <img src={logoMobileSrc} alt="fotograf ślubny kraków" style={{ width: "105px", height: "35px", visibility: `${logoVisibility}` }} />
                                 </a>
                                 <i onClick={this.showFixedMobileMenu} className="mtn-trigger">
                                     <i />
@@ -201,9 +204,8 @@ export default class Menu extends React.Component {
                                 </li>
                                 <li>
                                     <Link href="/">
-                                        <a>
-                                       
-                                            <img alt="Fotograf ślubny Kraków" style={{ height: "140px", width: "100px", margin: "-15px 0px 0px 5px" }} src="https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/99foto_logo.svg" />
+                                        <a>                                       
+                                            <img alt="Fotograf ślubny Kraków" style={{ height: "140px", width: "100px", margin: "-15px 0px 0px 5px" }} src={logoSrc} />
                                         </a>
                                     </Link>
                                 </li>

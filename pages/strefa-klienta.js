@@ -11,7 +11,7 @@ function BlogListComponent({ posts }) {
                 leadNames={"MONIKA i MARTIN"}
                 leadTitle={"WESELE MIĘDZYNARODOWE i POLSKIE TRADYCJE WESELNE"}
                 leadUrl={"/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne"}
-                leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/sala_weselna_biala_wilczyca_kocmyrzow.jpg)"}
+                leadImage={"url(" + process.env.staticImagesPath + "sala_weselna_biala_wilczyca_kocmyrzow.jpg)"}
             />
         
     );

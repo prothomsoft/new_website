@@ -5,7 +5,7 @@ const BlogPageComponent = () => {
     let slide = [];
     slide = [
         {
-            imageUrl: "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/plener_slubny_krakowski_ogrod_botaniczny.jpg",
+            imageUrl: process.env.staticImagesPath + "plener_slubny_krakowski_ogrod_botaniczny.jpg",
         },
     ];    
 
@@ -76,7 +76,7 @@ const BlogPageComponent = () => {
             leadNames={"MAGDALENA i JONASZ"}
             leadTitle={"PLENER W BESKIDACH, SESJA ŚLUBNA W BESKIDZIE ŚLĄSKIM"}
             leadUrl={"/plener-w-beskidach-sesja-slubna-w-beskidzie-slaskim"}
-            leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/plener_slubny_bielsko_szyndzielnia_klimczok.jpg)"}
+            leadImage={"url(" + process.env.staticImagesPath + "plener_slubny_bielsko_szyndzielnia_klimczok.jpg)"}
         />
     );
 };

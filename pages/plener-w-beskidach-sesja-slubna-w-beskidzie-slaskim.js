@@ -5,7 +5,7 @@ const BlogPageComponent = () => {
 
             slide = [
                 {
-                    imageUrl: "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/plener_slubny_bielsko_szyndzielnia_klimczok.jpg"
+                    imageUrl: process.env.staticImagesPath + "plener_slubny_bielsko_szyndzielnia_klimczok.jpg"
                 }];
 
 
@@ -67,7 +67,7 @@ const BlogPageComponent = () => {
         leadNames={"MARTYNA i MICHAŁ"}
         leadTitle={"PLENER ŚLUBNY ZAMEK PIESKOWA SKAŁA"}
         leadUrl={"/plener-slubny-zamek-pieskowa-skala"}
-        leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/plener_slubny_zamek_pieskowa_skala_krakow.jpg)"}
+        leadImage={"url(" + process.env.staticImagesPath + "plener_slubny_zamek_pieskowa_skala_krakow.jpg)"}
     />
 }
 

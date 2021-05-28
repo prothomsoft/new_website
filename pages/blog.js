@@ -13,7 +13,7 @@ function BlogListComponent({ posts }) {
                 leadNames={"IZABELA i ARKADIUSZ"}
                 leadTitle={"DOM WESELNY EUFORIA MYŚLENICE i SŁONECZNE LOVE"}
                 leadUrl={"/dom-weselny-euforia-myslenice-i-sloneczne-love"}
-                leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/dom_weselny_euforia_myslenice_1.jpg)"}
+                leadImage={"url(" + process.env.staticImagesPath + "dom_weselny_euforia_myslenice_1.jpg)"}
             />
         </div>
     );

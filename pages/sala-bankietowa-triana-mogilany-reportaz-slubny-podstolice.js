@@ -5,7 +5,7 @@ export default class BlogPageComponent extends React.Component {
     render() {
         let slide = [
             {
-                imageUrl: "/static/sala_bankietowa_triana_mogilany.jpg"
+                imageUrl: process.env.staticImagesPath + "sala_bankietowa_triana_mogilany.jpg"
             }
         ];
 

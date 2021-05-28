@@ -7,11 +7,11 @@ const MisjaPageComponent = () => {
       headKeywords={"sesja zdjęciowa kraków,fotograf na wesele kraków"}
       headUrl={"https://99foto.pl/misja-i-faq/"}
       componentContentName={"misja"}
-      backgroundImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/dworek_fantazja_skomielna_biala_fotograf.jpg)"}
+      backgroundImage={"url(" + process.env.staticImagesPath + "dworek_fantazja_skomielna_biala_fotograf.jpg)"}
       leadNames={"PATRYCJA i KRZYSZTOF"}
       leadTitle={"DWOREK FANTAZJA SKOMIELNA BIAŁA i ŚLUB W STYLU GLAMOUR"}
       leadUrl={"/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour"}
-      leadImage={"url(https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://99foto.pl/static/dworek_fantazja_skomielna_biala_fotograf.jpg)"}
+      leadImage={"url(" + process.env.staticImagesPath + "dworek_fantazja_skomielna_biala_fotograf.jpg)"}
   />
 }
 

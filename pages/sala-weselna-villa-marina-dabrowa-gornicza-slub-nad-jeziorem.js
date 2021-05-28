@@ -5,7 +5,7 @@ export default class BlogPageComponent extends React.Component {
     render() {
         let slide = [
             {
-                imageUrl: "/static/sala-weselna-villa-marina-dabrowa-gornicza-slub-nad-jeziorem-start.jpg"
+                imageUrl: process.env.staticImagesPath + "sala-weselna-villa-marina-dabrowa-gornicza-slub-nad-jeziorem-start.jpg"
             }
         ];
 
