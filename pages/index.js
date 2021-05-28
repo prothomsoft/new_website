@@ -1,6 +1,4 @@
-import { useState, useEffect, Fragment } from 'react';
 import Homepage from "../components/homepage";
-import {isWebPSupport} from "../components/utils/checkWebP";
 import styled from "styled-components";
 
 const SectionWrapper = styled.div`

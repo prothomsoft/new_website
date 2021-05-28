@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import Blogpage from "../components/blogpage";
 
 const BlogPageComponent = () => {

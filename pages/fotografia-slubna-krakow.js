@@ -1,6 +1,4 @@
-import {useState, useEffect} from 'react';
 import Singlepage from "../components/singlepage";
-
  
 const SlubPageComponent = () => {
     return <Singlepage
