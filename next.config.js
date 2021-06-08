@@ -10,6 +10,7 @@ module.exports = {
             "/reportaze-slubne-sesje-plenerowe": { page: "/reportaze-slubne-sesje-plenerowe" },
             "/strefa-klienta": { page: "/strefa-klienta" },
             "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },
+            "/dom-weselny-biala-perla-radziemice-reportaz-slubny": { page: "/dom-weselny-biala-perla-radziemice-reportaz-slubny" },
             "/palac-goetz-wesele-plener-slubny": { page: "/palac-goetz-wesele-plener-slubny" },
             "/plener-slubny-w-krakowskim-ogrodzie-botanicznym": { page: "/plener-slubny-w-krakowskim-ogrodzie-botanicznym" },
             "/plener-w-beskidach-sesja-slubna-w-beskidzie-slaskim": { page: "/plener-w-beskidach-sesja-slubna-w-beskidzie-slaskim" },
