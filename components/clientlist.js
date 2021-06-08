@@ -122,7 +122,7 @@ export default class ClientList extends React.Component {
                             </h1>
                             <Link as={`/${post.slug}`} href={`/${post.slug}`}>
                                 <a href={`https://sk.99foto.pl/login/${post.welcomeURL}`} target="_blank" rel="nofollow">
-                                    <Image alt={`${title(post)}`} src={`/static/client/${post.welcomeURL}.jpg`} width={1140} height={951} />
+                                    <img alt={`${title(post)}`} src={`/static/client/${post.welcomeURL}.jpg`} width={1140} height={951} />
                                 </a>
                             </Link>
                         </div>
