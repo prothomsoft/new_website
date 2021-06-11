@@ -145,6 +145,12 @@ export default class OfferDesktop extends React.Component {
                     </p>
                     <Image alt="atmosfera podczas pleneru ślubnego" src={"/static/portfolio/sesja_zdjeciowa_krakow_3_portfolio.jpg"} width={1140} height={760} />
                     <p>
+                        Tomku, z całego serca dziękujemy za cudowne zdjęcia z naszego ślubu. Lepszych nie mogliśmy sobie wymarzyć. Jesteśmy totalnie oczarowani relacją, która dla nas stworzyłeś.
+                        Idealnie uchwycone chwile, oryginalne i niebanalne kadry, naturalność, swoboda i spontaniczność – to wszystko składa się na naszą piękną historię, którą ujęcie po ujęciu możemy
+                        przeżywać na nowo za każdym razem kiedy wracamy do Twoich zdjęć. <Link href="/plener-w-beskidach-sesja-slubna-w-beskidzie-slaskim">Magdalena i Jonasz</Link>.
+                    </p>
+                    <Image alt="dobry fotograf ślubny kraków" src={"/static/portfolio/slubne_portfolio_3.jpg"} width={1140} height={527} />
+                    <p>
                         Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego
                         fotografa. Polecamy wszystkim! <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">Aleksandra i Grzegorz</Link>.
                     </p>

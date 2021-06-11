@@ -45,7 +45,7 @@ export default class Singlepage extends React.Component {
             eachImageState: 0,
             overflow: true,
             font: false,
-            width: "0"
+            width: "0",
         };
         this.updateOverflowState = this.updateOverflowState.bind(this);
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
@@ -60,11 +60,9 @@ export default class Singlepage extends React.Component {
         link.rel = "stylesheet";
         document.head.appendChild(link);
 
-        Promise.all([new FontFaceObserver("Oswald").load()]).then(
-            () => {
+        Promise.all([new FontFaceObserver("Oswald").load()]).then(() => {
             this.setState({ font: true });
-            }
-        );
+        });
     }
 
     componentWillUnmount() {
@@ -77,12 +75,12 @@ export default class Singlepage extends React.Component {
 
     updateOverflowState() {
         this.setState({
-            overflow: !this.state.overflow
+            overflow: !this.state.overflow,
         });
     }
 
     render() {
-        let loader = <Loader />;   
+        let loader = <Loader />;
         let overflow = null;
         let componentOne = null;
         let menuSpace = "160px";
@@ -109,10 +107,10 @@ export default class Singlepage extends React.Component {
             componentContent = <HistoriaDesktop />;
         }
 
-        if(this.state.font) {
-            loader = null;            
+        if (this.state.font) {
+            loader = null;
         }
-        
+
         if (this.state.width < 1160) {
             menuSpace = "40px";
             componentOne = null;
@@ -137,8 +135,8 @@ export default class Singlepage extends React.Component {
                 componentContent = <HistoriaMobile />;
             }
             lead = <LeadMobile leadNames={this.props.leadNames} leadTitle={this.props.leadTitle} leadUrl={this.props.leadUrl} />;
-        } 
-        
+        }
+
         if (this.state.overflow) {
             overflow = "visible";
         } else {

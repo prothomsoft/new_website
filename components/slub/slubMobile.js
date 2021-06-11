@@ -71,6 +71,12 @@ export default class SlubMobile extends React.Component {
                     </p>
                     <Image alt="sala weselna Nedan Pcim" src={"/static/portfolio/portfolio_0015.jpg"} width={1140} height={760} />
                     <p>
+                        Tomku Twoje zdjęcia pokazują Twoją pasje i zaangażowanie, pełen profesjonalizm i pracę jaką wkładasz w to aby były nietuzinkowe. Świetna gra świateł, idealnie dobrane kolory i
+                        bardzo trafione czarnobiałe fotografie. Pokazałeś na zdjęciach nas takich jacy jesteśmy, a to chyba najpiękniejsze.{" "}
+                        <Link href="/palac-goetz-wesele-plener-slubny">Anna i Paweł</Link>
+                    </p>
+                    <Image alt="piękne zdjęcia, pełne emocji reportaże ślubne" src={"/static/portfolio/slubne_portfolio_2.jpg"} width={1140} height={763} />
+                    <p>
                         Tomek zajmuje się fotografią ślubną z pasją, robi świetne zdjęcia, a do tego zna sie na tej sztuce! Poza tym jest wspaniałym, uśmiechniętym człowiekiem i praca z nim to czysta
                         przyjemność :-) słyszałam, że najlepszy aparaciarz to taki, na którego nie zwraca się uwagi i Tomek taki jest. Cichaczem pstryka fotki i przez to są naturalne, a na plenerze
                         daje mnóstwo super pomysłów :-) dziękujemy Tomku za zdjęcia ślubne i wczorajszy plener (to był dla nas z Pawłem wspaniały prezent na rocznice) !!!{" "}
@@ -108,6 +114,11 @@ export default class SlubMobile extends React.Component {
                     </p>
                     <Image alt="Ślub w Bazylice Bożego Ciała w Krakowie" src={"/static/portfolio/portfolio_0017.jpg"} width={1140} height={760} />
                     <p>
+                        Serdecznie dziękujemy za uwiecznienie wspaniałych chwil z naszego życia. Polecamy współpracę z Tomkiem wszystkim szukającym najwyższej jakości usług i pełnego profesjonalizmu.
+                        <Link href="/dom-weselny-biala-perla-radziemice-reportaz-slubny">Żaneta i Sebastian</Link>.
+                    </p>
+                    <Image alt="dobry fotograf ślubny Kraków" src={"/static/portfolio/slubne_portfolio_1.jpg"} width={1140} height={595} />
+                    <p>
                         Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego
                         fotografa. Polecamy wszystkim ! <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">Aleksandra i Grzegorz</Link>.
                     </p>
@@ -116,7 +127,7 @@ export default class SlubMobile extends React.Component {
                         Zaangażowany, baczny obserwator wydarzeń, profesjonalista z pasją i pomysłowością. Czego efektem są piękne zdjęcia! Dziękujemy i polecamy!{" "}
                         <Link href="/palac-goetza-brzesko-sluba-sesja-zdjeciowa">Magdalena i Łukasz</Link>.
                     </p>
-                    <Image alt="piękne zdjęcia, pełne emocji reportaże ślubne" src={"/static/portfolio/beata_marcin_mszana_dolna_portfolio.jpg"} width={1140} height={760} />
+                    <Image alt="pełne emocji reportaże ślubne, niezapomniane sesje plenerowe" src={"/static/portfolio/beata_marcin_mszana_dolna_portfolio.jpg"} width={1140} height={760} />
                     <p>
                         Jednym słowem - człowek zajmujący się fotogafią ślubną z pasją, co widać po efektach. Już nie możemy doczekać się zdjęć z sesji. W przyszłości jeśli będę miała szukać
                         fotografa, na pewno zadzwonię do Tomka. Dziękujemy za przepiękne zdjęcia, zaangazowanie, uśmiech i energię, która udzieliła sie również nam. Do zobaczenia.{" "}
