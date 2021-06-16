@@ -137,7 +137,7 @@ export default class LayoutComponent extends Component {
     render() {
         let component = (
             <GeneralWrapper style={{ overflow: "visible" }}>
-                <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} />
+                <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} />
                 <GlobalStyle />
                 {this.props.children}
                 <ScrollUpButton style={{ width: 40 }} ToggledStyle={{ right: 20 }} />
@@ -146,7 +146,7 @@ export default class LayoutComponent extends Component {
         if (this.props.overflow === "hidden") {
             component = (
                 <GeneralWrapper style={{ overflow: "hidden" }}>
-                    <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} url={this.props.url} />
+                    <Meta title={this.props.title} description={this.props.description} keywords={this.props.keywords} />
                     <GlobalStyle />
                     {this.props.children}
                     <ScrollUpButton style={{ width: 40 }} ToggledStyle={{ right: 20 }} />
