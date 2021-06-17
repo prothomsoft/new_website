@@ -26,7 +26,7 @@ export default class RodoMobile extends React.Component {
                     <p>
                         Administratorem danych osobowych jest Tomasz Prokop - Fotograf Ślubny Kraków, 31-231 Kraków, ul. Bociana 4A/35. Kontakt w sprawach związanych z ochroną danych osobowych możliwy
                         jest za pośrednictwem adresu email:{" "}
-                        <a href="mailto:tomasz@99foto.pl" target="_blank" rel="nofollow">
+                        <a href="mailto:tomasz@99foto.pl" target="_blank" rel="noreferrer">
                             tomasz@99foto.pl
                         </a>
                         . Bardzo chętnie odpowiem na dodatkowe pytania.

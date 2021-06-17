@@ -62,7 +62,7 @@ export default class LeadDesktop extends Component {
                 <CaptionSectionWrapper>
                     <p className="previewTitle">{this.props.leadNames}</p>
                     <p className="previewDescription">{this.props.leadTitle}</p>
-                    <Link href={this.props.leadUrl}>
+                    <Link passHref href={this.props.leadUrl}>
                         <input type="submit" value="GALERIA ZDJĘĆ" />
                     </Link>
                     <style jsx>{`

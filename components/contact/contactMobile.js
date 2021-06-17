@@ -202,7 +202,7 @@ export default class ContactMobile extends React.Component {
                     <div className="spacer_very_small" />
                     <div className="icon_container">
                     <div className="square">
-                            <a target="_blank" href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny,35325/" rel="nofollow">
+                            <a target="_blank" href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny,35325/" rel="noreferrer">
                                     <div className="float_right">
                                         <Image alt="wesele z klasą" src={"/static/icons/wesele_z_klasa.jpg"} width={43} height={43} placeholder="blur" blurDataURL={"/static/icons/wesele_z_klasa.jpg"}/>
                                     </div>
@@ -211,21 +211,21 @@ export default class ContactMobile extends React.Component {
                                
                             </div>
                             <div className="square">
-                            <a target="_blank" href="https://www.instagram.com/99foto.pl" rel="nofollow">
+                            <a target="_blank" href="https://www.instagram.com/99foto.pl" rel="noreferrer">
                                     <div className="float_right">
                                         <Image alt="profil na instagramie" src={"/static/icons/instagram_icon.jpg"} width={43} height={43} placeholder="blur" blurDataURL={"/static/icons/instagram_icon.jpg"}/>
                                     </div>
                                 </a>
                             </div>
                             <div className="square">
-                            <a target="_blank" href="https://facebook.com/99foto" rel="nofollow">
+                            <a target="_blank" href="https://facebook.com/99foto" rel="noreferrer">
                                     <div className="float_right">
                                         <Image alt="profil na facebook" src={"/static/icons/facebook_icon.jpg"} width={43} height={43} placeholder="blur" blurDataURL={"/static/icons/facebook_icon.jpg"}/>
                                     </div>
                                 </a>
                             </div>
                             <div className="square_space">
-                                <a target="_blank" href="https://www.slubnaglowie.pl/katalog/firma/tomasz-prokop_6663" rel="nofollow">
+                                <a target="_blank" href="https://www.slubnaglowie.pl/katalog/firma/tomasz-prokop_6663" rel="noreferrer">
                                     <div className="float_right">
                                         <Image alt="slub na głowie" src={"/static/icons/slub_na_glowie.jpg"} width={43} height={43} placeholder="blur" blurDataURL={"/static/icons/slub_na_glowie.jpg"}/>                                        
                                     </div>

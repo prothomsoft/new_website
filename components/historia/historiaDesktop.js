@@ -15,24 +15,24 @@ export default class HistoriaDesktop extends React.Component {
                         <h1 className="quote-title">REPORTAŻE ŚLUBNE i SESJE PLENEROWE</h1>
                     </header>
                     <div style={{ display: "flex" }}>
-                        <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
+                        <Link passHref href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
                             <div className="porfolioImage">
                                 <Image alt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu" src={"/static/portfolio/hotel_mercure_kasprowy_zakopane.jpg"} width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/hotel_mercure_kasprowy_zakopane.jpg"/>
                             </div>
                         </Link>
-                        <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
+                        <Link passHref href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
                             <div className="porfolioImage">
                                 <Image alt="bazylika bożego ciała kraków fotoreportaż ślubny" src={"/static/portfolio/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg"} width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg"/>
                             </div>
                         </Link>
-                        <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
+                        <Link passHref href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                             <div className="porfolioImage">
                                 <Image alt="sesja zdjęciowa w górach" src={"/static/portfolio/plener_slubny_slowacja.jpg"} width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/plener_slubny_slowacja.jpg"/>
                             </div>
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
+                        <Link passHref href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
                             <div className="porfolioCaption">
                                 <h3>
                                     WESELE W ZAKOPANEM HOTEL KASPROWY
@@ -40,7 +40,7 @@ export default class HistoriaDesktop extends React.Component {
                                 </h3>
                             </div>
                         </Link>
-                        <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
+                        <Link passHref href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
                             <div className="porfolioCaption">
                                 <p>
                                     REPORTAŻ ŚLUBNY KRAKÓW
@@ -48,7 +48,7 @@ export default class HistoriaDesktop extends React.Component {
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
+                        <Link passHref href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                             <div className="porfolioCaption">
                                 <p>
                                     SESJA ZDJĘCIOWA W GÓRACH
@@ -58,24 +58,24 @@ export default class HistoriaDesktop extends React.Component {
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
+                        <Link passHref href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                             <div className="porfolioImage">
                                 <Image alt="wesele w góralskim klimacie" src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"/>
                               </div>
                         </Link>
-                        <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
+                        <Link passHref href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                             <div className="porfolioImage">
                                 <Image alt="sesja zdjęciowa pałac goetzów brzesko" src={"/static/portfolio/plener_slubny_palac_goetzow_brzesko.jpg"} width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/plener_slubny_palac_goetzow_brzesko.jpg"/>
                               </div>
                         </Link>
-                        <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
+                        <Link passHref href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
                             <div className="porfolioImage">
                                 <Image alt="ślub w stylu glamour" src={"/static/portfolio/dworek_fantazja_skomielna_biala_fotograf.jpg"} width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/dworek_fantazja_skomielna_biala_fotograf.jpg"/>
                             </div>
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
+                        <Link passHref href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                             <div className="porfolioCaption">
                                 <p>
                                     WESELE W GÓRALSKIM KLIMACIE
@@ -83,7 +83,7 @@ export default class HistoriaDesktop extends React.Component {
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
+                        <Link passHref href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                             <div className="porfolioCaption">
                                 <p>
                                     SESJA ŚLUBNA JESIENIĄ - PAŁAC GOETZÓW
@@ -91,7 +91,7 @@ export default class HistoriaDesktop extends React.Component {
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
+                        <Link passHref href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
                             <div className="porfolioCaption">
                                 <p>
                                     ŚLUB W STYLU GLAMOUR
@@ -101,24 +101,24 @@ export default class HistoriaDesktop extends React.Component {
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
+                        <Link passHref href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
                             <div className="porfolioImage">
                                 <Image alt="fotograf na wesele kraków" src={"/static/portfolio/ogrod_botaniczny.jpg"} width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/ogrod_botaniczny.jpg"/>
                             </div>
                         </Link>
-                        <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
+                        <Link passHref href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
                             <div className="porfolioImage">
                                 <Image alt="sesja ślubna kraków" src={"/static/portfolio/sesja_narzeczenska_klasztor_w_tyncu.jpg"} width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/sesja_narzeczenska_klasztor_w_tyncu.jpg"/>
                             </div>
                         </Link>
-                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
+                        <Link passHref href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                             <div className="porfolioImage">
                                 <Image alt="wesele międzynarodowe, polskie tradycje weselne" src={"/static/portfolio/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/sala_weselna_biala_wilczyca_kocmyrzow.jpg"/>
                             </div>
                         </Link>
                     </div>
                     <div style={{ display: "flex" }}>
-                        <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
+                        <Link passHref href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
                             <div className="porfolioCaption">
                                 <h4>
                                     FOTOGRAF NA WESELE KRAKÓW 
@@ -126,7 +126,7 @@ export default class HistoriaDesktop extends React.Component {
                                 </h4>
                             </div>
                         </Link>
-                        <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
+                        <Link passHref href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
                             <div className="porfolioCaption">
                                 <p>
                                     SESJA ŚLUBNA KRAKÓW
@@ -134,7 +134,7 @@ export default class HistoriaDesktop extends React.Component {
                                 </p>
                             </div>
                         </Link>
-                        <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
+                        <Link passHref href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                             <div className="porfolioCaption">
                                 <p>
                                     WESELE MIĘDZYNARODOWE KRAKÓW
