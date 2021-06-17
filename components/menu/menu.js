@@ -136,42 +136,42 @@ export default class Menu extends React.Component {
                                 <div className="mobileMenuContent" style={{ height: height }}>
                                     <ul>
                                         <li>
-                                            <Link passHref href="/">
+                                            <Link href="/">
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="START" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link passHref href="/fotografia-slubna-krakow">
+                                            <Link href="/fotografia-slubna-krakow">
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="FOTOGRAFIA ŚLUBNA" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link passHref href="/sesja-zdjeciowa-krakow">
+                                            <Link href="/sesja-zdjeciowa-krakow">
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="SESJA ZDJĘCIOWA" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link passHref href="/reportaze-slubne-sesje-plenerowe">
+                                            <Link href="/reportaze-slubne-sesje-plenerowe">
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="KILKA HISTORII" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link passHref href="/misja-i-faq">
+                                            <Link href="/misja-i-faq">
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="MISJA i FAQ" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link passHref href="/oferta-fotografii-slubnej">
+                                            <Link href="/oferta-fotografii-slubnej">
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="OFERTA" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link passHref href="/blog">
+                                            <Link href="/blog">
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="BLOG" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link passHref href="/strefa-klienta">
+                                            <Link href="/strefa-klienta">
                                                 <MyLink onCustomClick={this.showFixedMobileMenu} text="STREFA KLIENTA" />
                                             </Link>
                                         </li>
@@ -188,44 +188,44 @@ export default class Menu extends React.Component {
                         <ClassicMenuWrapper>
                             <ul className="classicMenuContent">
                                 <li>
-                                    <Link passHref href="/fotografia-slubna-krakow">
+                                    <Link href="/fotografia-slubna-krakow">
                                         <a>FOTOGRAFIA ŚLUBNA</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link passHref href="/sesja-zdjeciowa-krakow">
+                                    <Link href="/sesja-zdjeciowa-krakow">
                                         <a>SESJA ZDJĘCIOWA</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link passHref href="/reportaze-slubne-sesje-plenerowe">
+                                    <Link href="/reportaze-slubne-sesje-plenerowe">
                                         <a>KILKA HISTORII</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link passHref href="/">
+                                    <Link href="/">
                                         <a>                                       
                                             <img alt="Fotograf ślubny Kraków" style={{ height: "140px", width: "100px", margin: "-15px 0px 0px 5px" }} src={logoSrc} />
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link passHref href="/misja-i-faq">
+                                    <Link href="/misja-i-faq">
                                         <a>MISJA i FAQ</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link passHref href="/oferta-fotografii-slubnej">
+                                    <Link href="/oferta-fotografii-slubnej">
                                         <a>OFERTA</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link passHref href="/blog">
+                                    <Link href="/blog">
                                         <a>BLOG</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link passHref href="/strefa-klienta">
+                                    <Link href="/strefa-klienta">
                                         <a>STREFA KLIENTA</a>
                                     </Link>
                                 </li>

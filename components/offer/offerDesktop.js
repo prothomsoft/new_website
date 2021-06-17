@@ -17,13 +17,13 @@ export default class OfferDesktop extends React.Component {
 
                     <div className="container">
                         <div className="column left">
-                            <Link passHref href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
+                            <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
                                 <div className="porfolioImage">
                                     <Image alt="portret panny młodej" src={"/static/portfolio/portret_panny_mlodej.jpg"} width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/portret_panny_mlodej.jpg"/>                                    
                                 </div>
                             </Link>
 
-                            <Link passHref href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
+                            <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
                                 <div className="porfolioImage">
                                     <Image alt="sala weselna Mszana Dolna" src={"/static/portfolio/aleksandra_mszana_dolna.jpg"}  width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/aleksandra_mszana_dolna.jpg"/>
                                 </div>
@@ -52,12 +52,12 @@ export default class OfferDesktop extends React.Component {
 
                     <div className="container">
                         <div className="column left">
-                            <Link passHref href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
+                            <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
                                 <div className="porfolioImage">
                                     <Image alt="sesja plenerowa w ogrodzie botanicznym" src={"/static/portfolio/plener_0002.jpg"}  width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/plener_0002.jpg" />
                                 </div>
                             </Link>
-                            <Link passHref href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
+                            <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                                 <div className="porfolioImage">
                                     <Image alt="sesja slubna palac goetzow okocimskich" src={"/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"}  width={336} height={225} placeholder="blur" blurDataURL="/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"/>
                                 </div>

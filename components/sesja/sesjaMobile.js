@@ -75,7 +75,7 @@ export default class SesjaMobile extends React.Component {
                         <h2 className="quote-title">REFERENCJE - FACEBOOK</h2>
                     </header>
                     <p>
-                        Od samego początku współpraca z Tomkiem przebiegała idealnie :) Pełen pomysłów w głowie i zapału do pracy, a przy okazji napełniony dobrą energią, która dodała nam &quot;powera&quot; w
+                        Od samego początku współpraca z Tomkiem przebiegała idealnie :) Pełen pomysłów w głowie i zapału do pracy, a przy okazji napełniony dobrą energią, która dodała nam "powera" w
                         tym ważnym dla nas dniu! Błyskawiczna obsługa z pięknymi zdjęciami :) Jak tylko wybierać to zdecydowanie Tomka ! :) Dziękujemy i na pewno kiedyś jeszcze się zobaczymy.{" "}
                         <Link href="/hotel-qubus-krakow-sesja-zdjeciowa">Ewelina i Kamil</Link>.
                     </p>
