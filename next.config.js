@@ -9,7 +9,8 @@ module.exports = {
             "/misja-i-faq": { page: "/misja-i-faq" },
             "/reportaze-slubne-sesje-plenerowe": { page: "/reportaze-slubne-sesje-plenerowe" },
             "/strefa-klienta": { page: "/strefa-klienta" },
-            "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },
+            "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },            
+            "/wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow": { page: "/wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow" },
             "/dom-weselny-biala-perla-radziemice-reportaz-slubny": { page: "/dom-weselny-biala-perla-radziemice-reportaz-slubny" },
             "/palac-goetz-wesele-plener-slubny": { page: "/palac-goetz-wesele-plener-slubny" },
             "/plener-slubny-w-krakowskim-ogrodzie-botanicznym": { page: "/plener-slubny-w-krakowskim-ogrodzie-botanicznym" },
@@ -171,6 +172,7 @@ module.exports = {
         region: process.env.AWS_REGION_MYAPP,
         staticImagesPath: "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://www.99foto.pl/static/"
         //staticImagesPath: "https://www.99foto.pl/static/"
+        //staticImagesPath: "http://localhost:3000/static/"
     },
     images: {
         loader: "cloudinary",

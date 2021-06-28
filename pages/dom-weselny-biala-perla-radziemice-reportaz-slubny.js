@@ -175,7 +175,7 @@ export default class BlogPageComponent extends React.Component {
                     menuNames={"ŻANETA i SEBASTIAN"}
                     menuTitle={"DOM WESELNY BIAŁA PERŁA RADZIEMICE, REPORTAŻ ŚLUBNY"}
                     leadNames={"ANNA i PAWEŁ"}
-                    leadTitle={"PAŁAC GOETZ MIEJSCE NA WESELE i PLENER ŚLUBNY MARZEŃ - "}
+                    leadTitle={"PAŁAC GOETZ MIEJSCE NA WESELE i PLENER ŚLUBNY MARZEŃ"}
                     leadUrl={"/palac-goetz-wesele-plener-slubny"}
                     leadImage={"url(" + process.env.staticImagesPath + "sesja_slubna_palac_goetza.jpg)"}
                 />
