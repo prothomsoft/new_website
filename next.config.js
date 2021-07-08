@@ -10,6 +10,7 @@ module.exports = {
             "/reportaze-slubne-sesje-plenerowe": { page: "/reportaze-slubne-sesje-plenerowe" },
             "/strefa-klienta": { page: "/strefa-klienta" },
             "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },            
+            "/fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny": { page: "/fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny" },     
             "/wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow": { page: "/wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow" },
             "/dom-weselny-biala-perla-radziemice-reportaz-slubny": { page: "/dom-weselny-biala-perla-radziemice-reportaz-slubny" },
             "/palac-goetz-wesele-plener-slubny": { page: "/palac-goetz-wesele-plener-slubny" },
