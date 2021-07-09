@@ -1,0 +1,96 @@
+import React from 'react';
+import Blogpage from "../components/blogpage";
+
+export default class BlogPageComponent extends React.Component {
+    render() {
+        let slide = [
+            {
+                imageUrl: process.env.staticImagesPath + "summer_party_cornerstone_2021_start.jpg"
+            }
+        ];
+
+        let images = [
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0001.jpg", height: 527 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0002.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0003.jpg", height: 527 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0004.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0005.jpg", height: 382 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0006.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0007.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0008.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0009.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0010.jpg", height: 527 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0011.jpg", height: 805 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0012.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0013.jpg", height: 527 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0014.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0053.jpg", height: 644 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0015.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0016.jpg", height: 527 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0017.jpg", height: 382 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0018.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0019.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0020.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0021.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0022.jpg", height: 806 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0023.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0024.jpg", height: 383 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0025.jpg", height: 762 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0026.jpg", height: 382 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0027.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0028.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0029.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0030.jpg", height: 806 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0032.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0031.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0033.jpg", height: 527 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0034.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0035.jpg", height: 527 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0036.jpg", height: 806 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0037.jpg", height: 383 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0038.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0039.jpg", height: 527 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0040.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0041.jpg", height: 383 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0042.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0051.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0044.jpg", height: 383 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0046.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0047.jpg", height: 383 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0048.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0049.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0045.jpg", height: 383 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0050.jpg", height: 763 },
+            { imageSrc: "/static/blog/2019/12/wigilia_saba_2019_0043.jpg", height: 762 }
+        ];
+
+        return (
+            <div>
+                <Blogpage
+                    slide={slide}
+                    images={images}
+                    headTitle={"Fotograf na event firmowy Kraków, Summer Party w Cornerstone"}
+                    headDescription={
+                        "Summer Party w Cornerstone w Krakowie. Firmowe spotkanie w Cornerstone. Impreza plenerowa w Dolinie Kluczwody. Niewiarygodnie duża ilość atrakcji i przepysznych rzeczy do spróbowania. Konkursy łucznictwa i siatkówki z medalami i nagrodami, pokaz tańca z ogniem i wiele innych atrakji zaplanowanych przez Anię, Asię i Iwentarium. Zapraszam na zdjęcia."
+                    }
+                    headKeywords={"Fotograf na event firmowy Kraków, Summer Party w Cornerstone"}
+                    headUrl={"https://99foto.pl/summer-party-cornerstone-2021.js/"}
+                    entryContentP1={
+                        "Summer Party w Cornerstone w Krakowie. Firmowe spotkanie w Cornerstone. Impreza plenerowa w Dolinie Kluczwody. Niewiarygodnie duża ilość atrakcji i przepysznych rzeczy do spróbowania. Konkursy łucznictwa i siatkówki z medalami i nagrodami, pokaz tańca z ogniem i wiele innych atrakji zaplanowanych przez Anię, Asię i Iwentarium. Zapraszam na zdjęcia i życzę miłego oglądania."
+                    }
+                    entryContentP2={""}
+                    slug={"summer-party-cornerstone-2021.js"}
+                    title={"CORNERSTONE - SUMMER PARTY"}
+                    tags={"Fotograf na event firmowy Kraków, Summer Party w Cornerstone"}
+                    date={"9 lipca 2021"}
+                    menuNames={"CORNERSTONE - SUMMER PARTY"}
+                    menuTitle={"AGROTURYSTYKA i SPA DOLINA KLUCZWODY"}
+                    leadNames={"FIRMA SABA SOFTWARE"}
+                    leadTitle={"WIGILIA FIRMOWA - HOTEL HOLIDAY INN KRAKÓW"}
+                    leadUrl={"/wigilia-firmowa-saba-2019"}
+                    leadImage={"url(/static/wigilia_saba_start.jpg)"}
+                />
+            </div>
+        );
+    }
+}
