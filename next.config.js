@@ -171,13 +171,13 @@ module.exports = {
         accessKeyId: process.env.AWS_ACCESS_KEY_ID_MYAPP,
         secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY_MYAPP,
         region: process.env.AWS_REGION_MYAPP,
-        staticImagesPath: "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://www.99foto.pl/static/"
-        //staticImagesPath: "https://www.99foto.pl/static/"
+        //staticImagesPath: "https://res.cloudinary.com/cloud99fotopl/image/fetch/f_auto,q_auto/https://www.99foto.pl/static/"
+        staticImagesPath: "https://www.99foto.pl/static/"
         //staticImagesPath: "http://localhost:3000/static/"
     },
     images: {
-        loader: "cloudinary",
-        path: "https://res.cloudinary.com/cloud99fotopl",
+        //loader: "cloudinary",
+        //path: "https://res.cloudinary.com/cloud99fotopl",
         deviceSizes: [640, 750, 828, 1080, 1140, 1920]
     }
 };
