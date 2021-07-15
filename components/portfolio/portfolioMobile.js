@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import Image from 'next/image';
+
 import Link from "next/link";
 
 const CaptionSectionWrapper = styled.div`
@@ -73,7 +73,7 @@ export default class PortfolioMobile extends Component {
                     </header>
                     <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
                         <div className="porfolioImage">
-                            <Image alt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu" src={"/static/portfolio/hotel_mercure_kasprowy_zakopane.jpg"} width={1140} height={760}  placeholder="blur" blurDataURL="/static/portfolio/hotel_mercure_kasprowy_zakopane.jpg"/>
+                            <img alt="wesele w zakopanem, hotel mercury kasprowy, zespół ich troje na weselu" src={"/static/portfolio/hotel_mercure_kasprowy_zakopane.jpg"} width={1140} height={760}  />
                         </div>
                     </Link>
                     <Link href="/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje">
@@ -87,7 +87,7 @@ export default class PortfolioMobile extends Component {
                     <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
                         <div className="porfolioImage">
                             
-                                <Image alt="fotograf ślubny Kraków" src={"/static/portfolio/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg"} width={1140} height={760} placeholder="blur" blurDataURL="/static/portfolio/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg"/>
+                                <img alt="fotograf ślubny Kraków" src={"/static/portfolio/bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg"} width={1140} height={760} />
                             
                         </div>
                     </Link>
@@ -101,7 +101,7 @@ export default class PortfolioMobile extends Component {
                     </Link>
                     <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
                         <div className="porfolioImage">
-                            <Image alt="sesja zdjęciowa pałac goetzów brzesko" src={"/static/portfolio/plener_slubny_palac_goetzow_brzesko.jpg"} width={1140} height={760} placeholder="blur" blurDataURL="/static/portfolio/plener_slubny_palac_goetzow_brzesko.jpg"/>
+                            <img alt="sesja zdjęciowa pałac goetzów brzesko" src={"/static/portfolio/plener_slubny_palac_goetzow_brzesko.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
@@ -114,7 +114,7 @@ export default class PortfolioMobile extends Component {
                     </Link>
                     <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
                         <div className="porfolioImage">
-                            <Image alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio/dworek_fantazja_skomielna_biala_fotograf.jpg"} width={1140} height={760} placeholder="blur" blurDataURL="/static/portfolio/dworek_fantazja_skomielna_biala_fotograf.jpg"/>
+                            <img alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio/dworek_fantazja_skomielna_biala_fotograf.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
@@ -127,7 +127,7 @@ export default class PortfolioMobile extends Component {
                     </Link>
                     <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
                         <div className="porfolioImage">
-                            <Image alt="sesja zdjęciowa w górach" src={"/static/portfolio/plener_slubny_slowacja.jpg"} width={1140} height={760} placeholder="blur" blurDataURL="/static/portfolio/plener_slubny_slowacja.jpg"/>
+                            <img alt="sesja zdjęciowa w górach" src={"/static/portfolio/plener_slubny_slowacja.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso">
@@ -140,7 +140,7 @@ export default class PortfolioMobile extends Component {
                     </Link>
                     <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
                         <div className="porfolioImage">
-                            <Image alt="wesele międzynarodowe kraków" src={"/static/portfolio/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} width={1140} height={760} placeholder="blur" blurDataURL="/static/portfolio/sala_weselna_biala_wilczyca_kocmyrzow.jpg" />
+                            <img alt="wesele międzynarodowe kraków" src={"/static/portfolio/sala_weselna_biala_wilczyca_kocmyrzow.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne">
@@ -153,7 +153,7 @@ export default class PortfolioMobile extends Component {
                     </Link>
                     <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
                         <div className="porfolioImage">
-                            <Image alt="fotograf na wesele kraków" src={"/static/portfolio/ogrod_botaniczny.jpg"} width={1140} height={760} placeholder="blur" blurDataURL="/static/portfolio/ogrod_botaniczny.jpg" />
+                            <img alt="fotograf na wesele kraków" src={"/static/portfolio/ogrod_botaniczny.jpg"} width={1140} height={760} />
                             </div>
                     </Link>
                     <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
@@ -166,7 +166,7 @@ export default class PortfolioMobile extends Component {
                     </Link>
                     <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
                         <div className="porfolioImage">
-                            <Image alt="wesele w góralskim klimacie" src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} width={1140} height={760} placeholder="blur" blurDataURL="/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg" />
+                            <img alt="wesele w góralskim klimacie" src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} width={1140} height={760} />
                             </div>
                     </Link>
                     <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
@@ -179,7 +179,7 @@ export default class PortfolioMobile extends Component {
                     </Link>
                     <Link href="/plener-slubny-na-rynku-w-krakowie">
                         <div className="porfolioImage">
-                            <Image alt="Plener ślubny na Rynku w Krakowie" src={"/static/portfolio/plener_0002.jpg"} width={1140} height={760} placeholder="blur" blurDataURL="/static/portfolio/plener_0002.jpg"/>
+                            <img alt="Plener ślubny na Rynku w Krakowie" src={"/static/portfolio/plener_0002.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/plener-slubny-na-rynku-w-krakowie">
@@ -191,7 +191,7 @@ export default class PortfolioMobile extends Component {
                     </Link>
                     <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
                         <div className="porfolioImage">
-                            <Image alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio/sesja_narzeczenska_klasztor_w_tyncu.jpg"} width={1140} height={760} placeholder="blur" blurDataURL="/static/portfolio/sesja_narzeczenska_klasztor_w_tyncu.jpg"/>
+                            <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio/sesja_narzeczenska_klasztor_w_tyncu.jpg"} width={1140} height={760} />
                         </div>
                     </Link>
                     <Link href="/park-mogilany-i-moc-buziakow-skapanych-w-promieniach-slonca">
