@@ -1,14 +1,6 @@
 import React from "react";
 import Link from "next/link";
 
-import aws from 'aws-sdk';
-
-aws.config.update({
-    accessKeyId: process.env.accessKeyId,
-    secretAccessKey: process.env.secretAccessKey,
-    region:process.env.region
-});
-
 export default class ContactDesktop extends React.Component {
     constructor() {
         super();
