@@ -10,7 +10,7 @@ import ContactMobile from "../components/contact/contactMobile";
 import LeadDesktop from "../components/footer/leadDesktop";
 import LeadMobile from "../components/footer/leadMobile";
 import { isIOS } from "react-device-detect";
-
+import Image from 'next/image';
 
 const SectionWrapper = styled.div`
     margin: 0 auto;
@@ -158,7 +158,7 @@ const PostLink = ({ post, height }) => (
         <div>
             <Link as={`/${post.slug}`} href={`/${post.slug}`}>
                 <a href={`/${post.slug}`}>
-                    <img alt={`${getPostTitleWithNames(post)}`} src={getPostImage(post.content.rendered)} width={1140} height={762}/>
+                    <Image alt={`${getPostTitleWithNames(post)}`} src={getPostImage(post.content.rendered)} width={1140} height={762}/>
                 </a>
             </Link>
             <div className="entryContent" dangerouslySetInnerHTML={{ __html: getPostContent(post.content.rendered) }} />

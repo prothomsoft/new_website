@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Layout from "./layout";
 import styled from "styled-components";
-
 import Menu from "./menu/menu";
 import FontFaceObserver from "fontfaceobserver";
 import Loader from "./loader";
@@ -11,6 +10,7 @@ import ContactMobile from "./contact/contactMobile";
 import LeadDesktop from "./footer/leadDesktop";
 import LeadMobile from "./footer/leadMobile";
 import { isIOS } from "react-device-detect";
+import Image from 'next/image';
 
 const SectionWrapper = styled.div`
     margin: 0 auto;
@@ -122,7 +122,7 @@ export default class ClientList extends React.Component {
                             </h1>
                             <Link as={`/${post.slug}`} href={`/${post.slug}`}>
                                 <a href={`https://sk.99foto.pl/login/${post.welcomeURL}`} target="_blank" rel="nofollow">
-                                    <img alt={`${title(post)}`} src={`/static/client/${post.welcomeURL}.jpg`} width={1140} height={951} />
+                                    <Image alt={`${title(post)}`} src={`/static/client/${post.welcomeURL}.jpg`} width={1140} height={951} />
                                 </a>
                             </Link>
                         </div>

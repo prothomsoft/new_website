@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from 'next/image';
 
 
 export default class HistoriaDesktop extends React.Component {
@@ -19,22 +20,22 @@ export default class HistoriaDesktop extends React.Component {
                         <div className="column left">
                             <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
                                 <div className="porfolioImage">
-                                    <img alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} width={336} height={225} />
+                                    <Image alt="sesja zdjęciowa w Krakowie" src={"/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg"} width={336} height={225} />
                                 </div>
                             </Link>
                             <Link href="/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja">
                                 <div className="porfolioImage">
-                                    <img alt="Plener ślubny na Rynku w Krakowie" src={"/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg"} width={336} height={225} />
+                                    <Image alt="Plener ślubny na Rynku w Krakowie" src={"/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg"} width={336} height={225} />
                                 </div>
                             </Link>
                             <Link href="/sesja-narzeczenska-krakow">
                                 <div className="porfolioImage">
-                                    <img alt="wesele w góralskim klimacie" src={"/static/portfolio/sesja_narzeczenska_krakow_portfolio.jpg"} width={336} height={225} />
+                                    <Image alt="wesele w góralskim klimacie" src={"/static/portfolio/sesja_narzeczenska_krakow_portfolio.jpg"} width={336} height={225} />
                                 </div>
                             </Link>
                             <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
                                 <div className="porfolioImage">
-                                    <img alt="fotograf na wesele kraków" src={"/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} width={336} height={225} />
+                                    <Image alt="fotograf na wesele kraków" src={"/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg"} width={336} height={225} />
                                 </div>
                             </Link>
                         </div>
@@ -125,17 +126,17 @@ export default class HistoriaDesktop extends React.Component {
                         <div className="column left">
                             <Link href="/wakacyjny-test-obiektywu-sigma-50-1-4-art">
                                 <div className="porfolioImage">
-                                    <img alt="wesele międzynarodowe kraków" src={"/static/portfolio/tomek_prokop_fotograf_krakow_misja_2_page.jpg"} width={336} height={225} />
+                                    <Image alt="wesele międzynarodowe kraków" src={"/static/portfolio/tomek_prokop_fotograf_krakow_misja_2_page.jpg"} width={336} height={225} />
                                 </div>
                             </Link>
                             <Link href="/michas-i-martusia-wakacje-wroclaw-i-kudowa-zdroj">
                                 <div className="porfolioImage">
-                                    <img alt="sesja zdjęciowa w górach" src={"/static/portfolio/tomek_prokop_fotograf_krakow_misja_1_page.jpg"} width={336} height={225} />
+                                    <Image alt="sesja zdjęciowa w górach" src={"/static/portfolio/tomek_prokop_fotograf_krakow_misja_1_page.jpg"} width={336} height={225} />
                                 </div>
                             </Link>
                             <Link href="/ulubione-wakacyjne-kadry">
                                 <div className="porfolioImage">
-                                    <img alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio/tomek_prokop_fotograf_krakow_misja_3_page.jpg"} width={336} height={225} />
+                                    <Image alt="dekoracja sali w stylu rustykalnym" src={"/static/portfolio/tomek_prokop_fotograf_krakow_misja_3_page.jpg"} width={336} height={225} />
                                 </div>
                             </Link>
                         </div>
