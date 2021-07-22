@@ -94,7 +94,7 @@ export default class SlubMobile extends React.Component {
                         szturchał Cię bez słowa przepraszam, to tutaj takiej osoby nie znajdziesz. Tomek, to ciepły człowiek o wielkim sercu do swojej pasji. Zrobi wszystko, żeby zachować Twoje
                         najpiękniejsze chwile w życiu! <Link href="/paulina-i-bartek-sesja-poslubna-kasprowy-wierch-i-nosal-zakopane">Paulina i Bartek</Link>.
                     </p>
-                    <Image alt="wesele w górskim klimacie" src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} width={1140} height={760} />
+                    <Image alt="wesele w stylu boho i rustykalnym" src={"/static/portfolio/dworzyszcze_wola_reportaz_slubny_pod_krakowem.jpg"} width={1140} height={760} />
                     <p>
                         Tak jak już wiele osób pisało – Tomek to profesjonalista w każdym calu! W niesamowity sposób uwiecznia na zdjęciach najważniejsze chwile – pełne wzruszeń, pozytywnych emocji i
                         radości. Wtapia się w gości, dzięki czemu zdjęcia są mega naturalne. Stwarza genialną atmosferę, jest przesympatyczny i ciągle uśmiechnięty – praca z Nim to sama przyjemność! A

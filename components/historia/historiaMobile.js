@@ -108,16 +108,16 @@ export default class HistoriaMobile extends React.Component {
                             </h4>
                         </div>
                     </Link>
-                    <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
+                    <Link href="/wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow">
                         <div className="porfolioImage">
-                            <Image alt="wesele w góralskim klimacie" src={"/static/portfolio/wesele_w_goralskim_klimacie_willa_orchidea_waksmund_portfolio.jpg"} width={1140} height={760}  />
+                            <Image alt="wesele w stylu boho i rustykalnym" src={"/static/portfolio/dworzyszcze_wola_reportaz_slubny_pod_krakowem.jpg"} width={1140} height={760}  />
                             </div>
                     </Link>
-                    <Link href="/sala-weselna-willa-orchidea-waksmund-slub-w-pieninach">
+                    <Link href="/wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow">
                         <div className="porfolioCaption">
                             <p>
-                                WESELE W GÓRALSKIM KLIMACIE
-                                <br /> NATALIA i KAMIL
+                                WESELE W STYLU BOHO I RUSTYKALNYM
+                                <br /> SYLWIA i MICHAŁ
                             </p>
                         </div>
                     </Link>
