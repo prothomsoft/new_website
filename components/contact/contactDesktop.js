@@ -178,7 +178,7 @@ export default class ContactDesktop extends React.Component {
                             <div className="square">
                             <a target="_blank" href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny,35325/" rel="nofollow">
                                     <div className="float_right">
-                                        <Image alt="wesele z klasą" src={"/static/icons/wesele_z_klasa.jpg"} width={43} height={43} />
+                                        <img alt="wesele z klasą" src={"/static/icons/wesele_z_klasa.jpg"} width={43} height={43} />
                                     </div>
                                 </a>
                             
@@ -187,21 +187,21 @@ export default class ContactDesktop extends React.Component {
                             <div className="square">
                             <a target="_blank" href="https://www.instagram.com/99foto.pl" rel="nofollow">
                                     <div className="float_right">
-                                        <Image alt="profil na instagramie" src={"/static/icons/instagram_icon.jpg"} width={43} height={43}  />
+                                        <img alt="profil na instagramie" src={"/static/icons/instagram_icon.jpg"} width={43} height={43}  />
                                     </div>
                                 </a>
                             </div>
                             <div className="square">
                             <a target="_blank" href="https://facebook.com/99foto" rel="nofollow">
                                     <div className="float_right">
-                                        <Image alt="profil na facebook" src={"/static/icons/facebook_icon.jpg"} width={43} height={43} />
+                                        <img alt="profil na facebook" src={"/static/icons/facebook_icon.jpg"} width={43} height={43} />
                                     </div>
                                 </a>
                             </div>
                             <div className="square_space">
                                 <a target="_blank" href="https://www.slubnaglowie.pl/katalog/firma/tomasz-prokop_6663" rel="nofollow">
                                     <div className="float_right">
-                                        <Image alt="slub na głowie" src={"/static/icons/slub_na_glowie.jpg"} width={43} height={43} />                                        
+                                        <img alt="slub na głowie" src={"/static/icons/slub_na_glowie.jpg"} width={43} height={43} />                                        
                                     </div>
                                 </a>
                             </div>
