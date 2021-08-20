@@ -48,14 +48,16 @@ export default class OfferDesktop extends React.Component {
                     </p>
                     <Image alt="Autentyczne emocje w fotografii ślubnej" src={"/static/portfolio/portret_panny_mlodej.jpg"} width={1140} height={760}/>
                     <p>
-                        Serdecznie zapraszam do odwiedzenia{" "}
+                    Ślub to najpiękniejszy i najszczęśliwszy dzień w Waszym życiu, a moim zadaniem jest zatrzymać w kadrze coś niesamowitego czyli Waszą miłość. Dlatego właśnie fotografia ślubna stała się moją pasją i drogą przez życie. Autentyczne emocje to znajdziecie oglądając moje reportaże ślubne. Staram się, abyście po latach, wertując zdjęcia w albumie ślubnym mogli odnaleźć Wasze emocje i wrócić do niesamowitych chwil dnia Waszego ślubu.
+                    </p>
+                    <Image alt="Zdjęcia pełne kolorów i autentycznych emocji" src={"/static/portfolio/portfolio_0021.jpg"} width={1140} height={760}/>
+                    <p>Serdecznie zapraszam do odwiedzenia{" "}
                         <Link href="/blog">
                             <a>mojego bloga</a>
                         </Link>{" "}
                         i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Oglądając moje prace sami ocenicie czy moja definicja stylu w
-                        fotografii ślubnej będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.
-                    </p>
-                    <Image alt="Zdjęcia pełne kolorów i autentycznych emocji" src={"/static/portfolio/portfolio_0021.jpg"} width={1140} height={760}/>
+                        fotografii ślubnej będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.</p>
+                    <Image alt="fotografia ślubna, Wasza miłość zatrzymana na zdjęciach" src={"/static/portfolio/portfolio_2021_2.jpg"} width={1140} height={760}/>
                 </article>
 
                 <article>

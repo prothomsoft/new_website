@@ -128,6 +128,10 @@ export default class OfferDesktop extends React.Component {
                     </p>
                     <Image alt="sesja zdjęciowa na łódkach szczyrbskie jezioro" src={"/static/portfolio/sesja_zdjeciowa_szczyrbskie.jpg"} width={1140} height={525} />
                     <p>
+                    Tomku póki co Ryśka nie ma w domu i nie widział zdjęć a ja rano przez chwilę tylko miałam dostęp do internetu ale zdjęcia są SUPER. Nie wiem czy wszycy tak reagują ale mnie bardzo wzruszyły te zdjęcia i przeniosły do tego pamiętnego dnia... Mają niesamowitą magię... Patrycja i Ryszard.
+                    </p>
+                    <Image alt="sesja zdjęciowa w pieninach wysoki wierch" src={"/static/portfolio/portfolio_2021_1.jpg"} width={1140} height={760} />
+                    <p>
                         Otwarty, profesjonalny i cierpliwy, polecamy Tomka każdemu! Zdjęcia które wykonuje są piękne i klimatyczne, współprace z nim będziemy bardzo miło wspominać.{" "}
                         <Link href="/sala-bankietowa-triana-mogilany-reportaz-slubny-podstolice">Paulina i Paweł</Link>.
                     </p>
