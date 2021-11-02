@@ -11,11 +11,11 @@ const SesjaPageComponent = () => {
         title={"ŚLUBNA SESJA ZDJĘCIOWA W KRAKOWIE - KRISTINA i ALEKSANDR"}
         date={"19 WRZEŚNIA 2018"}
         tags={"ŚLUBNA SESJA ZDJĘCIOWA W KRAKOWIE"}
-        backgroundImage={"url(" + process.env.staticImagesPath + "plener_slubny_zamek_pieskowa_skala.jpg)"}
-        leadNames={"KRISTINA i ALEKSANDR"}
+        backgroundImage={"url(" + process.env.staticImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.jpg)"}
+        leadNames={"WIKTORIA i KONRAD"}
         leadTitle={"SESJA ŚLUBNA, PLENER ŚLUBNY W KRAKOWIE"}
-        leadUrl={"/sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew"}
-        leadImage={"url(" + process.env.staticImagesPath + "plener_slubny_zamek_pieskowa_skala.jpg)"}
+        leadUrl={"/brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"}
+        leadImage={"url(" + process.env.staticImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.jpg)"}
     />
   }
 

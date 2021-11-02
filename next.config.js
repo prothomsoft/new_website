@@ -10,6 +10,8 @@ module.exports = {
             "/reportaze-slubne-sesje-plenerowe": { page: "/reportaze-slubne-sesje-plenerowe" },
             "/strefa-klienta": { page: "/strefa-klienta" },
             "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },
+            
+            "/wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca": { page: "/wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca" },   
             "/brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska": { page: "/brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska" },    
             "/summer-party-cornerstone-2021": { page: "/summer-party-cornerstone-2021" },                    
             "/fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny": { page: "/fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny" },     
