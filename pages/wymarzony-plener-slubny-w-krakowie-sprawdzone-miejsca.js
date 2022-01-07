@@ -68,7 +68,7 @@ export default class BlogPageComponent extends React.Component {
                         'Dodajmy jeszcze brak opłat za wykonywanie zdjęć i mamy miejscówkę idealną. Gdyby zabrakło nam pomysłów na kadry w tym miejscu to zawsze w dwadzieścia minut możemy podjechać do Opactwa Benedyktynów w Tyńcu. Mamy tam do dyspozycji, aż trzy możliwości. Pierwsza to skałki, położone za Opactwem i teren bezpośrednio przy Wiśle, w której często pojawiają się mroczne mgły, w godzinach porannych oczywiście. Drugie miejsce to dziedziniec Opactwa Benedyktynów w Tyńcu, gdzie można wymyślić kilka ciekawych kadrów. Trzecia możliwość wymagająca umówienia się z braćmi to Ogrody Tynieckie znajdujące się za bramami Opactwa (byłem, widziałem, warto wejść). Ania była zdecydowana na sesję plenerową w Dworze w Mogilanach, dołożyliśmy do tego zachód słońca w Opactwie Benedyktynów w Tyńcu i zdjęcia z naszej sesji zdjęciowej możecie zobaczyć na blogu. Zapraszam do lajkowania, udostępniania i na zdjęcia poniżej z których jestem wyjątkowo zadowolony. Życzę miłego oglądania i już niedługo sezon ślubny się kończy więc na blogu pojawi się więcej zdjęć z wakacyjnych reportaży ślubnych.'
                     }
                     slug={"wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca"}
-                    title={"WYMARZONY PLENER ŚLUBNY W KRAKOWIE, SPRAWDZONE MIEJSCA  - ANNA i TOMASZ"}
+                    title={"WYMARZONY PLENER ŚLUBNY W KRAKOWIE, SPRAWDZONE MIEJSCA - ANNA i TOMASZ"}
                     tags={"plener ślubny w Krakowie, Park Mogilany, Opactwo Benedyktynów Tyniec, sprawdzone miejsce plenerowe"}
                     date={"02 listopada 2021"}
                     menuNames={"ANNA I TOMASZ"}

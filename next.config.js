@@ -9,8 +9,8 @@ module.exports = {
             "/misja-i-faq": { page: "/misja-i-faq" },
             "/reportaze-slubne-sesje-plenerowe": { page: "/reportaze-slubne-sesje-plenerowe" },
             "/strefa-klienta": { page: "/strefa-klienta" },
-            "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },
-            
+            "/polityka-prywatnosci-rodo": { page: "/polityka-prywatnosci-rodo" },            
+            "/sylwestrowy-slub-sala-bankietowa-impresja-jordanow": { page: "/sylwestrowy-slub-sala-bankietowa-impresja-jordanow" },   
             "/wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca": { page: "/wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca" },   
             "/brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska": { page: "/brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska" },    
             "/summer-party-cornerstone-2021": { page: "/summer-party-cornerstone-2021" },                    
