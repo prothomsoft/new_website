@@ -113,7 +113,7 @@ export default class BlogPageComponent extends React.Component {
             { imageSrc: "/static/blog/2022/01/fotograf_slubny_jordanow_0105.jpg", height: 762 },
             { imageSrc: "/static/blog/2022/01/fotograf_slubny_jordanow_0106.jpg", height: 382 },
             { imageSrc: "/static/blog/2022/01/fotograf_slubny_jordanow_0107.jpg", height: 762 },
-            { imageSrc: "/static/blog/2022/01/fotograf_slubny_jordanow_0108.jpg", height: 851 },
+            { imageSrc: "/static/blog/2022/01/fotograf_slubny_jordanow_0194.jpg", height: 852 },
             { imageSrc: "/static/blog/2022/01/fotograf_slubny_jordanow_0097.jpg", height: 762 },
             { imageSrc: "/static/blog/2022/01/fotograf_slubny_jordanow_0109.jpg", height: 382 },
             { imageSrc: "/static/blog/2022/01/fotograf_slubny_jordanow_0110.jpg", height: 762 },
