@@ -19,7 +19,7 @@ export default class OfferMobile extends React.Component {
                     <p>sesję ślubną w wybranym dniu po ślubie</p>
                     <div className="spacer">&nbsp;</div>
                     <h2>OTRZYMUJECIE</h2>
-                    <p>fotoksiążkę - minimum 120 stron w twardej oprawie, format 30x30cm</p>
+                    <p>fotoksiążkę - minimum 140 stron w twardej oprawie, format 30x30cm</p>
                     <p>pendrive w etui - minimum 450 zdjęć poddanych starannej obróbce graficznej</p>
                     <p>dojazd w dniu ślubu GRATIS</p>
                     <p>internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem</p>
