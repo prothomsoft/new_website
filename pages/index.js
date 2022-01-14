@@ -21,9 +21,9 @@ const Index = () => {
             process.env.staticImagesPath + "fotograf_slubny_rabka_zdroj.jpg"
       ];
       
-      let headTitle = "Fotograf ślubny Kraków: Tomasz Prokop";
-      let headDescription = "Fotograf ślubny Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Album w cenie pakietu. Serdecznie zapraszam.";
-      let headKeywords = "fotograf ślubny Kraków, fotograf na wesele";
+      let headTitle = "Fotograf ślubny Kraków ✔️ Tomasz Prokop";
+      let headDescription = "Pełne emocji reportaże ślubne ❤️ piękne zdjęcia plenerowe. Kliknij ⬆️ sprawdź moje portfolio i zapoznaj się z ofertą. Serdecznie zapraszam. Fotograf ślubny Kraków.";
+      let headKeywords = "fotograf ślubny Kraków, fotograf na wesele, fotografia ślubna Kraków, zdjęcia plenerowe";
       let headUrl = "https://99foto.pl";
       
       

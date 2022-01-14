@@ -127,7 +127,7 @@ export default class Menu extends React.Component {
                         <div className={navClassName} style={{ background: `${background}` }}>
                             <div className="mtn-bar-wrap" style={{ background: `${background}` }}>
                                 <a className="mtn-mobile-logo" style={{ backgroundColor: `${background}` }} href="/">
-                                    <Image alt="fotograf ślubny kraków" src={logoMobileSrc} alt="fotograf ślubny kraków" style={{ width: "105px", height: "35px", visibility: `${logoVisibility}` }} width={105} height={35} />
+                                    <Image alt="fotograf ślubny kraków" src={logoMobileSrc} alt="fotograf ślubny kraków" width={105} height={35} />
                                 </a>
                                 <i onClick={this.showFixedMobileMenu} className="mtn-trigger">
                                     <i />
@@ -206,7 +206,7 @@ export default class Menu extends React.Component {
                                 <li>
                                     <Link href="/">
                                         <a>                                       
-                                            <Image alt="Fotograf ślubny Kraków" style={{ height: "140px", width: "100px", margin: "-15px 0px 0px 5px" }} src={logoSrc} width={100} height={140}/>
+                                            <Image alt="Fotograf ślubny Kraków" src={logoSrc} width={100} height={140}/>
                                         </a>
                                     </Link>
                                 </li>
@@ -411,7 +411,7 @@ export default class Menu extends React.Component {
                     .mtn-active-icon .mtn-trigger i:after {
                         -ms-transform: translateY(0) rotate(-45deg);
                         transform: translateY(0) rotate(-45deg);
-                    }
+                    }                   
                 `}</style>
             </div>
         );
