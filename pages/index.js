@@ -22,7 +22,7 @@ const Index = () => {
       ];
       
       let headTitle = "Fotograf ślubny Kraków ✔️ Tomasz Prokop";
-      let headDescription = "Pełne emocji reportaże ślubne ❤️ piękne zdjęcia plenerowe. Kliknij ⬆️ sprawdź moje portfolio i zapoznaj się z ofertą. Serdecznie zapraszam. Fotograf ślubny Kraków.";
+      let headDescription = "Kliknij ⬆️ sprawdź moje portfolio. Pełne emocji reportaże ślubne ❤️ piękne zdjęcia plenerowe. Serdecznie zapraszam. Fotograf ślubny Kraków.";
       let headKeywords = "fotograf ślubny Kraków, fotograf na wesele, fotografia ślubna Kraków, zdjęcia plenerowe";
       let headUrl = "https://99foto.pl";
       
