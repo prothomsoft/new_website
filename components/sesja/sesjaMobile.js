@@ -144,17 +144,22 @@ export default class SesjaMobile extends React.Component {
                     </p>
                     <Image alt="plener ślubny na Słowacji" src={"/static/portfolio/plener_slubny_slowacja.jpg"} width={1140} height={760} />
                     <p>
+                        Niesamowicie się cieszymy, że to właśnie Tomek "łapał chwile" na naszym ślubie! ❤️ Pasja i profesjonalizm widoczne są na każdym zdjęciu, i każde z nich można oprawić i powiesić na ścianie. Dodatkowo pozytywne nastawienie, serdeczność i uśmiech zdecydowanie ułatwiają przeżycie tego dnia bez dodatkowego stresu, ponieważ Tomek od pierwszej rozmowy sprawia wrażenie jakby znało się go długi, długi czas. Niesamowicie szybki czas realizacji, zdjęcia otrzymaliśmy dokładnie po 7 dniach. Polecam z całego serca, bardzo się cieszę że na siebie trafiliśmy i że to właśnie Tomek towarzyszył nam w tym ważnym dla nas dniu! jeszcze raz DZIĘKUJEMY! {" "}
+                        <Link href="/wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca">Patrycja i Grzegorz</Link>.
+                    </p>
+                    <Image alt="Plener ślubny na Kaprowym" src={"/static/portfolio/sesja_plenerowa_kasprowy.jpg"} width={1140} height={761} />
+                    <p>
                         Tomek jest świetnym fotografem. Każdy ważny moment jest uchwycony w magiczny sposób. Nie ma zdjęcia, które by sie powtarzało. Efekty mówią same za siebie, wystarczy tylko
                         popatrzeć na bloga. Atmosfera, która stwarza jest rewelacyjna. Gorąco polecam.{" "}
                         <Link href="/wesele-tarnow-dwor-bistuszowa-i-staropolski-klimat-slubny">Aleksandra i Przemek</Link>.
                     </p>
-                    <Image alt="atmosfera podczas pleneru ślubnego" src={"/static/portfolio/sesja_zdjeciowa_krakow_3_portfolio.jpg"} width={1140} height={760} />
+                    <Image alt="dobry fotograf ślubny kraków" src={"/static/portfolio/slubne_portfolio_3.jpg"} width={1140} height={527} />
                     <p>
                         Tomku, z całego serca dziękujemy za cudowne zdjęcia z naszego ślubu. Lepszych nie mogliśmy sobie wymarzyć. Jesteśmy totalnie oczarowani relacją, która dla nas stworzyłeś.
                         Idealnie uchwycone chwile, oryginalne i niebanalne kadry, naturalność, swoboda i spontaniczność – to wszystko składa się na naszą piękną historię, którą ujęcie po ujęciu możemy
                         przeżywać na nowo za każdym razem kiedy wracamy do Twoich zdjęć. <Link href="/plener-w-beskidach-sesja-slubna-w-beskidzie-slaskim">Magdalena i Jonasz</Link>.
                     </p>
-                    <Image alt="dobry fotograf ślubny kraków" src={"/static/portfolio/slubne_portfolio_3.jpg"} width={1140} height={527} />
+                    <Image alt="atmosfera podczas pleneru ślubnego" src={"/static/portfolio/sesja_zdjeciowa_krakow_3_portfolio.jpg"} width={1140} height={760} />
                     <p>
                         Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego
                         fotografa. Polecamy wszystkim! <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia">Aleksandra i Grzegorz</Link>.
